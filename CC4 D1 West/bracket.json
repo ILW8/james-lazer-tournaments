@@ -197,13 +197,29 @@
     {
       "ID": 3,
       "Team1Acronym": "FEU",
-      "Team1Score": null,
+      "Team1Score": 0,
       "Team2Acronym": "18C",
-      "Team2Score": null,
+      "Team2Score": 0,
       "Completed": false,
       "Losers": false,
-      "PicksBans": [],
-      "Current": false,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1776939
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4036151
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3775432
+        }
+      ],
+      "Current": true,
       "Date": "2023-07-23T22:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -242,12 +258,68 @@
     {
       "ID": 10,
       "Team1Acronym": "FEU",
-      "Team1Score": null,
+      "Team1Score": 4,
       "Team2Acronym": "BEL",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3021082
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1776939
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3186729
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3387202
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4108775
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3714679
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2918146
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3775432
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1964320
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2719439
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2324126
+        }
+      ],
       "Current": false,
       "Date": "2023-07-23T21:00:00+01:00",
       "ConditionalMatches": [],
@@ -435,14 +507,60 @@
     {
       "ID": 13,
       "Team1Acronym": "BWB",
-      "Team1Score": 0,
+      "Team1Score": 2,
       "Team2Acronym": "7 B",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
-      "Current": true,
-      "Date": "2023-07-23T19:00:00+00:00",
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2719439
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 118068
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3186729
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 687624
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3387202
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4036151
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3775432
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1776939
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1964320
+        }
+      ],
+      "Current": false,
+      "Date": "2023-07-23T20:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -579,
