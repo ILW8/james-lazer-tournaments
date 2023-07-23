@@ -339,54 +339,8 @@
       "Team2Score": 2,
       "Completed": true,
       "Losers": false,
-      "PicksBans": [
-        {
-          "Team": "Red",
-          "Type": "Ban",
-          "BeatmapID": 4108775
-        },
-        {
-          "Team": "Blue",
-          "Type": "Ban",
-          "BeatmapID": 4036151
-        },
-        {
-          "Team": "Blue",
-          "Type": "Pick",
-          "BeatmapID": 1964320
-        },
-        {
-          "Team": "Red",
-          "Type": "Pick",
-          "BeatmapID": 1776939
-        },
-        {
-          "Team": "Blue",
-          "Type": "Pick",
-          "BeatmapID": 687624
-        },
-        {
-          "Team": "Red",
-          "Type": "Pick",
-          "BeatmapID": 3387202
-        },
-        {
-          "Team": "Blue",
-          "Type": "Pick",
-          "BeatmapID": 3186729
-        },
-        {
-          "Team": "Red",
-          "Type": "Pick",
-          "BeatmapID": 1290650
-        },
-        {
-          "Team": "Blue",
-          "Type": "Pick",
-          "BeatmapID": 2918146
-        }
-      ],
-      "Current": true,
+      "PicksBans": [],
+      "Current": false,
       "Date": "2023-07-22T12:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -402,13 +356,13 @@
     {
       "ID": 11,
       "Team1Acronym": "DIO",
-      "Team1Score": null,
-      "Team2Acronym": "LOL",
-      "Team2Score": null,
+      "Team1Score": 0,
+      "Team2Acronym": "234",
+      "Team2Score": 0,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2023-07-23T14:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -417,14 +371,14 @@
       },
       "Acronyms": [
         "DIO",
-        "LOL"
+        "234"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 13,
-      "Team1Acronym": "LOL",
+      "Team1Acronym": "234",
       "Team1Score": 4,
       "Team2Acronym": "STE",
       "Team2Score": 5,
@@ -439,7 +393,7 @@
         "Y": 846
       },
       "Acronyms": [
-        "LOL",
+        "234",
         "STE"
       ],
       "WinnerColour": "Blue",
@@ -472,7 +426,7 @@
       "ID": 15,
       "Team1Acronym": "GRI",
       "Team1Score": 4,
-      "Team2Acronym": "LOL",
+      "Team2Acronym": "234",
       "Team2Score": 5,
       "Completed": true,
       "Losers": false,
@@ -486,7 +440,7 @@
       },
       "Acronyms": [
         "GRI",
-        "LOL"
+        "234"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 5
@@ -1507,9 +1461,9 @@
       ]
     },
     {
-      "FullName": "lolol235",
+      "FullName": "Team lolol234",
       "FlagName": "CN",
-      "Acronym": "LOL",
+      "Acronym": "234",
       "SeedingResults": [],
       "Seed": "",
       "LastYearPlacing": 1,
