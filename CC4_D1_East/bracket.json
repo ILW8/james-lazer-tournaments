@@ -265,9 +265,9 @@
     {
       "ID": 2,
       "Team1Acronym": "SEE",
-      "Team1Score": null,
+      "Team1Score": 0,
       "Team2Acronym": "DRK",
-      "Team2Score": null,
+      "Team2Score": 0,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
@@ -356,12 +356,63 @@
     {
       "ID": 11,
       "Team1Acronym": "DIO",
-      "Team1Score": 0,
+      "Team1Score": 3,
       "Team2Acronym": "234",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4108775
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 687624
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3186729
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4036151
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1964320
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1776939
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2918146
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3775432
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 118068
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3714679
+        }
+      ],
       "Current": true,
       "Date": "2023-07-23T14:00:00+01:00",
       "ConditionalMatches": [],
