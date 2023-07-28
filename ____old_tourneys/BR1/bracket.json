@@ -1,0 +1,1488 @@
+{
+  "Ruleset": {
+    "ShortName": "osu",
+    "Name": "osu!",
+    "InstantiationInfo": "osu.Game.Rulesets.Osu.OsuRuleset, osu.Game.Rulesets.Osu",
+    "Available": true
+  },
+  "Matches": [
+    {
+      "ID": 1,
+      "Team1Acronym": "the lad",
+      "Team1Score": 0,
+      "Team2Acronym": "mr ekk",
+      "Team2Score": 0,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": true,
+      "Date": "2022-07-08T19:00:00-07:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 446,
+        "Y": 385
+      },
+      "Acronyms": [
+        "the lad",
+        "mr ekk"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 7
+    }
+  ],
+  "Rounds": [
+    {
+      "Name": "BATTLE ROYALE 1",
+      "Description": "",
+      "BestOf": 7,
+      "Beatmaps": [
+        {
+          "ID": 1169701,
+          "BeatmapInfo": {
+            "OnlineID": 1169701,
+            "DifficultyName": "Together",
+            "BPM": 218.0,
+            "Length": 254000.0,
+            "StarRating": 6.71,
+            "Metadata": {
+              "Title": "Chiisana Koi no Uta",
+              "title_unicode": "小さな恋のうた",
+              "Artist": "Amatsuki",
+              "artist_unicode": "天月",
+              "Author": {
+                "OnlineID": 6341262,
+                "Username": "Logic Agent"
+              },
+              "Source": "",
+              "tags": "mongol800 utaite male vocal battle thzz happyrocket88 みっ君 song of a small love",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.3,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/534788/covers/cover@2x.jpg?1650646193",
+              "card@2x": "https://assets.ppy.sh/beatmaps/534788/covers/card@2x.jpg?1650646193",
+              "list@2x": "https://assets.ppy.sh/beatmaps/534788/covers/list@2x.jpg?1650646193"
+            }
+          }
+        },
+        {
+          "ID": 1997892,
+          "BeatmapInfo": {
+            "OnlineID": 1997892,
+            "DifficultyName": "Nephilim",
+            "BPM": 190.0,
+            "Length": 327000.0,
+            "StarRating": 7.5,
+            "Metadata": {
+              "Title": "Master Of Peace",
+              "title_unicode": "Master Of Peace",
+              "Artist": "Rhapsody Of Fire",
+              "artist_unicode": "Rhapsody Of Fire",
+              "Author": {
+                "OnlineID": 10510791,
+                "Username": "Chanci"
+              },
+              "Source": "",
+              "tags": "the eighth mountain symphonic power metal neoclassical english marathon itswinter silence player raiden",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/956155/covers/cover@2x.jpg?1650699572",
+              "card@2x": "https://assets.ppy.sh/beatmaps/956155/covers/card@2x.jpg?1650699572",
+              "list@2x": "https://assets.ppy.sh/beatmaps/956155/covers/list@2x.jpg?1650699572"
+            }
+          }
+        },
+        {
+          "ID": 3333703,
+          "BeatmapInfo": {
+            "OnlineID": 3333703,
+            "DifficultyName": "Halgoh x Sharu",
+            "BPM": 180.0,
+            "Length": 140000.0,
+            "StarRating": 7.04,
+            "Metadata": {
+              "Title": "ILLEGAL LEGACY",
+              "title_unicode": "ILLEGAL LEGACY",
+              "Artist": "seatrus",
+              "artist_unicode": "seatrus",
+              "Author": {
+                "OnlineID": 4109923,
+                "Username": "Halgoh"
+              },
+              "Source": "",
+              "tags": "owc2021gfnm4",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.6,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.6,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1633224/covers/cover@2x.jpg?1639980055",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1633224/covers/card@2x.jpg?1639980055",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1633224/covers/list@2x.jpg?1639980055"
+            }
+          }
+        },
+        {
+          "ID": 3382326,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 3382326,
+            "DifficultyName": "iei",
+            "BPM": 190.0,
+            "Length": 185000.0,
+            "StarRating": 6.84,
+            "Metadata": {
+              "Title": "nu ma",
+              "title_unicode": "nu ma",
+              "Artist": "nu ma",
+              "artist_unicode": "nu ma",
+              "Author": {
+                "OnlineID": 10840806,
+                "Username": "Seamob"
+              },
+              "Source": "",
+              "tags": "",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.2,
+              "CircleSize": 3.8,
+              "OverallDifficulty": 9.4,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1657104/covers/cover@2x.jpg?1642669223",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1657104/covers/card@2x.jpg?1642669223",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1657104/covers/list@2x.jpg?1642669223"
+            }
+          }
+        },
+        {
+          "ID": 1090928,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 1090928,
+            "DifficultyName": "Extreme",
+            "BPM": 195.0,
+            "Length": 181000.0,
+            "StarRating": 6.65,
+            "Metadata": {
+              "Title": "Smash Out!!",
+              "title_unicode": "Smash Out!!",
+              "Artist": "MY FIRST STORY",
+              "artist_unicode": "MY FIRST STORY",
+              "Author": {
+                "OnlineID": 4715762,
+                "Username": "FCL"
+              },
+              "Source": "",
+              "tags": "antithese emo rock alternative post-hardcore slayed rmdy neilperry",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.5,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.8,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/478289/covers/cover@2x.jpg?1650643512",
+              "card@2x": "https://assets.ppy.sh/beatmaps/478289/covers/card@2x.jpg?1650643512",
+              "list@2x": "https://assets.ppy.sh/beatmaps/478289/covers/list@2x.jpg?1650643512"
+            }
+          }
+        },
+        {
+          "ID": 2061232,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 2061232,
+            "DifficultyName": "New Beginnings",
+            "BPM": 178.0,
+            "Length": 255000.0,
+            "StarRating": 5.07,
+            "Metadata": {
+              "Title": "Golden Journey",
+              "title_unicode": "ゴールデンジャーニー",
+              "Artist": "mer",
+              "artist_unicode": "メル",
+              "Author": {
+                "OnlineID": 4378277,
+                "Username": "Log Off Now"
+              },
+              "Source": "",
+              "tags": "mel hatsune miku 初音ミク flower おかず vocaloid japanese kyle73",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.2,
+              "CircleSize": 3.6,
+              "OverallDifficulty": 8.8,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/985162/covers/cover@2x.jpg?1650681771",
+              "card@2x": "https://assets.ppy.sh/beatmaps/985162/covers/card@2x.jpg?1650681771",
+              "list@2x": "https://assets.ppy.sh/beatmaps/985162/covers/list@2x.jpg?1650681771"
+            }
+          }
+        },
+        {
+          "ID": 3021296,
+          "Mods": "FM",
+          "BeatmapInfo": {
+            "OnlineID": 3021296,
+            "DifficultyName": "Our Paths Have Converged For This Final Moment",
+            "BPM": 240.0,
+            "Length": 369000.0,
+            "StarRating": 7.81,
+            "Metadata": {
+              "Title": "Lost My Way",
+              "title_unicode": "Lost My Way",
+              "Artist": "FELT",
+              "artist_unicode": "FELT",
+              "Author": {
+                "OnlineID": 4369309,
+                "Username": "Lunicia"
+              },
+              "Source": "東方Project",
+              "tags": "video game japanese english stage 4 theme vivienne renko maurits\"禅\"cornelis cold snap desire drive seiga kaku zen mzc felt-015 コミックマーケット87 comiket87 c87 shinreibyou touhou w.nova デザイアドライブ tohou",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1471755/covers/cover@2x.jpg?1624257054",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1471755/covers/card@2x.jpg?1624257054",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1471755/covers/list@2x.jpg?1624257054"
+            }
+          }
+        }
+      ],
+      "StartDate": "2022-07-08T14:00:00-07:00",
+      "Matches": []
+    },
+    {
+      "Name": "BATTLE ROYALE 2",
+      "Description": "",
+      "BestOf": 7,
+      "Beatmaps": [
+        {
+          "ID": 2103821,
+          "BeatmapInfo": {
+            "OnlineID": 2103821,
+            "DifficultyName": "Ascend Beyond the Heavens",
+            "BPM": 200.0,
+            "Length": 258000.0,
+            "StarRating": 6.92,
+            "Metadata": {
+              "Title": "My Days",
+              "title_unicode": "My Days",
+              "Artist": "Suzuki Konomi",
+              "artist_unicode": "鈴木このみ",
+              "Author": {
+                "OnlineID": 3935174,
+                "Username": "Naguri"
+              },
+              "Source": "永远的7日之都",
+              "tags": "",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.2,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.3,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1005224/covers/cover@2x.jpg?1632088812",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1005224/covers/card@2x.jpg?1632088812",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1005224/covers/list@2x.jpg?1632088812"
+            }
+          }
+        },
+        {
+          "ID": 2826730,
+          "BeatmapInfo": {
+            "OnlineID": 2826730,
+            "DifficultyName": "Extreme",
+            "BPM": 194.0,
+            "Length": 158000.0,
+            "StarRating": 6.59,
+            "Metadata": {
+              "Title": "Juvenile",
+              "title_unicode": "Juvenile",
+              "Artist": "technoplanet",
+              "artist_unicode": "technoplanet",
+              "Author": {
+                "OnlineID": 9320502,
+                "Username": "Astronic"
+              },
+              "Source": "Lanota",
+              "tags": "owc 2020 qualifier nm2 streams electronic piano artcore instrumental badgraph badgraph_",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.5,
+              "CircleSize": 4.1,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1280204/covers/cover@2x.jpg?1622199764",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1280204/covers/card@2x.jpg?1622199764",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1280204/covers/list@2x.jpg?1622199764"
+            }
+          }
+        },
+        {
+          "ID": 1487797,
+          "BeatmapInfo": {
+            "OnlineID": 1487797,
+            "DifficultyName": "Boxart Wongline: FOREVER",
+            "BPM": 160.0,
+            "Length": 217000.0,
+            "StarRating": 7.5,
+            "Metadata": {
+              "Title": "CANDYYYLAND feat LIZ - Pa's Lam System Remix",
+              "title_unicode": "CAND¥¥¥LAND feat LIZ - Pa's Lam System Remix",
+              "Artist": "tofubeats",
+              "artist_unicode": "tofubeats",
+              "Author": {
+                "OnlineID": 3250792,
+                "Username": "ProfessionalBox"
+              },
+              "Source": "",
+              "tags": "future bass candyland candy land collab probox winber1 handsome sing toybot nathan sukinathan wolves fanzhen fanzhen0019 plaudible hobbes2 kibbleru -tochi",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 3.4,
+              "OverallDifficulty": 9.9,
+              "ApproachRate": 9.9,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/663519/covers/cover@2x.jpg?1512724802",
+              "card@2x": "https://assets.ppy.sh/beatmaps/663519/covers/card@2x.jpg?1512724802",
+              "list@2x": "https://assets.ppy.sh/beatmaps/663519/covers/list@2x.jpg?1512724802"
+            }
+          }
+        },
+        {
+          "ID": 3508372,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 3508372,
+            "DifficultyName": "BUTTERFLY",
+            "BPM": 170.0,
+            "Length": 87000.0,
+            "StarRating": 6.23,
+            "Metadata": {
+              "Title": "BUTTERFLY (UPSWING MIX)",
+              "title_unicode": "BUTTERFLY (UPSWING MIX)",
+              "Artist": "SMiLE.dk",
+              "artist_unicode": "SMiLE.dk",
+              "Author": {
+                "OnlineID": 7825971,
+                "Username": "Firiiu"
+              },
+              "Source": "Dance Dance Revolution 3rdMix",
+              "tags": "yokespai electronic english europop remix smile",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1716853/covers/cover@2x.jpg?1656912659",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1716853/covers/card@2x.jpg?1656912659",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1716853/covers/list@2x.jpg?1656912659"
+            }
+          }
+        },
+        {
+          "ID": 3359655,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 3359655,
+            "DifficultyName": "jubeat MASTER",
+            "BPM": 195.0,
+            "Length": 101000.0,
+            "StarRating": 6.9,
+            "Metadata": {
+              "Title": "Tengoku to Jigoku",
+              "title_unicode": "天国と地獄",
+              "Artist": "Mutsuhiko Izumi",
+              "artist_unicode": "Mutsuhiko Izumi",
+              "Author": {
+                "OnlineID": 16368505,
+                "Username": "Livermorium"
+              },
+              "Source": "jubeat",
+              "tags": "can-can jacques offenbach electronic instrumental 泉陸奥彦 video game ミライダガッキ futuretomtom ver.2 plus",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1642914/covers/cover@2x.jpg?1649043905",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1642914/covers/card@2x.jpg?1649043905",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1642914/covers/list@2x.jpg?1649043905"
+            }
+          }
+        },
+        {
+          "ID": 431147,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 431147,
+            "DifficultyName": "Collab",
+            "BPM": 176.0,
+            "Length": 353000.0,
+            "StarRating": 4.93,
+            "Metadata": {
+              "Title": "Okaerinasai (tomatomerde Remix)",
+              "title_unicode": "おかえりなさい (tomatomerde Remix)",
+              "Artist": "Sakamoto Maaya",
+              "artist_unicode": "坂本真綾",
+              "Author": {
+                "OnlineID": 2155578,
+                "Username": "Azer"
+              },
+              "Source": "Tamayura ~hitotose~",
+              "tags": "tamayura&bass rlc those frostmourne 11t",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/179323/covers/cover@2x.jpg?1622074598",
+              "card@2x": "https://assets.ppy.sh/beatmaps/179323/covers/card@2x.jpg?1622074598",
+              "list@2x": "https://assets.ppy.sh/beatmaps/179323/covers/list@2x.jpg?1622074598"
+            }
+          }
+        },
+        {
+          "ID": 3508672,
+          "Mods": "FM",
+          "BeatmapInfo": {
+            "OnlineID": 3508672,
+            "DifficultyName": "Dream Continuum",
+            "BPM": 262.0,
+            "Length": 274000.0,
+            "StarRating": 7.65,
+            "Metadata": {
+              "Title": "Euclase",
+              "title_unicode": "Euclase",
+              "Artist": "TEARS OF TRAGEDY",
+              "artist_unicode": "TEARS OF TRAGEDY",
+              "Author": {
+                "OnlineID": 5410645,
+                "Username": "Icekalt"
+              },
+              "Source": "",
+              "tags": "app kite lmt vinxis kkipalt yaspo halfslashed corsace gf tb japanese rock continuation of the dream power symphonic metal walküre records",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1276395/covers/cover@2x.jpg?1647452525",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1276395/covers/card@2x.jpg?1647452525",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1276395/covers/list@2x.jpg?1647452525"
+            }
+          }
+        }
+      ],
+      "StartDate": "2022-07-08T15:00:00-07:00",
+      "Matches": []
+    },
+    {
+      "Name": "THE FINAL CIRCLE",
+      "Description": "",
+      "BestOf": 13,
+      "Beatmaps": [
+        {
+          "ID": 2692144,
+          "BeatmapInfo": {
+            "OnlineID": 2692144,
+            "DifficultyName": "Incandescence",
+            "BPM": 204.0,
+            "Length": 272000.0,
+            "StarRating": 8.08,
+            "Metadata": {
+              "Title": "My Sweet Maiden",
+              "title_unicode": "My Sweet Maiden",
+              "Artist": "Mia REGINA",
+              "artist_unicode": "Mia REGINA",
+              "Author": {
+                "OnlineID": 3552948,
+                "Username": "SkyFlame"
+              },
+              "Source": "sin 七つの大罪",
+              "tags": "nanatsu no taizai seven mortal deadly sins anime japanese jrock j-rock gothic full song version ver. miauseum -キュレーション- curation fuuri uebana 上花 楓裏 risuko sasakama ささかま リス子 waka kirishima 霧島 若歌 lantis laca-15833",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.2,
+              "CircleSize": 3.8,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1297762/covers/cover@2x.jpg?1635702090",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1297762/covers/card@2x.jpg?1635702090",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1297762/covers/list@2x.jpg?1635702090"
+            }
+          }
+        },
+        {
+          "ID": 2841428,
+          "BeatmapInfo": {
+            "OnlineID": 2841428,
+            "DifficultyName": "Sacred Divination",
+            "BPM": 212.0,
+            "Length": 272000.0,
+            "StarRating": 7.98,
+            "Metadata": {
+              "Title": "Longinus",
+              "title_unicode": "Longinus",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 4657414,
+                "Username": "wakaba"
+              },
+              "Source": "Deemo",
+              "tags": "c95 artcore deathstream rsi yup",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1374534/covers/cover@2x.jpg?1640425859",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1374534/covers/card@2x.jpg?1640425859",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1374534/covers/list@2x.jpg?1640425859"
+            }
+          }
+        },
+        {
+          "ID": 1785659,
+          "BeatmapInfo": {
+            "OnlineID": 1785659,
+            "DifficultyName": "Sakase",
+            "BPM": 176.0,
+            "Length": 190000.0,
+            "StarRating": 7.97,
+            "Metadata": {
+              "Title": "Suicide Parade",
+              "title_unicode": "スーサイドパレヱド",
+              "Artist": "YURRY CANON",
+              "artist_unicode": "ユリイ・カノン",
+              "Author": {
+                "OnlineID": 365586,
+                "Username": "kwk"
+              },
+              "Source": "",
+              "tags": "vocaloid megpoid gumi メグッポイド グミ neonat asaiga ailv aliv anvil doormat kardia",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/854503/covers/cover@2x.jpg?1650673283",
+              "card@2x": "https://assets.ppy.sh/beatmaps/854503/covers/card@2x.jpg?1650673283",
+              "list@2x": "https://assets.ppy.sh/beatmaps/854503/covers/list@2x.jpg?1650673283"
+            }
+          }
+        },
+        {
+          "ID": 2809623,
+          "BeatmapInfo": {
+            "OnlineID": 2809623,
+            "DifficultyName": "KEMOMIMI EDM SQUAD",
+            "BPM": 170.0,
+            "Length": 284000.0,
+            "StarRating": 7.59,
+            "Metadata": {
+              "Title": "true DJ MAG top ranker's song Zenpen (katagiri Remix)",
+              "title_unicode": "true DJ MAG top ranker's song 前編 (かたぎり Remix)",
+              "Artist": "sabi",
+              "artist_unicode": "sabi",
+              "Author": {
+                "OnlineID": 4785223,
+                "Username": "Nathan"
+              },
+              "Source": "",
+              "tags": "toybot vikala sukinathan sing senseabel tommy phelps tommy_phelps im_a_fancy_lad fancy lad captin1 acylica scubdomino [keqing] yorushika ヨルシカ n-buna だから僕は音楽を辞めた that's thats why i gave up on music dakara boku wa ongaku wo yameta electronic japanese instrumental 飯島ゆん kemomimi edm squad new game virtual riot alien pray for riddim chrono trigger wind must die! die onii-chan aire dodge fuski",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 2.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.3,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1357624/covers/cover@2x.jpg?1645786045",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1357624/covers/card@2x.jpg?1645786045",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1357624/covers/list@2x.jpg?1645786045"
+            }
+          }
+        },
+        {
+          "ID": 2530017,
+          "BeatmapInfo": {
+            "OnlineID": 2530017,
+            "DifficultyName": "Ultimate",
+            "BPM": 230.0,
+            "Length": 179000.0,
+            "StarRating": 7.51,
+            "Metadata": {
+              "Title": "THE WORLD REVOLVING",
+              "title_unicode": "THE WORLD REVOLVING",
+              "Artist": "BLANKFIELD",
+              "artist_unicode": "BLANKFIELD",
+              "Author": {
+                "OnlineID": 8157492,
+                "Username": "Hobbes2"
+              },
+              "Source": "Deltarune",
+              "tags": "undertale jevil boss vgm remix metal cover",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 3.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.3,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1215814/covers/cover@2x.jpg?1656569805",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1215814/covers/card@2x.jpg?1656569805",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1215814/covers/list@2x.jpg?1656569805"
+            }
+          }
+        },
+        {
+          "ID": 3400087,
+          "BeatmapInfo": {
+            "OnlineID": 3400087,
+            "DifficultyName": "Ultra",
+            "BPM": 156.0,
+            "Length": 139000.0,
+            "StarRating": 7.09,
+            "Metadata": {
+              "Title": "Mirage Garden",
+              "title_unicode": "Mirage Garden",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 4966334,
+                "Username": "DeviousPanda"
+              },
+              "Source": "THE BMS OF FIGHTERS 2009 - revolutionary battles -",
+              "tags": "bof2009 progressive fusion mpg mapper's guild parousia instrumental jazz fa featured artist down luscent knightc0re knightcore paradogi seolv lukas [_l_u_k_a_s_]",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.4,
+              "CircleSize": 4.6,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1663184/covers/cover@2x.jpg?1647115903",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1663184/covers/card@2x.jpg?1647115903",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1663184/covers/list@2x.jpg?1647115903"
+            }
+          }
+        },
+        {
+          "ID": 2621030,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 2621030,
+            "DifficultyName": "Prophecy",
+            "BPM": 230.0,
+            "Length": 233000.0,
+            "StarRating": 7.42,
+            "Metadata": {
+              "Title": "Kuusou Mesorogiwi",
+              "title_unicode": "空想メソロギヰ",
+              "Artist": "Yousei Teikoku",
+              "artist_unicode": "妖精帝國",
+              "Author": {
+                "OnlineID": 7715620,
+                "Username": "IsomirDiAngelo"
+              },
+              "Source": "未来日記",
+              "tags": "aistre alphabet venax mordred lasse shidoni uniform meiikyuu shirahane suou mirai nikki future diary fairy empire das feenreich gasai yuno yandere rock japanese anime opening 1 full version yui itsuki",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.6,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.3,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1260852/covers/cover@2x.jpg?1650707475",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1260852/covers/card@2x.jpg?1650707475",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1260852/covers/list@2x.jpg?1650707475"
+            }
+          }
+        },
+        {
+          "ID": 1714634,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 1714634,
+            "DifficultyName": "Jounzan's Special",
+            "BPM": 110.0,
+            "Length": 271000.0,
+            "StarRating": 6.73,
+            "Metadata": {
+              "Title": "Kami no Kotoba",
+              "title_unicode": "カミノコトバ",
+              "Artist": "Luschka",
+              "artist_unicode": "ルシュカ",
+              "Author": {
+                "OnlineID": 4674054,
+                "Username": "byfar"
+              },
+              "Source": "",
+              "tags": "jounzan evilelvis j1 j1_ toybot rue yuyoyuppe vocaloid utaite cover",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/817667/covers/cover@2x.jpg?1650667095",
+              "card@2x": "https://assets.ppy.sh/beatmaps/817667/covers/card@2x.jpg?1650667095",
+              "list@2x": "https://assets.ppy.sh/beatmaps/817667/covers/list@2x.jpg?1650667095"
+            }
+          }
+        },
+        {
+          "ID": 1040647,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 1040647,
+            "DifficultyName": "Axarious' EX EX",
+            "BPM": 180.0,
+            "Length": 114000.0,
+            "StarRating": 6.69,
+            "Metadata": {
+              "Title": "LOUDER MACHINE",
+              "title_unicode": "LOUDER MACHINE",
+              "Artist": "NOMA",
+              "artist_unicode": "ノマ",
+              "Author": {
+                "OnlineID": 873961,
+                "Username": "Skystar"
+              },
+              "Source": "",
+              "tags": "exile exile- amamiya yuko axarious byfar starrstyx haruto dynamix professionalbox asahina momoko m_o_k_o_r_i mokori rizia kawaiwkyik len fast captin1 sing toybot haruto_aizawa drumstep",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.4,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/483606/covers/cover@2x.jpg?1650643316",
+              "card@2x": "https://assets.ppy.sh/beatmaps/483606/covers/card@2x.jpg?1650643316",
+              "list@2x": "https://assets.ppy.sh/beatmaps/483606/covers/list@2x.jpg?1650643316"
+            }
+          }
+        },
+        {
+          "ID": 2721306,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 2721306,
+            "DifficultyName": "aishiteru",
+            "BPM": 130.0,
+            "Length": 272000.0,
+            "StarRating": 7.15,
+            "Metadata": {
+              "Title": "1/2",
+              "title_unicode": "1/2",
+              "Artist": "KanoeRana",
+              "artist_unicode": "カノエラナ",
+              "Author": {
+                "OnlineID": 6067390,
+                "Username": "Loli-Nico"
+              },
+              "Source": "るろうに剣心-明治剣客浪漫譚-",
+              "tags": "kanoe rana one half nagaraia anime pop japanese rurouni kenshin meiji swordsman",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1313122/covers/cover@2x.jpg?1637681977",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1313122/covers/card@2x.jpg?1637681977",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1313122/covers/list@2x.jpg?1637681977"
+            }
+          }
+        },
+        {
+          "ID": 1826476,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 1826476,
+            "DifficultyName": "Expert",
+            "BPM": 93.5,
+            "Length": 190000.0,
+            "StarRating": 6.1,
+            "Metadata": {
+              "Title": "Nice For What",
+              "title_unicode": "Nice For What",
+              "Artist": "Drake",
+              "artist_unicode": "Drake",
+              "Author": {
+                "OnlineID": 2523533,
+                "Username": "UndeadCapulet"
+              },
+              "Source": "",
+              "tags": "scorpion lauryn hill ex-factor showboys drag rap get your roll on big tymers aeril",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/873829/covers/cover@2x.jpg?1650673551",
+              "card@2x": "https://assets.ppy.sh/beatmaps/873829/covers/card@2x.jpg?1650673551",
+              "list@2x": "https://assets.ppy.sh/beatmaps/873829/covers/list@2x.jpg?1650673551"
+            }
+          }
+        },
+        {
+          "ID": 3271906,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 3271906,
+            "DifficultyName": ">NEKO#owo::Black_Market::CHAOS(15)",
+            "BPM": 105.0,
+            "Length": 148000.0,
+            "StarRating": 7.03,
+            "Metadata": {
+              "Title": "Blow My Mind (tpz Overheat Remix)",
+              "title_unicode": "Blow My Mind (tpz Overheat Remix)",
+              "Artist": "3R2",
+              "artist_unicode": "3R2",
+              "Author": {
+                "OnlineID": 10063190,
+                "Username": "Smug Nanachi"
+              },
+              "Source": "Cytus II",
+              "tags": "vnoc3 gf nm4",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.5,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1602202/covers/cover@2x.jpg?1636887670",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1602202/covers/card@2x.jpg?1636887670",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1602202/covers/list@2x.jpg?1636887670"
+            }
+          }
+        },
+        {
+          "ID": 774965,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 774965,
+            "DifficultyName": "Max Control!",
+            "BPM": 165.0,
+            "Length": 301000.0,
+            "StarRating": 5.69,
+            "Metadata": {
+              "Title": "Remote Control",
+              "title_unicode": "リモコン",
+              "Artist": "kradness&Reol",
+              "artist_unicode": "kradness＆れをる",
+              "Author": {
+                "OnlineID": 2732340,
+                "Username": "Taeyang"
+              },
+              "Source": "",
+              "tags": "jesus-p じーざすp giga official rimokon wonderful*opportunity kagamine rin len glider",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.5,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/351630/covers/cover@2x.jpg?1622092984",
+              "card@2x": "https://assets.ppy.sh/beatmaps/351630/covers/card@2x.jpg?1622092984",
+              "list@2x": "https://assets.ppy.sh/beatmaps/351630/covers/list@2x.jpg?1622092984"
+            }
+          }
+        },
+        {
+          "ID": 209576,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 209576,
+            "DifficultyName": "Another",
+            "BPM": 180.0,
+            "Length": 129000.0,
+            "StarRating": 5.4,
+            "Metadata": {
+              "Title": "End Time",
+              "title_unicode": "End Time",
+              "Artist": "Cres",
+              "artist_unicode": "Cres",
+              "Author": {
+                "OnlineID": 870584,
+                "Username": "Maddy"
+              },
+              "Source": "BMS",
+              "tags": "of fighters 2006 requiem trance philippines -kevincela- mr color",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/73474/covers/cover@2x.jpg?1633531544",
+              "card@2x": "https://assets.ppy.sh/beatmaps/73474/covers/card@2x.jpg?1633531544",
+              "list@2x": "https://assets.ppy.sh/beatmaps/73474/covers/list@2x.jpg?1633531544"
+            }
+          }
+        },
+        {
+          "ID": 3417460,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3417460,
+            "DifficultyName": "ENJOY!",
+            "BPM": 113.0,
+            "Length": 258000.0,
+            "StarRating": 4.9,
+            "Metadata": {
+              "Title": "Kokoro Odoru",
+              "title_unicode": "ココロオドル",
+              "Artist": "Happy Around!",
+              "artist_unicode": "Happy Around!",
+              "Author": {
+                "OnlineID": 831979,
+                "Username": "P_O"
+              },
+              "Source": "",
+              "tags": "electronic japanese nobodyknows+ heart dance sd ガンダムフォース superior defender gundam force d4dj groovy mix cover tracks vol.2 dig delight direct drive dj",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1673028/covers/cover@2x.jpg?1649676639",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1673028/covers/card@2x.jpg?1649676639",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1673028/covers/list@2x.jpg?1649676639"
+            }
+          }
+        },
+        {
+          "ID": 2415345,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 2415345,
+            "DifficultyName": "Pandize x Moko's INCURSION",
+            "BPM": 174.0,
+            "Length": 111000.0,
+            "StarRating": 5.4,
+            "Metadata": {
+              "Title": "BARRICADE (Cut Ver.)",
+              "title_unicode": "BARRICADE (Cut Ver.)",
+              "Artist": "REAPER",
+              "artist_unicode": "REAPER",
+              "Author": {
+                "OnlineID": 5490937,
+                "Username": "Pandize"
+              },
+              "Source": "",
+              "tags": "electronic monstercat edm instrumental dnb dance wub english jrszz moko garden stingy",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1157441/covers/cover@2x.jpg?1650694779",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1157441/covers/card@2x.jpg?1650694779",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1157441/covers/list@2x.jpg?1650694779"
+            }
+          }
+        },
+        {
+          "ID": 3326839,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 3326839,
+            "DifficultyName": "Ouroboros",
+            "BPM": 178.0,
+            "Length": 392000.0,
+            "StarRating": 7.81,
+            "Metadata": {
+              "Title": "Chihei o Kurau Hebi",
+              "title_unicode": "地平を喰らう蛇",
+              "Artist": "Revo",
+              "artist_unicode": "Revo",
+              "Author": {
+                "OnlineID": 9063995,
+                "Username": "Bazz B"
+              },
+              "Source": "Bravely Default",
+              "tags": "collab schoolboy komore mikan -mikan serpent eating the horizon ground flying fairy ブレイブリーデフォルト フライングフェアリー instrumental metal orchestra rock folk",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1629695/covers/cover@2x.jpg?1640397130",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1629695/covers/card@2x.jpg?1640397130",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1629695/covers/list@2x.jpg?1640397130"
+            }
+          }
+        },
+        {
+          "ID": 3128003,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 3128003,
+            "DifficultyName": "Ciyus Miapah vs. Nattu : Luna sycro-Dystopia",
+            "BPM": 180.0,
+            "Length": 440000.0,
+            "StarRating": 8.18,
+            "Metadata": {
+              "Title": "I'm Not Crazy",
+              "title_unicode": "I'm Not Crazy",
+              "Artist": "Ata",
+              "artist_unicode": "Ata",
+              "Author": {
+                "OnlineID": 2805457,
+                "Username": "Ciyus Miapah"
+              },
+              "Source": "",
+              "tags": "psytrance psychedelic trance not euphoria juggernaut 270bpm 180bpm deathstream technical stream fort you! nattu versus mapping lsd",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1529141/covers/cover@2x.jpg?1651860049",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1529141/covers/card@2x.jpg?1651860049",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1529141/covers/list@2x.jpg?1651860049"
+            }
+          }
+        },
+        {
+          "ID": 2169384,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 2169384,
+            "DifficultyName": "//ERROR:>C4m3LL14 R3m1X<",
+            "BPM": 242.0,
+            "Length": 360000.0,
+            "StarRating": 8.38,
+            "Metadata": {
+              "Title": "MEGALOVANIA (Camellia Remix)",
+              "title_unicode": "MEGALOVANIA (かめりあ Remix)",
+              "Artist": "toby fox",
+              "artist_unicode": "toby fox",
+              "Author": {
+                "OnlineID": 11540165,
+                "Username": "Blacky Design"
+              },
+              "Source": "UNDERTALE",
+              "tags": "speedcore hardcore high bpm electronic edm cametek tech wubstep moko fusionnqn oppinosu mitumitu_notend notabox hivie xahlt mister lorn colab collaboration",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 2.2,
+              "CircleSize": 3.8,
+              "OverallDifficulty": 8.2,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1037687/covers/cover@2x.jpg?1586005789",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1037687/covers/card@2x.jpg?1586005789",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1037687/covers/list@2x.jpg?1586005789"
+            }
+          }
+        }
+      ],
+      "StartDate": "2022-07-08T16:00:00-07:00",
+      "Matches": [
+        1
+      ]
+    }
+  ],
+  "Teams": [
+    {
+      "FullName": "Spades (part 1)",
+      "FlagName": "SP",
+      "Acronym": "Spades1",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 324.0,
+      "Players": [
+        {
+          "id": 7562902,
+          "Username": "sakamata1",
+          "Country": {
+            "name": "Australia",
+            "code": "AU"
+          },
+          "Rank": 1,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c8.jpg"
+        },
+        {
+          "id": 4733121,
+          "Username": "Kariyu",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 1008,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4733121/9f342ffcbe48e7bc36d670021a93c816d489b98a2503ebda26c8e9b017fd8941.jpeg"
+        },
+        {
+          "id": 3328742,
+          "Username": "Trail Mix",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 176,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3328742/bc1fd5cd4ae4307dc8e34a3a41aa3fc7ce39fcc15bc6d9f27d60022e95dd5db7.jpeg"
+        },
+        {
+          "id": 3533958,
+          "Username": "fieryrage",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 111,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3533958/9784b12545632555c96f5266e4b57343258da3b96e755e1b1e6cb6463dfbbac4.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Spades (part 2)",
+      "FlagName": "SP",
+      "Acronym": "Spades2",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 115.5,
+      "Players": [
+        {
+          "id": 7512553,
+          "Username": "Utami",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 4,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7512553/a2627ed1ace6c9c56f55f595f75797ca1cb731a141c2d0d247bd00938122aef5.jpeg"
+        },
+        {
+          "id": 3126596,
+          "Username": "Mlaw",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 112,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c8.jpg"
+        },
+        {
+          "id": 3043603,
+          "Username": "kablaze",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 177,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3043603/357e7f3d1b8ccccbe1a3fe0f2b4341a1fa062b220b7243d5c32d35653a88051a.jpeg"
+        },
+        {
+          "id": 4321876,
+          "Username": "KoaLeahq",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 169,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4321876/b0f961224fc8cc1770a2caa6336ebc058afa95afcdc271beff523ef6e11134bd.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "sakamata1",
+      "FlagName": "AU",
+      "Acronym": "mr ekk",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 1.0,
+      "Players": [
+        {
+          "id": 7562902,
+          "Username": "sakamata1",
+          "Country": {
+            "name": "Australia",
+            "code": "AU"
+          },
+          "Rank": 1,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c8.jpg"
+        }
+      ]
+    },
+    {
+      "FullName": "im a fancy lad",
+      "FlagName": "US",
+      "Acronym": "the lad",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 54.0,
+      "Players": [
+        {
+          "id": 4908650,
+          "Username": "im a fancy lad",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 54,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4908650/79854083e05cc5b5c9cddfb4e8132ab9a94b588ffa353eda1ca8d9dc6ce3e3dc.gif"
+        }
+      ]
+    }
+  ],
+  "Progressions": [],
+  "ChromaKeyWidth": 1366,
+  "PlayersPerTeam": 4
+}

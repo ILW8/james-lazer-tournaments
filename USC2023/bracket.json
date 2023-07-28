@@ -1,0 +1,3654 @@
+{
+  "Ruleset": {
+    "ShortName": "osu",
+    "Name": "osu!",
+    "InstantiationInfo": "osu.Game.Rulesets.Osu.OsuRuleset, osu.Game.Rulesets.Osu",
+    "LastAppliedDifficultyVersion": 20220902,
+    "Available": true
+  },
+  "Matches": [
+    {
+      "ID": 1,
+      "Team1Acronym": "VA",
+      "Team1Score": 5,
+      "Team2Acronym": "CT",
+      "Team2Score": 0,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2027-07-27T18:27:27.272727+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": -20
+      },
+      "Acronyms": [
+        "VA",
+        "CT"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 3,
+      "Team1Acronym": "KSMO",
+      "Team1Score": 5,
+      "Team2Acronym": "GA",
+      "Team2Score": 0,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2027-07-27T18:27:27.272727+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 80
+      },
+      "Acronyms": [
+        "KSMO",
+        "GA"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 5,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:27:27.4997413+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 180
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 7,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:27:31.9744495+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 280
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 9,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:27:34.1563411+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 380
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 11,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:27:37.3048085+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 480
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 13,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:27:39.4234598+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 580
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 16,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:27:41.6136437+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 680
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 18,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:27:44.520971+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 780
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 20,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:27:46.8595955+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 880
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 22,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:28:25.6467016+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 980
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 24,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:28:26.681112+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 1080
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 26,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:28:27.8374707+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 1180
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 28,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:28:29.3671358+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 1280
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 30,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:28:31.409687+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 1380
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 32,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:28:32.6006566+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 1480
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 2,
+      "Team1Acronym": "VA",
+      "Team1Score": 0,
+      "Team2Acronym": "KSMO",
+      "Team2Score": 0,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": true,
+      "Date": "2023-07-27T01:28:54.1682599+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 220,
+        "Y": 30
+      },
+      "Acronyms": [
+        "VA",
+        "KSMO"
+      ],
+      "WinnerColour": "Blue"
+    },
+    {
+      "ID": 6,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:28:55.7145291+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 220,
+        "Y": 230
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 10,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:28:57.3205694+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 220,
+        "Y": 430
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 14,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:28:59.3249972+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 220,
+        "Y": 630
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 19,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:29:01.282813+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 220,
+        "Y": 830
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 23,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:29:02.6933918+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 220,
+        "Y": 1030
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 27,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:29:04.2316193+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 220,
+        "Y": 1230
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 31,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:29:05.9814669+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 220,
+        "Y": 1430
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 12,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:30:50.4879167+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 450,
+        "Y": 530
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 4,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:30:51.6152392+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 450,
+        "Y": 130
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 21,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:30:53.8270211+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 450,
+        "Y": 930
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 29,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T01:30:55.2211343+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 450,
+        "Y": 1330
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 8,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:29:09.8926467+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 730,
+        "Y": 330
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 25,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:29:11.1171428+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 730,
+        "Y": 1130
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 15,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:31:16.8201802+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1330,
+        "Y": 670
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 17,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:31:38.4684359+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1520,
+        "Y": 690
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 36,
+      "Team1Acronym": "CT",
+      "Team1Score": null,
+      "Team2Acronym": "GA",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:32:02.8801442+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 1630
+      },
+      "Acronyms": [
+        "CT",
+        "GA"
+      ],
+      "WinnerColour": "Blue"
+    },
+    {
+      "ID": 41,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:32:03.9306704+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 1730
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 44,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:32:10.6216811+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 1830
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 47,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:32:13.0495841+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 1930
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 51,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:32:16.2358116+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 2030
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 55,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:32:37.2020215+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 2130
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 58,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:32:40.7659547+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 2230
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 61,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:32:43.986295+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 2330
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 35,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:32:49.6681414+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 190,
+        "Y": 1610
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 40,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:32:58.5749721+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 190,
+        "Y": 1710
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 43,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:33:25.5030462+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 190,
+        "Y": 1810
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 46,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:33:27.8758529+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 190,
+        "Y": 1910
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 50,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:33:34.7826341+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 190,
+        "Y": 2010
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 54,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:33:42.7653331+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 190,
+        "Y": 2110
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 57,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:33:47.3800041+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 190,
+        "Y": 2210
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 60,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:33:50.6848232+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 190,
+        "Y": 2310
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 45,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:33:59.9859227+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 380,
+        "Y": 1850
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 53,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:34:01.0199883+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 380,
+        "Y": 2060
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 33,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:34:02.0920057+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 570,
+        "Y": 1590
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 59,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:34:03.8839574+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 380,
+        "Y": 2260
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 38,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-27T02:35:12.7061603+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 380,
+        "Y": 1660
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 42,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-28T09:10:34.7198481+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 570,
+        "Y": 1790
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 49,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-28T09:10:35.5925452+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 570,
+        "Y": 2000
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 56,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-28T09:10:36.796301+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 570,
+        "Y": 2200
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 37,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-28T09:11:41.677382+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 760,
+        "Y": 1650
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 52,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-28T09:11:42.5884614+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 760,
+        "Y": 2050
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 34,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-28T09:12:31.5889308+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 940,
+        "Y": 1590
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 48,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-28T09:12:49.1782812+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 940,
+        "Y": 1990
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 39,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-07-28T09:17:50.2987052+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1140,
+        "Y": 1690
+      },
+      "Acronyms": []
+    }
+  ],
+  "Rounds": [
+    {
+      "Name": "ROUND OF 32",
+      "Description": "",
+      "BestOf": 9,
+      "Beatmaps": [
+        {
+          "ID": 1018247,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 1018247,
+            "DifficultyName": "Daydream",
+            "BPM": 178.0,
+            "Length": 236000.0,
+            "StarRating": 6.05,
+            "Metadata": {
+              "Title": "ninelie (REDSHiFT x Vesuvia remix)",
+              "title_unicode": "ninelie (REDSHiFT x Vesuvia remix)",
+              "Artist": "Aimer with chelly (EGOIST)",
+              "artist_unicode": "Aimer with chelly (EGOIST)",
+              "Author": {
+                "OnlineID": 3250792,
+                "Username": "ProfessionalBox",
+                "CountryString": "Unknown"
+              },
+              "Source": "甲鉄城のカバネリ",
+              "tags": "drum and bass dubstep drumstep hiroyuki sawano koutetsujou no kabaneri of the iron fortress toybot -kevincela- mikii aia collab collaboration",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.4,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/476695/covers/cover@2x.jpg?1650643132",
+              "card@2x": "https://assets.ppy.sh/beatmaps/476695/covers/card@2x.jpg?1650643132",
+              "list@2x": "https://assets.ppy.sh/beatmaps/476695/covers/list@2x.jpg?1650643132"
+            }
+          }
+        },
+        {
+          "ID": 1935726,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 1935726,
+            "DifficultyName": "Beyond The World",
+            "BPM": 140.0,
+            "Length": 266000.0,
+            "StarRating": 6.02,
+            "Metadata": {
+              "Title": "Tonitrus",
+              "title_unicode": "Tonitrus",
+              "Artist": "Rita",
+              "artist_unicode": "Rita",
+              "Author": {
+                "OnlineID": 7458583,
+                "Username": "Frakturehawkens",
+                "CountryString": "Unknown"
+              },
+              "Source": "黄雷のガクトゥーン〜What a shining braves〜",
+              "tags": "oofujitsubo video game pop bryg-0014 ourai no gahkthun of the golden lightning n'gah-kthun j-pop japanese blueberry blueberry&yogurt yogurt yoghurt -what ~what braves~ braves- piroshki cappu instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/926756/covers/cover@2x.jpg?1650686136",
+              "card@2x": "https://assets.ppy.sh/beatmaps/926756/covers/card@2x.jpg?1650686136",
+              "list@2x": "https://assets.ppy.sh/beatmaps/926756/covers/list@2x.jpg?1650686136"
+            }
+          }
+        },
+        {
+          "ID": 1892676,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 1892676,
+            "DifficultyName": "taku's EXHAUST",
+            "BPM": 240.0,
+            "Length": 114000.0,
+            "StarRating": 5.98,
+            "Metadata": {
+              "Title": "Lunatic Rough Party!!",
+              "title_unicode": "Lunatic Rough Party!!",
+              "Artist": "Camellia",
+              "artist_unicode": "かめりあ",
+              "Author": {
+                "OnlineID": 7777875,
+                "Username": "Ryuusei Aika",
+                "CountryString": "Unknown"
+              },
+              "Source": "SOUND VOLTEX II -infinite infection-",
+              "tags": "sandrew tt mouse ttmnzk lowcombofc lcfc taku suzuki_1112 1112deng otosaka-yu z1085684963 kami-senpai electronic instrumental rhythm video game touhou project 東方project 東方紅魔郷 ～ the embodiment of scarlet devil. ルーネイトエルフ lunate elf sdvx サウンド ボルテックス -インフィニット インフェクション- cametek kamelcamellia かめるかめりあ",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.3,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/737728/covers/cover@2x.jpg?1662968947",
+              "card@2x": "https://assets.ppy.sh/beatmaps/737728/covers/card@2x.jpg?1662968947",
+              "list@2x": "https://assets.ppy.sh/beatmaps/737728/covers/list@2x.jpg?1662968947"
+            }
+          }
+        },
+        {
+          "ID": 1935864,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 1935864,
+            "DifficultyName": "Descent",
+            "BPM": 220.0,
+            "Length": 265000.0,
+            "StarRating": 6.09,
+            "Metadata": {
+              "Title": "Sennen to Rasen, Chiru Mono o feat. Sui",
+              "title_unicode": "阡年と螺旋、散るものを feat. すぃ",
+              "Artist": "sasakure.UK",
+              "artist_unicode": "sasakure.UK",
+              "Author": {
+                "OnlineID": 3376777,
+                "Username": "Kalibe",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "sasakuration fukashigi monoyukasy pop japanese a millennium and the spiral for things that fall swi tomadoi shiinoha kotone cococolaco haruto haruto_aizawa",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/926846/covers/cover@2x.jpg?1650675785",
+              "card@2x": "https://assets.ppy.sh/beatmaps/926846/covers/card@2x.jpg?1650675785",
+              "list@2x": "https://assets.ppy.sh/beatmaps/926846/covers/list@2x.jpg?1650675785"
+            }
+          }
+        },
+        {
+          "ID": 381798,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 381798,
+            "DifficultyName": "Selentia",
+            "BPM": 132.0,
+            "Length": 366000.0,
+            "StarRating": 5.68,
+            "Metadata": {
+              "Title": "Miss You",
+              "title_unicode": "Miss You",
+              "Artist": "Nhato",
+              "artist_unicode": "Nhato",
+              "Author": {
+                "OnlineID": 1592447,
+                "Username": "HanzeR",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "stirup club edition v3 c85 vocaloid lapis aoki marathon",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/155691/covers/cover@2x.jpg?1622072152",
+              "card@2x": "https://assets.ppy.sh/beatmaps/155691/covers/card@2x.jpg?1622072152",
+              "list@2x": "https://assets.ppy.sh/beatmaps/155691/covers/list@2x.jpg?1622072152"
+            }
+          }
+        },
+        {
+          "ID": 725026,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 725026,
+            "DifficultyName": "wa's Extra",
+            "BPM": 180.0,
+            "Length": 124000.0,
+            "StarRating": 6.13,
+            "Metadata": {
+              "Title": "Acid Burst",
+              "title_unicode": "Acid Burst",
+              "Artist": "Memme",
+              "artist_unicode": "Memme",
+              "Author": {
+                "OnlineID": 2198472,
+                "Username": "Priti",
+                "CountryString": "Unknown"
+              },
+              "Source": "O2Jam U",
+              "tags": "parkmemme bonzi irreversible hollow wings tess wa_ deif asphyxia spectator arabic core",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/302535/covers/cover@2x.jpg?1650635203",
+              "card@2x": "https://assets.ppy.sh/beatmaps/302535/covers/card@2x.jpg?1650635203",
+              "list@2x": "https://assets.ppy.sh/beatmaps/302535/covers/list@2x.jpg?1650635203"
+            }
+          }
+        },
+        {
+          "ID": 152702,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 152702,
+            "DifficultyName": "Regou",
+            "BPM": 195.0,
+            "Length": 203000.0,
+            "StarRating": 5.16,
+            "Metadata": {
+              "Title": "Flames Within These Black Feathers",
+              "title_unicode": "Flames Within These Black Feathers",
+              "Artist": "Foreground Eclipse",
+              "artist_unicode": "Foreground Eclipse",
+              "Author": {
+                "OnlineID": 444506,
+                "Username": "Saten",
+                "CountryString": "Unknown"
+              },
+              "Source": "Touhou",
+              "tags": "okuu utsuho reiuji cocktail m49 merami suzuori nuclear fusion hellfire mantle onosakihito regou nyquill saten-san",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/47599/covers/cover@2x.jpg?0",
+              "card@2x": "https://assets.ppy.sh/beatmaps/47599/covers/card@2x.jpg?0",
+              "list@2x": "https://assets.ppy.sh/beatmaps/47599/covers/list@2x.jpg?0"
+            }
+          }
+        },
+        {
+          "ID": 3865985,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 3865985,
+            "DifficultyName": "The King of Iron Fist",
+            "BPM": 164.0,
+            "Length": 119000.0,
+            "StarRating": 5.72,
+            "Metadata": {
+              "Title": "A Grain of Sand 1st",
+              "title_unicode": "A Grain of Sand 1st",
+              "Artist": "AJURIKA",
+              "artist_unicode": "AJURIKA",
+              "Author": {
+                "OnlineID": 6341518,
+                "Username": "rosario wknd",
+                "CountryString": "Unknown"
+              },
+              "Source": "TEKKEN 7",
+              "tags": "鉄拳7 video game ost instrumental electronic vgm vg souq first round fated retribution 遠山明孝 toyama tohyama akitaka fighting arcade 株式会社バンダイナムコエンターテインメント bandai namco entertainment inc.",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.6,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1878093/covers/cover@2x.jpg?1677366598",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1878093/covers/card@2x.jpg?1677366598",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1878093/covers/list@2x.jpg?1677366598"
+            }
+          }
+        },
+        {
+          "ID": 1464585,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 1464585,
+            "DifficultyName": "liaoxingyao's Insane",
+            "BPM": 201.0,
+            "Length": 98000.0,
+            "StarRating": 5.27,
+            "Metadata": {
+              "Title": "Chirality",
+              "title_unicode": "Chirality",
+              "Artist": "Camellia",
+              "artist_unicode": "かめりあ",
+              "Author": {
+                "OnlineID": 3170678,
+                "Username": "Suzuki_1112",
+                "CountryString": "Unknown"
+              },
+              "Source": "REFLEC BEAT groovin'!!",
+              "tags": "pending cup #5 1112deng moecho moeri vert lowcombofc lcfc starrstyx yf_bmp ryuusei aika _stan kashima fanzhen0019 liaoxingyao snownino_ koiyuki minakami yuki featured artist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.1,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/692068/covers/cover@2x.jpg?1650657784",
+              "card@2x": "https://assets.ppy.sh/beatmaps/692068/covers/card@2x.jpg?1650657784",
+              "list@2x": "https://assets.ppy.sh/beatmaps/692068/covers/list@2x.jpg?1650657784"
+            }
+          }
+        },
+        {
+          "ID": 3357259,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3357259,
+            "DifficultyName": "Another",
+            "BPM": 136.0,
+            "Length": 240000.0,
+            "StarRating": 4.41,
+            "Metadata": {
+              "Title": "The Good Life",
+              "title_unicode": "The Good Life",
+              "Artist": "Weezer",
+              "artist_unicode": "Weezer",
+              "Author": {
+                "OnlineID": 12416885,
+                "Username": "attendant",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "pinkerton english alternative rock",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1644735/covers/cover@2x.jpg?1641230871",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1644735/covers/card@2x.jpg?1641230871",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1644735/covers/list@2x.jpg?1641230871"
+            }
+          }
+        },
+        {
+          "ID": 2506085,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 2506085,
+            "DifficultyName": "Insane",
+            "BPM": 173.0,
+            "Length": 211000.0,
+            "StarRating": 4.45,
+            "Metadata": {
+              "Title": "Magic people",
+              "title_unicode": "Мэджик пипл",
+              "Artist": "ATL",
+              "artist_unicode": "ATL",
+              "Author": {
+                "OnlineID": 6115007,
+                "Username": "Ksardas",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "maruoko delette gazpriest кривой эфир krivoy efir hardstyle acidhouze electronic russian hardstyle hip hop rap",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1117079/covers/cover@2x.jpg?1650693383",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1117079/covers/card@2x.jpg?1650693383",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1117079/covers/list@2x.jpg?1650693383"
+            }
+          }
+        },
+        {
+          "ID": 221362,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 221362,
+            "DifficultyName": "Insane",
+            "BPM": 218.0,
+            "Length": 238000.0,
+            "StarRating": 4.29,
+            "Metadata": {
+              "Title": "Thieves Night Trick",
+              "title_unicode": "ドロボウナイトトリック",
+              "Artist": "Yucha-P",
+              "artist_unicode": "ゆちゃP",
+              "Author": {
+                "OnlineID": 546991,
+                "Username": "tutuhaha",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "vocaloid megpoid gumi dorobou angelhoney qoot8123",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/78268/covers/cover@2x.jpg?1650616432",
+              "card@2x": "https://assets.ppy.sh/beatmaps/78268/covers/card@2x.jpg?1650616432",
+              "list@2x": "https://assets.ppy.sh/beatmaps/78268/covers/list@2x.jpg?1650616432"
+            }
+          }
+        },
+        {
+          "ID": 2968671,
+          "Mods": "FM",
+          "BeatmapInfo": {
+            "OnlineID": 2968671,
+            "DifficultyName": "########",
+            "BPM": 147.0,
+            "Length": 247000.0,
+            "StarRating": 6.18,
+            "Metadata": {
+              "Title": "Lagtrain",
+              "title_unicode": "ラグトレイン",
+              "Artist": "Will Stetson",
+              "artist_unicode": "Will Stetson",
+              "Author": {
+                "OnlineID": 7777875,
+                "Username": "Ryuusei Aika",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "稲葉曇 inabakumori english rock pop cover finshie ponbot bellicose willstetson​ david toth dictate male vocal ぬくぬくにぎりめし nukunukunigirimeshi shii shiitsuin",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.2,
+              "CircleSize": 3.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1443224/covers/cover@2x.jpg?1650709244",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1443224/covers/card@2x.jpg?1650709244",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1443224/covers/list@2x.jpg?1650709244"
+            }
+          }
+        },
+        {
+          "ID": 63875,
+          "Mods": "FM",
+          "BeatmapInfo": {
+            "OnlineID": 63875,
+            "DifficultyName": "Extra",
+            "BPM": 115.0,
+            "Length": 223000.0,
+            "StarRating": 5.76,
+            "Metadata": {
+              "Title": "Gensou no Satellite",
+              "title_unicode": "Gensou no Satellite",
+              "Artist": "Comp",
+              "artist_unicode": "Comp",
+              "Author": {
+                "OnlineID": 13996,
+                "Username": "Shinxyn",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "buta-otome touhou greenwich in the sky royal observatory ranko magical astronomy fantasy jazz zun",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/4404/covers/cover@2x.jpg?1622021949",
+              "card@2x": "https://assets.ppy.sh/beatmaps/4404/covers/card@2x.jpg?1622021949",
+              "list@2x": "https://assets.ppy.sh/beatmaps/4404/covers/list@2x.jpg?1622021949"
+            }
+          }
+        },
+        {
+          "ID": 1188172,
+          "Mods": "FM",
+          "BeatmapInfo": {
+            "OnlineID": 1188172,
+            "DifficultyName": "Atsuro's Extra",
+            "BPM": 225.5,
+            "Length": 118000.0,
+            "StarRating": 6.36,
+            "Metadata": {
+              "Title": "Glorious Crown",
+              "title_unicode": "Glorious Crown",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 2706438,
+                "Username": "Monstrata",
+                "CountryString": "Unknown"
+              },
+              "Source": "maimai PiNK",
+              "tags": "freedom dive rsi haruto logic agent hobbes2 atsuro snownino_ haruto_aizawa",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 3.5,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/558694/covers/cover@2x.jpg?1650648268",
+              "card@2x": "https://assets.ppy.sh/beatmaps/558694/covers/card@2x.jpg?1650648268",
+              "list@2x": "https://assets.ppy.sh/beatmaps/558694/covers/list@2x.jpg?1650648268"
+            }
+          }
+        },
+        {
+          "ID": 1188847,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 1188847,
+            "DifficultyName": "Gamma Ray",
+            "BPM": 138.0,
+            "Length": 330000.0,
+            "StarRating": 6.44,
+            "Metadata": {
+              "Title": "One Dawn",
+              "title_unicode": "One Dawn",
+              "Artist": "Daisuke Ishiwatari",
+              "artist_unicode": "石渡 太輔",
+              "Author": {
+                "OnlineID": 1848318,
+                "Username": "Natteke desu",
+                "CountryString": "Unknown"
+              },
+              "Source": "Guilty Gear Xrd -REVELATOR-",
+              "tags": "sign rev2 dizzy necro undine soundtrack arcsystemworks evilelvis jounzan",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/562302/covers/cover@2x.jpg?1622114259",
+              "card@2x": "https://assets.ppy.sh/beatmaps/562302/covers/card@2x.jpg?1622114259",
+              "list@2x": "https://assets.ppy.sh/beatmaps/562302/covers/list@2x.jpg?1622114259"
+            }
+          }
+        }
+      ],
+      "StartDate": "2027-07-27T18:27:27.272727+01:00",
+      "Matches": [
+        1,
+        3
+      ]
+    }
+  ],
+  "Teams": [
+    {
+      "FullName": "Virginia",
+      "FlagName": "VA",
+      "Acronym": "VA",
+      "SeedingResults": [],
+      "Seed": "1",
+      "LastYearPlacing": 1,
+      "AverageRank": 1559.3333333333333,
+      "Players": [
+        {
+          "id": 7813296,
+          "Username": "Rektygon",
+          "country_code": "US",
+          "Rank": 23,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7813296/0e289e9d2bb5403be083a11ca728de93d924b15d26aec4e4e780f865977f0204.jpeg"
+        },
+        {
+          "id": 2644828,
+          "Username": "t[-_-t]",
+          "country_code": "US",
+          "Rank": 808,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/2644828/7d9883cdf8dc908d1a00b4b8846a4e56c9cd5062e9ab3cc8d04022435098d087.jpeg"
+        },
+        {
+          "id": 10083084,
+          "Username": "Wixonater",
+          "country_code": "US",
+          "Rank": 90,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10083084/856aff68e84d63af73b67640348b7a753cfae9107ec2ab96b045f54003a8c553.jpeg"
+        },
+        {
+          "id": 7587734,
+          "Username": "Failing",
+          "country_code": "US",
+          "Rank": 161,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7587734/a17584878ab41bf232c0b42405d381d922dd018e98adef59ad1a1d81607a0bcf.jpeg"
+        },
+        {
+          "id": 9265990,
+          "Username": "rng_",
+          "country_code": "US",
+          "Rank": 1124,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9265990/f4e17b95fe958411e8b4acd59b883bfbbc76edee4bed66a76d4e21ca8a67301a.jpeg"
+        },
+        {
+          "id": 4165369,
+          "Username": "Mitatsh",
+          "country_code": "US",
+          "Rank": 7150,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4165369/da254df1d4f5cf9256abfcd93705f6e1277d7b005e13c9197b110ab393be618f.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "North California",
+      "FlagName": "NC",
+      "Acronym": "NCA",
+      "SeedingResults": [],
+      "Seed": "2",
+      "LastYearPlacing": 1,
+      "AverageRank": 710.1666666666666,
+      "Players": [
+        {
+          "id": 7941423,
+          "Username": "chezbananas",
+          "country_code": "US",
+          "Rank": 1255,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7941423/2cfb309e42231c3ea980f37d43946a20f726103288f5dc667e7160912ee4c2b7.jpeg"
+        },
+        {
+          "id": 4108547,
+          "Username": "WindowLife",
+          "country_code": "US",
+          "Rank": 14,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4108547/5c6d82485cea4bcf7f99057f40e3743d39bd67f20cfa718485786f209478d4f5.png"
+        },
+        {
+          "id": 2590257,
+          "Username": "wudci",
+          "country_code": "US",
+          "Rank": 84,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/2590257/d5eb79cf4a2c204b575ab997ee31fbdf476f3336c41a1980b7a7dc77ffadb2c4.jpeg"
+        },
+        {
+          "id": 3328742,
+          "Username": "Trail Mix",
+          "country_code": "US",
+          "Rank": 132,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3328742/bc1fd5cd4ae4307dc8e34a3a41aa3fc7ce39fcc15bc6d9f27d60022e95dd5db7.jpeg"
+        },
+        {
+          "id": 8788058,
+          "Username": "Jakson",
+          "country_code": "US",
+          "Rank": 171,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8788058/2425d6dd5739eaecad0d1fb799fd6dd33a46399c04db4280a67756c3391cc643.png"
+        },
+        {
+          "id": 11106929,
+          "Username": "Wispy",
+          "country_code": "US",
+          "Rank": 2605,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11106929/ec41712089b2f420b197f3e4166fb41a6938086a6edd520c216f601be7c5b2f8.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Florida",
+      "FlagName": "FL",
+      "Acronym": "FL",
+      "SeedingResults": [],
+      "Seed": "3",
+      "LastYearPlacing": 1,
+      "AverageRank": 524.8333333333334,
+      "Players": [
+        {
+          "id": 5370153,
+          "Username": "Exarch",
+          "country_code": "US",
+          "Rank": 169,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/5370153/38e6bcb63d1390eb7701ac5cd976bd67831b8a975471a518d805fd2a365130a6.png"
+        },
+        {
+          "id": 4384207,
+          "Username": "DigitalHypno",
+          "country_code": "US",
+          "Rank": 668,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4384207/cee294cca9f684d5449df13a356a473f13af705dc70bc0a192f76a2414229778.jpeg"
+        },
+        {
+          "id": 6668666,
+          "Username": "Cappy",
+          "country_code": "US",
+          "Rank": 216,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6668666/2ccfafedb8ae56e48c1e680547287f5fdce8f36f0636876f4111b42cc2b324ae.jpeg"
+        },
+        {
+          "id": 11715109,
+          "Username": "AlmightyDoor",
+          "country_code": "US",
+          "Rank": 524,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11715109/2050cc82b615b08ab8565b13a6e933cb6da785b8c4b98dd9ae2111b80614623d.gif"
+        },
+        {
+          "id": 7216681,
+          "Username": "ramtin",
+          "country_code": "US",
+          "Rank": 357,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7216681/585a0f258ac5e01aa42c09784476caee40cca2270ae9c8052c94b9416e44aaa3.jpeg"
+        },
+        {
+          "id": 6752116,
+          "Username": "Arraxey",
+          "country_code": "US",
+          "Rank": 1215,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6752116/97a19cdae55c38524693ea1e64afa01df7be47025adef51acf1c808c08ef4f6c.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "South California",
+      "FlagName": "SC",
+      "Acronym": "SCA",
+      "SeedingResults": [],
+      "Seed": "4",
+      "LastYearPlacing": 1,
+      "AverageRank": 499.6666666666667,
+      "Players": [
+        {
+          "id": 6303313,
+          "Username": "Mathyu",
+          "country_code": "US",
+          "Rank": 352,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6303313/2bcd4118f7d0ccef20d5b7772420940d7db2dc0b37abf0cce6e137f028ecef7a.jpeg"
+        },
+        {
+          "id": 9993348,
+          "Username": "ur cute",
+          "country_code": "US",
+          "Rank": 94,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9993348/c202698da74e84660799971072138f54c0ac90dd053e9514c0ee9fd59550a365.jpeg"
+        },
+        {
+          "id": 12378737,
+          "Username": "Iugia",
+          "country_code": "US",
+          "Rank": 181,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12378737/c78bf6ab6c9de6c7470eeeb3c6eaaa18fdbe12c903a32e285c615bf904a21378.png"
+        },
+        {
+          "id": 9276293,
+          "Username": "EzChock",
+          "country_code": "US",
+          "Rank": 314,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9276293/5fdbfa35663d8bd8a730d81b53e215b5a01a5517a1cc43fcf546adfe7edc5cc9.png"
+        },
+        {
+          "id": 7959945,
+          "Username": "[C]",
+          "country_code": "US",
+          "Rank": 561,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c2.jpg"
+        },
+        {
+          "id": 7438459,
+          "Username": "ricoel",
+          "country_code": "US",
+          "Rank": 1496,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7438459/7a13af1092b9ee635840c4e3754f5d071ee977e992e739df02cc8ef4c99170dd.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Carolina",
+      "FlagName": "N/",
+      "Acronym": "N/SC",
+      "SeedingResults": [],
+      "Seed": "5",
+      "LastYearPlacing": 1,
+      "AverageRank": 635.6666666666666,
+      "Players": [
+        {
+          "id": 6404488,
+          "Username": "WillCookie",
+          "country_code": "US",
+          "Rank": 253,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6404488/6320a246110a232bd4989898e131dc2e257f0dd244a890dc1223cc5a421760c5.png"
+        },
+        {
+          "id": 14097024,
+          "Username": "RhythmicRS",
+          "country_code": "US",
+          "Rank": 70,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14097024/5bd02815366e9909289cece1917a777d5da654b873b9677be92b5735d47ebb28.jpeg"
+        },
+        {
+          "id": 10572078,
+          "Username": "aba",
+          "country_code": "US",
+          "Rank": 165,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10572078/98600adf71bb90b01a1b95560e774e8f4a0eb9b0890da70fbf9ab37cb528eacb.png"
+        },
+        {
+          "id": 8454773,
+          "Username": "MegaMK",
+          "country_code": "US",
+          "Rank": 287,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8454773/e106fa2e9368ea855d0c4bf9e4353304812938c000daf165ea7703c759935469.jpeg"
+        },
+        {
+          "id": 12329311,
+          "Username": "zerkala",
+          "country_code": "US",
+          "Rank": 1423,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12329311/458e6ee3d307bb02657c8789c1897a7a676ed5f7f8b26a7e1602872c76626853.png"
+        },
+        {
+          "id": 14041375,
+          "Username": "yenator07",
+          "country_code": "US",
+          "Rank": 1616,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14041375/13975fc5498d5f2d9fbabe8843ba3165bfedb903e55a42196adf6621c8362cbb.png"
+        }
+      ]
+    },
+    {
+      "FullName": "Maryland",
+      "FlagName": "MD",
+      "Acronym": "MD",
+      "SeedingResults": [],
+      "Seed": "6",
+      "LastYearPlacing": 1,
+      "AverageRank": 1806.0,
+      "Players": [
+        {
+          "id": 15173952,
+          "Username": "BATBALL",
+          "country_code": "US",
+          "Rank": 4468,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/15173952/3090b974f35d3b1ca91a918ddbc3f6a6f99380a93b0a86a74be3171884f9060a.jpeg"
+        },
+        {
+          "id": 4852013,
+          "Username": "Monko2k",
+          "country_code": "US",
+          "Rank": 182,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4852013/e18f60ab05ce6da97dac492433228fbebe7600b611bcd042a4f46a2619dca0ed.png"
+        },
+        {
+          "id": 13380270,
+          "Username": "Kama",
+          "country_code": "US",
+          "Rank": 292,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c7.jpg"
+        },
+        {
+          "id": 4856562,
+          "Username": "minus",
+          "country_code": "US",
+          "Rank": 444,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4856562/fcecc52003a7bc8033b1764946a9012e6f19597d8bdd1deb1d7fe7eafbff9fc7.png"
+        },
+        {
+          "id": 8382196,
+          "Username": "kodama",
+          "country_code": "US",
+          "Rank": 376,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8382196/28effae781d6476157b8b761fbfd3a994a5c934d3afd7d935e31f07348a29892.jpeg"
+        },
+        {
+          "id": 9507565,
+          "Username": "costco hotdog",
+          "country_code": "US",
+          "Rank": 5074,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9507565/d770647451063eb8bc0563fcbd2cb8200d0a3e837bc61769bb476ca16bfea89d.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Texas",
+      "FlagName": "TX",
+      "Acronym": "TX",
+      "SeedingResults": [],
+      "Seed": "7",
+      "LastYearPlacing": 1,
+      "AverageRank": 537.1666666666666,
+      "Players": [
+        {
+          "id": 3792472,
+          "Username": "Woey",
+          "country_code": "US",
+          "Rank": 542,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c4.jpg"
+        },
+        {
+          "id": 5645231,
+          "Username": "dingleton",
+          "country_code": "US",
+          "Rank": 100,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/5645231/2ed05939922c9f4a6063ca7adaf0931eec6ca7cbe9172d9c3a0aee26b55c1804.jpeg"
+        },
+        {
+          "id": 8581210,
+          "Username": "LightsOut",
+          "country_code": "US",
+          "Rank": 188,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8581210/4e5169259d5b867886f83debcc379a06cc45b0d9e017583cd91e64d51460b441.gif"
+        },
+        {
+          "id": 3929529,
+          "Username": "mniminwoo",
+          "country_code": "US",
+          "Rank": 465,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c2.jpg"
+        },
+        {
+          "id": 2848604,
+          "Username": "toybot",
+          "country_code": "US",
+          "Rank": 995,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/2848604/19c9ebb4db448783c5d29c2bc5d69a077e7f5df6dc7d7f7b120edc24ca2ebac3.jpeg"
+        },
+        {
+          "id": 7154358,
+          "Username": "Cuckweezy",
+          "country_code": "US",
+          "Rank": 933,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7154358/42054465989ca9e520125b8f9403f40920b4b43731a4bc58c313d64e87dafb3a.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "New Jersey",
+      "FlagName": "NJ",
+      "Acronym": "NJ",
+      "SeedingResults": [],
+      "Seed": "8",
+      "LastYearPlacing": 1,
+      "AverageRank": 2293.6666666666665,
+      "Players": [
+        {
+          "id": 6036351,
+          "Username": "M I L E S",
+          "country_code": "US",
+          "Rank": 1087,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6036351/bb178ac76a2ef7a655672a706d002592ceea4f5b8322fcc6e966bb0f6497c841.jpeg"
+        },
+        {
+          "id": 6114695,
+          "Username": "ciru",
+          "country_code": "US",
+          "Rank": 19,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6114695/e0a812da220ded304ba2f00a171abca54cbb91d3abb923a200287982ee9d56e2.png"
+        },
+        {
+          "id": 8198848,
+          "Username": "Sawada",
+          "country_code": "US",
+          "Rank": 116,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8198848/ce3b4e9d5eccd1b85cf1fc6bfe01a3c2ead4ccd2e949129c3bd469006f3a4565.jpeg"
+        },
+        {
+          "id": 12904237,
+          "Username": "Gabey",
+          "country_code": "US",
+          "Rank": 1044,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12904237/3556f779c805181d391239e6d35f1208bb3251335a4032cb69f61633bfac6ee6.png"
+        },
+        {
+          "id": 3426414,
+          "Username": "Dain",
+          "country_code": "US",
+          "Rank": 2758,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3426414/80f82c857b8071465bcd577ab752bc9a33bea87254c94d21d24b38dd5f87cd90.jpeg"
+        },
+        {
+          "id": 6843383,
+          "Username": "YoshiLover456",
+          "country_code": "US",
+          "Rank": 8738,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6843383/0fcefc0514fab187511cfcf16d478745f98196245cc5953f2e3df98ca6bb607e.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Massachusetts",
+      "FlagName": "MA",
+      "Acronym": "MA",
+      "SeedingResults": [],
+      "Seed": "9",
+      "LastYearPlacing": 1,
+      "AverageRank": 2552.1666666666665,
+      "Players": [
+        {
+          "id": 9501251,
+          "Username": "ChillierPear",
+          "country_code": "US",
+          "Rank": 299,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9501251/84a274f07f3961c047787a9055540c5cbc2cc8fe5398109681ccadc76c4045ab.png"
+        },
+        {
+          "id": 4175698,
+          "Username": "sytho",
+          "country_code": "US",
+          "Rank": 33,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c4.jpg"
+        },
+        {
+          "id": 10210668,
+          "Username": "Tj7223",
+          "country_code": "US",
+          "Rank": 552,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10210668/a1ed9faa46d05acf19efd6afef3bb933bde258ff32cd1baceaad420f29ba8435.jpeg"
+        },
+        {
+          "id": 6014327,
+          "Username": "josiee",
+          "country_code": "US",
+          "Rank": 788,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6014327/8914c97ff73ae9aaed1f1f567424af8f0fdd3fede4f193274ac3d9591f9e4470.jpeg"
+        },
+        {
+          "id": 16538717,
+          "Username": "i also love uma",
+          "country_code": "US",
+          "Rank": 2550,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/16538717/64c5469f0b36b515e3ab9cb806338e678c83c6d6500cfa7efc6e5d3e94ab80da.jpeg"
+        },
+        {
+          "id": 7719207,
+          "Username": "Mini Gaunt",
+          "country_code": "US",
+          "Rank": 11091,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7719207/28738c1fbf7c96c8c970cfd2bc4413e1b3b60a4a306e0a504fd6321fb770ba12.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Pennsylvania",
+      "FlagName": "PA",
+      "Acronym": "PA",
+      "SeedingResults": [],
+      "Seed": "10",
+      "LastYearPlacing": 1,
+      "AverageRank": 743.1666666666666,
+      "Players": [
+        {
+          "id": 11955716,
+          "Username": "Uenpris",
+          "country_code": "US",
+          "Rank": 966,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11955716/42f3350f0a802568a8c19f8783722babe071cefff980ce24c1f0605d24509634.jpeg"
+        },
+        {
+          "id": 14215850,
+          "Username": "Bunnylikemoney",
+          "country_code": "US",
+          "Rank": 73,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14215850/57be2a83926c6fa5c07d78eb4a428fa10f3db95466284318209457bfacec3abf.jpeg"
+        },
+        {
+          "id": 12482253,
+          "Username": "Danini",
+          "country_code": "US",
+          "Rank": 427,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12482253/310ea6ce456ea27205dd6a9f74e9838c989f73071c8fc11a625235631cd1a283.jpeg"
+        },
+        {
+          "id": 10486062,
+          "Username": "Sunwraith",
+          "country_code": "US",
+          "Rank": 482,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10486062/efebbcc515bdd7635374b95332691c03a8ef79e277878dd70f8f4391763b54cd.jpeg"
+        },
+        {
+          "id": 5221616,
+          "Username": "Astrovia",
+          "country_code": "US",
+          "Rank": 1027,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/5221616/1c21d43e5685080a1e44fc9f9b8e5c2382f2681112ee78fef0008ad279c4952e.jpeg"
+        },
+        {
+          "id": 2593280,
+          "Username": "Lolzep",
+          "country_code": "US",
+          "Rank": 1484,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/2593280/2d910e75e181d4541095e7becd50b6d7034654efd6b78b7c621588d41639d629.png"
+        }
+      ]
+    },
+    {
+      "FullName": "New York",
+      "FlagName": "NY",
+      "Acronym": "NY",
+      "SeedingResults": [],
+      "Seed": "11",
+      "LastYearPlacing": 1,
+      "AverageRank": 932.0,
+      "Players": [
+        {
+          "id": 7075211,
+          "Username": "tekkito",
+          "country_code": "US",
+          "Rank": 135,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7075211/9e254cf0122eabdb2b1ea23511acd0c90f88eb89c2d44762ab3f47e55a9dd81b.jpeg"
+        },
+        {
+          "id": 7948169,
+          "Username": "Altrax",
+          "country_code": "US",
+          "Rank": 541,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7948169/f3f425ad5f7e63902509181616a0d7e76ccf585cd1dd431d3c2ca95ea07013db.jpeg"
+        },
+        {
+          "id": 10651106,
+          "Username": "rhythm game",
+          "country_code": "US",
+          "Rank": 1063,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10651106/a6f306f9fd7ebe32a6b6ec22f2dcbf3eab6af7938ffe0fb6bac952439167fd02.jpeg"
+        },
+        {
+          "id": 8802914,
+          "Username": "-Arko",
+          "country_code": "US",
+          "Rank": 1011,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c5.jpg"
+        },
+        {
+          "id": 12796317,
+          "Username": "oPixay",
+          "country_code": "US",
+          "Rank": 886,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12796317/48479ed068d38d2ad56c048183ed83fdaee0a389af5c569643c59d578f60ed38.jpeg"
+        },
+        {
+          "id": 6327638,
+          "Username": "Twilight",
+          "country_code": "US",
+          "Rank": 1956,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6327638/4cca12d7512306806f43d1196addb977ee2ae3e8b9a634a15fdc82decfe59c62.png"
+        }
+      ]
+    },
+    {
+      "FullName": "Washington",
+      "FlagName": "WA",
+      "Acronym": "WA",
+      "SeedingResults": [],
+      "Seed": "12",
+      "LastYearPlacing": 1,
+      "AverageRank": 1824.3333333333333,
+      "Players": [
+        {
+          "id": 8204345,
+          "Username": "RMEfan",
+          "country_code": "US",
+          "Rank": 1920,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8204345/6a735efc5d0cdcf608d621407ea4caf4e73dacbb05b34b56df834be67766dc8e.jpeg"
+        },
+        {
+          "id": 13628898,
+          "Username": "Jacob3",
+          "country_code": "US",
+          "Rank": 483,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13628898/de314b948f76f3a0ada1ee610487b79472b9c437b4063bb99f910d673d7c5ec1.jpeg"
+        },
+        {
+          "id": 19154954,
+          "Username": "Dice",
+          "country_code": "US",
+          "Rank": 621,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/19154954/351f3c1dccbc3c9c4c414b6445ce4a7a1e0027d3d69331583a18df7fbfa0fefe.jpeg"
+        },
+        {
+          "id": 12133744,
+          "Username": "Warpscon",
+          "country_code": "US",
+          "Rank": 603,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12133744/de9977bbefcd80f40175d1955e83e1dc3100ffe7e7372fc6af62278224eab7cc.jpeg"
+        },
+        {
+          "id": 8208289,
+          "Username": "conradmittn",
+          "country_code": "US",
+          "Rank": 4719,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8208289/ecb7a60f49d8499c3c3004d2b77aa5b651ba52dd3a62613831c47220ff1053b6.jpeg"
+        },
+        {
+          "id": 10634348,
+          "Username": "EthantrixV2",
+          "country_code": "US",
+          "Rank": 2600,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c5.jpg"
+        }
+      ]
+    },
+    {
+      "FullName": "Arizona",
+      "FlagName": "AZ",
+      "Acronym": "AZ",
+      "SeedingResults": [],
+      "Seed": "13",
+      "LastYearPlacing": 1,
+      "AverageRank": 1506.1666666666667,
+      "Players": [
+        {
+          "id": 12350960,
+          "Username": "Xractiv",
+          "country_code": "US",
+          "Rank": 2023,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12350960/1b3d96248b90d30670f8c1e951dd4448b8987ef8985a09966c09e9d59246e909.jpeg"
+        },
+        {
+          "id": 3126596,
+          "Username": "Mlaw",
+          "country_code": "US",
+          "Rank": 108,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c8.jpg"
+        },
+        {
+          "id": 11509631,
+          "Username": "Hagawobla",
+          "country_code": "US",
+          "Rank": 297,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11509631/ceffa2a4bfcfae7a4bebc2fafbd7781dc6083c8e0150e5da0f3e39f35f32f0b0.png"
+        },
+        {
+          "id": 5009715,
+          "Username": "REIGN OF FEAR",
+          "country_code": "US",
+          "Rank": 1366,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/5009715/b76ff678605e5196dbc4c677ee82dc3f5d4de3d7728ca1ede3cafc71444f071e.jpeg"
+        },
+        {
+          "id": 11555612,
+          "Username": "Mejiro McQueen",
+          "country_code": "US",
+          "Rank": 2578,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11555612/db0a4142f48cd7d44cc937d45803fd3b6a77e33cb3c1fce4c45d5ad2d6a982f7.png"
+        },
+        {
+          "id": 11236555,
+          "Username": "ordinary",
+          "country_code": "US",
+          "Rank": 2665,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11236555/77b33497eef1ff02cba1825280cad317e933b089e0284fda5882f5b41592a3c1.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Ohio",
+      "FlagName": "OH",
+      "Acronym": "OH",
+      "SeedingResults": [],
+      "Seed": "14",
+      "LastYearPlacing": 1,
+      "AverageRank": 2025.1666666666667,
+      "Players": [
+        {
+          "id": 3043603,
+          "Username": "kablaze",
+          "country_code": "US",
+          "Rank": 284,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3043603/357e7f3d1b8ccccbe1a3fe0f2b4341a1fa062b220b7243d5c32d35653a88051a.jpeg"
+        },
+        {
+          "id": 13214651,
+          "Username": "Talullah",
+          "country_code": "US",
+          "Rank": 222,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13214651/12adebea78e61fc77c07e56a17a1cb65a184f77093153f3f447c42aff0d71b93.jpeg"
+        },
+        {
+          "id": 5116930,
+          "Username": "ShotgunApe",
+          "country_code": "US",
+          "Rank": 915,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/5116930/85cdbd1bc5e809931ef5efbb56781bb043256622024d06600755c07eeb8cfcad.jpeg"
+        },
+        {
+          "id": 8408501,
+          "Username": "Bread_Instead",
+          "country_code": "US",
+          "Rank": 2865,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8408501/38490a157fb1fe32eb980d170ae0003ce4ccc13e0bab8949e9104829d3b40adc.jpeg"
+        },
+        {
+          "id": 9480633,
+          "Username": "Alexc99xd",
+          "country_code": "US",
+          "Rank": 2892,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9480633/c2d11c8a0d689474555b801330dd1b827c7a402f29e25e4eaa5e53c765e426db.jpeg"
+        },
+        {
+          "id": 15676983,
+          "Username": "HiddenDagger",
+          "country_code": "US",
+          "Rank": 4973,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/15676983/9c11821c26b5be08865d63434a594b118398d8e70dd1e3503aad0feb05a8ffbd.png"
+        }
+      ]
+    },
+    {
+      "FullName": "Tennessee",
+      "FlagName": "TN",
+      "Acronym": "TN",
+      "SeedingResults": [],
+      "Seed": "15",
+      "LastYearPlacing": 1,
+      "AverageRank": 2698.5,
+      "Players": [
+        {
+          "id": 6895187,
+          "Username": "Suicune3",
+          "country_code": "US",
+          "Rank": 5333,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6895187/c505df17bbe6bed9398b904623e24e80fc3abe1a81b32b68fbfc6907c26e06b4.jpeg"
+        },
+        {
+          "id": 12260184,
+          "Username": "-Koda",
+          "country_code": "US",
+          "Rank": 647,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12260184/8cd03db3cd8d5b348233b4e8c0201b17efdf3abdcefdd5d49d536932901790e5.jpeg"
+        },
+        {
+          "id": 7825971,
+          "Username": "Firiiu",
+          "country_code": "US",
+          "Rank": 889,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7825971/0aa15a98f0c1de92d2439fea54c9982b8865f2dc77f2c4030562f8901c423b05.png"
+        },
+        {
+          "id": 17064861,
+          "Username": "Srr",
+          "country_code": "US",
+          "Rank": 849,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/17064861/a122150e82fb655c70413110d06a780be5bc4f9a3d8100233bb08d8d99b69adb.jpeg"
+        },
+        {
+          "id": 6788821,
+          "Username": "Dempsey",
+          "country_code": "US",
+          "Rank": 2657,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6788821/ed1a772bc6fe0f0a218c9f5c7058c77cc3aa5c5c98e7e98a4f56a2cf602a01bb.jpeg"
+        },
+        {
+          "id": 12067984,
+          "Username": "Zetako",
+          "country_code": "US",
+          "Rank": 5816,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12067984/e3e1af87ba288f94c223292e5927ae7da196f5365800e36abf593eda2b6504d3.png"
+        }
+      ]
+    },
+    {
+      "FullName": "Kanssouri",
+      "FlagName": "KS",
+      "Acronym": "KSMO",
+      "SeedingResults": [],
+      "Seed": "16",
+      "LastYearPlacing": 1,
+      "AverageRank": 3201.8333333333335,
+      "Players": [
+        {
+          "id": 4497691,
+          "Username": "Fangzy",
+          "country_code": "US",
+          "Rank": 540,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4497691/2af0598c6f096caeaa304ae98077b944be0b6dcb6efaf48954f3a8eb80f55a2e.png"
+        },
+        {
+          "id": 10323184,
+          "Username": "Flaro",
+          "country_code": "US",
+          "Rank": 17,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10323184/ab40dc1ae55a29b22ca755bbe0fbe19647fada155d9bef8db605c21e7a54c794.gif"
+        },
+        {
+          "id": 11005307,
+          "Username": "Sour_Sangoose",
+          "country_code": "US",
+          "Rank": 1689,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11005307/74755d6147dd5549d28f6d067b831f6f146422b065e1394208854da10d15a0ba.png"
+        },
+        {
+          "id": 8525223,
+          "Username": "Sympli",
+          "country_code": "US",
+          "Rank": 3267,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8525223/89f526487812e1f50bd4db0dd8936340a09ceb6996a6a5a3e3c8d2cb51ee2660.jpeg"
+        },
+        {
+          "id": 12522447,
+          "Username": "1ncert",
+          "country_code": "US",
+          "Rank": 5756,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12522447/ac1f0fcd836809b85779301b88e959979d6e176b4cea75f186ae9e054dbd0d1c.jpeg"
+        },
+        {
+          "id": 11740073,
+          "Username": "846553767646068",
+          "country_code": "US",
+          "Rank": 7942,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11740073/0a93042c559f1698217009b3d09c1c4e8b8ea11122506d27896a1795563d8686.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Georgia",
+      "FlagName": "GA",
+      "Acronym": "GA",
+      "SeedingResults": [],
+      "Seed": "17",
+      "LastYearPlacing": 1,
+      "AverageRank": 2947.1666666666665,
+      "Players": [
+        {
+          "id": 7279141,
+          "Username": "stacker",
+          "country_code": "US",
+          "Rank": 850,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7279141/aeb2871ea388dde30d122c0d265ae439b0d13b32017dd54a4e92331276e4c797.jpeg"
+        },
+        {
+          "id": 4470775,
+          "Username": "razorfruit",
+          "country_code": "US",
+          "Rank": 249,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c8.jpg"
+        },
+        {
+          "id": 15526534,
+          "Username": "speedkittymeowm",
+          "country_code": "US",
+          "Rank": 1227,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/15526534/c2317cca54ee0381f820349e8c24356bb67fe69488c0c44d2da975acf45c635f.jpeg"
+        },
+        {
+          "id": 7127366,
+          "Username": "Shauns",
+          "country_code": "US",
+          "Rank": 3978,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7127366/c4822d65f584d2d8c27c874bc290a9c34e979c8fc81c4f47e008b26379276ad8.jpeg"
+        },
+        {
+          "id": 11488178,
+          "Username": "veryasian",
+          "country_code": "US",
+          "Rank": 4827,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11488178/cc5beea43c58185f01e0edb2832d923f1fda1f84c5d3f08cae7fbd8bf0a57ffd.jpeg"
+        },
+        {
+          "id": 25306176,
+          "Username": "owoMaxx",
+          "country_code": "US",
+          "Rank": 6552,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/25306176/05c3b4398c86902b3b8ee3b95d2b68c2b8de4def4e91c625a87d4aadb231fb57.png"
+        }
+      ]
+    },
+    {
+      "FullName": "Minnesota",
+      "FlagName": "MN",
+      "Acronym": "MN",
+      "SeedingResults": [],
+      "Seed": "18",
+      "LastYearPlacing": 1,
+      "AverageRank": 2998.3333333333335,
+      "Players": [
+        {
+          "id": 11269055,
+          "Username": "creepy reader",
+          "country_code": "US",
+          "Rank": 126,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11269055/c2a8177ec68f6237fd348765f10bb0ed76f8063b47e0f915964b461d5f30e02a.jpeg"
+        },
+        {
+          "id": 15556397,
+          "Username": "- deston -",
+          "country_code": "US",
+          "Rank": 830,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/15556397/6c11baf8d98739e90662ee72b2da0a786db47c6c617a2766120e1dfa517adb19.png"
+        },
+        {
+          "id": 8563062,
+          "Username": "Eaves",
+          "country_code": "US",
+          "Rank": 2376,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8563062/129d14823de9909f11b50aad380eed9a7412f82393784b967c40f142fe5ff15c.jpeg"
+        },
+        {
+          "id": 8589120,
+          "Username": "Lilian",
+          "country_code": "US",
+          "Rank": 3370,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8589120/1a94d489117ce64b6522d27398da1482c97001c094db7f8a1dbb00bc205de6cf.jpeg"
+        },
+        {
+          "id": 15787738,
+          "Username": "Avias_",
+          "country_code": "US",
+          "Rank": 5715,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c4.jpg"
+        },
+        {
+          "id": 14040540,
+          "Username": "Kirii-",
+          "country_code": "US",
+          "Rank": 5573,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14040540/7bf7d73f8bdc6b2598b92fab423dd6824b2fa28282348ab4f741093b206eef26.png"
+        }
+      ]
+    },
+    {
+      "FullName": "Oregon",
+      "FlagName": "OR",
+      "Acronym": "OR",
+      "SeedingResults": [],
+      "Seed": "19",
+      "LastYearPlacing": 1,
+      "AverageRank": 2896.1666666666665,
+      "Players": [
+        {
+          "id": 4830687,
+          "Username": "BoshyMan741",
+          "country_code": "US",
+          "Rank": 235,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4830687/98a16d60f203f4f122f8657fd562475b98a78877b3577c88a2495b4c217ec9e7.jpeg"
+        },
+        {
+          "id": 3621226,
+          "Username": "Kamykazi",
+          "country_code": "US",
+          "Rank": 1104,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3621226/57e311aa350cbb05398d9caa888b51d397a2a9695be5e3ccdbf6ae18cfdc3d76.jpeg"
+        },
+        {
+          "id": 4673649,
+          "Username": "-Schwarts",
+          "country_code": "US",
+          "Rank": 2409,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4673649/59abe0cf1fab9a44bac1cc77d61c0dfb2c872850d186b2cf6ca1257ec1bd6607.jpeg"
+        },
+        {
+          "id": 12086452,
+          "Username": "Tile",
+          "country_code": "US",
+          "Rank": 3860,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12086452/56aa5ec2e56a7642507bb004f1bc3318c9ef61f91746ee1ee8c0163c9743941b.jpeg"
+        },
+        {
+          "id": 3638962,
+          "Username": "-Tynamo",
+          "country_code": "US",
+          "Rank": 4697,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3638962/7b5cbca5d2c5452f752b83e29c3e55d7936114c6beb1b0f40cb3b77bdfc92a44.jpeg"
+        },
+        {
+          "id": 14364661,
+          "Username": "_moop",
+          "country_code": "US",
+          "Rank": 5072,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14364661/55feeb890a26a4f0a6943f444d9180b35ad293d9024ea8089f309d98bf86fd5a.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Colorado",
+      "FlagName": "CO",
+      "Acronym": "CO",
+      "SeedingResults": [],
+      "Seed": "20",
+      "LastYearPlacing": 1,
+      "AverageRank": 4362.666666666667,
+      "Players": [
+        {
+          "id": 10909049,
+          "Username": "Crestive",
+          "country_code": "US",
+          "Rank": 913,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10909049/38e55edae34c2e412e619be7b1a420ab7a5304d0d11478285bd4f4502e4d41ea.jpeg"
+        },
+        {
+          "id": 3360947,
+          "Username": "_WinRAWR",
+          "country_code": "US",
+          "Rank": 1705,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c5.jpg"
+        },
+        {
+          "id": 8645257,
+          "Username": "Kurisu",
+          "country_code": "US",
+          "Rank": 3052,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8645257/1025d4c38fc56737f16334b07495b043d5b908eeb88dc6544b20a65c3d114514.png"
+        },
+        {
+          "id": 7739540,
+          "Username": "Justice",
+          "country_code": "US",
+          "Rank": 2951,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7739540/6272b4ec02100c443ecceebb75c22f440d2079cf56f097ce8c6d33f2dd8bc758.jpeg"
+        },
+        {
+          "id": 9536345,
+          "Username": "Spoodermane",
+          "country_code": "US",
+          "Rank": 3080,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9536345/0bce7a0f4c77c131683ec960c549fbe93cd651db048deb359d363808a9e349ef.jpeg"
+        },
+        {
+          "id": 12801181,
+          "Username": "GLORYHAM",
+          "country_code": "US",
+          "Rank": 14475,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c4.jpg"
+        }
+      ]
+    },
+    {
+      "FullName": "Oklahoma",
+      "FlagName": "OK",
+      "Acronym": "OK",
+      "SeedingResults": [],
+      "Seed": "21",
+      "LastYearPlacing": 1,
+      "AverageRank": 6677.833333333333,
+      "Players": [
+        {
+          "id": 14139392,
+          "Username": "bazingasdead",
+          "country_code": "US",
+          "Rank": 979,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14139392/e75d3946ad30b63adb5ae0ae97dfb825beb9d1628b8f415f715140d32cd0f94b.jpeg"
+        },
+        {
+          "id": 16036374,
+          "Username": "Made of Fire",
+          "country_code": "US",
+          "Rank": 1377,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/16036374/692a05481ae2ca5274188c8b340639aaa52ad67ffe5043cdec6d5c5d9e8cbdb9.gif"
+        },
+        {
+          "id": 13182910,
+          "Username": "XD piranha",
+          "country_code": "US",
+          "Rank": 3154,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13182910/ecf03fad3fa3d4f8646bee9f3b841e75b787ca199deb65e28e533964b55134b0.png"
+        },
+        {
+          "id": 13915613,
+          "Username": "Aezhin",
+          "country_code": "US",
+          "Rank": 3773,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13915613/197494e13db009aa78665757e76dff86aebb40e190136f5fe3995b7df644db91.png"
+        },
+        {
+          "id": 9501038,
+          "Username": "Phaisf",
+          "country_code": "US",
+          "Rank": 10874,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9501038/7ebb5298b8eacbd1cc98755cbe9ed98ca2f5a9c396ba2dceaeec4878c16d1ec0.gif"
+        },
+        {
+          "id": 15984499,
+          "Username": "Takasaki Yu",
+          "country_code": "US",
+          "Rank": 19910,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/15984499/f23de632916d3cff9ca669a2108336a9710599714aa14baab36475e191a7494b.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Alabama",
+      "FlagName": "AL",
+      "Acronym": "AL",
+      "SeedingResults": [],
+      "Seed": "22",
+      "LastYearPlacing": 1,
+      "AverageRank": 5702.5,
+      "Players": [
+        {
+          "id": 13097638,
+          "Username": "Juicy-",
+          "country_code": "US",
+          "Rank": 1863,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13097638/aaf86788bd66ac50db111a9f4c9cfd32fc754740ea0377127c89cdaacb5ca0fb.jpeg"
+        },
+        {
+          "id": 3937562,
+          "Username": "SoraElohim",
+          "country_code": "US",
+          "Rank": 1778,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c3.jpg"
+        },
+        {
+          "id": 6584831,
+          "Username": "-Solar-",
+          "country_code": "US",
+          "Rank": 2475,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6584831/4b2c458acc6f4cd4440faa2365860f917260282199a2454e03c0e3c6cbbb27d1.jpeg"
+        },
+        {
+          "id": 11612720,
+          "Username": "glyph nyan osu",
+          "country_code": "US",
+          "Rank": 4037,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11612720/f1eaf22ff03da46fa6c67266c615cabaa713f35ede3abcc2eee8b98fe0edb677.png"
+        },
+        {
+          "id": 4200090,
+          "Username": "Frostcage",
+          "country_code": "US",
+          "Rank": 9115,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4200090/478a71b4cadd42bcf6b71a6be77d1b110421591e878f47fd6e936487b63c7c77.jpeg"
+        },
+        {
+          "id": 14842245,
+          "Username": "ytk",
+          "country_code": "US",
+          "Rank": 14947,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c6.jpg"
+        }
+      ]
+    },
+    {
+      "FullName": "Illinois",
+      "FlagName": "IL",
+      "Acronym": "IL",
+      "SeedingResults": [],
+      "Seed": "23",
+      "LastYearPlacing": 1,
+      "AverageRank": 3709.8333333333335,
+      "Players": [
+        {
+          "id": 10653742,
+          "Username": "KazakhstanTop1",
+          "country_code": "US",
+          "Rank": 2270,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10653742/d3e5bc27e007ffe7e7d5d234eafb6b2003d2d29337d0799068c54fac6a448ded.jpeg"
+        },
+        {
+          "id": 13295340,
+          "Username": "Shiviel",
+          "country_code": "US",
+          "Rank": 2532,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13295340/054002a5feab59063d2e953434fbc7ec688a2d1a2a897cc35fe262c4dee2a7de.jpeg"
+        },
+        {
+          "id": 10690527,
+          "Username": "cr00k",
+          "country_code": "US",
+          "Rank": 2953,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10690527/dfc3efa61a0d2392db55c373087d948b515a314ebbc3cdf1382c98b072d2c98c.png"
+        },
+        {
+          "id": 6102099,
+          "Username": "petr",
+          "country_code": "US",
+          "Rank": 3009,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6102099/78f8f387c5590c2baddfa4737e310811925f9a7a27b22b47e80fe87382dd2886.png"
+        },
+        {
+          "id": 13411698,
+          "Username": "BweedonMei",
+          "country_code": "US",
+          "Rank": 4749,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13411698/4ce540f6f7c8b8626980cadd64dc420992c442509f7b280ff00b90fe89bf8412.png"
+        },
+        {
+          "id": 19686199,
+          "Username": "Arkanjl",
+          "country_code": "US",
+          "Rank": 6746,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c8.jpg"
+        }
+      ]
+    },
+    {
+      "FullName": "Michigan",
+      "FlagName": "MI",
+      "Acronym": "MI",
+      "SeedingResults": [],
+      "Seed": "24",
+      "LastYearPlacing": 1,
+      "AverageRank": 4554.833333333333,
+      "Players": [
+        {
+          "id": 13241562,
+          "Username": "DarkScrap",
+          "country_code": "US",
+          "Rank": 1459,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13241562/082e23df117d28d83b6b91d416573f292872ad4d676d803a80a2e8d9c800e7c2.jpeg"
+        },
+        {
+          "id": 8082362,
+          "Username": "TrickyPugster",
+          "country_code": "US",
+          "Rank": 146,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8082362/920608a8ab537f269c8e5e83a142bddaf1e13ff2dcd9c50f7c0ba9a1b3266944.jpeg"
+        },
+        {
+          "id": 3619583,
+          "Username": "Blendra",
+          "country_code": "US",
+          "Rank": 3809,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3619583/66f7880214976b87467675a4dc14a71ac2963d2836ab02822c586ab4c3c72d42.jpeg"
+        },
+        {
+          "id": 10194478,
+          "Username": "Hogrider",
+          "country_code": "US",
+          "Rank": 5439,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10194478/65d2fe2f0891d8240783c90256484c712b7b16d4159136bf099ea730dc1bcf42.jpeg"
+        },
+        {
+          "id": 12220376,
+          "Username": "Umar",
+          "country_code": "US",
+          "Rank": 7212,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12220376/1de9176b5d8451bc86537fdb58fbb14ef29038da188d43e50067fb33cdb38d5a.jpeg"
+        },
+        {
+          "id": 6100304,
+          "Username": "Jhon",
+          "country_code": "US",
+          "Rank": 9264,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6100304/89f30b6e6adaa3cb501f397e1aa332fd9406a317ce9f66c89c682ca0faf761f6.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Arkansas",
+      "FlagName": "AR",
+      "Acronym": "AR",
+      "SeedingResults": [],
+      "Seed": "25",
+      "LastYearPlacing": 1,
+      "AverageRank": 4720.5,
+      "Players": [
+        {
+          "id": 7611178,
+          "Username": "Pincus",
+          "country_code": "US",
+          "Rank": 174,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7611178/e3dda1c871cf1f36541f2e96a2a939d22514204e9053d3a590c07146f4605acb.gif"
+        },
+        {
+          "id": 13766265,
+          "Username": "Exen",
+          "country_code": "US",
+          "Rank": 2477,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13766265/cefdbe9ff32a148e81d0140da9599977d44f3df348fd69eb0387fae0c61e4964.jpeg"
+        },
+        {
+          "id": 6772064,
+          "Username": "Zycryve",
+          "country_code": "US",
+          "Rank": 3292,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6772064/8dd1ca95a61c88677746f0fcdfecc32ca85ada9b1b7ad8945dbdcc8819086e4c.jpeg"
+        },
+        {
+          "id": 6720784,
+          "Username": "Yuyuko",
+          "country_code": "US",
+          "Rank": 4978,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6720784/6d5356d6887166f4b5dfb8106b373c4738e669263b438a286bb9e1c422b5ed3a.jpeg"
+        },
+        {
+          "id": 9948665,
+          "Username": "vYper2011",
+          "country_code": "US",
+          "Rank": 5064,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9948665/4b623965e4f8320310fe8f3d5e219fe24633691e915a4ced1973ded4a034994e.jpeg"
+        },
+        {
+          "id": 12920831,
+          "Username": "[Vito]",
+          "country_code": "US",
+          "Rank": 12338,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12920831/bb8dfc62b538c9daf8832d333d00208946015be58cb8212f05ab756374507327.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Louisiana",
+      "FlagName": "LA",
+      "Acronym": "LA",
+      "SeedingResults": [],
+      "Seed": "26",
+      "LastYearPlacing": 1,
+      "AverageRank": 5571.0,
+      "Players": [
+        {
+          "id": 7461207,
+          "Username": "Gingah",
+          "country_code": "US",
+          "Rank": 8002,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7461207/3af15aff1f58dd082b84915cb374cdecb98ad15d810018ee6cfa6696c167fc31.jpeg"
+        },
+        {
+          "id": 7417094,
+          "Username": "James-",
+          "country_code": "US",
+          "Rank": 1654,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7417094/84fe7096fdc57668317f5b2b9350314e9314eb21a7a7c8f811b5169acdaa8c1b.jpeg"
+        },
+        {
+          "id": 10757301,
+          "Username": "Heimin",
+          "country_code": "US",
+          "Rank": 2264,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10757301/c5db54a7864bfa1c1d3e70847b3c1dc2f87e0ba345781b62f94f988daa990b66.jpeg"
+        },
+        {
+          "id": 7080240,
+          "Username": "codyszewski",
+          "country_code": "US",
+          "Rank": 3302,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7080240/70906cfbe82c4cd0c51da1dfbd7ae49f90b37c08059ed87b0fa27cfc160ca45d.jpeg"
+        },
+        {
+          "id": 14538547,
+          "Username": "Flufph",
+          "country_code": "US",
+          "Rank": 8599,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14538547/e947a6b0ffdbf554ddf678e7043ce36164351cf21e3c4801b7738f7bc8c73abb.jpeg"
+        },
+        {
+          "id": 10825836,
+          "Username": "kikoyu",
+          "country_code": "US",
+          "Rank": 9605,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10825836/dc47406e713232a596117d7a57b4dcf11c997fd3c89d2eacb7767462c7d519c6.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Stateless",
+      "FlagName": "N/",
+      "Acronym": "N/A",
+      "SeedingResults": [],
+      "Seed": "27",
+      "LastYearPlacing": 1,
+      "AverageRank": 6257.166666666667,
+      "Players": [
+        {
+          "id": 7516954,
+          "Username": "ZephyrCo",
+          "country_code": "US",
+          "Rank": 2800,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c3.jpg"
+        },
+        {
+          "id": 19013217,
+          "Username": "Armada",
+          "country_code": "US",
+          "Rank": 1193,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/19013217/be19d0289312a16fc65be05a526f9b5f9fae16acce1f934187253f180cf5a016.jpeg"
+        },
+        {
+          "id": 12055924,
+          "Username": "tengii",
+          "country_code": "US",
+          "Rank": 6442,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12055924/8595adb0341800a9678ee8e84705e6784d1ba4b71c624c5349f09ee51815a6e7.jpeg"
+        },
+        {
+          "id": 20804484,
+          "Username": "Fishyforyou",
+          "country_code": "US",
+          "Rank": 7062,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/20804484/d0ddc145cd793786f2f2fcdb0f2773706beb8e8b58fff1e379f9bc73c295ee32.gif"
+        },
+        {
+          "id": 11237996,
+          "Username": "Desire Blue sky",
+          "country_code": "US",
+          "Rank": 8842,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11237996/df886e749be85a18feab1801b68f6541365bd4b6ec4d9dade411a743da4c58d3.jpeg"
+        },
+        {
+          "id": 21765588,
+          "Username": "TheOGBaka",
+          "country_code": "US",
+          "Rank": 11204,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/21765588/9d7398dd08015bce327eeb8768831309e2d52584e1179a63fe2e78e9faa43880.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Wisconsin",
+      "FlagName": "WI",
+      "Acronym": "WI",
+      "SeedingResults": [],
+      "Seed": "28",
+      "LastYearPlacing": 1,
+      "AverageRank": 6758.666666666667,
+      "Players": [
+        {
+          "id": 7636779,
+          "Username": "Leebs",
+          "country_code": "US",
+          "Rank": 2044,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7636779/404f0f184d82f1026c1cd4fc4eaf0e77f27b2cb600e8709fa8128675f5a68bc7.jpeg"
+        },
+        {
+          "id": 6699829,
+          "Username": "Jona7117",
+          "country_code": "US",
+          "Rank": 3411,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6699829/282c98f44f3de888e8c0f05f1151a8e0700363a87315e731599a15cc7e360a9f.png"
+        },
+        {
+          "id": 10764969,
+          "Username": "ChivaJam",
+          "country_code": "US",
+          "Rank": 4205,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10764969/63ab44b23698a5d964208958cffa584d2059f982db157fb6d122d4f3fdce806d.jpeg"
+        },
+        {
+          "id": 7306251,
+          "Username": "Chromasia",
+          "country_code": "US",
+          "Rank": 8195,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7306251/9f3a47b1c6e95d9034e92aceb421c405976eb15ce241ed50c718d83d12ef2398.jpeg"
+        },
+        {
+          "id": 11068701,
+          "Username": "BoredBlaby",
+          "country_code": "US",
+          "Rank": 8798,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c4.jpg"
+        },
+        {
+          "id": 16202447,
+          "Username": "greeny111",
+          "country_code": "US",
+          "Rank": 13899,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/16202447/3f4dcec5801c0bf032b526287b4b15299e320ba86466ac35ff7ca4856db58867.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Nevada",
+      "FlagName": "NV",
+      "Acronym": "NV",
+      "SeedingResults": [],
+      "Seed": "29",
+      "LastYearPlacing": 1,
+      "AverageRank": 6595.5,
+      "Players": [
+        {
+          "id": 6013533,
+          "Username": "[ Floof ]",
+          "country_code": "US",
+          "Rank": 8558,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6013533/f355addd9088c5f9e9ed90cb2d44c1ae1d22a4cce6a369a996f9aa58868ece13.jpeg"
+        },
+        {
+          "id": 14719475,
+          "Username": "Webthesnail63",
+          "country_code": "US",
+          "Rank": 1770,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14719475/59b7909c3f466a40245829aaa1389b6092ae4f1de9bb17b6a3367ddfd94c3612.jpeg"
+        },
+        {
+          "id": 9804008,
+          "Username": "WildApe",
+          "country_code": "US",
+          "Rank": 3482,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c7.jpg"
+        },
+        {
+          "id": 20250190,
+          "Username": "OrangeJuic_",
+          "country_code": "US",
+          "Rank": 4462,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/20250190/98c88f8337e454e9d2b661fe16bac2b2cf77a7099dd2b5dbdbb1675cc945dd8c.jpeg"
+        },
+        {
+          "id": 11828209,
+          "Username": "Aerodite",
+          "country_code": "US",
+          "Rank": 9922,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11828209/cc431654fa9293a0fe1c177504d91b8e4984f0c85b6c9de07269c0a798afddb1.jpeg"
+        },
+        {
+          "id": 11740603,
+          "Username": "ayayrom",
+          "country_code": "US",
+          "Rank": 11379,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11740603/320e66b4940dfcdd11b6f8dbba9bc10d77f6b7dfc20b198ebe5627c363bd46b9.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Kentucky",
+      "FlagName": "KY",
+      "Acronym": "KY",
+      "SeedingResults": [],
+      "Seed": "30",
+      "LastYearPlacing": 1,
+      "AverageRank": 6217.666666666667,
+      "Players": [
+        {
+          "id": 12776754,
+          "Username": "Joyi",
+          "country_code": "US",
+          "Rank": 905,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12776754/c2d72a5aea8862bbbc29fa5a8ef99aaaeb4587bfe4aeb73af2c29ac5ba08f8eb.gif"
+        },
+        {
+          "id": 4973617,
+          "Username": "Kastellan",
+          "country_code": "US",
+          "Rank": 4993,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4973617/969d368195ef34bdb28c70b621bfd593f310294b6f563d69183087547c05de28.png"
+        },
+        {
+          "id": 12601823,
+          "Username": "GageRo",
+          "country_code": "US",
+          "Rank": 5115,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12601823/32d5073c359f93124ae3ed84c7695e74c1b5bb12228d15baea75b3d5d724427b.jpeg"
+        },
+        {
+          "id": 11273927,
+          "Username": "Zeeno",
+          "country_code": "US",
+          "Rank": 7607,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11273927/6901a5d1fa968be3d12345525aa786347307c4945753e6101c1f178ed4821c2b.png"
+        },
+        {
+          "id": 18195677,
+          "Username": "esq",
+          "country_code": "US",
+          "Rank": 9245,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/18195677/98169e4741a7ae5192948337091da077bb8b2e197169e09fd833c48b30653006.png"
+        },
+        {
+          "id": 12168835,
+          "Username": "cash",
+          "country_code": "US",
+          "Rank": 9441,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12168835/28e7151c8bb84d9d5918bf811853c3471b35b6b55568ef3d33ae35a7d0bc1e90.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Indiana",
+      "FlagName": "IN",
+      "Acronym": "IN",
+      "SeedingResults": [],
+      "Seed": "31",
+      "LastYearPlacing": 1,
+      "AverageRank": 7721.5,
+      "Players": [
+        {
+          "id": 2609349,
+          "Username": "Weed",
+          "country_code": "US",
+          "Rank": 6364,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/2609349/8e9eb045c8057e92cc9a8182ab27b7900bf17ba3bb9b555bb65ab7af55df419e.jpeg"
+        },
+        {
+          "id": 9828300,
+          "Username": "itzpigeon",
+          "country_code": "US",
+          "Rank": 4185,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c2.jpg"
+        },
+        {
+          "id": 12967587,
+          "Username": "Hinokami Kagura",
+          "country_code": "US",
+          "Rank": 4531,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12967587/2081fa26d941bdcff9956cb371228946f3704ce66d5f39d18ae477fcfa1d7c50.jpeg"
+        },
+        {
+          "id": 11980735,
+          "Username": "superalv123",
+          "country_code": "US",
+          "Rank": 9309,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11980735/0c1bacf14d7d1526c082c1d88da62263fa0a0c17daaae4dcef7e5eaa17cf34b6.png"
+        },
+        {
+          "id": 4437927,
+          "Username": "Jtcantwell",
+          "country_code": "US",
+          "Rank": 10576,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4437927/5bc43297ef4326656f96b7e52b2a9509eac296f0dcdfd8be41a961dff3ca8df6.jpeg"
+        },
+        {
+          "id": 12967296,
+          "Username": "-Maine-",
+          "country_code": "US",
+          "Rank": 11364,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12967296/7ba580c422cfbb7007b142e73eaa017531b51f8cbfdf0a89cc1f46b8f4b6a497.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Alaska",
+      "FlagName": "AK",
+      "Acronym": "AK",
+      "SeedingResults": [],
+      "Seed": "32",
+      "LastYearPlacing": 1,
+      "AverageRank": 5769.5,
+      "Players": [
+        {
+          "id": 13129996,
+          "Username": "showgate",
+          "country_code": "US",
+          "Rank": 10414,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13129996/21318178b34c5afa7225304d12ce477de2c20775760e17882c27911499170ac5.jpeg"
+        },
+        {
+          "id": 14826391,
+          "Username": "Stxrmy",
+          "country_code": "US",
+          "Rank": 3904,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14826391/49894fa6fdaed9e41f95d943f5a45c7a11abb416080d8144f988c0ffb74cc41d.jpeg"
+        },
+        {
+          "id": 12781767,
+          "Username": "Tristan",
+          "country_code": "US",
+          "Rank": 4332,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12781767/f7ca2358af0de8620ce274c69b31131531d9b0b8be2d6b84063315e4dd18f650.jpeg"
+        },
+        {
+          "id": 6812094,
+          "Username": "ieu-",
+          "country_code": "US",
+          "Rank": 4428,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6812094/be2811a8e3d991f7f5bd0ee8b1b1ef8e3274c67c72ada3617ca16d6595ce8ddb.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Connecticut",
+      "FlagName": "CT",
+      "Acronym": "CT",
+      "SeedingResults": [],
+      "Seed": "33",
+      "LastYearPlacing": 1,
+      "AverageRank": 8591.5,
+      "Players": [
+        {
+          "id": 11536421,
+          "Username": "zfr",
+          "country_code": "US",
+          "Rank": 10759,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11536421/556b8f04aacb7efdff9119cdc12cb66eab1078df27eadd83800b520ef0756b67.jpeg"
+        },
+        {
+          "id": 14024115,
+          "Username": "zivxare",
+          "country_code": "US",
+          "Rank": 1550,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14024115/2e4516e4094f508e1e625ad498c6c96e1676ea138cc9560874ee8a89bd7b0cf8.jpeg"
+        },
+        {
+          "id": 12045415,
+          "Username": "Redbirdkai",
+          "country_code": "US",
+          "Rank": 9076,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12045415/758a2c78284e845a4d6ecb49b413cb64406dfe4fa9dc5c0ec34fa33275913d5d.jpeg"
+        },
+        {
+          "id": 12616850,
+          "Username": "Miisted",
+          "country_code": "US",
+          "Rank": 12981,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12616850/417f4b61ea5250cd3b5951a5c32bcf506782a7b742a17b2f89dfd36ec185aff0.png"
+        }
+      ]
+    }
+  ],
+  "Progressions": [
+    {
+      "SourceID": 1,
+      "TargetID": 2
+    },
+    {
+      "SourceID": 3,
+      "TargetID": 2
+    },
+    {
+      "SourceID": 5,
+      "TargetID": 6
+    },
+    {
+      "SourceID": 7,
+      "TargetID": 6
+    },
+    {
+      "SourceID": 9,
+      "TargetID": 10
+    },
+    {
+      "SourceID": 11,
+      "TargetID": 10
+    },
+    {
+      "SourceID": 13,
+      "TargetID": 14
+    },
+    {
+      "SourceID": 16,
+      "TargetID": 14
+    },
+    {
+      "SourceID": 18,
+      "TargetID": 19
+    },
+    {
+      "SourceID": 20,
+      "TargetID": 19
+    },
+    {
+      "SourceID": 22,
+      "TargetID": 23
+    },
+    {
+      "SourceID": 24,
+      "TargetID": 23
+    },
+    {
+      "SourceID": 26,
+      "TargetID": 27
+    },
+    {
+      "SourceID": 28,
+      "TargetID": 27
+    },
+    {
+      "SourceID": 30,
+      "TargetID": 31
+    },
+    {
+      "SourceID": 32,
+      "TargetID": 31
+    },
+    {
+      "SourceID": 2,
+      "TargetID": 4
+    },
+    {
+      "SourceID": 6,
+      "TargetID": 4
+    },
+    {
+      "SourceID": 10,
+      "TargetID": 12
+    },
+    {
+      "SourceID": 14,
+      "TargetID": 12
+    },
+    {
+      "SourceID": 19,
+      "TargetID": 21
+    },
+    {
+      "SourceID": 23,
+      "TargetID": 21
+    },
+    {
+      "SourceID": 27,
+      "TargetID": 29
+    },
+    {
+      "SourceID": 31,
+      "TargetID": 29
+    },
+    {
+      "SourceID": 12,
+      "TargetID": 8
+    },
+    {
+      "SourceID": 4,
+      "TargetID": 8
+    },
+    {
+      "SourceID": 21,
+      "TargetID": 25
+    },
+    {
+      "SourceID": 29,
+      "TargetID": 25
+    },
+    {
+      "SourceID": 8,
+      "TargetID": 15
+    },
+    {
+      "SourceID": 25,
+      "TargetID": 15
+    },
+    {
+      "SourceID": 15,
+      "TargetID": 17
+    },
+    {
+      "SourceID": 36,
+      "TargetID": 35
+    },
+    {
+      "SourceID": 41,
+      "TargetID": 40
+    },
+    {
+      "SourceID": 44,
+      "TargetID": 43
+    },
+    {
+      "SourceID": 47,
+      "TargetID": 46
+    },
+    {
+      "SourceID": 51,
+      "TargetID": 50
+    },
+    {
+      "SourceID": 55,
+      "TargetID": 54
+    },
+    {
+      "SourceID": 58,
+      "TargetID": 57
+    },
+    {
+      "SourceID": 61,
+      "TargetID": 60
+    },
+    {
+      "SourceID": 35,
+      "TargetID": 38
+    },
+    {
+      "SourceID": 40,
+      "TargetID": 38
+    },
+    {
+      "SourceID": 43,
+      "TargetID": 45
+    },
+    {
+      "SourceID": 46,
+      "TargetID": 45
+    },
+    {
+      "SourceID": 50,
+      "TargetID": 53
+    },
+    {
+      "SourceID": 54,
+      "TargetID": 53
+    },
+    {
+      "SourceID": 57,
+      "TargetID": 59
+    },
+    {
+      "SourceID": 60,
+      "TargetID": 59
+    },
+    {
+      "SourceID": 45,
+      "TargetID": 42
+    },
+    {
+      "SourceID": 53,
+      "TargetID": 49
+    },
+    {
+      "SourceID": 33,
+      "TargetID": 37
+    },
+    {
+      "SourceID": 59,
+      "TargetID": 56
+    },
+    {
+      "SourceID": 38,
+      "TargetID": 33
+    },
+    {
+      "SourceID": 42,
+      "TargetID": 37
+    },
+    {
+      "SourceID": 49,
+      "TargetID": 52
+    },
+    {
+      "SourceID": 56,
+      "TargetID": 52
+    },
+    {
+      "SourceID": 37,
+      "TargetID": 34
+    },
+    {
+      "SourceID": 52,
+      "TargetID": 48
+    },
+    {
+      "SourceID": 34,
+      "TargetID": 39
+    },
+    {
+      "SourceID": 48,
+      "TargetID": 39
+    },
+    {
+      "SourceID": 39,
+      "TargetID": 15
+    },
+    {
+      "SourceID": 1,
+      "TargetID": 36,
+      "Losers": true
+    },
+    {
+      "SourceID": 3,
+      "TargetID": 36,
+      "Losers": true
+    },
+    {
+      "SourceID": 8,
+      "TargetID": 48,
+      "Losers": true
+    },
+    {
+      "SourceID": 25,
+      "TargetID": 34,
+      "Losers": true
+    }
+  ],
+  "ChromaKeyWidth": 1024,
+  "PlayersPerTeam": 4,
+  "AutoProgressScreens": true,
+  "SplitMapPoolByMods": true
+}

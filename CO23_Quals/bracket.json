@@ -1,0 +1,71 @@
+{
+  "Ruleset": {
+    "ShortName": "osu",
+    "Name": "osu!",
+    "InstantiationInfo": "osu.Game.Rulesets.Osu.OsuRuleset, osu.Game.Rulesets.Osu",
+    "LastAppliedDifficultyVersion": 20220902,
+    "Available": true
+  },
+  "Matches": [
+    {
+      "ID": 1,
+      "Team1Acronym": "QUA",
+      "Team1Score": 0,
+      "Team2Acronym": "LOB",
+      "Team2Score": 0,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": true,
+      "Date": "2023-07-26T19:56:32.4732215+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 432,
+        "Y": 214
+      },
+      "Acronyms": [
+        "QUA",
+        "LOB"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 7
+    }
+  ],
+  "Rounds": [
+    {
+      "Name": "quals",
+      "Description": "",
+      "BestOf": 13,
+      "Beatmaps": [],
+      "StartDate": "2023-07-26T18:56:23.7611748+00:00",
+      "Matches": [
+        1
+      ]
+    }
+  ],
+  "Teams": [
+    {
+      "FullName": "quals",
+      "FlagName": "QU",
+      "Acronym": "QUA",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "Players": []
+    },
+    {
+      "FullName": "lobby",
+      "FlagName": "LO",
+      "Acronym": "LOB",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "Players": []
+    }
+  ],
+  "Progressions": [],
+  "ChromaKeyWidth": 1366,
+  "PlayersPerTeam": 4,
+  "AutoProgressScreens": true,
+  "SplitMapPoolByMods": true
+}

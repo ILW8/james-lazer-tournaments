@@ -1,0 +1,797 @@
+{
+  "Ruleset": {
+    "ShortName": "osu",
+    "Name": "osu!",
+    "InstantiationInfo": "osu.Game.Rulesets.Osu.OsuRuleset, osu.Game.Rulesets.Osu",
+    "Available": true
+  },
+  "Matches": [
+    {
+      "ID": 1,
+      "Team1Acronym": "SAK",
+      "Team1Score": 0,
+      "Team2Acronym": "KAR",
+      "Team2Score": 1,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": true,
+      "Date": "2022-07-08T14:00:00-07:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 273,
+        "Y": 296
+      },
+      "Acronyms": [
+        "SAK",
+        "KAR"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 3,
+      "Team1Acronym": "RYU",
+      "Team1Score": null,
+      "Team2Acronym": "TRA",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2022-07-08T14:00:00-07:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 272,
+        "Y": 551
+      },
+      "Acronyms": [
+        "RYU",
+        "TRA"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 2,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2022-07-08T04:53:55.9150769-07:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 567,
+        "Y": 420
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 5,
+      "Team1Acronym": "IM ",
+      "Team1Score": null,
+      "Team2Acronym": "FIE",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2022-07-08T14:00:00-07:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 269,
+        "Y": 650
+      },
+      "Acronyms": [
+        "IM ",
+        "FIE"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 7,
+      "Team1Acronym": "UTA",
+      "Team1Score": null,
+      "Team2Acronym": "GUR",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2022-07-08T04:54:55.4025424-07:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 269,
+        "Y": 922
+      },
+      "Acronyms": [
+        "UTA",
+        "GUR"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 6,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2022-07-08T11:55:04+00:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 566,
+        "Y": 785
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 4,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2022-07-08T11:55:12+00:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 886,
+        "Y": 595
+      },
+      "Acronyms": []
+    }
+  ],
+  "Rounds": [
+    {
+      "Name": "BATTLE ROYALE",
+      "Description": "",
+      "BestOf": 13,
+      "Beatmaps": [
+        {
+          "ID": 751180,
+          "BeatmapInfo": {
+            "OnlineID": 751180,
+            "DifficultyName": "captin's Extra",
+            "BPM": 210.0,
+            "Length": 178000.0,
+            "StarRating": 6.44,
+            "Metadata": {
+              "Title": "Streaming Heart",
+              "title_unicode": "ストリーミングハート",
+              "Artist": "Reol",
+              "artist_unicode": "れをる",
+              "Author": {
+                "OnlineID": 4785223,
+                "Username": "sukiNathan"
+              },
+              "Source": "",
+              "tags": "utaite cover giga giga-p captin1 captin crn caren_sk pishifat pishi byfar hatsune miku vocaloid deco*27 deco 初音ミク",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/339335/covers/cover@2x.jpg?1650631757",
+              "card@2x": "https://assets.ppy.sh/beatmaps/339335/covers/card@2x.jpg?1650631757",
+              "list@2x": "https://assets.ppy.sh/beatmaps/339335/covers/list@2x.jpg?1650631757"
+            }
+          }
+        },
+        {
+          "ID": 1997892,
+          "BeatmapInfo": {
+            "OnlineID": 1997892,
+            "DifficultyName": "Nephilim",
+            "BPM": 190.0,
+            "Length": 327000.0,
+            "StarRating": 7.5,
+            "Metadata": {
+              "Title": "Master Of Peace",
+              "title_unicode": "Master Of Peace",
+              "Artist": "Rhapsody Of Fire",
+              "artist_unicode": "Rhapsody Of Fire",
+              "Author": {
+                "OnlineID": 10510791,
+                "Username": "Chanci"
+              },
+              "Source": "",
+              "tags": "the eighth mountain symphonic power metal neoclassical english marathon itswinter silence player raiden",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/956155/covers/cover@2x.jpg?1650699572",
+              "card@2x": "https://assets.ppy.sh/beatmaps/956155/covers/card@2x.jpg?1650699572",
+              "list@2x": "https://assets.ppy.sh/beatmaps/956155/covers/list@2x.jpg?1650699572"
+            }
+          }
+        },
+        {
+          "ID": 1997892,
+          "BeatmapInfo": {
+            "OnlineID": 1997892,
+            "DifficultyName": "Nephilim",
+            "BPM": 190.0,
+            "Length": 327000.0,
+            "StarRating": 7.5,
+            "Metadata": {
+              "Title": "Master Of Peace",
+              "title_unicode": "Master Of Peace",
+              "Artist": "Rhapsody Of Fire",
+              "artist_unicode": "Rhapsody Of Fire",
+              "Author": {
+                "OnlineID": 10510791,
+                "Username": "Chanci"
+              },
+              "Source": "",
+              "tags": "the eighth mountain symphonic power metal neoclassical english marathon itswinter silence player raiden",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/956155/covers/cover@2x.jpg?1650699572",
+              "card@2x": "https://assets.ppy.sh/beatmaps/956155/covers/card@2x.jpg?1650699572",
+              "list@2x": "https://assets.ppy.sh/beatmaps/956155/covers/list@2x.jpg?1650699572"
+            }
+          }
+        },
+        {
+          "ID": 3382326,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 3382326,
+            "DifficultyName": "iei",
+            "BPM": 190.0,
+            "Length": 185000.0,
+            "StarRating": 6.84,
+            "Metadata": {
+              "Title": "nu ma",
+              "title_unicode": "nu ma",
+              "Artist": "nu ma",
+              "artist_unicode": "nu ma",
+              "Author": {
+                "OnlineID": 10840806,
+                "Username": "Seamob"
+              },
+              "Source": "",
+              "tags": "",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.2,
+              "CircleSize": 3.8,
+              "OverallDifficulty": 9.4,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1657104/covers/cover@2x.jpg?1642669223",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1657104/covers/card@2x.jpg?1642669223",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1657104/covers/list@2x.jpg?1642669223"
+            }
+          }
+        },
+        {
+          "ID": 1090928,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 1090928,
+            "DifficultyName": "Extreme",
+            "BPM": 195.0,
+            "Length": 181000.0,
+            "StarRating": 6.65,
+            "Metadata": {
+              "Title": "Smash Out!!",
+              "title_unicode": "Smash Out!!",
+              "Artist": "MY FIRST STORY",
+              "artist_unicode": "MY FIRST STORY",
+              "Author": {
+                "OnlineID": 4715762,
+                "Username": "FCL"
+              },
+              "Source": "",
+              "tags": "antithese emo rock alternative post-hardcore slayed rmdy neilperry",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.5,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.8,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/478289/covers/cover@2x.jpg?1650643512",
+              "card@2x": "https://assets.ppy.sh/beatmaps/478289/covers/card@2x.jpg?1650643512",
+              "list@2x": "https://assets.ppy.sh/beatmaps/478289/covers/list@2x.jpg?1650643512"
+            }
+          }
+        },
+        {
+          "ID": 431147,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 431147,
+            "DifficultyName": "Collab",
+            "BPM": 176.0,
+            "Length": 353000.0,
+            "StarRating": 4.93,
+            "Metadata": {
+              "Title": "Okaerinasai (tomatomerde Remix)",
+              "title_unicode": "おかえりなさい (tomatomerde Remix)",
+              "Artist": "Sakamoto Maaya",
+              "artist_unicode": "坂本真綾",
+              "Author": {
+                "OnlineID": 2155578,
+                "Username": "Azer"
+              },
+              "Source": "Tamayura ~hitotose~",
+              "tags": "tamayura&bass rlc those frostmourne 11t",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/179323/covers/cover@2x.jpg?1622074598",
+              "card@2x": "https://assets.ppy.sh/beatmaps/179323/covers/card@2x.jpg?1622074598",
+              "list@2x": "https://assets.ppy.sh/beatmaps/179323/covers/list@2x.jpg?1622074598"
+            }
+          }
+        },
+        {
+          "ID": 3021296,
+          "Mods": "FM",
+          "BeatmapInfo": {
+            "OnlineID": 3021296,
+            "DifficultyName": "Our Paths Have Converged For This Final Moment",
+            "BPM": 240.0,
+            "Length": 369000.0,
+            "StarRating": 7.81,
+            "Metadata": {
+              "Title": "Lost My Way",
+              "title_unicode": "Lost My Way",
+              "Artist": "FELT",
+              "artist_unicode": "FELT",
+              "Author": {
+                "OnlineID": 4369309,
+                "Username": "Lunicia"
+              },
+              "Source": "東方Project",
+              "tags": "video game japanese english stage 4 theme vivienne renko maurits\"禅\"cornelis cold snap desire drive seiga kaku zen mzc felt-015 コミックマーケット87 comiket87 c87 shinreibyou touhou w.nova デザイアドライブ tohou",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1471755/covers/cover@2x.jpg?1624257054",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1471755/covers/card@2x.jpg?1624257054",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1471755/covers/list@2x.jpg?1624257054"
+            }
+          }
+        }
+      ],
+      "StartDate": "2022-07-08T14:00:00-07:00",
+      "Matches": []
+    }
+  ],
+  "Teams": [
+    {
+      "FullName": "sakamata1",
+      "FlagName": "AU",
+      "Acronym": "SAK",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 1.0,
+      "Players": [
+        {
+          "id": 7562902,
+          "Username": "sakamata1",
+          "Country": {
+            "name": "Australia",
+            "code": "AU"
+          },
+          "Rank": 1,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c8.jpg"
+        }
+      ]
+    },
+    {
+      "FullName": "Kariyu",
+      "FlagName": "US",
+      "Acronym": "KAR",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 1008.0,
+      "Players": [
+        {
+          "id": 4733121,
+          "Username": "Kariyu",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 1008,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4733121/9f342ffcbe48e7bc36d670021a93c816d489b98a2503ebda26c8e9b017fd8941.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "RyuK",
+      "FlagName": "CA",
+      "Acronym": "RYU",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 8.0,
+      "Players": [
+        {
+          "id": 6304246,
+          "Username": "RyuK",
+          "Country": {
+            "name": "Canada",
+            "code": "CA"
+          },
+          "Rank": 8,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c3.jpg"
+        }
+      ]
+    },
+    {
+      "FullName": "Trail Mix",
+      "FlagName": "US",
+      "Acronym": "TRA",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 176.0,
+      "Players": [
+        {
+          "id": 3328742,
+          "Username": "Trail Mix",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 176,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3328742/bc1fd5cd4ae4307dc8e34a3a41aa3fc7ce39fcc15bc6d9f27d60022e95dd5db7.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "im a fancy lad",
+      "FlagName": "US",
+      "Acronym": "IM ",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 54.0,
+      "Players": [
+        {
+          "id": 4908650,
+          "Username": "im a fancy lad",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 54,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4908650/79854083e05cc5b5c9cddfb4e8132ab9a94b588ffa353eda1ca8d9dc6ce3e3dc.gif"
+        }
+      ]
+    },
+    {
+      "FullName": "fieryrage",
+      "FlagName": "US",
+      "Acronym": "FIE",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 111.0,
+      "Players": [
+        {
+          "id": 3533958,
+          "Username": "fieryrage",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 111,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3533958/9784b12545632555c96f5266e4b57343258da3b96e755e1b1e6cb6463dfbbac4.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Utami",
+      "FlagName": "US",
+      "Acronym": "UTA",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 4.0,
+      "Players": [
+        {
+          "id": 7512553,
+          "Username": "Utami",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 4,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7512553/a2627ed1ace6c9c56f55f595f75797ca1cb731a141c2d0d247bd00938122aef5.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Gurbzy",
+      "FlagName": "US",
+      "Acronym": "GUR",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 147.0,
+      "Players": [
+        {
+          "id": 12970596,
+          "Username": "Gurbzy",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 147,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12970596/e0aaff159ff8e279dad71e0ab1ac9d3608822e9288f36c1503333d6ee93d9efa.png"
+        }
+      ]
+    },
+    {
+      "FullName": "Apraxia",
+      "FlagName": "US",
+      "Acronym": "APR",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 455.0,
+      "Players": [
+        {
+          "id": 4194445,
+          "Username": "Apraxia",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 455,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4194445/5e73d23d987b0da86cb2e34ce6c5499075f5871faf5f85793173500152b4e794.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "headstack",
+      "FlagName": "US",
+      "Acronym": "HEA",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 624.0,
+      "Players": [
+        {
+          "id": 10322186,
+          "Username": "headstack",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 624,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10322186/c15b9d6b08b098e201bb5d4dd0bc87897685d3ca914fc4ac7fd588010175cecb.png"
+        }
+      ]
+    },
+    {
+      "FullName": "Mlaw",
+      "FlagName": "US",
+      "Acronym": "MLA",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 112.0,
+      "Players": [
+        {
+          "id": 3126596,
+          "Username": "Mlaw",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 112,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c8.jpg"
+        }
+      ]
+    },
+    {
+      "FullName": "kablaze",
+      "FlagName": "US",
+      "Acronym": "KAB",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 177.0,
+      "Players": [
+        {
+          "id": 3043603,
+          "Username": "kablaze",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 177,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3043603/357e7f3d1b8ccccbe1a3fe0f2b4341a1fa062b220b7243d5c32d35653a88051a.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Sytho",
+      "FlagName": "US",
+      "Acronym": "SYT",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 76.0,
+      "Players": [
+        {
+          "id": 4175698,
+          "Username": "Sytho",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 76,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4175698/a55e8e68d05046c8909f060cb336d377f34062bec02c48036e905f8a99cf96b5.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "KoaLeahq",
+      "FlagName": "US",
+      "Acronym": "KOA",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 169.0,
+      "Players": [
+        {
+          "id": 4321876,
+          "Username": "KoaLeahq",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 169,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4321876/b0f961224fc8cc1770a2caa6336ebc058afa95afcdc271beff523ef6e11134bd.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Mathyu",
+      "FlagName": "US",
+      "Acronym": "MAT",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 329.0,
+      "Players": [
+        {
+          "id": 6303313,
+          "Username": "Mathyu",
+          "Country": {
+            "name": "United States",
+            "code": "US"
+          },
+          "Rank": 329,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6303313/2a9a92ce43e7c77810693d25dbfdeda07fe2c5b66c50fe71355a0b1995e8ed52.png"
+        }
+      ]
+    },
+    {
+      "FullName": "Rupertion",
+      "FlagName": "CA",
+      "Acronym": "RUP",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": 1,
+      "AverageRank": 16.0,
+      "Players": [
+        {
+          "id": 5774823,
+          "Username": "Rupertion",
+          "Country": {
+            "name": "Canada",
+            "code": "CA"
+          },
+          "Rank": 16,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c7.jpg"
+        }
+      ]
+    }
+  ],
+  "Progressions": [
+    {
+      "SourceID": 1,
+      "TargetID": 2
+    },
+    {
+      "SourceID": 3,
+      "TargetID": 2
+    },
+    {
+      "SourceID": 2,
+      "TargetID": 4
+    },
+    {
+      "SourceID": 5,
+      "TargetID": 6
+    },
+    {
+      "SourceID": 7,
+      "TargetID": 6
+    },
+    {
+      "SourceID": 6,
+      "TargetID": 4
+    }
+  ],
+  "ChromaKeyWidth": 1024,
+  "PlayersPerTeam": 4
+}
