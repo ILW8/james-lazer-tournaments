@@ -265,10 +265,10 @@
     {
       "ID": 2,
       "Team1Acronym": "SEE",
-      "Team1Score": 0,
+      "Team1Score": 2,
       "Team2Acronym": "DRK",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -288,10 +288,10 @@
     {
       "ID": 6,
       "Team1Acronym": "SEE",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "SKR",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -305,7 +305,6 @@
         "SEE",
         "SKR"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -357,63 +356,12 @@
       "ID": 11,
       "Team1Acronym": "DIO",
       "Team1Score": 3,
-      "Team2Acronym": "234",
+      "Team2Acronym": "LOL",
       "Team2Score": 5,
       "Completed": true,
       "Losers": false,
-      "PicksBans": [
-        {
-          "Team": "Blue",
-          "Type": "Ban",
-          "BeatmapID": 4108775
-        },
-        {
-          "Team": "Red",
-          "Type": "Ban",
-          "BeatmapID": 687624
-        },
-        {
-          "Team": "Red",
-          "Type": "Pick",
-          "BeatmapID": 3186729
-        },
-        {
-          "Team": "Blue",
-          "Type": "Pick",
-          "BeatmapID": 4036151
-        },
-        {
-          "Team": "Red",
-          "Type": "Pick",
-          "BeatmapID": 1964320
-        },
-        {
-          "Team": "Blue",
-          "Type": "Pick",
-          "BeatmapID": 1776939
-        },
-        {
-          "Team": "Red",
-          "Type": "Pick",
-          "BeatmapID": 2918146
-        },
-        {
-          "Team": "Blue",
-          "Type": "Pick",
-          "BeatmapID": 3775432
-        },
-        {
-          "Team": "Red",
-          "Type": "Pick",
-          "BeatmapID": 118068
-        },
-        {
-          "Team": "Blue",
-          "Type": "Pick",
-          "BeatmapID": 3714679
-        }
-      ],
-      "Current": true,
+      "PicksBans": [],
+      "Current": false,
       "Date": "2023-07-23T14:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -422,14 +370,14 @@
       },
       "Acronyms": [
         "DIO",
-        "234"
+        "LOL"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 13,
-      "Team1Acronym": "234",
+      "Team1Acronym": "LOL",
       "Team1Score": 4,
       "Team2Acronym": "STE",
       "Team2Score": 5,
@@ -444,7 +392,7 @@
         "Y": 846
       },
       "Acronyms": [
-        "234",
+        "LOL",
         "STE"
       ],
       "WinnerColour": "Blue",
@@ -453,14 +401,55 @@
     {
       "ID": 16,
       "Team1Acronym": "DIO",
-      "Team1Score": null,
+      "Team1Score": 1,
       "Team2Acronym": "STE",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2023-07-30T13:00:00+01:00",
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1776939
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4036151
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2719439
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1964320
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2918146
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3021082
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 687624
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3714679
+        }
+      ],
+      "Current": true,
+      "Date": "2023-07-29T13:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -310,
@@ -477,7 +466,7 @@
       "ID": 15,
       "Team1Acronym": "GRI",
       "Team1Score": 4,
-      "Team2Acronym": "234",
+      "Team2Acronym": "LOL",
       "Team2Score": 5,
       "Completed": true,
       "Losers": false,
@@ -491,7 +480,7 @@
       },
       "Acronyms": [
         "GRI",
-        "234"
+        "LOL"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 5
@@ -499,10 +488,10 @@
     {
       "ID": 17,
       "Team1Acronym": "GRI",
-      "Team1Score": 2,
+      "Team1Score": 0,
       "Team2Acronym": "STE",
-      "Team2Score": 5,
-      "Completed": true,
+      "Team2Score": 0,
+      "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -1190,55 +1179,55 @@
       "SeedingResults": [],
       "Seed": "",
       "LastYearPlacing": 1,
-      "AverageRank": 337.57142857142856,
+      "AverageRank": 345.7142857142857,
       "Players": [
         {
           "id": 2511839,
           "Username": "Amamya Kokoro",
           "country_code": "KR",
-          "Rank": 223,
-          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/2511839/4e9a98ada27e7b5438d5999e777725de9ded13119c78959a68c0d1d118586cb9.jpeg"
+          "Rank": 224,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/2511839/15af4ebf2bbcd5b68a3def618d994df4de991eb6264bb274f44b3f3c90ce895b.png"
         },
         {
           "id": 12779141,
           "Username": "gnahus",
           "country_code": "PL",
-          "Rank": 4,
+          "Rank": 6,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12779141/dc5f919d6ac726c739aa20431cbc96727d0742eab49dd2cc49737aa5d64240e3.jpeg"
         },
         {
           "id": 6404027,
           "Username": "Bartek22830",
           "country_code": "PL",
-          "Rank": 191,
+          "Rank": 195,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6404027/149153455f38676120239186178b8036760df445bf640a6729441e4047f235c5.jpeg"
         },
         {
           "id": 1460263,
           "Username": "Pain",
           "country_code": "KR",
-          "Rank": 375,
+          "Rank": 385,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/1460263/0cae595924666d006a98e5d68bfe961bb9d4e24d465ecea8e3502287cccb6057.jpeg"
         },
         {
           "id": 10069909,
           "Username": "DEETO",
           "country_code": "ID",
-          "Rank": 733,
+          "Rank": 746,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10069909/5d89c8043368b805a98ee3e9fcbfaea03d82d60c23c5973429637379c48cf2c0.jpeg"
         },
         {
           "id": 6215032,
           "Username": "Orenburg",
           "country_code": "RU",
-          "Rank": 426,
+          "Rank": 438,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6215032/26e71fe4d11e0e00da28f3a26da660298d2aad08b4036b5b742e643f542aa515.png"
         },
         {
           "id": 7785655,
           "Username": "Pepsi Max",
           "country_code": "AU",
-          "Rank": 411,
+          "Rank": 426,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7785655/63b31e4e158304da346689e211b520c1cbd43c476d421e6a82013580ebb012b4.png"
         }
       ]
@@ -1250,62 +1239,62 @@
       "SeedingResults": [],
       "Seed": "",
       "LastYearPlacing": 1,
-      "AverageRank": 620.25,
+      "AverageRank": 620.75,
       "Players": [
         {
           "id": 12408961,
           "Username": "maliszewski",
           "country_code": "PL",
-          "Rank": 17,
+          "Rank": 18,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12408961/861fe1c0e41c0e665bf8809ca80463b9af273cda8304fc291749c81545531f99.jpeg"
         },
         {
           "id": 8359561,
           "Username": "mx10007",
           "country_code": "KR",
-          "Rank": 119,
-          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c4.jpg"
+          "Rank": 116,
+          "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c8.jpg"
         },
         {
           "id": 3543130,
           "Username": "Michni",
           "country_code": "PL",
-          "Rank": 938,
+          "Rank": 969,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3543130/be36ae8d2ea44749b19a88ffefc0d057fdb6112ecdccb3c4f930f129a5de4b7c.jpeg"
         },
         {
           "id": 3062998,
           "Username": "rollpan",
           "country_code": "JP",
-          "Rank": 668,
+          "Rank": 681,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3062998/127dd3fff7961f1f20b638065c7143daa02390024b4be4b5119e1a8764c9b278.png"
         },
         {
           "id": 5407620,
           "Username": "Tebi",
           "country_code": "SG",
-          "Rank": 850,
+          "Rank": 866,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/5407620/e06264176586bc8aabfebb91bdf867f69efb057f59908a7d5bdc0c1a3a20b2a1.jpeg"
         },
         {
           "id": 2787415,
           "Username": "MrPotato",
           "country_code": "IL",
-          "Rank": 768,
+          "Rank": 782,
           "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c8.jpg"
         },
         {
           "id": 7587763,
           "Username": "magnatagamer123",
           "country_code": "UA",
-          "Rank": 1143,
-          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7587763/9696aa358604f286cd5f582cb7bb3fce3adbac235f26329c571fef6289bb21b9.png"
+          "Rank": 1064,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7587763/c9eec387d9d6b7d7742524d1764969728afb2d08de0e39e8cdd4d22c4abefcab.png"
         },
         {
           "id": 6830745,
           "Username": "DaHuJka",
           "country_code": "RU",
-          "Rank": 459,
+          "Rank": 470,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6830745/89d61dd5177fde5b5858f1070132d11fc46a378e118fd8717bfa9bfc09298d6e.png"
         }
       ]
@@ -1317,62 +1306,62 @@
       "SeedingResults": [],
       "Seed": "",
       "LastYearPlacing": 1,
-      "AverageRank": 578.625,
+      "AverageRank": 571.375,
       "Players": [
         {
           "id": 4659319,
           "Username": "seegii",
           "country_code": "MN",
-          "Rank": 701,
+          "Rank": 712,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4659319/a027a85a0a7632faea42ac286b730b941d12de98a3a0cc0036b932ca2acde8f0.png"
         },
         {
           "id": 11443437,
           "Username": "mx10001",
           "country_code": "KR",
-          "Rank": 26,
+          "Rank": 27,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11443437/f6f94fec18f00a036e47b4c08ea31471fc1533f0ac84d8beb43e30bc607e5513.jpeg"
         },
         {
           "id": 10073635,
           "Username": "dench",
           "country_code": "UA",
-          "Rank": 85,
+          "Rank": 83,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10073635/736932f4e992fef45bcd3de8a3411ffc3304937ec6da1c122ea924a049d34497.jpeg"
         },
         {
           "id": 13705417,
           "Username": "RafGPio",
           "country_code": "UA",
-          "Rank": 508,
+          "Rank": 382,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13705417/d29ced489c9edb5ab918552c26edc1ac6335e8393f0d83cd83009fd5a811c9f3.jpeg"
         },
         {
           "id": 8698024,
           "Username": "defii",
           "country_code": "HU",
-          "Rank": 367,
+          "Rank": 364,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8698024/9b5fce27ba643612f7e61c3441fe8b251a947e8ae017e1773070a502243c45bf.jpeg"
         },
         {
           "id": 139670,
           "Username": "Vendemmia",
           "country_code": "KR",
-          "Rank": 609,
+          "Rank": 623,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/139670/e51496adf929374478ab6de115410f493eebe4524c9f4bc8b50972137bd32254.jpeg"
         },
         {
           "id": 1195423,
           "Username": "[KOR]Kosaki",
           "country_code": "KR",
-          "Rank": 1627,
+          "Rank": 1667,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/1195423/9ca09a1b6b3f552869f8fe6c1d0e8fc5eebad575b591792458d79eed9f0ae044.jpeg"
         },
         {
           "id": 9322480,
           "Username": "kiir0chii",
           "country_code": "PL",
-          "Rank": 706,
+          "Rank": 713,
           "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c3.jpg"
         }
       ]
@@ -1384,13 +1373,13 @@
       "SeedingResults": [],
       "Seed": "",
       "LastYearPlacing": 1,
-      "AverageRank": 1023.5,
+      "AverageRank": 1028.625,
       "Players": [
         {
           "id": 5218178,
           "Username": "Malteser",
           "country_code": "GB",
-          "Rank": 153,
+          "Rank": 146,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/5218178/6b44ee0887a4a0de6ccb3accb8e449bfa6207b3437d93026b2422e89e5235898.png"
         },
         {
@@ -1411,35 +1400,35 @@
           "id": 4346274,
           "Username": "Vitya1437",
           "country_code": "RU",
-          "Rank": 1254,
+          "Rank": 1281,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4346274/5043454ca8f503da17891254400f539d60d8bac8d21ecabdd3b48c2715fab0a6.jpeg"
         },
         {
           "id": 7537133,
           "Username": "megumic",
           "country_code": "SG",
-          "Rank": 996,
+          "Rank": 1026,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7537133/31b8d002020bb6e08937e65560c7b37cab54603db354ce0856ab83978c6fb1fb.jpeg"
         },
         {
           "id": 8445602,
           "Username": "Suzuha",
           "country_code": "RU",
-          "Rank": 1234,
+          "Rank": 1219,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8445602/aa82f5332b5012dc6e8446a4beb3fb3d2e4744b3939dd1bf81e5eafe21497e1b.png"
         },
         {
           "id": 14806365,
           "Username": "chests",
           "country_code": "TH",
-          "Rank": 4202,
+          "Rank": 4242,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14806365/6a236df6ec6eeb31fd713d1af4c176e522f3feae19cba2df01f5ddf2bd8320d0.jpeg"
         },
         {
           "id": 10162611,
           "Username": "cedru",
           "country_code": "EE",
-          "Rank": 276,
+          "Rank": 242,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10162611/445f576d2f05737715385363e1e3cc982fa81f578ea4ffa6c69a44b6427c9cd9.jpeg"
         }
       ]
@@ -1451,13 +1440,13 @@
       "SeedingResults": [],
       "Seed": "",
       "LastYearPlacing": 1,
-      "AverageRank": 779.375,
+      "AverageRank": 781.5,
       "Players": [
         {
           "id": 9719351,
           "Username": "Lucrise",
           "country_code": "RO",
-          "Rank": 498,
+          "Rank": 499,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9719351/f33306978c8d940d65e261d70a1ff6e9e085758a239f4441472c21e690974abd.jpeg"
         },
         {
@@ -1478,102 +1467,102 @@
           "id": 11129034,
           "Username": "_sPekTrE",
           "country_code": "KR",
-          "Rank": 545,
+          "Rank": 551,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11129034/c9f30eedc200cd2a038bf859910ab39254ac6da393fd9517db23057f41654046.jpeg"
         },
         {
           "id": 9938943,
           "Username": "CS2",
           "country_code": "AU",
-          "Rank": 225,
+          "Rank": 168,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9938943/880f44a1dc3cfa2caf3086ad43635091d74ac5f8f9de8e43ab48da17f53b465c.jpeg"
         },
         {
           "id": 14958380,
           "Username": "Clutchx",
           "country_code": "TR",
-          "Rank": 837,
+          "Rank": 854,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14958380/897dd32d0fc412cb3a7564ba450f9faa6026e85677f969a62f7887d7f0fbfc3f.jpeg"
         },
         {
           "id": 3198446,
           "Username": "Sigmund Fraud",
           "country_code": "CZ",
-          "Rank": 745,
-          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3198446/109502263e02c68f65a89f59e72f6a69ad8cdefc0cfb73d5c6ac5ca546d5675f.jpeg"
+          "Rank": 760,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3198446/40aa8954ea5d2083e724fb4933068ea08985035203eb5abc54d8dc83c5399a06.gif"
         },
         {
           "id": 114017,
           "Username": "KRZY",
           "country_code": "KR",
-          "Rank": 3247,
+          "Rank": 3282,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/114017/0860a4d2bfe741d312adf47f12b08f50cd88b2c0fbab2e9a9a9711a83fa70931.png"
         }
       ]
     },
     {
-      "FullName": "Team lolol234",
+      "FullName": "lolol235",
       "FlagName": "CN",
-      "Acronym": "234",
+      "Acronym": "LOL",
       "SeedingResults": [],
       "Seed": "",
       "LastYearPlacing": 1,
-      "AverageRank": 803.875,
+      "AverageRank": 807.875,
       "Players": [
         {
           "id": 6090175,
           "Username": "lolol235",
           "country_code": "CN",
-          "Rank": 882,
+          "Rank": 831,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6090175/a0fc0d8c798550cca7d5322e8900dfc1f869d1c15377f3e0379066a3e03a13df.jpeg"
         },
         {
           "id": 8640970,
           "Username": "enri",
           "country_code": "PH",
-          "Rank": 16,
+          "Rank": 17,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8640970/6aa6cec30f39d9e846922a62c9719d873c84926c2f0da638e68661a630114b56.png"
         },
         {
           "id": 18092331,
           "Username": "Lesperry",
           "country_code": "TH",
-          "Rank": 659,
+          "Rank": 668,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/18092331/fec0248868fd96e21637d6d82e58955a4e0ad76f598778f0d5af085f8a92eef0.png"
         },
         {
           "id": 10056419,
           "Username": "PaintedKoala",
           "country_code": "IL",
-          "Rank": 636,
+          "Rank": 648,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10056419/c640f5b49d5697194fb14a2ca20f183c6292143dc5306968149e7361f76e7339.jpeg"
         },
         {
           "id": 10592853,
           "Username": "Piper",
           "country_code": "KR",
-          "Rank": 1206,
+          "Rank": 1235,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10592853/6d2f9f0efb6c0f431847b1bcf4807e63fa4a029c27b0bfbcfce2c50b24d7480d.jpeg"
         },
         {
           "id": 14447878,
           "Username": "mx10006",
           "country_code": "KR",
-          "Rank": 1435,
+          "Rank": 1425,
           "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c7.jpg"
         },
         {
           "id": 12147277,
           "Username": "-Kedama",
           "country_code": "TH",
-          "Rank": 445,
+          "Rank": 458,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12147277/2607a41cf82f39937624b006ccaad867520d20a715bdd39d53f98bebd9faf561.gif"
         },
         {
           "id": 11213429,
           "Username": "kiwoth",
           "country_code": "RU",
-          "Rank": 1152,
+          "Rank": 1181,
           "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c6.jpg"
         }
       ]
@@ -1585,20 +1574,20 @@
       "SeedingResults": [],
       "Seed": "",
       "LastYearPlacing": 1,
-      "AverageRank": 709.0,
+      "AverageRank": 709.625,
       "Players": [
         {
           "id": 9694263,
           "Username": "Skrowell",
           "country_code": "RU",
-          "Rank": 192,
+          "Rank": 197,
           "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c6.jpg"
         },
         {
           "id": 11552867,
           "Username": "Welter",
           "country_code": "RU",
-          "Rank": 94,
+          "Rank": 84,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11552867/92462a7afbe91faf78ed26f4125f0038cdff23148603f15f6073fe01a05b7e89.jpeg"
         },
         {
@@ -1612,35 +1601,35 @@
           "id": 11226645,
           "Username": "JackPaX",
           "country_code": "GR",
-          "Rank": 393,
+          "Rank": 404,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11226645/e6f1fbac4cb31d7fb2a5242be9f3cdbee89636103f92531eea72746170f92cf0.jpeg"
         },
         {
           "id": 5413624,
           "Username": "Hibiki",
           "country_code": "HK",
-          "Rank": 717,
+          "Rank": 727,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/5413624/d11ed49f3f1729f580cefb8ea84cb5c104b91f89c3fff57d92625e150286dd95.jpeg"
         },
         {
           "id": 3493804,
           "Username": "-Sylvari",
           "country_code": "PL",
-          "Rank": 1890,
+          "Rank": 1909,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3493804/8736fab88ec92ff37810c44a5feede5929bcd8aa64d24fc350fcab5d9346e517.png"
         },
         {
           "id": 7774197,
           "Username": "Endura",
           "country_code": "RU",
-          "Rank": 791,
+          "Rank": 797,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7774197/1dfb68052e8d5591ded7a92db5a5895f801d7cbff14291b47b95643d5994cd3c.gif"
         },
         {
           "id": 2317789,
           "Username": "Diaostrophism",
           "country_code": "TW",
-          "Rank": 1543,
+          "Rank": 1507,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/2317789/fbe731dc3559552bbc62bc14feb394754c68866a2a5d5fe736977c8496cf395a.png"
         }
       ]
@@ -1652,62 +1641,62 @@
       "SeedingResults": [],
       "Seed": "",
       "LastYearPlacing": 1,
-      "AverageRank": 1127.5,
+      "AverageRank": 1140.125,
       "Players": [
         {
           "id": 7787629,
           "Username": "rafal",
           "country_code": "PL",
-          "Rank": 314,
+          "Rank": 312,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7787629/8904eba2480d6e54e70d989c005b0dae0d2071b0094969c9f831a3fca90d9fa3.jpeg"
         },
         {
           "id": 2165650,
           "Username": "mcy4",
           "country_code": "HK",
-          "Rank": 46,
+          "Rank": 44,
           "CoverUrl": "https://osu.ppy.sh/images/headers/profile-covers/c2.jpg"
         },
         {
           "id": 6600930,
           "Username": "Zoomer",
           "country_code": "NZ",
-          "Rank": 8,
+          "Rank": 7,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6600930/2444bf38925536a7f36d60d7394589f8032112bf53767a0051cc385fc9638246.png"
         },
         {
           "id": 13767572,
           "Username": "Saiyku",
           "country_code": "NZ",
-          "Rank": 88,
+          "Rank": 91,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13767572/82a3780b02079b9f105b18acbf7e40fd364de027d7452a87c007550e4c94b3cd.png"
         },
         {
           "id": 4519494,
           "Username": "Spinesnight",
           "country_code": "TW",
-          "Rank": 2338,
+          "Rank": 2379,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4519494/b3720886bb8019bcd0c954d39b0754ef98d29440641d6d7cd6306d87cbf037c7.jpeg"
         },
         {
           "id": 15293080,
           "Username": "Kim Suhye",
           "country_code": "NZ",
-          "Rank": 155,
+          "Rank": 157,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/15293080/abbfbd372655cab2b2f90074d6409d520b2e2512f6aba9eed23ff87a833eba1a.png"
         },
         {
           "id": 2312106,
           "Username": "GSBlank",
           "country_code": "SG",
-          "Rank": 1244,
+          "Rank": 1233,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/2312106/e5ea5ba731a100d67cde31124c4bacccb1f56c25852372cb1ea251a4b7c8f114.jpeg"
         },
         {
           "id": 9323821,
           "Username": "HEDAYO",
           "country_code": "PL",
-          "Rank": 4827,
+          "Rank": 4898,
           "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9323821/996ccd179af6ea0759b2d01a5e172ce3938c7421d9066e1faeac2309720f0f8f.jpeg"
         }
       ]
