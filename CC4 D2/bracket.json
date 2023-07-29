@@ -419,13 +419,84 @@
     {
       "ID": 29,
       "Team1Acronym": "FIN",
-      "Team1Score": 0,
+      "Team1Score": 4,
       "Team2Acronym": "VIR",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 6,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
-      "Current": true,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2430978
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3902731
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3894702
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3754607
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 297811
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3287758
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2731544
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3141960
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3957321
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3756517
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3814406
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3504849
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3371359
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 990325
+        }
+      ],
+      "Current": false,
       "Date": "2023-07-29T14:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -442,13 +513,74 @@
     {
       "ID": 32,
       "Team1Acronym": "THU",
-      "Team1Score": null,
+      "Team1Score": 6,
       "Team2Acronym": "BRZ",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
-      "Current": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3894702
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3754607
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2430978
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3756517
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3141960
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 297811
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3731602
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2957446
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3902731
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3371359
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3287758
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3790688
+        }
+      ],
+      "Current": true,
       "Date": "2023-07-29T15:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -459,7 +591,6 @@
         "THU",
         "BRZ"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -511,6 +642,7 @@
     {
       "ID": 28,
       "Team1Score": null,
+      "Team2Acronym": "VIR",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -522,11 +654,14 @@
         "X": 847,
         "Y": 2838
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "VIR"
+      ],
       "PointsToWin": 7
     },
     {
       "ID": 33,
+      "Team1Acronym": "THU",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -539,7 +674,10 @@
         "X": 847,
         "Y": 3083
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "THU"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
