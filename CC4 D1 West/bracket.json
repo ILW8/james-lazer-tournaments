@@ -367,7 +367,7 @@
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2023-07-29T22:30:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -384,13 +384,59 @@
     {
       "ID": 6,
       "Team1Acronym": "18C",
-      "Team1Score": 0,
+      "Team1Score": 2,
       "Team2Acronym": "BEL",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
-      "Current": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4036151
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3021082
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4108775
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2719439
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3186729
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3387202
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1964320
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3775432
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2918146
+        }
+      ],
+      "Current": false,
       "Date": "2023-07-29T20:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -508,10 +554,10 @@
     {
       "ID": 11,
       "Team1Acronym": "PeS",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "BWB",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -525,7 +571,6 @@
         "PeS",
         "BWB"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
