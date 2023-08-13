@@ -17,7 +17,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-12T09:00:00-07:00",
+      "Date": "2023-08-12T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 847,
@@ -39,7 +39,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-12T09:00:00-07:00",
+      "Date": "2023-08-12T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 847,
@@ -61,7 +61,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-13T20:00:00+00:00",
+      "Date": "2023-08-13T21:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1155,
@@ -77,14 +77,14 @@
     {
       "ID": 11,
       "Team1Acronym": "HEL",
-      "Team1Score": null,
+      "Team1Score": 3,
       "Team2Acronym": "ZIN",
-      "Team2Score": null,
+      "Team2Score": 4,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-12T13:00:00-07:00",
+      "Date": "2023-08-12T21:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 845,
@@ -100,14 +100,85 @@
     {
       "ID": 18,
       "Team1Acronym": "ESE",
-      "Team1Score": null,
+      "Team1Score": 8,
       "Team2Acronym": "WON",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2023-08-12T21:00:00+00:00",
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2502505
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2699219
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3995408
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3298222
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1840640
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4240199
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3606082
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3485307
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4008912
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4179715
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3157748
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4258136
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1506910
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4257869
+        }
+      ],
+      "Current": true,
+      "Date": "2023-08-12T22:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 845,
@@ -117,24 +188,26 @@
         "ESE",
         "WON"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
       "ID": 15,
       "Team1Score": null,
+      "Team2Acronym": "ESE",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-13T13:00:00-07:00",
+      "Date": "2023-08-13T21:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1154,
         "Y": 1521
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "ESE"
+      ],
       "PointsToWin": 7
     },
     {
@@ -145,7 +218,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-26T09:00:00-07:00",
+      "Date": "2023-08-26T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1482,
@@ -162,7 +235,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-26T09:00:00-07:00",
+      "Date": "2023-08-26T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1490,
@@ -179,7 +252,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-26T09:00:00-07:00",
+      "Date": "2023-08-26T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1808,
@@ -254,7 +327,7 @@
         }
       ],
       "Current": false,
-      "Date": "2023-08-06T11:00:00-07:00",
+      "Date": "2023-08-06T19:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 541,
@@ -276,7 +349,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-12T09:00:00-07:00",
+      "Date": "2023-08-12T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 539,
@@ -299,7 +372,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-07-22T12:00:00-07:00",
+      "Date": "2023-07-22T20:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 541,
@@ -321,7 +394,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-07-23T13:00:00-07:00",
+      "Date": "2023-07-23T21:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 542,
@@ -344,7 +417,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-07-23T11:00:00-07:00",
+      "Date": "2023-07-23T19:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 543,
@@ -366,7 +439,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-07-23T12:00:00-07:00",
+      "Date": "2023-07-23T20:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 543,
@@ -387,7 +460,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-19T09:00:00-07:00",
+      "Date": "2023-08-19T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 2085,
@@ -406,7 +479,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-07-22T09:00:00-07:00",
+      "Date": "2023-07-22T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 545,
@@ -500,7 +573,7 @@
         }
       ],
       "Current": false,
-      "Date": "2023-07-22T09:00:00-07:00",
+      "Date": "2023-07-22T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 546,
@@ -522,7 +595,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-07-23T05:00:00-07:00",
+      "Date": "2023-07-23T13:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 546,
@@ -545,7 +618,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-07-23T05:00:00-07:00",
+      "Date": "2023-07-23T13:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 546,
@@ -568,7 +641,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-07-29T09:00:00-07:00",
+      "Date": "2023-07-29T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 546,
@@ -590,7 +663,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-07-29T09:00:00-07:00",
+      "Date": "2023-07-29T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 546,
@@ -612,7 +685,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-07-29T09:00:00-07:00",
+      "Date": "2023-07-29T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 845,
@@ -635,7 +708,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-07-29T09:00:00-07:00",
+      "Date": "2023-07-29T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 846,
@@ -650,14 +723,14 @@
     {
       "ID": 28,
       "Team1Acronym": "AQU",
-      "Team1Score": null,
+      "Team1Score": 7,
       "Team2Acronym": "VIR",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [],
-      "Current": true,
-      "Date": "2023-08-12T05:00:00-07:00",
+      "Current": false,
+      "Date": "2023-08-12T13:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 847,
@@ -667,20 +740,19 @@
         "AQU",
         "VIR"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
       "ID": 33,
       "Team1Acronym": "SCH",
-      "Team1Score": null,
+      "Team1Score": 7,
       "Team2Acronym": "THU",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-12T12:00:00+00:00",
+      "Date": "2023-08-12T13:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 847,
@@ -690,7 +762,6 @@
         "SCH",
         "THU"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
@@ -703,7 +774,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-15T10:00:00+00:00",
+      "Date": "2023-08-15T11:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1156,
@@ -718,19 +789,25 @@
     },
     {
       "ID": 30,
+      "Team1Acronym": "SCH",
       "Team1Score": null,
+      "Team2Acronym": "VIR",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-13T05:00:00-07:00",
+      "Date": "2023-08-13T13:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1155,
         "Y": 2967
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "SCH",
+        "VIR"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
@@ -741,7 +818,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-12T09:00:00-07:00",
+      "Date": "2023-08-12T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1491,
@@ -758,7 +835,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-12T09:00:00-07:00",
+      "Date": "2023-08-12T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1808,
@@ -775,7 +852,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-12T09:00:00-07:00",
+      "Date": "2023-08-12T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1492,
@@ -792,7 +869,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-19T09:00:00-07:00",
+      "Date": "2023-08-19T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 2396,
@@ -809,7 +886,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-08-19T09:00:00-07:00",
+      "Date": "2023-08-19T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 2728,
@@ -1586,7 +1663,7 @@
           }
         }
       ],
-      "StartDate": "2023-07-22T09:00:00-07:00",
+      "StartDate": "2023-07-22T17:00:00+01:00",
       "Matches": [
         1,
         3,
@@ -2364,7 +2441,7 @@
           }
         }
       ],
-      "StartDate": "2023-07-29T09:00:00-07:00",
+      "StartDate": "2023-07-29T17:00:00+01:00",
       "Matches": [
         2,
         8,
@@ -3182,7 +3259,7 @@
           }
         }
       ],
-      "StartDate": "2023-08-05T09:00:00-07:00",
+      "StartDate": "2023-08-05T17:00:00+01:00",
       "Matches": [
         4,
         11,
@@ -3199,7 +3276,7 @@
       "Description": "",
       "BestOf": 13,
       "Beatmaps": [],
-      "StartDate": "2023-08-12T09:00:00-07:00",
+      "StartDate": "2023-08-12T17:00:00+01:00",
       "Matches": [
         5,
         16,
@@ -3214,7 +3291,7 @@
       "Description": "",
       "BestOf": 9,
       "Beatmaps": [],
-      "StartDate": "2023-08-19T09:00:00-07:00",
+      "StartDate": "2023-08-19T17:00:00+01:00",
       "Matches": [
         12,
         13,
@@ -4503,5 +4580,6 @@
   ],
   "ChromaKeyWidth": 1366,
   "PlayersPerTeam": 4,
-  "AutoProgressScreens": true
+  "AutoProgressScreens": true,
+  "SplitMapPoolByMods": true
 }
