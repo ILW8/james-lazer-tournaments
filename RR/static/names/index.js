@@ -51,7 +51,7 @@ socket.onmessage = async event => {
 	if (data.tourney.manager.bools.scoreVisible && combo >= 10 && client.gameplay.combo.current < combo) {
 		if (bgFlash) {
 			background.style.transition = 'background-color 100ms cubic-bezier(0, 1, 0.4, 1)';
-			background.style.backgroundColor = 'rgba(255, 87, 87, 0.3)';
+			background.style.backgroundColor = 'rgba(255, 87, 87, 0.2)';
 		}
 
 		nameText.style.transition = 'transform 100ms cubic-bezier(0, 1, 0.4, 1)';
@@ -61,7 +61,7 @@ socket.onmessage = async event => {
 
 		setTimeout(() => {
 			if (bgFlash) {
-				background.style.transition = 'background-color 500ms cubic-bezier(0.42, 0.04, 0.49, 0.97)';
+				background.style.transition = 'background-color 800ms cubic-bezier(0.42, 0.04, 0.49, 0.97)';
 				background.style.backgroundColor = 'rgba(255, 87, 87, 0)';
 			}
 
