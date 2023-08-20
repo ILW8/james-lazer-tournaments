@@ -16,6 +16,9 @@ html {
 	flex-direction: column;
 	width: 100vw;
 	height: 100vh;
+	border-radius: 10px;
+	background-color: rgba(255, 87, 87, 0);
+	transition: background-color 100ms cubic-bezier(0, 1, 0.4, 1);
 }
 
 .name {
@@ -23,6 +26,8 @@ html {
 	bottom: 16px;
 	right: 16px;
 	font-size: 32px;
+	transform-origin: bottom right;
+	transition: transform 100ms cubic-bezier(0, 1, 0.4, 1);
 }
 
 #name-stroke {
