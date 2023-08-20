@@ -1,0 +1,354 @@
+:root {
+	--point-size: 40px;
+}
+
+body,
+html {
+	padding: 0;
+	margin: 0;
+	overflow-y: hidden;
+	font-family: 'Arco', 'FOTC-ARNewHeiGB';
+}
+
+#main {
+	width: 1920px;
+	height: 1080px;
+	position: relative;
+	background-image: url('../_data/assets/stream_background.png');
+}
+
+#full-overlay {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 1920px;
+	height: 1080px;
+	/* background-color: rgba(0, 0, 0, 1); */
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1920px;
+	height: 260px;
+	text-transform: uppercase;
+}
+
+.teamname {
+	position: absolute;
+	top: 66px;
+	font-size: 48px;
+}
+
+.teamname.stroke {
+	z-index: 5;
+	paint-order: stroke fill;
+	-webkit-text-stroke: 16px #ffffff;
+	text-shadow: 6px 6px 0 #ffffff;
+}
+
+.teamname.red {
+	z-index: 10;
+	left: 94px;
+	text-align: left;
+	color: var(--red);
+}
+
+.teamname.blue {
+	z-index: 10;
+	right: 94px;
+	text-align: right;
+	color: var(--blue);
+}
+
+.picklabel {
+	position: absolute;
+	top: 144px;
+	width: fit-content;
+	font-size: 36px;
+	color: #ffffff;
+	border-radius: 16px;
+	padding: 1px 10px 9px 14px;
+	border: 8px solid #ffffff;
+	opacity: 0;
+	transition: cubic-bezier(0, 1, 0.4, 1) 300ms;
+}
+
+.picklabel.red {
+	background-color: var(--red-dark);
+	left: 92px;
+}
+
+.picklabel.blue {
+	background-color: var(--blue-dark);
+	right: 92px;
+}
+
+#song-title {
+	width: 1300px;
+	position: absolute;
+	text-align: center;
+	top: 134px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: var(--title-blue);
+	font-size: 24px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 6px;
+}
+
+#song-title-stroke {
+	width: 1300px;
+	position: absolute;
+	text-align: center;
+	top: 134px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: var(--title-blue);
+	font-size: 24px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 6px;
+	paint-order: stroke fill;
+	-webkit-text-stroke: 8px #ffffff;
+	text-shadow: 3px 3px 0 #ffffff;
+}
+
+#red-points {
+	z-index: 10;
+	position: absolute;
+	left: 244px;
+	top: 242px;
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+	transition: 300ms ease-out;
+}
+
+#blue-points {
+	z-index: 10;
+	position: absolute;
+	right: 244px;
+	top: 242px;
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+	transition: 300ms ease-out;
+}
+
+.star-r {
+	z-index: 100;
+	width: var(--point-size);
+	height: var(--point-size);
+	border-radius: var(--point-size);
+	border: 8px solid #ffffff;
+	background-color: var(--empty-point);
+	transform: 200ms ease-in;
+}
+
+.star-b {
+	z-index: 100;
+	width: var(--point-size);
+	height: var(--point-size);
+	border-radius: var(--point-size);
+	border: 8px solid #ffffff;
+	background-color: var(--empty-point);
+	transform: 200ms ease-in;
+}
+
+#animegirl-red {
+	z-index: 20;
+	background-image: url('../_data/assets/stream_pippi.png');
+	background-repeat: no-repeat;
+	width: 286px;
+	height: 333px;
+	position: absolute;
+	top: 394px;
+	left: -50px;
+	transform: scale(1.1);
+	transition: cubic-bezier(0, 1, 0.4, 1) 500ms;
+}
+
+#animegirl-blue {
+	z-index: 20;
+	background-image: url('../_data/assets/stream_mocha.png');
+	background-repeat: no-repeat;
+	width: 286px;
+	height: 333px;
+	position: absolute;
+	top: 390px;
+	right: -58px;
+	transform: scale(1);
+	transition: cubic-bezier(0, 1, 0.4, 1) 500ms;
+}
+
+#gameplay-area {
+	position: absolute;
+	top: 186px;
+	width: 100%;
+	height: 732px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#client-container {
+	width: calc(640px * 2 + 12px);
+	height: 732px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+}
+
+.gameplay-client {
+	width: 640px;
+	height: 360px;
+	border-radius: 10px;
+	background-color: #111111;
+	outline: 8px solid #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	font-size: 36px;
+}
+
+.gameplay-client.red {
+	background-color: var(--red);
+}
+
+.gameplay-client.blue {
+	background-color: var(--blue);
+}
+
+#middle-fill {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+	background-color: #ffffff;
+	top: 354px;
+}
+
+/* footer */
+
+#score-row {
+	position: absolute;
+	bottom: 32px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 720px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+}
+
+#score-red {
+	position: absolute;
+	right: 376px;
+	width: 360px;
+	font-size: 48px;
+	color: var(--red);
+	text-align: right;
+}
+
+#score-red-stroke {
+	position: absolute;
+	right: 376px;
+	width: 360px;
+	font-size: 48px;
+	color: var(--red);
+	text-align: right;
+	paint-order: stroke fill;
+	-webkit-text-stroke: 16px #ffffff;
+	text-shadow: 6px 6px 0 #ffffff;
+}
+
+#score-blue {
+	position: absolute;
+	left: 376px;
+	width: 360px;
+	font-size: 36px;
+	color: var(--blue);
+	text-align: left;
+}
+
+#score-blue-stroke {
+	position: absolute;
+	left: 376px;
+	width: 360px;
+	font-size: 36px;
+	color: var(--blue);
+	text-align: left;
+	paint-order: stroke fill;
+	-webkit-text-stroke: 16px #ffffff;
+	text-shadow: 6px 6px 0 #ffffff;
+}
+
+#lead-bar {
+	position: absolute;
+	top: 942px;
+	right: 942px;
+	left: unset;
+	height: 20px;
+	width: 0px;
+	background-color: var(--red);
+	transition: cubic-bezier(0, 0.6, 0.4, 1) 300ms;
+	border-radius: 20px;
+	min-width: 20px;
+	border: 8px solid #ffffff;
+}
+
+#stats-container {
+	position: absolute;
+	bottom: 14px;
+	right: 14px;
+	display: flex;
+	justify-content: flex-end;
+	gap: 14px;
+}
+
+.stat-box {
+	background-color: var(--stats-blue);
+	color: #ffffff;
+	font-size: 36px;
+	width: fit-content;
+	padding: 4px 12px 8px 12px;
+	border-radius: 16px;
+	border: 8px solid #ffffff;
+	display: flex;
+	gap: 12px;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+	width: 0px;
+	visibility: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	visibility: 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: grey;
+	border-radius: 10px;
+}

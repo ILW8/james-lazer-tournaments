@@ -1,0 +1,331 @@
+:root {
+	--point-size: 40px;
+}
+
+body,
+html {
+	padding: 0;
+	margin: 0;
+	overflow-y: hidden;
+	font-family: 'Arco', 'FOTC-ARNewHeiGB';
+}
+
+#main {
+	width: 1920px;
+	height: 1080px;
+	position: relative;
+	background-image: url('../_data/assets/stream_background.png');
+}
+
+#full-overlay {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 1920px;
+	height: 1080px;
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1920px;
+	height: 260px;
+	text-transform: uppercase;
+}
+
+.teamname {
+	position: absolute;
+	top: 66px;
+	font-size: 48px;
+}
+
+.teamname.stroke {
+	z-index: 5;
+	paint-order: stroke fill;
+	-webkit-text-stroke: 16px #ffffff;
+	text-shadow: 6px 6px 0 #ffffff;
+}
+
+.teamname.red {
+	z-index: 10;
+	left: 94px;
+	text-align: left;
+	color: var(--red);
+}
+
+.teamname.blue {
+	z-index: 10;
+	right: 94px;
+	text-align: right;
+	color: var(--blue);
+}
+
+#song-title {
+	width: 1300px;
+	position: absolute;
+	text-align: center;
+	top: 134px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: var(--title-blue);
+	font-size: 24px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 6px;
+}
+
+#song-title-stroke {
+	width: 1300px;
+	position: absolute;
+	text-align: center;
+	top: 134px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: var(--title-blue);
+	font-size: 24px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 6px;
+	paint-order: stroke fill;
+	-webkit-text-stroke: 8px #ffffff;
+	text-shadow: 3px 3px 0 #ffffff;
+}
+
+#red-points {
+	z-index: 10;
+	position: absolute;
+	left: 368px;
+	top: 242px;
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+	transition: 300ms ease-out;
+}
+
+#blue-points {
+	z-index: 10;
+	position: absolute;
+	right: 368px;
+	top: 242px;
+	height: 620px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+	transition: 300ms ease-out;
+}
+
+.star-r {
+	z-index: 100;
+	width: var(--point-size);
+	height: var(--point-size);
+	border-radius: var(--point-size);
+	border: 8px solid #ffffff;
+	background-color: var(--empty-point);
+	transform: 200ms ease-in;
+}
+
+.star-b {
+	z-index: 100;
+	width: var(--point-size);
+	height: var(--point-size);
+	border-radius: var(--point-size);
+	border: 8px solid #ffffff;
+	background-color: var(--empty-point);
+	transform: 200ms ease-in;
+}
+
+#animegirl-red {
+	z-index: 20;
+	background-image: url('../_data/assets/stream_pippi.png');
+	background-repeat: no-repeat;
+	width: 286px;
+	height: 333px;
+	position: absolute;
+	top: 394px;
+	left: 80px;
+	transform: scale(1.1);
+	transition: cubic-bezier(0, 1, 0.4, 1) 500ms;
+}
+
+#animegirl-blue {
+	z-index: 20;
+	background-image: url('../_data/assets/stream_mocha.png');
+	background-repeat: no-repeat;
+	width: 286px;
+	height: 333px;
+	position: absolute;
+	top: 390px;
+	right: 70px;
+	transform: scale(1);
+	transition: cubic-bezier(0, 1, 0.4, 1) 500ms;
+}
+
+#mappool-area {
+	position: absolute;
+	top: 218px;
+	width: 100%;
+	height: 770px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#mappool-container {
+	width: 998px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.map-container {
+	width: 100%;
+	min-height: 120px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 17px;
+	row-gap: 10px;
+	font-family: 'Torus';
+}
+
+.clicker {
+	width: 320px;
+	height: 120px;
+	border-radius: 8px;
+	color: #ffffff;
+	transition: ease-out 400ms;
+	background-size: cover;
+	background-color: #111111;
+}
+
+.map {
+	position: relative;
+	width: 320px;
+	height: 120px;
+	border-radius: 8px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modIcon {
+	font-size: 36px;
+	font-family: 'Arco';
+	padding-left: 12px;
+	padding-top: 2px;
+}
+
+.mapTitle {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.mapArtist {
+	font-size: 14px;
+	padding-left: 12px;
+}
+
+.mapMapper {
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+	font-size: 16px;
+	font-family: 'Arco';
+	text-align: right;
+}
+
+.pickingStatus {
+	position: absolute;
+	width: 310px;
+	height: 116px;
+	top: 0;
+	right: 0;
+	padding-top: 4px;
+	padding-right: 10px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-family: 'Arco';
+	text-align: right;
+	paint-order: stroke fill;
+	border-radius: 8px;
+	-webkit-text-stroke: 6px #ffffff;
+	text-shadow: 2px 2px 0 #ffffff;
+	opacity: 0;
+	transition: cubic-bezier(0.25, 0, 0.4, 1) 500ms;
+	background-color: none;
+}
+
+.pickingStatusText {
+	position: absolute;
+	width: 310px;
+	height: 116px;
+	top: 0;
+	right: 0;
+	padding-top: 4px;
+	padding-right: 10px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-family: 'Arco';
+	text-align: right;
+	border-radius: 8px;
+	opacity: 0;
+	transition: cubic-bezier(0.25, 0, 0.4, 1) 500ms;
+}
+
+.pickred {
+	color: var(--red);
+}
+
+.pickblue {
+	color: var(--blue);
+}
+
+.banred {
+	color: var(--red-dark);
+}
+
+.banblue {
+	color: var(--blue-dark);
+}
+
+#TB {
+	position: absolute;
+	width: fit-content;
+	bottom: 16px;
+	right: 16px;
+	transform-origin: bottom right;
+	transform: scale(1.5);
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+	width: 0px;
+	visibility: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	visibility: 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: grey;
+	border-radius: 10px;
+}

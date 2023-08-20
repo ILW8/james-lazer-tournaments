@@ -1,0 +1,33 @@
+body,
+html {
+	padding: 0;
+	margin: 0;
+	overflow-y: hidden;
+	font-family: 'Arco', 'FOTC-ARNewHeiGB';
+}
+
+#main {
+	position: relative;
+}
+
+#full-overlay {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+}
+
+.name {
+	position: absolute;
+	bottom: 16px;
+	right: 16px;
+	font-size: 32px;
+}
+
+#name-stroke {
+	color: #ffffff;
+	paint-order: stroke fill;
+	-webkit-text-stroke: 8px #ffffff;
+	text-shadow: 3.2px 3.2px 0 #ffffff;
+}

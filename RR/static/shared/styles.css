@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Mont';
+    src: url('../_data/fonts/Mont-SemiBold.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Torus';
+    src: url('../_data/fonts/TorusRegular.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Torus';
+    src: url('../_data/fonts/TorusBold.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Arco';
+    src: url('../_data/fonts/ARCO.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'FOTC-ARNewHeiGB';
+    src: url('../_data/fonts/FOTC-ARNewHeiGBUltra.otf');
+    font-weight: 500;
+}
+
+:root {
+    --red: #ff6868;
+    --blue: #6c9dff;
+    --red-dark: #a62e2e;
+    --blue-dark: #345dae;
+    --title-blue: #6d7aa7;
+    --stats-blue: #46558b;
+    --empty-point: #6d7aa7;
+    --full-point: #ffd16e;
+}

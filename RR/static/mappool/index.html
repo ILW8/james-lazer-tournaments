@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css?t=<?php echo time()?>">
+    <link rel="stylesheet" href="../shared/styles.css?t=<?php echo time()?>">
+    <script src="../_data/deps/countUp.js"></script>
+    <script src="../_data/deps/reconnecting-websocket.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div id="full-overlay">
+            <div id="header">
+                <div id="red-name-stroke" class="teamname red stroke">we have 3 badges</div>
+                <div id="red-name" class="teamname red">we have 3 badges</div>
+                <div id="blue-name-stroke" class="teamname blue stroke">我爱dain gang</div>
+                <div id="blue-name" class="teamname blue">我爱dain gang</div>
+                <div id="song-title-stroke" class="stroke">feryquitous feat. itsuki natsume - happy enforcer [illusion]</div>
+                <div id="song-title">feryquitous feat. itsuki natsume - happy enforcer [illusion]</div>
+            </div>
+            <div id="mappool-area">
+                <div id="mappool-container">
+                    <div id="NM" class="map-container"></div>
+                    <div id="HD" class="map-container"></div>
+                    <div id="HR" class="map-container"></div>
+                    <div id="DT" class="map-container"></div>
+                    <div id="FM" class="map-container"></div>
+                </div>
+            </div>
+            <div id="TB" class="map-container"></div>
+            <div id="red-points"></div>
+            <div id="blue-points"></div>
+            <div id="animegirl-red"></div>
+            <div id="animegirl-blue"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
