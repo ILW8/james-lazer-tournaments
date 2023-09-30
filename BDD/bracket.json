@@ -549,6 +549,7 @@
       "ID": 9,
       "Team1Acronym": "DÖN",
       "Team1Score": null,
+      "Team2Acronym": "ASTRO",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -561,7 +562,8 @@
         "Y": 211
       },
       "Acronyms": [
-        "DÖN"
+        "DÖN",
+        "ASTRO"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 7
@@ -1031,12 +1033,88 @@
     {
       "ID": 24,
       "Team1Acronym": "TOOL",
-      "Team1Score": 0,
+      "Team1Score": 4,
       "Team2Acronym": "ASTRO",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 7,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3721254
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3871738
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 1415526
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2616906
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4322911
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3329820
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3059190
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3845266
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2482117
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2442838
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2167694
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4009923
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4113449
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3793516
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 969314
+        }
+      ],
       "Current": true,
       "Date": "2023-09-30T15:00:00+00:00",
       "ConditionalMatches": [],
