@@ -1,0 +1,3954 @@
+{
+  "Ruleset": {
+    "ShortName": "osu",
+    "Name": "osu!",
+    "InstantiationInfo": "osu.Game.Rulesets.Osu.OsuRuleset, osu.Game.Rulesets.Osu",
+    "LastAppliedDifficultyVersion": 20220902,
+    "Available": true
+  },
+  "Matches": [
+    {
+      "ID": 1,
+      "Team1Acronym": "UBC",
+      "Team1Score": 5,
+      "Team2Acronym": "SEU",
+      "Team2Score": 0,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:12.9285557+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1200,
+        "Y": -1400
+      },
+      "Acronyms": [
+        "UBC",
+        "SEU"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 5,
+      "Team1Acronym": "MST",
+      "Team1Score": 4,
+      "Team2Acronym": "RTG",
+      "Team2Score": 5,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:12.9285557+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1200,
+        "Y": -1200
+      },
+      "Acronyms": [
+        "MST",
+        "RTG"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 13,
+      "Team1Acronym": "PUC",
+      "Team1Score": 0,
+      "Team2Acronym": "UMASS",
+      "Team2Score": 5,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:12.9285557+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1200,
+        "Y": -800
+      },
+      "Acronyms": [
+        "PUC",
+        "UMASS"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 18,
+      "Team1Acronym": "UCSB",
+      "Team1Score": 5,
+      "Team2Acronym": "APU",
+      "Team2Score": 0,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:12.9285557+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1200,
+        "Y": -600
+      },
+      "Acronyms": [
+        "UCSB",
+        "APU"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 22,
+      "Team1Acronym": "UIUC",
+      "Team1Score": 5,
+      "Team2Acronym": "GT",
+      "Team2Score": 0,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:12.9285557+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1200,
+        "Y": -400
+      },
+      "Acronyms": [
+        "UIUC",
+        "GT"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 26,
+      "Team1Acronym": "RIT",
+      "Team1Score": 5,
+      "Team2Acronym": "AAU",
+      "Team2Score": 2,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:12.9285557+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1200,
+        "Y": -200
+      },
+      "Acronyms": [
+        "RIT",
+        "AAU"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 31,
+      "Team1Acronym": "UABC",
+      "Team1Score": 0,
+      "Team2Acronym": "GMU",
+      "Team2Score": 5,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:12.9285557+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1200
+      },
+      "Acronyms": [
+        "UABC",
+        "GMU"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 2,
+      "Team1Acronym": "UW",
+      "Team1Score": 5,
+      "Team2Acronym": "TAMU",
+      "Team2Score": 1,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:12.9285557+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1200,
+        "Y": -1400
+      },
+      "Acronyms": [
+        "UW",
+        "TAMU"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 6,
+      "Team1Acronym": "VCU",
+      "Team1Score": 5,
+      "Team2Acronym": "ITS",
+      "Team2Score": 3,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:12.9285557+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1200,
+        "Y": -1200
+      },
+      "Acronyms": [
+        "VCU",
+        "ITS"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 9,
+      "Team1Acronym": "SPACE",
+      "Team1Score": 5,
+      "Team2Acronym": "UCSD",
+      "Team2Score": 2,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:12.9285557+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1200,
+        "Y": -1000
+      },
+      "Acronyms": [
+        "SPACE",
+        "UCSD"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 14,
+      "Team1Acronym": "SU",
+      "Team1Score": 5,
+      "Team2Acronym": "SBU",
+      "Team2Score": 1,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:12.9285557+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1200,
+        "Y": -800
+      },
+      "Acronyms": [
+        "SU",
+        "SBU"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 19,
+      "Team1Acronym": "UT",
+      "Team1Score": 5,
+      "Team2Acronym": "RIT",
+      "Team2Score": 1,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:12.9285557+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1200,
+        "Y": -600
+      },
+      "Acronyms": [
+        "UT",
+        "RIT"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 23,
+      "Team1Acronym": "UQ",
+      "Team1Score": 5,
+      "Team2Acronym": "TUB",
+      "Team2Score": 3,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:12.9285557+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1200,
+        "Y": -400
+      },
+      "Acronyms": [
+        "UQ",
+        "TUB"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 27,
+      "Team1Acronym": "UoC",
+      "Team1Score": 5,
+      "Team2Acronym": "PSU",
+      "Team2Score": 4,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:12.9285557+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1200,
+        "Y": -180
+      },
+      "Acronyms": [
+        "UoC",
+        "PSU"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 32,
+      "Team1Acronym": "Bar",
+      "Team1Score": 4,
+      "Team2Acronym": "UoM",
+      "Team2Score": 5,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:16.0525236+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1200,
+        "Y": 20
+      },
+      "Acronyms": [
+        "Bar",
+        "UoM"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 34,
+      "Team1Acronym": "SEU",
+      "Team1Score": null,
+      "Team2Acronym": "MST",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1800,
+        "Y": 200
+      },
+      "Acronyms": [
+        "SEU",
+        "MST"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 43,
+      "Team1Acronym": "UVal",
+      "Team1Score": null,
+      "Team2Acronym": "PUC",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3187933
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 31906
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2624225
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1817304
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3868452
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3871511
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 347808
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3155970
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2742185
+        }
+      ],
+      "Current": false,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1800,
+        "Y": 400
+      },
+      "Acronyms": [
+        "UVal",
+        "PUC"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 52,
+      "Team1Acronym": "APU",
+      "Team1Score": null,
+      "Team2Acronym": "GT",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1800,
+        "Y": 600
+      },
+      "Acronyms": [
+        "APU",
+        "GT"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 60,
+      "Team1Acronym": "AAU",
+      "Team1Score": null,
+      "Team2Acronym": "UABC",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1800,
+        "Y": 800
+      },
+      "Acronyms": [
+        "AAU",
+        "UABC"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 37,
+      "Team1Acronym": "TAMU",
+      "Team1Score": null,
+      "Team2Acronym": "ITS",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1800,
+        "Y": 200
+      },
+      "Acronyms": [
+        "TAMU",
+        "ITS"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 46,
+      "Team1Acronym": "UCSD",
+      "Team1Score": null,
+      "Team2Acronym": "SBU",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1800,
+        "Y": 400
+      },
+      "Acronyms": [
+        "UCSD",
+        "SBU"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 55,
+      "Team1Acronym": "RIT",
+      "Team1Score": null,
+      "Team2Acronym": "TUB",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3155970
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3754408
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3868452
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3603353
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3182051
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 347808
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3944144
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 31906
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3187933
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2742185
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2700108
+        }
+      ],
+      "Current": false,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1800,
+        "Y": 600
+      },
+      "Acronyms": [
+        "RIT",
+        "TUB"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 63,
+      "Team1Acronym": "PSU",
+      "Team1Score": null,
+      "Team2Acronym": "Bar",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1800,
+        "Y": 800
+      },
+      "Acronyms": [
+        "PSU",
+        "Bar"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 3,
+      "Team1Acronym": "UBC",
+      "Team1Score": null,
+      "Team2Acronym": "RTG",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -900,
+        "Y": -1300
+      },
+      "Acronyms": [
+        "UBC",
+        "RTG"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 11,
+      "Team1Acronym": "BINUS",
+      "Team1Score": null,
+      "Team2Acronym": "UMASS",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -900,
+        "Y": -903
+      },
+      "Acronyms": [
+        "BINUS",
+        "UMASS"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 20,
+      "Team1Acronym": "UCSB",
+      "Team1Score": null,
+      "Team2Acronym": "UIUC",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -900,
+        "Y": -500
+      },
+      "Acronyms": [
+        "UCSB",
+        "UIUC"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 28,
+      "Team1Acronym": "RIT",
+      "Team1Score": null,
+      "Team2Acronym": "GMU",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -900,
+        "Y": -100
+      },
+      "Acronyms": [
+        "RIT",
+        "GMU"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 4,
+      "Team1Acronym": "UW",
+      "Team1Score": 5,
+      "Team2Acronym": "VCU",
+      "Team2Score": 3,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3693390
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2689460
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4010877
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4189704
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3947621
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3920454
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4163649
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 256027
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3862211
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2287891
+        }
+      ],
+      "Current": true,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 900,
+        "Y": -1300
+      },
+      "Acronyms": [
+        "UW",
+        "VCU"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 12,
+      "Team1Acronym": "SPACE",
+      "Team1Score": null,
+      "Team2Acronym": "SU",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 900,
+        "Y": -900
+      },
+      "Acronyms": [
+        "SPACE",
+        "SU"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 21,
+      "Team1Acronym": "UT",
+      "Team1Score": null,
+      "Team2Acronym": "UQ",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 900,
+        "Y": -500
+      },
+      "Acronyms": [
+        "UT",
+        "UQ"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 29,
+      "Team1Acronym": "UoC",
+      "Team1Score": null,
+      "Team2Acronym": "UoM",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-13T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 900,
+        "Y": -70
+      },
+      "Acronyms": [
+        "UoC",
+        "UoM"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 62,
+      "Team1Acronym": "UIUCa",
+      "Team1Score": null,
+      "Team2Acronym": "QUK",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1500,
+        "Y": 800
+      },
+      "Acronyms": [
+        "UIUCa",
+        "QUK"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 54,
+      "Team1Acronym": "TUDa",
+      "Team1Score": null,
+      "Team2Acronym": "UCSBa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1500,
+        "Y": 600
+      },
+      "Acronyms": [
+        "TUDa",
+        "UCSBa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 45,
+      "Team1Acronym": "UWb",
+      "Team1Score": null,
+      "Team2Acronym": "SBUa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1500,
+        "Y": 400
+      },
+      "Acronyms": [
+        "UWb",
+        "SBUa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 36,
+      "Team1Acronym": "VCU",
+      "Team1Score": null,
+      "Team2Acronym": "UCSCa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1500,
+        "Y": 200
+      },
+      "Acronyms": [
+        "VCU",
+        "UCSCa"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 6
+    },
+    {
+      "ID": 61,
+      "Team1Acronym": "UWa",
+      "Team1Score": null,
+      "Team2Acronym": "GMUa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1500,
+        "Y": 800
+      },
+      "Acronyms": [
+        "UWa",
+        "GMUa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 53,
+      "Team1Acronym": "SUa",
+      "Team1Score": null,
+      "Team2Acronym": "MdUa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1500,
+        "Y": 600
+      },
+      "Acronyms": [
+        "SUa",
+        "MdUa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 44,
+      "Team1Acronym": "UCSDa",
+      "Team1Score": null,
+      "Team2Acronym": "PSUa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4011161
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3731602
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2025832
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3121640
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3764144
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3985811
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3716155
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2346812
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2852980
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1445844
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3227483
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2464404
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3929092
+        }
+      ],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1500,
+        "Y": 400
+      },
+      "Acronyms": [
+        "UCSDa",
+        "PSUa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 35,
+      "Team1Acronym": "NYPa",
+      "Team1Score": null,
+      "Team2Acronym": "A&Ma",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1500,
+        "Y": 200
+      },
+      "Acronyms": [
+        "NYPa",
+        "A&Ma"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 59,
+      "Team1Acronym": "TUDa",
+      "Team1Score": null,
+      "Team2Acronym": "UIUCa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1200,
+        "Y": 700
+      },
+      "Acronyms": [
+        "TUDa",
+        "UIUCa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 42,
+      "Team1Acronym": "UCSCa",
+      "Team1Score": null,
+      "Team2Acronym": "UWb",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1200,
+        "Y": 300
+      },
+      "Acronyms": [
+        "UCSCa",
+        "UWb"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 56,
+      "Team1Acronym": "MdUa",
+      "Team1Score": null,
+      "Team2Acronym": "UWa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1200,
+        "Y": 700
+      },
+      "Acronyms": [
+        "MdUa",
+        "UWa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 38,
+      "Team1Acronym": "NYPa",
+      "Team1Score": null,
+      "Team2Acronym": "UCSDa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1200,
+        "Y": 300
+      },
+      "Acronyms": [
+        "NYPa",
+        "UCSDa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 7,
+      "Team1Acronym": "UWasha",
+      "Team1Score": null,
+      "Team2Acronym": "SEUa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -600,
+        "Y": -1100
+      },
+      "Acronyms": [
+        "UWasha",
+        "SEUa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 24,
+      "Team1Acronym": "UoCa",
+      "Team1Score": null,
+      "Team2Acronym": "CCa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -600,
+        "Y": -300
+      },
+      "Acronyms": [
+        "UoCa",
+        "CCa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 8,
+      "Team1Acronym": "UW",
+      "Team1Score": null,
+      "Team2Acronym": "UCLAa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 600,
+        "Y": -1100
+      },
+      "Acronyms": [
+        "UW",
+        "UCLAa"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 6
+    },
+    {
+      "ID": 25,
+      "Team1Acronym": "",
+      "Team1Score": null,
+      "Team2Acronym": "UTa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-20T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 600,
+        "Y": -300
+      },
+      "Acronyms": [
+        "",
+        "UTa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 57,
+      "Team1Acronym": "SEUa",
+      "Team1Score": null,
+      "Team2Acronym": "UWa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-27T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -900,
+        "Y": 700
+      },
+      "Acronyms": [
+        "SEUa",
+        "UWa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 39,
+      "Team1Acronym": "UCSDa",
+      "Team1Score": null,
+      "Team2Acronym": "CCa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3205991
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3227634
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3612221
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3625114
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3808702
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3901889
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3311309
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1123314
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2223096
+        }
+      ],
+      "Current": false,
+      "Date": "2023-10-27T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -900,
+        "Y": 300
+      },
+      "Acronyms": [
+        "UCSDa",
+        "CCa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 58,
+      "Team1Acronym": "RITa",
+      "Team1Score": null,
+      "Team2Acronym": "TUDa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-27T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 900,
+        "Y": 700
+      },
+      "Acronyms": [
+        "RITa",
+        "TUDa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 41,
+      "Team1Acronym": "",
+      "Team1Score": null,
+      "Team2Acronym": "UWb",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-27T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 900,
+        "Y": 300
+      },
+      "Acronyms": [
+        "",
+        "UWb"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 47,
+      "Team1Acronym": "SEUa",
+      "Team1Score": null,
+      "Team2Acronym": "UCSDa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-27T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -610,
+        "Y": 500
+      },
+      "Acronyms": [
+        "SEUa",
+        "UCSDa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 51,
+      "Team1Score": null,
+      "Team2Acronym": "TUDa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-27T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 600,
+        "Y": 500
+      },
+      "Acronyms": [
+        "TUDa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 15,
+      "Team1Acronym": "UWasha",
+      "Team1Score": null,
+      "Team2Acronym": "UoCa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2140702
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3227634
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3625114
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3179793
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2374190
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3765087
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3311309
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2633846
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2223096
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3901889
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3612221
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2892136
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3808702
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3586372
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2699308
+        }
+      ],
+      "Current": false,
+      "Date": "2023-10-27T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -300,
+        "Y": -700
+      },
+      "Acronyms": [
+        "UWasha",
+        "UoCa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 17,
+      "Team1Acronym": "UCLAa",
+      "Team1Score": null,
+      "Team2Acronym": "UTa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-27T08:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 300,
+        "Y": -700
+      },
+      "Acronyms": [
+        "UCLAa",
+        "UTa"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 50,
+      "Team1Acronym": "UoCa",
+      "Team1Score": null,
+      "Team2Acronym": "",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1384674
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4010004
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3634571
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2438314
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3871587
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3480173
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3049857
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3175889
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3889677
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3651943
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3724231
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3688541
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3112102
+        }
+      ],
+      "Current": false,
+      "Date": "2023-11-03T07:00:00+00:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 300,
+        "Y": 500
+      },
+      "Acronyms": [
+        "UoCa",
+        ""
+      ],
+      "PointsToWin": 7
+    },
+    {
+      "ID": 48,
+      "Team1Acronym": "UCLAa",
+      "Team1Score": null,
+      "Team2Acronym": "UCSDa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3940190
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3480173
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3724231
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2848773
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3889677
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3175889
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3049857
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4010004
+        }
+      ],
+      "Current": false,
+      "Date": "2023-11-03T07:00:00+00:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -300,
+        "Y": 500
+      },
+      "Acronyms": [
+        "UCLAa",
+        "UCSDa"
+      ],
+      "PointsToWin": 7
+    },
+    {
+      "ID": 49,
+      "Team1Acronym": "UCSDa",
+      "Team1Score": null,
+      "Team2Acronym": "UoCa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3940190
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3175889
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4010004
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2848773
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3480173
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3871587
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3889677
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2438314
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3651943
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3724231
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1384674
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3049857
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3634571
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3159842
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3792291
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3911486
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3311391
+        }
+      ],
+      "Current": false,
+      "Date": "2023-11-03T07:00:00+00:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "Y": 500
+      },
+      "Acronyms": [
+        "UCSDa",
+        "UoCa"
+      ],
+      "PointsToWin": 7
+    },
+    {
+      "ID": 16,
+      "Team1Acronym": "UWasha",
+      "Team1Score": null,
+      "Team2Acronym": "UTa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-11-03T07:00:00+00:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "Y": -700
+      },
+      "Acronyms": [
+        "UWasha",
+        "UTa"
+      ],
+      "PointsToWin": 7
+    },
+    {
+      "ID": 40,
+      "Team1Acronym": "UTa",
+      "Team1Score": null,
+      "Team2Acronym": "UoCa",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-11-03T07:00:00+00:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "Y": 300
+      },
+      "Acronyms": [
+        "UTa",
+        "UoCa"
+      ],
+      "PointsToWin": 7
+    },
+    {
+      "ID": 33,
+      "Team1Acronym": "UWasha",
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-11-10T08:00:00+00:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1,
+        "Y": 53
+      },
+      "Acronyms": [
+        "UWasha"
+      ],
+      "PointsToWin": 7
+    },
+    {
+      "ID": 30,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-11-10T08:00:00+00:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -200,
+        "Y": -50
+      },
+      "Acronyms": [],
+      "PointsToWin": 7
+    },
+    {
+      "ID": 10,
+      "Team1Acronym": "BINUS",
+      "Team1Score": 5,
+      "Team2Acronym": "UVal",
+      "Team2Score": 3,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2023-10-06T08:52:12.9285557+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -1200,
+        "Y": -990
+      },
+      "Acronyms": [
+        "BINUS",
+        "UVal"
+      ],
+      "PointsToWin": 5
+    }
+  ],
+  "Rounds": [
+    {
+      "Name": "Round of 32",
+      "Description": "",
+      "BestOf": 9,
+      "Beatmaps": [
+        {
+          "ID": 3542398,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3542398,
+            "DifficultyName": "Extreme",
+            "BPM": 100.0,
+            "Length": 157000.0,
+            "StarRating": 6.44,
+            "Metadata": {
+              "Title": "Millennia",
+              "title_unicode": "Millennia",
+              "Artist": "Pixel Terror",
+              "artist_unicode": "Pixel Terror",
+              "Author": {
+                "OnlineID": 1715720,
+                "Username": "Asphyxia",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "collaboration axarious synthpop indie dance electronic deviouspanda nao tomori naotoshi cbh come[back]home kyshiro frey millenia milennia milenia english sara skinner synth pop wave synthwave electro house",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1708547/covers/cover@2x.jpg?1675959718",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1708547/covers/card@2x.jpg?1675959718",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1708547/covers/list@2x.jpg?1675959718"
+            }
+          }
+        },
+        {
+          "ID": 4178415,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4178415,
+            "DifficultyName": "Finsternis",
+            "BPM": 213.0,
+            "Length": 158000.0,
+            "StarRating": 6.62,
+            "Metadata": {
+              "Title": "The Dark",
+              "title_unicode": "The Dark",
+              "Artist": "Krimek",
+              "artist_unicode": "Krimek",
+              "Author": {
+                "OnlineID": 3144542,
+                "Username": "fergas",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fa featured artist corrupted being f finals nm5 dach custom breakcore break beat classical dark souls 2 valun art",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.7,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2008599/covers/cover@2x.jpg?1695556509",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2008599/covers/card@2x.jpg?1695556509",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2008599/covers/list@2x.jpg?1695556509"
+            }
+          }
+        },
+        {
+          "ID": 2457696,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 2457696,
+            "DifficultyName": "Extra (#4)",
+            "BPM": 152.0,
+            "Length": 105000.0,
+            "StarRating": 5.99,
+            "Metadata": {
+              "Title": "Violet Rose",
+              "title_unicode": "Violet Rose",
+              "Artist": "OSTER project",
+              "artist_unicode": "OSTER project",
+              "Author": {
+                "OnlineID": 4694602,
+                "Username": "Down",
+                "CountryString": "Unknown"
+              },
+              "Source": "beatmania IIDX 23 copula",
+              "tags": "omc video game instrumental recursive call latin jazz trio konami bemani",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.8,
+              "CircleSize": 4.8,
+              "OverallDifficulty": 8.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1178488/covers/cover@2x.jpg?1622189830",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1178488/covers/card@2x.jpg?1622189830",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1178488/covers/list@2x.jpg?1622189830"
+            }
+          }
+        },
+        {
+          "ID": 3276740,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3276740,
+            "DifficultyName": "Don't Just Stand There...",
+            "BPM": 175.0,
+            "Length": 133000.0,
+            "StarRating": 6.14,
+            "Metadata": {
+              "Title": "Be With U",
+              "title_unicode": "Be With U",
+              "Artist": "F Rabbeat",
+              "artist_unicode": "兎我月 未来",
+              "Author": {
+                "OnlineID": 5745865,
+                "Username": "Altai",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "owc2021ro32nm4 the bms of fighters fighter xvi -neo dystopia- bofxvi tech electronic instrumental hey boy english japanese technical undeadphoneguy",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1604642/covers/cover@2x.jpg?1636927274",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1604642/covers/card@2x.jpg?1636927274",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1604642/covers/list@2x.jpg?1636927274"
+            }
+          }
+        },
+        {
+          "ID": 3955178,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3955178,
+            "DifficultyName": "squirrelp's Infatuation",
+            "BPM": 174.0,
+            "Length": 174000.0,
+            "StarRating": 4.69,
+            "Metadata": {
+              "Title": "Wah Wah",
+              "title_unicode": "Wah Wah",
+              "Artist": "King Gizzard & The Lizard Wizard",
+              "artist_unicode": "King Gizzard & The Lizard Wizard",
+              "Author": {
+                "OnlineID": 11106929,
+                "Username": "Wispy",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "squirrelpascals a bat a_bat porgdeity kowari banger bonanza and english rock nonagon infinity alternative garage psychedelic krautrock stuart mackenzie kgatlw kglw track 8 #8",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 6.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 7.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1899486/covers/cover@2x.jpg?1696134145",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1899486/covers/card@2x.jpg?1696134145",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1899486/covers/list@2x.jpg?1696134145"
+            }
+          }
+        },
+        {
+          "ID": 4301353,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4301353,
+            "DifficultyName": "NYAH!",
+            "BPM": 167.0,
+            "Length": 245000.0,
+            "StarRating": 6.19,
+            "Metadata": {
+              "Title": "LUCKY CAT",
+              "title_unicode": "LUCKY CAT",
+              "Artist": "Chocofan",
+              "artist_unicode": "ちょこふぁん",
+              "Author": {
+                "OnlineID": 1218895,
+                "Username": "Athanasia-",
+                "CountryString": "Unknown"
+              },
+              "Source": "東方虹龍洞　〜 Unconnected Marketeers.",
+              "tags": "haseko japanese jpop j-pop jpop zun touhou 東方 project 大吉キトゥン daikichi kiton fortunate kitten",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2058078/covers/cover@2x.jpg?1694517088",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2058078/covers/card@2x.jpg?1694517088",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2058078/covers/list@2x.jpg?1694517088"
+            }
+          }
+        },
+        {
+          "ID": 2694322,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 2694322,
+            "DifficultyName": "Guidance",
+            "BPM": 126.0,
+            "Length": 171000.0,
+            "StarRating": 5.77,
+            "Metadata": {
+              "Title": "Reference",
+              "title_unicode": "Reference",
+              "Artist": "Zekk",
+              "artist_unicode": "Zekk",
+              "Author": {
+                "OnlineID": 6632605,
+                "Username": "Megafan",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "electronic instrumental hyper glitch hop -level01- megarex mrx-046",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1299031/covers/cover@2x.jpg?1607623251",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1299031/covers/card@2x.jpg?1607623251",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1299031/covers/list@2x.jpg?1607623251"
+            }
+          }
+        },
+        {
+          "ID": 3928639,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 3928639,
+            "DifficultyName": "extra",
+            "BPM": 190.0,
+            "Length": 153000.0,
+            "StarRating": 5.79,
+            "Metadata": {
+              "Title": "Free",
+              "title_unicode": "Free",
+              "Artist": "Kitsune^2",
+              "artist_unicode": "Kitsune²",
+              "Author": {
+                "OnlineID": 2166762,
+                "Username": "Silverboxer",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "finger control renard breakcore chiptune english electronic",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1905273/covers/cover@2x.jpg?1673751660",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1905273/covers/card@2x.jpg?1673751660",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1905273/covers/list@2x.jpg?1673751660"
+            }
+          }
+        },
+        {
+          "ID": 1994939,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 1994939,
+            "DifficultyName": "Atelier Totori",
+            "BPM": 190.0,
+            "Length": 244000.0,
+            "StarRating": 5.15,
+            "Metadata": {
+              "Title": "Pilgrimage",
+              "title_unicode": "Pilgrimage",
+              "Artist": "Yamamoto Mineko",
+              "artist_unicode": "山本美禰子",
+              "Author": {
+                "OnlineID": 1244312,
+                "Username": "Gust",
+                "CountryString": "Unknown"
+              },
+              "Source": "トトリのアトリエ 〜アーランドの錬金術士2〜",
+              "tags": "atelier totori the alchemist of arland 2 Ārando no renkinjutsushi ken nakagawa video game gust daloubot garden",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/937285/covers/cover@2x.jpg?1650679037",
+              "card@2x": "https://assets.ppy.sh/beatmaps/937285/covers/card@2x.jpg?1650679037",
+              "list@2x": "https://assets.ppy.sh/beatmaps/937285/covers/list@2x.jpg?1650679037"
+            }
+          }
+        },
+        {
+          "ID": 4028450,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 4028450,
+            "DifficultyName": "Insane",
+            "BPM": 97.0,
+            "Length": 222000.0,
+            "StarRating": 4.59,
+            "Metadata": {
+              "Title": "Matsuri",
+              "title_unicode": "まつり",
+              "Artist": "Fujii Kaze",
+              "artist_unicode": "藤井 風",
+              "Author": {
+                "OnlineID": 11119539,
+                "Username": "AirinCat",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fuju kyouren japanese pop jpop j-pop r&b rnb rhythm and blues love all serve all festival kittyadventure gokugohan12468",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1902232/covers/cover@2x.jpg?1681508889",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1902232/covers/card@2x.jpg?1681508889",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1902232/covers/list@2x.jpg?1681508889"
+            }
+          }
+        },
+        {
+          "ID": 163054,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 163054,
+            "DifficultyName": "Lunatic",
+            "BPM": 156.0,
+            "Length": 234000.0,
+            "StarRating": 4.8,
+            "Metadata": {
+              "Title": "Magic Girl !!",
+              "title_unicode": "Magic Girl !!",
+              "Artist": "Shihori",
+              "artist_unicode": "Shihori",
+              "Author": {
+                "OnlineID": 199669,
+                "Username": "Frostmourne",
+                "CountryString": "Unknown"
+              },
+              "Source": "Touhou",
+              "tags": "nico a-one eurobeat patchouli knowledge the embodiment of scarlet centennial festival for magical girls dj command",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/53519/covers/cover@2x.jpg?1633531557",
+              "card@2x": "https://assets.ppy.sh/beatmaps/53519/covers/card@2x.jpg?1633531557",
+              "list@2x": "https://assets.ppy.sh/beatmaps/53519/covers/list@2x.jpg?1633531557"
+            }
+          }
+        },
+        {
+          "ID": 2894605,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 2894605,
+            "DifficultyName": "Marvari's mp5d",
+            "BPM": 180.0,
+            "Length": 175000.0,
+            "StarRating": 4.43,
+            "Metadata": {
+              "Title": "The Refrain of the Lovely Great War",
+              "title_unicode": "The Refrain of the Lovely Great War",
+              "Artist": "Jun.A",
+              "artist_unicode": "Jun.A",
+              "Author": {
+                "OnlineID": 5194043,
+                "Username": "Marzale",
+                "CountryString": "Unknown"
+              },
+              "Source": "Touhou",
+              "tags": "mp5d",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 8.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.5,
+              "ApproachRate": 8.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1403332/covers/cover@2x.jpg?1626807633",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1403332/covers/card@2x.jpg?1626807633",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1403332/covers/list@2x.jpg?1626807633"
+            }
+          }
+        },
+        {
+          "ID": 403276,
+          "Mods": "FM",
+          "BeatmapInfo": {
+            "OnlineID": 403276,
+            "DifficultyName": "Terror",
+            "BPM": 280.0,
+            "Length": 167000.0,
+            "StarRating": 5.88,
+            "Metadata": {
+              "Title": "Reiwai Terrorism",
+              "title_unicode": "レイワイテロリズム",
+              "Artist": "Zips",
+              "artist_unicode": "じっぷす",
+              "Author": {
+                "OnlineID": 640611,
+                "Username": "Kyshiro",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "soul distortion gumi irreversible グミ megpoid vocaloid heisei project kairiki bear rock niconico",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/165817/covers/cover@2x.jpg?1650621663",
+              "card@2x": "https://assets.ppy.sh/beatmaps/165817/covers/card@2x.jpg?1650621663",
+              "list@2x": "https://assets.ppy.sh/beatmaps/165817/covers/list@2x.jpg?1650621663"
+            }
+          }
+        },
+        {
+          "ID": 3524523,
+          "Mods": "FM",
+          "BeatmapInfo": {
+            "OnlineID": 3524523,
+            "DifficultyName": "ST@R SCR@MBLE!!!@#!#$@",
+            "BPM": 178.0,
+            "Length": 108000.0,
+            "StarRating": 5.46,
+            "Metadata": {
+              "Title": "Precious * Star",
+              "title_unicode": "Precious * Star",
+              "Artist": "DJ TOTTO feat.Enako",
+              "artist_unicode": "DJ TOTTO feat.Enako",
+              "Author": {
+                "OnlineID": 3545323,
+                "Username": "alden",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 3.6,
+              "OverallDifficulty": 8.9,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1724565/covers/cover@2x.jpg?1650335437",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1724565/covers/card@2x.jpg?1650335437",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1724565/covers/list@2x.jpg?1650335437"
+            }
+          }
+        },
+        {
+          "ID": 1304748,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 1304748,
+            "DifficultyName": "Despondency",
+            "BPM": 175.0,
+            "Length": 306000.0,
+            "StarRating": 6.46,
+            "Metadata": {
+              "Title": "Lost Emotion (Amane UK Hardcore Remix)",
+              "title_unicode": "Lost Emotion (Amane UK Hardcore Remix)",
+              "Artist": "Masayoshi Minoshima feat.nomico",
+              "artist_unicode": "Masayoshi Minoshima feat.nomico",
+              "Author": {
+                "OnlineID": 4496961,
+                "Username": "MaridiuS",
+                "CountryString": "Unknown"
+              },
+              "Source": "東方心綺楼　～ Hopeless Masquerade.",
+              "tags": "alstroemeria records c88 東方 project marathon pop culture 4 3 hata no kokoro theme edm shinkirou touhou 天音 reitaisai 12 亡失のエモーション j-core のみこ 簑島正佳",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.7,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/618953/covers/cover@2x.jpg?1622119679",
+              "card@2x": "https://assets.ppy.sh/beatmaps/618953/covers/card@2x.jpg?1622119679",
+              "list@2x": "https://assets.ppy.sh/beatmaps/618953/covers/list@2x.jpg?1622119679"
+            }
+          }
+        }
+      ],
+      "StartDate": "2023-10-06T08:00:00+01:00",
+      "Matches": [
+        1,
+        5,
+        13,
+        18,
+        22,
+        26,
+        31,
+        2,
+        6,
+        9,
+        14,
+        19,
+        23,
+        27,
+        32,
+        10
+      ]
+    },
+    {
+      "Name": "Round of 16",
+      "Description": "",
+      "BestOf": 9,
+      "Beatmaps": [
+        {
+          "ID": 3920454,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3920454,
+            "DifficultyName": "illusion",
+            "BPM": 200.0,
+            "Length": 215000.0,
+            "StarRating": 6.62,
+            "Metadata": {
+              "Title": "Happy Enforcer",
+              "title_unicode": "ハッピーエンフォーサー",
+              "Artist": "Feryquitous feat. Itsuki Natsume",
+              "artist_unicode": "Feryquitous feat. 棗いつき",
+              "Author": {
+                "OnlineID": 5312202,
+                "Username": "bongo",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "gst:live2022 great singapore tournament live 2022 gstlive custom map tourney aef asia esports festival online kallang wave mall exp esports experience center gstlive2022b1 japanese pop jpop",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.5,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1901658/covers/cover@2x.jpg?1673220637",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1901658/covers/card@2x.jpg?1673220637",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1901658/covers/list@2x.jpg?1673220637"
+            }
+          }
+        },
+        {
+          "ID": 2699222,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 2699222,
+            "DifficultyName": "Internal Chaos",
+            "BPM": 175.0,
+            "Length": 135000.0,
+            "StarRating": 6.55,
+            "Metadata": {
+              "Title": "Mind Disorder",
+              "title_unicode": "Mind Disorder",
+              "Artist": "Alkome",
+              "artist_unicode": "Alkome",
+              "Author": {
+                "OnlineID": 5745865,
+                "Username": "Altai",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "owc 2020 hd1 hidden osu world cup sf semi finals techcore stream tech toybot vikala the bms of fighters fighter xvi -neo dystopia- bofxvi bms 175 electronic instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.1,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1301375/covers/cover@2x.jpg?1631507761",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1301375/covers/card@2x.jpg?1631507761",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1301375/covers/list@2x.jpg?1631507761"
+            }
+          }
+        },
+        {
+          "ID": 2287891,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 2287891,
+            "DifficultyName": "geddan",
+            "BPM": 123.98,
+            "Length": 120000.0,
+            "StarRating": 6.55,
+            "Metadata": {
+              "Title": "promise",
+              "title_unicode": "promise",
+              "Artist": "Hirose Kohmi",
+              "artist_unicode": "広瀬香美",
+              "Author": {
+                "OnlineID": 2688581,
+                "Username": "Luscent",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "get down geddan kawashiro nitori cut short ver japanese pop jpop 404 aimnotfound enon kalibe black man fixxis firika evilelvis v2 elvis jounzan natteke desu dailycare morinaga yokespai yokes",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1094694/covers/cover@2x.jpg?1650694039",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1094694/covers/card@2x.jpg?1650694039",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1094694/covers/list@2x.jpg?1650694039"
+            }
+          }
+        },
+        {
+          "ID": 4010877,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4010877,
+            "DifficultyName": "EXTRA",
+            "BPM": 225.0,
+            "Length": 124000.0,
+            "StarRating": 6.87,
+            "Metadata": {
+              "Title": "DESPERATE DEATHPARADE",
+              "title_unicode": "DESPERATE DEATHPARADE",
+              "Artist": "69 de 74",
+              "artist_unicode": "69 de 74",
+              "Author": {
+                "OnlineID": 3062998,
+                "Username": "rollpan",
+                "CountryString": "Unknown"
+              },
+              "Source": "BOFU2017 - LEGENDA EST A MYTH -",
+              "tags": "renaissance breakcore bms shirasaka koume roll_pan zetawin eac2023 eastasiacup roundof16 ro16 nm5",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 3.5,
+              "OverallDifficulty": 8.6,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1939881/covers/cover@2x.jpg?1678714274",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1939881/covers/card@2x.jpg?1678714274",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1939881/covers/list@2x.jpg?1678714274"
+            }
+          }
+        },
+        {
+          "ID": 3400091,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3400091,
+            "DifficultyName": "Nucifera",
+            "BPM": 180.0,
+            "Length": 152000.0,
+            "StarRating": 5.94,
+            "Metadata": {
+              "Title": "Coconut Love",
+              "title_unicode": "Coconut Love",
+              "Artist": "I love you orchestra",
+              "artist_unicode": "I love you orchestra",
+              "Author": {
+                "OnlineID": 8473573,
+                "Username": "funny",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "nik nik's winter cup nwc 2022 q hd1 low ar",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.6,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1665501/covers/cover@2x.jpg?1643585474",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1665501/covers/card@2x.jpg?1643585474",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1665501/covers/list@2x.jpg?1643585474"
+            }
+          }
+        },
+        {
+          "ID": 2689460,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 2689460,
+            "DifficultyName": "Fortissimo",
+            "BPM": 140.0,
+            "Length": 191000.0,
+            "StarRating": 6.18,
+            "Metadata": {
+              "Title": "piano x forte",
+              "title_unicode": "piano x forte",
+              "Artist": "OSTER project",
+              "artist_unicode": "OSTER project",
+              "Author": {
+                "OnlineID": 4966334,
+                "Username": "DeviousPanda",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "instrumental jazz recursive call o!wc owc 2020 qf nm6 kowari kyrian ピアノ×フォルテ×スキャンダル piano x forte x scandal",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1296249/covers/cover@2x.jpg?1650703866",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1296249/covers/card@2x.jpg?1650703866",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1296249/covers/list@2x.jpg?1650703866"
+            }
+          }
+        },
+        {
+          "ID": 3862211,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 3862211,
+            "DifficultyName": "Eternal [LNB EDIT]",
+            "BPM": 185.0,
+            "Length": 209000.0,
+            "StarRating": 5.64,
+            "Metadata": {
+              "Title": "RGB",
+              "title_unicode": "RGB",
+              "Artist": "capsule",
+              "artist_unicode": "capsule",
+              "Author": {
+                "OnlineID": 6701656,
+                "Username": "i need top 727",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "japanese カプセル phony phonic こしじまとしこ 中田ヤスタカ koshijima toshiko yasutaka nakata contemode phony phonic neo-shibuya-kei bossa nova electropop jpop pop electronic electronica hinamommy -mikanmymommy kimikamymommy djulus wenet wenect cocomber",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 3.8,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1876693/covers/cover@2x.jpg?1669644041",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1876693/covers/card@2x.jpg?1669644041",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1876693/covers/list@2x.jpg?1669644041"
+            }
+          }
+        },
+        {
+          "ID": 4189704,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4189704,
+            "DifficultyName": "Collab Extra: Ethereal Echo",
+            "BPM": 184.0,
+            "Length": 180000.0,
+            "StarRating": 6.05,
+            "Metadata": {
+              "Title": "Hypnotize",
+              "title_unicode": "Hypnotize",
+              "Artist": "Fairlane & Grant",
+              "artist_unicode": "Fairlane & Grant",
+              "Author": {
+                "OnlineID": 4879380,
+                "Username": "Aistre",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "alphabet muya- dtm9 nowa nowaie ascended -_ascended_- markus a3ther_xx jas mynt heilia juquett cotton__123 bluirre kujinn reform elicz1 atlas fursum nexen k_a_t_a kata byd bite_you_death zelq revolver gouhin paradogi calliecube allice obamacube delusional harepascals unappreciative theduckmask english electronic edm dance",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.6,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2013325/covers/cover@2x.jpg?1696273232",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2013325/covers/card@2x.jpg?1696273232",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2013325/covers/list@2x.jpg?1696273232"
+            }
+          }
+        },
+        {
+          "ID": 3693390,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 3693390,
+            "DifficultyName": "Welcome to... Brazil?!",
+            "BPM": 135.0,
+            "Length": 178000.0,
+            "StarRating": 5.41,
+            "Metadata": {
+              "Title": "Levitation Nation",
+              "title_unicode": "Levitation Nation",
+              "Artist": "Shpongle",
+              "artist_unicode": "Shpongle",
+              "Author": {
+                "OnlineID": 7645522,
+                "Username": "piroshki",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "portuguese instrumental glitch psychedelic trance new tribe art rock nothing lasts but norhing is lost 2019 remastered owc2022ro16hr2",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.7,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1801375/covers/cover@2x.jpg?1668976294",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1801375/covers/card@2x.jpg?1668976294",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1801375/covers/list@2x.jpg?1668976294"
+            }
+          }
+        },
+        {
+          "ID": 4163649,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 4163649,
+            "DifficultyName": "Fsjallink's Insane",
+            "BPM": 175.0,
+            "Length": 269000.0,
+            "StarRating": 4.72,
+            "Metadata": {
+              "Title": "Celluloid",
+              "title_unicode": "セルロイド",
+              "Artist": "CITROBAL",
+              "artist_unicode": "シトロバル",
+              "Author": {
+                "OnlineID": 1786945,
+                "Username": "Kaine",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fsjallink my caution line イミテーションを撃て shibuya-kei pop j-pop japanese shibuya kei twee pop",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.5,
+              "ApproachRate": 8.5,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1856293/covers/cover@2x.jpg?1694712755",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1856293/covers/card@2x.jpg?1694712755",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1856293/covers/list@2x.jpg?1694712755"
+            }
+          }
+        },
+        {
+          "ID": 3947621,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3947621,
+            "DifficultyName": "muya-'s Insane",
+            "BPM": 159.0,
+            "Length": 183000.0,
+            "StarRating": 4.67,
+            "Metadata": {
+              "Title": "Ura-Omote Lovers feat. Hatsune Miku",
+              "title_unicode": "裏表ラバーズ feat. 初音ミク",
+              "Artist": "wowaka",
+              "artist_unicode": "wowaka",
+              "Author": {
+                "OnlineID": 6055351,
+                "Username": "gazimal",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "gorou two-faced two-sided project diva extend arcade future tone megamix x f 2nd vocaloid japanese electronic satellite muya- ponbot wanpachi stompy_",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.5,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.2,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1872527/covers/cover@2x.jpg?1677441400",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1872527/covers/card@2x.jpg?1677441400",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1872527/covers/list@2x.jpg?1677441400"
+            }
+          }
+        },
+        {
+          "ID": 3168616,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3168616,
+            "DifficultyName": "Epilogue",
+            "BPM": 139.0,
+            "Length": 271000.0,
+            "StarRating": 4.56,
+            "Metadata": {
+              "Title": "Toki o Kizamu Uta",
+              "title_unicode": "時を刻む唄",
+              "Artist": "Lia",
+              "artist_unicode": "Lia",
+              "Author": {
+                "OnlineID": 9119507,
+                "Username": "Dada",
+                "CountryString": "Unknown"
+              },
+              "Source": "CLANNAD AFTER STORY",
+              "tags": "japanese pop anime corsace co21 ro32 dt4 麻枝准 vn visual novel art key anime op opening full size クラナド アフターストーリー wo",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 7.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1550603/covers/cover@2x.jpg?1634777051",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1550603/covers/card@2x.jpg?1634777051",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1550603/covers/list@2x.jpg?1634777051"
+            }
+          }
+        },
+        {
+          "ID": 256027,
+          "Mods": "FM",
+          "BeatmapInfo": {
+            "OnlineID": 256027,
+            "DifficultyName": "Jumpudding!",
+            "BPM": 190.0,
+            "Length": 115000.0,
+            "StarRating": 6.54,
+            "Metadata": {
+              "Title": "Reizouko Mitara Pudding ga Nai",
+              "title_unicode": "冷蔵庫見たらプリンがない",
+              "Artist": "bibuko",
+              "artist_unicode": "bibuko",
+              "Author": {
+                "OnlineID": 243917,
+                "Username": "val0108",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "hatsune_miku natteke star stream mythol alumetorz",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/90068/covers/cover@2x.jpg?1650616734",
+              "card@2x": "https://assets.ppy.sh/beatmaps/90068/covers/card@2x.jpg?1650616734",
+              "list@2x": "https://assets.ppy.sh/beatmaps/90068/covers/list@2x.jpg?1650616734"
+            }
+          }
+        },
+        {
+          "ID": 1582902,
+          "Mods": "FM",
+          "BeatmapInfo": {
+            "OnlineID": 1582902,
+            "DifficultyName": "Expert",
+            "BPM": 165.0,
+            "Length": 211000.0,
+            "StarRating": 5.84,
+            "Metadata": {
+              "Title": "Rave 2 Rave",
+              "title_unicode": "Rave 2 Rave",
+              "Artist": "Cranky",
+              "artist_unicode": "Cranky",
+              "Author": {
+                "OnlineID": 11771,
+                "Username": "Sonnyc",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "osu! rave-slave record2-rave hiroshi watanabe featured artist delis",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.4,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/751896/covers/cover@2x.jpg?1631510614",
+              "card@2x": "https://assets.ppy.sh/beatmaps/751896/covers/card@2x.jpg?1631510614",
+              "list@2x": "https://assets.ppy.sh/beatmaps/751896/covers/list@2x.jpg?1631510614"
+            }
+          }
+        },
+        {
+          "ID": 3580348,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 3580348,
+            "DifficultyName": "Entheogen",
+            "BPM": 190.0,
+            "Length": 389000.0,
+            "StarRating": 6.77,
+            "Metadata": {
+              "Title": "Dr. Vinklestein Says",
+              "title_unicode": "Dr. Vinklestein Says",
+              "Artist": "Shpongle",
+              "artist_unicode": "Shpongle",
+              "Author": {
+                "OnlineID": 7645522,
+                "Username": "piroshki",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "english instrumental electronic edm psychedelic midtempo carnival of peculiarities simon posford hallucinogen raja ram ep",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.0,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1750091/covers/cover@2x.jpg?1653597344",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1750091/covers/card@2x.jpg?1653597344",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1750091/covers/list@2x.jpg?1653597344"
+            }
+          }
+        }
+      ],
+      "StartDate": "2023-10-13T08:00:00+01:00",
+      "Matches": [
+        34,
+        43,
+        52,
+        60,
+        37,
+        46,
+        55,
+        63,
+        3,
+        11,
+        20,
+        28,
+        4,
+        12,
+        21,
+        29
+      ]
+    },
+    {
+      "Name": "Quarterfinals",
+      "Description": "",
+      "BestOf": 11,
+      "Beatmaps": [],
+      "StartDate": "2023-10-20T08:00:00+01:00",
+      "Matches": [
+        62,
+        54,
+        45,
+        36,
+        61,
+        53,
+        44,
+        35,
+        59,
+        42,
+        56,
+        38,
+        7,
+        24,
+        8,
+        25
+      ]
+    },
+    {
+      "Name": "Semifinals",
+      "Description": "",
+      "BestOf": 11,
+      "Beatmaps": [],
+      "StartDate": "2023-10-27T08:00:00+01:00",
+      "Matches": [
+        57,
+        39,
+        58,
+        41,
+        47,
+        51,
+        15,
+        17
+      ]
+    },
+    {
+      "Name": "Finals",
+      "Description": "",
+      "BestOf": 13,
+      "Beatmaps": [],
+      "StartDate": "2023-11-03T07:00:00+00:00",
+      "Matches": [
+        50,
+        48,
+        49,
+        16,
+        40
+      ]
+    },
+    {
+      "Name": "Grand Finals",
+      "Description": "",
+      "BestOf": 13,
+      "Beatmaps": [],
+      "StartDate": "2023-11-10T08:00:00+00:00",
+      "Matches": [
+        33,
+        30
+      ]
+    }
+  ],
+  "Teams": [
+    {
+      "FullName": "University of British Columbia A",
+      "FlagName": "UBC",
+      "Acronym": "UBC",
+      "SeedingResults": [],
+      "Seed": "1",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "University of Waterloo A",
+      "FlagName": "UW",
+      "Acronym": "UW",
+      "SeedingResults": [],
+      "Seed": "2",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "University of Toronto A",
+      "FlagName": "UT",
+      "Acronym": "UT",
+      "SeedingResults": [],
+      "Seed": "3",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "University of California, Santa Barbara A",
+      "FlagName": "US",
+      "Acronym": "UCSB",
+      "SeedingResults": [],
+      "Seed": "4",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Rochester Institute of Technology A",
+      "FlagName": "RIT",
+      "Acronym": "RIT",
+      "SeedingResults": [],
+      "Seed": "5",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "University of Calgary A",
+      "FlagName": "UOC",
+      "Acronym": "UoC",
+      "SeedingResults": [],
+      "Seed": "6",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "HKU School of Professional and Continuing Education A",
+      "FlagName": "SP",
+      "Acronym": "SPACE",
+      "SeedingResults": [],
+      "Seed": "7",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Binus University A",
+      "FlagName": "ID",
+      "Acronym": "BINUS",
+      "SeedingResults": [],
+      "Seed": "8",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Pontifical Catholic University of Chile A",
+      "FlagName": "CL",
+      "Acronym": "PUC",
+      "SeedingResults": [],
+      "Seed": "9",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Stanford University A",
+      "FlagName": "SU",
+      "Acronym": "SU",
+      "SeedingResults": [],
+      "Seed": "10",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Baruch College A",
+      "FlagName": "US",
+      "Acronym": "Bar",
+      "SeedingResults": [],
+      "Seed": "11",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Autonomous University of Baja California A",
+      "FlagName": "UABC",
+      "Acronym": "UABC",
+      "SeedingResults": [],
+      "Seed": "12",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "University of Illinois at Urbana-Champaign A",
+      "FlagName": "UIUC",
+      "Acronym": "UIUC",
+      "SeedingResults": [],
+      "Seed": "13",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "University of Queensland A",
+      "FlagName": "AU",
+      "Acronym": "UQ",
+      "SeedingResults": [],
+      "Seed": "14",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Virginia Commonwealth University A",
+      "FlagName": "VCU",
+      "Acronym": "VCU",
+      "SeedingResults": [],
+      "Seed": "15",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Missouri University of Science and Technology A",
+      "FlagName": "MST",
+      "Acronym": "MST",
+      "SeedingResults": [],
+      "Seed": "16",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Rutgers University A",
+      "FlagName": "RTG",
+      "Acronym": "RTG",
+      "SeedingResults": [],
+      "Seed": "17",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Sepuluh Nopember Institute of Technology A",
+      "FlagName": "ID",
+      "Acronym": "ITS",
+      "SeedingResults": [],
+      "Seed": "18",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Technical University of Berlin A",
+      "FlagName": "DE",
+      "Acronym": "TUB",
+      "SeedingResults": [],
+      "Seed": "19",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Georgia Institute of Technology A",
+      "FlagName": "GT_",
+      "Acronym": "GT",
+      "SeedingResults": [],
+      "Seed": "20",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "George Mason University A",
+      "FlagName": "GMU",
+      "Acronym": "GMU",
+      "SeedingResults": [],
+      "Seed": "21",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "University of Minnesota A",
+      "FlagName": "US",
+      "Acronym": "UoM",
+      "SeedingResults": [],
+      "Seed": "22",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Stony Brook University A",
+      "FlagName": "SBU",
+      "Acronym": "SBU",
+      "SeedingResults": [],
+      "Seed": "23",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "University of Massachusetts, Amherst A",
+      "FlagName": "UMASS",
+      "Acronym": "UMASS",
+      "SeedingResults": [],
+      "Seed": "24",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "University of Valencia A",
+      "FlagName": "ES",
+      "Acronym": "UVal",
+      "SeedingResults": [],
+      "Seed": "25",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "University of California, San Diego A",
+      "FlagName": "US",
+      "Acronym": "UCSD",
+      "SeedingResults": [],
+      "Seed": "26",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Portland State University A",
+      "FlagName": "PSU",
+      "Acronym": "PSU",
+      "SeedingResults": [],
+      "Seed": "27",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Aalborg University A",
+      "FlagName": "DK",
+      "Acronym": "AAU",
+      "SeedingResults": [],
+      "Seed": "28",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Asia Pacific University of Technology & Innovation A",
+      "FlagName": "MY",
+      "Acronym": "APU",
+      "SeedingResults": [],
+      "Seed": "29",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Rochester Institute of Technology B",
+      "FlagName": "RIT",
+      "Acronym": "RIT",
+      "SeedingResults": [],
+      "Seed": "30",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Texas A&M University A",
+      "FlagName": "TAMU",
+      "Acronym": "TAMU",
+      "SeedingResults": [],
+      "Seed": "31",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Southeast University A",
+      "FlagName": "CN",
+      "Acronym": "SEU",
+      "SeedingResults": [],
+      "Seed": "32",
+      "LastYearPlacing": 0,
+      "Players": []
+    }
+  ],
+  "Progressions": [
+    {
+      "SourceID": 1,
+      "TargetID": 3
+    },
+    {
+      "SourceID": 5,
+      "TargetID": 3
+    },
+    {
+      "SourceID": 13,
+      "TargetID": 11
+    },
+    {
+      "SourceID": 18,
+      "TargetID": 20
+    },
+    {
+      "SourceID": 22,
+      "TargetID": 20
+    },
+    {
+      "SourceID": 26,
+      "TargetID": 28
+    },
+    {
+      "SourceID": 31,
+      "TargetID": 28
+    },
+    {
+      "SourceID": 2,
+      "TargetID": 4
+    },
+    {
+      "SourceID": 6,
+      "TargetID": 4
+    },
+    {
+      "SourceID": 9,
+      "TargetID": 12
+    },
+    {
+      "SourceID": 14,
+      "TargetID": 12
+    },
+    {
+      "SourceID": 19,
+      "TargetID": 21
+    },
+    {
+      "SourceID": 23,
+      "TargetID": 21
+    },
+    {
+      "SourceID": 27,
+      "TargetID": 29
+    },
+    {
+      "SourceID": 32,
+      "TargetID": 29
+    },
+    {
+      "SourceID": 34,
+      "TargetID": 35
+    },
+    {
+      "SourceID": 43,
+      "TargetID": 44
+    },
+    {
+      "SourceID": 52,
+      "TargetID": 53
+    },
+    {
+      "SourceID": 60,
+      "TargetID": 61
+    },
+    {
+      "SourceID": 37,
+      "TargetID": 36
+    },
+    {
+      "SourceID": 46,
+      "TargetID": 45
+    },
+    {
+      "SourceID": 55,
+      "TargetID": 54
+    },
+    {
+      "SourceID": 63,
+      "TargetID": 62
+    },
+    {
+      "SourceID": 3,
+      "TargetID": 7
+    },
+    {
+      "SourceID": 11,
+      "TargetID": 7
+    },
+    {
+      "SourceID": 20,
+      "TargetID": 24
+    },
+    {
+      "SourceID": 28,
+      "TargetID": 24
+    },
+    {
+      "SourceID": 4,
+      "TargetID": 8
+    },
+    {
+      "SourceID": 12,
+      "TargetID": 8
+    },
+    {
+      "SourceID": 21,
+      "TargetID": 25
+    },
+    {
+      "SourceID": 29,
+      "TargetID": 25
+    },
+    {
+      "SourceID": 62,
+      "TargetID": 59
+    },
+    {
+      "SourceID": 54,
+      "TargetID": 59
+    },
+    {
+      "SourceID": 45,
+      "TargetID": 42
+    },
+    {
+      "SourceID": 36,
+      "TargetID": 42
+    },
+    {
+      "SourceID": 61,
+      "TargetID": 56
+    },
+    {
+      "SourceID": 53,
+      "TargetID": 56
+    },
+    {
+      "SourceID": 44,
+      "TargetID": 38
+    },
+    {
+      "SourceID": 35,
+      "TargetID": 38
+    },
+    {
+      "SourceID": 59,
+      "TargetID": 58
+    },
+    {
+      "SourceID": 42,
+      "TargetID": 41
+    },
+    {
+      "SourceID": 56,
+      "TargetID": 57
+    },
+    {
+      "SourceID": 38,
+      "TargetID": 39
+    },
+    {
+      "SourceID": 7,
+      "TargetID": 15
+    },
+    {
+      "SourceID": 24,
+      "TargetID": 15
+    },
+    {
+      "SourceID": 8,
+      "TargetID": 17
+    },
+    {
+      "SourceID": 25,
+      "TargetID": 17
+    },
+    {
+      "SourceID": 57,
+      "TargetID": 47
+    },
+    {
+      "SourceID": 39,
+      "TargetID": 47
+    },
+    {
+      "SourceID": 58,
+      "TargetID": 51
+    },
+    {
+      "SourceID": 41,
+      "TargetID": 51
+    },
+    {
+      "SourceID": 47,
+      "TargetID": 48
+    },
+    {
+      "SourceID": 51,
+      "TargetID": 50
+    },
+    {
+      "SourceID": 15,
+      "TargetID": 16
+    },
+    {
+      "SourceID": 17,
+      "TargetID": 16
+    },
+    {
+      "SourceID": 50,
+      "TargetID": 49
+    },
+    {
+      "SourceID": 48,
+      "TargetID": 49
+    },
+    {
+      "SourceID": 49,
+      "TargetID": 40
+    },
+    {
+      "SourceID": 16,
+      "TargetID": 33
+    },
+    {
+      "SourceID": 40,
+      "TargetID": 33
+    },
+    {
+      "SourceID": 33,
+      "TargetID": 30
+    },
+    {
+      "SourceID": 10,
+      "TargetID": 11
+    },
+    {
+      "SourceID": 1,
+      "TargetID": 34,
+      "Losers": true
+    },
+    {
+      "SourceID": 5,
+      "TargetID": 34,
+      "Losers": true
+    },
+    {
+      "SourceID": 13,
+      "TargetID": 43,
+      "Losers": true
+    },
+    {
+      "SourceID": 18,
+      "TargetID": 52,
+      "Losers": true
+    },
+    {
+      "SourceID": 22,
+      "TargetID": 52,
+      "Losers": true
+    },
+    {
+      "SourceID": 26,
+      "TargetID": 60,
+      "Losers": true
+    },
+    {
+      "SourceID": 31,
+      "TargetID": 60,
+      "Losers": true
+    },
+    {
+      "SourceID": 2,
+      "TargetID": 37,
+      "Losers": true
+    },
+    {
+      "SourceID": 6,
+      "TargetID": 37,
+      "Losers": true
+    },
+    {
+      "SourceID": 9,
+      "TargetID": 46,
+      "Losers": true
+    },
+    {
+      "SourceID": 14,
+      "TargetID": 46,
+      "Losers": true
+    },
+    {
+      "SourceID": 19,
+      "TargetID": 55,
+      "Losers": true
+    },
+    {
+      "SourceID": 23,
+      "TargetID": 55,
+      "Losers": true
+    },
+    {
+      "SourceID": 27,
+      "TargetID": 63,
+      "Losers": true
+    },
+    {
+      "SourceID": 32,
+      "TargetID": 63,
+      "Losers": true
+    },
+    {
+      "SourceID": 3,
+      "TargetID": 35,
+      "Losers": true
+    },
+    {
+      "SourceID": 11,
+      "TargetID": 44,
+      "Losers": true
+    },
+    {
+      "SourceID": 20,
+      "TargetID": 53,
+      "Losers": true
+    },
+    {
+      "SourceID": 28,
+      "TargetID": 61,
+      "Losers": true
+    },
+    {
+      "SourceID": 4,
+      "TargetID": 36,
+      "Losers": true
+    },
+    {
+      "SourceID": 12,
+      "TargetID": 45,
+      "Losers": true
+    },
+    {
+      "SourceID": 21,
+      "TargetID": 54,
+      "Losers": true
+    },
+    {
+      "SourceID": 29,
+      "TargetID": 62,
+      "Losers": true
+    },
+    {
+      "SourceID": 7,
+      "TargetID": 39,
+      "Losers": true
+    },
+    {
+      "SourceID": 24,
+      "TargetID": 57,
+      "Losers": true
+    },
+    {
+      "SourceID": 8,
+      "TargetID": 41,
+      "Losers": true
+    },
+    {
+      "SourceID": 25,
+      "TargetID": 58,
+      "Losers": true
+    },
+    {
+      "SourceID": 15,
+      "TargetID": 48,
+      "Losers": true
+    },
+    {
+      "SourceID": 17,
+      "TargetID": 50,
+      "Losers": true
+    },
+    {
+      "SourceID": 10,
+      "TargetID": 43,
+      "Losers": true
+    }
+  ],
+  "ChromaKeyWidth": 1366,
+  "PlayersPerTeam": 4,
+  "AutoProgressScreens": true,
+  "SplitMapPoolByMods": true
+}
