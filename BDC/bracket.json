@@ -149,13 +149,13 @@
     {
       "ID": 7,
       "Team1Acronym": "BRO",
-      "Team1Score": null,
+      "Team1Score": 0,
       "Team2Acronym": "PLA",
-      "Team2Score": null,
+      "Team2Score": 0,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2023-11-05T14:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
@@ -201,7 +201,7 @@
       "Completed": true,
       "Losers": false,
       "PicksBans": [],
-      "Current": true,
+      "Current": false,
       "Date": "2023-11-04T15:30:00+00:00",
       "ConditionalMatches": [],
       "Position": {
@@ -218,10 +218,10 @@
     {
       "ID": 15,
       "Team1Acronym": "CRA",
-      "Team1Score": null,
+      "Team1Score": 6,
       "Team2Acronym": "NUH",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -235,7 +235,6 @@
         "CRA",
         "NUH"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -323,6 +322,7 @@
     },
     {
       "ID": 16,
+      "Team1Acronym": "CRA",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -335,7 +335,10 @@
         "X": 250,
         "Y": 700
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "CRA"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -401,6 +404,7 @@
     },
     {
       "ID": 30,
+      "Team1Acronym": "NUH",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -413,7 +417,10 @@
         "X": -10,
         "Y": 1410
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "NUH"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
