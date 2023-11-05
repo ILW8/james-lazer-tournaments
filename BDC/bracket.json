@@ -128,7 +128,7 @@
       "Team1Acronym": "ANG",
       "Team1Score": 1,
       "Team2Acronym": "SEA",
-      "Team2Score": 7,
+      "Team2Score": 6,
       "Completed": true,
       "Losers": false,
       "PicksBans": [
@@ -345,12 +345,88 @@
     {
       "ID": 17,
       "Team1Acronym": "52",
-      "Team1Score": null,
+      "Team1Score": 6,
       "Team2Acronym": "FUN",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2140702
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4334972
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3311238
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4302205
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1033514
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1978833
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3755661
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4186806
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1295717
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2709056
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4001061
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3323779
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4360308
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2945039
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3484121
+        }
+      ],
       "Current": false,
       "Date": "2023-11-05T16:00:00+00:00",
       "ConditionalMatches": [],
@@ -362,7 +438,6 @@
         "52",
         "FUN"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -438,6 +513,7 @@
       "ID": 16,
       "Team1Acronym": "CRA",
       "Team1Score": null,
+      "Team2Acronym": "52",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -450,7 +526,8 @@
         "Y": 700
       },
       "Acronyms": [
-        "CRA"
+        "CRA",
+        "52"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 5
@@ -528,6 +605,7 @@
       "ID": 30,
       "Team1Acronym": "NUH",
       "Team1Score": null,
+      "Team2Acronym": "FUN",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -540,7 +618,8 @@
         "Y": 1410
       },
       "Acronyms": [
-        "NUH"
+        "NUH",
+        "FUN"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 5
@@ -2746,12 +2825,12 @@
     },
     {
       "SourceID": 4,
-      "TargetID": 29,
+      "TargetID": 20,
       "Losers": true
     },
     {
       "SourceID": 14,
-      "TargetID": 20,
+      "TargetID": 29,
       "Losers": true
     },
     {
