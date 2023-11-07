@@ -2107,7 +2107,7 @@
           "BeatmapID": 2367263
         }
       ],
-      "Current": true,
+      "Current": false,
       "Date": "2021-10-31T13:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
@@ -2168,7 +2168,7 @@
     },
     {
       "ID": 39,
-      "Team1Acronym": "ZON",
+      "Team1Acronym": "NU",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -2182,8 +2182,9 @@
         "Y": 522
       },
       "Acronyms": [
-        "ZON"
+        "NU"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
@@ -3173,10 +3174,10 @@
     {
       "ID": 16,
       "Team1Acronym": "NU",
-      "Team1Score": 0,
+      "Team1Score": 6,
       "Team2Acronym": "UCB",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 7,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [
         {
@@ -3238,9 +3239,94 @@
           "Team": "Blue",
           "Type": "Pick",
           "BeatmapID": 3200833
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2623951
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4187363
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1865094
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3828894
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2936229
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3524523
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4246935
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3473158
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4069835
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4068474
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3802071
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2296800
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3921016
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2840551
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3121053
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3328031
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1034570
         }
       ],
-      "Current": false,
+      "Current": true,
       "Date": "2021-10-31T14:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
@@ -3256,6 +3342,7 @@
     },
     {
       "ID": 17,
+      "Team1Acronym": "UCB",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -3268,7 +3355,10 @@
         "X": 2108,
         "Y": -722
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "UCB"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
