@@ -443,12 +443,68 @@
     {
       "ID": 2,
       "Team1Acronym": "HYE",
-      "Team1Score": null,
+      "Team1Score": 7,
       "Team2Acronym": "BOS",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4369665
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3722340
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3255289
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3595024
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3719000
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3959635
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 859667
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2520609
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2444332
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3764532
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2643592
+        }
+      ],
       "Current": false,
       "Date": "2023-11-11T16:00:00+00:00",
       "ConditionalMatches": [],
@@ -460,7 +516,6 @@
         "HYE",
         "BOS"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -489,12 +544,68 @@
     {
       "ID": 12,
       "Team1Acronym": "GOF",
-      "Team1Score": null,
+      "Team1Score": 7,
       "Team2Acronym": "MEO",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2520609
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3959635
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3471686
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4369665
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 859667
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2442129
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3764532
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3558555
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3719000
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2643592
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2444332
+        }
+      ],
       "Current": false,
       "Date": "2023-11-11T16:30:00+00:00",
       "ConditionalMatches": [],
@@ -506,19 +617,79 @@
         "GOF",
         "MEO"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 16,
       "Team1Acronym": "CRA",
-      "Team1Score": null,
+      "Team1Score": 7,
       "Team2Acronym": "52",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
-      "Current": false,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4369665
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 859667
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3722340
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2520609
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3764532
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2444332
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2442129
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3255289
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3558555
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4027941
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3719000
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2446824
+        }
+      ],
+      "Current": true,
       "Date": "2023-11-11T17:15:00+00:00",
       "ConditionalMatches": [],
       "Position": {
@@ -529,19 +700,94 @@
         "CRA",
         "52"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 18,
       "Team1Acronym": "MRW",
-      "Team1Score": 0,
+      "Team1Score": 6,
       "Team2Acronym": "EMR",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
-      "Current": true,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3471686
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2643592
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2444332
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3722340
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 859667
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2442129
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3719000
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3255289
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2367179
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2520609
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4369665
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4027941
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3764532
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3558555
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2291964
+        }
+      ],
+      "Current": false,
       "Date": "2023-11-11T15:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
@@ -552,7 +798,6 @@
         "MRW",
         "EMR"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -604,10 +849,10 @@
     {
       "ID": 30,
       "Team1Acronym": "NUH",
-      "Team1Score": null,
+      "Team1Score": 6,
       "Team2Acronym": "FUN",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
@@ -621,12 +866,13 @@
         "NUH",
         "FUN"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 19,
+      "Team1Acronym": "MRW",
       "Team1Score": null,
+      "Team2Acronym": "52",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -638,11 +884,16 @@
         "X": 250,
         "Y": 1080
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "MRW",
+        "52"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 23,
+      "Team1Acronym": "MEO",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -655,7 +906,10 @@
         "X": 250,
         "Y": 1190
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "MEO"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -677,7 +931,9 @@
     },
     {
       "ID": 31,
+      "Team1Acronym": "BOS",
       "Team1Score": null,
+      "Team2Acronym": "NUH",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -689,11 +945,16 @@
         "X": 250,
         "Y": 1410
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "BOS",
+        "NUH"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 4,
+      "Team1Acronym": "HYE",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -706,12 +967,17 @@
         "X": 770,
         "Y": 150
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "HYE"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 14,
+      "Team1Acronym": "GOF",
       "Team1Score": null,
+      "Team2Acronym": "CRA",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -723,7 +989,11 @@
         "X": 770,
         "Y": 590
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "GOF",
+        "CRA"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
