@@ -1433,7 +1433,7 @@
         }
       ],
       "Current": false,
-      "Date": "2023-11-25T09:00:00-05:00",
+      "Date": "2023-11-25T14:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 770,
@@ -1551,7 +1551,7 @@
         }
       ],
       "Current": false,
-      "Date": "2023-11-25T10:00:00-05:00",
+      "Date": "2023-11-25T15:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 770,
@@ -1692,14 +1692,90 @@
     {
       "ID": 24,
       "Team1Acronym": "BRO",
-      "Team1Score": null,
+      "Team1Score": 7,
       "Team2Acronym": "CRA",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 4,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3602497
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4226271
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3282546
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4277986
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3774856
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4386897
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2722432
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3802251
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3758327
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 890911
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3721150
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4261405
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2196700
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1932745
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3621995
+        }
+      ],
       "Current": true,
-      "Date": "2023-11-26T15:00:00+00:00",
+      "Date": "2023-11-26T16:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1280,
@@ -1709,13 +1785,13 @@
         "BRO",
         "CRA"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
       "ID": 25,
       "Team1Acronym": "GOF",
       "Team1Score": null,
+      "Team2Acronym": "BRO",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -1728,7 +1804,8 @@
         "Y": 1230
       },
       "Acronyms": [
-        "GOF"
+        "GOF",
+        "BRO"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 7
