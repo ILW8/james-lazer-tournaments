@@ -1392,7 +1392,7 @@
     {
       "ID": 21,
       "Team1Acronym": "BRO",
-      "Team1Score": 8,
+      "Team1Score": 7,
       "Team2Acronym": "52",
       "Team2Score": 2,
       "Completed": true,
@@ -1462,6 +1462,36 @@
           "Team": "Red",
           "Type": "Pick",
           "BeatmapID": 2196700
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3602497
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1476104
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4386924
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 890911
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4261405
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3615229
         }
       ],
       "Current": true,
@@ -1480,14 +1510,14 @@
     {
       "ID": 8,
       "Team1Acronym": "HYE",
-      "Team1Score": null,
+      "Team1Score": 7,
       "Team2Acronym": "GOF",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-11-26T16:00:00+00:00",
+      "Date": "2023-11-25T16:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1280,
@@ -1497,11 +1527,11 @@
         "HYE",
         "GOF"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
       "ID": 9,
+      "Team1Acronym": "HYE",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -1514,7 +1544,10 @@
         "X": 1740,
         "Y": 370
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "HYE"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
@@ -1544,7 +1577,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2023-11-24T00:00:00+00:00",
+      "Date": "2023-11-26T15:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1280,
@@ -1559,6 +1592,7 @@
     },
     {
       "ID": 25,
+      "Team1Acronym": "GOF",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -1571,7 +1605,10 @@
         "X": 1740,
         "Y": 1230
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "GOF"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     }
   ],
@@ -5780,5 +5817,6 @@
   "ChromaKeyWidth": 1366,
   "PlayersPerTeam": 4,
   "AutoProgressScreens": true,
-  "SplitMapPoolByMods": true
+  "SplitMapPoolByMods": true,
+  "DisplayTeamSeeds": false
 }
