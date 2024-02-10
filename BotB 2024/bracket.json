@@ -10,13 +10,59 @@
     {
       "ID": 1,
       "Team1Acronym": "koto",
-      "Team1Score": 0,
+      "Team1Score": 5,
       "Team2Acronym": "UMA ",
       "Team2Score": 0,
-      "Completed": false,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
-      "Current": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3192865
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4483053
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 703042
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 1290572
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4482894
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2436870
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3258973
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2689460
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4108775
+        }
+      ],
+      "Current": false,
       "Date": "2024-02-10T22:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
@@ -27,7 +73,6 @@
         "koto",
         "UMA "
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -184,10 +229,10 @@
     {
       "ID": 13,
       "Team1Acronym": "marw",
-      "Team1Score": 0,
+      "Team1Score": 5,
       "Team2Acronym": "Trol",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -201,15 +246,14 @@
         "marw",
         "Trol"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 18,
       "Team1Acronym": "fake",
-      "Team1Score": 0,
+      "Team1Score": null,
       "Team2Acronym": ":3",
-      "Team2Score": 0,
+      "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
@@ -795,6 +839,7 @@
     },
     {
       "ID": 3,
+      "Team1Acronym": "koto",
       "Team1Score": null,
       "Team2Acronym": "50/5",
       "Team2Score": null,
@@ -802,34 +847,38 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-11T00:00:00+00:00",
+      "Date": "2024-02-11T17:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 20,
         "Y": -70
       },
       "Acronyms": [
+        "koto",
         "50/5"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 11,
       "Team1Acronym": "burs",
       "Team1Score": null,
+      "Team2Acronym": "marw",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-11T00:00:00+00:00",
+      "Date": "2024-02-11T18:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 20,
         "Y": 120
       },
       "Acronyms": [
-        "burs"
+        "burs",
+        "marw"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 5
@@ -864,7 +913,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-11T00:00:00+00:00",
+      "Date": "2024-02-11T19:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 20,
@@ -887,7 +936,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-11T00:00:00+00:00",
+      "Date": "2024-02-11T16:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -909,8 +958,8 @@
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
-      "Date": "2024-02-11T00:00:00+00:00",
+      "Current": true,
+      "Date": "2024-02-11T14:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -933,7 +982,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-11T00:00:00+00:00",
+      "Date": "2024-02-11T18:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -956,7 +1005,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-11T00:00:00+00:00",
+      "Date": "2024-02-11T19:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
