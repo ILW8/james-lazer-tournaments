@@ -63,7 +63,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-02-10T22:00:00+00:00",
+      "Date": "2024-02-10T15:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -170,
@@ -141,7 +141,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-02-10T20:00:00+00:00",
+      "Date": "2024-02-10T13:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -170,
@@ -214,7 +214,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-02-10T14:00:00+00:00",
+      "Date": "2024-02-10T07:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -170,
@@ -236,7 +236,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-10T21:00:00+00:00",
+      "Date": "2024-02-10T14:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -170,
@@ -251,14 +251,65 @@
     {
       "ID": 18,
       "Team1Acronym": "fake",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": ":3",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4483053
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 703042
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4483163
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4108775
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2689460
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1954858
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3258973
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3192865
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4482922
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2436870
+        }
+      ],
       "Current": false,
-      "Date": "2024-02-11T16:00:00+00:00",
+      "Date": "2024-02-11T09:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -170,
@@ -268,7 +319,6 @@
         "fake",
         ":3"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -337,7 +387,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-02-10T17:00:00+00:00",
+      "Date": "2024-02-10T10:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -170,
@@ -420,7 +470,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-02-10T00:00:00+00:00",
+      "Date": "2024-02-09T17:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -170,
@@ -503,7 +553,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-02-10T18:00:00+00:00",
+      "Date": "2024-02-10T11:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -170,
@@ -526,7 +576,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-10T19:00:00+00:00",
+      "Date": "2024-02-10T12:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1330,
@@ -548,7 +598,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-10T17:00:00+00:00",
+      "Date": "2024-02-10T10:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1330,
@@ -617,7 +667,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-02-10T05:00:00+00:00",
+      "Date": "2024-02-09T22:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1330,
@@ -639,7 +689,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-10T14:00:00+00:00",
+      "Date": "2024-02-10T07:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1330,
@@ -707,7 +757,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-02-10T01:00:00+00:00",
+      "Date": "2024-02-09T18:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1330,
@@ -780,7 +830,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-02-10T19:00:00+00:00",
+      "Date": "2024-02-10T12:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1330,
@@ -803,7 +853,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-10T17:00:00+00:00",
+      "Date": "2024-02-10T10:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1330,
@@ -825,7 +875,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-10T18:00:00+00:00",
+      "Date": "2024-02-10T11:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1330,
@@ -840,14 +890,14 @@
     {
       "ID": 3,
       "Team1Acronym": "koto",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "50/5",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-11T17:00:00+00:00",
+      "Date": "2024-02-11T10:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 20,
@@ -857,20 +907,19 @@
         "koto",
         "50/5"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 11,
       "Team1Acronym": "burs",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "marw",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-11T18:00:00+00:00",
+      "Date": "2024-02-11T11:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 20,
@@ -880,25 +929,26 @@
         "burs",
         "marw"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 20,
-      "Team1Score": null,
+      "Team1Acronym": "fake",
+      "Team1Score": 5,
       "Team2Acronym": "andr",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-11T00:00:00+00:00",
+      "Date": "2024-02-10T17:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 20,
         "Y": 310
       },
       "Acronyms": [
+        "fake",
         "andr"
       ],
       "PointsToWin": 5
@@ -906,14 +956,14 @@
     {
       "ID": 30,
       "Team1Acronym": "Panc",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "OWC ",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-11T19:00:00+00:00",
+      "Date": "2024-02-11T12:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 20,
@@ -923,20 +973,19 @@
         "Panc",
         "OWC "
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 4,
       "Team1Acronym": "good",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "Get ",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-11T16:00:00+00:00",
+      "Date": "2024-02-11T09:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -946,20 +995,75 @@
         "good",
         "Get "
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 12,
       "Team1Acronym": "put ",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "The ",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
-      "Current": true,
-      "Date": "2024-02-11T14:00:00+00:00",
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4108775
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2436870
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 703042
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4483053
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3258973
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1954858
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3192865
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4483163
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4482894
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1290572
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4482922
+        }
+      ],
+      "Current": false,
+      "Date": "2024-02-11T07:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -969,20 +1073,19 @@
         "put ",
         "The "
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 21,
       "Team1Acronym": "KIA",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "Rudj",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-11T18:00:00+00:00",
+      "Date": "2024-02-11T11:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -992,20 +1095,19 @@
         "KIA",
         "Rudj"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 31,
       "Team1Acronym": "PEKO",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "left",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 4,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-11T19:00:00+00:00",
+      "Date": "2024-02-11T12:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -1015,75 +1117,98 @@
         "PEKO",
         "left"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 7,
-      "Team1Score": null,
-      "Team2Score": null,
+      "Team1Acronym": "koto",
+      "Team1Score": 0,
+      "Team2Acronym": "burs",
+      "Team2Score": 0,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
-      "Date": "2024-02-17T00:00:00+00:00",
+      "Current": true,
+      "Date": "2024-02-16T17:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 210,
         "Y": 30
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "koto",
+        "burs"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 25,
+      "Team1Acronym": "fake",
       "Team1Score": null,
+      "Team2Acronym": "Panc",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-17T00:00:00+00:00",
+      "Date": "2024-02-16T17:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 210,
         "Y": 410
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "fake",
+        "Panc"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 8,
+      "Team1Acronym": "good",
       "Team1Score": null,
+      "Team2Acronym": "put ",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-17T00:00:00+00:00",
+      "Date": "2024-02-16T17:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 950,
         "Y": 30
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "good",
+        "put "
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 26,
+      "Team1Acronym": "KIA",
       "Team1Score": null,
+      "Team2Acronym": "PEKO",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-17T00:00:00+00:00",
+      "Date": "2024-02-16T17:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 950,
         "Y": 410
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "KIA",
+        "PEKO"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -1094,7 +1219,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-18T00:00:00+00:00",
+      "Date": "2024-02-17T17:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 400,
@@ -1111,7 +1236,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-18T00:00:00+00:00",
+      "Date": "2024-02-17T17:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 760,
@@ -1128,7 +1253,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-24T00:00:00+00:00",
+      "Date": "2024-02-23T17:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 580,
@@ -1145,7 +1270,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-25T00:00:00+00:00",
+      "Date": "2024-02-24T17:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 740,
@@ -1162,7 +1287,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-25T00:00:00+00:00",
+      "Date": "2024-02-24T17:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 560,
@@ -1179,7 +1304,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-25T00:00:00+00:00",
+      "Date": "2024-02-24T17:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 380,
@@ -1196,7 +1321,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-25T00:00:00+00:00",
+      "Date": "2024-02-24T17:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 200,
@@ -1213,7 +1338,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-02-25T00:00:00+00:00",
+      "Date": "2024-02-24T17:00:00-07:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 20,
@@ -1777,7 +1902,7 @@
           }
         }
       ],
-      "StartDate": "2024-02-10T00:00:00+00:00",
+      "StartDate": "2024-02-09T17:00:00-07:00",
       "Matches": [
         1,
         5,
@@ -2350,7 +2475,7 @@
           }
         }
       ],
-      "StartDate": "2024-02-11T00:00:00+00:00",
+      "StartDate": "2024-02-10T17:00:00-07:00",
       "Matches": [
         3,
         11,
@@ -2367,8 +2492,555 @@
       "Description": "",
       "BestOf": 11,
       "BanCount": 1,
-      "Beatmaps": [],
-      "StartDate": "2024-02-17T00:00:00+00:00",
+      "Beatmaps": [
+        {
+          "ID": 4490728,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4490728,
+            "DifficultyName": "Domino's Pizza",
+            "BPM": 183.0,
+            "Length": 215000.0,
+            "StarRating": 6.91,
+            "EndTimeObjectCount": 206,
+            "TotalObjectCount": 948,
+            "Metadata": {
+              "Title": "Luv4Night",
+              "title_unicode": "Luv4Night",
+              "Artist": "Dadie MSP",
+              "artist_unicode": "Dadie MSP",
+              "Author": {
+                "OnlineID": 10816653,
+                "Username": "-Kirigiri",
+                "CountryString": "Unknown"
+              },
+              "Source": "ドミノ･ピザ",
+              "tags": "domino's pizza japan pineapple merami kitten crab nm1 battle of the box botb 2024 da frengeon",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 3.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2134389/covers/cover@2x.jpg?1707699758",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2134389/covers/card@2x.jpg?1707699758",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2134389/covers/list@2x.jpg?1707699758"
+            }
+          }
+        },
+        {
+          "ID": 4444744,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4444744,
+            "DifficultyName": "nm4",
+            "BPM": 200.0,
+            "Length": 114000.0,
+            "StarRating": 7.3,
+            "EndTimeObjectCount": 164,
+            "TotalObjectCount": 1025,
+            "Metadata": {
+              "Title": "Quietus Ray",
+              "title_unicode": "Quietus Ray",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 15664628,
+                "Username": "Arushii09",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "myangeljeremy hedge hop mandess hhm sf nm2 electronic instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2116509/covers/cover@2x.jpg?1707152490",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2116509/covers/card@2x.jpg?1707152490",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2116509/covers/list@2x.jpg?1707152490"
+            }
+          }
+        },
+        {
+          "ID": 3764512,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3764512,
+            "DifficultyName": "Bittersweet",
+            "BPM": 180.0,
+            "Length": 176000.0,
+            "StarRating": 5.74,
+            "EndTimeObjectCount": 294,
+            "TotalObjectCount": 762,
+            "Metadata": {
+              "Title": "Heartache Debug feat. Akagawa Nene",
+              "title_unicode": "Heartache Debug feat. 赤川ねね",
+              "Artist": "t+pazolite",
+              "artist_unicode": "t+pazolite",
+              "Author": {
+                "OnlineID": 4334976,
+                "Username": "Aeril",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "co22 ro16 nm6 c.h.s cutie & headshaking sounds hardcore tano*c crew",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1833716/covers/cover@2x.jpg?1680454822",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1833716/covers/card@2x.jpg?1680454822",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1833716/covers/list@2x.jpg?1680454822"
+            }
+          }
+        },
+        {
+          "ID": 4491259,
+          "Mods": "HDH",
+          "BeatmapInfo": {
+            "OnlineID": 4491259,
+            "DifficultyName": "live love lesbians",
+            "BPM": 216.0,
+            "Length": 235000.0,
+            "StarRating": 7.18,
+            "EndTimeObjectCount": 308,
+            "TotalObjectCount": 1199,
+            "Metadata": {
+              "Title": "magnet",
+              "title_unicode": "magnet",
+              "Artist": "minato feat. Hatsune Miku, Megurine Luka",
+              "artist_unicode": "湊 feat. 初音ミク, 巡音ルカ",
+              "Author": {
+                "OnlineID": 12883611,
+                "Username": "muya-",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "貴大 takahiro みなと たかひろ 流星p ryuusei-p トゥライ to-lie to lie マグネット まぐねっと jpop j-pop pop hatsune miku: project diva dreamy theater 2nd vocaloid ボーカロイド battle of the box 2024 da frengeon botb hd1 qf quarterfinals sf semifinals meow",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.1,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.4,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2134600/covers/cover@2x.jpg?1707737785",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2134600/covers/card@2x.jpg?1707737785",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2134600/covers/list@2x.jpg?1707737785"
+            }
+          }
+        },
+        {
+          "ID": 4490195,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4490195,
+            "DifficultyName": "Interstellar Extra",
+            "BPM": 190.0,
+            "Length": 207000.0,
+            "StarRating": 6.9,
+            "EndTimeObjectCount": 325,
+            "TotalObjectCount": 1177,
+            "Metadata": {
+              "Title": "FUTURE EVE (feat. Hatsune Miku)",
+              "title_unicode": "FUTURE EVE (feat. 初音ミク)",
+              "Artist": "sasakure.UK + UKRampage",
+              "artist_unicode": "sasakure.UK + 有形ランペイジ",
+              "Author": {
+                "OnlineID": 8067876,
+                "Username": "Seolv",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 10.0,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2134199/covers/cover@2x.jpg?1707676793",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2134199/covers/card@2x.jpg?1707676793",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2134199/covers/list@2x.jpg?1707676793"
+            }
+          }
+        },
+        {
+          "ID": 4490721,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4490721,
+            "DifficultyName": "Mass Produced Hysteria",
+            "BPM": 165.0,
+            "Length": 151000.0,
+            "StarRating": 6.71,
+            "EndTimeObjectCount": 249,
+            "TotalObjectCount": 948,
+            "Metadata": {
+              "Title": "Sadistic.Music Factory - Remake the Second Phase -",
+              "title_unicode": "Sadistic.Music∞Factory - Remake the Second Phase -",
+              "Artist": "cosMo@Bousou-P",
+              "artist_unicode": "cosMo@暴走P",
+              "Author": {
+                "OnlineID": 19884809,
+                "Username": "ajmosca",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "dafren chaoslitz botbqfsfhd3 hatsune miku ボーカロイド ボカロ",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2134386/covers/cover@2x.jpg?1707706920",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2134386/covers/card@2x.jpg?1707706920",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2134386/covers/list@2x.jpg?1707706920"
+            }
+          }
+        },
+        {
+          "ID": 4491354,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4491354,
+            "DifficultyName": "The Cube",
+            "BPM": 200.0,
+            "Length": 202000.0,
+            "StarRating": 6.87,
+            "EndTimeObjectCount": 353,
+            "TotalObjectCount": 1026,
+            "Metadata": {
+              "Title": "Black*Rock Shooter (djkirakira remix)",
+              "title_unicode": "ブラック★ロックシューター (djkirakira remix)",
+              "Artist": "supercell feat. Hatsune Miku",
+              "artist_unicode": "supercell feat. 初音ミク",
+              "Author": {
+                "OnlineID": 7535045,
+                "Username": "CallieCube",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "allice obamacube smokebloke battle of the box 2024: da frengeon botb24 quarterfinals semifinals qf sf hr1 delusional harepascals unappreciative koda bear",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2134651/covers/cover@2x.jpg?1707744372",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2134651/covers/card@2x.jpg?1707744372",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2134651/covers/list@2x.jpg?1707744372"
+            }
+          }
+        },
+        {
+          "ID": 1509637,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 1509637,
+            "DifficultyName": "Another",
+            "BPM": 140.0,
+            "Length": 169000.0,
+            "StarRating": 6.09,
+            "EndTimeObjectCount": 379,
+            "TotalObjectCount": 829,
+            "Metadata": {
+              "Title": "Tiferet",
+              "title_unicode": "Tiferet",
+              "Artist": "xi feat. Sta",
+              "artist_unicode": "xi feat. Sta",
+              "Author": {
+                "OnlineID": 53378,
+                "Username": "ktgster",
+                "CountryString": "Unknown"
+              },
+              "Source": "Tone Sphere",
+              "tags": "world fragment diverse system darksphere [[pika]] pika noise rock",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.5,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/714225/covers/cover@2x.jpg?1650659198",
+              "card@2x": "https://assets.ppy.sh/beatmaps/714225/covers/card@2x.jpg?1650659198",
+              "list@2x": "https://assets.ppy.sh/beatmaps/714225/covers/list@2x.jpg?1650659198"
+            }
+          }
+        },
+        {
+          "ID": 4490733,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4490733,
+            "DifficultyName": "the master 37 experience",
+            "BPM": 190.0,
+            "Length": 158000.0,
+            "StarRating": 6.8,
+            "EndTimeObjectCount": 462,
+            "TotalObjectCount": 944,
+            "Metadata": {
+              "Title": "What's up? Pop!",
+              "title_unicode": "What's up? Pop!",
+              "Artist": "Capchii (feat. Hatsune Miku)",
+              "artist_unicode": "Capchii (feat. Hatsune Miku)",
+              "Author": {
+                "OnlineID": 6065432,
+                "Username": "Einja",
+                "CountryString": "Unknown"
+              },
+              "Source": "プロジェクトセカイ カラフルステージ！",
+              "tags": "battle of the box botb hr3 project sekai proseka",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2134391/covers/cover@2x.jpg?1707700437",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2134391/covers/card@2x.jpg?1707700437",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2134391/covers/list@2x.jpg?1707700437"
+            }
+          }
+        },
+        {
+          "ID": 3239862,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3239862,
+            "DifficultyName": "extinction",
+            "BPM": 155.0,
+            "Length": 258000.0,
+            "StarRating": 5.22,
+            "EndTimeObjectCount": 286,
+            "TotalObjectCount": 1131,
+            "Metadata": {
+              "Title": "black bullet",
+              "title_unicode": "black bullet",
+              "Artist": "fripSide",
+              "artist_unicode": "fripSide",
+              "Author": {
+                "OnlineID": 2688581,
+                "Username": "Luscent",
+                "CountryString": "Unknown"
+              },
+              "Source": "ブラック・ブレット",
+              "tags": "黒の銃弾 anime opening japanese pop cyndere nagi hisakawa",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1586228/covers/cover@2x.jpg?1636905913",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1586228/covers/card@2x.jpg?1636905913",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1586228/covers/list@2x.jpg?1636905913"
+            }
+          }
+        },
+        {
+          "ID": 4419768,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 4419768,
+            "DifficultyName": "jixxi's Insane",
+            "BPM": 182.0,
+            "Length": 227000.0,
+            "StarRating": 5.07,
+            "EndTimeObjectCount": 302,
+            "TotalObjectCount": 991,
+            "Metadata": {
+              "Title": "Renatus",
+              "title_unicode": "Renatus",
+              "Artist": "Soleily",
+              "artist_unicode": "Soleily",
+              "Author": {
+                "OnlineID": 5754859,
+                "Username": "pewdekz",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "jixxi jordanlr7 bag103 bmm badmapmaker electronic instrumental d&b dnb drum and bass unisphere 地球ヤバイep chikyu yabai",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 3.5,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2072797/covers/cover@2x.jpg?1704937112",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2072797/covers/card@2x.jpg?1704937112",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2072797/covers/list@2x.jpg?1704937112"
+            }
+          }
+        },
+        {
+          "ID": 3205506,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3205506,
+            "DifficultyName": "Coolest dude you ever knew (Corsace)",
+            "BPM": 105.0,
+            "Length": 215000.0,
+            "StarRating": 5.01,
+            "EndTimeObjectCount": 333,
+            "TotalObjectCount": 891,
+            "Metadata": {
+              "Title": "Weekend Kriger",
+              "title_unicode": "Weekend Kriger",
+              "Artist": "Malk De Koijn",
+              "artist_unicode": "Malk De Koijn",
+              "Author": {
+                "OnlineID": 3868653,
+                "Username": "waefwerf",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "co2021 corsace21 sf dt4 danish hip-hop rap dansk toback to the fromtime blæs bukki tue track geo g",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.5,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1569729/covers/cover@2x.jpg?1633291281",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1569729/covers/card@2x.jpg?1633291281",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1569729/covers/list@2x.jpg?1633291281"
+            }
+          }
+        },
+        {
+          "ID": 4490753,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 4490753,
+            "DifficultyName": "Hope and Darkness",
+            "BPM": 185.0,
+            "Length": 367000.0,
+            "StarRating": 7.14,
+            "EndTimeObjectCount": 726,
+            "TotalObjectCount": 2001,
+            "Metadata": {
+              "Title": "Luyten's Star",
+              "title_unicode": "Luyten's Star",
+              "Artist": "Doomsday",
+              "artist_unicode": "Doomsday",
+              "Author": {
+                "OnlineID": 6693266,
+                "Username": "Tycani",
+                "CountryString": "Unknown"
+              },
+              "Source": "Battle of the Box 2024: Da Frengeon",
+              "tags": "fuiba fuyu botb quarterfinals qf semifinals sf week 2 w2 tiebreaker tb custom song hatsune miku 初音ミク",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.9,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2134395/covers/cover@2x.jpg?1707701587",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2134395/covers/card@2x.jpg?1707701587",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2134395/covers/list@2x.jpg?1707701587"
+            }
+          }
+        }
+      ],
+      "StartDate": "2024-02-16T17:00:00-07:00",
       "Matches": [
         7,
         25,
@@ -2381,8 +3053,555 @@
       "Description": "",
       "BestOf": 11,
       "BanCount": 1,
-      "Beatmaps": [],
-      "StartDate": "2024-02-18T00:00:00+00:00",
+      "Beatmaps": [
+        {
+          "ID": 4490728,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4490728,
+            "DifficultyName": "Domino's Pizza",
+            "BPM": 183.0,
+            "Length": 215000.0,
+            "StarRating": 6.91,
+            "EndTimeObjectCount": 206,
+            "TotalObjectCount": 948,
+            "Metadata": {
+              "Title": "Luv4Night",
+              "title_unicode": "Luv4Night",
+              "Artist": "Dadie MSP",
+              "artist_unicode": "Dadie MSP",
+              "Author": {
+                "OnlineID": 10816653,
+                "Username": "-Kirigiri",
+                "CountryString": "Unknown"
+              },
+              "Source": "ドミノ･ピザ",
+              "tags": "domino's pizza japan pineapple merami kitten crab nm1 battle of the box botb 2024 da frengeon",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 3.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2134389/covers/cover@2x.jpg?1707699758",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2134389/covers/card@2x.jpg?1707699758",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2134389/covers/list@2x.jpg?1707699758"
+            }
+          }
+        },
+        {
+          "ID": 4444744,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4444744,
+            "DifficultyName": "nm4",
+            "BPM": 200.0,
+            "Length": 114000.0,
+            "StarRating": 7.3,
+            "EndTimeObjectCount": 164,
+            "TotalObjectCount": 1025,
+            "Metadata": {
+              "Title": "Quietus Ray",
+              "title_unicode": "Quietus Ray",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 15664628,
+                "Username": "Arushii09",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "myangeljeremy hedge hop mandess hhm sf nm2 electronic instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2116509/covers/cover@2x.jpg?1707152490",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2116509/covers/card@2x.jpg?1707152490",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2116509/covers/list@2x.jpg?1707152490"
+            }
+          }
+        },
+        {
+          "ID": 3764512,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3764512,
+            "DifficultyName": "Bittersweet",
+            "BPM": 180.0,
+            "Length": 176000.0,
+            "StarRating": 5.74,
+            "EndTimeObjectCount": 294,
+            "TotalObjectCount": 762,
+            "Metadata": {
+              "Title": "Heartache Debug feat. Akagawa Nene",
+              "title_unicode": "Heartache Debug feat. 赤川ねね",
+              "Artist": "t+pazolite",
+              "artist_unicode": "t+pazolite",
+              "Author": {
+                "OnlineID": 4334976,
+                "Username": "Aeril",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "co22 ro16 nm6 c.h.s cutie & headshaking sounds hardcore tano*c crew",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1833716/covers/cover@2x.jpg?1680454822",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1833716/covers/card@2x.jpg?1680454822",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1833716/covers/list@2x.jpg?1680454822"
+            }
+          }
+        },
+        {
+          "ID": 4491259,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4491259,
+            "DifficultyName": "live love lesbians",
+            "BPM": 216.0,
+            "Length": 235000.0,
+            "StarRating": 7.18,
+            "EndTimeObjectCount": 308,
+            "TotalObjectCount": 1199,
+            "Metadata": {
+              "Title": "magnet",
+              "title_unicode": "magnet",
+              "Artist": "minato feat. Hatsune Miku, Megurine Luka",
+              "artist_unicode": "湊 feat. 初音ミク, 巡音ルカ",
+              "Author": {
+                "OnlineID": 12883611,
+                "Username": "muya-",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "貴大 takahiro みなと たかひろ 流星p ryuusei-p トゥライ to-lie to lie マグネット まぐねっと jpop j-pop pop hatsune miku: project diva dreamy theater 2nd vocaloid ボーカロイド battle of the box 2024 da frengeon botb hd1 qf quarterfinals sf semifinals meow",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.1,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.4,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2134600/covers/cover@2x.jpg?1707737785",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2134600/covers/card@2x.jpg?1707737785",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2134600/covers/list@2x.jpg?1707737785"
+            }
+          }
+        },
+        {
+          "ID": 4490195,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4490195,
+            "DifficultyName": "Interstellar Extra",
+            "BPM": 190.0,
+            "Length": 207000.0,
+            "StarRating": 6.9,
+            "EndTimeObjectCount": 325,
+            "TotalObjectCount": 1177,
+            "Metadata": {
+              "Title": "FUTURE EVE (feat. Hatsune Miku)",
+              "title_unicode": "FUTURE EVE (feat. 初音ミク)",
+              "Artist": "sasakure.UK + UKRampage",
+              "artist_unicode": "sasakure.UK + 有形ランペイジ",
+              "Author": {
+                "OnlineID": 8067876,
+                "Username": "Seolv",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 10.0,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2134199/covers/cover@2x.jpg?1707676793",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2134199/covers/card@2x.jpg?1707676793",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2134199/covers/list@2x.jpg?1707676793"
+            }
+          }
+        },
+        {
+          "ID": 4490721,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4490721,
+            "DifficultyName": "Mass Produced Hysteria",
+            "BPM": 165.0,
+            "Length": 151000.0,
+            "StarRating": 6.71,
+            "EndTimeObjectCount": 249,
+            "TotalObjectCount": 948,
+            "Metadata": {
+              "Title": "Sadistic.Music Factory - Remake the Second Phase -",
+              "title_unicode": "Sadistic.Music∞Factory - Remake the Second Phase -",
+              "Artist": "cosMo@Bousou-P",
+              "artist_unicode": "cosMo@暴走P",
+              "Author": {
+                "OnlineID": 19884809,
+                "Username": "ajmosca",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "dafren chaoslitz botbqfsfhd3 hatsune miku ボーカロイド ボカロ",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2134386/covers/cover@2x.jpg?1707706920",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2134386/covers/card@2x.jpg?1707706920",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2134386/covers/list@2x.jpg?1707706920"
+            }
+          }
+        },
+        {
+          "ID": 4491354,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4491354,
+            "DifficultyName": "The Cube",
+            "BPM": 200.0,
+            "Length": 202000.0,
+            "StarRating": 6.87,
+            "EndTimeObjectCount": 353,
+            "TotalObjectCount": 1026,
+            "Metadata": {
+              "Title": "Black*Rock Shooter (djkirakira remix)",
+              "title_unicode": "ブラック★ロックシューター (djkirakira remix)",
+              "Artist": "supercell feat. Hatsune Miku",
+              "artist_unicode": "supercell feat. 初音ミク",
+              "Author": {
+                "OnlineID": 7535045,
+                "Username": "CallieCube",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "allice obamacube smokebloke battle of the box 2024: da frengeon botb24 quarterfinals semifinals qf sf hr1 delusional harepascals unappreciative koda bear",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2134651/covers/cover@2x.jpg?1707744372",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2134651/covers/card@2x.jpg?1707744372",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2134651/covers/list@2x.jpg?1707744372"
+            }
+          }
+        },
+        {
+          "ID": 1509637,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 1509637,
+            "DifficultyName": "Another",
+            "BPM": 140.0,
+            "Length": 169000.0,
+            "StarRating": 6.09,
+            "EndTimeObjectCount": 379,
+            "TotalObjectCount": 829,
+            "Metadata": {
+              "Title": "Tiferet",
+              "title_unicode": "Tiferet",
+              "Artist": "xi feat. Sta",
+              "artist_unicode": "xi feat. Sta",
+              "Author": {
+                "OnlineID": 53378,
+                "Username": "ktgster",
+                "CountryString": "Unknown"
+              },
+              "Source": "Tone Sphere",
+              "tags": "world fragment diverse system darksphere [[pika]] pika noise rock",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.5,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/714225/covers/cover@2x.jpg?1650659198",
+              "card@2x": "https://assets.ppy.sh/beatmaps/714225/covers/card@2x.jpg?1650659198",
+              "list@2x": "https://assets.ppy.sh/beatmaps/714225/covers/list@2x.jpg?1650659198"
+            }
+          }
+        },
+        {
+          "ID": 4490733,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4490733,
+            "DifficultyName": "the master 37 experience",
+            "BPM": 190.0,
+            "Length": 158000.0,
+            "StarRating": 6.8,
+            "EndTimeObjectCount": 462,
+            "TotalObjectCount": 944,
+            "Metadata": {
+              "Title": "What's up? Pop!",
+              "title_unicode": "What's up? Pop!",
+              "Artist": "Capchii (feat. Hatsune Miku)",
+              "artist_unicode": "Capchii (feat. Hatsune Miku)",
+              "Author": {
+                "OnlineID": 6065432,
+                "Username": "Einja",
+                "CountryString": "Unknown"
+              },
+              "Source": "プロジェクトセカイ カラフルステージ！",
+              "tags": "battle of the box botb hr3 project sekai proseka",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2134391/covers/cover@2x.jpg?1707700437",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2134391/covers/card@2x.jpg?1707700437",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2134391/covers/list@2x.jpg?1707700437"
+            }
+          }
+        },
+        {
+          "ID": 3239862,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3239862,
+            "DifficultyName": "extinction",
+            "BPM": 155.0,
+            "Length": 258000.0,
+            "StarRating": 5.22,
+            "EndTimeObjectCount": 286,
+            "TotalObjectCount": 1131,
+            "Metadata": {
+              "Title": "black bullet",
+              "title_unicode": "black bullet",
+              "Artist": "fripSide",
+              "artist_unicode": "fripSide",
+              "Author": {
+                "OnlineID": 2688581,
+                "Username": "Luscent",
+                "CountryString": "Unknown"
+              },
+              "Source": "ブラック・ブレット",
+              "tags": "黒の銃弾 anime opening japanese pop cyndere nagi hisakawa",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1586228/covers/cover@2x.jpg?1636905913",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1586228/covers/card@2x.jpg?1636905913",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1586228/covers/list@2x.jpg?1636905913"
+            }
+          }
+        },
+        {
+          "ID": 4419768,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 4419768,
+            "DifficultyName": "jixxi's Insane",
+            "BPM": 182.0,
+            "Length": 227000.0,
+            "StarRating": 5.07,
+            "EndTimeObjectCount": 302,
+            "TotalObjectCount": 991,
+            "Metadata": {
+              "Title": "Renatus",
+              "title_unicode": "Renatus",
+              "Artist": "Soleily",
+              "artist_unicode": "Soleily",
+              "Author": {
+                "OnlineID": 5754859,
+                "Username": "pewdekz",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "jixxi jordanlr7 bag103 bmm badmapmaker electronic instrumental d&b dnb drum and bass unisphere 地球ヤバイep chikyu yabai",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 3.5,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2072797/covers/cover@2x.jpg?1704937112",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2072797/covers/card@2x.jpg?1704937112",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2072797/covers/list@2x.jpg?1704937112"
+            }
+          }
+        },
+        {
+          "ID": 3205506,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3205506,
+            "DifficultyName": "Coolest dude you ever knew (Corsace)",
+            "BPM": 105.0,
+            "Length": 215000.0,
+            "StarRating": 5.01,
+            "EndTimeObjectCount": 333,
+            "TotalObjectCount": 891,
+            "Metadata": {
+              "Title": "Weekend Kriger",
+              "title_unicode": "Weekend Kriger",
+              "Artist": "Malk De Koijn",
+              "artist_unicode": "Malk De Koijn",
+              "Author": {
+                "OnlineID": 3868653,
+                "Username": "waefwerf",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "co2021 corsace21 sf dt4 danish hip-hop rap dansk toback to the fromtime blæs bukki tue track geo g",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.5,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1569729/covers/cover@2x.jpg?1633291281",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1569729/covers/card@2x.jpg?1633291281",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1569729/covers/list@2x.jpg?1633291281"
+            }
+          }
+        },
+        {
+          "ID": 4490753,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 4490753,
+            "DifficultyName": "Hope and Darkness",
+            "BPM": 185.0,
+            "Length": 367000.0,
+            "StarRating": 7.14,
+            "EndTimeObjectCount": 726,
+            "TotalObjectCount": 2001,
+            "Metadata": {
+              "Title": "Luyten's Star",
+              "title_unicode": "Luyten's Star",
+              "Artist": "Doomsday",
+              "artist_unicode": "Doomsday",
+              "Author": {
+                "OnlineID": 6693266,
+                "Username": "Tycani",
+                "CountryString": "Unknown"
+              },
+              "Source": "Battle of the Box 2024: Da Frengeon",
+              "tags": "fuiba fuyu botb quarterfinals qf semifinals sf week 2 w2 tiebreaker tb custom song hatsune miku 初音ミク",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.9,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2134395/covers/cover@2x.jpg?1707701587",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2134395/covers/card@2x.jpg?1707701587",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2134395/covers/list@2x.jpg?1707701587"
+            }
+          }
+        }
+      ],
+      "StartDate": "2024-02-17T17:00:00-07:00",
       "Matches": [
         15,
         17
@@ -2394,7 +3613,7 @@
       "BestOf": 13,
       "BanCount": 0,
       "Beatmaps": [],
-      "StartDate": "2024-02-24T00:00:00+00:00",
+      "StartDate": "2024-02-23T17:00:00-07:00",
       "Matches": [
         16
       ]
@@ -2405,7 +3624,7 @@
       "BestOf": 13,
       "BanCount": 0,
       "Beatmaps": [],
-      "StartDate": "2024-02-25T00:00:00+00:00",
+      "StartDate": "2024-02-24T17:00:00-07:00",
       "Matches": [
         22,
         27,
@@ -21812,5 +23031,5 @@
   "PlayersPerTeam": 4,
   "AutoProgressScreens": true,
   "SplitMapPoolByMods": true,
-  "DisplayTeamSeeds": false
+  "DisplayTeamSeeds": true
 }
