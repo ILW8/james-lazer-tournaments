@@ -6,7 +6,7 @@ let mappool, teams;
     document.getElementById('stage-name').innerHTML = mappool.stage.toUpperCase();
 })();
 
-let socket = new ReconnectingWebSocket('ws://10.24.0.70:7270/');
+let socket = new ReconnectingWebSocket('ws://127.0.0.1:7270/');
 
 let image_container = document.getElementById('mapimage-container');
 let pick_label = document.getElementById('picked-by-label');
@@ -133,12 +133,15 @@ window.setInterval(() => {
 
 socket.onmessage = event => {
     let data = JSON.parse(event.data);
-    console.log(event.data);
     scoreVisible = true;
     chat_container.style.opacity = 0;
     top_footer.style.opacity = 1;
 
+    let hasMatched = false;
+
     if (data.type === "Beatmap") {
+        hasMatched = true;
+
         let a = {
             bpm: data.message.bpm,
             difficulty: data.message.difficulty,
@@ -174,10 +177,13 @@ socket.onmessage = event => {
 		let mins = Math.trunc((len_) / 1000 / 60);
 		let secs = Math.trunc((len_) / 1000 % 60);
 		len.innerHTML = `${mins}:${secs.toString().padStart(2, '0')}`;
-
     }
 
-    if (data.type === "MultiplayerRoomState") {
+    if (data.type === "MultiplayerGameplay") {
+        hasMatched = true;
+
+        console.log(event.data);
+
         let players = data.message.player_states;
 
         let scores = [];
@@ -236,6 +242,13 @@ socket.onmessage = event => {
 
     }
 
+    if (data.type === "Ruleset" || data.type === "MultiplayerChatState" || data.type === "Player") {
+        hasMatched = true;
+    }
+
+    if (!hasMatched) {
+        console.log(event.data);
+    }
 }
 
 // {
