@@ -8,7 +8,7 @@
         "settings": {
             "device_id": "{0.0.0.00000000}.{f4b835a6-29fb-4c2e-91a3-c45667137fd5}"
         },
-        "mixers": 255,
+        "mixers": 195,
         "sync": 0,
         "flags": 0,
         "volume": 0.79326766729354858,
@@ -27,7 +27,7 @@
         },
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
-        "monitoring_type": 0,
+        "monitoring_type": 2,
         "private_settings": {}
     },
     "current_scene": "intro",
@@ -736,7 +736,7 @@
             "settings": {
                 "device_id": "{0.0.0.00000000}.{bd118646-d64a-4d67-9fcf-1c67ec5740f8}"
             },
-            "mixers": 255,
+            "mixers": 197,
             "sync": 0,
             "flags": 0,
             "volume": 1.0,
@@ -863,10 +863,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "Show on DSK 1": [],
-                "Hide on DSK 1": [],
                 "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
+                "libobs.hide_scene_item.2": [],
+                "Show on DSK 1": [],
+                "Hide on DSK 1": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1459,7 +1459,7 @@
                 "width": 1920,
                 "height": 1080
             },
-            "mixers": 255,
+            "mixers": 192,
             "sync": 0,
             "flags": 0,
             "volume": 1.0,
@@ -1739,8 +1739,8 @@
             "id": "game_capture",
             "versioned_id": "game_capture",
             "settings": {
-                "capture_mode": "window",
                 "window": " Tournament Client 1:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "capture_mode": "window",
                 "priority": 1,
                 "capture_cursor": false,
                 "anti_cheat_hook": false
@@ -1776,8 +1776,8 @@
             "id": "game_capture",
             "versioned_id": "game_capture",
             "settings": {
-                "capture_mode": "window",
                 "window": " Tournament Client 2:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "capture_mode": "window",
                 "priority": 1,
                 "capture_cursor": false,
                 "anti_cheat_hook": false
@@ -1813,8 +1813,8 @@
             "id": "game_capture",
             "versioned_id": "game_capture",
             "settings": {
-                "capture_mode": "window",
                 "window": " Tournament Client 3:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "capture_mode": "window",
                 "priority": 1,
                 "capture_cursor": false,
                 "anti_cheat_hook": false
@@ -1850,8 +1850,8 @@
             "id": "game_capture",
             "versioned_id": "game_capture",
             "settings": {
-                "capture_mode": "window",
                 "window": " Tournament Client 4:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "capture_mode": "window",
                 "priority": 1,
                 "capture_cursor": false,
                 "anti_cheat_hook": false
@@ -1887,8 +1887,8 @@
             "id": "game_capture",
             "versioned_id": "game_capture",
             "settings": {
-                "capture_mode": "window",
                 "window": " Tournament Client 5:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "capture_mode": "window",
                 "priority": 1,
                 "capture_cursor": false,
                 "anti_cheat_hook": false
@@ -1924,8 +1924,8 @@
             "id": "game_capture",
             "versioned_id": "game_capture",
             "settings": {
-                "capture_mode": "window",
                 "window": " Tournament Client 6:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "capture_mode": "window",
                 "priority": 1,
                 "capture_cursor": false,
                 "anti_cheat_hook": false
@@ -1961,8 +1961,8 @@
             "id": "game_capture",
             "versioned_id": "game_capture",
             "settings": {
-                "capture_mode": "window",
                 "window": " Tournament Client 7:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "capture_mode": "window",
                 "priority": 1,
                 "capture_cursor": false,
                 "anti_cheat_hook": false
@@ -2225,7 +2225,7 @@
                 "height": 100,
                 "css": "/* hide users by id */\n[data-userid=\"181358896328212480\"],\n[data-userid=\"258502759018397696\"] { display: none; }\n\nbody {\n    --width: 120;\n\n    --widthPX: calc(var(--width) * 1px);\n    --height: 100px;\n    --nameHeight: 26px;\n    --fontSize: calc((var(--widthPX) / 100) * 15);\n\n    width: 100%;\n    overflow: hidden;\n}\n\nul {\n    margin-block-start: 0;\n    margin-block-end: 0;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] {\n    opacity: 1 !important;\n    filter: grayscale(0%) !important;\n    outline-offset: calc(var(--widthPX) / 20 * -1);\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] {\n    display: flex;\n    width: 100%;\n    align-items: center;\n    justify-content: flex-start;\n    padding: 0;\n    background-color: none;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] {\n    width: var(--widthPX);\n    height: var(--height);\n    margin-bottom: 0px;\n    background-color: black;\n    position: relative;\n    text-align: center;\n    overflow: hidden;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatar\"] {\n    height: var(--widthPX);\n    width: 100%;\n    border-radius: 0;\n    border-width: 0;\n    opacity: 0.6;\n    filter: grayscale(50%);\n    transform: translateY(-22%);\n    transition: filter 0.1s ease-out, opacity 0.1s ease-out;\n    border: 0;\n}\n\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] {\n    background-color: #111111;\n    position: absolute;\n    bottom: 0px;\n    padding: 0px;\n    height: var(--nameHeight);\n    width: 100%;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] + [class^=\"Voice_user\"] {\n    background-color: #ff5663 !important;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] [class^=\"Voice_name\"] {\n    font-size: 13px !important;\n    padding: 0px;\n    margin: 0px;\n    height: 0;\n    transform: translateY(2.5px);\n    position: relative;\n    display: inline-block;\n}"
             },
-            "mixers": 255,
+            "mixers": 192,
             "sync": 0,
             "flags": 0,
             "volume": 1.0,
