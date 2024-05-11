@@ -11,7 +11,7 @@
         "mixers": 195,
         "sync": 0,
         "flags": 0,
-        "volume": 0.79326766729354858,
+        "volume": 0.16563251614570618,
         "balance": 0.5,
         "enabled": true,
         "muted": false,
@@ -65,8 +65,8 @@
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 1920,
-                "cy": 720,
+                "cx": 1440,
+                "cy": 360,
                 "id_counter": 0,
                 "items": [
                     {
@@ -460,7 +460,14 @@
             }
         }
     ],
-    "saved_projectors": [],
+    "saved_projectors": [
+        {
+            "monitor": -1,
+            "type": 3,
+            "geometry": "AdnQywADAAAAAAtj////lwAAEIAAAAKRAAALY////7UAABCAAAACkQAAAAEAAAAACAAAAAtj////tQAAEIAAAAKR",
+            "alwaysOnTopOverridden": false
+        }
+    ],
     "current_transition": "Stinger",
     "transition_duration": 300,
     "preview_locked": false,
@@ -512,7 +519,7 @@
                         "name": "discord DSK"
                     }
                 ],
-                "scene": "discord DSK",
+                "scene": "",
                 "null_hotkey": [],
                 "enable_tie_hotkey": [],
                 "disable_tie_hotkey": [],
@@ -739,7 +746,7 @@
             "mixers": 197,
             "sync": 0,
             "flags": 0,
-            "volume": 1.0,
+            "volume": 0.95854520797729492,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -815,7 +822,7 @@
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 880.0
+                            "y": 882.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -826,11 +833,11 @@
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "crop_left": 0,
-                        "crop_top": 0,
+                        "crop_top": 2,
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 2,
@@ -1638,7 +1645,8 @@
             "settings": {
                 "url": "http://127.0.0.1:24050/mappool/",
                 "width": 2220,
-                "height": 1080
+                "height": 1080,
+                "webpage_control_level": 4
             },
             "mixers": 255,
             "sync": 0,
