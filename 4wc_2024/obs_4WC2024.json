@@ -30,17 +30,17 @@
         "monitoring_type": 0,
         "private_settings": {}
     },
-    "current_scene": "mappool",
-    "current_program_scene": "mappool",
+    "current_scene": "intro",
+    "current_program_scene": "intro",
     "scene_order": [
+        {
+            "name": "intro"
+        },
         {
             "name": "mappool"
         },
         {
             "name": "gameplay"
-        },
-        {
-            "name": "intro"
         },
         {
             "name": "winner"
@@ -501,8 +501,8 @@
         "downstream_keyers": [
             {
                 "name": "DSK 1",
-                "transition": "",
-                "transition_duration": 300,
+                "transition": "Luma Wipe",
+                "transition_duration": 1000,
                 "show_transition": "",
                 "show_transition_duration": 300,
                 "hide_transition": "",
@@ -2223,7 +2223,7 @@
                 "url": "https://streamkit.discord.com/overlay/voice/451500607996559360/488982699911020544",
                 "width": 500,
                 "height": 100,
-                "css": "/* hide users by id */\n[data-userid=\"181358896328212480\"],\n[data-userid=\"0\"] { display: none; }\n\nbody {\n    --width: 120;\n\n    --widthPX: calc(var(--width) * 1px);\n    --height: 100px;\n    --nameHeight: 26px;\n    --fontSize: calc((var(--widthPX) / 100) * 15);\n\n    width: 100%;\n    overflow: hidden;\n}\n\nul {\n    margin-block-start: 0;\n    margin-block-end: 0;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] {\n    opacity: 1 !important;\n    filter: grayscale(0%) !important;\n    outline-offset: calc(var(--widthPX) / 20 * -1);\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] {\n    display: flex;\n    width: 100%;\n    align-items: center;\n    justify-content: flex-start;\n    padding: 0;\n    background-color: none;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] {\n    width: var(--widthPX);\n    height: var(--height);\n    margin-bottom: 0px;\n    background-color: black;\n    position: relative;\n    text-align: center;\n    overflow: hidden;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatar\"] {\n    height: var(--widthPX);\n    width: 100%;\n    border-radius: 0;\n    border-width: 0;\n    opacity: 0.6;\n    filter: grayscale(50%);\n    transform: translateY(-22%);\n    transition: filter 0.1s ease-out, opacity 0.1s ease-out;\n    border: 0;\n}\n\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] {\n    background-color: #111111;\n    position: absolute;\n    bottom: 0px;\n    padding: 0px;\n    height: var(--nameHeight);\n    width: 100%;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] + [class^=\"Voice_user\"] {\n    background-color: #ff5663 !important;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] [class^=\"Voice_name\"] {\n    font-size: 13px !important;\n    padding: 0px;\n    margin: 0px;\n    height: 0;\n    transform: translateY(2.5px);\n    position: relative;\n    display: inline-block;\n}"
+                "css": "/* hide users by id */\n[data-userid=\"181358896328212480\"],\n[data-userid=\"258502759018397696\"] { display: none; }\n\nbody {\n    --width: 120;\n\n    --widthPX: calc(var(--width) * 1px);\n    --height: 100px;\n    --nameHeight: 26px;\n    --fontSize: calc((var(--widthPX) / 100) * 15);\n\n    width: 100%;\n    overflow: hidden;\n}\n\nul {\n    margin-block-start: 0;\n    margin-block-end: 0;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] {\n    opacity: 1 !important;\n    filter: grayscale(0%) !important;\n    outline-offset: calc(var(--widthPX) / 20 * -1);\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] {\n    display: flex;\n    width: 100%;\n    align-items: center;\n    justify-content: flex-start;\n    padding: 0;\n    background-color: none;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] {\n    width: var(--widthPX);\n    height: var(--height);\n    margin-bottom: 0px;\n    background-color: black;\n    position: relative;\n    text-align: center;\n    overflow: hidden;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatar\"] {\n    height: var(--widthPX);\n    width: 100%;\n    border-radius: 0;\n    border-width: 0;\n    opacity: 0.6;\n    filter: grayscale(50%);\n    transform: translateY(-22%);\n    transition: filter 0.1s ease-out, opacity 0.1s ease-out;\n    border: 0;\n}\n\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] {\n    background-color: #111111;\n    position: absolute;\n    bottom: 0px;\n    padding: 0px;\n    height: var(--nameHeight);\n    width: 100%;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] + [class^=\"Voice_user\"] {\n    background-color: #ff5663 !important;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] [class^=\"Voice_name\"] {\n    font-size: 13px !important;\n    padding: 0px;\n    margin: 0px;\n    height: 0;\n    transform: translateY(2.5px);\n    position: relative;\n    display: inline-block;\n}"
             },
             "mixers": 255,
             "sync": 0,
