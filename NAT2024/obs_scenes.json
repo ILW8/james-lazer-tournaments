@@ -1,12 +1,46 @@
 {
+    "DesktopAudioDevice1": {
+        "prev_ver": 503382018,
+        "name": "Desktop Audio",
+        "uuid": "4af20fc7-b972-411f-9a44-459a5cb6dbcc",
+        "id": "wasapi_output_capture",
+        "versioned_id": "wasapi_output_capture",
+        "settings": {
+            "device_id": "{0.0.0.00000000}.{f4b835a6-29fb-4c2e-91a3-c45667137fd5}"
+        },
+        "mixers": 255,
+        "sync": 0,
+        "flags": 0,
+        "volume": 0.18025527894496918,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": false,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.unmute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": []
+        },
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {}
+    },
     "current_scene": "LAZER",
     "current_program_scene": "LAZER",
     "scene_order": [
         {
             "name": "LAZER"
+        },
+        {
+            "name": "discord dsk"
         }
     ],
-    "name": "NAT",
+    "name": "NAT2024",
     "groups": [
         {
             "prev_ver": 503382018,
@@ -15,59 +49,20 @@
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
-                "cx": 1238,
-                "cy": 203,
+                "cx": 2482,
+                "cy": 1080,
+                "id_counter": 0,
                 "items": [
-                    {
-                        "name": "cuttingedge",
-                        "source_uuid": "645d10cc-2324-4598-bb14-c2ca613813a9",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 19,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
                     {
                         "name": "Player 2",
                         "source_uuid": "70ff98be-eda4-4aa2-beeb-2153bcf3308c",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 1238.0,
-                            "y": 203.0
+                            "y": 155.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -102,11 +97,11 @@
                         "name": "Player 1",
                         "source_uuid": "915a1647-a2a7-447c-8410-2ab14f758df7",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 278.0,
-                            "y": 203.0
+                            "y": 155.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -136,6 +131,45 @@
                             "duration": 0
                         },
                         "private_settings": {}
+                    },
+                    {
+                        "name": "cuttingedge",
+                        "source_uuid": "645d10cc-2324-4598-bb14-c2ca613813a9",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 19,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -150,7 +184,14 @@
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
-            "hotkeys": {},
+            "hotkeys": {
+                "libobs.show_scene_item.20": [],
+                "libobs.hide_scene_item.20": [],
+                "libobs.show_scene_item.21": [],
+                "libobs.hide_scene_item.21": [],
+                "libobs.show_scene_item.19": [],
+                "libobs.hide_scene_item.19": []
+            },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -239,6 +280,28 @@
             "lang_id": 1033,
             "provider": "mssapi"
         },
+        "downstream_keyers_channel": 7,
+        "downstream_keyers": [
+            {
+                "name": "DSK 1",
+                "transition": "",
+                "transition_duration": 300,
+                "show_transition": "",
+                "show_transition_duration": 300,
+                "hide_transition": "",
+                "hide_transition_duration": 300,
+                "scenes": [
+                    {
+                        "name": "discord dsk"
+                    }
+                ],
+                "scene": "",
+                "null_hotkey": [],
+                "enable_tie_hotkey": [],
+                "disable_tie_hotkey": [],
+                "exclude_scenes": []
+            }
+        ],
         "advanced-scene-switcher": {
             "sceneGroups": [],
             "macros": [],
@@ -487,7 +550,36 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {}
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503382018,
+                    "name": "Color Key",
+                    "uuid": "38641a46-6ead-43a1-aa32-85e8ff1fb878",
+                    "id": "color_key_filter",
+                    "versioned_id": "color_key_filter_v2",
+                    "settings": {
+                        "similarity": 342,
+                        "smoothness": 84
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         },
         {
             "prev_ver": 503382018,
@@ -496,12 +588,12 @@
             "id": "wasapi_output_capture",
             "versioned_id": "wasapi_output_capture",
             "settings": {
-                "device_id": "{0.0.0.00000000}.{f8aa3c59-b33c-4330-b575-8d6b201fc120}"
+                "device_id": "{0.0.0.00000000}.{bd118646-d64a-4d67-9fcf-1c67ec5740f8}"
             },
             "mixers": 255,
             "sync": 0,
             "flags": 0,
-            "volume": 0.24025183916091919,
+            "volume": 0.95708656311035156,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -522,27 +614,27 @@
         },
         {
             "prev_ver": 503382018,
-            "name": "LAZER",
-            "uuid": "6926cfc3-4df7-4927-95b3-3236863bd1f9",
+            "name": "discord dsk",
+            "uuid": "c84a93b9-37bb-4825-b464-4b1e7c72330b",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
+                "id_counter": 2,
                 "custom_size": false,
-                "id_counter": 22,
                 "items": [
                     {
-                        "name": "Mic",
-                        "source_uuid": "0f65432d-a128-44fb-a8a6-c184787cefef",
+                        "name": "Commentator Icons",
+                        "source_uuid": "25eaa9d7-6c28-4a46-b478-28f41f845297",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 827.0,
+                            "y": 935.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.3662500381469727,
+                            "y": 1.3666666746139526
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -556,7 +648,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 10,
+                        "id": 1,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -573,7 +665,7 @@
                         "name": "Discord capture",
                         "source_uuid": "321af53a-3afd-4aa3-9abd-05707bacad0f",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
@@ -595,8 +687,84 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 9,
+                        "id": 2,
                         "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "Show on DSK 1": [],
+                "Hide on DSK 1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "LAZER",
+            "uuid": "6926cfc3-4df7-4927-95b3-3236863bd1f9",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "custom_size": false,
+                "id_counter": 22,
+                "items": [
+                    {
+                        "name": "Player 2",
+                        "source_uuid": "70ff98be-eda4-4aa2-beeb-2153bcf3308c",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 960.0,
+                            "y": 156.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 20,
+                        "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
                         "blend_type": "normal",
@@ -609,14 +777,14 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "osu capture",
-                        "source_uuid": "82053a99-5c98-4669-83be-662afebe9ee5",
+                        "name": "Player 1",
+                        "source_uuid": "915a1647-a2a7-447c-8410-2ab14f758df7",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
-                            "y": 0.0
+                            "y": 156.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -634,8 +802,8 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 11,
-                        "group_item_backup": false,
+                        "id": 21,
+                        "group_item_backup": true,
                         "scale_filter": "disable",
                         "blend_method": "default",
                         "blend_type": "normal",
@@ -651,7 +819,7 @@
                         "name": "cuttingedge",
                         "source_uuid": "645d10cc-2324-4598-bb14-c2ca613813a9",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "pos": {
                             "x": -278.0,
@@ -687,88 +855,10 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Player 2",
-                        "source_uuid": "70ff98be-eda4-4aa2-beeb-2153bcf3308c",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 960.0,
-                            "y": 204.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 20,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Player 1",
-                        "source_uuid": "915a1647-a2a7-447c-8410-2ab14f758df7",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 204.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 21,
-                        "group_item_backup": true,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "Clients",
                         "source_uuid": "a1ba2402-fb36-4655-8e20-83f86afedfdd",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": -278.0,
@@ -802,47 +892,8 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
-                    },
-                    {
-                        "name": "Commentator Icons",
-                        "source_uuid": "25eaa9d7-6c28-4a46-b478-28f41f845297",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 827.0,
-                            "y": 935.0
-                        },
-                        "scale": {
-                            "x": 1.3662500381469727,
-                            "y": 1.3666666746139526
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 7,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -859,89 +910,12 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.10": [],
-                "libobs.hide_scene_item.10": [],
-                "libobs.show_scene_item.9": [],
-                "libobs.hide_scene_item.9": [],
-                "libobs.show_scene_item.11": [],
-                "libobs.hide_scene_item.11": [],
-                "libobs.show_scene_item.7": [],
-                "libobs.hide_scene_item.7": [],
-                "libobs.show_scene_item.19": [],
-                "libobs.hide_scene_item.19": [],
-                "libobs.show_scene_item.20": [],
-                "libobs.hide_scene_item.20": [],
-                "libobs.show_scene_item.21": [],
-                "libobs.hide_scene_item.21": [],
                 "libobs.show_scene_item.22": [],
                 "libobs.hide_scene_item.22": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503382018,
-            "name": "Mic",
-            "uuid": "0f65432d-a128-44fb-a8a6-c184787cefef",
-            "id": "wasapi_input_capture",
-            "versioned_id": "wasapi_input_capture",
-            "settings": {
-                "device_id": "{0.0.1.00000000}.{c0b2d674-2b7d-4f28-a31a-8e75a58917ae}"
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 0.35892993211746216,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": true,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503382018,
-            "name": "osu capture",
-            "uuid": "82053a99-5c98-4669-83be-662afebe9ee5",
-            "id": "wasapi_process_output_capture",
-            "versioned_id": "wasapi_process_output_capture",
-            "settings": {
-                "priority": 1,
-                "window": " Tournament Client 0:WindowsForms10.Window.2b.app.0.1ca0192_r7_ad1:osu!.exe"
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 0.092709824442863464,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 2,
             "private_settings": {}
         },
         {
