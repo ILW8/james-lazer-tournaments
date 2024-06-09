@@ -531,12 +531,73 @@
     {
       "ID": 4,
       "Team1Acronym": "URC",
-      "Team1Score": 0,
+      "Team1Score": 2,
       "Team2Acronym": "PIK",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 6,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3764532
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4298361
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4179283
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4209015
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4588326
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4265911
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4380957
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3603353
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3831211
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4596894
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3120956
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2490762
+        }
+      ],
       "Current": true,
       "Date": "2024-06-09T20:00:00+01:00",
       "ConditionalMatches": [],
