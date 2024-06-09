@@ -915,10 +915,10 @@
     {
       "ID": 14,
       "Team1Acronym": "TC",
-      "Team1Score": null,
+      "Team1Score": 6,
       "Team2Acronym": "WPH",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [
         {
@@ -990,6 +990,71 @@
           "Team": "Blue",
           "Type": "Pick",
           "BeatmapID": 3056724
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3620355
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3774967
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4119360
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4350369
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2195883
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4277471
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2842104
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4636162
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4634028
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4635746
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3838729
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 503262
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1204319
         }
       ],
       "Current": true,
@@ -1003,14 +1068,13 @@
         "TC",
         "WPH"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 9,
       "Team1Acronym": "ZON",
       "Team1Score": null,
-      "Team2Acronym": "XYL",
+      "Team2Acronym": "TC",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -1090,7 +1154,7 @@
       },
       "Acronyms": [
         "ZON",
-        "XYL"
+        "TC"
       ],
       "PointsToWin": 7
     },
@@ -1430,7 +1494,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-06-09T12:00:00+00:00",
+      "Date": "2024-06-09T08:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 348,
@@ -1453,7 +1517,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-06-09T16:00:00+00:00",
+      "Date": "2024-06-09T12:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 349,
@@ -1485,6 +1549,7 @@
     },
     {
       "ID": 26,
+      "Team1Acronym": "WPH",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -1497,7 +1562,10 @@
         "X": 733,
         "Y": 404
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "WPH"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
