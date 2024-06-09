@@ -342,13 +342,74 @@
     {
       "ID": 3,
       "Team1Acronym": "CHP",
-      "Team1Score": 0,
+      "Team1Score": 6,
       "Team2Acronym": "PRE",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
-      "Current": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3922901
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4596894
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4093491
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2490762
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3831211
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4298361
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4588326
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4380957
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4179283
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3609323
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3603353
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3764532
+        }
+      ],
+      "Current": false,
       "Date": "2024-06-09T19:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -359,7 +420,6 @@
         "CHP",
         "PRE"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -471,13 +531,13 @@
     {
       "ID": 4,
       "Team1Acronym": "URC",
-      "Team1Score": null,
+      "Team1Score": 0,
       "Team2Acronym": "PIK",
-      "Team2Score": null,
+      "Team2Score": 0,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2024-06-09T20:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
