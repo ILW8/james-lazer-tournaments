@@ -892,12 +892,88 @@
     {
       "ID": 4,
       "Team1Acronym": "APEX",
-      "Team1Score": 0,
+      "Team1Score": 6,
       "Team2Acronym": "IXN",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4636163
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3620355
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4277471
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4119360
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2195883
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4635148
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3838729
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4635746
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4634028
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3774967
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4636161
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4636162
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1204319
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 503262
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4635816
+        }
+      ],
       "Current": true,
       "Date": "2024-06-09T22:00:00+01:00",
       "ConditionalMatches": [],
@@ -909,7 +985,6 @@
         "APEX",
         "IXN"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -1002,7 +1077,7 @@
     },
     {
       "ID": 9,
-      "Team1Acronym": "ZON",
+      "Team1Acronym": "APEX",
       "Team1Score": null,
       "Team2Acronym": "TC",
       "Team2Score": null,
@@ -1083,9 +1158,10 @@
         "Y": -291
       },
       "Acronyms": [
-        "ZON",
+        "APEX",
         "TC"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
@@ -1536,6 +1612,7 @@
     },
     {
       "ID": 18,
+      "Team1Acronym": "IXN",
       "Team1Score": null,
       "Team2Acronym": "MWW",
       "Team2Score": null,
@@ -1550,8 +1627,10 @@
         "Y": 183
       },
       "Acronyms": [
+        "IXN",
         "MWW"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
