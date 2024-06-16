@@ -100,13 +100,13 @@
     {
       "ID": 5,
       "Team1Acronym": "XOO",
-      "Team1Score": null,
+      "Team1Score": 0,
       "Team2Acronym": "ZYL",
-      "Team2Score": null,
+      "Team2Score": 0,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2024-06-16T21:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -232,14 +232,70 @@
     {
       "ID": 19,
       "Team1Acronym": "FIE",
-      "Team1Score": null,
+      "Team1Score": 1,
       "Team2Acronym": "URC",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 6,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2006569
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3845308
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3216912
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4452821
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3047819
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4376790
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4257344
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 1522554
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3448615
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4484078
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4274997
+        }
+      ],
       "Current": false,
-      "Date": "2024-06-16T02:00:00+00:00",
+      "Date": "2024-06-16T02:30:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 800
@@ -254,13 +310,13 @@
     {
       "ID": 20,
       "Team1Acronym": "AMP",
-      "Team1Score": null,
+      "Team1Score": 6,
       "Team2Acronym": "FLA",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [],
-      "Current": true,
+      "Current": false,
       "Date": "2024-06-16T02:30:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -270,7 +326,6 @@
         "AMP",
         "FLA"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -391,7 +446,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-06-15T19:26:28.6112273+01:00",
+      "Date": "2024-06-16T22:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 240,
@@ -406,19 +461,21 @@
       "ID": 17,
       "Team1Acronym": "PIK",
       "Team1Score": null,
+      "Team2Acronym": "AMP",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-06-15T19:29:36.5807256+01:00",
+      "Date": "2024-06-16T21:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 240,
         "Y": 610
       },
       "Acronyms": [
-        "PIK"
+        "PIK",
+        "AMP"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
@@ -427,19 +484,21 @@
       "ID": 18,
       "Team1Acronym": "CHP",
       "Team1Score": null,
+      "Team2Acronym": "URC",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-06-15T19:29:47.8414288+01:00",
+      "Date": "2024-06-16T20:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 240,
         "Y": 700
       },
       "Acronyms": [
-        "CHP"
+        "CHP",
+        "URC"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
