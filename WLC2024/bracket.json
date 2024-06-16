@@ -1647,14 +1647,100 @@
     {
       "ID": 22,
       "Team1Acronym": "MWW",
-      "Team1Score": 0,
+      "Team1Score": 6,
       "Team2Acronym": "WPH",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 7,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
-      "Current": true,
-      "Date": "2024-06-16T12:00:00+00:00",
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4645199
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2651771
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3446284
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 59731
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4646352
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2445848
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4646423
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4645720
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3811279
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4533825
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4152512
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4646136
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4645920
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3833517
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4371079
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4588421
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2256387
+        }
+      ],
+      "Current": false,
+      "Date": "2024-06-16T13:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1086,
@@ -1670,12 +1756,13 @@
     {
       "ID": 23,
       "Team1Acronym": "APEX",
-      "Team1Score": null,
-      "Team2Score": null,
+      "Team1Score": 0,
+      "Team2Acronym": "WPH",
+      "Team2Score": 0,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2024-06-25T08:48:39+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -1683,7 +1770,8 @@
         "Y": 292
       },
       "Acronyms": [
-        "APEX"
+        "APEX",
+        "WPH"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 7
