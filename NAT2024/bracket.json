@@ -100,13 +100,84 @@
     {
       "ID": 5,
       "Team1Acronym": "XOO",
-      "Team1Score": 0,
+      "Team1Score": 6,
       "Team2Acronym": "ZYL",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 4,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
-      "Current": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2006569
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4586651
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4257344
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4484078
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3216912
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3793462
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4266525
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3845308
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4452821
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1522554
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3047819
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4376790
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3448615
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4274997
+        }
+      ],
+      "Current": false,
       "Date": "2024-06-16T21:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -116,7 +187,6 @@
         "XOO",
         "ZYL"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -295,7 +365,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-06-16T02:30:00+00:00",
+      "Date": "2024-06-16T03:30:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 800
@@ -406,7 +476,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-06-15T19:47:15.808091+01:00",
+      "Date": "2024-06-23T18:47:15+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 450
@@ -419,6 +489,7 @@
     },
     {
       "ID": 6,
+      "Team1Acronym": "XOO",
       "Team1Score": null,
       "Team2Acronym": "TEK",
       "Team2Score": null,
@@ -426,48 +497,114 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-06-15T19:47:15.808091+01:00",
+      "Date": "2024-06-23T18:48:02+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 450,
         "Y": 110
       },
       "Acronyms": [
+        "XOO",
         "TEK"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 9,
-      "Team1Score": null,
+      "Team1Acronym": "ZYL",
+      "Team1Score": 0,
       "Team2Acronym": "PEZ",
-      "Team2Score": null,
+      "Team2Score": 0,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
-      "Date": "2024-06-16T22:00:00+00:00",
+      "Current": true,
+      "Date": "2024-06-16T23:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 240,
         "Y": 310
       },
       "Acronyms": [
+        "ZYL",
         "PEZ"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 17,
       "Team1Acronym": "PIK",
-      "Team1Score": null,
+      "Team1Score": 2,
       "Team2Acronym": "AMP",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 7,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1522554
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4274997
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3047819
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3845308
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2979005
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3448615
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3793462
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4586651
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4452821
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4266525
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4376790
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2006569
+        }
+      ],
       "Current": false,
-      "Date": "2024-06-16T21:00:00+00:00",
+      "Date": "2024-06-16T22:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 240,
@@ -483,14 +620,14 @@
     {
       "ID": 18,
       "Team1Acronym": "CHP",
-      "Team1Score": null,
+      "Team1Score": 6,
       "Team2Acronym": "URC",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-06-16T20:00:00+00:00",
+      "Date": "2024-06-16T21:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 240,
@@ -500,7 +637,6 @@
         "CHP",
         "URC"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -558,19 +694,21 @@
       "ID": 13,
       "Team1Acronym": "BOSH",
       "Team1Score": null,
+      "Team2Acronym": "AMP",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-06-15T19:47:16.1279112+01:00",
+      "Date": "2024-06-23T18:48:02+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 460,
         "Y": 410
       },
       "Acronyms": [
-        "BOSH"
+        "BOSH",
+        "AMP"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 5
@@ -578,18 +716,21 @@
     {
       "ID": 16,
       "Team1Score": null,
+      "Team2Acronym": "CHP",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-06-15T19:47:16.1279112+01:00",
+      "Date": "2024-06-23T18:47:16+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 460,
         "Y": 520
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "CHP"
+      ],
       "PointsToWin": 5
     },
     {
