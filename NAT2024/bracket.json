@@ -471,6 +471,7 @@
       "ID": 2,
       "Team1Acronym": "WIN",
       "Team1Score": null,
+      "Team2Acronym": "ZYL",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -482,7 +483,8 @@
         "X": 450
       },
       "Acronyms": [
-        "WIN"
+        "WIN",
+        "ZYL"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 5
@@ -513,12 +515,88 @@
     {
       "ID": 9,
       "Team1Acronym": "ZYL",
-      "Team1Score": 0,
+      "Team1Score": 6,
       "Team2Acronym": "PEZ",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2979005
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3845308
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4452821
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3793462
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3448615
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4266525
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3047819
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3216912
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4274997
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4586651
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2006569
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4484078
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4257344
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4376790
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3784919
+        }
+      ],
       "Current": true,
       "Date": "2024-06-16T23:00:00+01:00",
       "ConditionalMatches": [],
@@ -530,7 +608,6 @@
         "ZYL",
         "PEZ"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -715,6 +792,7 @@
     },
     {
       "ID": 16,
+      "Team1Acronym": "PEZ",
       "Team1Score": null,
       "Team2Acronym": "CHP",
       "Team2Score": null,
@@ -729,8 +807,10 @@
         "Y": 520
       },
       "Acronyms": [
+        "PEZ",
         "CHP"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
