@@ -1224,20 +1224,22 @@
     {
       "ID": 10,
       "Team1Acronym": "TC",
-      "Team1Score": null,
-      "Team2Score": null,
+      "Team1Score": 0,
+      "Team2Acronym": "APEX",
+      "Team2Score": 0,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
-      "Date": "2024-06-22T15:00:00+01:00",
+      "Current": true,
+      "Date": "2024-06-22T16:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1090,
         "Y": -291
       },
       "Acronyms": [
-        "TC"
+        "TC",
+        "APEX"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 7
@@ -1756,13 +1758,74 @@
     {
       "ID": 23,
       "Team1Acronym": "APEX",
-      "Team1Score": 0,
+      "Team1Score": 7,
       "Team2Acronym": "WPH",
       "Team2Score": 0,
-      "Completed": false,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
-      "Current": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4377067
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4196169
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4654126
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4195433
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3644373
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4259049
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1024483
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4054229
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2182766
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3609323
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2234808
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4655064
+        }
+      ],
+      "Current": false,
       "Date": "2024-06-23T05:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -1773,7 +1836,6 @@
         "APEX",
         "WPH"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
