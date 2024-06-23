@@ -1162,12 +1162,73 @@
     {
       "ID": 42,
       "Team1Acronym": "cril",
-      "Team1Score": 0,
+      "Team1Score": 6,
       "Team2Acronym": "pata",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2256378
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2848899
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4311614
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4227645
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4332223
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1125109
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4182702
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4241261
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2873706
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2387896
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4016365
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3310130
+        }
+      ],
       "Current": true,
       "Date": "2024-06-21T01:00:00+01:00",
       "ConditionalMatches": [],
@@ -1179,7 +1240,6 @@
         "cril",
         "pata"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -1229,7 +1289,7 @@
     },
     {
       "ID": 39,
-      "Team1Acronym": "3bdo",
+      "Team1Acronym": "cril",
       "Team1Score": null,
       "Team2Acronym": "",
       "Team2Score": null,
@@ -1244,7 +1304,7 @@
         "Y": 1660
       },
       "Acronyms": [
-        "3bdo",
+        "cril",
         ""
       ],
       "WinnerColour": "Blue",
@@ -1252,7 +1312,7 @@
     },
     {
       "ID": 55,
-      "Team1Acronym": "osu ",
+      "Team1Acronym": "brea",
       "Team1Score": null,
       "Team2Acronym": "ARAM",
       "Team2Score": null,
@@ -1267,7 +1327,7 @@
         "Y": 2020
       },
       "Acronyms": [
-        "osu ",
+        "brea",
         "ARAM"
       ],
       "WinnerColour": "Blue",
