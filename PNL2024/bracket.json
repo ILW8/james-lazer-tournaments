@@ -264,13 +264,13 @@
     {
       "ID": 21,
       "Team1Acronym": "PTN",
-      "Team1Score": null,
+      "Team1Score": 0,
       "Team2Acronym": "IWSU",
-      "Team2Score": null,
+      "Team2Score": 0,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2024-06-23T16:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -331,12 +331,58 @@
     {
       "ID": 10,
       "Team1Acronym": "MMZD",
-      "Team1Score": 0,
+      "Team1Score": 6,
       "Team2Acronym": "GNOS",
       "Team2Score": 0,
-      "Completed": false,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4653331
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4338125
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3632423
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4653245
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3176675
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 484036
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4483053
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2565154
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3195088
+        }
+      ],
       "Current": false,
       "Date": "2024-06-23T15:00:00+01:00",
       "ConditionalMatches": [],
@@ -348,7 +394,6 @@
         "MMZD",
         "GNOS"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -782,7 +827,7 @@
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": true,
+      "Current": false,
       "Date": "2024-06-23T15:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
