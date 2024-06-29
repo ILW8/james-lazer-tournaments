@@ -1,21 +1,30 @@
 {
-    "current_scene": "gameplay",
-    "current_program_scene": "gameplay",
+    "current_scene": "tech diff",
+    "current_program_scene": "tech diff",
     "scene_order": [
         {
             "name": "start"
         },
         {
-            "name": "gameplay"
+            "name": "tech diff"
+        },
+        {
+            "name": "intermission"
+        },
+        {
+            "name": "----"
         },
         {
             "name": "mappool"
         },
         {
-            "name": "winner"
+            "name": "gameplay"
         },
         {
-            "name": "intermission"
+            "name": "-----"
+        },
+        {
+            "name": "winner"
         },
         {
             "name": "end"
@@ -43,8 +52,8 @@
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 1440,
-                "cy": 360,
+                "cx": 1920,
+                "cy": 720,
                 "id_counter": 0,
                 "items": [
                     {
@@ -655,6 +664,66 @@
     "sources": [
         {
             "prev_ver": 503382018,
+            "name": "----",
+            "uuid": "b9295d22-23e0-4bdf-a52c-7578883746f3",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 0,
+                "custom_size": false,
+                "items": []
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "-----",
+            "uuid": "5e1e39fd-66c0-4bbf-8a6f-8a803368be06",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 0,
+                "custom_size": false,
+                "items": []
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
             "name": "AUDIO SOURCE - BGM",
             "uuid": "139d904b-1f77-4e21-920c-422cc17cfb16",
             "id": "scene",
@@ -736,7 +805,7 @@
                 "id_counter": 2,
                 "items": [
                     {
-                        "name": "main audio",
+                        "name": "caster audio",
                         "source_uuid": "8a04be67-665e-42b8-8f2d-180e12f38575",
                         "visible": true,
                         "locked": true,
@@ -808,7 +877,7 @@
                 "id_counter": 2,
                 "items": [
                     {
-                        "name": "main audio",
+                        "name": "caster audio",
                         "source_uuid": "8a04be67-665e-42b8-8f2d-180e12f38575",
                         "visible": true,
                         "locked": false,
@@ -1153,6 +1222,37 @@
                 "cursor": false
             },
             "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "caster audio",
+            "uuid": "8a04be67-665e-42b8-8f2d-180e12f38575",
+            "id": "wasapi_output_capture",
+            "versioned_id": "wasapi_output_capture",
+            "settings": {
+                "device_id": "{0.0.0.00000000}.{2dcdcbb3-12cf-45db-8983-8bf69e7c0b6c}"
+            },
+            "mixers": 197,
             "sync": 0,
             "flags": 0,
             "volume": 1.0,
@@ -1870,8 +1970,87 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 0,
-                "items": []
+                "id_counter": 2,
+                "items": [
+                    {
+                        "name": "rescup_interm.png",
+                        "source_uuid": "d879245c-f973-4217-90c7-ab33c22593bf",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "AUDIO SOURCE - BGM",
+                        "source_uuid": "139d904b-1f77-4e21-920c-422cc17cfb16",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
             },
             "mixers": 0,
             "sync": 0,
@@ -1885,38 +2064,11 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "OBSBasic.SelectScene": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503382018,
-            "name": "main audio",
-            "uuid": "8a04be67-665e-42b8-8f2d-180e12f38575",
-            "id": "wasapi_output_capture",
-            "versioned_id": "wasapi_output_capture",
-            "settings": {
-                "device_id": "{0.0.0.00000000}.{08369e06-9d2e-4494-828a-87389f4e15ae}"
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -2074,12 +2226,12 @@
             "id": "wasapi_output_capture",
             "versioned_id": "wasapi_output_capture",
             "settings": {
-                "device_id": "{0.0.0.00000000}.{ef3521fe-bec4-49d5-968e-5c7cc49c67ca}"
+                "device_id": "{0.0.0.00000000}.{f4b835a6-29fb-4c2e-91a3-c45667137fd5}"
             },
-            "mixers": 255,
+            "mixers": 195,
             "sync": 0,
             "flags": 0,
-            "volume": 0.02288370206952095,
+            "volume": 0.16734857857227325,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -2095,7 +2247,7 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 1,
+            "monitoring_type": 2,
             "private_settings": {}
         },
         {
@@ -2230,12 +2382,64 @@
         },
         {
             "prev_ver": 503382018,
+            "name": "rescup_brb.png",
+            "uuid": "16b326c6-7911-431c-aa80-f23267e425ab",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RES2024/obs/rescup_brb.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
             "name": "rescup_closing.png",
             "uuid": "1c10e65f-6994-427f-a8c0-d9c479351daa",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
                 "file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RES2024/obs/rescup_closing.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "rescup_interm.png",
+            "uuid": "d879245c-f973-4217-90c7-ab33c22593bf",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RES2024/obs/rescup_interm.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -2647,7 +2851,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 2,
+                "id_counter": 3,
                 "items": [
                     {
                         "name": "rescup_start.png",
@@ -2726,6 +2930,45 @@
                             "duration": 0
                         },
                         "private_settings": {}
+                    },
+                    {
+                        "name": "AUDIO SOURCE - BGM",
+                        "source_uuid": "139d904b-1f77-4e21-920c-422cc17cfb16",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -2745,7 +2988,163 @@
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "tech diff",
+            "uuid": "705a657a-275c-4991-a680-4533b9426c0e",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 3,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "rescup_brb.png",
+                        "source_uuid": "16b326c6-7911-431c-aa80-f23267e425ab",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "AUDIO SOURCE - BGM",
+                        "source_uuid": "139d904b-1f77-4e21-920c-422cc17cfb16",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "AUDIO SOURCE - CASTER",
+                        "source_uuid": "9f442717-7d2d-42a3-a5bb-95dd62151df3",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
