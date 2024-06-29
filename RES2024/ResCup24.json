@@ -42,10 +42,10 @@
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
-                "cx": 1920,
-                "cy": 720,
+                "cx": 1440,
+                "cy": 360,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "c0",
@@ -58,16 +58,16 @@
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "crop_left": 0,
                         "crop_top": 0,
@@ -97,16 +97,16 @@
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "crop_left": 0,
                         "crop_top": 0,
@@ -136,16 +136,16 @@
                             "y": 360.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "crop_left": 0,
                         "crop_top": 0,
@@ -175,16 +175,16 @@
                             "y": 360.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "crop_left": 0,
                         "crop_top": 0,
@@ -214,16 +214,16 @@
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "crop_left": 0,
                         "crop_top": 0,
@@ -253,8 +253,8 @@
                             "y": 0.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -292,8 +292,8 @@
                             "y": 360.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -331,8 +331,8 @@
                             "y": 360.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -432,10 +432,6 @@
         "type2": 3
     },
     "modules": {
-        "tuna": {
-            "vlc_prev_hotkey": [],
-            "vlc_next_hotkey": []
-        },
         "scripts-tool": [],
         "output-timer": {
             "streamTimerHours": 0,
@@ -461,6 +457,24 @@
             "lang_id": 1033,
             "provider": "mssapi"
         },
+        "downstream_keyers_channel": 7,
+        "downstream_keyers": [
+            {
+                "name": "DSK 1",
+                "transition": "",
+                "transition_duration": 300,
+                "show_transition": "",
+                "show_transition_duration": 300,
+                "hide_transition": "",
+                "hide_transition_duration": 300,
+                "scenes": [],
+                "scene": "",
+                "null_hotkey": [],
+                "enable_tie_hotkey": [],
+                "disable_tie_hotkey": [],
+                "exclude_scenes": []
+            }
+        ],
         "advanced-scene-switcher": {
             "sceneGroups": [],
             "macros": [],
@@ -632,7 +646,7 @@
             "windowWidth": 0,
             "windowHeight": 0,
             "macroListMacroEditSplitterPosition": [],
-            "version": "70dad8ebb4d5b28e6abe73103870949418ed2d4a",
+            "version": "cdacfc946c062982a5e865b9a4f849b5ce2fb05f",
             "websocketConnections": [],
             "twitchConnections": [],
             "actionQueues": []
@@ -646,8 +660,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 1,
                 "custom_size": false,
+                "id_counter": 1,
                 "items": [
                     {
                         "name": "rescup bgm looped.mp3",
@@ -718,8 +732,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 2,
                 "custom_size": false,
+                "id_counter": 2,
                 "items": [
                     {
                         "name": "main audio",
@@ -790,8 +804,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 2,
                 "custom_size": false,
+                "id_counter": 2,
                 "items": [
                     {
                         "name": "main audio",
@@ -903,8 +917,8 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": " Tournament Client 0:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "priority": 1,
+                "window": " Tournament Client 0:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "cursor": false
             },
             "mixers": 255,
@@ -936,8 +950,8 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": " Tournament Client 1:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "priority": 1,
+                "window": " Tournament Client 1:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "cursor": false
             },
             "mixers": 255,
@@ -969,8 +983,8 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": " Tournament Client 2:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "priority": 1,
+                "window": " Tournament Client 2:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "cursor": false
             },
             "mixers": 255,
@@ -1002,8 +1016,8 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": " Tournament Client 3:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "priority": 1,
+                "window": " Tournament Client 3:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "cursor": false
             },
             "mixers": 255,
@@ -1035,8 +1049,8 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": " Tournament Client 4:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "priority": 1,
+                "window": " Tournament Client 4:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "cursor": false
             },
             "mixers": 255,
@@ -1068,8 +1082,8 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": " Tournament Client 5:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "priority": 1,
+                "window": " Tournament Client 5:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "cursor": false
             },
             "mixers": 255,
@@ -1101,8 +1115,8 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": " Tournament Client 6:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "priority": 1,
+                "window": " Tournament Client 6:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "cursor": false
             },
             "mixers": 255,
@@ -1134,8 +1148,8 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": " Tournament Client 7:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "priority": 1,
+                "window": " Tournament Client 7:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
                 "cursor": false
             },
             "mixers": 255,
@@ -1198,16 +1212,16 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v2",
             "settings": {
+                "file": "C:/Snaz/TextFiles/Countdown.txt",
+                "read_from_file": true,
                 "text": "12:34",
                 "font": {
                     "face": "Cinzel",
-                    "style": "Bold",
+                    "flags": 1,
                     "size": 256,
-                    "flags": 1
+                    "style": "Bold"
                 },
-                "color": 4278190080,
-                "read_from_file": true,
-                "file": "C:/Snaz/TextFiles/Countdown.txt"
+                "color": 4278190080
             },
             "mixers": 0,
             "sync": 0,
@@ -1233,8 +1247,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 2,
                 "custom_size": false,
+                "id_counter": 2,
                 "items": [
                     {
                         "name": "rescup_closing.png",
@@ -1346,8 +1360,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 12,
                 "custom_size": false,
+                "id_counter": 12,
                 "items": [
                     {
                         "name": "AUDIO SOURCE - GAMEPLAY",
@@ -1399,16 +1413,16 @@
                             "y": 100.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "crop_left": 0,
                         "crop_top": 0,
@@ -1438,16 +1452,16 @@
                             "y": 100.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "crop_left": 0,
                         "crop_top": 0,
@@ -1477,16 +1491,16 @@
                             "y": 460.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "crop_left": 0,
                         "crop_top": 0,
@@ -1516,16 +1530,16 @@
                             "y": 460.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "crop_left": 0,
                         "crop_top": 0,
@@ -1555,16 +1569,16 @@
                             "y": 100.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "crop_left": 0,
                         "crop_top": 0,
@@ -1594,8 +1608,8 @@
                             "y": 100.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -1633,8 +1647,8 @@
                             "y": 460.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -1672,8 +1686,8 @@
                             "y": 460.0
                         },
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -1738,7 +1752,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
@@ -1855,8 +1869,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 0,
                 "custom_size": false,
+                "id_counter": 0,
                 "items": []
             },
             "mixers": 0,
@@ -1916,8 +1930,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 4,
                 "custom_size": false,
+                "id_counter": 4,
                 "items": [
                     {
                         "name": "AUDIO SOURCE - GAMEPLAY",
@@ -2160,7 +2174,7 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "D:/_tourney_stream/ResCup24/obs/rescup bgm looped.mp3"
+                "local_file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RES2024/obs/rescup bgm looped.mp3"
             },
             "mixers": 255,
             "sync": 0,
@@ -2195,7 +2209,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/_tourney_stream/ResCup24/rescup_bg.png"
+                "file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RES2024/obs/rescup_bg.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -2221,7 +2235,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/_tourney_stream/ResCup24/obs/rescup_closing.png"
+                "file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RES2024/obs/rescup_closing.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -2247,7 +2261,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/_tourney_stream/ResCup24/Stream Kit/obs/rescup_start.png"
+                "file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RES2024/obs/rescup_start.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -2273,8 +2287,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 14,
                 "custom_size": false,
+                "id_counter": 14,
                 "items": [
                     {
                         "name": "osu",
@@ -2632,8 +2646,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 2,
                 "custom_size": false,
+                "id_counter": 2,
                 "items": [
                     {
                         "name": "rescup_start.png",
@@ -2874,8 +2888,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 3,
                 "custom_size": false,
+                "id_counter": 3,
                 "items": [
                     {
                         "name": "AUDIO SOURCE - CASTER",
