@@ -1,0 +1,107 @@
+.maplist {
+    position: relative;
+
+    grid-column: 2 / 4;
+    /* grid-row: 2 / span 4; */
+    align-self: start;
+}
+
+.maplist::before {
+    content: "Mappool";
+
+    position: absolute;
+    top: -20px;
+    left: 15px;
+
+    padding: 5px 10px;
+    font-weight: 800;
+
+    background-color: #161616;
+}
+
+.maplist.container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.modRow {
+    display: flex;
+
+    background-color: #202020;
+    border-radius: 10px;
+
+    overflow: hidden;
+    transition: ease-in-out 200ms;
+}
+
+.mod {
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapContainer {
+    flex: 1;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+
+    background-color: #303030;
+}
+
+.map {
+    padding: 10px;
+    text-align: center;
+
+    user-select: none;
+    border-radius: 0;
+
+    font-family: Manrope;
+    transition: ease-in-out 200ms;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.map:disabled {
+    opacity: 0.2;
+}
+
+.map:disabled:hover {
+    background-color: transparent;
+}
+
+.NM {
+    color: #9bc1e4;
+}
+
+.HD {
+    color: #f2df99;
+}
+
+.HR {
+    color: #eb9999;
+}
+
+.DT {
+    color: #cea3ff;
+}
+
+.FM {
+    color: #c7e1a6;
+}
+
+.TB {
+    color: white;
+}

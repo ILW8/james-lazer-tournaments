@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Manrope;
+    src: url(/fonts/Manrope-VariableFont_wght.ttf);
+}
+
+:root {
+    font-family: Manrope;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: dark;
+    color: rgba(255, 255, 255);
+    background-color: #161616;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    place-items: center;
+
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*Scrollbar*/
+
+::-webkit-scrollbar {
+    width: 5px;
+    /* display: none; */
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255 255 255 / 0.5);
+    border-radius: 10px;
+}

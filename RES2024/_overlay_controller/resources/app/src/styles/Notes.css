@@ -1,0 +1,25 @@
+.notes {
+    position: relative;
+    width: 100%;
+
+    grid-column: 1 / 2;
+
+    flex: 1;
+}
+
+.notes::before {
+    content: "Notes";
+
+    position: absolute;
+    top: -20px;
+    left: 15px;
+
+    padding: 5px 10px;
+    font-weight: 800;
+
+    background-color: #161616;
+}
+
+li {
+    font-weight: 500;
+}

@@ -1,0 +1,71 @@
+.currentPosition {
+    position: relative;
+
+    grid-column: 1 / 2;
+
+    align-self: start;
+}
+
+.currentPosition::before {
+    content: "Overlay Navigator";
+
+    position: absolute;
+    top: -20px;
+    left: 15px;
+
+    padding: 5px 10px;
+    font-weight: 800;
+
+    background-color: #161616;
+}
+
+.currentPosition .content {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.label {
+    width: 150px;
+}
+
+.value {
+    flex: 1;
+    text-align: center;
+}
+
+.currentPosition input {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+
+    outline: solid 2px #333;
+    border-radius: 5px;
+
+    text-align: center;
+    color: white;
+    font-family: Manrope;
+
+    padding: 5px;
+}
+
+.currentPosition input:focus {
+    outline: solid 2px #888;
+}
+
+.currentPosition .input button {
+    flex: 1;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-family: Manrope;
+}

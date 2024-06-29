@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="../_deps/reconnecting-websocket.min.js"></script>
+    <script src="../_deps/jquery.min.js"></script>
+    <script src="../_deps/utils.js"></script>
+    <title>ResCup24 Showcase</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="./static/logo.png" alt="resc24-logo" />
+      </div>
+      <div class="header-text">
+        <div class="header-item round-title">Mappool Showcase</div>
+        <div class="header-item round-name" id="stage_name">Round Name</div>
+      </div>
+    </div>
+    <div class="map-stats-container">
+      <div class="map-background-container">
+        <div class="map-background" id="map_background"></div>
+      </div>
+      <div class="customIndicator">CUSTOM</div>
+      <div class="map-stats">
+        <span id="now_playing" class="stats-item__value"></span>
+        <div class="map-stats-title">
+          <div class="map-stats-title__item title-top">
+            <div id="title" class="map-title__value">Title</div>
+            <div id="artist" class="map-artist__value">Artist</div>
+          </div>
+          <div class="map-stats-title__item title-bottom">
+            [
+            <div id="difficulty">Difficulty Name</div>
+            ]
+            <div>by</div>
+            <div id="mapper" class="map-title__value">Mapper</div>
+          </div>
+        </div>
+        <hr />
+        <div class="map-stats-attributes">
+          <div class="map-stats-attributes__item">
+            <span>CS </span
+            ><span id="cs" class="map-stats-attributes__item-value"></span>
+          </div>
+          <div class="map-stats-attributes__item">
+            <span>AR </span
+            ><span id="ar" class="map-stats-attributes__item-value"></span>
+          </div>
+          <div class="map-stats-attributes__item">
+            <span>OD </span
+            ><span id="od" class="map-stats-attributes__item-value"></span>
+          </div>
+          <div class="map-stats-attributes__item">
+            <span>BPM </span
+            ><span id="bpm" class="map-stats-attributes__item-value"></span>
+          </div>
+          <div class="map-stats-attributes__item">
+            <span>Length </span
+            ><span id="length" class="map-stats-attributes__item-value"></span>
+          </div>
+          <div class="map-stats-attributes__item">
+            <span>SR </span
+            ><span id="sr" class="map-stats-attributes__item-value"></span>
+          </div>
+        </div>
+        <hr />
+        <div class="replay-container">
+          <div class="replay-item replay-title">replay by</div>
+          <div id="replayer" class="replay-item replay-name">replayer name</div>
+        </div>
+      </div>
+    </div>
+    <div class="vc-container"></div>
+  </body>
+  <script src="./index.js"></script>
+</html>
