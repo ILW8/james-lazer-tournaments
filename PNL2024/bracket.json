@@ -1844,7 +1844,7 @@
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2024-06-30T14:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -1861,13 +1861,89 @@
     {
       "ID": 54,
       "Team1Acronym": "NPMD",
-      "Team1Score": 0,
+      "Team1Score": 7,
       "Team2Acronym": "AHHH",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
-      "Current": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4659858
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4111667
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4365404
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3322513
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3224506
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3622207
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4662244
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4662241
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4661937
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4661932
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2004588
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4661930
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2454944
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4663097
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 922172
+        }
+      ],
+      "Current": false,
       "Date": "2024-06-30T12:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -1878,7 +1954,6 @@
         "NPMD",
         "AHHH"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -1938,6 +2013,7 @@
     },
     {
       "ID": 55,
+      "Team1Acronym": "NPMD",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -1950,7 +2026,10 @@
         "X": 1480,
         "Y": 1130
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "NPMD"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
@@ -28373,5 +28452,5 @@
   "PlayersPerTeam": 4,
   "AutoProgressScreens": true,
   "SplitMapPoolByMods": true,
-  "DisplayTeamSeeds": false
+  "DisplayTeamSeeds": true
 }
