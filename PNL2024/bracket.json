@@ -1371,7 +1371,7 @@
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2024-06-30T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -1601,12 +1601,68 @@
     {
       "ID": 6,
       "Team1Acronym": "APAC",
-      "Team1Score": 0,
+      "Team1Score": 6,
       "Team2Acronym": "EMPI",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4111667
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3622207
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3322513
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2004588
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3057790
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4661930
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4662241
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4405670
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4661932
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4662244
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2454944
+        }
+      ],
       "Current": false,
       "Date": "2024-06-30T16:00:00+01:00",
       "ConditionalMatches": [],
@@ -1618,7 +1674,6 @@
         "APAC",
         "EMPI"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -1644,12 +1699,83 @@
     {
       "ID": 32,
       "Team1Acronym": "BOB",
-      "Team1Score": 0,
+      "Team1Score": 6,
       "Team2Acronym": "EUG",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2004588
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4663097
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4111667
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4662241
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4661937
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3622207
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4662234
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4659858
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4405670
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4661932
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2454944
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3224506
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1758488
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3322513
+        }
+      ],
       "Current": false,
       "Date": "2024-06-30T15:00:00+01:00",
       "ConditionalMatches": [],
@@ -1661,7 +1787,6 @@
         "BOB",
         "EUG"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -1739,6 +1864,7 @@
     },
     {
       "ID": 12,
+      "Team1Acronym": "APAC",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -1751,11 +1877,15 @@
         "X": 1660,
         "Y": 110
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "APAC"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
       "ID": 38,
+      "Team1Acronym": "BOB",
       "Team1Score": null,
       "Team2Acronym": "MOM",
       "Team2Score": null,
@@ -1770,8 +1900,10 @@
         "Y": 520
       },
       "Acronyms": [
+        "BOB",
         "MOM"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
@@ -1838,13 +1970,69 @@
     {
       "ID": 50,
       "Team1Acronym": "ALMK",
-      "Team1Score": 0,
+      "Team1Score": 1,
       "Team2Acronym": "TEA",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 6,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
-      "Current": true,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4662241
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4111667
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3622207
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2004588
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4661932
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4405670
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3322513
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4661930
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3822978
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4659858
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4663097
+        }
+      ],
+      "Current": false,
       "Date": "2024-06-30T14:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -1979,6 +2167,7 @@
     },
     {
       "ID": 47,
+      "Team1Acronym": "EUG",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -1991,11 +2180,15 @@
         "X": 1480,
         "Y": 930
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "EUG"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
       "ID": 51,
+      "Team1Acronym": "TEA",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -2008,13 +2201,17 @@
         "X": 1480,
         "Y": 1030
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "TEA"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
       "ID": 55,
       "Team1Acronym": "NPMD",
       "Team1Score": null,
+      "Team2Acronym": "EMPI",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -2027,7 +2224,8 @@
         "Y": 1130
       },
       "Acronyms": [
-        "NPMD"
+        "NPMD",
+        "EMPI"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 7
