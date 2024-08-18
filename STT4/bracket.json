@@ -1,0 +1,5552 @@
+{
+  "Ruleset": {
+    "ShortName": "osu",
+    "Name": "osu!",
+    "InstantiationInfo": "osu.Game.Rulesets.Osu.OsuRuleset, osu.Game.Rulesets.Osu",
+    "LastAppliedDifficultyVersion": 20220902,
+    "Available": true
+  },
+  "Matches": [
+    {
+      "ID": 28,
+      "Team1Acronym": "CREMA",
+      "Team1Score": 2,
+      "Team2Acronym": "5ST",
+      "Team2Score": 5,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2535554
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2944309
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1887289
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1695344
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2714747
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2893604
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2814017
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2750537
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 859696
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3281723
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2715187
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4187144
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3993328
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4438538
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1651264
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2275111
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2836380
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1955676
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-18T16:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -311,
+        "Y": -113
+      },
+      "Acronyms": [
+        "CREMA",
+        "5ST"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 30,
+      "Team1Acronym": "BABA",
+      "Team1Score": 5,
+      "Team2Acronym": "SKI",
+      "Team2Score": 0,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2524468
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2944309
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 859696
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2750537
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1887289
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2714747
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2535554
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3093816
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2814017
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-18T19:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -308,
+        "Y": -9
+      },
+      "Acronyms": [
+        "BABA",
+        "SKI"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 32,
+      "Team1Acronym": "OD",
+      "Team1Score": 5,
+      "Team2Acronym": "KYS",
+      "Team2Score": 2,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-17T03:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -308,
+        "Y": 86
+      },
+      "Acronyms": [
+        "OD",
+        "KYS"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 37,
+      "Team1Acronym": "JAK",
+      "Team1Score": null,
+      "Team2Acronym": "MEOW",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3253606
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2122926
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2670869
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2017595
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2742186
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2725845
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3096572
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3049607
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2578661
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -308,
+        "Y": 450
+      },
+      "Acronyms": [
+        "JAK",
+        "MEOW"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 41,
+      "Team1Acronym": "DADA",
+      "Team1Score": null,
+      "Team2Acronym": "KIN",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -307,
+        "Y": 559
+      },
+      "Acronyms": [
+        "DADA",
+        "KIN"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 46,
+      "Team1Acronym": "TFT",
+      "Team1Score": null,
+      "Team2Acronym": "CC",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -305,
+        "Y": 656
+      },
+      "Acronyms": [
+        "TFT",
+        "CC"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 48,
+      "Team1Acronym": "GUN",
+      "Team1Score": null,
+      "Team2Acronym": "BOO",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2670869
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1453869
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3096572
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3049607
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2578661
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2017595
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2742186
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3253613
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3253606
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -299,
+        "Y": 761
+      },
+      "Acronyms": [
+        "GUN",
+        "BOO"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 53,
+      "Team1Acronym": "GG",
+      "Team1Score": null,
+      "Team2Acronym": "ANT",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -300,
+        "Y": 872
+      },
+      "Acronyms": [
+        "GG",
+        "ANT"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 24,
+      "Team1Acronym": "GRE",
+      "Team1Score": null,
+      "Team2Acronym": "HS",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-18T21:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -311,
+        "Y": -326
+      },
+      "Acronyms": [
+        "GRE",
+        "HS"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 22,
+      "Team1Acronym": "MON",
+      "Team1Score": 5,
+      "Team2Acronym": "NEG",
+      "Team2Score": 2,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-17T17:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -311,
+        "Y": -442
+      },
+      "Acronyms": [
+        "MON",
+        "NEG"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 20,
+      "Team1Acronym": "PLAY",
+      "Team1Score": null,
+      "Team2Acronym": "TEAM",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2714747
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2814017
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1695344
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2138942
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2853100
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2535554
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3093143
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2944309
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 859696
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2524468
+        }
+      ],
+      "Current": true,
+      "Date": "2024-08-18T20:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -308,
+        "Y": -549
+      },
+      "Acronyms": [
+        "PLAY",
+        "TEAM"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 18,
+      "Team1Acronym": "CRY",
+      "Team1Score": 5,
+      "Team2Acronym": "GG",
+      "Team2Score": 0,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-17T17:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -308,
+        "Y": -658
+      },
+      "Acronyms": [
+        "CRY",
+        "GG"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 15,
+      "Team1Acronym": "FREE",
+      "Team1Score": 5,
+      "Team2Acronym": "BOO",
+      "Team2Score": 2,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2714747
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2944309
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1695344
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 859696
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2853100
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2814017
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1887289
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2524468
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3093143
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2750537
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-17T18:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -305,
+        "Y": -765
+      },
+      "Acronyms": [
+        "FREE",
+        "BOO"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 13,
+      "Team1Acronym": "FREAK",
+      "Team1Score": 5,
+      "Team2Acronym": "GUN",
+      "Team2Score": 1,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-17T16:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -305,
+        "Y": -876
+      },
+      "Acronyms": [
+        "FREAK",
+        "GUN"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 11,
+      "Team1Acronym": "OOM",
+      "Team1Score": 5,
+      "Team2Acronym": "TFT",
+      "Team2Score": 2,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2714747
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2814017
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2893604
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2750537
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1695344
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2535554
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3093143
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2524468
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-17T03:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -306,
+        "Y": -973
+      },
+      "Acronyms": [
+        "OOM",
+        "TFT"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 9,
+      "Team1Acronym": "DREAM",
+      "Team1Score": 5,
+      "Team2Acronym": "CC",
+      "Team2Score": 0,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3093143
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2944309
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2814017
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1695344
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2535554
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2750537
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2893604
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2138942
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-18T15:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -306,
+        "Y": -1083
+      },
+      "Acronyms": [
+        "DREAM",
+        "CC"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 7,
+      "Team1Acronym": "OOMF",
+      "Team1Score": null,
+      "Team2Acronym": "MEGA",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-18T21:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -304,
+        "Y": -1188
+      },
+      "Acronyms": [
+        "OOMF",
+        "MEGA"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 5,
+      "Team1Acronym": "RAM",
+      "Team1Score": 5,
+      "Team2Acronym": "DADA",
+      "Team2Score": 3,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2750537
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2814017
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2535554
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2944309
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1695344
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2138942
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 859696
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2524468
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2853100
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3093816
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-18T19:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -304,
+        "Y": -1297
+      },
+      "Acronyms": [
+        "RAM",
+        "DADA"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 3,
+      "Team1Acronym": "MAN",
+      "Team1Score": 5,
+      "Team2Acronym": "JAK",
+      "Team2Score": 1,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-17T18:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -300,
+        "Y": -1390
+      },
+      "Acronyms": [
+        "MAN",
+        "JAK"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 1,
+      "Team1Acronym": "DAN",
+      "Team1Score": 5,
+      "Team2Acronym": "MEOW",
+      "Team2Score": 0,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2750537
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2814017
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2944309
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2714747
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2138942
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2524468
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3093816
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-18T16:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -300,
+        "Y": -1493
+      },
+      "Acronyms": [
+        "DAN",
+        "MEOW"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 56,
+      "Team1Acronym": "NEG",
+      "Team1Score": null,
+      "Team2Acronym": "SCU",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -300,
+        "Y": 976
+      },
+      "Acronyms": [
+        "NEG",
+        "SCU"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 62,
+      "Team1Acronym": "KYS",
+      "Team1Score": null,
+      "Team2Acronym": "SKI",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3096572
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3253606
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3049607
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2670869
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2725845
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2017595
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3205100
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2578661
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1453869
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3253613
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -297,
+        "Y": 1188
+      },
+      "Acronyms": [
+        "KYS",
+        "SKI"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 59,
+      "Team1Acronym": "CREMA",
+      "Team1Score": null,
+      "Team2Acronym": "OLI",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -298,
+        "Y": 1082
+      },
+      "Acronyms": [
+        "CREMA",
+        "OLI"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 34,
+      "Team1Acronym": "XID",
+      "Team1Score": null,
+      "Team2Acronym": "MIG",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1506912
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2797254
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3266596
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2998904
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3266592
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3228532
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3266608
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3239350
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3106294
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3049438
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3117956
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 108267
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3220743
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 7,
+        "Y": 380
+      },
+      "Acronyms": [
+        "XID",
+        "MIG"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 39,
+      "Team1Acronym": "IMP",
+      "Team1Score": null,
+      "Team2Acronym": "MIN",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 7,
+        "Y": 489
+      },
+      "Acronyms": [
+        "IMP",
+        "MIN"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 43,
+      "Team1Acronym": "ELK",
+      "Team1Score": null,
+      "Team2Acronym": "KON",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 6,
+        "Y": 596
+      },
+      "Acronyms": [
+        "ELK",
+        "KON"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 47,
+      "Team1Acronym": "YUM",
+      "Team1Score": null,
+      "Team2Acronym": "SYN",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 6,
+        "Y": 709
+      },
+      "Acronyms": [
+        "YUM",
+        "SYN"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 51,
+      "Team1Acronym": "LOR",
+      "Team1Score": null,
+      "Team2Acronym": "ZSI",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3228532
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3049438
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3056724
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3266596
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3239350
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3266608
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1506912
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3108100
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 50658
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2797254
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2998904
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3106294
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3117956
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3220743
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 8,
+        "Y": 818
+      },
+      "Acronyms": [
+        "LOR",
+        "ZSI"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 55,
+      "Team1Acronym": "SHP",
+      "Team1Score": null,
+      "Team2Acronym": "SCU",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 7,
+        "Y": 925
+      },
+      "Acronyms": [
+        "SHP",
+        "SCU"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 58,
+      "Team1Acronym": "BIN",
+      "Team1Score": null,
+      "Team2Acronym": "OLI",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 108267
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3049438
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3239350
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 50658
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 11,
+        "Y": 1039
+      },
+      "Acronyms": [
+        "BIN",
+        "OLI"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 61,
+      "Team1Acronym": "2 A",
+      "Team1Score": null,
+      "Team2Acronym": "XX_",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 858558
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3108100
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3049438
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3239350
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3056724
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3117956
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3266608
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2797254
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3266596
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1506912
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2998904
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 11,
+        "Y": 1148
+      },
+      "Acronyms": [
+        "2 A",
+        "XX_"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 45,
+      "Team1Acronym": "ELK",
+      "Team1Score": null,
+      "Team2Acronym": "YUM",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3117956
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3049438
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 858558
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2998904
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3266596
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3108100
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3056724
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3239350
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 108267
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3266608
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3106294
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1506912
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 288,
+        "Y": 648
+      },
+      "Acronyms": [
+        "ELK",
+        "YUM"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 36,
+      "Team1Acronym": "XID",
+      "Team1Score": null,
+      "Team2Acronym": "MIN",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 291,
+        "Y": 431
+      },
+      "Acronyms": [
+        "XID",
+        "MIN"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 52,
+      "Team1Acronym": "LOR",
+      "Team1Score": null,
+      "Team2Acronym": "SCU",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 290,
+        "Y": 866
+      },
+      "Acronyms": [
+        "LOR",
+        "SCU"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 60,
+      "Team1Acronym": "OLI",
+      "Team1Score": null,
+      "Team2Acronym": "XX_",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 287,
+        "Y": 1092
+      },
+      "Acronyms": [
+        "OLI",
+        "XX_"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 33,
+      "Team1Acronym": "KAG",
+      "Team1Score": null,
+      "Team2Acronym": "XID",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3154786
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2915013
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3094637
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2232119
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3143524
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2904852
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3277416
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3202627
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3277406
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2608457
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3277411
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2449997
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2731307
+        }
+      ],
+      "Current": false,
+      "Date": "2024-09-06T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 569,
+        "Y": 375
+      },
+      "Acronyms": [
+        "KAG",
+        "XID"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 42,
+      "Team1Acronym": "NAT",
+      "Team1Score": null,
+      "Team2Acronym": "ELK",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3143524
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3277406
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3202627
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2915013
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3094637
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3277416
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3277411
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2798816
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3154786
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2731307
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2670491
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2232119
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2449997
+        }
+      ],
+      "Current": false,
+      "Date": "2024-09-06T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 568,
+        "Y": 595
+      },
+      "Acronyms": [
+        "NAT",
+        "ELK"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 49,
+      "Team1Acronym": "MIO",
+      "Team1Score": null,
+      "Team2Acronym": "LOR",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2670491
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3277411
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2728312
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3154786
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3143524
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3277416
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2798816
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2232119
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2904852
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2449997
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3202627
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3094637
+        }
+      ],
+      "Current": false,
+      "Date": "2024-09-06T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 572,
+        "Y": 802
+      },
+      "Acronyms": [
+        "MIO",
+        "LOR"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 57,
+      "Team1Acronym": "-GR",
+      "Team1Score": null,
+      "Team2Acronym": "XX_",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2915013
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3202627
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2232119
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3277406
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2728312
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3094637
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3143524
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3277411
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2904852
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3154786
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2798816
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2670491
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3128039
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3277416
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2968949
+        }
+      ],
+      "Current": false,
+      "Date": "2024-09-06T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 572,
+        "Y": 1021
+      },
+      "Acronyms": [
+        "-GR",
+        "XX_"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 38,
+      "Team1Acronym": "KAG",
+      "Team1Score": null,
+      "Team2Acronym": "ELK",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2232119
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2728312
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2915013
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3128039
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2731307
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2904852
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3094637
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3277411
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2798816
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3277416
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2608457
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3277406
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2670491
+        }
+      ],
+      "Current": false,
+      "Date": "2024-09-06T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 852,
+        "Y": 477
+      },
+      "Acronyms": [
+        "KAG",
+        "ELK"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 54,
+      "Team1Acronym": "MIO",
+      "Team1Score": null,
+      "Team2Acronym": "XX_",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-09-06T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 855,
+        "Y": 909
+      },
+      "Acronyms": [
+        "MIO",
+        "XX_"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 35,
+      "Team1Acronym": "XYL",
+      "Team1Score": null,
+      "Team2Acronym": "KAG",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-09-13T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1131,
+        "Y": 382
+      },
+      "Acronyms": [
+        "XYL",
+        "KAG"
+      ],
+      "PointsToWin": 7
+    },
+    {
+      "ID": 50,
+      "Team1Acronym": "LIL",
+      "Team1Score": null,
+      "Team2Acronym": "MIO",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-09-13T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1131,
+        "Y": 811
+      },
+      "Acronyms": [
+        "LIL",
+        "MIO"
+      ],
+      "PointsToWin": 7
+    },
+    {
+      "ID": 44,
+      "Team1Score": null,
+      "Team2Acronym": "MIO",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-09-13T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1442,
+        "Y": 604
+      },
+      "Acronyms": [
+        "MIO"
+      ],
+      "PointsToWin": 7
+    },
+    {
+      "ID": 40,
+      "Team1Acronym": "ZON",
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": true,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-09-20T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1759,
+        "Y": 522
+      },
+      "Acronyms": [
+        "ZON"
+      ],
+      "PointsToWin": 7
+    },
+    {
+      "ID": 2,
+      "Team1Acronym": "DAN",
+      "Team1Score": null,
+      "Team2Acronym": "MAN",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2578661
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3205100
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3096572
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3253601
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3253613
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3253606
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2725845
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2017595
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 13,
+        "Y": -1447
+      },
+      "Acronyms": [
+        "DAN",
+        "MAN"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 6,
+      "Team1Acronym": "RAM",
+      "Team1Score": null,
+      "Team2Acronym": "BIN",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3253613
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2670869
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3049607
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1453869
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2742186
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3253608
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3096572
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3205100
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2578661
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2017595
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 13,
+        "Y": -1249
+      },
+      "Acronyms": [
+        "RAM",
+        "BIN"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 10,
+      "Team1Acronym": "DREAM",
+      "Team1Score": null,
+      "Team2Acronym": "OOM",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 1453869
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2725845
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3049607
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3096572
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2742186
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3253601
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2670869
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2017595
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3253613
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 8,
+        "Y": -1033
+      },
+      "Acronyms": [
+        "DREAM",
+        "OOM"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 14,
+      "Team1Acronym": "FREAK",
+      "Team1Score": null,
+      "Team2Acronym": "FREE",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2670869
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3205100
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2578661
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3253613
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2725845
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3253601
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2742186
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3253606
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 8,
+        "Y": -827
+      },
+      "Acronyms": [
+        "FREAK",
+        "FREE"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 19,
+      "Team1Acronym": "CRY",
+      "Team1Score": null,
+      "Team2Acronym": "YUM",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 1453869
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2742186
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3096572
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2725845
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2670869
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3253608
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3253613
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2578661
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3205100
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 2,
+        "Y": -606
+      },
+      "Acronyms": [
+        "CRY",
+        "YUM"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 23,
+      "Team1Acronym": "MON",
+      "Team1Score": null,
+      "Team2Acronym": "-GR",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2670869
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3253606
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3096572
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2742186
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3049607
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2017595
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1453869
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2578661
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 2,
+        "Y": -389
+      },
+      "Acronyms": [
+        "MON",
+        "-GR"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 27,
+      "Team1Acronym": "MIO",
+      "Team1Score": null,
+      "Team2Acronym": "5ST",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2742186
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2670869
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3096572
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2122926
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3049607
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2578661
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3205100
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3253608
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1453869
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 2,
+        "Y": -170
+      },
+      "Acronyms": [
+        "MIO",
+        "5ST"
+      ],
+      "PointsToWin": 5
+    },
+    {
+      "ID": 31,
+      "Team1Acronym": "BABA",
+      "Team1Score": null,
+      "Team2Acronym": "OD",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2670869
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3253606
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3096572
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3253608
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2725845
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2742186
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2578661
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2122926
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2017595
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-23T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 2,
+        "Y": 35
+      },
+      "Acronyms": [
+        "BABA",
+        "OD"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 4,
+      "Team1Acronym": "",
+      "Team1Score": null,
+      "Team2Acronym": "NAT",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3056724
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3266608
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3106294
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3049438
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3239350
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 858558
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2998904
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3220743
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3228532
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3117956
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 537,
+        "Y": -1357
+      },
+      "Acronyms": [
+        "",
+        "NAT"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 12,
+      "Team1Acronym": "KAG",
+      "Team1Score": null,
+      "Team2Acronym": "LIL",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 537,
+        "Y": -934
+      },
+      "Acronyms": [
+        "KAG",
+        "LIL"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 21,
+      "Team1Acronym": "ZON",
+      "Team1Score": null,
+      "Team2Acronym": "-GR",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 554,
+        "Y": -503
+      },
+      "Acronyms": [
+        "ZON",
+        "-GR"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 29,
+      "Team1Acronym": "MIO",
+      "Team1Score": null,
+      "Team2Acronym": "XYL",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3108100
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3228532
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3239350
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1506912
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3117956
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 858558
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 108267
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 50658
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3266592
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2998904
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3106294
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3266596
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3220743
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3056724
+        }
+      ],
+      "Current": false,
+      "Date": "2024-08-30T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 553,
+        "Y": -72
+      },
+      "Acronyms": [
+        "MIO",
+        "XYL"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 8,
+      "Team1Score": null,
+      "Team2Acronym": "LIL",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2915013
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3143524
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2728312
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2608457
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3277411
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3154786
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2731307
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2449997
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3128039
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2232119
+        }
+      ],
+      "Current": false,
+      "Date": "2024-09-06T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1024,
+        "Y": -1161
+      },
+      "Acronyms": [
+        "LIL"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 25,
+      "Team1Acronym": "ZON",
+      "Team1Score": null,
+      "Team2Acronym": "XYL",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2915013
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3277411
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2232119
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3143524
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2904852
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3277406
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3277416
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3094637
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2798816
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2449997
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2731307
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3202627
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3128039
+        }
+      ],
+      "Current": false,
+      "Date": "2024-09-06T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1024,
+        "Y": -287
+      },
+      "Acronyms": [
+        "ZON",
+        "XYL"
+      ],
+      "PointsToWin": 6
+    },
+    {
+      "ID": 16,
+      "Team1Acronym": "RAM",
+      "Team1Score": null,
+      "Team2Acronym": "ZON",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2957016
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2026805
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2922816
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 45433
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2624008
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3191336
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2708972
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1567481
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3142115
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3068699
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1009021
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3200833
+        }
+      ],
+      "Current": false,
+      "Date": "2024-09-13T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1443,
+        "Y": -722
+      },
+      "Acronyms": [
+        "RAM",
+        "ZON"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 7
+    },
+    {
+      "ID": 17,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-09-20T01:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 2108,
+        "Y": -722
+      },
+      "Acronyms": [],
+      "PointsToWin": 7
+    },
+    {
+      "ID": 26,
+      "Team1Acronym": "BALL",
+      "Team1Score": null,
+      "Team2Acronym": "URU",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2024-08-19T03:00:00+01:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -311,
+        "Y": -223
+      },
+      "Acronyms": [
+        "BALL",
+        "URU"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    }
+  ],
+  "Rounds": [
+    {
+      "Name": "Round of 32",
+      "Description": null,
+      "BestOf": 9,
+      "BanCount": 1,
+      "Beatmaps": [
+        {
+          "ID": 3920454,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3920454,
+            "DifficultyName": "illusion",
+            "BPM": 200.0,
+            "Length": 215000.0,
+            "StarRating": 6.62,
+            "EndTimeObjectCount": 301,
+            "TotalObjectCount": 904,
+            "Metadata": {
+              "Title": "Happy Enforcer",
+              "title_unicode": "ハッピーエンフォーサー",
+              "Artist": "Feryquitous feat. Itsuki Natsume",
+              "artist_unicode": "Feryquitous feat. 棗いつき",
+              "Author": {
+                "OnlineID": 5312202,
+                "Username": "bongo",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "gst:live2022 great singapore tournament live 2022 gstlive custom map tourney aef asia esports festival online kallang wave mall exp esports experience center gstlive2022b1 japanese pop jpop",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.5,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1901658/covers/cover@2x.jpg?1673220637",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1901658/covers/card@2x.jpg?1673220637",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1901658/covers/list@2x.jpg?1673220637"
+            }
+          }
+        },
+        {
+          "ID": 4187144,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4187144,
+            "DifficultyName": "Arctic Allegro",
+            "BPM": 200.0,
+            "Length": 145000.0,
+            "StarRating": 6.69,
+            "EndTimeObjectCount": 246,
+            "TotalObjectCount": 1110,
+            "Metadata": {
+              "Title": "Nyarlathotep's Dreamland",
+              "title_unicode": "Nyarlathotep's Dreamland",
+              "Artist": "Raimukun",
+              "artist_unicode": "Raimukun",
+              "Author": {
+                "OnlineID": 10840806,
+                "Username": "Seamob",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "dachcup2 dach cup 2 nm2 streams gf",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.5,
+              "CircleSize": 3.5,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2012214/covers/cover@2x.jpg?1699016446",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2012214/covers/card@2x.jpg?1699016446",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2012214/covers/list@2x.jpg?1699016446"
+            }
+          }
+        },
+        {
+          "ID": 1955676,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 1955676,
+            "DifficultyName": "Encounter",
+            "BPM": 160.0,
+            "Length": 148000.0,
+            "StarRating": 6.42,
+            "EndTimeObjectCount": 293,
+            "TotalObjectCount": 750,
+            "Metadata": {
+              "Title": "conflict",
+              "title_unicode": "conflict",
+              "Artist": "siromaru + cranky",
+              "artist_unicode": "siromaru + cranky",
+              "Author": {
+                "OnlineID": 5410645,
+                "Username": "Icekalt",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "ataraxia mappers guild mpg electronic pico video game sound voltex iii gravity wars bms arcaea",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 3.8,
+              "OverallDifficulty": 8.6,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/936126/covers/cover@2x.jpg?1647504732",
+              "card@2x": "https://assets.ppy.sh/beatmaps/936126/covers/card@2x.jpg?1647504732",
+              "list@2x": "https://assets.ppy.sh/beatmaps/936126/covers/list@2x.jpg?1647504732"
+            }
+          }
+        },
+        {
+          "ID": 2836380,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 2836380,
+            "DifficultyName": "Down's Extra",
+            "BPM": 170.0,
+            "Length": 168000.0,
+            "StarRating": 5.98,
+            "EndTimeObjectCount": 138,
+            "TotalObjectCount": 1179,
+            "Metadata": {
+              "Title": "d e a t h p i a n o ~for four pianos~",
+              "title_unicode": "d e a t h p i a n o ～for four pianos～",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 1997633,
+                "Username": "Riana",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "deathpiano death piano for pianos crazy quartet instrumental classical down",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.8,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/950606/covers/cover@2x.jpg?1650707161",
+              "card@2x": "https://assets.ppy.sh/beatmaps/950606/covers/card@2x.jpg?1650707161",
+              "list@2x": "https://assets.ppy.sh/beatmaps/950606/covers/list@2x.jpg?1650707161"
+            }
+          }
+        },
+        {
+          "ID": 2275111,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 2275111,
+            "DifficultyName": "X",
+            "BPM": 240.0,
+            "Length": 194000.0,
+            "StarRating": 6.48,
+            "EndTimeObjectCount": 409,
+            "TotalObjectCount": 938,
+            "Metadata": {
+              "Title": "Shippaisaku Shoujo",
+              "title_unicode": "失敗作少女",
+              "Artist": "Kairiki bear feat. Hatsune Miku",
+              "artist_unicode": "かいりきベア feat. 初音ミク",
+              "Author": {
+                "OnlineID": 1047883,
+                "Username": "RLC",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "electrostatic girl imitation gallery seidenki shoujo inai reboot japanese rock jrock j-rock vocaloid failure girl セイデンキ少女 maretu sing xlni captin captin1 momoyo erisu kowari",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1088005/covers/cover@2x.jpg?1719248420",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1088005/covers/card@2x.jpg?1719248420",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1088005/covers/list@2x.jpg?1719248420"
+            }
+          }
+        },
+        {
+          "ID": 1387233,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 1387233,
+            "DifficultyName": "Extra",
+            "BPM": 132.0,
+            "Length": 196000.0,
+            "StarRating": 6.09,
+            "EndTimeObjectCount": 433,
+            "TotalObjectCount": 1020,
+            "Metadata": {
+              "Title": "anoko dokonoko",
+              "title_unicode": "あのこどこのこ",
+              "Artist": "Nanahoshi Kangengakudan",
+              "artist_unicode": "ナナホシ管弦楽団",
+              "Author": {
+                "OnlineID": 365586,
+                "Username": "kwk",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fujuniseikouyuup hujuniseikouyuup 不純異性交遊p vocaloid megpoid gumi rizen iwami takashi 岩見陸 where's that girl from",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 3.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/654452/covers/cover@2x.jpg?1650656100",
+              "card@2x": "https://assets.ppy.sh/beatmaps/654452/covers/card@2x.jpg?1650656100",
+              "list@2x": "https://assets.ppy.sh/beatmaps/654452/covers/list@2x.jpg?1650656100"
+            }
+          }
+        },
+        {
+          "ID": 4438538,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4438538,
+            "DifficultyName": ".Transcendence (Drop)",
+            "BPM": 180.0,
+            "Length": 227000.0,
+            "StarRating": 5.73,
+            "EndTimeObjectCount": 617,
+            "TotalObjectCount": 1067,
+            "Metadata": {
+              "Title": "Synthesis.",
+              "title_unicode": "Synthesis.",
+              "Artist": "tn-shi",
+              "artist_unicode": "tn-shi",
+              "Author": {
+                "OnlineID": 15664628,
+                "Username": "Aerousea",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "techcore futurecore jazz dnb drumandbass colorbass hardcore j-core core electronic instrumental tech drop [drop] [_drop_] lancien sanayui notyourkitty cocoyu arushii09 ricess arutama blacky design",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2088830/covers/cover@2x.jpg?1723659834",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2088830/covers/card@2x.jpg?1723659834",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2088830/covers/list@2x.jpg?1723659834"
+            }
+          }
+        },
+        {
+          "ID": 2715187,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 2715187,
+            "DifficultyName": "Dance",
+            "BPM": 174.0,
+            "Length": 148000.0,
+            "StarRating": 4.72,
+            "EndTimeObjectCount": 82,
+            "TotalObjectCount": 407,
+            "Metadata": {
+              "Title": "Woodfairies",
+              "title_unicode": "Woodfairies",
+              "Artist": "Aethoro",
+              "artist_unicode": "Aethoro",
+              "Author": {
+                "OnlineID": 10132936,
+                "Username": "verychill",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "instrumental electronic ambient chill orchestral spiritdance piano keysound knightc0re knightcore",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 5.8,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 8.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1309729/covers/cover@2x.jpg?1650704413",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1309729/covers/card@2x.jpg?1650704413",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1309729/covers/list@2x.jpg?1650704413"
+            }
+          }
+        },
+        {
+          "ID": 3281723,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3281723,
+            "DifficultyName": "M i X & Jiysea's Collab Insane",
+            "BPM": 120.0,
+            "Length": 137000.0,
+            "StarRating": 4.35,
+            "EndTimeObjectCount": 263,
+            "TotalObjectCount": 484,
+            "Metadata": {
+              "Title": "HULA HOOP (ZSunder Future Funk Mix)",
+              "title_unicode": "HULA HOOP (ZSunder Future Funk Mix)",
+              "Artist": "LOONA",
+              "artist_unicode": "今月の少女",
+              "Author": {
+                "OnlineID": 7354700,
+                "Username": "Jiysea",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "japanese english electronic dance music edm korean pop kpop k-pop loonaverse looΠΔ 이달의 소녀 kongetsu no shōjo shojo shoujo m_i_x",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1605101/covers/cover@2x.jpg?1638866968",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1605101/covers/card@2x.jpg?1638866968",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1605101/covers/list@2x.jpg?1638866968"
+            }
+          }
+        },
+        {
+          "ID": 3993328,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3993328,
+            "DifficultyName": "Insane",
+            "BPM": 173.0,
+            "Length": 241000.0,
+            "StarRating": 4.71,
+            "EndTimeObjectCount": 386,
+            "TotalObjectCount": 910,
+            "Metadata": {
+              "Title": "Phantom Divine (Shadow Empire)",
+              "title_unicode": "Phantom Divine (Shadow Empire)",
+              "Artist": "KAMELOT",
+              "artist_unicode": "KAMELOT",
+              "Author": {
+                "OnlineID": 7289538,
+                "Username": "Suki",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "the shadow theory symphonic power metal nm2 dt2",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 3.6,
+              "OverallDifficulty": 7.9,
+              "ApproachRate": 8.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1127582/covers/cover@2x.jpg?1716926421",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1127582/covers/card@2x.jpg?1716926421",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1127582/covers/list@2x.jpg?1716926421"
+            }
+          }
+        },
+        {
+          "ID": 3180732,
+          "Mods": "FM",
+          "BeatmapInfo": {
+            "OnlineID": 3180732,
+            "DifficultyName": "ExtrA",
+            "BPM": 160.0,
+            "Length": 122000.0,
+            "StarRating": 5.49,
+            "EndTimeObjectCount": 260,
+            "TotalObjectCount": 501,
+            "Metadata": {
+              "Title": "Usouso Doki",
+              "title_unicode": "うそうそ時",
+              "Artist": "Inoue Bona",
+              "artist_unicode": "井上ぼな",
+              "Author": {
+                "OnlineID": 3062998,
+                "Username": "rollpan",
+                "CountryString": "Unknown"
+              },
+              "Source": "太鼓の達人 モモイロVer.",
+              "tags": "taiko no tatsujin momoiro shirasaka koume",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1557007/covers/cover@2x.jpg?1632061859",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1557007/covers/card@2x.jpg?1632061859",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1557007/covers/list@2x.jpg?1632061859"
+            }
+          }
+        },
+        {
+          "ID": 1651264,
+          "Mods": "EZ",
+          "BeatmapInfo": {
+            "OnlineID": 1651264,
+            "DifficultyName": "Confession",
+            "BPM": 165.0,
+            "Length": 234000.0,
+            "StarRating": 5.84,
+            "EndTimeObjectCount": 280,
+            "TotalObjectCount": 914,
+            "Metadata": {
+              "Title": "Nostalgic Rainfall",
+              "title_unicode": "ノスタルジックレインフォール",
+              "Artist": "CHiCO with HoneyWorks",
+              "artist_unicode": "CHiCO with HoneyWorks",
+              "Author": {
+                "OnlineID": 2202163,
+                "Username": "-Mo-",
+                "CountryString": "Unknown"
+              },
+              "Source": "恋は雨上がりのように",
+              "tags": "koi wa ameagari no you ni love is like after the rain opening 私を染めるiの歌 watashiwo someru i uta",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/786665/covers/cover@2x.jpg?1622140550",
+              "card@2x": "https://assets.ppy.sh/beatmaps/786665/covers/card@2x.jpg?1622140550",
+              "list@2x": "https://assets.ppy.sh/beatmaps/786665/covers/list@2x.jpg?1622140550"
+            }
+          }
+        },
+        {
+          "ID": 427962,
+          "Mods": "EZDT",
+          "BeatmapInfo": {
+            "OnlineID": 427962,
+            "DifficultyName": "Collab Insane",
+            "BPM": 146.0,
+            "Length": 260000.0,
+            "StarRating": 4.26,
+            "EndTimeObjectCount": 480,
+            "TotalObjectCount": 854,
+            "Metadata": {
+              "Title": "boys, be \"stand up\"!!",
+              "title_unicode": "boys, be \"stand up\"!!",
+              "Artist": "akari",
+              "artist_unicode": "akari",
+              "Author": {
+                "OnlineID": 416662,
+                "Username": "Hollow Wings",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "春河あかり harukawa chloe fycho minakami yuki mtbbsben sharlo tsukuyomi softhouse-seal grandee galgame eroge hentai visual novel adult baldrace",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 6.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/177585/covers/cover@2x.jpg?1622074360",
+              "card@2x": "https://assets.ppy.sh/beatmaps/177585/covers/card@2x.jpg?1622074360",
+              "list@2x": "https://assets.ppy.sh/beatmaps/177585/covers/list@2x.jpg?1622074360"
+            }
+          }
+        },
+        {
+          "ID": 2899384,
+          "Mods": "HRDT",
+          "BeatmapInfo": {
+            "OnlineID": 2899384,
+            "DifficultyName": "Hard",
+            "BPM": 190.0,
+            "Length": 126000.0,
+            "StarRating": 2.96,
+            "EndTimeObjectCount": 182,
+            "TotalObjectCount": 299,
+            "Metadata": {
+              "Title": "enchanted love",
+              "title_unicode": "enchanted love",
+              "Artist": "linear ring",
+              "artist_unicode": "linear ring",
+              "Author": {
+                "OnlineID": 3045895,
+                "Username": "[Hatsune Miku]",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "captin1 necho gary00737 arcaea 百舌谷 mozuya bofxvi rhythm game future hop emotional future bass the bms of fighters xvi -neo dystopia- sixteen 16 electronic instrumental glitch hop",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 3.5,
+              "OverallDifficulty": 5.0,
+              "ApproachRate": 7.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1403832/covers/cover@2x.jpg?1635932582",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1403832/covers/card@2x.jpg?1635932582",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1403832/covers/list@2x.jpg?1635932582"
+            }
+          }
+        },
+        {
+          "ID": 2998515,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 2998515,
+            "DifficultyName": "Enter The Funk Zone",
+            "BPM": 147.0,
+            "Length": 447000.0,
+            "StarRating": 6.63,
+            "EndTimeObjectCount": 934,
+            "TotalObjectCount": 2329,
+            "Metadata": {
+              "Title": "Shrill Tones",
+              "title_unicode": "Shrill Tones",
+              "Artist": "Ghost-Note",
+              "artist_unicode": "Ghost-Note",
+              "Author": {
+                "OnlineID": 7081160,
+                "Username": "over_loadcode",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "swagism ghost note jazz instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.1,
+              "OverallDifficulty": 8.8,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1459218/covers/cover@2x.jpg?1626301786",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1459218/covers/card@2x.jpg?1626301786",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1459218/covers/list@2x.jpg?1626301786"
+            }
+          }
+        }
+      ],
+      "StartDate": "2024-08-17T01:00:00+01:00",
+      "Matches": [
+        28,
+        30,
+        32,
+        24,
+        22,
+        20,
+        18,
+        15,
+        13,
+        11,
+        9,
+        7,
+        5,
+        3,
+        1,
+        26
+      ]
+    },
+    {
+      "Name": "Round of 16",
+      "Description": null,
+      "BestOf": 9,
+      "BanCount": 1,
+      "Beatmaps": [],
+      "StartDate": "2024-08-23T01:00:00+01:00",
+      "Matches": [
+        37,
+        41,
+        46,
+        48,
+        53,
+        56,
+        62,
+        59,
+        2,
+        6,
+        10,
+        14,
+        19,
+        23,
+        27,
+        31
+      ]
+    },
+    {
+      "Name": "Quarterfinals",
+      "Description": null,
+      "BestOf": 11,
+      "BanCount": 2,
+      "Beatmaps": [],
+      "StartDate": "2024-08-30T01:00:00+01:00",
+      "Matches": [
+        34,
+        39,
+        43,
+        47,
+        51,
+        55,
+        58,
+        61,
+        45,
+        36,
+        52,
+        60,
+        4,
+        12,
+        21,
+        29
+      ]
+    },
+    {
+      "Name": "Semifinals",
+      "Description": null,
+      "BestOf": 11,
+      "BanCount": 2,
+      "Beatmaps": [],
+      "StartDate": "2024-09-06T01:00:00+01:00",
+      "Matches": [
+        33,
+        42,
+        49,
+        57,
+        38,
+        54,
+        8,
+        25
+      ]
+    },
+    {
+      "Name": "Finals",
+      "Description": null,
+      "BestOf": 13,
+      "BanCount": 2,
+      "Beatmaps": [],
+      "StartDate": "2024-09-13T01:00:00+01:00",
+      "Matches": [
+        35,
+        50,
+        44,
+        16
+      ]
+    },
+    {
+      "Name": "Grand Finals",
+      "Description": null,
+      "BestOf": 13,
+      "BanCount": 2,
+      "Beatmaps": [],
+      "StartDate": "2024-09-20T01:00:00+01:00",
+      "Matches": [
+        40,
+        17
+      ]
+    }
+  ],
+  "Teams": [
+    {
+      "FullName": "Danza kuduro",
+      "FlagName": "1",
+      "Acronym": "DAN",
+      "SeedingResults": [],
+      "Seed": "1",
+      "LastYearPlacing": 0,
+      "AverageRank": 1611.0,
+      "Players": [
+        {
+          "id": 11415230,
+          "Username": "Gambler",
+          "country_code": "KR",
+          "Rank": 5348,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/7/4a0ccb7b7fdd5c4238b11f0e7c686760fe2c99c6472b19400e82d1a8ff503e31.jpeg"
+        },
+        {
+          "id": 11399348,
+          "Username": "fragranceofpage",
+          "country_code": "KR",
+          "Rank": 281,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11399348/805568b8221a612f7bad893546e4d76a5261a7b2e2c638e6576037e109e276a2.png"
+        },
+        {
+          "id": 11226645,
+          "Username": "JackPaX",
+          "country_code": "GR",
+          "Rank": 540,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11226645/e6f1fbac4cb31d7fb2a5242be9f3cdbee89636103f92531eea72746170f92cf0.jpeg"
+        },
+        {
+          "id": 4734703,
+          "Username": "NathanRam1918",
+          "country_code": "PH",
+          "Rank": 275,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4734703/fd9665f2e93adcca7132bc18a418b7ec0d28baa06cc04884ad66ef9c6c0e398f.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "crying right now",
+      "FlagName": "2",
+      "Acronym": "CRY",
+      "SeedingResults": [],
+      "Seed": "2",
+      "LastYearPlacing": 0,
+      "AverageRank": 1072.75,
+      "Players": [
+        {
+          "id": 18131614,
+          "Username": "polski1",
+          "country_code": "GB",
+          "Rank": 237,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/18131614/babceb9c908e93814df6a40b33187b94a8026a635fd06328ef28356e002dd0b9.png"
+        },
+        {
+          "id": 16774872,
+          "Username": "skiatzo",
+          "country_code": "GB",
+          "Rank": 1087,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/16774872/48742dc9b84a3b99a5bdd61899d71fcf4c73ce29c5a94eb35fad210fc33e8377.png"
+        },
+        {
+          "id": 13228917,
+          "Username": "oslash",
+          "country_code": "AU",
+          "Rank": 2242,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13228917/bf65cb36de5397e9d5e1e6f35c18f77505c5dc39c303512acf05efc938930d02.png"
+        },
+        {
+          "id": 10069909,
+          "Username": "DEETO",
+          "country_code": "ID",
+          "Rank": 725,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10069909/3b3807d68577ac22c0ed184ea57ce94f9c4be90b1ba72a5eddc4ecb5bade1d23.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "ballers will ball",
+      "FlagName": "3",
+      "Acronym": "BALL",
+      "SeedingResults": [],
+      "Seed": "3",
+      "LastYearPlacing": 0,
+      "AverageRank": 401.75,
+      "Players": [
+        {
+          "id": 8581210,
+          "Username": "soccersilly03",
+          "country_code": "US",
+          "Rank": 170,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8581210/a829ef6ce89886d3db04a3f3ddef0fb6c3906135b88d30301881e5bbe987971e.jpeg"
+        },
+        {
+          "id": 19998548,
+          "Username": "suntanCTM",
+          "country_code": "CL",
+          "Rank": 427,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/19998548/ffb337b05a4b7c6b3e7c8d7bd5648259e22237aa84fe381db73be2819a2efcf6.jpeg"
+        },
+        {
+          "id": 3792472,
+          "Username": "Woey",
+          "country_code": "US",
+          "Rank": 610,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3792472/d96978de078aa75652692d50e99d6dc208a9e7a0ccd188b1c4f2905f13aa1ba8.png"
+        },
+        {
+          "id": 18092331,
+          "Username": "Lesperry",
+          "country_code": "TH",
+          "Rank": 400,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/18092331/18f7714143747bc0fc928090cb8bcc3f45efbd4d04d92cc1d391ae6baf24762d.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "The Dreaming",
+      "FlagName": "4",
+      "Acronym": "DREAM",
+      "SeedingResults": [],
+      "Seed": "4",
+      "LastYearPlacing": 0,
+      "AverageRank": 821.25,
+      "Players": [
+        {
+          "id": 7333471,
+          "Username": "HAUNTE",
+          "country_code": "GB",
+          "Rank": 724,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/1/df28696b58541a9e67f6755918951d542d93bdf1da41720fcca2fd2c1ea8cf51.jpeg"
+        },
+        {
+          "id": 11042418,
+          "Username": "lystia",
+          "country_code": "GB",
+          "Rank": 795,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/1/df28696b58541a9e67f6755918951d542d93bdf1da41720fcca2fd2c1ea8cf51.jpeg"
+        },
+        {
+          "id": 12169267,
+          "Username": "315",
+          "country_code": "US",
+          "Rank": 483,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12169267/5490cc4a36af34ed2e795534c23b4b055ee6c12abdfe6e4f418d76e97bae9ad3.jpeg"
+        },
+        {
+          "id": 20501126,
+          "Username": "6Nusu9",
+          "country_code": "CL",
+          "Rank": 1283,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/20501126/8d860c8c417e0c3ac999eb0f10f2568f84662f09dd6adb699072436269b230b2.png"
+        }
+      ]
+    },
+    {
+      "FullName": "Freakcert",
+      "FlagName": "5",
+      "Acronym": "FREAK",
+      "SeedingResults": [],
+      "Seed": "5",
+      "LastYearPlacing": 0,
+      "AverageRank": 2691.75,
+      "Players": [
+        {
+          "id": 18781432,
+          "Username": "EPEMA",
+          "country_code": "UA",
+          "Rank": 4231,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/18781432/f15e356317031f451e689003bde8da7bfd22bbff7eaf8ad3fc21a3fbf55c48b1.jpeg"
+        },
+        {
+          "id": 7101953,
+          "Username": "MAKCOH",
+          "country_code": "RU",
+          "Rank": 901,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/17/80f82e4c2b27d8d6eed3ce89708ec27343e5ac63389cba6b5fb4550776562d08.jpeg"
+        },
+        {
+          "id": 6671641,
+          "Username": "Ophiz",
+          "country_code": "IE",
+          "Rank": 1522,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6671641/fafb4468faca0dc471031df01a2f2d347f99bbb3a3e86fe4af38b9c940207594.jpeg"
+        },
+        {
+          "id": 12522447,
+          "Username": "Mejir0 McQueen",
+          "country_code": "US",
+          "Rank": 4113,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12522447/ac1f0fcd836809b85779301b88e959979d6e176b4cea75f186ae9e054dbd0d1c.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Bababooey",
+      "FlagName": "6",
+      "Acronym": "BABA",
+      "SeedingResults": [],
+      "Seed": "6",
+      "LastYearPlacing": 0,
+      "AverageRank": 680.0,
+      "Players": [
+        {
+          "id": 13872272,
+          "Username": "Sobu-",
+          "country_code": "DK",
+          "Rank": 467,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13872272/0d07a65ae2987e6373bad3018d2feac3b0df5ce314b2ca9c38260c192ada82f2.gif"
+        },
+        {
+          "id": 6735738,
+          "Username": "GATmoneyTJ1994",
+          "country_code": "ES",
+          "Rank": 497,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6735738/2128421dfe908d6bcaf79e22b6fbfc1ee99c7c8ca721e2d0459662a01f2b22da.jpeg"
+        },
+        {
+          "id": 12760743,
+          "Username": "A N T O N I O",
+          "country_code": "ES",
+          "Rank": 966,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12760743/421ac354ac009f14a395e519f7b040f720b9e2261635e7487afb856d9f9f0297.jpeg"
+        },
+        {
+          "id": 11376152,
+          "Username": "HandsomeMe",
+          "country_code": "RU",
+          "Rank": 790,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11376152/0ac9bc4630bdf072c4eb5a267f16e2301e96bd02bea18a6c14cf0d32d3ea41fe.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Mondayleftmebroken",
+      "FlagName": "7",
+      "Acronym": "MON",
+      "SeedingResults": [],
+      "Seed": "7",
+      "LastYearPlacing": 0,
+      "AverageRank": 3662.0,
+      "Players": [
+        {
+          "id": 10759664,
+          "Username": "xtremeities",
+          "country_code": "AU",
+          "Rank": 4617,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/8/eda177e3c4eb0889e24f58c454af47708b0acd612bff984f6ac295e8427681c5.jpeg"
+        },
+        {
+          "id": 4673649,
+          "Username": "-Schwarts",
+          "country_code": "US",
+          "Rank": 3383,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4673649/d4422eb1a1a7dc07bf90d0fe04a0463316a34901aace8d661842f752680259d2.jpeg"
+        },
+        {
+          "id": 14919428,
+          "Username": "Ohio",
+          "country_code": "NL",
+          "Rank": 727,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14919428/c1c08936c1e148776730216ad0394019194684839d1287f5faae033aaa30cfb2.png"
+        },
+        {
+          "id": 8150535,
+          "Username": "Fejlan",
+          "country_code": "SE",
+          "Rank": 5921,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8150535/0182de14c7d3f109efd38b18c573a1ade18303997642b18b0471c5dd6c0423ec.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "rampampam",
+      "FlagName": "8",
+      "Acronym": "RAM",
+      "SeedingResults": [],
+      "Seed": "8",
+      "LastYearPlacing": 0,
+      "AverageRank": 3707.6666666666665,
+      "Players": [
+        {
+          "id": 14100781,
+          "Username": "cyanai",
+          "country_code": "PL",
+          "Rank": 1595,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14100781/14875fa36c04fa7d024c957564ff58b9d618ce4881cf758965241fbddbf7ecae.jpeg"
+        },
+        {
+          "id": 3493804,
+          "Username": "-Sylvari",
+          "country_code": "PL",
+          "Rank": 2430,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3493804/8736fab88ec92ff37810c44a5feede5929bcd8aa64d24fc350fcab5d9346e517.png"
+        },
+        {
+          "id": 11308471,
+          "Username": "Asriel",
+          "country_code": "PL",
+          "Rank": 7098,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/4/2fd772ad175c5687370e0aab50799a84adef7d0fff3f97dccfa5c94384ebb8af.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "oomfie slayers",
+      "FlagName": "9",
+      "Acronym": "OOMF",
+      "SeedingResults": [],
+      "Seed": "9",
+      "LastYearPlacing": 0,
+      "AverageRank": 1401.75,
+      "Players": [
+        {
+          "id": 2758279,
+          "Username": "Genryuu Kaiko",
+          "country_code": "CA",
+          "Rank": 907,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/2758279/db05f904161645c119832da6a08fe882fc1d8c27afa37b52eb67864797ad55e5.jpeg"
+        },
+        {
+          "id": 3898396,
+          "Username": "Bae Suzy",
+          "country_code": "CA",
+          "Rank": 3040,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3898396/ad83982c38c16131811cddc2bbf25917513d03d1aae5c058d47ecbf98fa182ea.jpeg"
+        },
+        {
+          "id": 10051720,
+          "Username": "Saryi",
+          "country_code": "CA",
+          "Rank": 402,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10051720/cd0d2d9deb7aefb3e47743fdd34e17d5cfc3c36d86f58f173601f14810910748.jpeg"
+        },
+        {
+          "id": 12032130,
+          "Username": "Sepid",
+          "country_code": "CA",
+          "Rank": 1258,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12032130/368fc72dcd3ad79b1bd8b2374614f3c84f1a784a8781d888fc0174aaa99a6854.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Grease Monkey",
+      "FlagName": "10",
+      "Acronym": "GRE",
+      "SeedingResults": [],
+      "Seed": "10",
+      "LastYearPlacing": 0,
+      "AverageRank": 296.0,
+      "Players": [
+        {
+          "id": 12353810,
+          "Username": "nanolini",
+          "country_code": "NO",
+          "Rank": 292,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12353810/4d22d7fa998dbb5acf9587713fac685ff22a232ec2fac664f5ca68604b93da2b.jpeg"
+        },
+        {
+          "id": 9211924,
+          "Username": "Melvr",
+          "country_code": "NO",
+          "Rank": 448,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9211924/849be7f6de5d60061fb4d46bef9f79601076682b9fda5fb098ad5ca1f9b9bf2c.png"
+        },
+        {
+          "id": 9414229,
+          "Username": "Pinguinzi",
+          "country_code": "NO",
+          "Rank": 179,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9414229/93bb02d66dccda31cd835a31b6a7a6e32781f00632bc7b2bfeba5bbecd4abb83.png"
+        },
+        {
+          "id": 6942259,
+          "Username": "Rebo",
+          "country_code": "UY",
+          "Rank": 265,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6942259/a35952bdec1ba0fdfe2552c3bb16ee50f1655fad9fd268e1b35e4586ee6ec234.png"
+        }
+      ]
+    },
+    {
+      "FullName": "oslash Destroyers",
+      "FlagName": "11",
+      "Acronym": "OD",
+      "SeedingResults": [],
+      "Seed": "11",
+      "LastYearPlacing": 0,
+      "AverageRank": 1646.5,
+      "Players": [
+        {
+          "id": 10302933,
+          "Username": "bromothymolblue",
+          "country_code": "AU",
+          "Rank": 587,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10302933/f5a1f8e1c4177eaa59323ed357bbccb629448b97f99d97263180dd3e0c2130e3.jpeg"
+        },
+        {
+          "id": 20963631,
+          "Username": "Dumb-Andy",
+          "country_code": "AU",
+          "Rank": 3103,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/8/eda177e3c4eb0889e24f58c454af47708b0acd612bff984f6ac295e8427681c5.jpeg"
+        },
+        {
+          "id": 10665363,
+          "Username": "JGLF",
+          "country_code": "AU",
+          "Rank": 1888,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10665363/727789ea59d46773f6e666d6a95474a9255641c4cab1037a86e1c27382f799a2.jpeg"
+        },
+        {
+          "id": 15429006,
+          "Username": "palr",
+          "country_code": "AU",
+          "Rank": 1008,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/15429006/99b957f681a7bae0e0006ed95865e49e392ee461cbfd6042115b6c58432c2bdd.png"
+        }
+      ]
+    },
+    {
+      "FullName": "Free agent team",
+      "FlagName": "12",
+      "Acronym": "FREE",
+      "SeedingResults": [],
+      "Seed": "12",
+      "LastYearPlacing": 0,
+      "AverageRank": 4629.0,
+      "Players": [
+        {
+          "id": 11243772,
+          "Username": "reimia",
+          "country_code": "RU",
+          "Rank": 643,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11243772/fae9e5af4eb74d5a5d444f03474e7327d9e005b381d6242bd79e542bb0b81be3.jpeg"
+        },
+        {
+          "id": 8165685,
+          "Username": "shadevr",
+          "country_code": "RU",
+          "Rank": 13936,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8165685/a99c7962b63265bd36554b0eff70b2c122810133e505a290f51fb2aad854383e.jpeg"
+        },
+        {
+          "id": 8445602,
+          "Username": "Suzuha",
+          "country_code": "RU",
+          "Rank": 998,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8445602/aa82f5332b5012dc6e8446a4beb3fb3d2e4744b3939dd1bf81e5eafe21497e1b.png"
+        },
+        {
+          "id": 12270069,
+          "Username": "CpxG",
+          "country_code": "KG",
+          "Rank": 2939,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/10/1e6e3ae468d87bfec64acee31bce234c52c35fbb65cabcd6dabbbc15d4f3f8ee.png"
+        }
+      ]
+    },
+    {
+      "FullName": "oomfie",
+      "FlagName": "13",
+      "Acronym": "OOM",
+      "SeedingResults": [],
+      "Seed": "13",
+      "LastYearPlacing": 0,
+      "AverageRank": 1374.5,
+      "Players": [
+        {
+          "id": 11684952,
+          "Username": "pretty girl",
+          "country_code": "CA",
+          "Rank": 493,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11684952/9a3e2705f0a0aa9456c0ea0d790114c6a5d8052a1c419d925527a73328826269.jpeg"
+        },
+        {
+          "id": 7613309,
+          "Username": "emmyerson",
+          "country_code": "CA",
+          "Rank": 734,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7613309/9c50844ed3f52161215fb1096519b47597093c4bcda193128ad7cf0d393f9cc8.jpeg"
+        },
+        {
+          "id": 10792185,
+          "Username": "Rykaii",
+          "country_code": "CA",
+          "Rank": 2206,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10792185/b0f7034b25f4caa148befa3870a5b1980275772f73c0e00465028978f6d5e316.jpeg"
+        },
+        {
+          "id": 2165622,
+          "Username": "Agnes Digital",
+          "country_code": "TH",
+          "Rank": 2065,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/2165622/ee8343c26e8f513ec22c0d3100a148aac7277b5eb53eaeebd3d07c741b9b0531.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Crema catalana",
+      "FlagName": "14",
+      "Acronym": "CREMA",
+      "SeedingResults": [],
+      "Seed": "14",
+      "LastYearPlacing": 0,
+      "AverageRank": 3337.5,
+      "Players": [
+        {
+          "id": 12296128,
+          "Username": "M A N O L O",
+          "country_code": "ES",
+          "Rank": 893,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12296128/a9acda5ed89aacc8afee267ff2953dec418c7dae56dad58937c413983878c844.png"
+        },
+        {
+          "id": 10966302,
+          "Username": "JoanaBob",
+          "country_code": "ES",
+          "Rank": 7762,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10966302/4f7df536fafe1feabf6cda6e6135f88cc571a6825ee29bc79e60fddf849ecd0d.jpeg"
+        },
+        {
+          "id": 18217876,
+          "Username": "ESCRUPULILLO",
+          "country_code": "ES",
+          "Rank": 1009,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/18217876/7e64fe672f675cc6d7c4ed113c47d0c66ef39273517ff134d31a8568c818af71.jpeg"
+        },
+        {
+          "id": 12975612,
+          "Username": "My Angel Bawe",
+          "country_code": "ES",
+          "Rank": 3686,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12975612/44b0d10b12731266ccb9873c7d857bfc849d1083587d3f108346f826aeaa7663.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "play rabbit and steel",
+      "FlagName": "15",
+      "Acronym": "PLAY",
+      "SeedingResults": [],
+      "Seed": "15",
+      "LastYearPlacing": 0,
+      "AverageRank": 16298.0,
+      "Players": [
+        {
+          "id": 3257847,
+          "Username": "MyzeJD",
+          "country_code": "FR",
+          "Rank": 6890,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3257847/06782a0e7808be6323c3685a54ff7fbdda10a59d08a7d484db2e1e19235bf5fa.png"
+        },
+        {
+          "id": 11129041,
+          "Username": "XiaoMyMommy",
+          "country_code": "FR",
+          "Rank": 25706,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11129041/c3ad177fa20ace3168d1632ea692bcebd6e40e0535c91c2f239f40604c2930a4.png"
+        }
+      ]
+    },
+    {
+      "FullName": "mannheim",
+      "FlagName": "16",
+      "Acronym": "MAN",
+      "SeedingResults": [],
+      "Seed": "16",
+      "LastYearPlacing": 0,
+      "AverageRank": 3107.0,
+      "Players": [
+        {
+          "id": 24270105,
+          "Username": "-lion",
+          "country_code": "DE",
+          "Rank": 1033,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/24270105/9b9bf0f1908a5653013639f0a54a8364b4abc6c56fdd5b909a54094c6e5eda91.png"
+        },
+        {
+          "id": 6221425,
+          "Username": "Peti",
+          "country_code": "DE",
+          "Rank": 2553,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6221425/51f7f73f2e68aadfae1a961de905297b008a51c41374cab48f43c26fe9ed6ffe.jpeg"
+        },
+        {
+          "id": 8788898,
+          "Username": "Shiragi",
+          "country_code": "DE",
+          "Rank": 2945,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8788898/8554db239c5234e3d058831a1f402021382ec5e74c4fde4ec8b1378125959c78.png"
+        },
+        {
+          "id": 19857248,
+          "Username": "Herazu",
+          "country_code": "DE",
+          "Rank": 5897,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/19857248/78c5e4292bcccc0fe12e571693b23f5f0a25ea33a2430046caf6f24b47aff9c7.png"
+        }
+      ]
+    },
+    {
+      "FullName": "jakarta",
+      "FlagName": "17",
+      "Acronym": "JAK",
+      "SeedingResults": [],
+      "Seed": "17",
+      "LastYearPlacing": 0,
+      "AverageRank": 474.75,
+      "Players": [
+        {
+          "id": 17724014,
+          "Username": "alfiu",
+          "country_code": "CL",
+          "Rank": 492,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/17724014/d7da16ca03c4543195c9d6a545d0c7a590067b329ae8527672505d6b9899f52d.png"
+        },
+        {
+          "id": 16870029,
+          "Username": "vljoy209",
+          "country_code": "RU",
+          "Rank": 397,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/16870029/edeccbb9f340e78d45ea6681d220a640f97c1f374ec7a2451bf62ad7f12b4278.png"
+        },
+        {
+          "id": 12211248,
+          "Username": "YukariSmug",
+          "country_code": "CL",
+          "Rank": 499,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12211248/38ce975e8f0a90ad2862203c50efc793ab47c34edbf1c04cf23f7092dc53d1c4.png"
+        },
+        {
+          "id": 12036243,
+          "Username": "Inchainz",
+          "country_code": "RU",
+          "Rank": 511,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/4/2fd772ad175c5687370e0aab50799a84adef7d0fff3f97dccfa5c94384ebb8af.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "team name",
+      "FlagName": "18",
+      "Acronym": "TEAM",
+      "SeedingResults": [],
+      "Seed": "18",
+      "LastYearPlacing": 0,
+      "AverageRank": 8990.5,
+      "Players": [
+        {
+          "id": 11370425,
+          "Username": "kuryyyyy",
+          "country_code": "GB",
+          "Rank": 8445,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11370425/b586a89b65be9be0a0488f185f68f4c454985841f7c193032a02d40e0604d7f7.jpeg"
+        },
+        {
+          "id": 15145155,
+          "Username": "ielia",
+          "country_code": "GB",
+          "Rank": 14835,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/15145155/d63d0ecacb50adfaff09c265529ca8f054783cf9e255154ddc37993854337957.jpeg"
+        },
+        {
+          "id": 12487726,
+          "Username": "sumyeon",
+          "country_code": "CA",
+          "Rank": 10199,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12487726/753ef4cb59e83bf0978e686001dac319f1880c0e1cbcba308b45385e13ca655f.jpeg"
+        },
+        {
+          "id": 19364028,
+          "Username": "Stormur",
+          "country_code": "GB",
+          "Rank": 2483,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/19364028/b84a675aa590cd190d90bbcdde97e5db510b94baf16895c89f29591ce3164b76.png"
+        }
+      ]
+    },
+    {
+      "FullName": "5star alt warriors",
+      "FlagName": "19",
+      "Acronym": "5ST",
+      "SeedingResults": [],
+      "Seed": "19",
+      "LastYearPlacing": 0,
+      "AverageRank": 1963.0,
+      "Players": [
+        {
+          "id": 22396092,
+          "Username": "mind blowing",
+          "country_code": "FI",
+          "Rank": 929,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/18/d208ed867fba75a6529e2f66796ea65fc7507a62a316b7d4311c2bd82e6c30b0.jpeg"
+        },
+        {
+          "id": 12620242,
+          "Username": "Kyulke",
+          "country_code": "BR",
+          "Rank": 3604,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12620242/dc0f083518fc732cdfe7cf9a03c58945ef7c90faca60b9b96558b0dd1f32905a.png"
+        },
+        {
+          "id": 18688473,
+          "Username": "Mayuri",
+          "country_code": "FI",
+          "Rank": 1187,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/18688473/38c1ad80af44369d568aa12aeb4fbbb8711badc22fcfe868434fc8d4a91f03c1.png"
+        },
+        {
+          "id": 12047944,
+          "Username": "yimi",
+          "country_code": "FI",
+          "Rank": 2132,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/18/d208ed867fba75a6529e2f66796ea65fc7507a62a316b7d4311c2bd82e6c30b0.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "tfteamplus1 :tabien:",
+      "FlagName": "20",
+      "Acronym": "TFT",
+      "SeedingResults": [],
+      "Seed": "20",
+      "LastYearPlacing": 0,
+      "AverageRank": 6520.333333333333,
+      "Players": [
+        {
+          "id": 3089026,
+          "Username": "kefn",
+          "country_code": "US",
+          "Rank": 12134,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3089026/ae17859c8c1c07998aa75258e68158166deef1b855f48771178d9e535fc3ee40.png"
+        },
+        {
+          "id": 5427223,
+          "Username": "leggings",
+          "country_code": "US",
+          "Rank": 5143,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/5427223/749205765a465db16588f9429d424c53c8fe742ffb24d3d0c2603be5e9505563.jpeg"
+        },
+        {
+          "id": 11847973,
+          "Username": "coolnuck210",
+          "country_code": "US",
+          "Rank": 2284,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11847973/b9a76ef788fb444c02d5727ec868755c66c632f19be7341e74796c3af39d830c.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "BootyStank3",
+      "FlagName": "21",
+      "Acronym": "BOO",
+      "SeedingResults": [],
+      "Seed": "21",
+      "LastYearPlacing": 0,
+      "AverageRank": 7538.0,
+      "Players": [
+        {
+          "id": 14205958,
+          "Username": "Undertaker121",
+          "country_code": "US",
+          "Rank": 3277,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14205958/a1d1627954e157fe5ca12c8301aef18a0050a03302bc82c92cb5859403ba301e.gif"
+        },
+        {
+          "id": 6843383,
+          "Username": "YoshiLover456",
+          "country_code": "US",
+          "Rank": 9269,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6843383/0fcefc0514fab187511cfcf16d478745f98196245cc5953f2e3df98ca6bb607e.jpeg"
+        },
+        {
+          "id": 11395961,
+          "Username": "jstyn",
+          "country_code": "US",
+          "Rank": 9926,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11395961/296d96bbdfaf9aeb922fd354f1ccaf51c5cf5f65551e485220f7d3d47493ca40.gif"
+        },
+        {
+          "id": 10662566,
+          "Username": "rwinzzz",
+          "country_code": "US",
+          "Rank": 7680,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10662566/9ca5377c482e20c1c94d5ae3eb3b177032d091de54bd117d8b93d606c52936b4.gif"
+        }
+      ]
+    },
+    {
+      "FullName": "Kind young souls",
+      "FlagName": "22",
+      "Acronym": "KYS",
+      "SeedingResults": [],
+      "Seed": "22",
+      "LastYearPlacing": 0,
+      "AverageRank": 3339.75,
+      "Players": [
+        {
+          "id": 3619583,
+          "Username": "Blendra",
+          "country_code": "US",
+          "Rank": 1800,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/3619583/f05bb375620894e856bbf395b37512e35040fabc7f55c63f6f1c25c1aa95eef8.jpeg"
+        },
+        {
+          "id": 9436126,
+          "Username": "Cocoamallows",
+          "country_code": "US",
+          "Rank": 5602,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9436126/644a665d549938dac43fbe99d9b1dfc735ecaac5b7f5e27bcbfa9df3b95cebe0.png"
+        },
+        {
+          "id": 16988359,
+          "Username": "Gommish",
+          "country_code": "US",
+          "Rank": 1463,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/16988359/7bd51224d9442318bb95285e9b6f2f069d0e65700e19bf280c6247a48fb4f307.jpeg"
+        },
+        {
+          "id": 16550280,
+          "Username": "IcyBunny",
+          "country_code": "CR",
+          "Rank": 4494,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/10/1e6e3ae468d87bfec64acee31bce234c52c35fbb65cabcd6dabbbc15d4f3f8ee.png"
+        }
+      ]
+    },
+    {
+      "FullName": "Hershey Squirts",
+      "FlagName": "23",
+      "Acronym": "HS",
+      "SeedingResults": [],
+      "Seed": "23",
+      "LastYearPlacing": 0,
+      "AverageRank": 1500.25,
+      "Players": [
+        {
+          "id": 12601823,
+          "Username": "GageRo",
+          "country_code": "US",
+          "Rank": 2759,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12601823/32d5073c359f93124ae3ed84c7695e74c1b5bb12228d15baea75b3d5d724427b.jpeg"
+        },
+        {
+          "id": 14139392,
+          "Username": "Bazingasdead",
+          "country_code": "US",
+          "Rank": 1096,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14139392/147a60667f6402e06ad3c1b9b46ae9b3d9c9e99e90df805ce9826ec282fcacf1.jpeg"
+        },
+        {
+          "id": 12776754,
+          "Username": "Joyi",
+          "country_code": "US",
+          "Rank": 1088,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12776754/c2d72a5aea8862bbbc29fa5a8ef99aaaeb4587bfe4aeb73af2c29ac5ba08f8eb.gif"
+        },
+        {
+          "id": 16036374,
+          "Username": "WhiteGyatt",
+          "country_code": "US",
+          "Rank": 1058,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/16036374/692a05481ae2ca5274188c8b340639aaa52ad67ffe5043cdec6d5c5d9e8cbdb9.gif"
+        }
+      ]
+    },
+    {
+      "FullName": "MEGA PAMPA",
+      "FlagName": "24",
+      "Acronym": "MEGA",
+      "SeedingResults": [],
+      "Seed": "24",
+      "LastYearPlacing": 0,
+      "AverageRank": 2166.5,
+      "Players": [
+        {
+          "id": 7329095,
+          "Username": "SugoiNya",
+          "country_code": "AR",
+          "Rank": 2632,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/21/4e70615c027f579b2a887ec492857fb342fc0fc7f5586db62a9a67f115638c94.jpeg"
+        },
+        {
+          "id": 18357552,
+          "Username": "Nuni",
+          "country_code": "MX",
+          "Rank": 1181,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/18357552/712adfacca5d74961ffbcf235e4dd03a6d712fcda2f3c6a3e4cbf72cdc2d471c.jpeg"
+        },
+        {
+          "id": 6266914,
+          "Username": "Abran",
+          "country_code": "MX",
+          "Rank": 2470,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/7/4a0ccb7b7fdd5c4238b11f0e7c686760fe2c99c6472b19400e82d1a8ff503e31.jpeg"
+        },
+        {
+          "id": 16775763,
+          "Username": "northsign",
+          "country_code": "MX",
+          "Rank": 2383,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/16775763/01264f156b16e0992cd1387341c994897b38c8ca317854046ad783cda240e31f.png"
+        }
+      ]
+    },
+    {
+      "FullName": "dada pooling",
+      "FlagName": "25",
+      "Acronym": "DADA",
+      "SeedingResults": [],
+      "Seed": "25",
+      "LastYearPlacing": 0,
+      "AverageRank": 5898.5,
+      "Players": [
+        {
+          "id": 25306176,
+          "Username": "owoMaxx",
+          "country_code": "US",
+          "Rank": 3747,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/25306176/1cdedb388f518b4eb80bfc9c35d76bc73cbb94cb64a6096b35a5ee7ae6c3d7d6.png"
+        },
+        {
+          "id": 11945286,
+          "Username": "Kazemiya",
+          "country_code": "US",
+          "Rank": 9211,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11945286/ae886ff990239830fe0c36f29ef59291b01d9c64652a9d468a72e1cf0897bc6c.jpeg"
+        },
+        {
+          "id": 27122738,
+          "Username": "the woke left",
+          "country_code": "US",
+          "Rank": 4625,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/27122738/fe1cd60d89bac59f920cd62687244062e5558e98bd8e949e5ab7dac39b3602f1.png"
+        },
+        {
+          "id": 12067984,
+          "Username": "Zetako",
+          "country_code": "US",
+          "Rank": 6011,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/12067984/e3e1af87ba288f94c223292e5927ae7da196f5365800e36abf593eda2b6504d3.png"
+        }
+      ]
+    },
+    {
+      "FullName": "negative aura",
+      "FlagName": "26",
+      "Acronym": "NEG",
+      "SeedingResults": [],
+      "Seed": "26",
+      "LastYearPlacing": 0,
+      "AverageRank": 6955.5,
+      "Players": [
+        {
+          "id": 9924405,
+          "Username": "Raoul",
+          "country_code": "US",
+          "Rank": 2526,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/9924405/fb145f389f694855fb4ad67f6408dd9c37c5a5daa9eb1b3782cd77d7e6b90c2a.jpeg"
+        },
+        {
+          "id": 4580287,
+          "Username": "mode",
+          "country_code": "US",
+          "Rank": 1727,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/4580287/d0658ff7551ac5844838ae9a5fce029e50241703ad616a892169845c23247845.gif"
+        },
+        {
+          "id": 6464962,
+          "Username": "blank",
+          "country_code": "US",
+          "Rank": 10777,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/6464962/b22721fc0baa5e39491f44ed8d4a73f1bec1ab66fcd439d6d2e75ecfb0cb365c.jpeg"
+        },
+        {
+          "id": 7545218,
+          "Username": "fooders",
+          "country_code": "US",
+          "Rank": 12792,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7545218/c68176e98a6c8a602f58b82f3f9a79942d3cc8fec053d741c71a42003acc6540.png"
+        }
+      ]
+    },
+    {
+      "FullName": "skibidi sigmas",
+      "FlagName": "27",
+      "Acronym": "SKI",
+      "SeedingResults": [],
+      "Seed": "27",
+      "LastYearPlacing": 0,
+      "AverageRank": 3502.0,
+      "Players": [
+        {
+          "id": 14932209,
+          "Username": "skitsu",
+          "country_code": "US",
+          "Rank": 3197,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14932209/2e69807f3cd0d0fc27c2a01603603e4a2677b3050a346de9b1f01390d159091a.jpeg"
+        },
+        {
+          "id": 15844515,
+          "Username": "T1 Faker",
+          "country_code": "US",
+          "Rank": 4311,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/15844515/bafdfecaa0ed61143f55d89208c681c30d62618cd49a6933597ae5e2f2e0c250.jpeg"
+        },
+        {
+          "id": 7246954,
+          "Username": "Zoopasaurus",
+          "country_code": "US",
+          "Rank": 3453,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/5/395c011121ca45b2ab30bd6fdd5d12483acca063bfb75ccae96d88da4304a1fb.jpeg"
+        },
+        {
+          "id": 16799786,
+          "Username": "Freqing",
+          "country_code": "US",
+          "Rank": 3047,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/16799786/e584ce56bd0bd923798bfd8d177b09e74097e9d92b331e8f3c9f0d8b7e16f352.png"
+        }
+      ]
+    },
+    {
+      "FullName": "GUNDONbISHbI",
+      "FlagName": "28",
+      "Acronym": "GUN",
+      "SeedingResults": [],
+      "Seed": "28",
+      "LastYearPlacing": 0,
+      "AverageRank": 2853.6666666666665,
+      "Players": [
+        {
+          "id": 16257749,
+          "Username": "Zero blue",
+          "country_code": "RU",
+          "Rank": 1356,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/16257749/45b5f550b693d5cae4c7c1d4d88b5a8692957326769afac4152d5a2063a41d6d.jpeg"
+        },
+        {
+          "id": 11254108,
+          "Username": "RuconChikk",
+          "country_code": "RU",
+          "Rank": 2589,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11254108/be1d1c58047d96b180e2508946895d6d338a94423d36516f750ca001a30f2a66.jpeg"
+        },
+        {
+          "id": 31507014,
+          "Username": "kemsi",
+          "country_code": "RU",
+          "Rank": 4616,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/31507014/5a2f32c9821982cea0078819d548c8c2d9e14e8516e97079a86afdc43cb4def3.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Cha Ching",
+      "FlagName": "29",
+      "Acronym": "CC",
+      "SeedingResults": [],
+      "Seed": "29",
+      "LastYearPlacing": 0,
+      "AverageRank": 4434.5,
+      "Players": [
+        {
+          "id": 17649390,
+          "Username": "chocoleche",
+          "country_code": "US",
+          "Rank": 561,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/17649390/517827e4f369fdf011060b941069b35932bc5df984a2f9e3aaf45c47cd6d1ae9.png"
+        },
+        {
+          "id": 16053632,
+          "Username": "depthsk",
+          "country_code": "US",
+          "Rank": 5488,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/10/1e6e3ae468d87bfec64acee31bce234c52c35fbb65cabcd6dabbbc15d4f3f8ee.png"
+        },
+        {
+          "id": 8267599,
+          "Username": "Luka Modric",
+          "country_code": "US",
+          "Rank": 1877,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/8267599/aaab3582e73d2e39a36a644ab95127dd2a91768ebfa3f1005cfa9e3dc21981d0.jpeg"
+        },
+        {
+          "id": 13169726,
+          "Username": "Newfoundland",
+          "country_code": "CA",
+          "Rank": 9812,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13169726/ad730a5ec1f7ff08cf195665736056c58f35e4a01c8cd54076d76f8524cec978.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "urupanchi",
+      "FlagName": "30",
+      "Acronym": "URU",
+      "SeedingResults": [],
+      "Seed": "30",
+      "LastYearPlacing": 0,
+      "AverageRank": 10599.0,
+      "Players": [
+        {
+          "id": 7023000,
+          "Username": "Finana Ryugu",
+          "country_code": "US",
+          "Rank": 10772,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7023000/f6f3764aa4d83eb504ceae51fe8f0ba39c85287ce9d0a6961832b59a08dc7b0d.jpeg"
+        },
+        {
+          "id": 6507634,
+          "Username": "NEOBLAZER23",
+          "country_code": "US",
+          "Rank": 10426,
+          "CoverUrl": "https://assets.ppy.sh/user-cover-presets/3/32ddb3eb261e38a82067f9ef4ea96c12f6abf8bd228e6413330f9d351420301b.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "never say gg",
+      "FlagName": "31",
+      "Acronym": "GG",
+      "SeedingResults": [],
+      "Seed": "31",
+      "LastYearPlacing": 0,
+      "AverageRank": 5880.5,
+      "Players": [
+        {
+          "id": 13347734,
+          "Username": "Cittasnaf",
+          "country_code": "DK",
+          "Rank": 4919,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13347734/1ff58d7f19f24a0995075c8472be5a970c7185ec2d8f861dc84f5392934fe436.jpeg"
+        },
+        {
+          "id": 14237443,
+          "Username": "_Not_M4ti",
+          "country_code": "PL",
+          "Rank": 5715,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14237443/5b5a05213f3518732fe4b080844eb7a2cf4eb978ceebdc9dc0958dd01348deca.jpeg"
+        },
+        {
+          "id": 10809251,
+          "Username": "sukiyuu",
+          "country_code": "US",
+          "Rank": 9522,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/10809251/79d160bb20d2745678539decb4defa2f6619a7da403a73196614988bacd5d3d7.png"
+        },
+        {
+          "id": 7339984,
+          "Username": "despairy",
+          "country_code": "BR",
+          "Rank": 3366,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7339984/ede435c94eb590fdcbf726d566af3f0ce6fd925b687ee58ca897b82e2ca68f1e.jpeg"
+        }
+      ]
+    },
+    {
+      "FullName": "Meow",
+      "FlagName": "32",
+      "Acronym": "MEOW",
+      "SeedingResults": [],
+      "Seed": "32",
+      "LastYearPlacing": 0,
+      "AverageRank": 6016.0,
+      "Players": [
+        {
+          "id": 14102544,
+          "Username": "Eugei",
+          "country_code": "US",
+          "Rank": 3056,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/14102544/470b6f1d345ec0b41392c8433c9f5afbd90b0b391e4e53ac97fd90dd78476a0a.png"
+        },
+        {
+          "id": 13895320,
+          "Username": "Uxalt",
+          "country_code": "US",
+          "Rank": 8976,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/13895320/4e4ed8048404b1ccd3c2cecc8a9dc9f12041601af89113414a605a237c50ca4d.jpeg"
+        }
+      ]
+    }
+  ],
+  "Progressions": [
+    {
+      "SourceID": 28,
+      "TargetID": 27
+    },
+    {
+      "SourceID": 30,
+      "TargetID": 31
+    },
+    {
+      "SourceID": 32,
+      "TargetID": 31
+    },
+    {
+      "SourceID": 37,
+      "TargetID": 34
+    },
+    {
+      "SourceID": 41,
+      "TargetID": 39
+    },
+    {
+      "SourceID": 46,
+      "TargetID": 43
+    },
+    {
+      "SourceID": 48,
+      "TargetID": 47
+    },
+    {
+      "SourceID": 53,
+      "TargetID": 51
+    },
+    {
+      "SourceID": 24,
+      "TargetID": 23
+    },
+    {
+      "SourceID": 22,
+      "TargetID": 23
+    },
+    {
+      "SourceID": 20,
+      "TargetID": 19
+    },
+    {
+      "SourceID": 18,
+      "TargetID": 19
+    },
+    {
+      "SourceID": 15,
+      "TargetID": 14
+    },
+    {
+      "SourceID": 13,
+      "TargetID": 14
+    },
+    {
+      "SourceID": 11,
+      "TargetID": 10
+    },
+    {
+      "SourceID": 9,
+      "TargetID": 10
+    },
+    {
+      "SourceID": 7,
+      "TargetID": 6
+    },
+    {
+      "SourceID": 5,
+      "TargetID": 6
+    },
+    {
+      "SourceID": 3,
+      "TargetID": 2
+    },
+    {
+      "SourceID": 1,
+      "TargetID": 2
+    },
+    {
+      "SourceID": 56,
+      "TargetID": 55
+    },
+    {
+      "SourceID": 62,
+      "TargetID": 61
+    },
+    {
+      "SourceID": 59,
+      "TargetID": 58
+    },
+    {
+      "SourceID": 34,
+      "TargetID": 36
+    },
+    {
+      "SourceID": 39,
+      "TargetID": 36
+    },
+    {
+      "SourceID": 43,
+      "TargetID": 45
+    },
+    {
+      "SourceID": 47,
+      "TargetID": 45
+    },
+    {
+      "SourceID": 51,
+      "TargetID": 52
+    },
+    {
+      "SourceID": 55,
+      "TargetID": 52
+    },
+    {
+      "SourceID": 58,
+      "TargetID": 60
+    },
+    {
+      "SourceID": 61,
+      "TargetID": 60
+    },
+    {
+      "SourceID": 45,
+      "TargetID": 42
+    },
+    {
+      "SourceID": 36,
+      "TargetID": 33
+    },
+    {
+      "SourceID": 52,
+      "TargetID": 49
+    },
+    {
+      "SourceID": 60,
+      "TargetID": 57
+    },
+    {
+      "SourceID": 33,
+      "TargetID": 38
+    },
+    {
+      "SourceID": 42,
+      "TargetID": 38
+    },
+    {
+      "SourceID": 49,
+      "TargetID": 54
+    },
+    {
+      "SourceID": 57,
+      "TargetID": 54
+    },
+    {
+      "SourceID": 38,
+      "TargetID": 35
+    },
+    {
+      "SourceID": 54,
+      "TargetID": 50
+    },
+    {
+      "SourceID": 35,
+      "TargetID": 44
+    },
+    {
+      "SourceID": 50,
+      "TargetID": 44
+    },
+    {
+      "SourceID": 44,
+      "TargetID": 40
+    },
+    {
+      "SourceID": 40,
+      "TargetID": 17
+    },
+    {
+      "SourceID": 2,
+      "TargetID": 4
+    },
+    {
+      "SourceID": 6,
+      "TargetID": 4
+    },
+    {
+      "SourceID": 10,
+      "TargetID": 12
+    },
+    {
+      "SourceID": 14,
+      "TargetID": 12
+    },
+    {
+      "SourceID": 19,
+      "TargetID": 21
+    },
+    {
+      "SourceID": 23,
+      "TargetID": 21
+    },
+    {
+      "SourceID": 27,
+      "TargetID": 29
+    },
+    {
+      "SourceID": 31,
+      "TargetID": 29
+    },
+    {
+      "SourceID": 4,
+      "TargetID": 8
+    },
+    {
+      "SourceID": 12,
+      "TargetID": 8
+    },
+    {
+      "SourceID": 21,
+      "TargetID": 25
+    },
+    {
+      "SourceID": 29,
+      "TargetID": 25
+    },
+    {
+      "SourceID": 8,
+      "TargetID": 16
+    },
+    {
+      "SourceID": 25,
+      "TargetID": 16
+    },
+    {
+      "SourceID": 16,
+      "TargetID": 17
+    },
+    {
+      "SourceID": 26,
+      "TargetID": 27
+    },
+    {
+      "SourceID": 28,
+      "TargetID": 59,
+      "Losers": true
+    },
+    {
+      "SourceID": 30,
+      "TargetID": 62,
+      "Losers": true
+    },
+    {
+      "SourceID": 32,
+      "TargetID": 62,
+      "Losers": true
+    },
+    {
+      "SourceID": 24,
+      "TargetID": 56,
+      "Losers": true
+    },
+    {
+      "SourceID": 22,
+      "TargetID": 56,
+      "Losers": true
+    },
+    {
+      "SourceID": 20,
+      "TargetID": 53,
+      "Losers": true
+    },
+    {
+      "SourceID": 18,
+      "TargetID": 53,
+      "Losers": true
+    },
+    {
+      "SourceID": 15,
+      "TargetID": 48,
+      "Losers": true
+    },
+    {
+      "SourceID": 13,
+      "TargetID": 48,
+      "Losers": true
+    },
+    {
+      "SourceID": 11,
+      "TargetID": 46,
+      "Losers": true
+    },
+    {
+      "SourceID": 9,
+      "TargetID": 46,
+      "Losers": true
+    },
+    {
+      "SourceID": 7,
+      "TargetID": 41,
+      "Losers": true
+    },
+    {
+      "SourceID": 5,
+      "TargetID": 41,
+      "Losers": true
+    },
+    {
+      "SourceID": 3,
+      "TargetID": 37,
+      "Losers": true
+    },
+    {
+      "SourceID": 1,
+      "TargetID": 37,
+      "Losers": true
+    },
+    {
+      "SourceID": 2,
+      "TargetID": 61,
+      "Losers": true
+    },
+    {
+      "SourceID": 6,
+      "TargetID": 58,
+      "Losers": true
+    },
+    {
+      "SourceID": 10,
+      "TargetID": 55,
+      "Losers": true
+    },
+    {
+      "SourceID": 14,
+      "TargetID": 51,
+      "Losers": true
+    },
+    {
+      "SourceID": 19,
+      "TargetID": 47,
+      "Losers": true
+    },
+    {
+      "SourceID": 23,
+      "TargetID": 43,
+      "Losers": true
+    },
+    {
+      "SourceID": 27,
+      "TargetID": 39,
+      "Losers": true
+    },
+    {
+      "SourceID": 31,
+      "TargetID": 34,
+      "Losers": true
+    },
+    {
+      "SourceID": 4,
+      "TargetID": 42,
+      "Losers": true
+    },
+    {
+      "SourceID": 12,
+      "TargetID": 33,
+      "Losers": true
+    },
+    {
+      "SourceID": 21,
+      "TargetID": 57,
+      "Losers": true
+    },
+    {
+      "SourceID": 29,
+      "TargetID": 49,
+      "Losers": true
+    },
+    {
+      "SourceID": 8,
+      "TargetID": 50,
+      "Losers": true
+    },
+    {
+      "SourceID": 25,
+      "TargetID": 35,
+      "Losers": true
+    },
+    {
+      "SourceID": 16,
+      "TargetID": 40,
+      "Losers": true
+    },
+    {
+      "SourceID": 26,
+      "TargetID": 59,
+      "Losers": true
+    }
+  ],
+  "ChromaKeyWidth": 1366,
+  "PlayersPerTeam": 4,
+  "AutoProgressScreens": true,
+  "SplitMapPoolByMods": false,
+  "DisplayTeamSeeds": true
+}
