@@ -284,7 +284,7 @@
       "ID": 41,
       "Team1Acronym": "DADA",
       "Team1Score": null,
-      "Team2Acronym": "KIN",
+      "Team2Acronym": "MEGA",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -298,7 +298,7 @@
       },
       "Acronyms": [
         "DADA",
-        "KIN"
+        "MEGA"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 5
@@ -399,7 +399,7 @@
       "ID": 53,
       "Team1Acronym": "GG",
       "Team1Score": null,
-      "Team2Acronym": "ANT",
+      "Team2Acronym": "TEAM",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -413,7 +413,7 @@
       },
       "Acronyms": [
         "GG",
-        "ANT"
+        "TEAM"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 5
@@ -421,9 +421,9 @@
     {
       "ID": 24,
       "Team1Acronym": "GRE",
-      "Team1Score": null,
+      "Team1Score": 0,
       "Team2Acronym": "HS",
-      "Team2Score": null,
+      "Team2Score": 0,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
@@ -466,10 +466,10 @@
     {
       "ID": 20,
       "Team1Acronym": "PLAY",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "TEAM",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 4,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [
         {
@@ -521,9 +521,64 @@
           "Team": "Blue",
           "Type": "Pick",
           "BeatmapID": 2524468
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1387233
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3993328
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4438538
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1651264
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2836380
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 427962
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2715187
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3180732
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1955676
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2899384
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2998515
         }
       ],
-      "Current": true,
+      "Current": false,
       "Date": "2024-08-18T20:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -534,7 +589,6 @@
         "PLAY",
         "TEAM"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -783,13 +837,54 @@
     {
       "ID": 7,
       "Team1Acronym": "OOMF",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "MEGA",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
-      "Current": false,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2715187
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2836380
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1955676
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3180732
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3920454
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3993328
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4187144
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4438538
+        }
+      ],
+      "Current": true,
       "Date": "2024-08-18T21:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -800,7 +895,6 @@
         "OOMF",
         "MEGA"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -2234,7 +2328,7 @@
       "ID": 6,
       "Team1Acronym": "RAM",
       "Team1Score": null,
-      "Team2Acronym": "BIN",
+      "Team2Acronym": "OOMF",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -2299,7 +2393,7 @@
       },
       "Acronyms": [
         "RAM",
-        "BIN"
+        "OOMF"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 5
@@ -2441,7 +2535,7 @@
       "ID": 19,
       "Team1Acronym": "CRY",
       "Team1Score": null,
-      "Team2Acronym": "YUM",
+      "Team2Acronym": "PLAY",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -2501,7 +2595,7 @@
       },
       "Acronyms": [
         "CRY",
-        "YUM"
+        "PLAY"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 5
