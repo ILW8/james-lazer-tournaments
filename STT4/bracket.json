@@ -373,8 +373,8 @@
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
-      "Current": false,
-      "Date": "2024-08-26T02:00:00+01:00",
+      "Current": true,
+      "Date": "2024-08-26T00:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -305,
@@ -461,11 +461,11 @@
       "Team1Acronym": "GG",
       "Team1Score": 0,
       "Team2Acronym": "TEAM",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [],
-      "Current": true,
+      "Current": false,
       "Date": "2024-08-25T20:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -1163,12 +1163,53 @@
     {
       "ID": 59,
       "Team1Acronym": "URU",
-      "Team1Score": 0,
+      "Team1Score": 1,
       "Team2Acronym": "CREMA",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4178415
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2699264
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 235880
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2942890
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4754236
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4245115
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4323919
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2676292
+        }
+      ],
       "Current": false,
       "Date": "2024-08-25T20:00:00+01:00",
       "ConditionalMatches": [],
@@ -1344,7 +1385,7 @@
       "ID": 51,
       "Team1Acronym": "FREAK",
       "Team1Score": null,
-      "Team2Acronym": "ZSI",
+      "Team2Acronym": "TEAM",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -1429,7 +1470,7 @@
       },
       "Acronyms": [
         "FREAK",
-        "ZSI"
+        "TEAM"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
@@ -1461,7 +1502,7 @@
       "ID": 58,
       "Team1Acronym": "OOMF",
       "Team1Score": null,
-      "Team2Acronym": "OLI",
+      "Team2Acronym": "CREMA",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -1496,7 +1537,7 @@
       },
       "Acronyms": [
         "OOMF",
-        "OLI"
+        "CREMA"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
