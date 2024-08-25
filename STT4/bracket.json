@@ -267,7 +267,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-08-25T17:00:00+00:00",
+      "Date": "2024-08-25T13:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -308,
@@ -283,14 +283,70 @@
     {
       "ID": 41,
       "Team1Acronym": "DADA",
-      "Team1Score": null,
+      "Team1Score": 4,
       "Team2Acronym": "MEGA",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3775260
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2942890
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2699264
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3623602
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4178415
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1437794
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 235880
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3340750
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 420951
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4754236
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2905591
+        }
+      ],
       "Current": false,
-      "Date": "2024-08-24T19:00:00+00:00",
+      "Date": "2024-08-24T15:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -307,
@@ -313,7 +369,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-08-26T01:00:00+00:00",
+      "Date": "2024-08-25T21:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -305,
@@ -382,7 +438,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-08-25T16:00:00+00:00",
+      "Date": "2024-08-25T12:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -299,
@@ -405,7 +461,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-08-25T19:00:00+00:00",
+      "Date": "2024-08-25T15:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -300,
@@ -1012,7 +1068,7 @@
       "Completed": true,
       "Losers": true,
       "PicksBans": [],
-      "Current": true,
+      "Current": false,
       "Date": "2024-08-22T20:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
@@ -1086,7 +1142,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-08-25T23:59:59+00:00",
+      "Date": "2024-08-25T19:59:59-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -297,
@@ -1109,7 +1165,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2024-08-24T19:00:00+00:00",
+      "Date": "2024-08-25T15:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -298,
@@ -1214,7 +1270,7 @@
       "ID": 39,
       "Team1Acronym": "IMP",
       "Team1Score": null,
-      "Team2Acronym": "MIN",
+      "Team2Acronym": "MEGA",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -1228,7 +1284,7 @@
       },
       "Acronyms": [
         "IMP",
-        "MIN"
+        "MEGA"
       ],
       "PointsToWin": 6
     },
@@ -1256,7 +1312,7 @@
     },
     {
       "ID": 47,
-      "Team1Acronym": "YUM",
+      "Team1Acronym": "PLAY",
       "Team1Score": null,
       "Team2Acronym": "SYN",
       "Team2Score": null,
@@ -1271,14 +1327,15 @@
         "Y": 709
       },
       "Acronyms": [
-        "YUM",
+        "PLAY",
         "SYN"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 51,
-      "Team1Acronym": "LOR",
+      "Team1Acronym": "FREAK",
       "Team1Score": null,
       "Team2Acronym": "ZSI",
       "Team2Score": null,
@@ -1364,9 +1421,10 @@
         "Y": 818
       },
       "Acronyms": [
-        "LOR",
+        "FREAK",
         "ZSI"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -1393,7 +1451,7 @@
     },
     {
       "ID": 58,
-      "Team1Acronym": "BIN",
+      "Team1Acronym": "OOMF",
       "Team1Score": null,
       "Team2Acronym": "OLI",
       "Team2Score": null,
@@ -1429,14 +1487,15 @@
         "Y": 1039
       },
       "Acronyms": [
-        "BIN",
+        "OOMF",
         "OLI"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 61,
-      "Team1Acronym": "2 A",
+      "Team1Acronym": "MAN",
       "Team1Score": null,
       "Team2Acronym": "XX_",
       "Team2Score": null,
@@ -1507,9 +1566,10 @@
         "Y": 1148
       },
       "Acronyms": [
-        "2 A",
+        "MAN",
         "XX_"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -2215,10 +2275,10 @@
     {
       "ID": 2,
       "Team1Acronym": "DAN",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "MAN",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [
         {
@@ -2263,7 +2323,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-08-24T15:30:00+00:00",
+      "Date": "2024-08-24T11:30:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 13,
@@ -2273,16 +2333,15 @@
         "DAN",
         "MAN"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 6,
       "Team1Acronym": "RAM",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "OOMF",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [
         {
@@ -2334,10 +2393,50 @@
           "Team": "Red",
           "Type": "Pick",
           "BeatmapID": 2017595
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2942890
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2699264
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3623602
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 235880
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3775260
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2676292
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 420951
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1437794
         }
       ],
       "Current": false,
-      "Date": "2024-08-24T16:00:00+00:00",
+      "Date": "2024-08-24T12:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 13,
@@ -2347,7 +2446,6 @@
         "RAM",
         "OOMF"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -2406,7 +2504,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-08-25T17:00:00+00:00",
+      "Date": "2024-08-25T13:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 8,
@@ -2422,10 +2520,10 @@
     {
       "ID": 14,
       "Team1Acronym": "FREAK",
-      "Team1Score": null,
+      "Team1Score": 3,
       "Team2Acronym": "FREE",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [
         {
@@ -2467,10 +2565,55 @@
           "Team": "Blue",
           "Type": "Pick",
           "BeatmapID": 3253606
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4329092
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3340750
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4245115
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1437794
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 235880
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2676292
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2699264
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 420951
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2942890
         }
       ],
       "Current": false,
-      "Date": "2024-08-24T15:00:00+00:00",
+      "Date": "2024-08-24T11:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 8,
@@ -2486,10 +2629,10 @@
     {
       "ID": 19,
       "Team1Acronym": "CRY",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "PLAY",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 4,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [
         {
@@ -2536,10 +2679,60 @@
           "Team": "Red",
           "Type": "Pick",
           "BeatmapID": 3205100
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4245115
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2699264
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2676292
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3623602
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1437794
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3340750
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2942890
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4178415
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4329092
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2905591
         }
       ],
       "Current": false,
-      "Date": "2024-08-24T14:00:00+00:00",
+      "Date": "2024-08-24T10:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 2,
@@ -2549,7 +2742,6 @@
         "CRY",
         "PLAY"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -2603,7 +2795,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-08-24T16:30:00+00:00",
+      "Date": "2024-08-26T12:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 2,
@@ -2672,7 +2864,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-08-24T15:00:00+00:00",
+      "Date": "2024-08-25T11:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 2,
@@ -2740,8 +2932,8 @@
           "BeatmapID": 2017595
         }
       ],
-      "Current": false,
-      "Date": "2024-08-25T10:00:00+00:00",
+      "Current": true,
+      "Date": "2024-08-25T06:00:00-04:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 2,
@@ -2756,9 +2948,9 @@
     },
     {
       "ID": 4,
-      "Team1Acronym": "",
+      "Team1Acronym": "DAN",
       "Team1Score": null,
-      "Team2Acronym": "NAT",
+      "Team2Acronym": "RAM",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -2822,16 +3014,17 @@
         "Y": -1357
       },
       "Acronyms": [
-        "",
-        "NAT"
+        "DAN",
+        "RAM"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 12,
       "Team1Acronym": "KAG",
       "Team1Score": null,
-      "Team2Acronym": "LIL",
+      "Team2Acronym": "FREE",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -2845,13 +3038,13 @@
       },
       "Acronyms": [
         "KAG",
-        "LIL"
+        "FREE"
       ],
       "PointsToWin": 6
     },
     {
       "ID": 21,
-      "Team1Acronym": "ZON",
+      "Team1Acronym": "CRY",
       "Team1Score": null,
       "Team2Acronym": "-GR",
       "Team2Score": null,
@@ -2866,9 +3059,10 @@
         "Y": -503
       },
       "Acronyms": [
-        "ZON",
+        "CRY",
         "-GR"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -4080,8 +4274,46 @@
           }
         },
         {
-          "ID": 4667121,
-          "Mods": "HD"
+          "ID": 4754236,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4754236,
+            "DifficultyName": "mnyui's with",
+            "BPM": 180.0,
+            "Length": 149000.0,
+            "StarRating": 6.48,
+            "EndTimeObjectCount": 301,
+            "TotalObjectCount": 866,
+            "Metadata": {
+              "Title": "me & u (Kara Edit)",
+              "title_unicode": "me & u (Kara Edit)",
+              "Artist": "succducc",
+              "artist_unicode": "succducc",
+              "Author": {
+                "OnlineID": 6701656,
+                "Username": "chiv",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "gelidium and n you",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.6,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2237564/covers/cover@2x.jpg?1724451164",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2237564/covers/card@2x.jpg?1724451164",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2237564/covers/list@2x.jpg?1724451164"
+            }
+          }
         },
         {
           "ID": 3340750,
