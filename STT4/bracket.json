@@ -385,10 +385,10 @@
     {
       "ID": 48,
       "Team1Acronym": "GUN",
-      "Team1Score": null,
+      "Team1Score": 2,
       "Team2Acronym": "BOO",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [
         {
@@ -1180,7 +1180,7 @@
     },
     {
       "ID": 34,
-      "Team1Acronym": "XID",
+      "Team1Acronym": "BABA",
       "Team1Score": null,
       "Team2Acronym": "MIG",
       "Team2Score": null,
@@ -1261,14 +1261,15 @@
         "Y": 380
       },
       "Acronyms": [
-        "XID",
+        "BABA",
         "MIG"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 39,
-      "Team1Acronym": "IMP",
+      "Team1Acronym": "5ST",
       "Team1Score": null,
       "Team2Acronym": "MEGA",
       "Team2Score": null,
@@ -1283,9 +1284,10 @@
         "Y": 489
       },
       "Acronyms": [
-        "IMP",
+        "5ST",
         "MEGA"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -1314,7 +1316,7 @@
       "ID": 47,
       "Team1Acronym": "PLAY",
       "Team1Score": null,
-      "Team2Acronym": "SYN",
+      "Team2Acronym": "BOO",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -1328,7 +1330,7 @@
       },
       "Acronyms": [
         "PLAY",
-        "SYN"
+        "BOO"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
@@ -2503,7 +2505,7 @@
           "BeatmapID": 3253613
         }
       ],
-      "Current": false,
+      "Current": true,
       "Date": "2024-08-25T18:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -2811,10 +2813,10 @@
     {
       "ID": 27,
       "Team1Acronym": "BALL",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "5ST",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [
         {
@@ -2874,7 +2876,6 @@
         "BALL",
         "5ST"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -2882,8 +2883,8 @@
       "Team1Acronym": "BABA",
       "Team1Score": 0,
       "Team2Acronym": "OD",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [
         {
@@ -2932,7 +2933,7 @@
           "BeatmapID": 2017595
         }
       ],
-      "Current": true,
+      "Current": false,
       "Date": "2024-08-25T11:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -3067,9 +3068,9 @@
     },
     {
       "ID": 29,
-      "Team1Acronym": "MIO",
+      "Team1Acronym": "BALL",
       "Team1Score": null,
-      "Team2Acronym": "XYL",
+      "Team2Acronym": "OD",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -3153,9 +3154,10 @@
         "Y": -72
       },
       "Acronyms": [
-        "MIO",
-        "XYL"
+        "BALL",
+        "OD"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
