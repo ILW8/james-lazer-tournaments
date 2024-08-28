@@ -1227,9 +1227,9 @@
     {
       "ID": 34,
       "Team1Acronym": "BABA",
-      "Team1Score": null,
+      "Team1Score": 0,
       "Team2Acronym": "JAK",
-      "Team2Score": null,
+      "Team2Score": 0,
       "Completed": false,
       "Losers": true,
       "PicksBans": [
@@ -4845,7 +4845,722 @@
       "Description": null,
       "BestOf": 11,
       "BanCount": 2,
-      "Beatmaps": [{"ID": 2232924, "Mods": ""}, {"ID": 4674292, "Mods": ""}, {"ID": 2216818, "Mods": ""}, {"ID": 2256378, "Mods": ""}, {"ID": 4718580, "Mods": ""}, {"ID": 4368093, "Mods": ""}, {"ID": 4344609, "Mods": ""}, {"ID": 835057, "Mods": ""}, {"ID": 3502650, "Mods": ""}, {"ID": 4131382, "Mods": ""}, {"ID": 4108775, "Mods": ""}, {"ID": 1707910, "Mods": ""}, {"ID": 3057318, "Mods": ""}, {"ID": 2897352, "Mods": ""}, {"ID": 2986202, "Mods": ""}, {"ID": 4591327, "Mods": ""}, {"ID": 1857484, "Mods": ""}],
+      "Beatmaps": [
+        {
+          "ID": 2232924,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 2232924,
+            "DifficultyName": "EX",
+            "BPM": 208.0,
+            "Length": 237000.0,
+            "StarRating": 7.06,
+            "EndTimeObjectCount": 383,
+            "TotalObjectCount": 1076,
+            "Metadata": {
+              "Title": "Belief",
+              "title_unicode": "Belief",
+              "Artist": "May'n",
+              "artist_unicode": "May'n",
+              "Author": {
+                "OnlineID": 9334812,
+                "Username": "Bokamin",
+                "CountryString": "Unknown"
+              },
+              "Source": "TABOO TATTOO",
+              "tags": "",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1066387/covers/cover@2x.jpg?1643679056",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1066387/covers/card@2x.jpg?1643679056",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1066387/covers/list@2x.jpg?1643679056"
+            }
+          }
+        },
+        {
+          "ID": 4674292,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 4674292,
+            "DifficultyName": "+LEGGENDARIA",
+            "BPM": 200.0,
+            "Length": 121000.0,
+            "StarRating": 7.03,
+            "EndTimeObjectCount": 173,
+            "TotalObjectCount": 1087,
+            "Metadata": {
+              "Title": "Koisuru*Uchuu Sensou!!",
+              "title_unicode": "恋する☆宇宙戦争っ!!",
+              "Artist": "Prim",
+              "artist_unicode": "Prim",
+              "Author": {
+                "OnlineID": 1243669,
+                "Username": "yf_bmp",
+                "CountryString": "Unknown"
+              },
+              "Source": "beatmania IIDX 19 Lincle",
+              "tags": "l.e.d mayumi morinaga reflec beat limelight mitsu iidx iidx19 lincle",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2207453/covers/cover@2x.jpg?1722346280",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2207453/covers/card@2x.jpg?1722346280",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2207453/covers/list@2x.jpg?1722346280"
+            }
+          }
+        },
+        {
+          "ID": 2216818,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 2216818,
+            "DifficultyName": "9.4",
+            "BPM": 147.0,
+            "Length": 124000.0,
+            "StarRating": 6.64,
+            "EndTimeObjectCount": 383,
+            "TotalObjectCount": 765,
+            "Metadata": {
+              "Title": "Transport",
+              "title_unicode": "Transport",
+              "Artist": "Sota Fujimori",
+              "artist_unicode": "Sota Fujimori",
+              "Author": {
+                "OnlineID": 10132936,
+                "Username": "verychill",
+                "CountryString": "Unknown"
+              },
+              "Source": "beatmania IIDX 23 copula",
+              "tags": "instrumental videogame techstream",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1041620/covers/cover@2x.jpg?1572426736",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1041620/covers/card@2x.jpg?1572426736",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1041620/covers/list@2x.jpg?1572426736"
+            }
+          }
+        },
+        {
+          "ID": 2256378,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 2256378,
+            "DifficultyName": "SHD",
+            "BPM": 180.0,
+            "Length": 126000.0,
+            "StarRating": 6.45,
+            "EndTimeObjectCount": 117,
+            "TotalObjectCount": 659,
+            "Metadata": {
+              "Title": "Imagination",
+              "title_unicode": "Imagination",
+              "Artist": "SHK",
+              "artist_unicode": "SHK",
+              "Author": {
+                "OnlineID": 53378,
+                "Username": "ktgster",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "soundholick",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 5.3,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1078340/covers/cover@2x.jpg?1576361557",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1078340/covers/card@2x.jpg?1576361557",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1078340/covers/list@2x.jpg?1576361557"
+            }
+          }
+        },
+        {
+          "ID": 4718580,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 4718580,
+            "DifficultyName": "Summit",
+            "BPM": 117.0,
+            "Length": 159000.0,
+            "StarRating": 6.44,
+            "EndTimeObjectCount": 269,
+            "TotalObjectCount": 814,
+            "Metadata": {
+              "Title": "Classical Dragon",
+              "title_unicode": "Classical Dragon",
+              "Artist": "Marcin, Tim Henson",
+              "artist_unicode": "Marcin, Tim Henson",
+              "Author": {
+                "OnlineID": 8688812,
+                "Username": "Mir",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "polyphia metal rock prog fixxis boppin",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.7,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2224818/covers/cover@2x.jpg?1723664281",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2224818/covers/card@2x.jpg?1723664281",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2224818/covers/list@2x.jpg?1723664281"
+            }
+          }
+        },
+        {
+          "ID": 4368093,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 4368093,
+            "DifficultyName": "Inanition",
+            "BPM": 188.0,
+            "Length": 221000.0,
+            "StarRating": 6.7,
+            "EndTimeObjectCount": 336,
+            "TotalObjectCount": 1122,
+            "Metadata": {
+              "Title": "Figue Folle",
+              "title_unicode": "Figue Folle",
+              "Artist": "Igorrr & Ruby My Dear",
+              "artist_unicode": "Igorrr & Ruby My Dear",
+              "Author": {
+                "OnlineID": 5745865,
+                "Username": "Altai",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "owc2023qfhr1 osu world cup 2023 quarterfinals hardrock hard rock 1 one fa featured artist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 3.8,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2085134/covers/cover@2x.jpg?1701610242",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2085134/covers/card@2x.jpg?1701610242",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2085134/covers/list@2x.jpg?1701610242"
+            }
+          }
+        },
+        {
+          "ID": 4344609,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 4344609,
+            "DifficultyName": "Collab Extra",
+            "BPM": 260.0,
+            "Length": 171000.0,
+            "StarRating": 6.74,
+            "EndTimeObjectCount": 388,
+            "TotalObjectCount": 795,
+            "Metadata": {
+              "Title": "Heisei Sayonara Bye Bye",
+              "title_unicode": "ヘイセイサヨナラバイバイ",
+              "Artist": "Zips",
+              "artist_unicode": "じっぷす",
+              "Author": {
+                "OnlineID": 1634445,
+                "Username": "Dailycare",
+                "CountryString": "Unknown"
+              },
+              "Source": "ヘイセイプロジェクト",
+              "tags": "jrock j-rock rock japanese vocaloid heisei project ぷす pusu jippusu megpoid メグッポイド gumi morinaga x light x_light captin1 kowari _epreus -mikanmymommy djulus kanui",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.1,
+              "OverallDifficulty": 9.1,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1957026/covers/cover@2x.jpg?1722476369",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1957026/covers/card@2x.jpg?1722476369",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1957026/covers/list@2x.jpg?1722476369"
+            }
+          }
+        },
+        {
+          "ID": 835057,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 835057,
+            "DifficultyName": "Love Chronicles: 2016",
+            "BPM": 190.0,
+            "Length": 178000.0,
+            "StarRating": 6.51,
+            "EndTimeObjectCount": 274,
+            "TotalObjectCount": 840,
+            "Metadata": {
+              "Title": "Hatsukoi no Ehon",
+              "title_unicode": "初恋の絵本",
+              "Artist": "HoneyWorks feat. GUMI",
+              "artist_unicode": "HoneyWorks feat. GUMI",
+              "Author": {
+                "OnlineID": 1243669,
+                "Username": "yf_bmp",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "vocaloid we have always been 10 cm apart. kokuhaku jikkou iinkai japanese pop itsudatte bokura no koi wa datta. centi 好きすぎてやばい。 ～告白実行委員会キャラクターソング集～ 東京ウインターセッション 告白実行委員会〜恋愛シリーズ〜 sukisugiteyabai kokuhakujikkouiinkai character song shu tokyo winter session picture book first love 初恋ノート hatsukoi note confession executive committee series vocaloid sahuang z1085684963 pururut karen vert garden binguo",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.5,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/381779/covers/cover@2x.jpg?1709296279",
+              "card@2x": "https://assets.ppy.sh/beatmaps/381779/covers/card@2x.jpg?1709296279",
+              "list@2x": "https://assets.ppy.sh/beatmaps/381779/covers/list@2x.jpg?1709296279"
+            }
+          }
+        },
+        {
+          "ID": 3502650,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 3502650,
+            "DifficultyName": "Panorama",
+            "BPM": 130.0,
+            "Length": 256000.0,
+            "StarRating": 4.89,
+            "EndTimeObjectCount": 441,
+            "TotalObjectCount": 888,
+            "Metadata": {
+              "Title": "Last Train At 25 O'clock",
+              "title_unicode": "最終列車は25時",
+              "Artist": "Lamp",
+              "artist_unicode": "Lamp",
+              "Author": {
+                "OnlineID": 8972308,
+                "Username": "ScubDomino",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "mbrd-5 saishuu ressha wa 25ji 25 ji for lovers koibito e he 恋人へ botanical house 2004 motel bleu 染谷大陽 taiyou taiyo someya lamp_someya lampjapan 榊原香保里 kaori sakakibara 永井祐介 yusuke nagai anime girl anime_girl jungkyuyoung natsume shiki natsume_shiki scub domino [keqing] 8972308 fanzhen0019 macuilxochitl selcyc 418699 ralkinson epiccory 10646707 cookeazy frostwich synderes bakabaka answer bakabaka_answer 5129592 ponbot icantosux3 -_pon_- pon 8939857 bossa nova lounge shibuya kei jazz pop japanese j-pop jpop band vocal male female utitoyo",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 6.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1714190/covers/cover@2x.jpg?1652970036",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1714190/covers/card@2x.jpg?1652970036",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1714190/covers/list@2x.jpg?1652970036"
+            }
+          }
+        },
+        {
+          "ID": 4131382,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 4131382,
+            "DifficultyName": "Like That",
+            "BPM": 115.0,
+            "Length": 182000.0,
+            "StarRating": 4.9,
+            "EndTimeObjectCount": 199,
+            "TotalObjectCount": 624,
+            "Metadata": {
+              "Title": "He Said She Said",
+              "title_unicode": "He Said She Said",
+              "Artist": "Ashley Tisdale",
+              "artist_unicode": "Ashley Tisdale",
+              "Author": {
+                "OnlineID": 3181083,
+                "Username": "AJT",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "english r&b rnb pop headstrong",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1988729/covers/cover@2x.jpg?1685029505",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1988729/covers/card@2x.jpg?1685029505",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1988729/covers/list@2x.jpg?1685029505"
+            }
+          }
+        },
+        {
+          "ID": 4108775,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 4108775,
+            "DifficultyName": "Insane",
+            "BPM": 154.0,
+            "Length": 250000.0,
+            "StarRating": 5.05,
+            "EndTimeObjectCount": 211,
+            "TotalObjectCount": 1422,
+            "Metadata": {
+              "Title": "Millarca",
+              "title_unicode": "Millarca",
+              "Artist": "-45",
+              "artist_unicode": "-45",
+              "Author": {
+                "OnlineID": 9131844,
+                "Username": "228",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "aye1337 yoshikawa45 akito yoshikawa dva d'va;;;;;;;;5 featured artist fa electronic instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1978407/covers/cover@2x.jpg?1684535857",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1978407/covers/card@2x.jpg?1684535857",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1978407/covers/list@2x.jpg?1684535857"
+            }
+          }
+        },
+        {
+          "ID": 1707910,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 1707910,
+            "DifficultyName": "Insane Collab",
+            "BPM": 170.0,
+            "Length": 217000.0,
+            "StarRating": 4.85,
+            "EndTimeObjectCount": 470,
+            "TotalObjectCount": 943,
+            "Metadata": {
+              "Title": "FREEDOM (Extended Mix)",
+              "title_unicode": "FREEDOM (Extended Mix)",
+              "Artist": "USAO",
+              "artist_unicode": "USAO",
+              "Author": {
+                "OnlineID": 4930630,
+                "Username": "C00L",
+                "CountryString": "Unknown"
+              },
+              "Source": "beatmania IIDX 25 CANNON BALLERS",
+              "tags": "drumstep hyper dubstep electronic japanese dnb cool krovesia reform kujinn",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.5,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/749304/covers/cover@2x.jpg?1622135916",
+              "card@2x": "https://assets.ppy.sh/beatmaps/749304/covers/card@2x.jpg?1622135916",
+              "list@2x": "https://assets.ppy.sh/beatmaps/749304/covers/list@2x.jpg?1622135916"
+            }
+          }
+        },
+        {
+          "ID": 3057318,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 3057318,
+            "DifficultyName": "Sunny Day",
+            "BPM": 180.0,
+            "Length": 113000.0,
+            "StarRating": 6.54,
+            "EndTimeObjectCount": 127,
+            "TotalObjectCount": 740,
+            "Metadata": {
+              "Title": "Chronoxia",
+              "title_unicode": "Chronoxia",
+              "Artist": "DJ Totoriott",
+              "artist_unicode": "DJ Totoriott",
+              "Author": {
+                "OnlineID": 5410645,
+                "Username": "Icekalt",
+                "CountryString": "Unknown"
+              },
+              "Source": "REFLEC BEAT groovin'!!",
+              "tags": "corsace open 2020 qf fm1 pop'n music ラピストリア plus volzza 2 upper 悠久のリフレシア totto うさぎと猫と少年の夢 éclale eclale konami bemani video game instrumental electronic pop'n music ラピストリア music pack 68 naotoshi nao tomori",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.3,
+              "OverallDifficulty": 8.4,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1262520/covers/cover@2x.jpg?1650709679",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1262520/covers/card@2x.jpg?1650709679",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1262520/covers/list@2x.jpg?1650709679"
+            }
+          }
+        },
+        {
+          "ID": 2897352,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 2897352,
+            "DifficultyName": "Expert: Lena",
+            "BPM": 144.0,
+            "Length": 228000.0,
+            "StarRating": 5.38,
+            "EndTimeObjectCount": 265,
+            "TotalObjectCount": 999,
+            "Metadata": {
+              "Title": "Koi Kou Enishi",
+              "title_unicode": "恋ひ恋ふ縁",
+              "Artist": "KOTOKO",
+              "artist_unicode": "KOTOKO",
+              "Author": {
+                "OnlineID": 1125647,
+                "Username": "Shikibe Mayu",
+                "CountryString": "Unknown"
+              },
+              "Source": "千恋＊万花",
+              "tags": "shizuku- kazato asa kowari sunazuka akira newton- amateurre petal matha -_matha_- senren banka yuzusoft famishin satoru inohara 井ノ原 智 angel note eroge opening full version video game pop japanese",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 3.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 8.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1404864/covers/cover@2x.jpg?1650870023",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1404864/covers/card@2x.jpg?1650870023",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1404864/covers/list@2x.jpg?1650870023"
+            }
+          }
+        },
+        {
+          "ID": 2986202,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 2986202,
+            "DifficultyName": "Insane",
+            "BPM": 138.0,
+            "Length": 181000.0,
+            "StarRating": 4.41,
+            "EndTimeObjectCount": 338,
+            "TotalObjectCount": 846,
+            "Metadata": {
+              "Title": "Beroberobe",
+              "title_unicode": "Beroberobe",
+              "Artist": "BUTAOTOME",
+              "artist_unicode": "BUTAOTOME",
+              "Author": {
+                "OnlineID": 4272841,
+                "Username": "dblade",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.2,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1452330/covers/cover@2x.jpg?1625891426",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1452330/covers/card@2x.jpg?1625891426",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1452330/covers/list@2x.jpg?1625891426"
+            }
+          }
+        },
+        {
+          "ID": 4591327,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 4591327,
+            "DifficultyName": "Insane",
+            "BPM": 128.0,
+            "Length": 207000.0,
+            "StarRating": 4.29,
+            "EndTimeObjectCount": 205,
+            "TotalObjectCount": 605,
+            "Metadata": {
+              "Title": "All My People",
+              "title_unicode": "All My People",
+              "Artist": "ALEXANDRA STAN vs MANILLA MANIACS",
+              "artist_unicode": "ALEXANDRA STAN vs MANILLA MANIACS",
+              "Author": {
+                "OnlineID": 4917316,
+                "Username": "Amnesia Haze",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.5,
+              "ApproachRate": 8.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2174653/covers/cover@2x.jpg?1716996651",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2174653/covers/card@2x.jpg?1716996651",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2174653/covers/list@2x.jpg?1716996651"
+            }
+          }
+        },
+        {
+          "ID": 1857484,
+          "Mods": "",
+          "BeatmapInfo": {
+            "OnlineID": 1857484,
+            "DifficultyName": "terminal.Accelerate",
+            "BPM": 195.0,
+            "Length": 314000.0,
+            "StarRating": 7.06,
+            "EndTimeObjectCount": 956,
+            "TotalObjectCount": 1640,
+            "Metadata": {
+              "Title": "Extra Mode",
+              "title_unicode": "Extra Mode",
+              "Artist": "USAO",
+              "artist_unicode": "USAO",
+              "Author": {
+                "OnlineID": 1715720,
+                "Username": "Asphyxia",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "melloe collab collaboration hardcore tano*c speed ball evolution remix kick's for liberation 5 long ver. dj noriken",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.3,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/888668/covers/cover@2x.jpg?1647498908",
+              "card@2x": "https://assets.ppy.sh/beatmaps/888668/covers/card@2x.jpg?1647498908",
+              "list@2x": "https://assets.ppy.sh/beatmaps/888668/covers/list@2x.jpg?1647498908"
+            }
+          }
+        }
+      ],
       "StartDate": "2024-08-30T01:00:00+01:00",
       "Matches": [
         34,
