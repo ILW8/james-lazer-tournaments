@@ -367,14 +367,14 @@
     {
       "ID": 46,
       "Team1Acronym": "CC",
-      "Team1Score": null,
+      "Team1Score": 3,
       "Team2Acronym": "TFT",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [],
-      "Current": true,
-      "Date": "2024-08-26T00:00:00+00:00",
+      "Current": false,
+      "Date": "2024-08-26T01:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -305,
@@ -1089,10 +1089,10 @@
     {
       "ID": 62,
       "Team1Acronym": "SKI",
-      "Team1Score": null,
+      "Team1Score": 1,
       "Team2Acronym": "KYS",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [
         {
@@ -1299,7 +1299,7 @@
           "BeatmapID": 3220743
         }
       ],
-      "Current": false,
+      "Current": true,
       "Date": "2024-08-30T01:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -1338,9 +1338,9 @@
     },
     {
       "ID": 43,
-      "Team1Acronym": "ELK",
+      "Team1Acronym": "GRE",
       "Team1Score": null,
-      "Team2Acronym": "KON",
+      "Team2Acronym": "TFT",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -1353,9 +1353,10 @@
         "Y": 596
       },
       "Acronyms": [
-        "ELK",
-        "KON"
+        "GRE",
+        "TFT"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -1546,7 +1547,7 @@
       "ID": 61,
       "Team1Acronym": "MAN",
       "Team1Score": null,
-      "Team2Acronym": "XX_",
+      "Team2Acronym": "KYS",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -1616,7 +1617,7 @@
       },
       "Acronyms": [
         "MAN",
-        "XX_"
+        "KYS"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
@@ -2830,10 +2831,10 @@
     {
       "ID": 23,
       "Team1Acronym": "MON",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "GRE",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [
         {
@@ -2888,7 +2889,6 @@
         "MON",
         "GRE"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -3129,7 +3129,7 @@
       "ID": 21,
       "Team1Acronym": "CRY",
       "Team1Score": null,
-      "Team2Acronym": "-GR",
+      "Team2Acronym": "MON",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -3143,7 +3143,7 @@
       },
       "Acronyms": [
         "CRY",
-        "-GR"
+        "MON"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
