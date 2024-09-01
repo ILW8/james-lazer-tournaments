@@ -108,7 +108,7 @@
         }
       ],
       "Current": false,
-       "Date": "2024-08-18T16:00:00+01:00",
+      "Date": "2024-08-18T16:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": -311,
@@ -2108,7 +2108,7 @@
     },
     {
       "ID": 42,
-      "Team1Acronym": "NAT",
+      "Team1Acronym": "RAM",
       "Team1Score": null,
       "Team2Acronym": "ELK",
       "Team2Score": null,
@@ -2189,9 +2189,10 @@
         "Y": 595
       },
       "Acronyms": [
-        "NAT",
+        "RAM",
         "ELK"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -3279,10 +3280,10 @@
     {
       "ID": 4,
       "Team1Acronym": "DAN",
-      "Team1Score": 0,
+      "Team1Score": 6,
       "Team2Acronym": "RAM",
       "Team2Score": 0,
-      "Completed": false,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [
         {
@@ -3334,6 +3335,56 @@
           "Team": "Red",
           "Type": "Pick",
           "BeatmapID": 3117956
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 835057
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 1707910
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4718580
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2232924
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4108775
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4591327
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2216818
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4131382
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4344609
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2256378
         }
       ],
       "Current": true,
@@ -3347,7 +3398,6 @@
         "DAN",
         "RAM"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -3556,6 +3606,7 @@
     },
     {
       "ID": 8,
+      "Team1Acronym": "DAN",
       "Team1Score": null,
       "Team2Acronym": "LIL",
       "Team2Score": null,
@@ -3621,8 +3672,10 @@
         "Y": -1161
       },
       "Acronyms": [
+        "DAN",
         "LIL"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
