@@ -92,12 +92,73 @@
     {
       "ID": 2,
       "Team1Acronym": "INV",
-      "Team1Score": 0,
+      "Team1Score": 2,
       "Team2Acronym": "POP",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 6,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3611958
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2270749
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 358273
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3599392
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3082675
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2223745
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1409814
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3046747
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3688679
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4786716
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3121051
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3750192
+        }
+      ],
       "Current": true,
       "Date": "2024-09-22T16:45:00+00:00",
       "ConditionalMatches": [],
@@ -137,6 +198,7 @@
     },
     {
       "ID": 4,
+      "Team1Acronym": "POP",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -149,7 +211,10 @@
         "X": 510,
         "Y": 160
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "POP"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
@@ -218,6 +283,7 @@
     },
     {
       "ID": 14,
+      "Team1Acronym": "INV",
       "Team1Score": null,
       "Team2Acronym": "KAH",
       "Team2Score": null,
@@ -232,8 +298,10 @@
         "Y": 630
       },
       "Acronyms": [
+        "INV",
         "KAH"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
