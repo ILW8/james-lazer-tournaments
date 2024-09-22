@@ -1032,7 +1032,7 @@
       "ID": 34,
       "Team1Acronym": "Burg",
       "Team1Score": null,
-      "Team2Acronym": "MIG",
+      "Team2Acronym": "Poru",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -1112,7 +1112,7 @@
       },
       "Acronyms": [
         "Burg",
-        "MIG"
+        "Poru"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
@@ -2396,10 +2396,10 @@
     {
       "ID": 19,
       "Team1Acronym": "ABB",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "Drag",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 4,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [
         {
@@ -2446,9 +2446,64 @@
           "Team": "Red",
           "Type": "Pick",
           "BeatmapID": 3205100
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3524523
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4091132
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4640176
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3931741
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2623025
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 958308
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4325459
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4787169
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4456672
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 776594
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3064047
         }
       ],
-      "Current": false,
+      "Current": true,
       "Date": "2024-09-22T07:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -2459,7 +2514,6 @@
         "ABB",
         "Drag"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -2598,10 +2652,10 @@
     {
       "ID": 31,
       "Team1Acronym": "Poru",
-      "Team1Score": 0,
+      "Team1Score": 4,
       "Team2Acronym": "Burg",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [
         {
@@ -2648,9 +2702,64 @@
           "Team": "Blue",
           "Type": "Pick",
           "BeatmapID": 2017595
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3256307
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 958308
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3860442
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3524523
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4787169
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4640176
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4091132
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4325459
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3931741
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4022011
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3064047
         }
       ],
-      "Current": true,
+      "Current": false,
       "Date": "2024-09-22T06:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -2760,6 +2869,7 @@
     },
     {
       "ID": 21,
+      "Team1Acronym": "ABB",
       "Team1Score": null,
       "Team2Acronym": "-GR",
       "Team2Score": null,
@@ -2774,13 +2884,15 @@
         "Y": -503
       },
       "Acronyms": [
+        "ABB",
         "-GR"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 29,
-      "Team1Acronym": "MIO",
+      "Team1Acronym": "Burg",
       "Team1Score": null,
       "Team2Acronym": "Poru",
       "Team2Score": null,
@@ -2866,9 +2978,10 @@
         "Y": -72
       },
       "Acronyms": [
-        "MIO",
+        "Burg",
         "Poru"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
