@@ -10,13 +10,13 @@
     {
       "ID": 1,
       "Team1Acronym": "DT2",
-      "Team1Score": null,
+      "Team1Score": 0,
       "Team2Acronym": "RÖV",
-      "Team2Score": null,
+      "Team2Score": 0,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2024-09-22T17:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -54,13 +54,13 @@
     {
       "ID": 5,
       "Team1Acronym": "AND",
-      "Team1Score": 0,
+      "Team1Score": 6,
       "Team2Acronym": "BAK",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
-      "Current": true,
+      "Current": false,
       "Date": "2024-09-22T15:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -70,16 +70,15 @@
         "AND",
         "BAK"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 7,
       "Team1Acronym": "IXF",
-      "Team1Score": null,
+      "Team1Score": 6,
       "Team2Acronym": "ITS",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -92,7 +91,6 @@
         "IXF",
         "ITS"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -114,7 +112,9 @@
     },
     {
       "ID": 6,
+      "Team1Acronym": "AND",
       "Team1Score": null,
+      "Team2Acronym": "IXF",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -126,7 +126,11 @@
         "X": 250,
         "Y": 290
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "AND",
+        "IXF"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -164,7 +168,9 @@
     },
     {
       "ID": 21,
+      "Team1Acronym": "BAK",
       "Team1Score": null,
+      "Team2Acronym": "ITS",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -175,7 +181,11 @@
       "Position": {
         "Y": 1040
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "BAK",
+        "ITS"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -305,12 +315,78 @@
     {
       "ID": 9,
       "Team1Acronym": "BOU",
-      "Team1Score": null,
+      "Team1Score": 3,
       "Team2Acronym": "GRE",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 6,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 244230
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2155904
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2895842
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4068582
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3853099
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3513644
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3477929
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4418140
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 881313
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4782956
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2670817
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4786732
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2480417
+        }
+      ],
       "Current": false,
       "Date": "2024-09-22T16:00:00+01:00",
       "ConditionalMatches": [],
@@ -445,6 +521,7 @@
     },
     {
       "ID": 28,
+      "Team1Acronym": "BOU",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -456,7 +533,10 @@
       "Position": {
         "Y": 1280
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "BOU"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -569,6 +649,7 @@
     },
     {
       "ID": 10,
+      "Team1Acronym": "GRE",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -581,7 +662,10 @@
         "X": 250,
         "Y": 530
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "GRE"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
