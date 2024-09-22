@@ -160,7 +160,7 @@
         }
       ],
       "Current": false,
-      "Date": "2024-09-22T16:45:00+00:00",
+      "Date": "2024-09-22T17:45:00+01:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 250,
@@ -243,7 +243,7 @@
           "BeatmapID": 1714634
         }
       ],
-      "Current": true,
+      "Current": false,
       "Date": "2024-09-22T18:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -273,7 +273,8 @@
         "Y": 160
       },
       "Acronyms": [
-        "POP"
+        "POP",
+        "PIN"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 7
@@ -303,13 +304,13 @@
     {
       "ID": 15,
       "Team1Acronym": "TEA",
-      "Team1Score": 0,
+      "Team1Score": 3,
       "Team2Acronym": "KAH",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 6,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2024-09-21T18:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -349,6 +350,7 @@
       "ID": 14,
       "Team1Acronym": "INV",
       "Team1Score": null,
+      "Team2Acronym": "KAH",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
