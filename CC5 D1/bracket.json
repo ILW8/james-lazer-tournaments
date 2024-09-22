@@ -159,7 +159,7 @@
           "BeatmapID": 3750192
         }
       ],
-      "Current": true,
+      "Current": false,
       "Date": "2024-09-22T16:45:00+00:00",
       "ConditionalMatches": [],
       "Position": {
@@ -176,13 +176,74 @@
     {
       "ID": 8,
       "Team1Acronym": "PIN",
-      "Team1Score": null,
+      "Team1Score": 6,
       "Team2Acronym": "BAT",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
-      "Current": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 358273
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4786716
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3611958
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3200833
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3121051
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3599392
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3046747
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2223745
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3082675
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3616997
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2270749
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1714634
+        }
+      ],
+      "Current": true,
       "Date": "2024-09-22T18:00:00+01:00",
       "ConditionalMatches": [],
       "Position": {
@@ -193,13 +254,13 @@
         "PIN",
         "BAT"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 4,
       "Team1Acronym": "POP",
       "Team1Score": null,
+      "Team2Acronym": "PIN",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -242,10 +303,10 @@
     {
       "ID": 15,
       "Team1Acronym": "TEA",
-      "Team1Score": 3,
+      "Team1Score": 0,
       "Team2Acronym": "KAH",
-      "Team2Score": 6,
-      "Completed": true,
+      "Team2Score": 0,
+      "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
@@ -263,6 +324,7 @@
     },
     {
       "ID": 11,
+      "Team1Acronym": "BAT",
       "Team1Score": null,
       "Team2Acronym": "THE",
       "Team2Score": null,
@@ -277,15 +339,16 @@
         "Y": 520
       },
       "Acronyms": [
+        "BAT",
         "THE"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
       "ID": 14,
       "Team1Acronym": "INV",
       "Team1Score": null,
-      "Team2Acronym": "KAH",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
