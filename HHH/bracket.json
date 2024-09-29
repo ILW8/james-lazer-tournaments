@@ -1922,7 +1922,7 @@
     },
     {
       "ID": 57,
-      "Team1Acronym": "-GR",
+      "Team1Acronym": "Migu",
       "Team1Score": null,
       "Team2Acronym": "XX_",
       "Team2Score": null,
@@ -2013,9 +2013,10 @@
         "Y": 1021
       },
       "Acronyms": [
-        "-GR",
+        "Migu",
         "XX_"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -3020,12 +3021,83 @@
     {
       "ID": 21,
       "Team1Acronym": "ABB",
-      "Team1Score": null,
+      "Team1Score": 6,
       "Team2Acronym": "Migu",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 4,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1569410
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2354377
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2829645
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1306193
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4660860
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1529551
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3134105
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2035798
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1121504
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3356285
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2225505
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4065632
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4455406
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 386728
+        }
+      ],
       "Current": true,
       "Date": "2024-09-29T04:00:00+01:00",
       "ConditionalMatches": [],
@@ -3037,7 +3109,6 @@
         "ABB",
         "Migu"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -3209,7 +3280,7 @@
     },
     {
       "ID": 25,
-      "Team1Acronym": "ZON",
+      "Team1Acronym": "ABB",
       "Team1Score": null,
       "Team2Acronym": "Kenz",
       "Team2Score": null,
@@ -3290,9 +3361,10 @@
         "Y": -287
       },
       "Acronyms": [
-        "ZON",
+        "ABB",
         "Kenz"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
