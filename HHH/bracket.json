@@ -2396,7 +2396,7 @@
     },
     {
       "ID": 50,
-      "Team1Acronym": "LIL",
+      "Team1Acronym": "Koza",
       "Team1Score": null,
       "Team2Acronym": "MIO",
       "Team2Score": null,
@@ -2411,9 +2411,10 @@
         "Y": 811
       },
       "Acronyms": [
-        "LIL",
+        "Koza",
         "MIO"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
@@ -3505,10 +3506,10 @@
     {
       "ID": 8,
       "Team1Acronym": "Koza",
-      "Team1Score": null,
+      "Team1Score": 1,
       "Team2Acronym": "Loui",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 6,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [
         {
@@ -3560,6 +3561,61 @@
           "Team": "Blue",
           "Type": "Pick",
           "BeatmapID": 2232119
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4218607
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3917717
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 219571
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1760614
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4575531
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2709838
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2465620
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 666445
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4670699
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3682189
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4292547
         }
       ],
       "Current": true,
@@ -3741,7 +3797,7 @@
     },
     {
       "ID": 16,
-      "Team1Acronym": "RAM",
+      "Team1Acronym": "Loui",
       "Team1Score": null,
       "Team2Acronym": "ABB",
       "Team2Score": null,
@@ -3817,9 +3873,10 @@
         "Y": -722
       },
       "Acronyms": [
-        "RAM",
+        "Loui",
         "ABB"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
