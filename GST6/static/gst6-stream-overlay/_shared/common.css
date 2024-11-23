@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'MADE Tommy Soft';
+    src: url('../_shared/fonts/made_tommy_soft_bold.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../_shared/fonts/gotham_black.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'ARNewHeiGB';
+    src: url('../_shared/fonts/FOTC-ARNewHeiGBUltra.otf');
+    font-weight: 700;
+}
+
+:root {
+    font-family: 'MADE Tommy Soft', 'ARNewHeiGB', sans-serif;
+    font-weight: 700;
+    --red: #d87665;
+    --blue: #ffe88c;
+    --red-ban: #bc432d;
+    --blue-ban: #f3c341;
+    --default: #916f63;
+}

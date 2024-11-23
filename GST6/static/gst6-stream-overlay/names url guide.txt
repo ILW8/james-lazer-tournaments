@@ -1,0 +1,8 @@
+http://127.0.0.1:24050/gst6-stream-overlay/names/?id=0&color=red&fontSize=24&placeholder=Waiting%20for%20P1...&flashBackground=true&debug=false
+
+id		client number (0–3)
+color		red (left) / blue (right)
+fontSize	font size
+placeholder	text to show when player not in slot
+flashBackground	true / false, flash red on miss
+debug		true / false, show static background to help alignment in obs

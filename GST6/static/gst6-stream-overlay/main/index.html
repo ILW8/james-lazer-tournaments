@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../_shared/common.css">
+	<script src="../_shared/utils.js"></script>
+	<script src="../_shared/deps/countUp.js"></script>
+	<script src="../_shared/deps/reconnecting-websocket.min.js"></script>
+	<script src="../_shared/deps/jquery.min.js"></script>
+</head>
+
+<body>
+	<div id="main">
+		<div class="main-tempbg"></div>
+		<div class="main-container">
+			<div class="main-panel left">
+				<div class="header">
+					<div class="team red">
+						<div class="team-name-container red">
+							<div id="name_red_stroke" class="team-name red stroke"></div>
+							<div id="name_red" class="team-name red"></div>
+						</div>
+						<div id="points_red" class="team-points red"></div>
+					</div>
+					<div class="team blue">
+						<div class="team-name-container blue">
+							<div id="name_blue_stroke" class="team-name blue stroke"></div>
+							<div id="name_blue" class="team-name blue"></div>
+						</div>
+						<div id="points_blue" class="team-points blue"></div>
+					</div>
+				</div>
+				<div class="gameplay-area">
+					<div class="gameplay-client"></div>
+					<div class="gameplay-client"></div>
+					<div class="gameplay-client"></div>
+					<div class="gameplay-client"></div>
+				</div>
+				<div class="score-area">
+					<div class="score-bars">
+						<div class="scorebar-container red">
+							<div id="scorebar_red" class="score-bar red"></div>
+						</div>
+						<div class="scorebar-container blue">
+							<div id="scorebar_blue" class="score-bar blue"></div>
+						</div>
+					</div>
+					<div class="team-scores">
+						<div id="score_container_red" class="score-container red winning">
+							<div id="score_red_stroke" class="score red stroke">0</div>
+							<div id="score_red" class="score red">0</div>
+						</div>
+						<div id="score_container_blue" class="score-container blue">
+							<div id="score_blue_stroke" class="score blue stroke">0</div>
+							<div id="score_blue" class="score blue">0</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-panel right">
+				<div class="map-container">
+					<div class="map-slot-container">
+						<div id="map_slot_stroke" class="map-slot stroke">XX</div>
+						<div id="map_slot" class="map-slot base-text">XX</div>
+					</div>
+					<div class="map-main-container">
+						<div id="map_image" class="map-background"></div>
+						<div class="map-stats">
+							<div class="map-stats-header">
+								<div class="map-title" id="title">Title</div>
+								<div class="map-artist" id="artist">ARTIST</div>
+							</div>
+							<div class="map-stats-attributes">
+								<div class="attributes-row">
+									<div class="attributes-item">
+										<div class="attrib-value" id="sr">0.00</div>
+										<div class="attrib-desc">stars</div>
+									</div>
+									<div class="attributes-item">
+										<div class="attrib-value" id="bpm">0</div>
+										<div class="attrib-desc">bpm</div>
+									</div>
+									<div class="attributes-item">
+										<div class="attrib-value" id="len">0:00</div>
+										<div class="attrib-desc">length</div>
+									</div>
+								</div>
+								<div class="attributes-row">
+									<div class="attributes-item">
+										<div class="attrib-desc">cs</div>
+										<div class="attrib-value" id="cs">0</div>
+									</div>
+									<div class="attributes-item">
+										<div class="attrib-desc">ar</div>
+										<div class="attrib-value" id="ar">0</div>
+									</div>
+									<div class="attributes-item">
+										<div class="attrib-desc">od</div>
+										<div class="attrib-value" id="od">0</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="pick_label" class="picked-by-label">
+							<div id="pick_label_text" class="picked-by-text base-text">PICKED</div>
+							<div id="pick_label_text_stroke" class="picked-by-text stroke">PICKED</div>
+						</div>
+					</div>
+				</div>
+				<div class="chat-area">
+					<div class="chat-container">
+						<div class="chat" id="chat"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>

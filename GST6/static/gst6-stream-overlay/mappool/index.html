@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../_shared/common.css">
+    <script src="../_shared/utils.js"></script>
+    <script src="../_shared/deps/countUp.js"></script>
+    <script src="../_shared/deps/reconnecting-websocket.min.js"></script>
+    <script src="../_shared/deps/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div class="main-container">
+            <div class="main-panel left">
+                <div class="header">
+                    <div class="team red">
+                        <div class="team-name-container red">
+                            <div id="name_red_stroke" class="team-name red stroke"></div>
+                            <div id="name_red" class="team-name red"></div>
+                        </div>
+                        <div id="points_red" class="team-points red"></div>
+                    </div>
+                    <div class="team blue">
+                        <div class="team-name-container blue">
+                            <div id="name_blue_stroke" class="team-name blue stroke"></div>
+                            <div id="name_blue" class="team-name blue"></div>
+                        </div>
+                        <div id="points_blue" class="team-points blue"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-panel right"></div>
+        </div>
+        <div class="mappool-area">
+            <div id="timeline" class="timeline-container"></div>
+            <div id="mappool_container" class="mappool-container"></div>
+        </div>
+        <div class="queue-container">
+            <div class="queue-title">
+                <div class="queue-text base-text">NEXT</div>
+                <div class="queue-text stroke">NEXT</div>
+            </div>
+            <div id="queue" class="queue"></div>
+            <div id="queue_phase" class="queue-item phase">
+                <div id="queue_phase_text" class="queue-text base-text">PH. 1</div>
+                <div id="queue_phase_text_stroke" class="queue-text stroke">PH. 1</div>
+            </div>
+        </div>
+        <div class="chat-container">
+            <div class="chat" id="chat"></div>
+        </div>
+        <div class="controls">
+            <div id="undo" class="control-button" onclick="undoMap()">UNDO LAST PICK</div>
+            <div id="advance" class="control-button" onclick="advanceQueue()">ADVANCE QUEUE</div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
