@@ -791,7 +791,7 @@
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2024-11-23T21:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
@@ -930,14 +930,85 @@
     {
       "ID": 62,
       "Team1Acronym": "Dark",
-      "Team1Score": null,
+      "Team1Score": 6,
       "Team2Acronym": "Usel",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 4,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
-      "Current": true,
-      "Date": "2024-11-23T17:30:00+00:00",
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4598262
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4860085
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 60298
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 1415526
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1610852
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2022030
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4529203
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3999100
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4724708
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3807785
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2659640
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3306030
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4865471
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2238336
+        }
+      ],
+      "Current": false,
+      "Date": "2024-11-23T17:45:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 11,
@@ -947,7 +1018,6 @@
         "Dark",
         "Usel"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -1020,6 +1090,7 @@
       "ID": 61,
       "Team1Acronym": "Lumi",
       "Team1Score": null,
+      "Team2Acronym": "Dark",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -1032,7 +1103,8 @@
         "Y": 1092
       },
       "Acronyms": [
-        "Lumi"
+        "Lumi",
+        "Dark"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
