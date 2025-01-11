@@ -11,7 +11,7 @@
         "mixers": 255,
         "sync": 0,
         "flags": 0,
-        "volume": 0.31622490286827087,
+        "volume": 0.17782793939113617,
         "balance": 0.5,
         "enabled": true,
         "muted": false,
@@ -30,8 +30,8 @@
         "monitoring_type": 2,
         "private_settings": {}
     },
-    "current_scene": "Intro",
-    "current_program_scene": "Intro",
+    "current_scene": "Mappool",
+    "current_program_scene": "Team Intro",
     "scene_order": [
         {
             "name": "Intro"
@@ -100,8 +100,8 @@
     "current_transition": "Fade",
     "transition_duration": 300,
     "preview_locked": false,
-    "scaling_enabled": false,
-    "scaling_level": 0,
+    "scaling_enabled": true,
+    "scaling_level": -7,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
@@ -820,7 +820,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 15,
+                "id_counter": 16,
                 "items": [
                     {
                         "name": "osu0",
@@ -901,10 +901,10 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "lazer",
-                        "source_uuid": "16bf809b-1e7c-413d-8bff-b685e05ad088",
+                        "name": "lazer gc",
+                        "source_uuid": "ba58f642-7688-421d-b143-1a2b4e043344",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": -281.0,
@@ -926,7 +926,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 1,
+                        "id": 16,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -958,8 +958,8 @@
                 "libobs.hide_scene_item.15": [],
                 "libobs.show_scene_item.4": [],
                 "libobs.hide_scene_item.4": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": []
+                "libobs.show_scene_item.16": [],
+                "libobs.hide_scene_item.16": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1043,14 +1043,15 @@
         },
         {
             "prev_ver": 503382018,
-            "name": "lazer",
-            "uuid": "16bf809b-1e7c-413d-8bff-b685e05ad088",
-            "id": "window_capture",
-            "versioned_id": "window_capture",
+            "name": "lazer gc",
+            "uuid": "ba58f642-7688-421d-b143-1a2b4e043344",
+            "id": "game_capture",
+            "versioned_id": "game_capture",
             "settings": {
-                "priority": 1,
+                "capture_mode": "window",
                 "window": "osu!:SDL_app:osu!.exe",
-                "cursor": false
+                "priority": 1,
+                "capture_cursor": false
             },
             "mixers": 255,
             "sync": 0,
@@ -1067,7 +1068,9 @@
                 "libobs.mute": [],
                 "libobs.unmute": [],
                 "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
+                "libobs.push-to-talk": [],
+                "hotkey_start": [],
+                "hotkey_stop": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1077,7 +1080,7 @@
                 {
                     "prev_ver": 503382018,
                     "name": "Color Key",
-                    "uuid": "1f087639-cc92-4e13-a904-b29234f805b3",
+                    "uuid": "5944fb7b-09b9-469f-84c9-e1495cfb313e",
                     "id": "color_key_filter",
                     "versioned_id": "color_key_filter_v2",
                     "settings": {
@@ -1110,7 +1113,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 8,
+                "id_counter": 9,
                 "items": [
                     {
                         "name": "osu0",
@@ -1191,10 +1194,10 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "lazer",
-                        "source_uuid": "16bf809b-1e7c-413d-8bff-b685e05ad088",
+                        "name": "lazer gc",
+                        "source_uuid": "ba58f642-7688-421d-b143-1a2b4e043344",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": -281.0,
@@ -1216,7 +1219,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 2,
+                        "id": 9,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -1248,8 +1251,8 @@
                 "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.8": [],
                 "libobs.hide_scene_item.8": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
+                "libobs.show_scene_item.9": [],
+                "libobs.hide_scene_item.9": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1396,16 +1399,16 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 4,
+                "id_counter": 5,
                 "items": [
                     {
-                        "name": "lazer",
-                        "source_uuid": "16bf809b-1e7c-413d-8bff-b685e05ad088",
+                        "name": "lazer gc",
+                        "source_uuid": "ba58f642-7688-421d-b143-1a2b4e043344",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": -283.0,
+                            "x": -281.0,
                             "y": 0.0
                         },
                         "scale": {
@@ -1424,7 +1427,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 1,
+                        "id": 5,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -1530,12 +1533,12 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
                 "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": []
+                "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.5": [],
+                "libobs.hide_scene_item.5": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1588,7 +1591,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 9,
+                "id_counter": 11,
                 "items": [
                     {
                         "name": "osu0",
@@ -1669,8 +1672,8 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "lazer",
-                        "source_uuid": "16bf809b-1e7c-413d-8bff-b685e05ad088",
+                        "name": "lazer gc",
+                        "source_uuid": "ba58f642-7688-421d-b143-1a2b4e043344",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -1694,7 +1697,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 2,
+                        "id": 11,
                         "group_item_backup": false,
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -1726,8 +1729,8 @@
                 "libobs.hide_scene_item.8": [],
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
+                "libobs.show_scene_item.11": [],
+                "libobs.hide_scene_item.11": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
