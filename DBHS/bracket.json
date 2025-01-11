@@ -10,10 +10,10 @@
     {
       "ID": 1,
       "Team1Acronym": "mrek",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "jixx",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -24,18 +24,68 @@
         "mrek",
         "jixx"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 9,
       "Team1Acronym": "mrek",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "Nein",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2340759
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2142522
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 840777
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 646609
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 31334
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 716954
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1701907
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 116128
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1949083
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 940239
+        }
+      ],
       "Current": false,
       "Date": "2025-01-10T21:00:00-05:00",
       "ConditionalMatches": [],
@@ -46,7 +96,6 @@
         "mrek",
         "Nein"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -74,10 +123,10 @@
     {
       "ID": 25,
       "Team1Acronym": "jixx",
-      "Team1Score": null,
+      "Team1Score": 0,
       "Team2Acronym": "Nein",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -96,10 +145,10 @@
     {
       "ID": 33,
       "Team1Acronym": "jixx",
-      "Team1Score": null,
+      "Team1Score": 0,
       "Team2Acronym": "Sats",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -147,7 +196,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-18T14:00:00-05:00",
+      "Date": "2025-01-19T16:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 190
@@ -169,7 +218,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-18T13:00:00-05:00",
+      "Date": "2025-01-19T13:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 190,
@@ -299,10 +348,10 @@
     {
       "ID": 11,
       "Team1Acronym": "ASec",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "[C]",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -316,7 +365,6 @@
         "ASec",
         "[C]"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -345,10 +393,10 @@
     {
       "ID": 27,
       "Team1Acronym": "Stix",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "[C]",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -362,7 +410,6 @@
         "Stix",
         "[C]"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -375,7 +422,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T07:00:00-05:00",
+      "Date": "2025-01-11T14:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 380,
@@ -391,10 +438,10 @@
     {
       "ID": 43,
       "Team1Acronym": "[C]",
-      "Team1Score": null,
+      "Team1Score": 0,
       "Team2Acronym": "Anro",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -832,7 +879,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T15:00:00-05:00",
+      "Date": "2025-01-18T20:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140
@@ -854,7 +901,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": true,
-      "Date": "2025-01-10T19:00:00-05:00",
+      "Date": "2025-01-10T23:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -900,7 +947,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-12T15:00:00-05:00",
+      "Date": "2025-01-19T15:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -946,7 +993,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T15:00:00-05:00",
+      "Date": "2025-01-18T16:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -1150,7 +1197,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-12T12:00:00-05:00",
+      "Date": "2025-01-19T12:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 820
@@ -1376,7 +1423,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T16:00:00-05:00",
+      "Date": "2025-01-12T18:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 380,
@@ -1399,7 +1446,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T12:00:00-05:00",
+      "Date": "2025-01-18T13:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 380,
@@ -1491,7 +1538,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-12T09:00:00-05:00",
+      "Date": "2025-01-19T09:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 380,
@@ -1507,10 +1554,10 @@
     {
       "ID": 52,
       "Team1Acronym": "pols",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "cyo",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -1524,16 +1571,15 @@
         "pols",
         "cyo"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 60,
       "Team1Acronym": "pols",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "Kehe",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -1547,20 +1593,70 @@
         "pols",
         "Kehe"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 68,
       "Team1Acronym": "pols",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "Tart",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 1701907
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1224754
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 646609
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2340759
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 716954
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 31334
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1352046
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1949083
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 116128
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2222635
+        }
+      ],
       "Current": false,
-      "Date": "2025-01-19T10:00:00-05:00",
+      "Date": "2025-01-10T19:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 570,
@@ -1570,16 +1666,15 @@
         "pols",
         "Tart"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 76,
       "Team1Acronym": "cyo",
-      "Team1Score": null,
+      "Team1Score": 0,
       "Team2Acronym": "Kehe",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -1599,10 +1694,10 @@
     {
       "ID": 84,
       "Team1Acronym": "cyo",
-      "Team1Score": null,
+      "Team1Score": 0,
       "Team2Acronym": "Tart",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -1629,7 +1724,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-18T11:00:00-05:00",
+      "Date": "2025-01-12T09:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 570,
@@ -1675,7 +1770,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T08:00:00-05:00",
+      "Date": "2025-01-11T10:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 760,
@@ -1698,7 +1793,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-12T09:00:00-05:00",
+      "Date": "2025-01-11T13:30:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 760,
@@ -1744,7 +1839,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T06:00:00-05:00",
+      "Date": "2025-01-11T10:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 760,
@@ -2135,7 +2230,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-19T10:00:00-05:00",
+      "Date": "2025-01-12T11:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1330,
@@ -2474,7 +2569,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-10T20:00:00-05:00",
+      "Date": "2025-01-11T21:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 380,
@@ -2497,7 +2592,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-10T19:00:00-05:00",
+      "Date": "2025-01-12T22:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 380,
@@ -2520,7 +2615,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T21:00:00-05:00",
+      "Date": "2025-01-17T21:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 380,
@@ -2543,7 +2638,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-12T15:00:00-05:00",
+      "Date": "2025-01-18T19:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 380,
@@ -2566,7 +2661,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T17:00:00-05:00",
+      "Date": "2025-01-17T19:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 380,
@@ -2589,7 +2684,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-12T16:00:00-05:00",
+      "Date": "2025-01-19T15:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 380,
@@ -2658,7 +2753,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-19T16:00:00-05:00",
+      "Date": "2025-01-18T16:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 570,
@@ -2750,7 +2845,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T10:00:00-05:00",
+      "Date": "2025-01-18T10:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 760,
@@ -2865,7 +2960,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-12T12:00:00-05:00",
+      "Date": "2025-01-11T12:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 760,
@@ -2888,7 +2983,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-18T18:00:00-05:00",
+      "Date": "2025-01-18T16:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 950,
@@ -2911,7 +3006,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-19T18:00:00-05:00",
+      "Date": "2025-01-11T18:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 950,
@@ -2957,7 +3052,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-19T16:00:00-05:00",
+      "Date": "2025-01-11T16:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 950,
@@ -2980,7 +3075,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-19T11:00:00-05:00",
+      "Date": "2025-01-19T08:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 950,
@@ -3026,7 +3121,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T08:00:00-05:00",
+      "Date": "2025-01-12T05:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -3049,7 +3144,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T09:00:00-05:00",
+      "Date": "2025-01-12T12:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -3072,7 +3167,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-12T12:00:00-05:00",
+      "Date": "2025-01-12T11:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -3095,7 +3190,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-12T10:00:00-05:00",
+      "Date": "2025-01-12T10:30:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -3118,7 +3213,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T13:00:00-05:00",
+      "Date": "2025-01-18T19:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -3480,7 +3575,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-19T09:00:00-05:00",
+      "Date": "2025-01-12T09:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 190,
@@ -3503,7 +3598,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T14:00:00-05:00",
+      "Date": "2025-01-11T16:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 190,
@@ -3549,7 +3644,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-19T10:00:00-05:00",
+      "Date": "2025-01-12T10:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 190,
@@ -3940,7 +4035,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T13:00:00-05:00",
+      "Date": "2025-01-12T17:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 760,
@@ -3963,7 +4058,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T14:00:00-05:00",
+      "Date": "2025-01-11T16:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 760,
@@ -4055,7 +4150,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-18T23:00:00-05:00",
+      "Date": "2025-01-17T23:30:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 950,
@@ -4124,7 +4219,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T11:00:00-05:00",
+      "Date": "2025-01-12T17:00:00+00:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -4216,7 +4311,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-11T14:00:00-05:00",
+      "Date": "2025-01-13T14:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1140,
@@ -4308,7 +4403,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-19T16:00:00-05:00",
+      "Date": "2025-01-18T22:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1330,
@@ -4354,7 +4449,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-19T17:00:00-05:00",
+      "Date": "2025-01-18T21:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1330,
@@ -4377,7 +4472,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-01-18T12:00:00-05:00",
+      "Date": "2025-01-18T09:00:00-05:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1330,
