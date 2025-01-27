@@ -30,7 +30,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "_zlN8kxs_Jp6qU015mXbG",
+											"id": "8x6hTydKcOVLx2rGoUjIu",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -74,15 +74,17 @@
 						},
 						"feedbacks": [
 							{
-								"id": "q_6HyrKxK0dCWafvgcdnt",
+								"id": "eVpqsqExjTMiAMSU9JfyL",
 								"type": "replayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
-									"status": "recording",
-									"fg": 16777215,
-									"bg": 16711680
+									"status": "recording"
 								},
-								"isInverted": false
+								"isInverted": false,
+								"style": {
+									"bgcolor": 16711680,
+									"color": 16777215
+								}
 							}
 						],
 						"steps": {
@@ -90,9 +92,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "UJJlyv2qOFxYZ_ns4cQ3l",
+											"id": "ALwO6Dta2zYk1x7A31oHW",
 											"label": "drpV_jRVL:replayRecording",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayRecording",
 											"options": {
 												"functionID": "ReplayStartStopRecording"
@@ -132,12 +134,12 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "rl-aEw7f7ukzzh76wTEP9",
+											"id": "dnYo_wevaOdanNwSdR-aw",
 											"action": "replayJumpFrames",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"channel": "Current",
-												"value": -3600
+												"value": "-3600"
 											},
 											"delay": 0
 										}
@@ -174,12 +176,12 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "YZ9xX0hwZ-N8IGE0iSOFG",
+											"id": "5rIKmthz7S6w8KHaBpBFV",
 											"action": "replayJumpFrames",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"channel": "Current",
-												"value": -60
+												"value": "-60"
 											},
 											"delay": 0
 										}
@@ -216,12 +218,12 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "kAtWOWQArf5p8PZFRlx92",
+											"id": "gMTV35jy_W6BKwxUPsNOH",
 											"action": "replayJumpFrames",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"channel": "Current",
-												"value": 60
+												"value": "60"
 											},
 											"delay": 0
 										}
@@ -258,12 +260,12 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "w8syfJ9N5Ag-hM8xIsT88",
+											"id": "sOXlb4s9PuAuOrx7BkMCc",
 											"action": "replayJumpFrames",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"channel": "Current",
-												"value": 3600
+												"value": "3600"
 											},
 											"delay": 0
 										}
@@ -302,9 +304,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "8q-9yUoUNgTyfTukYbTcc",
+											"id": "rAsFN5qsMAaLZvrbsqxv1",
 											"label": "drpV_jRVL:command",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "command",
 											"options": {
 												"command": "ReplaySetSpeed Value=1",
@@ -349,9 +351,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "-01vNnPIA7CbDemccNlfn",
+											"id": "9EhDtNC9vsxwp9on1Yygf",
 											"label": "drpV_jRVL:command",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "command",
 											"options": {
 												"command": "ReplaySelectPreviousEvent",
@@ -388,15 +390,17 @@
 						},
 						"feedbacks": [
 							{
-								"id": "r9jeyYEa-Ge1nGOIqd8Ve",
+								"id": "0ewq15pkIdQ3QT9ICH-SL",
 								"type": "replaySelectedChannel",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
-									"channel": "A",
-									"fg": 16777215,
-									"bg": 16711680
+									"channel": "A"
 								},
-								"isInverted": false
+								"isInverted": false,
+								"style": {
+									"bgcolor": 16711680,
+									"color": 16777215
+								}
 							}
 						],
 						"steps": {
@@ -404,9 +408,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Qa1mm2uW4iw_k-r0L1C1x",
+											"id": "wfU_8J_UUihlZ6_RP8Lk6",
 											"action": "replaySelectChannel",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "replaySelectChannelA"
 											},
@@ -441,15 +445,17 @@
 						},
 						"feedbacks": [
 							{
-								"id": "ZD36fPDlmpbaZ4lg-FftD",
+								"id": "nlYLWk1Gx8HrkTAtO2UPk",
 								"type": "replaySelectedChannel",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
-									"channel": "B",
-									"fg": 16777215,
-									"bg": 16711680
+									"channel": "B"
 								},
-								"isInverted": false
+								"isInverted": false,
+								"style": {
+									"bgcolor": 16711680,
+									"color": 16777215
+								}
 							}
 						],
 						"steps": {
@@ -457,9 +463,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "OUczG-xO3EmKsAeWEkeOx",
+											"id": "jS53FuwETwLTQAY71wvyl",
 											"action": "replaySelectChannel",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "replaySelectChannelB"
 											},
@@ -496,16 +502,18 @@
 						},
 						"feedbacks": [
 							{
-								"id": "oWHUvY8mlpQ7pJECFO4zL",
+								"id": "ThPOzAY5XGvQCUmRfr3_F",
 								"type": "replayCamera",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"channel": "A",
-									"camera": 1,
-									"fg": 16777215,
-									"bg": 16711680
+									"camera": 1
 								},
-								"isInverted": false
+								"isInverted": false,
+								"style": {
+									"bgcolor": 16711680,
+									"color": 16777215
+								}
 							}
 						],
 						"steps": {
@@ -513,9 +521,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "TJIDt5qMviOqQbCTs2-1m",
+											"id": "6CeAIybm9kywbloOwsUlt",
 											"label": "drpV_jRVL:replayACamera",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayACamera",
 											"options": {
 												"functionID": "ReplayACamera1"
@@ -523,9 +531,9 @@
 											"delay": 0
 										},
 										{
-											"id": "iddE-NAkT8rQjm2yNhQFT",
+											"id": "72jvu9jyd5aIK_4HRCx9a",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 1 Title",
 												"setting": "SetCCLiftR",
@@ -536,9 +544,9 @@
 											"delay": 0
 										},
 										{
-											"id": "fIyogAXKKoWgLcdZICZMm",
+											"id": "m2ctN7_p2b9o2QQVmgb5_",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 2 Title",
 												"setting": "SetCCLiftR",
@@ -549,9 +557,9 @@
 											"delay": 0
 										},
 										{
-											"id": "2gdrhtlqVG4WLz-Djj5WP",
+											"id": "R0cqZOoQn-N1qu7IbcmPd",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 3 Title",
 												"setting": "SetCCLiftR",
@@ -562,9 +570,9 @@
 											"delay": 0
 										},
 										{
-											"id": "rCSJgsAap7_QrjDih03vs",
+											"id": "5PeMQxTzpLwnpHkzrxNO7",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 4 Title",
 												"setting": "SetCCLiftR",
@@ -575,9 +583,9 @@
 											"delay": 0
 										},
 										{
-											"id": "kJCuuAo6XF6N7JcTq2Z2M",
+											"id": "pNM79qNi_s0pFPrsvxlEU",
 											"action": "audioBus",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Flux 2020 Showreel.mov",
 												"value": "A",
@@ -616,16 +624,18 @@
 						},
 						"feedbacks": [
 							{
-								"id": "lcgxP6qOtBbyRbqV_HswE",
+								"id": "-VmlidjZRYQZ-Jj91y669",
 								"type": "replayCamera",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"channel": "A",
-									"camera": 2,
-									"fg": 16777215,
-									"bg": 16711680
+									"camera": 2
 								},
-								"isInverted": false
+								"isInverted": false,
+								"style": {
+									"bgcolor": 16711680,
+									"color": 16777215
+								}
 							}
 						],
 						"steps": {
@@ -633,9 +643,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "XmX8bORZpKF4MYyb-QJSJ",
+											"id": "kukArSSAfS1YgkF9CqrcH",
 											"label": "drpV_jRVL:replayACamera",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayACamera",
 											"options": {
 												"functionID": "ReplayACamera2"
@@ -643,9 +653,9 @@
 											"delay": 0
 										},
 										{
-											"id": "t6tqEav9PubPbLKWoTCOK",
+											"id": "1uv0aenA2lt7d7FA-PrmC",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 1 Title",
 												"setting": "SetCCLiftR",
@@ -656,9 +666,9 @@
 											"delay": 0
 										},
 										{
-											"id": "wfAjKGgFSCB_0oF186PhO",
+											"id": "jG_stQF3KEzuz9a0vuHCY",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 2 Title",
 												"setting": "SetCCLiftR",
@@ -669,9 +679,9 @@
 											"delay": 0
 										},
 										{
-											"id": "tZByGZnRoiTmwfqobAqLp",
+											"id": "ZdMxQzlNZjvUIcWIG2LkC",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 3 Title",
 												"setting": "SetCCLiftR",
@@ -682,9 +692,9 @@
 											"delay": 0
 										},
 										{
-											"id": "hjGYAUgaKFvjBSyj7ZHyM",
+											"id": "eF0u_0m8Zg2KL8SGZkKus",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 4 Title",
 												"setting": "SetCCLiftR",
@@ -695,9 +705,9 @@
 											"delay": 0
 										},
 										{
-											"id": "vaEhpzuXoSM8ed5TgfSlL",
+											"id": "BGCg07MFixCY9N21otZnp",
 											"action": "audioBus",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Flux 2020 Showreel.mov",
 												"value": "A",
@@ -736,16 +746,18 @@
 						},
 						"feedbacks": [
 							{
-								"id": "TWs1Ld7ETN4rR8v1pQRwA",
+								"id": "5sny_j6pUS3lHIYhIkbyu",
 								"type": "replayCamera",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"channel": "A",
-									"camera": 3,
-									"fg": 16777215,
-									"bg": 16711680
+									"camera": 3
 								},
-								"isInverted": false
+								"isInverted": false,
+								"style": {
+									"bgcolor": 16711680,
+									"color": 16777215
+								}
 							}
 						],
 						"steps": {
@@ -753,9 +765,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "LKQIByCyBEFdr7jI9E_sQ",
+											"id": "mq2X8B4ueRcZiia2xCv4L",
 											"label": "drpV_jRVL:replayACamera",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayACamera",
 											"options": {
 												"functionID": "ReplayACamera3"
@@ -763,9 +775,9 @@
 											"delay": 0
 										},
 										{
-											"id": "JMPG9EX6KQ23PPRlPYIxH",
+											"id": "xL_rH6z5EzCXr3eLFo_mU",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 1 Title",
 												"setting": "SetCCLiftR",
@@ -776,9 +788,9 @@
 											"delay": 0
 										},
 										{
-											"id": "sNTnf6_YGbDBjbB4d0dX6",
+											"id": "zko_kA4rWALiAjekp44sd",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 2 Title",
 												"setting": "SetCCLiftR",
@@ -789,9 +801,9 @@
 											"delay": 0
 										},
 										{
-											"id": "q_dB2FqWggO_WO5w0D5_t",
+											"id": "cw7f9ujYpYmpy5IwlOeAZ",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 3 Title",
 												"setting": "SetCCLiftR",
@@ -802,9 +814,9 @@
 											"delay": 0
 										},
 										{
-											"id": "tQZBfjUGLf_K8oTxIEcxg",
+											"id": "yQE4zftPx02o4pHqYosfP",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 4 Title",
 												"setting": "SetCCLiftR",
@@ -845,16 +857,18 @@
 						},
 						"feedbacks": [
 							{
-								"id": "Ufp6DLytpineIz2iwERnj",
+								"id": "vzLg2ygbfgCF2jy4fnq5E",
 								"type": "replayCamera",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"channel": "A",
-									"camera": 4,
-									"fg": 16777215,
-									"bg": 16711680
+									"camera": 4
 								},
-								"isInverted": false
+								"isInverted": false,
+								"style": {
+									"bgcolor": 16711680,
+									"color": 16777215
+								}
 							}
 						],
 						"steps": {
@@ -862,9 +876,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "YTYq197S2jC5yXPi59bFZ",
+											"id": "qoYBjqaokS8Jtb_h6IuOF",
 											"label": "drpV_jRVL:replayACamera",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayACamera",
 											"options": {
 												"functionID": "ReplayACamera4"
@@ -872,9 +886,9 @@
 											"delay": 0
 										},
 										{
-											"id": "_dgm0hjEiyihSkDjjY_Yc",
+											"id": "rib-Ky9WrSO4hgbhUBtVs",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 1 Title",
 												"setting": "SetCCLiftR",
@@ -885,9 +899,9 @@
 											"delay": 0
 										},
 										{
-											"id": "S4hVUG5h-R-6IgOvKpHlL",
+											"id": "UTn0z47Grc_NIqAcv3XOV",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 2 Title",
 												"setting": "SetCCLiftR",
@@ -898,9 +912,9 @@
 											"delay": 0
 										},
 										{
-											"id": "4kO-2EpZOjcLa3APRUxQb",
+											"id": "RMCF3fhG5P9O02JPqBXCw",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 3 Title",
 												"setting": "SetCCLiftR",
@@ -911,9 +925,9 @@
 											"delay": 0
 										},
 										{
-											"id": "JydZwFbo4mmwzbr2t6zRM",
+											"id": "knzG7B_J2vvbNTyUAD4q1",
 											"action": "setCC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Cam 4 Title",
 												"setting": "SetCCLiftR",
@@ -958,9 +972,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "EbOAnc50tHoCQFOSnFf0J",
+											"id": "ODJfgCQjKiFiXuDAUr34x",
 											"label": "drpV_jRVL:command",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "command",
 											"options": {
 												"command": "ReplaySetSpeed Value=0.5",
@@ -1005,9 +1019,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "ohJA-dg6hUpJVEFd0UOC4",
+											"id": "uWb6wcya1-bVeNI-I81SA",
 											"label": "drpV_jRVL:command",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "command",
 											"options": {
 												"command": "ReplaySelectNextEvent",
@@ -1050,9 +1064,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Y-0OKZ_yUNoAI4Zp-zNE7",
+											"id": "P4Zc09_X4oNOLgtm1gtFy",
 											"label": "drpV_jRVL:replayMoveInOut",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMoveInOut",
 											"options": {
 												"functionID": "ReplayMoveSelectedInPoint",
@@ -1095,9 +1109,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "dlao38VBpI-c-0uqD0pNH",
+											"id": "Kx_xn2E_PQdKc1PK7xyxF",
 											"label": "drpV_jRVL:replayMoveInOut",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMoveInOut",
 											"options": {
 												"functionID": "ReplayMoveSelectedInPoint",
@@ -1140,9 +1154,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "UOUipVEaQJNdJdbG5wSiA",
+											"id": "QFMEK7fi4z7YE6tdQumtN",
 											"label": "drpV_jRVL:replayPlaySelectedEventToOutput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayPlaySelectedEventToOutput",
 											"options": {
 												"channel": "Current"
@@ -1150,9 +1164,9 @@
 											"delay": 0
 										},
 										{
-											"id": "SpQ0_StjccaCjEp8rusiQ",
+											"id": "D_O5h7RlGrh1NBv6H8gIk",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replays - A",
 												"functionID": "AudioOn"
@@ -1194,9 +1208,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "dg53cx2EdLYEmIn7C5OZU",
+											"id": "ApG2gCH1xIK8xo-y6q2KB",
 											"label": "drpV_jRVL:replayPause",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayPause",
 											"options": {
 												"channel": "Current"
@@ -1238,9 +1252,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "BqRM6eby0EwNp0IoK0Dqp",
+											"id": "YJPGvIUQUj9u_iNtUrTav",
 											"label": "drpV_jRVL:replayMoveInOut",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMoveInOut",
 											"options": {
 												"functionID": "ReplayMoveSelectedOutPoint",
@@ -1283,9 +1297,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "x3oW0337zUUgS7XdtB4Fv",
+											"id": "2dReOq2k6oN4rtbFR_cPD",
 											"label": "drpV_jRVL:replayMoveInOut",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMoveInOut",
 											"options": {
 												"functionID": "ReplayMoveSelectedOutPoint",
@@ -1328,9 +1342,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Lz6rmX1B8IzbNZZl1ZJeW",
+											"id": "ZfXTiA0WOg1fz7RHfOPS0",
 											"label": "drpV_jRVL:command",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "command",
 											"options": {
 												"command": "ReplaySetSpeed Value=0.3",
@@ -1373,7 +1387,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "MXb8ITxllivPD0ZhqqnV1",
+											"id": "XcgQEexAVs1fEhfKG08GA",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -1421,13 +1435,14 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "2mpeqaCClBF_-BOHfT7N0",
+											"id": "XjPY5za1gj_AVjvw-MFyA",
 											"label": "drpV_jRVL:replayMark",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMark",
 											"options": {
 												"functionID": "ReplayMarkIn",
-												"value": 0
+												"value": "0",
+												"value2": "10"
 											},
 											"delay": 0
 										}
@@ -1466,13 +1481,14 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "L0lTvihSykIi4h0XeB20M",
+											"id": "dBAq_xVk8_sOJklm5G-Gs",
 											"label": "drpV_jRVL:replayMark",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMark",
 											"options": {
 												"functionID": "ReplayMarkOut",
-												"value": 0
+												"value": "0",
+												"value2": "10"
 											},
 											"delay": 0
 										}
@@ -1511,13 +1527,14 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "4JlLrA4Y9f-t0vWXW2XFl",
+											"id": "LXKDuG9AkNGdPZ6n3BnD8",
 											"label": "drpV_jRVL:replayMark",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMark",
 											"options": {
 												"functionID": "ReplayMarkInOut",
-												"value": 1
+												"value": "1",
+												"value2": "10"
 											},
 											"delay": 0
 										}
@@ -1556,13 +1573,14 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "zCC8aWWbvEixSuzNICWz1",
+											"id": "UDt6f8oaCkcUPbSPbM2By",
 											"label": "drpV_jRVL:replayMark",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMark",
 											"options": {
 												"functionID": "ReplayMarkInOut",
-												"value": 3
+												"value": "3",
+												"value2": "10"
 											},
 											"delay": 0
 										}
@@ -1601,13 +1619,14 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "E-isOQ9eEZN4cHo-etO2-",
+											"id": "iNWMAUz3zhpa7ZQqyfEhy",
 											"label": "drpV_jRVL:replayMark",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMark",
 											"options": {
 												"functionID": "ReplayMarkInOut",
-												"value": 5
+												"value": "5",
+												"value2": "10"
 											},
 											"delay": 0
 										}
@@ -1644,9 +1663,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "wKzZZMPONzqsluAYGYLmk",
+											"id": "GsjSx2XfwSM1ROPCQ96cd",
 											"action": "replayJumpToNow",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"channel": "Current"
 											},
@@ -1681,15 +1700,16 @@
 						},
 						"feedbacks": [
 							{
-								"id": "WKOj-gbPxRUsnfFVB3M7N",
+								"id": "BwGT4J7LitUUKJgdOnr_F",
 								"type": "replayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
-									"status": "live",
-									"fg": 16777215,
-									"bg": 16711680
+									"status": "live"
 								},
-								"style": {},
+								"style": {
+									"bgcolor": 16711680,
+									"color": 16777215
+								},
 								"isInverted": false
 							}
 						],
@@ -1698,9 +1718,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "sWdRM-z1f9pspLQJR0e24",
+											"id": "NWSm0aOSjxTB7Hhv8wm1O",
 											"action": "replayLiveToggle",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {},
 											"delay": 0
 										}
@@ -1748,15 +1768,17 @@
 						},
 						"feedbacks": [
 							{
-								"id": "8Kz6GqaGJBOtCuWWEubLF",
+								"id": "B59L24MCV8YGvuU-zwOu4",
 								"type": "replayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
-									"status": "recording",
-									"fg": 16777215,
-									"bg": 16711680
+									"status": "recording"
 								},
-								"isInverted": false
+								"isInverted": false,
+								"style": {
+									"bgcolor": 16711680,
+									"color": 16777215
+								}
 							}
 						],
 						"steps": {
@@ -1764,9 +1786,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "ameprcSHA-BfPduSQQ0S-",
+											"id": "rfKmaf27NHCYTjr01AevR",
 											"label": "drpV_jRVL:replayRecording",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayRecording",
 											"options": {
 												"functionID": "ReplayStartStopRecording"
@@ -1808,9 +1830,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "voSarNNR-KbwYDNqIqvSm",
+											"id": "GwAfkB36Y8bABLNmGNPoL",
 											"label": "drpV_jRVL:command",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "command",
 											"options": {
 												"command": "ReplaySetSpeed Value=1",
@@ -1853,9 +1875,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "nSv56M0AmO06IQonK2bl7",
+											"id": "IrbC9Tg4jahebg7J6RSFW",
 											"label": "drpV_jRVL:command",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "command",
 											"options": {
 												"command": "ReplaySetSpeed Value=0.5",
@@ -1898,9 +1920,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "YjRP1R79RK-dxgsSIVOyh",
+											"id": "3QDwknv5A2lncuGPR9a60",
 											"label": "drpV_jRVL:replayPlaySelectedEventToOutput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayPlaySelectedEventToOutput",
 											"options": {
 												"channel": "Current"
@@ -1908,9 +1930,9 @@
 											"delay": 0
 										},
 										{
-											"id": "zfD_w-gbMJyNv7j1UUjiW",
+											"id": "6Hab0YwfTcePYvujxZpJh",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replays - A",
 												"functionID": "AudioOn"
@@ -1952,9 +1974,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "cHwLJOenLksfdYRC1X7eC",
+											"id": "GGV6ymRLPDYZSg5QlR0W2",
 											"label": "drpV_jRVL:replayPause",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayPause",
 											"options": {
 												"channel": "Current"
@@ -1998,9 +2020,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "qb0ZPU-4b6ybmYMrKiKnt",
+											"id": "SwWbcxlrmga-So7KIfuWZ",
 											"label": "drpV_jRVL:command",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "command",
 											"options": {
 												"command": "ReplaySelectPreviousEvent",
@@ -2043,9 +2065,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "RBEuKcpvSrxjEr3r32RUg",
+											"id": "IppeTTlEVw4n53ErEhnvs",
 											"label": "drpV_jRVL:replayMoveInOut",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMoveInOut",
 											"options": {
 												"functionID": "ReplayMoveSelectedInPoint",
@@ -2088,9 +2110,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "xS5UJPNMCUf_6hMY2pijR",
+											"id": "EVcSXclg2Kh_yPDDo3CWf",
 											"label": "drpV_jRVL:replayMoveInOut",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMoveInOut",
 											"options": {
 												"functionID": "ReplayMoveSelectedInPoint",
@@ -2133,9 +2155,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "N7ir1uiW_azpSoDzJHNdy",
+											"id": "_6aYftKEzcYiDevV8qQjK",
 											"label": "drpV_jRVL:replayMoveInOut",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMoveInOut",
 											"options": {
 												"functionID": "ReplayMoveSelectedOutPoint",
@@ -2178,9 +2200,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Z_9pvv3cl5Eq71gcZa1RQ",
+											"id": "Z5hvRe4YKd66YJdy3EdAS",
 											"label": "drpV_jRVL:replayMoveInOut",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMoveInOut",
 											"options": {
 												"functionID": "ReplayMoveSelectedOutPoint",
@@ -2225,9 +2247,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "01cJ504aey4ecBzYO1YO1",
+											"id": "BFiySYOUEq1VRF5ycaV4P",
 											"label": "drpV_jRVL:command",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "command",
 											"options": {
 												"command": "ReplaySelectNextEvent",
@@ -2270,13 +2292,14 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "fIyUSJ3CgQQxMwZIIjsQh",
+											"id": "H8erEzP_L3_y3f3GZ7dRw",
 											"label": "drpV_jRVL:replayMark",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMark",
 											"options": {
 												"functionID": "ReplayMarkInOut",
-												"value": 1
+												"value": "1",
+												"value2": "10"
 											},
 											"delay": 0
 										}
@@ -2315,13 +2338,14 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "lzQwQliwPR9TZTSgsOKZI",
+											"id": "gLYPFEq6ER-3qFJTRWwvD",
 											"label": "drpV_jRVL:replayMark",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMark",
 											"options": {
 												"functionID": "ReplayMarkInOut",
-												"value": 3
+												"value": "3",
+												"value2": "10"
 											},
 											"delay": 0
 										}
@@ -2360,13 +2384,14 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "PovqsX3xPbu6xrgapjkNR",
+											"id": "KKdrfS87mJmVR-VbtNk7s",
 											"label": "drpV_jRVL:replayMark",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "replayMark",
 											"options": {
 												"functionID": "ReplayMarkInOut",
-												"value": 5
+												"value": "5",
+												"value2": "10"
 											},
 											"delay": 0
 										}
@@ -2403,7 +2428,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "ontfNt8basDTxyVbIwQ4C",
+											"id": "EfPmKZ9ty9233rDvl927y",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -2461,31 +2486,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "WHhOa84rgA1Rr4VGC0IYN",
+								"id": "LWjl_Exqg2dsaSCRYAM-Z",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_SBE",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "n9GYCEWtRQOe2LPilfe9m",
+								"id": "2rfgZ0b0KQRHVjD9qqG_c",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_SBE",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -2494,12 +2519,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "adeoWsh0R0nfg_8MfWRiq",
+											"id": "-rIcjt6WOFVbbw2Exw9h2",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_SBE",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -2532,31 +2558,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "MeKs5kdaDCajQEoXkO9Tr",
+								"id": "-SuimRZXY4NkwkH4qN8NM",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Casters",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "C3OzRsStExXTXTygQ-Qta",
+								"id": "xUkPsrp3aN9xuXwjk-jod",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Casters",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -2565,12 +2591,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "P5Baq5NgPn_YH3bvR_Cuh",
+											"id": "r7ZKKI67wucHjKlhqgHLe",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_Casters",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -2603,31 +2630,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "-_Lh-58--vqpg2_M4dH5K",
+								"id": "HBOZOT5vh7C4129y-GHOY",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Game",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "E9-UuAlfTyLy9XLWa02WL",
+								"id": "UYMRhRffezCagVuuxgRif",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Game",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -2636,12 +2663,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "JdJ9zbDRiScyjZdeVayvc",
+											"id": "AKLcvgmex5nND5_MHaIzv",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_Game",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -2674,31 +2702,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "4Xz2N1TqZPipVOy-m7N5O",
+								"id": "7Ve5x7DnLgZVjQ1-DU7A8",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Bracket",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "LopChqkAdgBRB2NPBlK-N",
+								"id": "xVmB0idkoMuhjpPRcjod-",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Bracket",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -2707,12 +2735,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "eGl0yCYno9ZHOE5f7Uw5S",
+											"id": "A9iTTP7bQfYvvuzeNMRnO",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_Bracket",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -2745,31 +2774,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "5zkWtbYtTbMaKfRj-vtFH",
+								"id": "YBWhafIH60j9wnv5VCpvZ",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "VT LIST",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "m0tAoujamWGkDTs_OFiTf",
+								"id": "ff-88TvsszRsznmUW0CWM",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "VT LIST",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -2778,12 +2807,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "DMKIFN8BfnUV98rcm-LIB",
+											"id": "NUEuo1febvX3cOJW_raGt",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "VT LIST",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -2816,16 +2846,16 @@
 						},
 						"feedbacks": [
 							{
-								"id": "fTYEOQrvuA9eRUNc4qWSH",
+								"id": "TUbWNQALJsi4DoCi5py-d",
 								"type": "inputAudio",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Talkback",
-									"fg": 16777215,
-									"bgLive": 16711680,
-									"bgMuted": 16711935
+									"bgLive": 16711680
 								},
-								"style": {},
+								"style": {
+									"bgcolor": 16711935
+								},
 								"isInverted": false
 							}
 						],
@@ -2834,9 +2864,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "qFj5kxSD7AHnlRtgA-73_",
+											"id": "-99fisWR6PmO_DGZ2VSGk",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Talkback",
 												"functionID": "AudioOn"
@@ -2846,9 +2876,9 @@
 									],
 									"up": [
 										{
-											"id": "8FrMwhToNLppOG6p0KYvV",
+											"id": "3AUsdaAIiCclwGzU-o0ZR",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Talkback",
 												"functionID": "AudioOff"
@@ -2888,9 +2918,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "i_5bqgKcBGTHvRlJcZxs-",
+								"id": "-xUHl8G0QJV8R9quS0XEE",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "VS",
 									"overlay": "3",
@@ -2898,7 +2928,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -2907,9 +2936,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "rXHWSxco8YfB9zKwUhBSi",
+											"id": "T2JxBkfy3gJw2Ie5G2EWA",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput3",
 												"input": "VS"
@@ -2945,9 +2974,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "shRnZbe_MIzCQCfD1j-Ap",
+								"id": "sXP-Rmd7wy66EQPRtPFD3",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Tags",
 									"overlay": "2",
@@ -2955,7 +2984,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -2964,9 +2992,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "iEyPmitJo2izp6B5P_Ayl",
+											"id": "f54KhmEfS1Z2DBg-NAtws",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput2",
 												"input": "Tags"
@@ -3002,9 +3030,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "EZv90BSHtvaSK8wUloTkV",
+								"id": "m-F4LuM45Yn3JEJcx7wu3",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Veto",
 									"overlay": "1",
@@ -3012,7 +3040,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -3021,9 +3048,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "8vZGujqT__NXmWodEG80V",
+											"id": "dx4ZUl3pC4CJQEbnYYmfa",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput1",
 												"input": "Veto"
@@ -3059,9 +3086,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "byaV4VD6wHbwm9wqLB679",
+								"id": "ZfpHan8ad2tUKBR5V7X3Q",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "BO1 Mid Series",
 									"overlay": "1",
@@ -3069,7 +3096,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -3078,9 +3104,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "WDdBHcdNGBb9equKfJ8iK",
+											"id": "iPCSVp6K96n17iC1g3OOz",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput1",
 												"input": "BO1 Mid Series"
@@ -3116,9 +3142,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "D7VG4JsljNcAzkHbsol8R",
+								"id": "KgFisTd2PvXgjo8S2zczq",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "BO3 Mid Series",
 									"overlay": "1",
@@ -3126,7 +3152,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -3135,9 +3160,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "TX-WJw0kGB93RK4mlHfpD",
+											"id": "xPlZOBN-VLSRSftDQ2et3",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput1",
 												"input": "BO3 Mid Series"
@@ -3173,9 +3198,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "ZuCg0egHXc7GvgWVjHUG3",
+								"id": "NcXaRlUae3warYv-jPDAk",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "General L3",
 									"overlay": "1",
@@ -3183,7 +3208,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -3192,9 +3216,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "lKC29eH9srxfMFpJbnW2B",
+											"id": "ALwHf4tKSEcOLQlYLikcB",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput1",
 												"input": "General L3"
@@ -3235,9 +3259,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "2CKXP7iqT9WWIcl-OXT-8",
+								"id": "1WDOgvN0MlkTf3viFY0Rm",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Intel U3",
 									"overlay": "4",
@@ -3245,7 +3269,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -3254,9 +3277,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "EuQ_JfoT0DhBnaFQferqp",
+											"id": "Mf1k3LgySC8lx2eRFwxYb",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "Intel U3"
@@ -3264,9 +3287,9 @@
 											"delay": 0
 										},
 										{
-											"id": "eMLJc95elOBjDItKAWens",
+											"id": "3SVt51_J33P0hBY3CyMQ1",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "Intel U3"
@@ -3302,9 +3325,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "NMe67YtzPANZ56z6Cc3Ig",
+								"id": "L3ucnULbBLhQYXr0BqnkO",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "ROG U3",
 									"overlay": "4",
@@ -3312,7 +3335,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -3321,9 +3343,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "ujrlYijwl1jsalFHm2f6y",
+											"id": "lOh_gCqxecPBZs4XqY52M",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "ROG U3"
@@ -3331,9 +3353,9 @@
 											"delay": 0
 										},
 										{
-											"id": "ouI1achoshDblDurCV-YH",
+											"id": "Nu6J9Uebw4Oz2UEyaGGCa",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "ROG U3"
@@ -3369,9 +3391,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "la5oBErwi9go45ffixzxq",
+								"id": "vdGtjl4LDou5OeRpXSIcq",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "OCUK U3",
 									"overlay": "4",
@@ -3379,7 +3401,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -3388,9 +3409,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "b8ExA-qjmJAi14eU2tdvM",
+											"id": "QZb9NIeQgIUHTa2YWHdcS",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "OCUK U3"
@@ -3398,9 +3419,9 @@
 											"delay": 0
 										},
 										{
-											"id": "ZkD4s3o07nmvkBGidisqP",
+											"id": "jEYJkmygdJvzEPe-Jow77",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "OCUK U3"
@@ -3436,9 +3457,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "DOxiFS2EJxbqb58NyuyDa",
+								"id": "hx_FMgMEBfmMTY-M0CKlE",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Draytek U3",
 									"overlay": "4",
@@ -3446,7 +3467,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -3455,9 +3475,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "4fB7gqSsmd5ABkX0CnoiB",
+											"id": "T2iIprt9ohARHrVCn25MA",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "Draytek U3"
@@ -3465,9 +3485,9 @@
 											"delay": 0
 										},
 										{
-											"id": "tDiBmtSztDbI_OplgK7IV",
+											"id": "JnOjzwvEQ7b2Q762NmLPi",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "Draytek U3"
@@ -3509,7 +3529,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "HXMs6nSGcktTV-ZwG03FU",
+											"id": "14uCcRq8hIsIYbS8_qqSM",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -3555,9 +3575,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "PZAf6ejBid0kOPL23UHMN",
+											"id": "RBVNX-DgYQJhIIoAlL7oi",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
 												"functionID": "AudioOn"
@@ -3565,20 +3585,20 @@
 											"delay": 0
 										},
 										{
-											"id": "HfjjCU_26rXP7LVGwh9Hd",
+											"id": "2Tu-TSPzMu6ilLlfw07T7",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
-												"fadeMin": 60,
-												"fadeTime": 2000
+												"fadeMin": "60",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "RJbXQConPJaT1pfaUMeR1",
+											"id": "zi56dn9Tg2lXW-OMVNoue",
 											"action": "videoActions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
 												"inputType": false,
@@ -3597,20 +3617,20 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "-1GtzYtXpDOInLx5e_Ywh",
+											"id": "cNbP6jUqDImJ4DspYIq2w",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
-												"fadeMin": 0,
-												"fadeTime": 2000
+												"fadeMin": "0",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "5fCPD7hvR_Jg_CnBJxCwG",
+											"id": "U7bf4xvyCvK9euzf133z7",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
 												"functionID": "AudioOff"
@@ -3650,9 +3670,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "lWWfKu-Lr9H_0dxBjJVdL",
+											"id": "RBN9Zminl6oqYQVZu-w7a",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
 												"functionID": "AudioOn"
@@ -3660,20 +3680,20 @@
 											"delay": 0
 										},
 										{
-											"id": "snOTtIZTNlvqPqcelaLMV",
+											"id": "DNaU5LlrBD6nWT89kCYDQ",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
-												"fadeMin": 60,
-												"fadeTime": 2000
+												"fadeMin": "60",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "PGtykqDRH0GgAbq8-qM1m",
+											"id": "2TDrevOGGkBTq0Sp32lVn",
 											"action": "videoActions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
 												"inputType": false,
@@ -3692,20 +3712,20 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "1-ncdey4-cir-Sfkc9p4X",
+											"id": "BcYByCQCuTaX4Ttzv6dIX",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
-												"fadeMin": 0,
-												"fadeTime": 2000
+												"fadeMin": "0",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "K69MIlRgQOCEAkVtZFSEw",
+											"id": "qJ57G2O0EvROgtAzq14H6",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
 												"functionID": "AudioOff"
@@ -3745,9 +3765,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "e_EAFjnNoslboYk_s2BRq",
+											"id": "kiwOW0Pu_cAGjX67MIpGy",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
 												"functionID": "AudioOn"
@@ -3755,20 +3775,20 @@
 											"delay": 0
 										},
 										{
-											"id": "N5dkz_rYss-d3MBRjyF-6",
+											"id": "gmlqaBWvwaEjodHEffuuS",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
-												"fadeMin": 60,
-												"fadeTime": 2000
+												"fadeMin": "60",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "ugac8mMeaROYy-4aD6R77",
+											"id": "zNpVgQKVrfgGFkxZJh218",
 											"action": "videoActions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
 												"inputType": false,
@@ -3787,20 +3807,20 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "rz5t5jlt2dONzW7m9GIZy",
+											"id": "hRWgZ6wa6zAy2ATXZyiwR",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
-												"fadeMin": 0,
-												"fadeTime": 2000
+												"fadeMin": "0",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "Xdf-L_ugOyPUIbrOISBuq",
+											"id": "5JcfzAxbtQ97J3ihZM7AD",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
 												"functionID": "AudioOff"
@@ -3840,7 +3860,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "61iUFduNDNPq4HEpmSarX",
+											"id": "NSpEwhN_62ApTiOVRQZG-",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -3886,8 +3906,8 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "llqXLqs0JuZ_PSlReR_ub",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"id": "kfLOkSQcD4Y_wiMggoQ0V",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "transition",
 											"options": {
 												"functionID": "Stinger1"
@@ -3927,8 +3947,8 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "hpL4BMfMVAMnFbSex4OBT",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"id": "B4I8nLlT9yBWOKd-F3P18",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "transition",
 											"options": {
 												"functionID": "Stinger2"
@@ -3968,8 +3988,8 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "8ZIc0MtGNMgJDEh5A5i8l",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"id": "K6TK2ZqSRyTzcbFcm4pl8",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "transition",
 											"options": {
 												"functionID": "Stinger3"
@@ -4021,31 +4041,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "1XSwcrjLXpBO_kt3EYz-Y",
+								"id": "coQGQbDz88g7lx_t81FVW",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_SBE",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "yk8L8yyYK5Q3sS7jfIwc0",
+								"id": "P9PpbPSBCMG0nfAPz9l0A",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_SBE",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -4054,12 +4074,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "K3G2EeZp7gC6BsruPhOJf",
+											"id": "5_wFQ2wOlKa6ToaYtMlCq",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_SBE",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -4092,31 +4113,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "nXR9ciqCh-KmSfEAbQV7f",
+								"id": "W_XQGelt8lLuE2on_I_x1",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Casters",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "IzrzgzFqlNVc7NkD3puSy",
+								"id": "D3Mf2096zEHzNpreM6Mx1",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Casters",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -4125,12 +4146,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "udLDmoYMzxDpuSsQy_U80",
+											"id": "B0Thdrl1faDRqASwd0DPs",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_Casters",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -4146,14 +4168,14 @@
 					"3": {
 						"type": "button",
 						"style": {
-							"text": "Agent Select",
+							"text": "N/A",
 							"textExpression": false,
 							"size": "18",
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
 							"color": 16777215,
-							"bgcolor": 16744448,
+							"bgcolor": 0,
 							"show_topbar": "default"
 						},
 						"options": {
@@ -4163,31 +4185,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "yzfIUwzjzivgETJiLDlh2",
+								"id": "8RvCyzBcOergprVWaP6Ks",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_AgentSelect",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "vxdKbFb0sOQXTdwV7uJ4Q",
+								"id": "wilccLyGHJMvDvT95ScXO",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_AgentSelect",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -4196,12 +4218,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "k3D28oBpO7oSi_NyNx869",
+											"id": "-Gr5NReJjoWEbEs8ucy5M",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_AgentSelect",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -4217,14 +4240,14 @@
 					"4": {
 						"type": "button",
 						"style": {
-							"text": "Wait",
+							"text": "N/A",
 							"textExpression": false,
 							"size": "18",
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
 							"color": 16777215,
-							"bgcolor": 16744448,
+							"bgcolor": 0,
 							"show_topbar": "default"
 						},
 						"options": {
@@ -4234,31 +4257,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "y_CM5oZq8WkxWzYwxX5hv",
+								"id": "_t28aDxRid_3m1jaUzNPP",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Wait",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "EtB_bBvYEcNUx7Ph-PQ_2",
+								"id": "JzyJI8R0XKdaryEY8s29K",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Wait",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -4267,12 +4290,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "wNEaeHqKp-Ozzz5hMxE5T",
+											"id": "0gJLwbyZ9MfJ5uOjlZJuy",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_Wait",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -4305,31 +4329,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "kUPE5z5-irb_T29PevqLq",
+								"id": "mFCn6NkzZkBnW-rWUM-Gq",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Game",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "UWHq9Yz-dJgfTb2pw5ENl",
+								"id": "9AKoU7bRtNvccQqMWNiLv",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Game",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -4338,12 +4362,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "DwcR15Zj8qvVPLS7uoW7E",
+											"id": "XwHpfTNvpfTJNGInqy_8d",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_Game",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -4376,31 +4401,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "9bPOS_VMvOTuSOUFOjEo1",
+								"id": "xYxkP9hv273SVqFojarZS",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "VT LIST",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "7rlf24TbwwAtc9pCnZdE2",
+								"id": "gj4QBOzPqZceIkazaGBvE",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "VT LIST",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -4409,12 +4434,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "w1oZKljxaFK_iik5o2hUL",
+											"id": "79eSRE-JIubvDE6JLkmB7",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "VT LIST",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -4447,31 +4473,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "QArXE_Pm3BTNKJQl0Nl1b",
+								"id": "Pm-PeXqSRW0SdcUqSoJe8",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Bracket",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "pcPlhw2Rae7HANrU8ADhH",
+								"id": "hC12yLvZlc_BAklauIHzf",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Bracket",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -4480,12 +4506,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "SPpK5hmCzaFRpKAtzpyTr",
+											"id": "p4NdLZELlK2R9q0S8iQ_3",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_Bracket",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -4523,9 +4550,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "fIL6j9OX5lbdftVKT7coO",
+								"id": "IGX95wVPFw35r5LylOg2y",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "VS",
 									"overlay": "3",
@@ -4533,7 +4560,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -4542,9 +4568,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "c0tslVPgEs8JcK0pA4TZg",
+											"id": "8vZ4nX_dmdpwaVcCYJB1P",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput3",
 												"input": "VS"
@@ -4580,9 +4606,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "WH_ZJ1Y-1XMx_6m4e-WC5",
+								"id": "O__wW4fdrYtLS2DVprh1J",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Tags",
 									"overlay": "2",
@@ -4590,7 +4616,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -4599,9 +4624,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "PNLjSQwEuD8XmzPmyzKog",
+											"id": "vewTaqeWR2C-hbU6z7GeP",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput2",
 												"input": "Tags"
@@ -4637,9 +4662,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "fI77uKoWqBWodS117_IT3",
+								"id": "XYNEOCw-NL7FVtFbfdC4d",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Veto",
 									"overlay": "1",
@@ -4647,7 +4672,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -4656,9 +4680,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "5AsbxWsTfqQLBssBgBv8r",
+											"id": "eIZKQUFn52xmMb9jnGcLA",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput1",
 												"input": "Veto"
@@ -4694,9 +4718,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "Mx9BIwJWjzxrLI8efuKCs",
+								"id": "Lob8H9P-39vaLqMehvkag",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "BO1 Mid Series",
 									"overlay": "1",
@@ -4704,7 +4728,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -4713,9 +4736,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "67LJttHm7wXa1NABmpRTX",
+											"id": "hUDeNV5p2XHovpIstgKET",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput1",
 												"input": "BO1 Mid Series"
@@ -4751,9 +4774,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "CCl8Yygu4tOM6Er0Xw-E2",
+								"id": "6xMpAxd3WiarUqlYh5MLZ",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "BO3 Mid Series",
 									"overlay": "1",
@@ -4761,7 +4784,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -4770,9 +4792,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "G-jbMhA2QjwCZFtoWNqey",
+											"id": "PG-74W61JmlPUFi3wg_mB",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput1",
 												"input": "BO3 Mid Series"
@@ -4808,9 +4830,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "LQDNmhWepJkEOX5PXRPxN",
+								"id": "uwf6tI6-jD60rz60milZx",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "General L3",
 									"overlay": "1",
@@ -4818,7 +4840,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -4827,9 +4848,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "7la2GOwXBspHj_XGS26iO",
+											"id": "6Xoiwbdo-WGXUzR5s_uDS",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput1",
 												"input": "General L3"
@@ -4865,16 +4886,16 @@
 						},
 						"feedbacks": [
 							{
-								"id": "TaLBS8FrggaSnxALPvLS0",
+								"id": "tT08OT8dXAzhcNYtIlVek",
 								"type": "inputAudio",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Talkback",
-									"fg": 16777215,
-									"bgLive": 16711680,
-									"bgMuted": 16711935
+									"bgLive": 16711680
 								},
-								"style": {},
+								"style": {
+									"bgcolor": 16711935
+								},
 								"isInverted": false
 							}
 						],
@@ -4883,9 +4904,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "t9JIFl82w3lqE7zalz7QJ",
+											"id": "8IS9AjJWMUC7v-r1d8FMS",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Talkback",
 												"functionID": "AudioOn"
@@ -4895,9 +4916,9 @@
 									],
 									"up": [
 										{
-											"id": "l6QKnN2xrBHsnfS8FAubu",
+											"id": "_DB_xeTeIiVBxG0YYKCbw",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Talkback",
 												"functionID": "AudioOff"
@@ -4937,9 +4958,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "Rllh149S76H19lfn2CeKw",
+								"id": "EwJemVmJcVrbFiUKavUj6",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Intel U3",
 									"overlay": "4",
@@ -4947,7 +4968,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -4956,9 +4976,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "U--snFfkpt051ch2PUspH",
+											"id": "hWIMDELZ1GACEhGnjaI40",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "Intel U3"
@@ -4966,9 +4986,9 @@
 											"delay": 0
 										},
 										{
-											"id": "EJJkd06gqg9sluNy_T4mn",
+											"id": "KvOGAdGnGvqZHjOXDPYQs",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "Intel U3"
@@ -5004,9 +5024,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "3dZD9RJqaeoJ13ZKuxFnj",
+								"id": "EdUlJfcxhaix3_W2xLNx_",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "ROG U3",
 									"overlay": "4",
@@ -5014,7 +5034,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -5023,9 +5042,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "9ExUIvP1i1w_VWbeOOjFG",
+											"id": "wM9DDX7YGPYIbvhvwfHfK",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "ROG U3"
@@ -5033,9 +5052,9 @@
 											"delay": 0
 										},
 										{
-											"id": "9M613wH7OCOCMPAJ8c0YK",
+											"id": "hu_1eDDJ3ZEi_srwBdRU2",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "ROG U3"
@@ -5071,9 +5090,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "zk_T83-BIVbKKQwQCbo4J",
+								"id": "_Tj-Iva1lJpx6ibLyJu6B",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "OCUK U3",
 									"overlay": "4",
@@ -5081,7 +5100,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -5090,9 +5108,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "UCNBcjyN2AvKnQBYnHkh-",
+											"id": "AkNnVLcqN5xqmWP9Mlojy",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "OCUK U3"
@@ -5100,9 +5118,9 @@
 											"delay": 0
 										},
 										{
-											"id": "Crck88kO6C0geC4xC1-xn",
+											"id": "A7vy2A2ff_jVw5gUr61l-",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "OCUK U3"
@@ -5138,9 +5156,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "2RDTCGhh7VwVJJjLN6usr",
+								"id": "NTu3ndWS1ZFQBrsKfnwdu",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Draytek U3",
 									"overlay": "4",
@@ -5148,7 +5166,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -5157,9 +5174,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "I0tDTyniZvINsQKKmUZwO",
+											"id": "yze8CXkvBBL5Yqj4Y2c6U",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "Draytek U3"
@@ -5167,9 +5184,9 @@
 											"delay": 0
 										},
 										{
-											"id": "6henD_o9kiN0r5zMrR9fi",
+											"id": "qVAf72HAyaO6rktqpEHSR",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "Draytek U3"
@@ -5209,8 +5226,8 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "4KT4nQ4Uc6iyDYo4EJ0eR",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"id": "vmPy2EURTrT6ok97PLb9z",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "transition",
 											"options": {
 												"functionID": "Stinger1"
@@ -5250,8 +5267,8 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "95PZY40GsIiSkd4EmWd7P",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"id": "HM93BzBG6346QXwAAeUcQ",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "transition",
 											"options": {
 												"functionID": "Stinger2"
@@ -5293,7 +5310,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "PeRzhL_91p78WHSCrh0iT",
+											"id": "2FpZXJ98I-G9PaVUdYsPu",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -5339,9 +5356,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "6lvhi1IRhoCau7q8o7YUN",
+											"id": "Q21al7XecQ4X4y0r1y9n8",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
 												"functionID": "AudioOn"
@@ -5349,20 +5366,20 @@
 											"delay": 0
 										},
 										{
-											"id": "6hrxioHk2bH8Lyd0bVHnS",
+											"id": "jtM1mY_E79vLF89lX4loX",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
-												"fadeMin": 60,
-												"fadeTime": 2000
+												"fadeMin": "60",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "9jvWb3fw8R4jBA3_4gTZH",
+											"id": "XRZihsGB8Kt1VwpjtsXKi",
 											"action": "videoActions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
 												"inputType": false,
@@ -5381,20 +5398,20 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "jUZBVvmyKBQU19_Pyvd-i",
+											"id": "7q1Nw-BiXKFomeALd8-PL",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
-												"fadeMin": 0,
-												"fadeTime": 2000
+												"fadeMin": "0",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "xb8xV987BFF0XWyMMH1FL",
+											"id": "FD-hPkc10rBlVRn5-dm7e",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
 												"functionID": "AudioOff"
@@ -5434,9 +5451,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "FtVCjcuJUMJoyFEHg8VqQ",
+											"id": "ZZDkorKqhlscfQVdIowRK",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
 												"functionID": "AudioOn"
@@ -5444,20 +5461,20 @@
 											"delay": 0
 										},
 										{
-											"id": "CXDgyO1d0l1zlJr7MZOhq",
+											"id": "L1GjCMUqHmFKFYlobSHIk",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
-												"fadeMin": 60,
-												"fadeTime": 2000
+												"fadeMin": "60",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "C7vOlqmCb94EMDg-ClcPs",
+											"id": "tGaZh-z_yYy8ti8SehNoQ",
 											"action": "videoActions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
 												"inputType": false,
@@ -5476,20 +5493,20 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "AtfvEsRiEhMiLV4f3TZ5t",
+											"id": "yIeMoJMpaVSHHfT12DCRS",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
-												"fadeMin": 0,
-												"fadeTime": 2000
+												"fadeMin": "0",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "9BQgTFxZiUrXqxHXgAjtd",
+											"id": "GWLo_8GkbLBSQHKOG3P8h",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
 												"functionID": "AudioOff"
@@ -5529,9 +5546,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "TR7rR4dzBdnXJHTHZvTky",
+											"id": "TYdcadxi9rh1IgiDePggp",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
 												"functionID": "AudioOn"
@@ -5539,20 +5556,20 @@
 											"delay": 0
 										},
 										{
-											"id": "3yuGi9Wv9yYzqZgGaY1lG",
+											"id": "qcYhkI4VYuSeUC7-FLvR5",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
-												"fadeMin": 60,
-												"fadeTime": 2000
+												"fadeMin": "60",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "FZoyITAAF0YSpm_nE5xAt",
+											"id": "ZvmEF6S5YYThQx00ryEFW",
 											"action": "videoActions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
 												"inputType": false,
@@ -5571,20 +5588,20 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "tbu50Fv98rgqVDhDA9CNt",
+											"id": "KCNuhciTD-HDT5gAkcw9b",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
-												"fadeMin": 0,
-												"fadeTime": 2000
+												"fadeMin": "0",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "c7s7zu0b8EFg-LpM4Ts5V",
+											"id": "JjKeyBY2J6bO99PiKUOeV",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
 												"functionID": "AudioOff"
@@ -5624,7 +5641,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "7LGzNAYc6bip80KaLiSgM",
+											"id": "vqy99S171JTobimswpqUe",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -5670,13 +5687,14 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Hew129SocwsW9-vL9lDlU",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"id": "4Wp4OIFCWgCo_cydjGpHJ",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "transitionMix",
 											"options": {
 												"functionID": "Merge",
 												"mix": 0,
-												"duration": 1000
+												"duration": "1000",
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -5713,8 +5731,8 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "WbSodgWfh-WsHxgUJkxSW",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"id": "j1QTGeT7LIvpGfVKe0ypc",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "transition",
 											"options": {
 												"functionID": "Stinger3"
@@ -5766,31 +5784,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "SL-pb3K7ii1r7phrJ4Tjd",
+								"id": "soK_mfVw-Tm5VblV3avbL",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_SBE",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "U9uWZOj1ogAdjHzsAz5QW",
+								"id": "Hfe3gkysJ57G-hXZxplWy",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_SBE",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -5799,12 +5817,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "yGDHuJdJ5rCjw9yecPuOH",
+											"id": "l_IP4xUPlRX3ex7Aj6kEW",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_SBE",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -5837,31 +5856,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "GfuR2atfzmKpmXYp_VU0D",
+								"id": "7aEeM5llAHTvqIiloWM52",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Casters",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "LM3yW7lbBnSnJKmwfgZMA",
+								"id": "xqXWzvi_ad_AX2338h2j-",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Casters",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -5870,12 +5889,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "4l7S3apOmVzqxVuIZh9Fm",
+											"id": "OCXUw7o1sxEjsouFgzF54",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_Casters",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -5908,31 +5928,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "RdZwXOEvnjyNHp0fp1UUU",
+								"id": "crJco-8KAxvUTdgQ5twRS",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Game",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "y585svwX62HK2I8fTCiMj",
+								"id": "QmxaKOeZy0HpxUV-DlV6U",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Game",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -5941,12 +5961,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "z6w-myQlubtGXWnztOs8v",
+											"id": "onWGc8Ft_kZQGdrHXUwe6",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_Game",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -5979,31 +6000,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "OD4YPnQS0e7incq_1xJlX",
+								"id": "q3WLT7RmS0DJVD5aHgRiG",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "VT LIST",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "ffVs1D6hpGVlqWLFbO1FU",
+								"id": "rDKaSEpajWM43N-XL9Lip",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "VT LIST",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -6012,12 +6033,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "eFPTbKsyYMG8z0nSPUZdD",
+											"id": "DdtPfD2OmB1-yOOYQFD4-",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "VT LIST",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -6050,31 +6072,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "8_rHZ2ftCtvLo6medH5py",
+								"id": "tYkWc5FTDdxY6IpcabsZ9",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Bracket",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "gqF9Zl1yfrZNsJgzXUCIN",
+								"id": "H0ojWjIf63iWa82vGIiL5",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Bracket",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -6083,12 +6105,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "GD7OMGiOIrhPkq5xNgZ7T",
+											"id": "7QHhiXskqwnSb2YlZ4hJk",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_Bracket",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -6121,16 +6144,16 @@
 						},
 						"feedbacks": [
 							{
-								"id": "oxymYQe-H-UZEXQoM83F3",
+								"id": "We6GHK3XEPksxE8mY6Lha",
 								"type": "inputAudio",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Talkback",
-									"fg": 16777215,
-									"bgLive": 16711680,
-									"bgMuted": 16711935
+									"bgLive": 16711680
 								},
-								"style": {},
+								"style": {
+									"bgcolor": 16711935
+								},
 								"isInverted": false
 							}
 						],
@@ -6139,9 +6162,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "mf1i7-aI7AFxF2A3OEW7L",
+											"id": "cWnIY1zs6OzNIEAxXb-Nq",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Talkback",
 												"functionID": "AudioOn"
@@ -6151,9 +6174,9 @@
 									],
 									"up": [
 										{
-											"id": "6AO7I0linQGo-inMdBzFQ",
+											"id": "dzemp1TvOlza0M-LUm5KI",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Talkback",
 												"functionID": "AudioOff"
@@ -6193,9 +6216,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "bvZ99CblyUhlusOKtkfDn",
+								"id": "K4d_rc9J7ur_beTP-bwB-",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "VS",
 									"overlay": "3",
@@ -6203,7 +6226,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -6212,9 +6234,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "SN_3CSjL8xdmmtHUaaxLB",
+											"id": "boMyFYF-F90x9p4bTuRqz",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput3",
 												"input": "VS"
@@ -6250,9 +6272,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "CZMhLDdsZy67_iGn4Tqkw",
+								"id": "rGutRnq4R_FeEEy_k3lE1",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Tags",
 									"overlay": "2",
@@ -6260,7 +6282,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -6269,9 +6290,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "sRk390QvI_CHFsYSShwFU",
+											"id": "3-49dew7zfPrkAy_TG4h0",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput2",
 												"input": "Tags"
@@ -6307,9 +6328,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "6LIK0yM3a6gJ-7muj2-dV",
+								"id": "pTWyZpvF1xctRn5VnwYbE",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "BO5 Maps",
 									"overlay": "1",
@@ -6317,7 +6338,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -6326,9 +6346,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Li5WYgjzKMnpkl0q6zaHo",
+											"id": "FB-QYUCKZXiIMgokC-fVj",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput1",
 												"input": "BO5 Maps"
@@ -6364,9 +6384,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "uVSDEOu33UhwYS9609Kb5",
+								"id": "bp4wPmBkthqEFqvMFVO8d",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "BO7 Maps",
 									"overlay": "1",
@@ -6374,7 +6394,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -6383,9 +6402,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Q5qEuzgk0V8sDkgzKuJEz",
+											"id": "wfT272Ni-yX1y9A4leHxo",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput1",
 												"input": "BO7 Maps"
@@ -6421,9 +6440,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "hntJVu85KMYxbNs5clydc",
+								"id": "wVenNQJdqt9hlCDPAq33L",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Roster",
 									"overlay": "1",
@@ -6431,7 +6450,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -6440,9 +6458,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Wwmrk2QFi8zWuQq2AzSfa",
+											"id": "uD1qwNNU2saDKPcUOX4sP",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput1",
 												"input": "Roster"
@@ -6478,9 +6496,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "0x_hXYbJByiaF67NbMQe-",
+								"id": "EgX578PvYGH8Tc6Rocy1B",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "ATK/DEF",
 									"overlay": "1",
@@ -6488,7 +6506,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -6497,9 +6514,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "dLYu4pnJ5cyOV-DumZkEw",
+											"id": "3dEpIGQkLf9LuN-fBJLQK",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "PreviewOverlayInput3",
 												"input": "ATK/DEF"
@@ -6535,9 +6552,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "dzdyLk5qrEV8bF7jVdGor",
+								"id": "96BQ_8b9Y8hGgVrgspOZa",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "General L3",
 									"overlay": "1",
@@ -6545,7 +6562,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -6554,9 +6570,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "p6xToRv0cgyffdtQSExuN",
+											"id": "b3VyRzHMtXk7mm2MhWqNA",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput1",
 												"input": "General L3"
@@ -6597,9 +6613,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "UTtrC3RMzxu38Tl4ytUxf",
+								"id": "D2ABTXIfo-b7xq7jSNlfg",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Intel U3",
 									"overlay": "4",
@@ -6607,7 +6623,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -6616,9 +6631,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "3FvW2jqFD5NKA2R-ROTmc",
+											"id": "3xukiiLP1TI2ZhaebQjsh",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "Intel U3"
@@ -6626,9 +6641,9 @@
 											"delay": 0
 										},
 										{
-											"id": "uxaO6HRexyF6mFw33Zgev",
+											"id": "HfHqR2L5TZXPvDPCnB-Ng",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "Intel U3"
@@ -6664,9 +6679,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "ghckRj2o0zCvhecwvwFNT",
+								"id": "TvP3zUTE33AbkeOOflZ90",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "ROG U3",
 									"overlay": "4",
@@ -6674,7 +6689,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -6683,9 +6697,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "YvIiQAVvqZg3JBXJvSFHf",
+											"id": "EW_3JmpQ65zvC6PGaYuO0",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "ROG U3"
@@ -6693,9 +6707,9 @@
 											"delay": 0
 										},
 										{
-											"id": "3NztwGUOKsQE-JzeOjnYa",
+											"id": "yhPOjSnTghxCWY7_fieNI",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "ROG U3"
@@ -6731,9 +6745,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "jcasufVDOOLmhTfjQnwB8",
+								"id": "lAsRc6MTHw8pE1HFr5TDE",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "OCUK U3",
 									"overlay": "4",
@@ -6741,7 +6755,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -6750,9 +6763,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "xmEFcs9t_DeZfmoqJhpzm",
+											"id": "JrlTjUopEokAnLt4jPpZ0",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "OCUK U3"
@@ -6760,9 +6773,9 @@
 											"delay": 0
 										},
 										{
-											"id": "VOBuFcFqkuRIi30d1HE3l",
+											"id": "6GvtZjd_WXiDgudfh83bm",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "OCUK U3"
@@ -6798,9 +6811,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "a0IyNKhMhrAPrxieBX_Q_",
+								"id": "JsaeYPLCY1ycUBCCMK6OO",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Draytek U3",
 									"overlay": "4",
@@ -6808,7 +6821,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -6817,9 +6829,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "l2UDBNx0oKmdGdSsoB6aP",
+											"id": "8RGfLkyD3kblt5_rLj8HV",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "Draytek U3"
@@ -6827,9 +6839,9 @@
 											"delay": 0
 										},
 										{
-											"id": "L3iuqD2scwvOrcqOtZ40_",
+											"id": "Am4Bk7mvCy-atuMAslaCE",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "Draytek U3"
@@ -6871,7 +6883,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "F44HgMUcZg9huzsGU7Y4h",
+											"id": "nRunoFE2hSvSmhs7zKbLs",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -6917,9 +6929,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "4Pf5i8fp_u5Q35weZhPCw",
+											"id": "Rn-01Y7kiDN2dHgLrFNXf",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
 												"functionID": "AudioOn"
@@ -6927,20 +6939,20 @@
 											"delay": 0
 										},
 										{
-											"id": "ZkHGBpv6EC7VfQ08hNNle",
+											"id": "FIBdaTkJV15P5AfwpQgGN",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
-												"fadeMin": 60,
-												"fadeTime": 2000
+												"fadeMin": "60",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "t-xwUVtFjZk5quDJo_X1C",
+											"id": "pi4HP5yrPsYEqcUMoAlWU",
 											"action": "videoActions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
 												"inputType": false,
@@ -6959,20 +6971,20 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "cGHuZVU5xrMZvbHESY-2i",
+											"id": "6YbdyuURyjKsOV_ebHIF4",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
-												"fadeMin": 0,
-												"fadeTime": 2000
+												"fadeMin": "0",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "6zJR08gGZowI92guhh9d7",
+											"id": "W3syqzV-d-ntdPmtQepvN",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
 												"functionID": "AudioOff"
@@ -7012,9 +7024,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "RAxOlKhE7zrAJ_hQPNhS4",
+											"id": "GJe4d0F7CvPCLR1Oh7RK0",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
 												"functionID": "AudioOn"
@@ -7022,20 +7034,20 @@
 											"delay": 0
 										},
 										{
-											"id": "rRVswxls4nXFa63zwoQrP",
+											"id": "RwH1-kEvYCCn0FH1tcqYX",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
-												"fadeMin": 60,
-												"fadeTime": 2000
+												"fadeMin": "60",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "W-dYmfLv-EO4O8jKaSm76",
+											"id": "cv0PgqNC1I9WLksVG_g23",
 											"action": "videoActions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
 												"inputType": false,
@@ -7054,20 +7066,20 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "HP44T8A3Bh4ckFvRjcIK2",
+											"id": "zSB4-V8TmfaXQguXks46I",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
-												"fadeMin": 0,
-												"fadeTime": 2000
+												"fadeMin": "0",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "MqDuKY4eWGsZ0d1oMmTEP",
+											"id": "fFjFcyW6qJc9vqNT41JWl",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
 												"functionID": "AudioOff"
@@ -7107,9 +7119,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "lSuDxQihkbL_VqXEUY2Bx",
+											"id": "4u-wxDp9A9X83IcvtTqP7",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
 												"functionID": "AudioOn"
@@ -7117,20 +7129,20 @@
 											"delay": 0
 										},
 										{
-											"id": "f5LA0iI0gZgmlJumBRLB4",
+											"id": "93mya2nrrXvxa2V2uPij_",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
-												"fadeMin": 60,
-												"fadeTime": 2000
+												"fadeMin": "60",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "ROpxSvJxIV1cnlqLOQbZM",
+											"id": "r8RGHX_JAs8zricgydr8h",
 											"action": "videoActions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
 												"inputType": false,
@@ -7149,20 +7161,20 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "P-DciKtRFstuqTqbFZMag",
+											"id": "qfpl-CFpxSFRqkCbz5IKL",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
-												"fadeMin": 0,
-												"fadeTime": 2000
+												"fadeMin": "0",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "O12eLQNZabZo6P4H3d2uV",
+											"id": "FaQbGgKvqX7NAjkzFGvL_",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
 												"functionID": "AudioOff"
@@ -7202,7 +7214,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "X10_Wh6wM0cXXQ_FYQYUZ",
+											"id": "_yJuG1ywEh8xOivC6V_4g",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -7248,8 +7260,8 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "DF2g10ZnjDqSqk9A-wQk6",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"id": "Oyl2C1gAi-eo9w-tVDYoD",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "transition",
 											"options": {
 												"functionID": "Stinger1"
@@ -7289,8 +7301,8 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "eKe-1b0sQr8znnQ8doFH7",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"id": "P81bWBJpjqSy5-AccjXkh",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "transition",
 											"options": {
 												"functionID": "Stinger2"
@@ -7330,8 +7342,8 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "E5R5hq6LvQ34nGx1JJyYC",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"id": "U88aGm56bLJV6svHzGIDt",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "transition",
 											"options": {
 												"functionID": "Stinger3"
@@ -7383,31 +7395,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "aUlm9S4Z1GSo1B-0LMspi",
+								"id": "IRU6TN1H1K3lEWW7nBlg7",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_SBE",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "_4aLqx__bDkvtW2W6NBPV",
+								"id": "5ZNXY0GNqwZ6BMIQxXo_e",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_SBE",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -7416,12 +7428,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "kt6ezJCEMyKxrmijX5C6-",
+											"id": "kxTJJ2H5oxUjP0geUDqXa",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_SBE",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -7454,31 +7467,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "ChTm2Rg2dJ8dkT7OzGUP6",
+								"id": "c_KsyHKSJr-u8gwpgxlcS",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Casters",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "Ddvxv6l2BiB2ar7B-X57F",
+								"id": "rKRmZLRhDYcfC8le0xU9o",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Casters",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -7487,12 +7500,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "95Fcpk-dUysJ7sQTSlGTq",
+											"id": "Xlkc-MqJo9JhfHB8k5hMe",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_Casters",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -7525,31 +7539,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "urnQXz-KfOpFf-FGPqaGV",
+								"id": "jlMsiINQ6Cx9dde7JGlng",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Game",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "N8iCA9ozp_l0T0LNh5uIs",
+								"id": "P3wYxgDo2QOEB6JA51OWb",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Game",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -7558,12 +7572,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "LHvLEpSLqQmpiPMlrpy34",
+											"id": "-WssxITmmZGnEGKDBHU4W",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_Game",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -7596,31 +7611,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "EXZiAVPj8RYloU5NngLWA",
+								"id": "iDhCCcoY0eCiS2gHdJfds",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "VT LIST",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "2Rds8SMNVcCI6dwgndfbO",
+								"id": "K5mNtiqxV8oZwthekufLh",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "VT LIST",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -7629,12 +7644,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "9LRVlA3dxrbRxQE-aZXZ7",
+											"id": "SoYbbq44Y56iR-VouJBfB",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "VT LIST",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -7667,31 +7683,31 @@
 						},
 						"feedbacks": [
 							{
-								"id": "TmEVTDDudBDkJmJmNUArg",
+								"id": "Xhll0_3oQdd7SYbnufi_w",
 								"type": "inputLive",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Bracket",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 16711680,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							},
 							{
-								"id": "iEVtOgGrV_VoDgod_1xDw",
+								"id": "wjWK7mvw1F6S-_i5E7z0b",
 								"type": "inputPreview",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "FS_Bracket",
 									"mix": 0,
 									"fg": 16777215,
 									"bg": 65280,
-									"tally": ""
+									"tally": "",
+									"mixVariable": ""
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -7700,12 +7716,13 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "lc46XL-mBPbEF8cez5HJU",
+											"id": "JYSMhbVO8YLCGrRzqUK3_",
 											"action": "previewInput",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "FS_Bracket",
-												"mix": 0
+												"mix": 0,
+												"mixVariable": ""
 											},
 											"delay": 0
 										}
@@ -7738,16 +7755,16 @@
 						},
 						"feedbacks": [
 							{
-								"id": "BxSFG2P45-fBcUhadvc0V",
+								"id": "pLSdUfE4ydSwL1avPQ3dg",
 								"type": "inputAudio",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Talkback",
-									"fg": 16777215,
-									"bgLive": 16711680,
-									"bgMuted": 16711935
+									"bgLive": 16711680
 								},
-								"style": {},
+								"style": {
+									"bgcolor": 16711935
+								},
 								"isInverted": false
 							}
 						],
@@ -7756,9 +7773,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "aVX3DJ-1v1D0ou4JTk8me",
+											"id": "MQshJv8Ut7XbmWRt2Hcm5",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Talkback",
 												"functionID": "AudioOn"
@@ -7768,9 +7785,9 @@
 									],
 									"up": [
 										{
-											"id": "-j1itXK2t3IKoHOG9Zynl",
+											"id": "ZaFHWiCsEOOvgBuCb-x7p",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Talkback",
 												"functionID": "AudioOff"
@@ -7810,9 +7827,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "yIfy5tnbZ2UnbfFhBlfj4",
+								"id": "Ca5Uxdu4i9ZS5LCMeZNXA",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "VS",
 									"overlay": "3",
@@ -7820,7 +7837,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -7829,9 +7845,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Zr5I6SN6V17a0kienCEeH",
+											"id": "NjBZeCjT5DoMx5pE9HL3p",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput3",
 												"input": "VS"
@@ -7867,9 +7883,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "wyb8MZvu54uTOImhXQH71",
+								"id": "HfJHmKld3YC6hkyq1fT5H",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Tags",
 									"overlay": "2",
@@ -7877,7 +7893,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -7886,9 +7901,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Xnx5ZcxUbziOUgnOtuu0Z",
+											"id": "W5JMxio1PmeivImy-Oozb",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput2",
 												"input": "Tags"
@@ -7924,9 +7939,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "QNAjVmRoPzXN0CyeDSQB-",
+								"id": "3mpLX4fsrdQ7zqh5e8w-u",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "General L3",
 									"overlay": "1",
@@ -7934,7 +7949,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -7943,9 +7957,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "P4020o2e6UbbEbLdu7f5C",
+											"id": "qLX4cnKddInJs9bmYFVwM",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput1",
 												"input": "General L3"
@@ -7986,9 +8000,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "-jqgKCkbPq_GSJ_-apFFD",
+								"id": "O0150LIAu27Y4VqzrJ14G",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Intel U3",
 									"overlay": "4",
@@ -7996,7 +8010,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -8005,9 +8018,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "bf2_y7jyeNzu198V9U0wr",
+											"id": "dit5v988KBdB9EUqBKB1A",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "Intel U3"
@@ -8015,9 +8028,9 @@
 											"delay": 0
 										},
 										{
-											"id": "jaVXm3wmR4hd1qg_ghgsh",
+											"id": "zwxVsB_qwZhSzZlIdW_Nu",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "Intel U3"
@@ -8053,9 +8066,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "9HVncDLdVKOZDrZBytdNv",
+								"id": "HgRzjlRhzk9giKQr5SdP0",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "ROG U3",
 									"overlay": "4",
@@ -8063,7 +8076,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -8072,9 +8084,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "lz1JiSfY55gaQpcl3dlUE",
+											"id": "zBfMjiqeXpp20B_Lym8E3",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "ROG U3"
@@ -8082,9 +8094,9 @@
 											"delay": 0
 										},
 										{
-											"id": "30izcywra316ITigfCspL",
+											"id": "e9bwU0O343cEWWsW3eceB",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "ROG U3"
@@ -8120,9 +8132,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "6qWtDmF2dcgJljdX220R2",
+								"id": "LD-ozIvxkrYh5Ny_feSLz",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "OCUK U3",
 									"overlay": "4",
@@ -8130,7 +8142,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -8139,9 +8150,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "qqSVBy6G8tGD30vza7IRT",
+											"id": "lJoL7XlUVes8UI_Cm93LN",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "OCUK U3"
@@ -8149,9 +8160,9 @@
 											"delay": 0
 										},
 										{
-											"id": "YldRdqLTDxeLaq7HAmDfJ",
+											"id": "HBgy7HjFokqeV-A64629-",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "OCUK U3"
@@ -8187,9 +8198,9 @@
 						},
 						"feedbacks": [
 							{
-								"id": "nST1b6PUOqA-_jWQPVBMV",
+								"id": "qNoblhooYHREeUlx6QKQa",
 								"type": "overlayStatus",
-								"instance_id": "O5cfOwGT5loz5WqBRAgQq",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
 								"options": {
 									"input": "Draytek U3",
 									"overlay": "4",
@@ -8197,7 +8208,6 @@
 									"bgPreview": 65280,
 									"bgProgram": 16711680
 								},
-								"style": {},
 								"isInverted": false
 							}
 						],
@@ -8206,9 +8216,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "ZwNIcZ90d9R_S4SVgk5D2",
+											"id": "v58KyLRQLuuhvtZ7_NiaL",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4In",
 												"input": "Draytek U3"
@@ -8216,9 +8226,9 @@
 											"delay": 0
 										},
 										{
-											"id": "2arTLon9Rw3K2zLh8wnoJ",
+											"id": "erqkNI6XNnsRI3RUhZozT",
 											"action": "overlayFunctions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"functionID": "OverlayInput4Out",
 												"input": "Draytek U3"
@@ -8260,7 +8270,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "sWRSwVnr0_e1iVSltesT2",
+											"id": "u4Cxmtvu3ODr156IKMtlH",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -8306,9 +8316,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "JY_pvv6opzDjdjUJalkZ6",
+											"id": "PjXAphFunFpEISJt10Hc5",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
 												"functionID": "AudioOn"
@@ -8316,20 +8326,20 @@
 											"delay": 0
 										},
 										{
-											"id": "D5cyi_6znGenKTH_OFgCI",
+											"id": "bIVXbAsUXV06ENQOtyX8A",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
-												"fadeMin": 60,
-												"fadeTime": 2000
+												"fadeMin": "60",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "4S67CH7nJIQuTudR0bCWr",
+											"id": "YwtuzAcQrlR-3emEQ48jF",
 											"action": "videoActions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
 												"inputType": false,
@@ -8348,20 +8358,20 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "VXbqCa1Kz8CJ2H1ujxYAr",
+											"id": "urGKNi-Ca3t1sMD1uHqxQ",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
-												"fadeMin": 0,
-												"fadeTime": 2000
+												"fadeMin": "0",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "P8ESng11__nqlNdT5HJAg",
+											"id": "PYzO-hp0ZcAnz-Q1uBA9p",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Break Music",
 												"functionID": "AudioOff"
@@ -8401,9 +8411,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Cx15PXIuOu9IXPD6ANgIu",
+											"id": "KZ2U9mBVXAoeP_eox1wUi",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
 												"functionID": "AudioOn"
@@ -8411,20 +8421,20 @@
 											"delay": 0
 										},
 										{
-											"id": "OnNud-9MlXEQC0gH4Bt3e",
+											"id": "hystUTfhVQHhn-tCVBDFE",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
-												"fadeMin": 60,
-												"fadeTime": 2000
+												"fadeMin": "60",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "d-r87dm1mvwp2_qKgjOvA",
+											"id": "nybGmk8XRqa5ChArkZPen",
 											"action": "videoActions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
 												"inputType": false,
@@ -8443,20 +8453,20 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "vlsRw0bNzdiU4XClqqR2O",
+											"id": "5MESdctYESMvGkOW8c6_V",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
-												"fadeMin": 0,
-												"fadeTime": 2000
+												"fadeMin": "0",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "y48LtAa0hAf72xCjaBtFp",
+											"id": "PbacUGHoYtp9O-90xuy3e",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Bed Music",
 												"functionID": "AudioOff"
@@ -8496,9 +8506,9 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "GlJA0b0kTqfYh2er03oFo",
+											"id": "2Y6hKXI5wRJuslAnL8kzt",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
 												"functionID": "AudioOn"
@@ -8506,20 +8516,20 @@
 											"delay": 0
 										},
 										{
-											"id": "f-SCFtMOmMp_IwMJupGck",
+											"id": "TSrVzJodWBtIYF2dpIFC4",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
-												"fadeMin": 60,
-												"fadeTime": 2000
+												"fadeMin": "60",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "5TZZvch-U4oT86YNZh8FI",
+											"id": "6wexHQ1FCAMgZ20EZCZ6I",
 											"action": "videoActions",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
 												"inputType": false,
@@ -8538,20 +8548,20 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "gWOFvnjt5YW0Rj6Gqt0bM",
+											"id": "v1a5UnUbgk1eLUgORsSfH",
 											"action": "setVolumeFade",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
-												"fadeMin": 0,
-												"fadeTime": 2000
+												"fadeMin": "0",
+												"fadeTime": "2000"
 											},
 											"delay": 0
 										},
 										{
-											"id": "bNKq5z-QbahdR8x1fqoZ7",
+											"id": "F4q7zIDHadiFDQ468ImM_",
 											"action": "audio",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"options": {
 												"input": "Replay Pack Music",
 												"functionID": "AudioOff"
@@ -8591,7 +8601,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "b1zq35uivnfCA3_nGpkAO",
+											"id": "wRRT_XAmBst9z4fIp96dH",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -8637,8 +8647,8 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "7DorMjUlYBm-9ZqHFArfr",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"id": "S5IvW3hSSbNLiNP27N-Mo",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "transition",
 											"options": {
 												"functionID": "Stinger1"
@@ -8678,8 +8688,8 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "cODtOR3z55QyXCmCuxDF6",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"id": "Pcx3nsGrvGYCNPnV8Cjlt",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "transition",
 											"options": {
 												"functionID": "Stinger2"
@@ -8719,8 +8729,8 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "JvDT47D3pSYp6pZgRDeyd",
-											"instance": "O5cfOwGT5loz5WqBRAgQq",
+											"id": "Nkk5YPnZeM9y12kU0gdWd",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
 											"action": "transition",
 											"options": {
 												"functionID": "Stinger3"
@@ -8776,7 +8786,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "ho_xOOntMS1PjFavluhK7",
+											"id": "H2hy0k5_LnLz8TDCw1c-D",
 											"action": "custom_variable_set_expression",
 											"instance": "internal",
 											"options": {
@@ -8818,7 +8828,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "cLzjSBVAKcvoZz6fLHQk4",
+											"id": "4Nj7OmzRO_6qWeFL8u-CU",
 											"action": "custom_variable_set_expression",
 											"instance": "internal",
 											"options": {
@@ -8860,7 +8870,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Biy9TR-HGAUehW0h_kbf-",
+											"id": "0rwBWVspFt0pLA-u_BNSo",
 											"action": "custom_variable_set_expression",
 											"instance": "internal",
 											"options": {
@@ -8902,7 +8912,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "7ARa-2h6xDPP2333wJJ55",
+											"id": "If86h1-JlYa8WfFqDIYiP",
 											"action": "custom_variable_set_expression",
 											"instance": "internal",
 											"options": {
@@ -9078,7 +9088,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "1dPIW6AENe87gdEulXrvG",
+											"id": "RYV7yWbevkbGJzYmrLUa_",
 											"action": "custom_variable_set_expression",
 											"instance": "internal",
 											"options": {
@@ -9120,7 +9130,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "0hJJRLelay2DJSgBGYC4U",
+											"id": "r03_-7BlPkc3qBNz9d70M",
 											"action": "custom_variable_set_expression",
 											"instance": "internal",
 											"options": {
@@ -9162,7 +9172,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "RPdP-Jv1w5xId-njdEMIB",
+											"id": "DPHd7O0svtpKQw2233kWJ",
 											"action": "custom_variable_set_expression",
 											"instance": "internal",
 											"options": {
@@ -9204,7 +9214,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "M7c02fVCjkHrSH4w2g2EN",
+											"id": "5HPylxZr244VbZ9NJTkZx",
 											"action": "custom_variable_set_expression",
 											"instance": "internal",
 											"options": {
@@ -9246,7 +9256,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Hpc0l2lqD6ciyengtBSTL",
+											"id": "m489aVodYx_7l2Qvu7VHW",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -9330,21 +9340,1594 @@
 			}
 		},
 		"10": {
-			"name": "PAGE",
+			"name": "osu! mix",
 			"controls": {
 				"0": {
 					"0": {
 						"type": "pageup"
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "SBE",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16744448,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "l8n3y0xspqvQQw8VKmap1",
+								"type": "inputLive",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "FS_SBE",
+									"mix": 0,
+									"fg": 16777215,
+									"bg": 16711680,
+									"tally": "",
+									"mixVariable": ""
+								},
+								"isInverted": false
+							},
+							{
+								"id": "o4OhU1Ra8On2dSUS9ST9F",
+								"type": "inputPreview",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "FS_SBE",
+									"mix": 0,
+									"fg": 16777215,
+									"bg": 65280,
+									"tally": "",
+									"mixVariable": ""
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "lo7bNgF1O09nEaFXghsGg",
+											"action": "previewInput",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "FS_SBE",
+												"mix": 0,
+												"mixVariable": ""
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Casters",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16744448,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "Qft0W5qOHK0ENGInaCMmc",
+								"type": "inputLive",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "FS_Casters",
+									"mix": 0,
+									"fg": 16777215,
+									"bg": 16711680,
+									"tally": "",
+									"mixVariable": ""
+								},
+								"isInverted": false
+							},
+							{
+								"id": "r7raXhQ_f8iGdiMviIn9B",
+								"type": "inputPreview",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "FS_Casters",
+									"mix": 0,
+									"fg": 16777215,
+									"bg": 65280,
+									"tally": "",
+									"mixVariable": ""
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "wWM0RBt5UoPLiwMj_bzeN",
+											"action": "previewInput",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "FS_Casters",
+												"mix": 0,
+												"mixVariable": ""
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "Bracket",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16744448,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "QwUZhC8g9Szd_egizGVxU",
+								"type": "inputLive",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "FS_Bracket",
+									"mix": 0,
+									"fg": 16777215,
+									"bg": 16711680,
+									"tally": "",
+									"mixVariable": ""
+								},
+								"isInverted": false
+							},
+							{
+								"id": "c8XNPwyBtIKYDjw1lYenj",
+								"type": "inputPreview",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "FS_Bracket",
+									"mix": 0,
+									"fg": 16777215,
+									"bg": 65280,
+									"tally": "",
+									"mixVariable": ""
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "C-_Bv5JtinQnm1XYIfF96",
+											"action": "previewInput",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "FS_Bracket",
+												"mix": 0,
+												"mixVariable": ""
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "Game",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16744448,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "1M5yGbBHTvWeyl6HMxxjF",
+								"type": "inputLive",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "FS_Game",
+									"mix": 0,
+									"fg": 16777215,
+									"bg": 16711680,
+									"tally": "",
+									"mixVariable": ""
+								},
+								"isInverted": false
+							},
+							{
+								"id": "qG95upWz4lrxZvHVd2mN2",
+								"type": "inputPreview",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "FS_Game",
+									"mix": 0,
+									"fg": 16777215,
+									"bg": 65280,
+									"tally": "",
+									"mixVariable": ""
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "D8n4bsvcygsdL1RSPA4uZ",
+											"action": "previewInput",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "FS_Game",
+												"mix": 0,
+												"mixVariable": ""
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "VT",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16744448,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "aJ20o30q8VvIEiJAENzLN",
+								"type": "inputLive",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "VT LIST",
+									"mix": 0,
+									"fg": 16777215,
+									"bg": 16711680,
+									"tally": "",
+									"mixVariable": ""
+								},
+								"isInverted": false
+							},
+							{
+								"id": "-3nu3vFh_5ZfaNXDg1lII",
+								"type": "inputPreview",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "VT LIST",
+									"mix": 0,
+									"fg": 16777215,
+									"bg": 65280,
+									"tally": "",
+									"mixVariable": ""
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "JvijfDdRiZRPk_TvNaZk8",
+											"action": "previewInput",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "VT LIST",
+												"mix": 0,
+												"mixVariable": ""
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
 					}
 				},
 				"1": {
 					"0": {
 						"type": "pagenum"
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "VS overlay",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 255,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "yk5O7P89KqAjQVRCgf3xe",
+								"type": "overlayStatus",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "VS",
+									"overlay": "3",
+									"fg": 16777215,
+									"bgPreview": 65280,
+									"bgProgram": 16711680
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "9kxL58vIGw_-luoVtez7T",
+											"action": "overlayFunctions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"functionID": "OverlayInput3",
+												"input": "VS"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "name & @s",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 255,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "eI2WNzJwPginJP92gx9Px",
+								"type": "overlayStatus",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "Tags",
+									"overlay": "2",
+									"fg": 16777215,
+									"bgPreview": 65280,
+									"bgProgram": 16711680
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "5zmUqgHpf8y4vZBtsx1ja",
+											"action": "overlayFunctions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"functionID": "OverlayInput2",
+												"input": "Tags"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "-",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 255,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "5aQm9fVFuP5Mm1iaFDriR",
+								"type": "overlayStatus",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "Veto",
+									"overlay": "1",
+									"fg": 16777215,
+									"bgPreview": 65280,
+									"bgProgram": 16711680
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "NPjQadEBzsvBxrM_F6Nf_",
+											"action": "overlayFunctions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"functionID": "OverlayInput1",
+												"input": "Veto"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "-",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 255,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "zE2YdMFMlWRz0Kb1ttmPg",
+								"type": "overlayStatus",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "BO1 Mid Series",
+									"overlay": "1",
+									"fg": 16777215,
+									"bgPreview": 65280,
+									"bgProgram": 16711680
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "EX8mREBYa_9E30WxOVfn-",
+											"action": "overlayFunctions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"functionID": "OverlayInput1",
+												"input": "BO1 Mid Series"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "-",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 255,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "Kjr_BU5-24MlxoHPXZ_3f",
+								"type": "overlayStatus",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "BO3 Mid Series",
+									"overlay": "1",
+									"fg": 16777215,
+									"bgPreview": 65280,
+									"bgProgram": 16711680
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "ag2mlpdHLvbYLoj7gZiND",
+											"action": "overlayFunctions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"functionID": "OverlayInput1",
+												"input": "BO3 Mid Series"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "gp lower3",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 255,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "o2IUZeSz_7IQUVb99K1xv",
+								"type": "overlayStatus",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "General L3",
+									"overlay": "1",
+									"fg": 16777215,
+									"bgPreview": 65280,
+									"bgProgram": 16711680
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "ESHiv7WEFgkDdNRt2OLEG",
+											"action": "overlayFunctions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"functionID": "OverlayInput1",
+												"input": "General L3"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "Talk\\nback",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "5DRwcvWBrBKEEXZvqCDRO",
+								"type": "inputAudio",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "Talkback",
+									"bgLive": 16711680
+								},
+								"style": {
+									"bgcolor": 16711935
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "IApgZRAsUAJz0l0m7d9xK",
+											"action": "audio",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Talkback",
+												"functionID": "AudioOn"
+											},
+											"delay": 0
+										}
+									],
+									"up": [
+										{
+											"id": "8NjterzhcITz-kgV_AwJl",
+											"action": "audio",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Talkback",
+												"functionID": "AudioOff"
+											},
+											"delay": 0
+										}
+									]
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
 					}
 				},
 				"2": {
 					"0": {
 						"type": "pagedown"
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Intel U3",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 8421631,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "1y3TkkgCN7qEXpxp9QTDQ",
+								"type": "overlayStatus",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "Intel U3",
+									"overlay": "4",
+									"fg": 16777215,
+									"bgPreview": 65280,
+									"bgProgram": 16711680
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "6zwaIJHYoRGusGCQNwmJT",
+											"action": "overlayFunctions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"functionID": "OverlayInput4In",
+												"input": "Intel U3"
+											},
+											"delay": 0
+										},
+										{
+											"id": "J8iWaG2dSNlvrqxWKu5lN",
+											"action": "overlayFunctions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"functionID": "OverlayInput4Out",
+												"input": "Intel U3"
+											},
+											"delay": 8000
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "ROG U3",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 8421631,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "_E-bRUz-gLwg1utVl5P7W",
+								"type": "overlayStatus",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "ROG U3",
+									"overlay": "4",
+									"fg": 16777215,
+									"bgPreview": 65280,
+									"bgProgram": 16711680
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "MNlixI7WyoqtwuO75N36L",
+											"action": "overlayFunctions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"functionID": "OverlayInput4In",
+												"input": "ROG U3"
+											},
+											"delay": 0
+										},
+										{
+											"id": "O_j3hmdEWNCs2ZOtqVVmI",
+											"action": "overlayFunctions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"functionID": "OverlayInput4Out",
+												"input": "ROG U3"
+											},
+											"delay": 8000
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "OCUK U3",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 8421631,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "UWfTxV7BZoMBDI6RAOzK9",
+								"type": "overlayStatus",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "OCUK U3",
+									"overlay": "4",
+									"fg": 16777215,
+									"bgPreview": 65280,
+									"bgProgram": 16711680
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "aK17KpNjya38lvVbHwKzO",
+											"action": "overlayFunctions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"functionID": "OverlayInput4In",
+												"input": "OCUK U3"
+											},
+											"delay": 0
+										},
+										{
+											"id": "hXZNeXy1bNAt2l_bNv5Ur",
+											"action": "overlayFunctions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"functionID": "OverlayInput4Out",
+												"input": "OCUK U3"
+											},
+											"delay": 8000
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "Draytek U3",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 8421631,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "09kYmY-0CGjVma-cc1Y4x",
+								"type": "overlayStatus",
+								"instance_id": "3fNjZSx_Tu1RuL9pnOwFp",
+								"options": {
+									"input": "Draytek U3",
+									"overlay": "4",
+									"fg": 16777215,
+									"bgPreview": 65280,
+									"bgProgram": 16711680
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "S-7ChcE4Jo_6KbeSlEEvV",
+											"action": "overlayFunctions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"functionID": "OverlayInput4In",
+												"input": "Draytek U3"
+											},
+											"delay": 0
+										},
+										{
+											"id": "FiV10pfarv5wljur5Zn4O",
+											"action": "overlayFunctions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"functionID": "OverlayInput4Out",
+												"input": "Draytek U3"
+											},
+											"delay": 8000
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "Short Sting",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16744576,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "J7B4A-CNlZygoQBLSq8zB",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"action": "transition",
+											"options": {
+												"functionID": "Stinger1"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "Long Sting",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16744576,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "B6MlyUU-2X0Q0VP2_bnzc",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"action": "transition",
+											"options": {
+												"functionID": "Stinger2"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"3": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Replay Shortcut",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16728319,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "VPtSki6klSOgm1AsMuhJM",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "self",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 1,
+												"page_variable": "1"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Break I/O",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 6684774,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "m9-Q4lWIW8NmSgwsnE2Wb",
+											"action": "audio",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Break Music",
+												"functionID": "AudioOn"
+											},
+											"delay": 0
+										},
+										{
+											"id": "gdPtTSjh4LDLv85S5XC_1",
+											"action": "setVolumeFade",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Break Music",
+												"fadeMin": "60",
+												"fadeTime": "2000"
+											},
+											"delay": 0
+										},
+										{
+											"id": "9nxiOZdlzRC36htZJgVnk",
+											"action": "videoActions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Break Music",
+												"inputType": false,
+												"functionID": "Play"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							},
+							"1": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "nDpfF3AKpI0F5VDEPy7TU",
+											"action": "setVolumeFade",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Break Music",
+												"fadeMin": "0",
+												"fadeTime": "2000"
+											},
+											"delay": 0
+										},
+										{
+											"id": "qdlUq6k3gfGfnVBiohpAA",
+											"action": "audio",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Break Music",
+												"functionID": "AudioOff"
+											},
+											"delay": 2010
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Bed I/O",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 6684774,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "Ca9Nu-Z0o3lw4gl9AUs8a",
+											"action": "audio",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Bed Music",
+												"functionID": "AudioOn"
+											},
+											"delay": 0
+										},
+										{
+											"id": "pTzMeiQnRCfvym-P1D_b3",
+											"action": "setVolumeFade",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Bed Music",
+												"fadeMin": "60",
+												"fadeTime": "2000"
+											},
+											"delay": 0
+										},
+										{
+											"id": "-wkTSSYj7-kbSgRO7T-cI",
+											"action": "videoActions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Bed Music",
+												"inputType": false,
+												"functionID": "Play"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							},
+							"1": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "h0w-fHiI1VcGLAPDpvbON",
+											"action": "setVolumeFade",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Bed Music",
+												"fadeMin": "0",
+												"fadeTime": "2000"
+											},
+											"delay": 0
+										},
+										{
+											"id": "1ods86874q-xx5FeyVI-b",
+											"action": "audio",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Bed Music",
+												"functionID": "AudioOff"
+											},
+											"delay": 2010
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "Replay I/O",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 6684774,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "8DALeuteFKrZjOo1gaAaz",
+											"action": "audio",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Replay Pack Music",
+												"functionID": "AudioOn"
+											},
+											"delay": 0
+										},
+										{
+											"id": "nNbTfXjZRgFqyaPu01_NJ",
+											"action": "setVolumeFade",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Replay Pack Music",
+												"fadeMin": "60",
+												"fadeTime": "2000"
+											},
+											"delay": 0
+										},
+										{
+											"id": "GrnUP-zI5SuXA-wM30_u3",
+											"action": "videoActions",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Replay Pack Music",
+												"inputType": false,
+												"functionID": "Play"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							},
+							"1": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "855OU8i89mitDkoHpsQqa",
+											"action": "setVolumeFade",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Replay Pack Music",
+												"fadeMin": "0",
+												"fadeTime": "2000"
+											},
+											"delay": 0
+										},
+										{
+											"id": "fiB5q5vI4w3aWy9DTpukt",
+											"action": "audio",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"options": {
+												"input": "Replay Pack Music",
+												"functionID": "AudioOff"
+											},
+											"delay": 2010
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "",
+							"textExpression": false,
+							"size": "auto",
+							"png64": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAAsSAAALEgHS3X78AAACiElEQVR4nO2aMXKbQBSGf5CFrcRe3ItGJVxAXEBcQKrcSRegovQJqHwCd6iiE41dqrEvIF2AEzjOJHYsJ4XHyXhG8j9IC0tm3tcy2nn65l/eY8EaDAa/IezENl1A2xFBBBFEEEEEEUQQQQQRRBBBBBFEEEEEEUQQQQQRRBBBBBFEaJUgpSwoZZku4wOtERSGXRSFi6JwEYZd0+X8pRWC4riHLDtDv2+j37eRZWeI457psgAAlskj1yDoIE1P4fudrdfX6w2S5BGr1abhyv5hLEGz2Qnmc7VTDgD4fgfzucJsdtJgZR9pPEGeZyNNTzEcHlX63f39C5LkEWX5WlNl22k0QVHkoCjcynIAYDg8QlG4iCKnhsp200iClLKQpl8xGun5c7e3z0iS73h4qD/8tSfovX3rkgMAo5HT2DhQa4IuL79gOq33Bnt9/RNXVz9qS1MtCQqCDorCrV0OAEynb90wCHZ3w0PQLiiOe1gs3E/bt258v4PFwq1luNS2xfZt37rRPQ5oSdBkcrx3+9bN+zgwmRxrWe+gBOlu37rRMQ7snaAocrBcnrdWDvA2DiyX5wcNl5UTpJSFOO410qF0su84UFlQFDlbO5Tn2RiP9ez7Q8nzp6036fV6g5ub50praetiYdhFlp3pWOpgLi6+4e7ul5a1WnFg1mZEEEEEEUQQQQQRRBBBBBGMPl3m+RPy/PPBbTx2jA6gRgWV5Ssd6EyfEMgWI4gggggiiCCCCCKIIIIIIogggggiiCCCCCJoO7RXykIQVHtuKssNfUXseTY8r9p7/tXqRdvXHkY/4vwfkC1GEEEEEUQQQQQRRBBBBBFEEEEEEUQQQQQRRBBBBBFEEEEEEUT4A3+Qpvsj0TmpAAAAAElFTkSuQmCC",
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "hATJ9TIFXraaW3EnfTqF3",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "self",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 99,
+												"page_variable": "1"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "Merge",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16744576,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "W-n-Pe0d3LOd4JAglzmYL",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"action": "transitionMix",
+											"options": {
+												"functionID": "Merge",
+												"mix": 0,
+												"duration": "1000",
+												"mixVariable": ""
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "Replay Sting",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16744576,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "HymKKFydG9ZZXr5W95-pK",
+											"instance": "3fNjZSx_Tu1RuL9pnOwFp",
+											"action": "transition",
+											"options": {
+												"functionID": "Stinger3"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
 					}
 				}
 			},
@@ -11674,7 +13257,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "XQFjumsFMyDKXGIuWTIjb",
+											"id": "HbQ0Vwtr700qN5kvyui6j",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -11720,7 +13303,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "Ngo5vdetctgHP14qxqxsV",
+											"id": "HRfxTzjxj6exYTqo6Hrqe",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -11766,7 +13349,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "_ij6xpLba_ZpxJl9D-btF",
+											"id": "T36bZzZ_9c8Pz7MHNhASu",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -11812,7 +13395,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "U6dl8IF_yZyxGr3f8u3rS",
+											"id": "EL4-nX6ULLsg2vkaVmcRS",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -11858,7 +13441,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "2UjOE6reXo3hiXNYyc-6P",
+											"id": "yCfrDGBxO5_f9n0DePDpy",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -11904,7 +13487,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "-1Nokx-VEIoFwna-NIBtC",
+											"id": "ZsXOqIh5YlxNrlvqfQDtE",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -11950,7 +13533,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "kyK9P_WSXanaLJbzBztko",
+											"id": "YXqPlm8LDVXDF1f0ohxwn",
 											"action": "set_page",
 											"instance": "internal",
 											"options": {
@@ -11976,6 +13559,98 @@
 				"1": {
 					"0": {
 						"type": "pagenum"
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "osu!\\nMix",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "t7Vs_V0dxv0TmJewQE5pi",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "self",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 10,
+												"page_variable": "1"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "osu!\\nctrl",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "DgNkBDdExOw0nDUQVWMR-",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "self",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 11,
+												"page_variable": "1"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
 					}
 				},
 				"2": {
@@ -12020,7 +13695,7 @@
 		}
 	},
 	"instances": {
-		"O5cfOwGT5loz5WqBRAgQq": {
+		"3fNjZSx_Tu1RuL9pnOwFp": {
 			"instance_type": "studiocoast-vmix",
 			"sortOrder": 1,
 			"label": "Local_vMix",
@@ -12039,13 +13714,37 @@
 				"variablesShowInputGUID": false,
 				"variablesShowInputPosition": false,
 				"variablesShowInputLayerPosition": false,
-				"strictInputVariableTypes": false
+				"strictInputVariableTypes": false,
+				"httpPort": 8088
 			},
-			"lastUpgradeIndex": 3,
+			"lastUpgradeIndex": 6,
 			"enabled": true
 		}
 	},
 	"surfaces": {
+		"A00NA43331LIXS": {
+			"type": "Satellite StreamDeck: xl",
+			"integrationType": "satellite",
+			"gridSize": {
+				"columns": 8,
+				"rows": 4
+			},
+			"config": {
+				"brightness": 100,
+				"rotation": 0,
+				"never_lock": false,
+				"xOffset": 0,
+				"yOffset": 0,
+				"groupId": null
+			},
+			"groupConfig": {
+				"name": "Unnamed group",
+				"last_page": 11,
+				"startup_page": 1,
+				"use_last_page": true
+			},
+			"groupId": null
+		},
 		"emulator:emulator": {
 			"config": {
 				"brightness": 100,
