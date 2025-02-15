@@ -1,0 +1,3441 @@
+{
+    "DesktopAudioDevice1": {
+        "prev_ver": 503382018,
+        "name": "Desktop Audio",
+        "uuid": "beb68426-9306-46b5-9592-f93d9dce44f8",
+        "id": "wasapi_output_capture",
+        "versioned_id": "wasapi_output_capture",
+        "settings": {
+            "device_id": "{0.0.0.00000000}.{f4b835a6-29fb-4c2e-91a3-c45667137fd5}"
+        },
+        "mixers": 195,
+        "sync": 0,
+        "flags": 0,
+        "volume": 0.063095726072788239,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": false,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.unmute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": []
+        },
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 2,
+        "private_settings": {}
+    },
+    "current_scene": "techissues",
+    "current_program_scene": "techissues",
+    "scene_order": [
+        {
+            "name": "startingsoon"
+        },
+        {
+            "name": "techissues"
+        },
+        {
+            "name": "----"
+        },
+        {
+            "name": "main"
+        },
+        {
+            "name": "-----"
+        },
+        {
+            "name": "end/offline"
+        },
+        {
+            "name": "---"
+        },
+        {
+            "name": "discord dsk"
+        }
+    ],
+    "name": "USC2024",
+    "groups": [
+        {
+            "prev_ver": 503382018,
+            "name": "osu_clients",
+            "uuid": "a15a9962-12ff-4ab2-a9c7-fbc3fde1a9f2",
+            "id": "group",
+            "versioned_id": "group",
+            "settings": {
+                "custom_size": true,
+                "cx": 1920,
+                "cy": 720,
+                "id_counter": 0,
+                "items": [
+                    {
+                        "name": "osu_0",
+                        "source_uuid": "e8691697-ba19-4894-8ad4-8b00d7ce9259",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 240.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "osu_1",
+                        "source_uuid": "8e5d8415-4957-4c1b-9417-5b8f10170a85",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 360.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "osu_2",
+                        "source_uuid": "cdfe5541-26f8-43e4-b766-4747a5b1f298",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 480.0,
+                            "y": 360.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 4,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "osu_3",
+                        "source_uuid": "e25015a4-524d-48ce-9285-76753f663abc",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1200.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 5,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "osu_4",
+                        "source_uuid": "33c78b8c-19ed-4521-a7af-7f4d5a12a1bf",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 960.0,
+                            "y": 360.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 6,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "osu_5",
+                        "source_uuid": "7a4234c4-477b-406a-898a-44a451bc4999",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1440.0,
+                            "y": 360.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 7,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": [],
+                "libobs.show_scene_item.5": [],
+                "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.6": [],
+                "libobs.hide_scene_item.6": [],
+                "libobs.show_scene_item.7": [],
+                "libobs.hide_scene_item.7": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "nowplaying_t",
+            "uuid": "fb7b36a5-8c29-42ca-a18b-94acaed0bdfa",
+            "id": "group",
+            "versioned_id": "group",
+            "settings": {
+                "custom_size": true,
+                "cx": 800,
+                "cy": 113,
+                "id_counter": 0,
+                "items": [
+                    {
+                        "name": "snip 3",
+                        "source_uuid": "3af6e2bd-4db0-4ffc-873c-a3c2ca759b2f",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 63.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "snip 2 2",
+                        "source_uuid": "e948ce5d-81a9-4757-a11d-5e1dccc13679",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 556.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "nowplaying_s",
+            "uuid": "15018b4f-412d-43c7-8e48-75427045b25d",
+            "id": "group",
+            "versioned_id": "group",
+            "settings": {
+                "custom_size": true,
+                "cx": 1800,
+                "cy": 184,
+                "id_counter": 0,
+                "items": [
+                    {
+                        "name": "snip",
+                        "source_uuid": "cfc08eed-4e37-4eec-b031-1455fb6fa78c",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 84.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "snip \"now playing\"",
+                        "source_uuid": "32696fc0-fb20-4e21-a813-8067a1a53d34",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1478.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        }
+    ],
+    "quick_transitions": [
+        {
+            "name": "Cut",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 4,
+            "fade_to_black": false
+        },
+        {
+            "name": "Fade",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 5,
+            "fade_to_black": false
+        },
+        {
+            "name": "Fade",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 6,
+            "fade_to_black": true
+        },
+        {
+            "name": "Fade",
+            "duration": 1000,
+            "hotkeys": [],
+            "id": 7,
+            "fade_to_black": false
+        }
+    ],
+    "transitions": [
+        {
+            "name": "Luma Wipe",
+            "id": "wipe_transition",
+            "settings": {
+                "luma_softness": 0.050000000000000003
+            }
+        }
+    ],
+    "saved_projectors": [
+        {
+            "monitor": -1,
+            "type": 3,
+            "geometry": "AdnQywADAAAAAAQQAAACOQAABe8AAANlAAAEEAAAAlgAAAXvAAADZQAAAAAAAAAACgAAAAQQAAACWAAABe8AAANl",
+            "alwaysOnTopOverridden": false
+        }
+    ],
+    "current_transition": "Fade",
+    "transition_duration": 500,
+    "preview_locked": false,
+    "scaling_enabled": false,
+    "scaling_level": 0,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
+    "virtual-camera": {
+        "type2": 3
+    },
+    "modules": {
+        "scripts-tool": [],
+        "output-timer": {
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "autoStartStreamTimer": false,
+            "autoStartRecordTimer": false,
+            "pauseRecordTimer": true
+        },
+        "auto-scene-switcher": {
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": false,
+            "active": false,
+            "switches": []
+        },
+        "captions": {
+            "source": "",
+            "enabled": false,
+            "lang_id": 1033,
+            "provider": "mssapi"
+        },
+        "downstream_keyers_channel": 7,
+        "downstream_keyers": [
+            {
+                "name": "DSK 1",
+                "transition": "",
+                "transition_duration": 300,
+                "show_transition": "",
+                "show_transition_duration": 300,
+                "hide_transition": "",
+                "hide_transition_duration": 300,
+                "scenes": [
+                    {
+                        "name": "discord dsk"
+                    }
+                ],
+                "scene": "",
+                "null_hotkey": [],
+                "enable_tie_hotkey": [],
+                "disable_tie_hotkey": [],
+                "exclude_scenes": []
+            }
+        ],
+        "advanced-scene-switcher": {
+            "sceneGroups": [],
+            "macros": [
+                {
+                    "name": "mute audio 2s",
+                    "pause": false,
+                    "parallel": false,
+                    "onChange": true,
+                    "skipExecOnStart": false,
+                    "stopActionsIfNotDone": false,
+                    "group": false,
+                    "dockSettings": {
+                        "register": false,
+                        "hasRunButton": true,
+                        "hasPauseButton": true,
+                        "hasStatusLabel": false,
+                        "highlightIfConditionsTrue": false,
+                        "runButtonText": "Run",
+                        "pauseButtonText": "Pause",
+                        "unpauseButtonText": "Unpause",
+                        "conditionsTrueStatusText": "Conditions are true.",
+                        "conditionsFalseStatusText": "Conditions are false."
+                    },
+                    "macroActionConditionSplitterPosition": [
+                        {
+                            "pos": 191
+                        },
+                        {
+                            "pos": 190
+                        }
+                    ],
+                    "macroElseActionSplitterPosition": [
+                        {
+                            "pos": 152
+                        },
+                        {
+                            "pos": 0
+                        }
+                    ],
+                    "registerHotkeys": false,
+                    "pauseHotkey": [],
+                    "unpauseHotkey": [],
+                    "togglePauseHotkey": [],
+                    "conditions": [
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label"
+                            },
+                            "id": "hotkey",
+                            "logic": 0,
+                            "durationModifier": {
+                                "time_constraint": 0,
+                                "seconds": {
+                                    "value": {
+                                        "value": 0.0,
+                                        "type": 0
+                                    },
+                                    "unit": 0,
+                                    "version": 1
+                                }
+                            },
+                            "desc": "desktop audio mute 2s",
+                            "keyBind": [
+                                {
+                                    "shift": true,
+                                    "control": true,
+                                    "alt": true,
+                                    "key": "OBS_KEY_1"
+                                }
+                            ]
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label"
+                            },
+                            "id": "audio",
+                            "enabled": true,
+                            "duration": {
+                                "value": {
+                                    "value": 2.0,
+                                    "type": 0
+                                },
+                                "unit": 0,
+                                "version": 1
+                            },
+                            "audioSource": {
+                                "type": 0,
+                                "name": "Desktop Audio"
+                            },
+                            "action": 2,
+                            "monitor": 0,
+                            "syncOffset": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "balance": {
+                                "value": 0.5,
+                                "type": 0
+                            },
+                            "track": {
+                                "value": 1,
+                                "type": 0
+                            },
+                            "volume": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "rate": {
+                                "value": 100.0,
+                                "type": 0
+                            },
+                            "fade": true,
+                            "fadeType": 0,
+                            "wait": false,
+                            "abortActiveFade": true,
+                            "useDb": false,
+                            "volumeDB": {
+                                "value": 0.0,
+                                "type": 0
+                            },
+                            "version": 3
+                        }
+                    ],
+                    "elseActions": []
+                },
+                {
+                    "name": "resume audio -24db",
+                    "pause": false,
+                    "parallel": false,
+                    "onChange": true,
+                    "skipExecOnStart": false,
+                    "stopActionsIfNotDone": false,
+                    "group": false,
+                    "dockSettings": {
+                        "register": false,
+                        "hasRunButton": true,
+                        "hasPauseButton": true,
+                        "hasStatusLabel": false,
+                        "highlightIfConditionsTrue": false,
+                        "runButtonText": "Run",
+                        "pauseButtonText": "Pause",
+                        "unpauseButtonText": "Unpause",
+                        "conditionsTrueStatusText": "Conditions are true.",
+                        "conditionsFalseStatusText": "Conditions are false."
+                    },
+                    "macroActionConditionSplitterPosition": [
+                        {
+                            "pos": 192
+                        },
+                        {
+                            "pos": 191
+                        }
+                    ],
+                    "macroElseActionSplitterPosition": [
+                        {
+                            "pos": 153
+                        },
+                        {
+                            "pos": 0
+                        }
+                    ],
+                    "registerHotkeys": false,
+                    "pauseHotkey": [],
+                    "unpauseHotkey": [],
+                    "togglePauseHotkey": [],
+                    "conditions": [
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label"
+                            },
+                            "id": "hotkey",
+                            "logic": 0,
+                            "durationModifier": {
+                                "time_constraint": 0,
+                                "seconds": {
+                                    "value": {
+                                        "value": 0.0,
+                                        "type": 0
+                                    },
+                                    "unit": 0,
+                                    "version": 1
+                                }
+                            },
+                            "desc": "desktop audio resume -24db 2s",
+                            "keyBind": [
+                                {
+                                    "shift": true,
+                                    "control": true,
+                                    "alt": true,
+                                    "key": "OBS_KEY_2"
+                                }
+                            ]
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label"
+                            },
+                            "id": "audio",
+                            "enabled": true,
+                            "duration": {
+                                "value": {
+                                    "value": 2.0,
+                                    "type": 0
+                                },
+                                "unit": 0,
+                                "version": 1
+                            },
+                            "audioSource": {
+                                "type": 0,
+                                "name": "Desktop Audio"
+                            },
+                            "action": 2,
+                            "monitor": 0,
+                            "syncOffset": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "balance": {
+                                "value": 0.5,
+                                "type": 0
+                            },
+                            "track": {
+                                "value": 1,
+                                "type": 0
+                            },
+                            "volume": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "rate": {
+                                "value": 100.0,
+                                "type": 0
+                            },
+                            "fade": true,
+                            "fadeType": 0,
+                            "wait": false,
+                            "abortActiveFade": true,
+                            "useDb": true,
+                            "volumeDB": {
+                                "value": -24.0,
+                                "type": 0
+                            },
+                            "version": 3
+                        }
+                    ],
+                    "elseActions": []
+                },
+                {
+                    "name": "resume audio -21db",
+                    "pause": false,
+                    "parallel": false,
+                    "onChange": true,
+                    "skipExecOnStart": false,
+                    "stopActionsIfNotDone": false,
+                    "group": false,
+                    "dockSettings": {
+                        "register": false,
+                        "hasRunButton": true,
+                        "hasPauseButton": true,
+                        "hasStatusLabel": false,
+                        "highlightIfConditionsTrue": false,
+                        "runButtonText": "Run",
+                        "pauseButtonText": "Pause",
+                        "unpauseButtonText": "Unpause",
+                        "conditionsTrueStatusText": "Conditions are true.",
+                        "conditionsFalseStatusText": "Conditions are false."
+                    },
+                    "macroActionConditionSplitterPosition": [
+                        {
+                            "pos": 191
+                        },
+                        {
+                            "pos": 190
+                        }
+                    ],
+                    "macroElseActionSplitterPosition": [
+                        {
+                            "pos": 152
+                        },
+                        {
+                            "pos": 0
+                        }
+                    ],
+                    "registerHotkeys": false,
+                    "pauseHotkey": [],
+                    "unpauseHotkey": [],
+                    "togglePauseHotkey": [],
+                    "conditions": [
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label"
+                            },
+                            "id": "hotkey",
+                            "logic": 0,
+                            "durationModifier": {
+                                "time_constraint": 0,
+                                "seconds": {
+                                    "value": {
+                                        "value": 0.0,
+                                        "type": 0
+                                    },
+                                    "unit": 0,
+                                    "version": 1
+                                }
+                            },
+                            "desc": "desktop audio resume -21db 2s",
+                            "keyBind": [
+                                {
+                                    "shift": true,
+                                    "control": true,
+                                    "alt": true,
+                                    "key": "OBS_KEY_3"
+                                }
+                            ]
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label"
+                            },
+                            "id": "audio",
+                            "enabled": true,
+                            "duration": {
+                                "value": {
+                                    "value": 2.0,
+                                    "type": 0
+                                },
+                                "unit": 0,
+                                "version": 1
+                            },
+                            "audioSource": {
+                                "type": 0,
+                                "name": "Desktop Audio"
+                            },
+                            "action": 2,
+                            "monitor": 0,
+                            "syncOffset": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "balance": {
+                                "value": 0.5,
+                                "type": 0
+                            },
+                            "track": {
+                                "value": 1,
+                                "type": 0
+                            },
+                            "volume": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "rate": {
+                                "value": 100.0,
+                                "type": 0
+                            },
+                            "fade": true,
+                            "fadeType": 0,
+                            "wait": false,
+                            "abortActiveFade": true,
+                            "useDb": true,
+                            "volumeDB": {
+                                "value": -21.0,
+                                "type": 0
+                            },
+                            "version": 3
+                        }
+                    ],
+                    "elseActions": []
+                },
+                {
+                    "name": "resume audio -18db",
+                    "pause": false,
+                    "parallel": false,
+                    "onChange": true,
+                    "skipExecOnStart": false,
+                    "stopActionsIfNotDone": false,
+                    "group": false,
+                    "dockSettings": {
+                        "register": false,
+                        "hasRunButton": true,
+                        "hasPauseButton": true,
+                        "hasStatusLabel": false,
+                        "highlightIfConditionsTrue": false,
+                        "runButtonText": "Run",
+                        "pauseButtonText": "Pause",
+                        "unpauseButtonText": "Unpause",
+                        "conditionsTrueStatusText": "Conditions are true.",
+                        "conditionsFalseStatusText": "Conditions are false."
+                    },
+                    "macroActionConditionSplitterPosition": [
+                        {
+                            "pos": 192
+                        },
+                        {
+                            "pos": 191
+                        }
+                    ],
+                    "macroElseActionSplitterPosition": [
+                        {
+                            "pos": 153
+                        },
+                        {
+                            "pos": 0
+                        }
+                    ],
+                    "registerHotkeys": false,
+                    "pauseHotkey": [],
+                    "unpauseHotkey": [],
+                    "togglePauseHotkey": [],
+                    "conditions": [
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label"
+                            },
+                            "id": "hotkey",
+                            "logic": 0,
+                            "durationModifier": {
+                                "time_constraint": 0,
+                                "seconds": {
+                                    "value": {
+                                        "value": 0.0,
+                                        "type": 0
+                                    },
+                                    "unit": 0,
+                                    "version": 1
+                                }
+                            },
+                            "desc": "desktop audio resume -18db 2s",
+                            "keyBind": [
+                                {
+                                    "shift": true,
+                                    "control": true,
+                                    "alt": true,
+                                    "key": "OBS_KEY_4"
+                                }
+                            ]
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label"
+                            },
+                            "id": "audio",
+                            "enabled": true,
+                            "duration": {
+                                "value": {
+                                    "value": 2.0,
+                                    "type": 0
+                                },
+                                "unit": 0,
+                                "version": 1
+                            },
+                            "audioSource": {
+                                "type": 0,
+                                "name": "Desktop Audio"
+                            },
+                            "action": 2,
+                            "monitor": 0,
+                            "syncOffset": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "balance": {
+                                "value": 0.5,
+                                "type": 0
+                            },
+                            "track": {
+                                "value": 1,
+                                "type": 0
+                            },
+                            "volume": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "rate": {
+                                "value": 100.0,
+                                "type": 0
+                            },
+                            "fade": true,
+                            "fadeType": 0,
+                            "wait": false,
+                            "abortActiveFade": true,
+                            "useDb": true,
+                            "volumeDB": {
+                                "value": -18.0,
+                                "type": 0
+                            },
+                            "version": 3
+                        }
+                    ],
+                    "elseActions": []
+                },
+                {
+                    "name": "resume audio -15db",
+                    "pause": false,
+                    "parallel": false,
+                    "onChange": true,
+                    "skipExecOnStart": false,
+                    "stopActionsIfNotDone": false,
+                    "group": false,
+                    "dockSettings": {
+                        "register": false,
+                        "hasRunButton": true,
+                        "hasPauseButton": true,
+                        "hasStatusLabel": false,
+                        "highlightIfConditionsTrue": false,
+                        "runButtonText": "Run",
+                        "pauseButtonText": "Pause",
+                        "unpauseButtonText": "Unpause",
+                        "conditionsTrueStatusText": "Conditions are true.",
+                        "conditionsFalseStatusText": "Conditions are false."
+                    },
+                    "macroActionConditionSplitterPosition": [
+                        {
+                            "pos": 266
+                        },
+                        {
+                            "pos": 265
+                        }
+                    ],
+                    "macroElseActionSplitterPosition": [
+                        {
+                            "pos": 227
+                        },
+                        {
+                            "pos": 0
+                        }
+                    ],
+                    "registerHotkeys": false,
+                    "pauseHotkey": [],
+                    "unpauseHotkey": [],
+                    "togglePauseHotkey": [],
+                    "conditions": [
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label"
+                            },
+                            "id": "hotkey",
+                            "logic": 0,
+                            "durationModifier": {
+                                "time_constraint": 0,
+                                "seconds": {
+                                    "value": {
+                                        "value": 0.0,
+                                        "type": 0
+                                    },
+                                    "unit": 0,
+                                    "version": 1
+                                }
+                            },
+                            "desc": "desktop audio resume -15db 2s",
+                            "keyBind": [
+                                {
+                                    "shift": true,
+                                    "control": true,
+                                    "alt": true,
+                                    "key": "OBS_KEY_5"
+                                }
+                            ]
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label"
+                            },
+                            "id": "audio",
+                            "enabled": true,
+                            "duration": {
+                                "value": {
+                                    "value": 2.0,
+                                    "type": 0
+                                },
+                                "unit": 0,
+                                "version": 1
+                            },
+                            "audioSource": {
+                                "type": 0,
+                                "name": "Desktop Audio"
+                            },
+                            "action": 2,
+                            "monitor": 0,
+                            "syncOffset": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "balance": {
+                                "value": 0.5,
+                                "type": 0
+                            },
+                            "track": {
+                                "value": 1,
+                                "type": 0
+                            },
+                            "volume": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "rate": {
+                                "value": 100.0,
+                                "type": 0
+                            },
+                            "fade": true,
+                            "fadeType": 0,
+                            "wait": false,
+                            "abortActiveFade": true,
+                            "useDb": true,
+                            "volumeDB": {
+                                "value": -15.0,
+                                "type": 0
+                            },
+                            "version": 3
+                        }
+                    ],
+                    "elseActions": []
+                },
+                {
+                    "name": "resume audio -12db",
+                    "pause": false,
+                    "parallel": false,
+                    "onChange": true,
+                    "skipExecOnStart": false,
+                    "stopActionsIfNotDone": false,
+                    "group": false,
+                    "dockSettings": {
+                        "register": false,
+                        "hasRunButton": true,
+                        "hasPauseButton": true,
+                        "hasStatusLabel": false,
+                        "highlightIfConditionsTrue": false,
+                        "runButtonText": "Run",
+                        "pauseButtonText": "Pause",
+                        "unpauseButtonText": "Unpause",
+                        "conditionsTrueStatusText": "Conditions are true.",
+                        "conditionsFalseStatusText": "Conditions are false."
+                    },
+                    "macroActionConditionSplitterPosition": [
+                        {
+                            "pos": 266
+                        },
+                        {
+                            "pos": 265
+                        }
+                    ],
+                    "macroElseActionSplitterPosition": [
+                        {
+                            "pos": 227
+                        },
+                        {
+                            "pos": 0
+                        }
+                    ],
+                    "registerHotkeys": false,
+                    "pauseHotkey": [],
+                    "unpauseHotkey": [],
+                    "togglePauseHotkey": [],
+                    "conditions": [
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label"
+                            },
+                            "id": "hotkey",
+                            "logic": 0,
+                            "durationModifier": {
+                                "time_constraint": 0,
+                                "seconds": {
+                                    "value": {
+                                        "value": 0.0,
+                                        "type": 0
+                                    },
+                                    "unit": 0,
+                                    "version": 1
+                                }
+                            },
+                            "desc": "desktop audio resume -12db 2s",
+                            "keyBind": [
+                                {
+                                    "shift": true,
+                                    "control": true,
+                                    "alt": true,
+                                    "key": "OBS_KEY_6"
+                                }
+                            ]
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label"
+                            },
+                            "id": "audio",
+                            "enabled": true,
+                            "duration": {
+                                "value": {
+                                    "value": 2.0,
+                                    "type": 0
+                                },
+                                "unit": 0,
+                                "version": 1
+                            },
+                            "audioSource": {
+                                "type": 0,
+                                "name": "Desktop Audio"
+                            },
+                            "action": 2,
+                            "monitor": 0,
+                            "syncOffset": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "balance": {
+                                "value": 0.5,
+                                "type": 0
+                            },
+                            "track": {
+                                "value": 1,
+                                "type": 0
+                            },
+                            "volume": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "rate": {
+                                "value": 100.0,
+                                "type": 0
+                            },
+                            "fade": true,
+                            "fadeType": 0,
+                            "wait": false,
+                            "abortActiveFade": true,
+                            "useDb": true,
+                            "volumeDB": {
+                                "value": -12.0,
+                                "type": 0
+                            },
+                            "version": 3
+                        }
+                    ],
+                    "elseActions": []
+                }
+            ],
+            "macroProperties": {
+                "highlightExecuted": false,
+                "highlightConditions": false,
+                "highlightActions": false,
+                "newMacroRegisterHotkey": false
+            },
+            "variables": [],
+            "switches": [],
+            "ignoreWindows": [],
+            "screenRegion": [],
+            "pauseEntries": [],
+            "sceneRoundTrip": [],
+            "sceneTransitions": [],
+            "defaultTransitions": [],
+            "defTransitionDelay": 0,
+            "ignoreIdleWindows": [],
+            "idleTargetType": 0,
+            "idleSceneName": "",
+            "idleTransitionName": "",
+            "idleEnable": false,
+            "idleTime": 60,
+            "executableSwitches": [],
+            "randomSwitches": [],
+            "fileSwitches": [],
+            "readEnabled": false,
+            "readPath": "",
+            "writeEnabled": false,
+            "writePath": "",
+            "mediaSwitches": [],
+            "timeSwitches": [],
+            "audioSwitches": [],
+            "audioFallbackTargetType": 0,
+            "audioFallbackScene": "",
+            "audioFallbackTransition": "",
+            "audioFallbackEnable": false,
+            "audioFallbackDuration": {
+                "value": {
+                    "value": 0.0,
+                    "type": 0
+                },
+                "unit": 0,
+                "version": 1
+            },
+            "videoSwitches": [],
+            "ServerEnabled": false,
+            "ServerPort": 55555,
+            "LockToIPv4": false,
+            "ClientEnabled": false,
+            "Address": "",
+            "ClientPort": 55555,
+            "SendSceneChange": true,
+            "SendSceneChangeAll": true,
+            "SendPreview": true,
+            "triggers": [],
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": 0,
+            "noMatchDelay": {
+                "value": {
+                    "value": 0.0,
+                    "type": 0
+                },
+                "unit": 0,
+                "version": 1
+            },
+            "cooldown": {
+                "value": {
+                    "value": 0.0,
+                    "type": 0
+                },
+                "unit": 0,
+                "version": 1
+            },
+            "active": true,
+            "startup_behavior": 0,
+            "autoStartEvent": 0,
+            "logLevel": 0,
+            "showSystemTrayNotifications": false,
+            "disableHints": false,
+            "disableFilterComboboxFilter": false,
+            "warnPluginLoadFailure": true,
+            "hideLegacyTabs": true,
+            "priority0": 10,
+            "priority1": 0,
+            "priority2": 2,
+            "priority3": 8,
+            "priority4": 6,
+            "priority5": 9,
+            "priority6": 7,
+            "priority7": 4,
+            "priority8": 1,
+            "priority9": 5,
+            "priority10": 3,
+            "threadPriority": 3,
+            "transitionOverrideOverride": false,
+            "adjustActiveTransitionType": true,
+            "lastImportPath": "",
+            "startHotkey": [],
+            "stopHotkey": [],
+            "toggleHotkey": [],
+            "upMacroSegmentHotkey": [],
+            "downMacroSegmentHotkey": [],
+            "removeMacroSegmentHotkey": [],
+            "tabWidgetOrder": [
+                {
+                    "generalTab": 0
+                },
+                {
+                    "macroTab": 1
+                },
+                {
+                    "variableTab": 2
+                },
+                {
+                    "windowTitleTab": 3
+                },
+                {
+                    "executableTab": 4
+                },
+                {
+                    "screenRegionTab": 5
+                },
+                {
+                    "mediaTab": 6
+                },
+                {
+                    "fileTab": 7
+                },
+                {
+                    "randomTab": 8
+                },
+                {
+                    "timeTab": 9
+                },
+                {
+                    "idleTab": 10
+                },
+                {
+                    "sceneSequenceTab": 11
+                },
+                {
+                    "audioTab": 12
+                },
+                {
+                    "videoTab": 13
+                },
+                {
+                    "networkTab": 14
+                },
+                {
+                    "sceneGroupTab": 15
+                },
+                {
+                    "transitionsTab": 16
+                },
+                {
+                    "pauseTab": 17
+                },
+                {
+                    "sceneTriggerTab": 18
+                }
+            ],
+            "saveWindowGeo": false,
+            "windowPosX": 3074,
+            "windowPosY": 232,
+            "windowWidth": 1000,
+            "windowHeight": 600,
+            "macroListMacroEditSplitterPosition": [
+                {
+                    "pos": 143
+                },
+                {
+                    "pos": 830
+                }
+            ],
+            "version": "cdacfc946c062982a5e865b9a4f849b5ce2fb05f",
+            "websocketConnections": [],
+            "twitchConnections": [],
+            "actionQueues": []
+        }
+    },
+    "sources": [
+        {
+            "prev_ver": 503382018,
+            "name": "---",
+            "uuid": "fbb0768f-25a8-406d-96c2-811e00af51b7",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "end/offline",
+                        "source_uuid": "f536d47b-ec38-4ccd-9b74-f07d135d61b1",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "----",
+            "uuid": "2dc67b63-30b8-4a81-a27e-d9e0238dfff8",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "main",
+                        "source_uuid": "a1cb8e0d-c0c0-4dea-9f47-b8496755b7f3",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "-----",
+            "uuid": "5c98c4d7-3528-436c-9a9e-26794fcf2df2",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "main",
+                        "source_uuid": "a1cb8e0d-c0c0-4dea-9f47-b8496755b7f3",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "ALBUM ART",
+            "uuid": "eeded943-90fb-4c20-afd7-1814b0138992",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/USC2024/Snip/Snip_Artwork.jpg"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "chat_overlay",
+            "uuid": "c2dd7c8b-2263-416b-ab0d-d474dd4a76dc",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://www.giambaj.it/twitch/jchat/v2/?channel=usa_states_cup_osu&hide_commands=true&hide_badges=true&size=2&font=2",
+                "width": 970,
+                "height": 294
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "discord audio",
+            "uuid": "093c4028-9b56-47b0-9968-66f7a25aa715",
+            "id": "wasapi_output_capture",
+            "versioned_id": "wasapi_output_capture",
+            "settings": {
+                "device_id": "{0.0.0.00000000}.{2dcdcbb3-12cf-45db-8983-8bf69e7c0b6c}"
+            },
+            "mixers": 197,
+            "sync": 0,
+            "flags": 0,
+            "volume": 0.98369622230529785,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "discord dsk",
+            "uuid": "ebdd04ab-6267-46be-b2ca-147dbaea9975",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 2,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "vc_overlay",
+                        "source_uuid": "24478f64-db89-422e-884e-39c9a2bb7a2a",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 931.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "discord audio",
+                        "source_uuid": "093c4028-9b56-47b0-9968-66f7a25aa715",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "Show on DSK 1": [],
+                "Hide on DSK 1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "end/offline",
+            "uuid": "f536d47b-ec38-4ccd-9b74-f07d135d61b1",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "offline.png",
+                        "source_uuid": "78cd2a34-aa11-46f4-8a5a-c578202181f9",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.188854455947876,
+                            "y": 1.1892188787460327
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "main",
+            "uuid": "a1cb8e0d-c0c0-4dea-9f47-b8496755b7f3",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "custom_size": false,
+                "id_counter": 17,
+                "items": [
+                    {
+                        "name": "tourney_manager",
+                        "source_uuid": "c836b971-106a-49bd-917e-18a25c35d14a",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 14,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "osu_0",
+                        "source_uuid": "e8691697-ba19-4894-8ad4-8b00d7ce9259",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 240.0,
+                            "y": 205.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "osu_1",
+                        "source_uuid": "8e5d8415-4957-4c1b-9417-5b8f10170a85",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 565.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "osu_2",
+                        "source_uuid": "cdfe5541-26f8-43e4-b766-4747a5b1f298",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 480.0,
+                            "y": 565.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 4,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "osu_3",
+                        "source_uuid": "e25015a4-524d-48ce-9285-76753f663abc",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1200.0,
+                            "y": 205.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 5,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "osu_4",
+                        "source_uuid": "33c78b8c-19ed-4521-a7af-7f4d5a12a1bf",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 960.0,
+                            "y": 565.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 6,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "osu_5",
+                        "source_uuid": "7a4234c4-477b-406a-898a-44a451bc4999",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1440.0,
+                            "y": 565.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 7,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "osu_clients",
+                        "source_uuid": "a15a9962-12ff-4ab2-a9c7-fbc3fde1a9f2",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 205.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 10,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
+                    },
+                    {
+                        "name": "chat_overlay",
+                        "source_uuid": "c2dd7c8b-2263-416b-ab0d-d474dd4a76dc",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1440.0,
+                            "y": 932.0
+                        },
+                        "scale": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 16,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.14": [],
+                "libobs.hide_scene_item.14": [],
+                "libobs.show_scene_item.10": [],
+                "libobs.hide_scene_item.10": [],
+                "libobs.show_scene_item.16": [],
+                "libobs.hide_scene_item.16": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "offline.png",
+            "uuid": "78cd2a34-aa11-46f4-8a5a-c578202181f9",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/USC2024/offline.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "osu_0",
+            "uuid": "e8691697-ba19-4894-8ad4-8b00d7ce9259",
+            "id": "window_capture",
+            "versioned_id": "window_capture",
+            "settings": {
+                "priority": 1,
+                "window": " Tournament Client 0:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "cursor": false
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "osu_1",
+            "uuid": "8e5d8415-4957-4c1b-9417-5b8f10170a85",
+            "id": "window_capture",
+            "versioned_id": "window_capture",
+            "settings": {
+                "priority": 1,
+                "window": " Tournament Client 1:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "cursor": false
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "osu_2",
+            "uuid": "cdfe5541-26f8-43e4-b766-4747a5b1f298",
+            "id": "window_capture",
+            "versioned_id": "window_capture",
+            "settings": {
+                "priority": 1,
+                "window": " Tournament Client 2:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "cursor": false
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "osu_3",
+            "uuid": "e25015a4-524d-48ce-9285-76753f663abc",
+            "id": "window_capture",
+            "versioned_id": "window_capture",
+            "settings": {
+                "priority": 1,
+                "window": " Tournament Client 3:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "cursor": false
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "osu_4",
+            "uuid": "33c78b8c-19ed-4521-a7af-7f4d5a12a1bf",
+            "id": "window_capture",
+            "versioned_id": "window_capture",
+            "settings": {
+                "priority": 1,
+                "window": " Tournament Client 4:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "cursor": false
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "osu_5",
+            "uuid": "7a4234c4-477b-406a-898a-44a451bc4999",
+            "id": "window_capture",
+            "versioned_id": "window_capture",
+            "settings": {
+                "priority": 1,
+                "window": " Tournament Client 5:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "cursor": false
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "snip",
+            "uuid": "cfc08eed-4e37-4eec-b031-1455fb6fa78c",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
+            "settings": {
+                "chatlog": false,
+                "extents": true,
+                "read_from_file": true,
+                "file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/USC2024/Snip/Snip.txt",
+                "undo_uuid": "cfc08eed-4e37-4eec-b031-1455fb6fa78c",
+                "outline": false,
+                "font": {
+                    "face": "Vogue",
+                    "style": "Regular",
+                    "size": 36,
+                    "flags": 0
+                },
+                "align": "right",
+                "color": 4294947681,
+                "outline_size": 2,
+                "outline_color": 4287850808,
+                "outline_opacity": 60,
+                "extents_cx": 1800,
+                "extents_cy": 100
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "snip \"now playing\"",
+            "uuid": "32696fc0-fb20-4e21-a813-8067a1a53d34",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
+            "settings": {
+                "file": "E:/Tools/Snip/Snip.txt",
+                "read_from_file": false,
+                "text": "Now Playing",
+                "undo_uuid": "32696fc0-fb20-4e21-a813-8067a1a53d34",
+                "font": {
+                    "face": "Vogue",
+                    "style": "Regular",
+                    "size": 48,
+                    "flags": 0
+                },
+                "align": "right",
+                "color": 4294947681
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "snip 2 2",
+            "uuid": "e948ce5d-81a9-4757-a11d-5e1dccc13679",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
+            "settings": {
+                "file": "E:/Tools/Snip/Snip.txt",
+                "read_from_file": false,
+                "text": "Now Playing",
+                "font": {
+                    "face": "Authentic Photograph",
+                    "flags": 0,
+                    "size": 72,
+                    "style": "Regular"
+                },
+                "align": "right",
+                "color": 4282861567
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "snip 3",
+            "uuid": "3af6e2bd-4db0-4ffc-873c-a3c2ca759b2f",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v2",
+            "settings": {
+                "chatlog": false,
+                "extents": true,
+                "read_from_file": true,
+                "file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/USC2024/Snip/Snip.txt",
+                "font": {
+                    "face": "HelveticaNowText Medium",
+                    "flags": 0,
+                    "size": 36,
+                    "style": "Medium"
+                },
+                "align": "right",
+                "color": 4282861567,
+                "extents_cx": 800,
+                "extents_cy": 50
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "startingsoon",
+            "uuid": "87659dac-d45a-40cc-91de-b1af019d1c0c",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "custom_size": false,
+                "id_counter": 5,
+                "items": [
+                    {
+                        "name": "starting_soon",
+                        "source_uuid": "cf983547-89d8-4674-a466-170620ea5088",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.188854455947876,
+                            "y": 1.1892188787460327
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "snip",
+                        "source_uuid": "cfc08eed-4e37-4eec-b031-1455fb6fa78c",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 72.0,
+                            "y": 982.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "snip \"now playing\"",
+                        "source_uuid": "32696fc0-fb20-4e21-a813-8067a1a53d34",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1550.0,
+                            "y": 898.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "nowplaying_s",
+                        "source_uuid": "15018b4f-412d-43c7-8e48-75427045b25d",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 72.0,
+                            "y": 898.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 4,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": false
+                        }
+                    },
+                    {
+                        "name": "ALBUM ART",
+                        "source_uuid": "eeded943-90fb-4c20-afd7-1814b0138992",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1780.0,
+                            "y": 915.0
+                        },
+                        "scale": {
+                            "x": 1.28125,
+                            "y": 1.28125
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 5,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": [],
+                "libobs.show_scene_item.5": [],
+                "libobs.hide_scene_item.5": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "starting_soon",
+            "uuid": "cf983547-89d8-4674-a466-170620ea5088",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/USC2024/soon.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "techissues",
+            "uuid": "68f5eefe-7df7-46f8-8c42-7403e3b7559d",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "custom_size": false,
+                "id_counter": 4,
+                "items": [
+                    {
+                        "name": "tech_issues",
+                        "source_uuid": "5506f8be-225c-4b79-b8c8-6801d943b356",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.188854455947876,
+                            "y": 1.1892188787460327
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "snip 3",
+                        "source_uuid": "3af6e2bd-4db0-4ffc-873c-a3c2ca759b2f",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1076.0,
+                            "y": 967.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "snip 2 2",
+                        "source_uuid": "e948ce5d-81a9-4757-a11d-5e1dccc13679",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1632.0,
+                            "y": 904.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": true,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "nowplaying_t",
+                        "source_uuid": "fb7b36a5-8c29-42ca-a18b-94acaed0bdfa",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1076.0,
+                            "y": 904.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 4,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "tech_issues",
+            "uuid": "5506f8be-225c-4b79-b8c8-6801d943b356",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/USC2024/technical.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "tourney_manager",
+            "uuid": "c836b971-106a-49bd-917e-18a25c35d14a",
+            "id": "window_capture",
+            "versioned_id": "window_capture",
+            "settings": {
+                "priority": 1,
+                "window": " Tournament Manager:WindowsForms10.Window.2b.app.0.34f5582_r8_ad1:osu!.exe",
+                "cursor": false
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "vc_overlay",
+            "uuid": "24478f64-db89-422e-884e-39c9a2bb7a2a",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://streamkit.discord.com/overlay/voice/272808944773365761/272809195030446080",
+                "width": 400,
+                "height": 100,
+                "css": "/* hide users by id */\n[data-userid=\"250693235091963904\"] { display: none; }\n[data-userid=\"181358896328212480\"] { display: none; }\n[data-userid=\"192493502494408705\"] { display: none; }\n\nbody {\n    --width: 120;\n\n    --widthPX: calc(var(--width) * 1px);\n    --height: 100px;\n    --nameHeight: 26px;\n    --fontSize: calc((var(--widthPX) / 100) * 15);\n\n    width: 100%;\n    overflow: hidden;\n}\n\nul {\n    margin-block-start: 0;\n    margin-block-end: 0;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] {\n    opacity: 1 !important;\n    filter: grayscale(0%) !important;\n    outline-offset: calc(var(--widthPX) / 20 * -1);\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] {\n    display: flex;\n    width: fit-content;\n    align-items: center;\n    justify-content: flex-start;\n    padding: 0;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] {\n    width: var(--widthPX);\n    height: var(--height);\n    margin-bottom: 0px;\n    margin-right: 8px;\n    background-color: black;\n    position: relative;\n    text-align: center;\n    overflow: hidden;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatar\"] {\n    height: var(--widthPX);\n    width: 100%;\n    border-radius: 0;\n    border-width: 0;\n    opacity: 0.3;\n    filter: grayscale(100%);\n    transform: translateY(-22%);\n    transition: filter 0.1s ease-out, opacity 0.1s ease-out;\n    border: 0;\n}\n\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] {\n    background-color: #111111;\n    position: absolute;\n    bottom: 0px;\n    padding: 0px;\n    height: var(--nameHeight);\n    width: 100%;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] + [class^=\"Voice_user\"] {\n    background-color: #3d67b7 !important;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] [class^=\"Voice_name\"] {\n    font-size: 13px !important;\n    padding: 0px;\n    margin: 0px;\n    height: 0;\n    transform: translateY(2.5px);\n    position: relative;\n    display: inline-block;\n}"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        }
+    ]
+}

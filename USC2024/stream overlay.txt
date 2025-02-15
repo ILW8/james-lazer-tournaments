@@ -1,0 +1,98 @@
+Snip: https://github.com/dlrudie/Snip
+// if unfamiliar: download and extract wherever you'd like, run snip.exe, select spotify, authenticate, add snip.txt as a text source, make sure you have "keep spotify album artwork" enabled to medium, add snip_artwork as an image source. align appropriately in OBS. this is only really needed on starting soon if you have downtime. https://open.spotify.com/playlist/4j9cQzaePZb4EYXUfXBw1k?si=96895848752a40e3 is a nice osu related playlist from DIO that's osu-related music that won't get muted.
+
+A stream key: live_152235663_AyNGChR8quNdNZYHM1NBQa9Ec9TqIJ
+A stream chat overlay (browser source, 100px height 400px width): https://www.giambaj.it/twitch/jchat/v2/?channel=usa_states_cup_osu&hide_commands=true&hide_badges=true&size=2&font=2
+
+B stream key: live_158951996_k9VrdCGFyQyCdXIRs4gqYhkVerzO0v
+B stream chat overlay (browser source, 100px height 400px width): https://www.giambaj.it/twitch/jchat/v2/?channel=usa_states_cup_osu_b&hide_commands=true&hide_badges=true&size=2&font=1
+
+For voice overlay:
+A stream URL (browser source): https://streamkit.discord.com/overlay/voice/272808944773365761/272809195030446080
+B stream URL (browser source): https://streamkit.discord.com/overlay/voice/272808944773365761/320710438725877761
+Width: 400 or 500
+Height: 100
+
+Custom CSS:
+/* hide nth user */
+[class^="Voice_voiceContainer"] [class^="Voice_voiceStates"] [class^="Voice_voiceState"]:nth-child(99) {
+    display: none;
+}
+
+body {
+    --width: 120;
+
+    --widthPX: calc(var(--width) * 1px);
+    --height: 100px;
+    --nameHeight: 26px;
+    --fontSize: calc((var(--widthPX) / 100) * 15);
+
+    width: 100%;
+    overflow: hidden;
+}
+
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+[class^="Voice_voiceContainer"] [class^="Voice_voiceStates"] [class^="Voice_voiceState"] [class*="Voice_avatarSpeaking"] {
+    opacity: 1 !important;
+    filter: grayscale(0%) !important;
+    outline-offset: calc(var(--widthPX) / 20 * -1);
+}
+
+[class^="Voice_voiceContainer"] [class^="Voice_voiceStates"] {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+[class^="Voice_voiceContainer"] [class^="Voice_voiceStates"] [class^="Voice_voiceState"] {
+    width: var(--widthPX);
+    height: var(--height);
+    margin-bottom: 0px;
+    margin-right: 8px;
+    background-color: black;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+[class^="Voice_voiceContainer"] [class^="Voice_voiceStates"] [class^="Voice_voiceState"] [class*="Voice_avatar"] {
+    height: var(--widthPX);
+    width: 100%;
+    border-radius: 0;
+    border-width: 0;
+    opacity: 0.3;
+    filter: grayscale(100%);
+    transform: translateY(-22%);
+    transition: filter 0.1s ease-out, opacity 0.1s ease-out;
+    border: 0;
+}
+
+
+[class^="Voice_voiceContainer"] [class^="Voice_voiceStates"] [class^="Voice_voiceState"] [class^="Voice_user"] {
+    background-color: #111111;
+    position: absolute;
+    bottom: 0px;
+    padding: 0px;
+    height: var(--nameHeight);
+    width: 100%;
+}
+
+[class^="Voice_voiceContainer"] [class^="Voice_voiceStates"] [class^="Voice_voiceState"] [class*="Voice_avatarSpeaking"] + [class^="Voice_user"] {
+    background-color: #3d67b7 !important;
+}
+
+[class^="Voice_voiceContainer"] [class^="Voice_voiceStates"] [class^="Voice_voiceState"] [class^="Voice_user"] [class^="Voice_name"] {
+    font-size: 13px !important;
+    padding: 0px;
+    margin: 0px;
+    height: 0;
+    transform: translateY(2.5px);
+    position: relative;
+    display: inline-block;
+}
