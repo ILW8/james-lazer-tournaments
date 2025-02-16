@@ -446,8 +446,8 @@
             "settings": {
                 "id_counter": 0,
                 "custom_size": true,
-                "cx": 614,
-                "cy": 376,
+                "cx": 1214,
+                "cy": 714,
                 "items": [
                     {
                         "name": "osu_3_gc",
@@ -682,43 +682,17 @@
                 "path": "C:/Users/daohe/AppData/Roaming/osu/tournaments/CRTOA/CRTOASTREAMSTUFF/GO TO MAIN.mov",
                 "hw_decode": true
             }
-        },
-        {
-            "name": "GO TO SUIJI",
-            "id": "obs_stinger_transition",
-            "settings": {
-                "audio_fade_style": 1,
-                "audio_monitoring": 2,
-                "path": "D:/OSU/Cookie Run/GO TO SUIJI.mov",
-                "tp_type": 1,
-                "transition_point": 74
-            }
-        },
-        {
-            "name": "GO TO RAID",
-            "id": "obs_stinger_transition",
-            "settings": {
-                "audio_fade_style": 1,
-                "audio_monitoring": 2,
-                "path": "D:/OSU/Cookie Run/GO TO RAID.mov",
-                "tp_type": 1,
-                "transition_point": 74
-            }
-        },
-        {
-            "name": "GO TO SHOWCASE",
-            "id": "obs_stinger_transition",
-            "settings": {
-                "audio_fade_style": 1,
-                "audio_monitoring": 2,
-                "path": "D:/OSU/Cookie Run/GO TO SHOWCASE.mov",
-                "tp_type": 1,
-                "transition_point": 74
-            }
         }
     ],
-    "saved_projectors": [],
-    "current_transition": "GO TO SHOWCASE",
+    "saved_projectors": [
+        {
+            "monitor": -1,
+            "type": 3,
+            "geometry": "AdnQywADAAAAAAFHAAAAgAAACG8AAASlAAABRwAAAJ8AAAhvAAAEpQAAAAAAAAAACgAAAAFHAAAAnwAACG8AAASl",
+            "alwaysOnTopOverridden": false
+        }
+    ],
+    "current_transition": "Cut",
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
