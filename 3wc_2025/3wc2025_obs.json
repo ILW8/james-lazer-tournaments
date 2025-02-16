@@ -11,7 +11,7 @@
         "mixers": 195,
         "sync": 0,
         "flags": 0,
-        "volume": 0.36577093601226807,
+        "volume": 0.19054608047008514,
         "balance": 0.5,
         "enabled": true,
         "muted": false,
@@ -30,7 +30,7 @@
         "monitoring_type": 2,
         "private_settings": {}
     },
-    "current_scene": "intro",
+    "current_scene": "mappool",
     "current_program_scene": "gameplay",
     "scene_order": [
         {
@@ -62,8 +62,8 @@
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 1920,
-                "cy": 720,
+                "cx": 1440,
+                "cy": 360,
                 "id_counter": 0,
                 "items": [
                     {
@@ -363,7 +363,20 @@
             "settings": {}
         }
     ],
-    "saved_projectors": [],
+    "saved_projectors": [
+        {
+            "monitor": -1,
+            "type": 3,
+            "geometry": "AdnQywADAAAAAAQQAAACGwAACFIAAASfAAAEEAAAAjoAAAhSAAAEnwAAAAAAAAAACgAAAAQQAAACOgAACFIAAASf",
+            "alwaysOnTopOverridden": false
+        },
+        {
+            "monitor": -1,
+            "type": 4,
+            "geometry": "AdnQywADAAAAAAAA////+AAACf8AAAWBAAADqgAAAeoAAAgFAAAEQgAAAAACAAAACgAAAAAAAAAAFwAACf8AAAWB",
+            "alwaysOnTopOverridden": false
+        }
+    ],
     "current_transition": "Luma Wipe",
     "transition_duration": 300,
     "preview_locked": false,
@@ -432,14 +445,206 @@
         ],
         "advanced-scene-switcher": {
             "sceneGroups": [],
-            "macros": [],
+            "macros": [
+                {
+                    "name": "set audio to level (ws)",
+                    "pause": false,
+                    "parallel": false,
+                    "onChange": true,
+                    "skipExecOnStart": false,
+                    "stopActionsIfNotDone": true,
+                    "group": false,
+                    "dockSettings": {
+                        "register": false,
+                        "hasRunButton": true,
+                        "hasPauseButton": true,
+                        "hasStatusLabel": false,
+                        "highlightIfConditionsTrue": false,
+                        "runButtonText": "Run",
+                        "pauseButtonText": "Pause",
+                        "unpauseButtonText": "Unpause",
+                        "conditionsTrueStatusText": "Conditions are true.",
+                        "conditionsFalseStatusText": "Conditions are false."
+                    },
+                    "macroActionConditionSplitterPosition": [
+                        {
+                            "pos": 271
+                        },
+                        {
+                            "pos": 270
+                        }
+                    ],
+                    "macroElseActionSplitterPosition": [
+                        {
+                            "pos": 232
+                        },
+                        {
+                            "pos": 0
+                        }
+                    ],
+                    "registerHotkeys": false,
+                    "pauseHotkey": [],
+                    "unpauseHotkey": [],
+                    "togglePauseHotkey": [],
+                    "conditions": [
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label"
+                            },
+                            "id": "websocket",
+                            "logic": 0,
+                            "durationModifier": {
+                                "time_constraint": 0,
+                                "seconds": {
+                                    "value": {
+                                        "value": 0.0,
+                                        "type": 0
+                                    },
+                                    "unit": 0,
+                                    "version": 1
+                                }
+                            },
+                            "type": 0,
+                            "message": "-?\\d+",
+                            "regexConfig": {
+                                "enable": true,
+                                "partial": false,
+                                "options": 8
+                            },
+                            "connection": "Invalid connection selection"
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label"
+                            },
+                            "id": "variable",
+                            "enabled": true,
+                            "variableName": "audio level",
+                            "variable2Name": "Invalid varialbe selection",
+                            "strValue": "",
+                            "numValue": 0.0,
+                            "condition": 16,
+                            "segmentIdx": -1,
+                            "subStringStart": 0,
+                            "subStringSize": 0,
+                            "regexPattern": ".*",
+                            "regexMatchIdx": 0,
+                            "findRegex": {
+                                "enable": false,
+                                "partial": false,
+                                "options": 0
+                            },
+                            "findStr": "Text to find",
+                            "replaceStr": "Text to replace with",
+                            "regexConfig": {
+                                "enable": false,
+                                "partial": true,
+                                "options": 0
+                            },
+                            "mathExpression": "( 1 + 2 * 3 ) / 4",
+                            "useCustomPrompt": false,
+                            "inputPrompt": "Assign value to variable:",
+                            "useInputPlaceholder": false,
+                            "inputPlaceholder": "--enter text--",
+                            "environmentVariableName": "USERPROFILE",
+                            "sceneSelection": {
+                                "type": 0,
+                                "name": ""
+                            },
+                            "tempVar": {
+                                "type": 1,
+                                "idx": 0,
+                                "id": "message"
+                            },
+                            "sceneItemIndex": {
+                                "value": 1,
+                                "type": 0
+                            },
+                            "direction": 0,
+                            "stringLength": {
+                                "value": 1,
+                                "type": 0
+                            },
+                            "paddingChar": 48
+                        },
+                        {
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "useCustomLabel": false,
+                                "customLabel": "My label"
+                            },
+                            "id": "audio",
+                            "enabled": true,
+                            "duration": {
+                                "value": {
+                                    "value": 3.0,
+                                    "type": 0
+                                },
+                                "unit": 0,
+                                "version": 1
+                            },
+                            "audioSource": {
+                                "type": 0,
+                                "name": "Desktop Audio"
+                            },
+                            "action": 2,
+                            "monitor": 0,
+                            "syncOffset": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "balance": {
+                                "value": 0.5,
+                                "type": 0
+                            },
+                            "track": {
+                                "value": 1,
+                                "type": 0
+                            },
+                            "volume": {
+                                "value": 0,
+                                "variable": "audio level",
+                                "type": 1
+                            },
+                            "rate": {
+                                "value": 100.0,
+                                "type": 0
+                            },
+                            "fade": true,
+                            "fadeType": 0,
+                            "wait": false,
+                            "abortActiveFade": true,
+                            "useDb": true,
+                            "volumeDB": {
+                                "value": 0.0,
+                                "variable": "audio level",
+                                "type": 1
+                            },
+                            "version": 3
+                        }
+                    ],
+                    "elseActions": []
+                }
+            ],
             "macroProperties": {
-                "highlightExecuted": false,
+                "highlightExecuted": true,
                 "highlightConditions": false,
                 "highlightActions": false,
                 "newMacroRegisterHotkey": false
             },
-            "variables": [],
+            "variables": [
+                {
+                    "name": "audio level",
+                    "saveAction": 0,
+                    "defaultValue": ""
+                }
+            ],
             "switches": [],
             "ignoreWindows": [],
             "screenRegion": [],
@@ -487,7 +692,7 @@
             "SendSceneChangeAll": true,
             "SendPreview": true,
             "triggers": [],
-            "interval": 300,
+            "interval": 200,
             "non_matching_scene": "",
             "switch_if_not_matching": 0,
             "noMatchDelay": {
@@ -507,7 +712,7 @@
                 "version": 1
             },
             "active": true,
-            "startup_behavior": 0,
+            "startup_behavior": 1,
             "autoStartEvent": 0,
             "logLevel": 0,
             "showSystemTrayNotifications": false,
@@ -596,11 +801,18 @@
                 }
             ],
             "saveWindowGeo": false,
-            "windowPosX": 0,
-            "windowPosY": 0,
-            "windowWidth": 0,
-            "windowHeight": 0,
-            "macroListMacroEditSplitterPosition": [],
+            "windowPosX": 3330,
+            "windowPosY": 376,
+            "windowWidth": 1000,
+            "windowHeight": 600,
+            "macroListMacroEditSplitterPosition": [
+                {
+                    "pos": 143
+                },
+                {
+                    "pos": 830
+                }
+            ],
             "version": "cdacfc946c062982a5e865b9a4f849b5ce2fb05f",
             "websocketConnections": [],
             "twitchConnections": [],
