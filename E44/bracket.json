@@ -3,329 +3,2322 @@
     "ShortName": "osu",
     "Name": "osu!",
     "InstantiationInfo": "osu.Game.Rulesets.Osu.OsuRuleset, osu.Game.Rulesets.Osu",
+    "LastAppliedDifficultyVersion": 20220902,
     "Available": true
   },
   "Matches": [
     {
       "ID": 1,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "Team1Acronym": "RUDJ",
+      "Team1Score": 5,
+      "Team2Acronym": "JAKK",
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 93842
+        }
+      ],
       "Current": false,
-      "Date": "2025-02-21T11:33:00.50433+00:00",
+      "Date": "2025-02-22T12:00:00+00:00",
+      "SyncId": "1",
       "ConditionalMatches": [],
       "Position": {},
-      "Acronyms": []
+      "Acronyms": [
+        "RUDJ",
+        "JAKK"
+      ],
+      "PointsToWin": 5
     },
     {
-      "ID": 3,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "ID": 4,
+      "Team1Acronym": "DOOM",
+      "Team1Score": 3,
+      "Team2Acronym": "FTJR",
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3033108
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3859444
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3652028
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4654502
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4063445
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4344435
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2955143
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 179758
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4207685
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3231534
+        }
+      ],
       "Current": false,
-      "Date": "2025-02-21T11:33:01.1581241+00:00",
+      "Date": "2025-02-22T12:00:00+00:00",
+      "SyncId": "2",
       "ConditionalMatches": [],
       "Position": {
         "Y": 100
       },
-      "Acronyms": []
+      "Acronyms": [
+        "DOOM",
+        "FTJR"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
     },
     {
-      "ID": 5,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "ID": 6,
+      "Team1Acronym": "STOR",
+      "Team1Score": 5,
+      "Team2Acronym": "GADR",
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-02-21T11:51:56.8811294+00:00",
+      "Date": "2025-02-22T12:00:00+00:00",
+      "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
         "Y": 200
       },
-      "Acronyms": []
+      "Acronyms": [
+        "STOR",
+        "GADR"
+      ],
+      "PointsToWin": 5
     },
     {
-      "ID": 7,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "ID": 8,
+      "Team1Acronym": "VELC",
+      "Team1Score": 5,
+      "Team2Acronym": "CBLCH",
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-02-21T11:52:01.426155+00:00",
+      "Date": "2025-02-22T12:00:00+00:00",
+      "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
         "Y": 300
       },
-      "Acronyms": []
+      "Acronyms": [
+        "VELC",
+        "CBLCH"
+      ],
+      "PointsToWin": 5
     },
     {
-      "ID": 9,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "ID": 10,
+      "Team1Acronym": "ALPH",
+      "Team1Score": 5,
+      "Team2Acronym": "TJ",
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-02-21T11:52:03.9806665+00:00",
+      "Date": "2025-02-22T13:00:00+00:00",
+      "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
         "Y": 400
       },
-      "Acronyms": []
+      "Acronyms": [
+        "ALPH",
+        "TJ"
+      ],
+      "PointsToWin": 5
     },
     {
-      "ID": 12,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "ID": 13,
+      "Team1Acronym": "JNKM",
+      "Team1Score": 5,
+      "Team2Acronym": "GREN",
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-02-21T11:52:06.1221852+00:00",
+      "Date": "2025-02-22T13:00:00+00:00",
+      "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
         "Y": 500
       },
-      "Acronyms": []
+      "Acronyms": [
+        "JNKM",
+        "GREN"
+      ],
+      "PointsToWin": 5
     },
     {
-      "ID": 14,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "ID": 15,
+      "Team1Acronym": "JP",
+      "Team1Score": 5,
+      "Team2Acronym": "MAY",
+      "Team2Score": 4,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 358272
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 93842
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4344435
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4063445
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2503194
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2955143
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3652028
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 179758
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3033108
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4654502
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3871800
+        }
+      ],
       "Current": false,
-      "Date": "2025-02-21T11:52:08.259719+00:00",
+      "Date": "2025-02-22T13:00:00+00:00",
+      "SyncId": "7",
       "ConditionalMatches": [],
       "Position": {
         "Y": 600
       },
-      "Acronyms": []
+      "Acronyms": [
+        "JP",
+        "MAY"
+      ],
+      "PointsToWin": 5
     },
     {
-      "ID": 16,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "ID": 17,
+      "Team1Acronym": "MAHM",
+      "Team1Score": 5,
+      "Team2Acronym": "GMBS",
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-02-21T11:52:10.8802731+00:00",
+      "Date": "2025-02-22T13:00:00+00:00",
+      "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
         "Y": 700
       },
-      "Acronyms": []
+      "Acronyms": [
+        "MAHM",
+        "GMBS"
+      ],
+      "PointsToWin": 5
     },
     {
-      "ID": 2,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "ID": 3,
+      "Team1Acronym": "RUDJ",
+      "Team1Score": 5,
+      "Team2Acronym": "FTJR",
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-02-21T11:52:13.4347508+00:00",
+      "Date": "2025-02-22T14:00:00+00:00",
+      "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
         "X": 280,
         "Y": 50
       },
-      "Acronyms": []
+      "Acronyms": [
+        "RUDJ",
+        "FTJR"
+      ],
+      "PointsToWin": 5
     },
     {
-      "ID": 6,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "ID": 7,
+      "Team1Acronym": "STOR",
+      "Team1Score": 1,
+      "Team2Acronym": "VELC",
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4654502
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 358272
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2955143
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3859444
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 93842
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4207685
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4063445
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 179758
+        }
+      ],
       "Current": false,
-      "Date": "2025-02-21T11:52:17.1927724+00:00",
+      "Date": "2025-02-22T14:00:00+00:00",
+      "SyncId": "10",
       "ConditionalMatches": [],
       "Position": {
         "X": 280,
         "Y": 250
       },
-      "Acronyms": []
+      "Acronyms": [
+        "STOR",
+        "VELC"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
     },
     {
-      "ID": 10,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "ID": 11,
+      "Team1Acronym": "ALPH",
+      "Team1Score": 5,
+      "Team2Acronym": "JNKM",
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4344442
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 358272
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3231534
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2955143
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 179758
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 93842
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4207685
+        }
+      ],
       "Current": false,
-      "Date": "2025-02-21T11:52:31.9996689+00:00",
+      "Date": "2025-02-22T15:00:00+00:00",
+      "SyncId": "11",
       "ConditionalMatches": [],
       "Position": {
         "X": 280,
         "Y": 450
       },
-      "Acronyms": []
+      "Acronyms": [
+        "ALPH",
+        "JNKM"
+      ],
+      "PointsToWin": 5
     },
     {
-      "ID": 15,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "ID": 16,
+      "Team1Acronym": "JP",
+      "Team1Score": 0,
+      "Team2Acronym": "MAHM",
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-02-21T11:52:37.5952313+00:00",
+      "Date": "2025-02-22T15:00:00+00:00",
+      "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
         "X": 280,
         "Y": 650
       },
-      "Acronyms": []
+      "Acronyms": [
+        "JP",
+        "MAHM"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
     },
     {
-      "ID": 4,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "ID": 5,
+      "Team1Acronym": "RUDJ",
+      "Team1Score": 5,
+      "Team2Acronym": "VELC",
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 179758
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3033108
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 93842
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2955143
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2503194
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 358272
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3859444
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3652028
+        }
+      ],
       "Current": false,
-      "Date": "2025-02-21T11:52:50.7248906+00:00",
+      "Date": "2025-02-22T16:00:00+00:00",
+      "SyncId": "13",
       "ConditionalMatches": [],
       "Position": {
         "X": 590,
         "Y": 150
       },
-      "Acronyms": []
+      "Acronyms": [
+        "RUDJ",
+        "VELC"
+      ],
+      "PointsToWin": 5
     },
     {
-      "ID": 13,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "ID": 14,
+      "Team1Acronym": "ALPH",
+      "Team1Score": 2,
+      "Team2Acronym": "MAHM",
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4654502
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3231534
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 179758
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 358272
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2955143
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3859444
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 93842
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4207685
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4344435
+        }
+      ],
       "Current": false,
-      "Date": "2025-02-21T11:53:00.0164363+00:00",
+      "Date": "2025-02-22T17:00:00+00:00",
+      "SyncId": "14",
       "ConditionalMatches": [],
       "Position": {
         "X": 590,
         "Y": 550
       },
-      "Acronyms": []
+      "Acronyms": [
+        "ALPH",
+        "MAHM"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
     },
     {
-      "ID": 8,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
+      "ID": 9,
+      "Team1Acronym": "RUDJ",
+      "Team1Score": 4,
+      "Team2Acronym": "MAHM",
+      "Team2Score": 6,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2025-02-21T11:53:01.4207374+00:00",
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 179758
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4654502
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3859444
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4207685
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 93842
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4063445
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3033108
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2503194
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2955143
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4344442
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4344435
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3652028
+        }
+      ],
+      "Current": true,
+      "Date": "2025-02-22T19:30:00+00:00",
+      "SyncId": "16",
       "ConditionalMatches": [],
       "Position": {
         "X": 1000,
         "Y": 350
       },
-      "Acronyms": []
+      "Acronyms": [
+        "RUDJ",
+        "MAHM"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 6
     },
     {
-      "ID": 11,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
-      "Losers": false,
-      "PicksBans": [],
+      "ID": 12,
+      "Team1Acronym": "VELC",
+      "Team1Score": 3,
+      "Team2Acronym": "ALPH",
+      "Team2Score": 6,
+      "Completed": true,
+      "Losers": true,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3652028
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 93842
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3859444
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4063445
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4207685
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2955143
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2503194
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 358272
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4344442
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 179758
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4654502
+        }
+      ],
       "Current": false,
-      "Date": "2025-02-21T11:53:02.5203372+00:00",
+      "Date": "2025-02-22T18:00:00+00:00",
+      "SyncId": "15",
       "ConditionalMatches": [],
       "Position": {
         "X": 840,
         "Y": 450
       },
-      "Acronyms": []
+      "Acronyms": [
+        "VELC",
+        "ALPH"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 6
+    },
+    {
+      "ID": 2,
+      "Team1Acronym": "A",
+      "Team1Score": null,
+      "Team2Acronym": "B",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2025-02-21T14:44:14.2772081+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -490,
+        "Y": 20
+      },
+      "Acronyms": [
+        "A",
+        "B"
+      ],
+      "PointsToWin": 2
     }
   ],
-  "Rounds": [],
-  "Teams": [],
+  "Rounds": [
+    {
+      "Name": "Quals",
+      "Description": "",
+      "BestOf": 3,
+      "BanCount": 0,
+      "Beatmaps": [],
+      "StartDate": "2025-02-21T14:44:14.2772081+00:00",
+      "Matches": [
+        2
+      ]
+    },
+    {
+      "Name": "Bracket stage",
+      "Description": "",
+      "BestOf": 9,
+      "BanCount": 1,
+      "Beatmaps": [
+        {
+          "ID": 4344435,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4344435,
+            "DifficultyName": "Extreme",
+            "BPM": 200.0,
+            "Length": 237000.0,
+            "StarRating": 7.12,
+            "EndTimeObjectCount": 348,
+            "TotalObjectCount": 1098,
+            "Metadata": {
+              "Title": "Greenlights Serenade",
+              "title_unicode": "グリーンライツ・セレナーデ",
+              "Artist": "Omoi",
+              "artist_unicode": "Omoi",
+              "Author": {
+                "OnlineID": 5404892,
+                "Username": "kowari",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "owc2023qlnm1 qualifiers mpg mappers' guild fa featured artist vocaloid japanese rock jrock j-rock hatsune miku 初音ミク",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2075261/covers/cover@2x.jpg?1699799432",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2075261/covers/card@2x.jpg?1699799432",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2075261/covers/list@2x.jpg?1699799432"
+            }
+          }
+        },
+        {
+          "ID": 4063445,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4063445,
+            "DifficultyName": "Vanity of Vanities",
+            "BPM": 200.0,
+            "Length": 253000.0,
+            "StarRating": 7.21,
+            "EndTimeObjectCount": 416,
+            "TotalObjectCount": 1639,
+            "Metadata": {
+              "Title": "Vanitas",
+              "title_unicode": "Vanitas",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 4561368,
+                "Username": "Anxient",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "deathstream featured artist fa electronic rlc aeril instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.5,
+              "OverallDifficulty": 9.3,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1815879/covers/cover@2x.jpg?1696293968",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1815879/covers/card@2x.jpg?1696293968",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1815879/covers/list@2x.jpg?1696293968"
+            }
+          }
+        },
+        {
+          "ID": 3652028,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3652028,
+            "DifficultyName": "EX",
+            "BPM": 146.0,
+            "Length": 122000.0,
+            "StarRating": 6.58,
+            "EndTimeObjectCount": 297,
+            "TotalObjectCount": 668,
+            "Metadata": {
+              "Title": "Insane Techniques",
+              "title_unicode": "Insane Techniques",
+              "Artist": "kors k",
+              "artist_unicode": "kors k",
+              "Author": {
+                "OnlineID": 10077431,
+                "Username": "Plasma",
+                "CountryString": "Unknown"
+              },
+              "Source": "beatmania IIDX 21 SPADA",
+              "tags": "electronic hi-tech full on video game instrumental english bemani konami ajt yokespai captin1",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1783252/covers/cover@2x.jpg?1682031959",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1783252/covers/card@2x.jpg?1682031959",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1783252/covers/list@2x.jpg?1682031959"
+            }
+          }
+        },
+        {
+          "ID": 4344442,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4344442,
+            "DifficultyName": "Twilight",
+            "BPM": 185.0,
+            "Length": 150000.0,
+            "StarRating": 6.63,
+            "EndTimeObjectCount": 389,
+            "TotalObjectCount": 880,
+            "Metadata": {
+              "Title": "Vespera",
+              "title_unicode": "Vespera",
+              "Artist": "Zekk",
+              "artist_unicode": "Zekk",
+              "Author": {
+                "OnlineID": 4694602,
+                "Username": "Down",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "electronic instrumental fa featured artist owc2023 ql qualifiers nm4 owc2023qlnm4",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2075263/covers/cover@2x.jpg?1699799442",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2075263/covers/card@2x.jpg?1699799442",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2075263/covers/list@2x.jpg?1699799442"
+            }
+          }
+        },
+        {
+          "ID": 3859444,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3859444,
+            "DifficultyName": "Dada's Special Extra",
+            "BPM": 130.0,
+            "Length": 200000.0,
+            "StarRating": 5.76,
+            "EndTimeObjectCount": 488,
+            "TotalObjectCount": 893,
+            "Metadata": {
+              "Title": "I've Seen Footage",
+              "title_unicode": "I've Seen Footage",
+              "Artist": "Death Grips",
+              "artist_unicode": "Death Grips",
+              "Author": {
+                "OnlineID": 5428909,
+                "Username": "Nowaie",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "experimental hip-hop hip hop rap english industrial electronic the money store stefan burnett mc ride zach hill andy morin dtm9 nowa maakkeli makeli mäkeli fsjallink dada arkisol",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1875441/covers/cover@2x.jpg?1672716630",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1875441/covers/card@2x.jpg?1672716630",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1875441/covers/list@2x.jpg?1672716630"
+            }
+          }
+        },
+        {
+          "ID": 2503194,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 2503194,
+            "DifficultyName": "Yudragen's Final Resolve",
+            "BPM": 123.0,
+            "Length": 217000.0,
+            "StarRating": 7.0,
+            "EndTimeObjectCount": 421,
+            "TotalObjectCount": 985,
+            "Metadata": {
+              "Title": "Last Surprise -Scramble-",
+              "title_unicode": "Last Surprise -Scramble-",
+              "Artist": "Meguro Shoji feat. Lyn",
+              "artist_unicode": "目黒将司 feat. Lyn",
+              "Author": {
+                "OnlineID": 2233878,
+                "Username": "moph",
+                "CountryString": "Unknown"
+              },
+              "Source": "ペルソナ5 スクランブル ザ ファントム ストライカーズ",
+              "tags": "flake yudragen chaoticred inaizumi persona 5 scramble the phantom strikers p5s masa remix benjamin franklin atlus shin megami tensei 真 女神転生 rock jazz video game english ost original soundtrack disc2",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.5,
+              "CircleSize": 4.1,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1178471/covers/cover@2x.jpg?1650697701",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1178471/covers/card@2x.jpg?1650697701",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1178471/covers/list@2x.jpg?1650697701"
+            }
+          }
+        },
+        {
+          "ID": 4654502,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4654502,
+            "DifficultyName": "WIP",
+            "BPM": 170.0,
+            "Length": 140000.0,
+            "StarRating": 5.62,
+            "EndTimeObjectCount": 267,
+            "TotalObjectCount": 748,
+            "Metadata": {
+              "Title": "Disconnect",
+              "title_unicode": "Disconnect",
+              "Artist": "fiend",
+              "artist_unicode": "fiend",
+              "Author": {
+                "OnlineID": 4945926,
+                "Username": "yaspo",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "dach open fm2 freemod ro16 sf",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2199365/covers/cover@2x.jpg?1721070350",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2199365/covers/card@2x.jpg?1721070350",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2199365/covers/list@2x.jpg?1721070350"
+            }
+          }
+        },
+        {
+          "ID": 4207685,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4207685,
+            "DifficultyName": "Summit",
+            "BPM": 163.0,
+            "Length": 225000.0,
+            "StarRating": 6.55,
+            "EndTimeObjectCount": 495,
+            "TotalObjectCount": 1166,
+            "Metadata": {
+              "Title": "Ziqqurat",
+              "title_unicode": "Ziqqurat",
+              "Artist": "Yunosuke",
+              "artist_unicode": "雄之助",
+              "Author": {
+                "OnlineID": 3624692,
+                "Username": "Pho",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "vmc proto vocaloid hatsune miku 初音 ミク",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.6,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.6,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2020446/covers/cover@2x.jpg?1690869643",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2020446/covers/card@2x.jpg?1690869643",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2020446/covers/list@2x.jpg?1690869643"
+            }
+          }
+        },
+        {
+          "ID": 3231534,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 3231534,
+            "DifficultyName": "Racing to the Stars",
+            "BPM": 112.0,
+            "Length": 240000.0,
+            "StarRating": 6.45,
+            "EndTimeObjectCount": 423,
+            "TotalObjectCount": 1076,
+            "Metadata": {
+              "Title": "Follow The Light",
+              "title_unicode": "Follow The Light",
+              "Artist": "Dirty Loops & Cory Wong",
+              "artist_unicode": "Dirty Loops & Cory Wong",
+              "Author": {
+                "OnlineID": 8688812,
+                "Username": "Mir",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "funk jazz soul rnb pop english vocal aron mellergård henrik linder jonah nilsson turbo azer lasse",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1582334/covers/cover@2x.jpg?1650711049",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1582334/covers/card@2x.jpg?1650711049",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1582334/covers/list@2x.jpg?1650711049"
+            }
+          }
+        },
+        {
+          "ID": 179758,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 179758,
+            "DifficultyName": "ExtrA",
+            "BPM": 170.0,
+            "Length": 144000.0,
+            "StarRating": 6.09,
+            "EndTimeObjectCount": 146,
+            "TotalObjectCount": 601,
+            "Metadata": {
+              "Title": "Placebo Dying",
+              "title_unicode": "Placebo Dying",
+              "Artist": "M2U",
+              "artist_unicode": "M2U",
+              "Author": {
+                "OnlineID": 104401,
+                "Username": "AngelHoney",
+                "CountryString": "Unknown"
+              },
+              "Source": "O2jam Analog",
+              "tags": "lan wings jing bossandy boss jih7491",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 7.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/60081/covers/cover@2x.jpg?1650614010",
+              "card@2x": "https://assets.ppy.sh/beatmaps/60081/covers/card@2x.jpg?1650614010",
+              "list@2x": "https://assets.ppy.sh/beatmaps/60081/covers/list@2x.jpg?1650614010"
+            }
+          }
+        },
+        {
+          "ID": 3033108,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 3033108,
+            "DifficultyName": "FUNKY FRESH BEATS",
+            "BPM": 142.0,
+            "Length": 202000.0,
+            "StarRating": 6.09,
+            "EndTimeObjectCount": 532,
+            "TotalObjectCount": 1148,
+            "Metadata": {
+              "Title": "AIN'T NOTHIN' LIKE A FUNKY BEAT",
+              "title_unicode": "AIN'T NOTHIN' LIKE A FUNKY BEAT",
+              "Artist": "Hideki Naganuma",
+              "artist_unicode": "Hideki Naganuma",
+              "Author": {
+                "OnlineID": 2439822,
+                "Username": "Rtyzen",
+                "CountryString": "Unknown"
+              },
+              "Source": "Lethal League Blaze",
+              "tags": "banger bonanza ro16 round of 16 b9 nf alt 長沼英樹 skankfunk english bgm background music video game ost original soundtrack team reptile 2step big beat edm electronic dance digital rock eurobeat funk hip hop house rap techno",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1478436/covers/cover@2x.jpg?1732617550",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1478436/covers/card@2x.jpg?1732617550",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1478436/covers/list@2x.jpg?1732617550"
+            }
+          }
+        },
+        {
+          "ID": 93842,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 93842,
+            "DifficultyName": "Insane",
+            "BPM": 177.0,
+            "Length": 182000.0,
+            "StarRating": 5.26,
+            "EndTimeObjectCount": 210,
+            "TotalObjectCount": 656,
+            "Metadata": {
+              "Title": "Gold Dust",
+              "title_unicode": "Gold Dust",
+              "Artist": "DJ Fresh",
+              "artist_unicode": "DJ Fresh",
+              "Author": {
+                "OnlineID": 381444,
+                "Username": "galvenize",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "kriers dnb drum and bass",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/28107/covers/cover@2x.jpg?1622045706",
+              "card@2x": "https://assets.ppy.sh/beatmaps/28107/covers/card@2x.jpg?1622045706",
+              "list@2x": "https://assets.ppy.sh/beatmaps/28107/covers/list@2x.jpg?1622045706"
+            }
+          }
+        },
+        {
+          "ID": 2955143,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 2955143,
+            "DifficultyName": "Insane",
+            "BPM": 155.0,
+            "Length": 222000.0,
+            "StarRating": 4.92,
+            "EndTimeObjectCount": 297,
+            "TotalObjectCount": 1076,
+            "Metadata": {
+              "Title": "Monochrome Anomaly",
+              "title_unicode": "Monochrome Anomaly",
+              "Artist": "Feryquitous Vo. F9",
+              "artist_unicode": "Feryquitous Vo. F9",
+              "Author": {
+                "OnlineID": 689997,
+                "Username": "captin1",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "diverse system ad piano iv kiyono nik nikolomara english electronic",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1436243/covers/cover@2x.jpg?1674862898",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1436243/covers/card@2x.jpg?1674862898",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1436243/covers/list@2x.jpg?1674862898"
+            }
+          }
+        },
+        {
+          "ID": 358272,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 358272,
+            "DifficultyName": "Another",
+            "BPM": 175.0,
+            "Length": 296000.0,
+            "StarRating": 5.1,
+            "EndTimeObjectCount": 370,
+            "TotalObjectCount": 1079,
+            "Metadata": {
+              "Title": "Far east nightbird (kors k Remix)",
+              "title_unicode": "Far east nightbird (kors k Remix)",
+              "Artist": "Nekomata Master",
+              "artist_unicode": "猫叉Master",
+              "Author": {
+                "OnlineID": 270377,
+                "Username": "jonathanlfj",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "drum and bass dnb dubstep jubeat knit crevice sayonara sekai rlc zexous erunamojazz the great damnae",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/144171/covers/cover@2x.jpg?1650620378",
+              "card@2x": "https://assets.ppy.sh/beatmaps/144171/covers/card@2x.jpg?1650620378",
+              "list@2x": "https://assets.ppy.sh/beatmaps/144171/covers/list@2x.jpg?1650620378"
+            }
+          }
+        },
+        {
+          "ID": 3871800,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 3871800,
+            "DifficultyName": "Jabberwocky",
+            "BPM": 220.0,
+            "Length": 332000.0,
+            "StarRating": 7.05,
+            "EndTimeObjectCount": 878,
+            "TotalObjectCount": 1997,
+            "Metadata": {
+              "Title": "escape (the looking-glass, and what alice found there)",
+              "title_unicode": "escape (the looking-glass, and what alice found there)",
+              "Artist": "Kurokotei feat. Sennzai",
+              "artist_unicode": "黒皇帝 feat. Sennzai",
+              "Author": {
+                "OnlineID": 918297,
+                "Username": "Realazy",
+                "CountryString": "Unknown"
+              },
+              "Source": "osu! World Cup 2022",
+              "tags": "owc2022sftb featured artist footwork riddim artcore hardtek breakcore amenpunk electronic conlang japanese",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1880652/covers/cover@2x.jpg?1678750841",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1880652/covers/card@2x.jpg?1678750841",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1880652/covers/list@2x.jpg?1678750841"
+            }
+          }
+        }
+      ],
+      "StartDate": "2025-02-21T21:50:08.8263094+00:00",
+      "Matches": [
+        1,
+        4,
+        6,
+        8,
+        10,
+        13,
+        15,
+        17,
+        3,
+        7,
+        11,
+        16,
+        5,
+        14
+      ]
+    },
+    {
+      "Name": "Finals",
+      "Description": "",
+      "BestOf": 11,
+      "BanCount": 1,
+      "Beatmaps": [
+        {
+          "ID": 4344435,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4344435,
+            "DifficultyName": "Extreme",
+            "BPM": 200.0,
+            "Length": 237000.0,
+            "StarRating": 7.12,
+            "EndTimeObjectCount": 348,
+            "TotalObjectCount": 1098,
+            "Metadata": {
+              "Title": "Greenlights Serenade",
+              "title_unicode": "グリーンライツ・セレナーデ",
+              "Artist": "Omoi",
+              "artist_unicode": "Omoi",
+              "Author": {
+                "OnlineID": 5404892,
+                "Username": "kowari",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "owc2023qlnm1 qualifiers mpg mappers' guild fa featured artist vocaloid japanese rock jrock j-rock hatsune miku 初音ミク",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2075261/covers/cover@2x.jpg?1699799432",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2075261/covers/card@2x.jpg?1699799432",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2075261/covers/list@2x.jpg?1699799432"
+            }
+          }
+        },
+        {
+          "ID": 4063445,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4063445,
+            "DifficultyName": "Vanity of Vanities",
+            "BPM": 200.0,
+            "Length": 253000.0,
+            "StarRating": 7.21,
+            "EndTimeObjectCount": 416,
+            "TotalObjectCount": 1639,
+            "Metadata": {
+              "Title": "Vanitas",
+              "title_unicode": "Vanitas",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 4561368,
+                "Username": "Anxient",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "deathstream featured artist fa electronic rlc aeril instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.5,
+              "OverallDifficulty": 9.3,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1815879/covers/cover@2x.jpg?1696293968",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1815879/covers/card@2x.jpg?1696293968",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1815879/covers/list@2x.jpg?1696293968"
+            }
+          }
+        },
+        {
+          "ID": 3652028,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3652028,
+            "DifficultyName": "EX",
+            "BPM": 146.0,
+            "Length": 122000.0,
+            "StarRating": 6.58,
+            "EndTimeObjectCount": 297,
+            "TotalObjectCount": 668,
+            "Metadata": {
+              "Title": "Insane Techniques",
+              "title_unicode": "Insane Techniques",
+              "Artist": "kors k",
+              "artist_unicode": "kors k",
+              "Author": {
+                "OnlineID": 10077431,
+                "Username": "Plasma",
+                "CountryString": "Unknown"
+              },
+              "Source": "beatmania IIDX 21 SPADA",
+              "tags": "electronic hi-tech full on video game instrumental english bemani konami ajt yokespai captin1",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1783252/covers/cover@2x.jpg?1682031959",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1783252/covers/card@2x.jpg?1682031959",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1783252/covers/list@2x.jpg?1682031959"
+            }
+          }
+        },
+        {
+          "ID": 4344442,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4344442,
+            "DifficultyName": "Twilight",
+            "BPM": 185.0,
+            "Length": 150000.0,
+            "StarRating": 6.63,
+            "EndTimeObjectCount": 389,
+            "TotalObjectCount": 880,
+            "Metadata": {
+              "Title": "Vespera",
+              "title_unicode": "Vespera",
+              "Artist": "Zekk",
+              "artist_unicode": "Zekk",
+              "Author": {
+                "OnlineID": 4694602,
+                "Username": "Down",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "electronic instrumental fa featured artist owc2023 ql qualifiers nm4 owc2023qlnm4",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2075263/covers/cover@2x.jpg?1699799442",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2075263/covers/card@2x.jpg?1699799442",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2075263/covers/list@2x.jpg?1699799442"
+            }
+          }
+        },
+        {
+          "ID": 3859444,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3859444,
+            "DifficultyName": "Dada's Special Extra",
+            "BPM": 130.0,
+            "Length": 200000.0,
+            "StarRating": 5.76,
+            "EndTimeObjectCount": 488,
+            "TotalObjectCount": 893,
+            "Metadata": {
+              "Title": "I've Seen Footage",
+              "title_unicode": "I've Seen Footage",
+              "Artist": "Death Grips",
+              "artist_unicode": "Death Grips",
+              "Author": {
+                "OnlineID": 5428909,
+                "Username": "Nowaie",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "experimental hip-hop hip hop rap english industrial electronic the money store stefan burnett mc ride zach hill andy morin dtm9 nowa maakkeli makeli mäkeli fsjallink dada arkisol",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1875441/covers/cover@2x.jpg?1672716630",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1875441/covers/card@2x.jpg?1672716630",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1875441/covers/list@2x.jpg?1672716630"
+            }
+          }
+        },
+        {
+          "ID": 2503194,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 2503194,
+            "DifficultyName": "Yudragen's Final Resolve",
+            "BPM": 123.0,
+            "Length": 217000.0,
+            "StarRating": 7.0,
+            "EndTimeObjectCount": 421,
+            "TotalObjectCount": 985,
+            "Metadata": {
+              "Title": "Last Surprise -Scramble-",
+              "title_unicode": "Last Surprise -Scramble-",
+              "Artist": "Meguro Shoji feat. Lyn",
+              "artist_unicode": "目黒将司 feat. Lyn",
+              "Author": {
+                "OnlineID": 2233878,
+                "Username": "moph",
+                "CountryString": "Unknown"
+              },
+              "Source": "ペルソナ5 スクランブル ザ ファントム ストライカーズ",
+              "tags": "flake yudragen chaoticred inaizumi persona 5 scramble the phantom strikers p5s masa remix benjamin franklin atlus shin megami tensei 真 女神転生 rock jazz video game english ost original soundtrack disc2",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.5,
+              "CircleSize": 4.1,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1178471/covers/cover@2x.jpg?1650697701",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1178471/covers/card@2x.jpg?1650697701",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1178471/covers/list@2x.jpg?1650697701"
+            }
+          }
+        },
+        {
+          "ID": 4654502,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4654502,
+            "DifficultyName": "WIP",
+            "BPM": 170.0,
+            "Length": 140000.0,
+            "StarRating": 5.62,
+            "EndTimeObjectCount": 267,
+            "TotalObjectCount": 748,
+            "Metadata": {
+              "Title": "Disconnect",
+              "title_unicode": "Disconnect",
+              "Artist": "fiend",
+              "artist_unicode": "fiend",
+              "Author": {
+                "OnlineID": 4945926,
+                "Username": "yaspo",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "dach open fm2 freemod ro16 sf",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2199365/covers/cover@2x.jpg?1721070350",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2199365/covers/card@2x.jpg?1721070350",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2199365/covers/list@2x.jpg?1721070350"
+            }
+          }
+        },
+        {
+          "ID": 4207685,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4207685,
+            "DifficultyName": "Summit",
+            "BPM": 163.0,
+            "Length": 225000.0,
+            "StarRating": 6.55,
+            "EndTimeObjectCount": 495,
+            "TotalObjectCount": 1166,
+            "Metadata": {
+              "Title": "Ziqqurat",
+              "title_unicode": "Ziqqurat",
+              "Artist": "Yunosuke",
+              "artist_unicode": "雄之助",
+              "Author": {
+                "OnlineID": 3624692,
+                "Username": "Pho",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "vmc proto vocaloid hatsune miku 初音 ミク",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.6,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.6,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2020446/covers/cover@2x.jpg?1690869643",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2020446/covers/card@2x.jpg?1690869643",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2020446/covers/list@2x.jpg?1690869643"
+            }
+          }
+        },
+        {
+          "ID": 3231534,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 3231534,
+            "DifficultyName": "Racing to the Stars",
+            "BPM": 112.0,
+            "Length": 240000.0,
+            "StarRating": 6.45,
+            "EndTimeObjectCount": 423,
+            "TotalObjectCount": 1076,
+            "Metadata": {
+              "Title": "Follow The Light",
+              "title_unicode": "Follow The Light",
+              "Artist": "Dirty Loops & Cory Wong",
+              "artist_unicode": "Dirty Loops & Cory Wong",
+              "Author": {
+                "OnlineID": 8688812,
+                "Username": "Mir",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "funk jazz soul rnb pop english vocal aron mellergård henrik linder jonah nilsson turbo azer lasse",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1582334/covers/cover@2x.jpg?1650711049",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1582334/covers/card@2x.jpg?1650711049",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1582334/covers/list@2x.jpg?1650711049"
+            }
+          }
+        },
+        {
+          "ID": 179758,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 179758,
+            "DifficultyName": "ExtrA",
+            "BPM": 170.0,
+            "Length": 144000.0,
+            "StarRating": 6.09,
+            "EndTimeObjectCount": 146,
+            "TotalObjectCount": 601,
+            "Metadata": {
+              "Title": "Placebo Dying",
+              "title_unicode": "Placebo Dying",
+              "Artist": "M2U",
+              "artist_unicode": "M2U",
+              "Author": {
+                "OnlineID": 104401,
+                "Username": "AngelHoney",
+                "CountryString": "Unknown"
+              },
+              "Source": "O2jam Analog",
+              "tags": "lan wings jing bossandy boss jih7491",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 7.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/60081/covers/cover@2x.jpg?1650614010",
+              "card@2x": "https://assets.ppy.sh/beatmaps/60081/covers/card@2x.jpg?1650614010",
+              "list@2x": "https://assets.ppy.sh/beatmaps/60081/covers/list@2x.jpg?1650614010"
+            }
+          }
+        },
+        {
+          "ID": 3033108,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 3033108,
+            "DifficultyName": "FUNKY FRESH BEATS",
+            "BPM": 142.0,
+            "Length": 202000.0,
+            "StarRating": 6.09,
+            "EndTimeObjectCount": 532,
+            "TotalObjectCount": 1148,
+            "Metadata": {
+              "Title": "AIN'T NOTHIN' LIKE A FUNKY BEAT",
+              "title_unicode": "AIN'T NOTHIN' LIKE A FUNKY BEAT",
+              "Artist": "Hideki Naganuma",
+              "artist_unicode": "Hideki Naganuma",
+              "Author": {
+                "OnlineID": 2439822,
+                "Username": "Rtyzen",
+                "CountryString": "Unknown"
+              },
+              "Source": "Lethal League Blaze",
+              "tags": "banger bonanza ro16 round of 16 b9 nf alt 長沼英樹 skankfunk english bgm background music video game ost original soundtrack team reptile 2step big beat edm electronic dance digital rock eurobeat funk hip hop house rap techno",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1478436/covers/cover@2x.jpg?1732617550",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1478436/covers/card@2x.jpg?1732617550",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1478436/covers/list@2x.jpg?1732617550"
+            }
+          }
+        },
+        {
+          "ID": 93842,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 93842,
+            "DifficultyName": "Insane",
+            "BPM": 177.0,
+            "Length": 182000.0,
+            "StarRating": 5.26,
+            "EndTimeObjectCount": 210,
+            "TotalObjectCount": 656,
+            "Metadata": {
+              "Title": "Gold Dust",
+              "title_unicode": "Gold Dust",
+              "Artist": "DJ Fresh",
+              "artist_unicode": "DJ Fresh",
+              "Author": {
+                "OnlineID": 381444,
+                "Username": "galvenize",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "kriers dnb drum and bass",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/28107/covers/cover@2x.jpg?1622045706",
+              "card@2x": "https://assets.ppy.sh/beatmaps/28107/covers/card@2x.jpg?1622045706",
+              "list@2x": "https://assets.ppy.sh/beatmaps/28107/covers/list@2x.jpg?1622045706"
+            }
+          }
+        },
+        {
+          "ID": 2955143,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 2955143,
+            "DifficultyName": "Insane",
+            "BPM": 155.0,
+            "Length": 222000.0,
+            "StarRating": 4.92,
+            "EndTimeObjectCount": 297,
+            "TotalObjectCount": 1076,
+            "Metadata": {
+              "Title": "Monochrome Anomaly",
+              "title_unicode": "Monochrome Anomaly",
+              "Artist": "Feryquitous Vo. F9",
+              "artist_unicode": "Feryquitous Vo. F9",
+              "Author": {
+                "OnlineID": 689997,
+                "Username": "captin1",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "diverse system ad piano iv kiyono nik nikolomara english electronic",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1436243/covers/cover@2x.jpg?1674862898",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1436243/covers/card@2x.jpg?1674862898",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1436243/covers/list@2x.jpg?1674862898"
+            }
+          }
+        },
+        {
+          "ID": 358272,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 358272,
+            "DifficultyName": "Another",
+            "BPM": 175.0,
+            "Length": 296000.0,
+            "StarRating": 5.1,
+            "EndTimeObjectCount": 370,
+            "TotalObjectCount": 1079,
+            "Metadata": {
+              "Title": "Far east nightbird (kors k Remix)",
+              "title_unicode": "Far east nightbird (kors k Remix)",
+              "Artist": "Nekomata Master",
+              "artist_unicode": "猫叉Master",
+              "Author": {
+                "OnlineID": 270377,
+                "Username": "jonathanlfj",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "drum and bass dnb dubstep jubeat knit crevice sayonara sekai rlc zexous erunamojazz the great damnae",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/144171/covers/cover@2x.jpg?1650620378",
+              "card@2x": "https://assets.ppy.sh/beatmaps/144171/covers/card@2x.jpg?1650620378",
+              "list@2x": "https://assets.ppy.sh/beatmaps/144171/covers/list@2x.jpg?1650620378"
+            }
+          }
+        },
+        {
+          "ID": 3871800,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 3871800,
+            "DifficultyName": "Jabberwocky",
+            "BPM": 220.0,
+            "Length": 332000.0,
+            "StarRating": 7.05,
+            "EndTimeObjectCount": 878,
+            "TotalObjectCount": 1997,
+            "Metadata": {
+              "Title": "escape (the looking-glass, and what alice found there)",
+              "title_unicode": "escape (the looking-glass, and what alice found there)",
+              "Artist": "Kurokotei feat. Sennzai",
+              "artist_unicode": "黒皇帝 feat. Sennzai",
+              "Author": {
+                "OnlineID": 918297,
+                "Username": "Realazy",
+                "CountryString": "Unknown"
+              },
+              "Source": "osu! World Cup 2022",
+              "tags": "owc2022sftb featured artist footwork riddim artcore hardtek breakcore amenpunk electronic conlang japanese",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1880652/covers/cover@2x.jpg?1678750841",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1880652/covers/card@2x.jpg?1678750841",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1880652/covers/list@2x.jpg?1678750841"
+            }
+          }
+        }
+      ],
+      "StartDate": "2025-02-21T21:50:26.0347627+00:00",
+      "Matches": [
+        9,
+        12
+      ]
+    }
+  ],
+  "Teams": [
+    {
+      "FullName": "rudj",
+      "FlagName": "GB",
+      "Acronym": "RUDJ",
+      "SeedingResults": [],
+      "Seed": "1",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Mahmood",
+      "FlagName": "GB",
+      "Acronym": "MAHM",
+      "SeedingResults": [],
+      "Seed": "2",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "A L E P H",
+      "FlagName": "ES",
+      "Acronym": "ALPH",
+      "SeedingResults": [],
+      "Seed": "3",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "velcro shoes",
+      "FlagName": "GB",
+      "Acronym": "VELC",
+      "SeedingResults": [],
+      "Seed": "4",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Stormur",
+      "FlagName": "GB",
+      "Acronym": "STOR",
+      "SeedingResults": [],
+      "Seed": "5",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Junkmaniac",
+      "FlagName": "SG",
+      "Acronym": "JNKM",
+      "SeedingResults": [],
+      "Seed": "6",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "jpjtyld",
+      "FlagName": "GB",
+      "Acronym": "JP",
+      "SeedingResults": [],
+      "Seed": "7",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Doomsday",
+      "FlagName": "GB",
+      "Acronym": "DOOM",
+      "SeedingResults": [],
+      "Seed": "8",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "FlyingTuna Jr",
+      "FlagName": "GB",
+      "Acronym": "FTJR",
+      "SeedingResults": [],
+      "Seed": "9",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "MaypleFlower",
+      "FlagName": "GB",
+      "Acronym": "MAY",
+      "SeedingResults": [],
+      "Seed": "10",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Greninja",
+      "FlagName": "CA",
+      "Acronym": "GREN",
+      "SeedingResults": [],
+      "Seed": "11",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "gadrin",
+      "FlagName": "GB",
+      "Acronym": "GADR",
+      "SeedingResults": [],
+      "Seed": "12",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "cloroxbleach53",
+      "FlagName": "ID",
+      "Acronym": "CBLCH",
+      "SeedingResults": [],
+      "Seed": "13",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Teejay",
+      "FlagName": "GB",
+      "Acronym": "TJ",
+      "SeedingResults": [],
+      "Seed": "14",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Goombs",
+      "FlagName": "GB",
+      "Acronym": "GMBS",
+      "SeedingResults": [],
+      "Seed": "15",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "jakk",
+      "FlagName": "GB",
+      "Acronym": "JAKK",
+      "SeedingResults": [],
+      "Seed": "16",
+      "LastYearPlacing": 0,
+      "Players": []
+    }
+  ],
   "Progressions": [
     {
       "SourceID": 1,
-      "TargetID": 2
+      "TargetID": 3
     },
     {
-      "SourceID": 3,
-      "TargetID": 2
-    },
-    {
-      "SourceID": 5,
-      "TargetID": 6
-    },
-    {
-      "SourceID": 7,
-      "TargetID": 6
-    },
-    {
-      "SourceID": 9,
-      "TargetID": 10
-    },
-    {
-      "SourceID": 12,
-      "TargetID": 10
-    },
-    {
-      "SourceID": 14,
-      "TargetID": 15
-    },
-    {
-      "SourceID": 16,
-      "TargetID": 15
-    },
-    {
-      "SourceID": 2,
-      "TargetID": 4
+      "SourceID": 4,
+      "TargetID": 3
     },
     {
       "SourceID": 6,
-      "TargetID": 4
+      "TargetID": 7
+    },
+    {
+      "SourceID": 8,
+      "TargetID": 7
     },
     {
       "SourceID": 10,
-      "TargetID": 13
+      "TargetID": 11
+    },
+    {
+      "SourceID": 13,
+      "TargetID": 11
     },
     {
       "SourceID": 15,
-      "TargetID": 13
+      "TargetID": 16
     },
     {
-      "SourceID": 4,
-      "TargetID": 8
+      "SourceID": 17,
+      "TargetID": 16
     },
     {
-      "SourceID": 13,
-      "TargetID": 8
+      "SourceID": 3,
+      "TargetID": 5
     },
     {
-      "SourceID": 4,
-      "TargetID": 11,
+      "SourceID": 7,
+      "TargetID": 5
+    },
+    {
+      "SourceID": 11,
+      "TargetID": 14
+    },
+    {
+      "SourceID": 16,
+      "TargetID": 14
+    },
+    {
+      "SourceID": 5,
+      "TargetID": 9
+    },
+    {
+      "SourceID": 14,
+      "TargetID": 9
+    },
+    {
+      "SourceID": 5,
+      "TargetID": 12,
       "Losers": true
     },
     {
-      "SourceID": 13,
-      "TargetID": 11,
+      "SourceID": 14,
+      "TargetID": 12,
       "Losers": true
     }
   ],
   "ChromaKeyWidth": 1366,
   "PlayersPerTeam": 4,
-  "AutoProgressScreens": true,
+  "AutoProgressScreens": false,
   "SplitMapPoolByMods": true,
-  "DisplayTeamSeeds": false
+  "DisplayTeamSeeds": true,
+  "AutoSyncSlug": "E44",
+  "AutoSyncEnabled": true
 }
