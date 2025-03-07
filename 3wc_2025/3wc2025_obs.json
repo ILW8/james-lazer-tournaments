@@ -11,7 +11,7 @@
         "mixers": 195,
         "sync": 0,
         "flags": 0,
-        "volume": 0.19054608047008514,
+        "volume": 0.50118720531463623,
         "balance": 0.5,
         "enabled": true,
         "muted": false,
@@ -30,8 +30,8 @@
         "monitoring_type": 2,
         "private_settings": {}
     },
-    "current_scene": "mappool",
-    "current_program_scene": "gameplay",
+    "current_scene": "winner",
+    "current_program_scene": "intro",
     "scene_order": [
         {
             "name": "intro"
@@ -50,6 +50,12 @@
         },
         {
             "name": "discord dsk"
+        },
+        {
+            "name": "score_zoomed"
+        },
+        {
+            "name": "chat_zoomed"
         }
     ],
     "name": "3wc2025",
@@ -62,8 +68,8 @@
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 1440,
-                "cy": 360,
+                "cx": 1920,
+                "cy": 720,
                 "id_counter": 0,
                 "items": [
                     {
@@ -367,13 +373,13 @@
         {
             "monitor": -1,
             "type": 3,
-            "geometry": "AdnQywADAAAAAAQQAAACGwAACFIAAASfAAAEEAAAAjoAAAhSAAAEnwAAAAAAAAAACgAAAAQQAAACOgAACFIAAASf",
+            "geometry": "AdnQywADAAAAAAJ9AAABNQAACFIAAASbAAACfQAAAVQAAAhSAAAEmwAAAAAAAAAACgAAAAJ9AAABVAAACFIAAASb",
             "alwaysOnTopOverridden": false
         },
         {
             "monitor": -1,
             "type": 4,
-            "geometry": "AdnQywADAAAAAAAA////+AAACf8AAAWBAAADqgAAAeoAAAgFAAAEQgAAAAACAAAACgAAAAAAAAAAFwAACf8AAAWB",
+            "geometry": "AdnQywADAAAAAAAA////+AAACf8AAAWBAAAEaQAAAcIAAAZIAAADOgAAAAACAAAACgAAAAAAAAAAFwAACf8AAAWB",
             "alwaysOnTopOverridden": false
         }
     ],
@@ -425,8 +431,8 @@
         "downstream_keyers": [
             {
                 "name": "DSK 1",
-                "transition": "",
-                "transition_duration": 300,
+                "transition": "Fade",
+                "transition_duration": 200,
                 "show_transition": "",
                 "show_transition_duration": 300,
                 "hide_transition": "",
@@ -436,7 +442,7 @@
                         "name": "discord dsk"
                     }
                 ],
-                "scene": "",
+                "scene": "discord dsk",
                 "null_hotkey": [],
                 "enable_tie_hotkey": [],
                 "disable_tie_hotkey": [],
@@ -874,6 +880,78 @@
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
                 "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
+            "name": "chat_zoomed",
+            "uuid": "75c36fea-6cdb-4747-9bea-6ae0cd65f83a",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "gameplay",
+                        "source_uuid": "e89867ea-96bf-42af-bd67-4d2425976026",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 2.7665705680847168,
+                            "y": 2.767326831817627
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 1186,
+                        "crop_top": 878,
+                        "crop_right": 40,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1589,8 +1667,8 @@
                     {
                         "name": "spotify_overlay",
                         "source_uuid": "97e47088-740d-42fc-b90d-d480d2d46659",
-                        "visible": false,
-                        "locked": true,
+                        "visible": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 1180.0,
@@ -2218,6 +2296,78 @@
         },
         {
             "prev_ver": 503382018,
+            "name": "score_zoomed",
+            "uuid": "acd386dd-e703-4b79-8417-95706067f1c7",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "gameplay",
+                        "source_uuid": "e89867ea-96bf-42af-bd67-4d2425976026",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": -1112.0,
+                            "y": -1251.0
+                        },
+                        "scale": {
+                            "x": 2.1583333015441895,
+                            "y": 2.1583333015441895
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503382018,
             "name": "showcase",
             "uuid": "a959a2d3-c8b4-4ffe-ba31-a2b256ce50b7",
             "id": "scene",
@@ -2520,7 +2670,7 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "http://127.0.0.1:24050/3wc-stream-overlay/spotify/",
+                "url": "http://127.0.0.1:24050/3wc-stream-overlay/spotify/?useOsu=true",
                 "width": 680,
                 "height": 64
             },
@@ -2599,7 +2749,7 @@
                     {
                         "name": "spotify_overlay",
                         "source_uuid": "97e47088-740d-42fc-b90d-d480d2d46659",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
