@@ -2247,6 +2247,48 @@
 							}
 						}
 					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "RESTART PC!!!!!",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "ter41-fAr7OTfNXv11iwG",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "shutdo",
+												"timeout": 5000
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
 					"9": {
 						"type": "button",
 						"style": {
@@ -2673,6 +2715,111 @@
 					"0": {
 						"type": "pagedown"
 					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "reset audio monitor ($(obs:monitor_Desktop_Audio))",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "a0WrNKTirqTB4nxMQyDmv",
+								"type": "audio_monitor_type",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"source": "Desktop Audio",
+									"monitor": "none"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 65280
+								},
+								"isInverted": false
+							},
+							{
+								"id": "AYnFHVzW9FkY3jcUz4tVV",
+								"type": "audio_monitor_type",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"source": "Desktop Audio",
+									"monitor": "monitorOnly"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 255
+								},
+								"isInverted": false
+							},
+							{
+								"id": "kjVa5wDp-MHxTPus-Fri0",
+								"type": "audio_monitor_type",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"source": "Desktop Audio",
+									"monitor": "monitorAndOutput"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 16711935
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "2oYPiVJr21qlHbWorLYRG",
+											"action": "set_audio_monitor",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"monitor": "none"
+											},
+											"delay": 0
+										},
+										{
+											"id": "eiL2h2V28ViTOoYmGaXkO",
+											"action": "set_audio_monitor",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"monitor": "monitorOnly"
+											},
+											"delay": 75
+										},
+										{
+											"id": "sUvneVaJLMHWAXFGrOCNZ",
+											"action": "set_audio_monitor",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"monitor": "monitorAndOutput"
+											},
+											"delay": 150
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
 					"2": {
 						"type": "button",
 						"style": {
@@ -2871,6 +3018,50 @@
 							}
 						}
 					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "focus multiview (press btn)",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "DX4suHcMJk5gfuO4otpn3",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "1/1/7",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
 					"7": {
 						"type": "button",
 						"style": {
@@ -2902,6 +3093,68 @@
 												"data": "toggle warmup"
 											},
 											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"8": {
+						"type": "button",
+						"style": {
+							"text": "fix audio sync",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16711680,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "D8bKJWkgBGhUw2tYLyFOc",
+											"action": "set_audio_monitor",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"monitor": "none"
+											},
+											"delay": 0
+										},
+										{
+											"id": "Yps42YWBxNzCl1mrp4FbH",
+											"action": "set_audio_monitor",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"monitor": "monitorOnly"
+											},
+											"delay": 500
+										},
+										{
+											"id": "gcf94MQZBlF0cpiRX4zZh",
+											"action": "set_audio_monitor",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"monitor": "monitorAndOutput"
+											},
+											"delay": 1000
 										}
 									],
 									"up": []
@@ -10219,6 +10472,58 @@
 								}
 							}
 						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "$f",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "KAtemEnuhzaSzTMMOAhKP",
+											"action": "chatMessage",
+											"instance": "PFjoyt8cIPi17OiD8H-uk",
+											"options": {
+												"channel": "btmc",
+												"message": "$f"
+											},
+											"delay": 0
+										},
+										{
+											"id": "EYEZIJL7jBo06LMpHrDHq",
+											"action": "chatMessage",
+											"instance": "PFjoyt8cIPi17OiD8H-uk",
+											"options": {
+												"channel": "btmc",
+												"message": "$remind 2.5"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
 					}
 				},
 				"3": {
@@ -11993,6 +12298,48 @@
 							}
 						}
 					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "delete cuno cache",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 13369344,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "OivxYRqQuQlAPILji9_q6",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "powershell.exe -Command \"rm -r -fo C:\\Users\\daohe\\AppData\\Local\\Temp\\cuno.db64.uid.*\"",
+												"timeout": 5000
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
 					"5": {
 						"type": "button",
 						"style": {
@@ -12162,6 +12509,48 @@
 											},
 											"delay": 0,
 											"disabled": false
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "delete cuno disk cache",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 13369344,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "4F4X-Q7zz4MLMbMYto389",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "powershell.exe -Command \"rm -r -fo F:\\cuno_disk_cache\\*\"",
+												"timeout": 5000
+											},
+											"delay": 0
 										}
 									],
 									"up": []
@@ -12349,6 +12738,49 @@
 							}
 						}
 					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Clear console",
+							"textExpression": false,
+							"size": "10",
+							"png64": "iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAABmJLR0QA/wD/AP+gvaeTAAAHFElEQVR4nO3dXWxb5R0G8Od/Yset1RIqijq140uikPhscj4MudlEMspAQgy4BAmkXaBJQ+yiRQOxTWhDE0LdpEmbxIT4uIBptwN2swWRSoSyQmI7oGMHFS3iSyktHy2hWRLH578LOm1Kz8lqv8fnvMd+fpfnPX7fx+6T8+HUDkBERERERERERERERERERERERERERERERERERERERERkN0k6QBI8z+tvNJwJX/0JOLIXKnsgmmlpEpUNiH6ivnzsQI80mytHSqVSo0ORrdVTBZqdfXd3X7b5M1X8EMBAxNOfFuC59TX59fj40GcRz22tnilQpVK/T0UPI/ribHYaggdHi4VnOryOFbq+QNPT05mLd+35nQL3x7uy/P7MFycOTk5ObsS7brxaO++nUDLlAQB9YGDXNwDgJ/GvHZ+uPgKdO209lWQGEdw3Uiw8nWSGTuraAs3OvrvbyTTfw9bXPKcgOiUqHymgrcwvgKjiMghuArB7i11PN9bk6m69sO7aU9i5u62w8qyK4OH+jD7puu66yTqe5/WvrsuPRfA4gG0Bu1yczfmPADhkso6tuvII5Hle/1pDTiL46LPqQ28qDbszUa45N+99V1SmAOQChr/wN1b2dOP7RE7SATqh0XAmEHLqEsHDUZcHAMaK7muAPBIyvMtx8jdEvaYNurJATUXYP9ap/ow+2al1c1n/DwA+DRx0QjOlWlcWSBzdFzygU6bXPFs5N/crQWMK/Wan1k2S1RfR5fLCXhG9UlXzLT1QMRS0WVQy5XLtQCThQgjgBN3OCaTQ6toistJs6mKpVFiKKF7krLyInqvW7gTwCwFGks5iibIoHhsZKfwl6SCbWVeguUr9sIg+mHQOG6ng8Fix8NOkc/wvqwo0V/V+JJA/Jp3DZra9s21NgY4e/XD7tvzyB9j6XV0CTp0Z2H755FVXrSYdBLDoLmz79uXvgeW5EJcOLK9MJh3iP6wpEBwNvHOiAL5jzWtlzW2872OHBJ9Qj4wOF6z5iYtTuVqbBjCxebuqf1H8aYLZcwSiVGKByAgLREZYIDLCApERa+7CtlAsz9emkg6RCEUx6Qj/TxoKtAuKjv4GndrHUxgZYYHICAtERlggMmLNRbSozEDwxHkDisshuCvkYefvn04PBW5V/BmCDzZvFpXIP1XSLmv+P1CYSqU+oaLTQWOjwwXr81+IcrUW+KlYUZkcGRk6EnOclvAURkZYIDLCApERFoiMWHMXFqfZ2dk8svnB5qq8b/q1K8eO1S/p26ZXoLGyUCqVVqLKmBY9dwSqVOp3SyZ/wlHMZXN6slz1fqOqLd/NqaqUq95vszk96SjmnEx+qTxfD3u7oWv1VIGq1fo1KvqsADvPbXIAOVR5u35P63Mt3AvIQfz3NbwIqs9VKrX9kQVOgZ4qUBP4PoK+v8eX21qdS8UPekzO/3qNntFTBYL6wZ87E23j82hyScgil7Y+V3r1VoEociwQGWGByAgLREZYIDLCApERFoiMsEBkhAUiIywQGWGByAgLREZYIDLCApERFoiMsEBkhAUiIywQGWGByAgLREZYIDLCApERFoiM9FSBHCfw7+Gmbg2b9FSB4OP9kJF/tjyXBM+l0MWW50qxnirQ+jpeBnBi02Zf1Hm21bl81acB+Js2L+Uy+td286VRTxVofHzoM/h6I4ApAF8CMq8id4yMDL7e6lylYXcGoncCMv/1XJiCrwdc1/086tw267nvBxoddWuI6AsQRovuSwBeimKutOqpIxBFjwUiIywQGWGByAgLREasL5Aq1sLGjh8/fv7X1aXM9OLitrAx39HVOLO0w/oCiWApbOzs2Y0r4szSCTuX168MG5Nm+HO3hfUF2rEjs4Tz3/EFADSht8YcJ3KO74c9h2YupyyQqf37968B+kbQmACHPM/bEXemqMwsLOwE9GDI8FHXdddjDdQG6wsEAKLyYsjQvtWGPO95Xn+sgSLgeV5//l/6AoC9wXuEPmerpKJAzSZeAHA2aEyAO9YaeHV+vvatmGO1bfbt+rfXGjIN0R+E7PLVRtb/U6yh2pSaP9hWrtYeA/DzLXbxBXhLIW+q6ici2Igr24VQRUZE9gj0egWuw5Y/vPqr0WH30djCGUhNgWYWFnbm1/xjUAwlnaXDarmsjruu+1XSQS5EKk5hAPCdwcHlPji3Avg06Swd9Lk29fa0lAdIUYEAoFgcXPQFNwP6UdJZOuBDB3pgbMx9L+kgrUhVgQCgVCyU/Q25HoJXks4SFQX+nu1rXjc87FaSztKq1FwDBZmb924RlUcBjCN9z0Uh+Ieq/HJseOhvSYdpV9pe9EBvvvPOZdmNvttU5FrA3weRgaQzBVI9AzgfQ3ShD42Xi8ViN56KiYiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiKzyb8Qx8w6JYa1DAAAAAElFTkSuQmCC",
+							"alignment": "center:top",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "GAipMZ9usvkYFTkj10m1r",
+											"action": "get",
+											"instance": "evoA6WMeZoG1k4Cs0x3Gv",
+											"options": {
+												"url": "ConsoleView.ClearAll",
+												"header": "{\"Authorization\":\"frickfrickfrick\"}",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
 					"2": {
 						"type": "button",
 						"style": {
@@ -12392,18 +12824,18 @@
 							}
 						}
 					},
-					"3": {
+					"4": {
 						"type": "button",
 						"style": {
-							"text": "Clear console",
+							"text": "set pinning xattr",
 							"textExpression": false,
-							"size": "10",
-							"png64": "iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAABmJLR0QA/wD/AP+gvaeTAAAHFElEQVR4nO3dXWxb5R0G8Od/Yset1RIqijq140uikPhscj4MudlEMspAQgy4BAmkXaBJQ+yiRQOxTWhDE0LdpEmbxIT4uIBptwN2swWRSoSyQmI7oGMHFS3iSyktHy2hWRLH578LOm1Kz8lqv8fnvMd+fpfnPX7fx+6T8+HUDkBERERERERERERERERERERERERERERERERERERERERkN0k6QBI8z+tvNJwJX/0JOLIXKnsgmmlpEpUNiH6ivnzsQI80mytHSqVSo0ORrdVTBZqdfXd3X7b5M1X8EMBAxNOfFuC59TX59fj40GcRz22tnilQpVK/T0UPI/ribHYaggdHi4VnOryOFbq+QNPT05mLd+35nQL3x7uy/P7MFycOTk5ObsS7brxaO++nUDLlAQB9YGDXNwDgJ/GvHZ+uPgKdO209lWQGEdw3Uiw8nWSGTuraAs3OvrvbyTTfw9bXPKcgOiUqHymgrcwvgKjiMghuArB7i11PN9bk6m69sO7aU9i5u62w8qyK4OH+jD7puu66yTqe5/WvrsuPRfA4gG0Bu1yczfmPADhkso6tuvII5Hle/1pDTiL46LPqQ28qDbszUa45N+99V1SmAOQChr/wN1b2dOP7RE7SATqh0XAmEHLqEsHDUZcHAMaK7muAPBIyvMtx8jdEvaYNurJATUXYP9ap/ow+2al1c1n/DwA+DRx0QjOlWlcWSBzdFzygU6bXPFs5N/crQWMK/Wan1k2S1RfR5fLCXhG9UlXzLT1QMRS0WVQy5XLtQCThQgjgBN3OCaTQ6toistJs6mKpVFiKKF7krLyInqvW7gTwCwFGks5iibIoHhsZKfwl6SCbWVeguUr9sIg+mHQOG6ng8Fix8NOkc/wvqwo0V/V+JJA/Jp3DZra9s21NgY4e/XD7tvzyB9j6XV0CTp0Z2H755FVXrSYdBLDoLmz79uXvgeW5EJcOLK9MJh3iP6wpEBwNvHOiAL5jzWtlzW2872OHBJ9Qj4wOF6z5iYtTuVqbBjCxebuqf1H8aYLZcwSiVGKByAgLREZYIDLCApERa+7CtlAsz9emkg6RCEUx6Qj/TxoKtAuKjv4GndrHUxgZYYHICAtERlggMmLNRbSozEDwxHkDisshuCvkYefvn04PBW5V/BmCDzZvFpXIP1XSLmv+P1CYSqU+oaLTQWOjwwXr81+IcrUW+KlYUZkcGRk6EnOclvAURkZYIDLCApERFoiMWHMXFqfZ2dk8svnB5qq8b/q1K8eO1S/p26ZXoLGyUCqVVqLKmBY9dwSqVOp3SyZ/wlHMZXN6slz1fqOqLd/NqaqUq95vszk96SjmnEx+qTxfD3u7oWv1VIGq1fo1KvqsADvPbXIAOVR5u35P63Mt3AvIQfz3NbwIqs9VKrX9kQVOgZ4qUBP4PoK+v8eX21qdS8UPekzO/3qNntFTBYL6wZ87E23j82hyScgil7Y+V3r1VoEociwQGWGByAgLREZYIDLCApERFoiMsEBkhAUiIywQGWGByAgLREZYIDLCApERFoiMsEBkhAUiIywQGWGByAgLREZYIDLCApERFoiM9FSBHCfw7+Gmbg2b9FSB4OP9kJF/tjyXBM+l0MWW50qxnirQ+jpeBnBi02Zf1Hm21bl81acB+Js2L+Uy+td286VRTxVofHzoM/h6I4ApAF8CMq8id4yMDL7e6lylYXcGoncCMv/1XJiCrwdc1/086tw267nvBxoddWuI6AsQRovuSwBeimKutOqpIxBFjwUiIywQGWGByAgLREasL5Aq1sLGjh8/fv7X1aXM9OLitrAx39HVOLO0w/oCiWApbOzs2Y0r4szSCTuX168MG5Nm+HO3hfUF2rEjs4Tz3/EFADSht8YcJ3KO74c9h2YupyyQqf37968B+kbQmACHPM/bEXemqMwsLOwE9GDI8FHXdddjDdQG6wsEAKLyYsjQvtWGPO95Xn+sgSLgeV5//l/6AoC9wXuEPmerpKJAzSZeAHA2aEyAO9YaeHV+vvatmGO1bfbt+rfXGjIN0R+E7PLVRtb/U6yh2pSaP9hWrtYeA/DzLXbxBXhLIW+q6ici2Igr24VQRUZE9gj0egWuw5Y/vPqr0WH30djCGUhNgWYWFnbm1/xjUAwlnaXDarmsjruu+1XSQS5EKk5hAPCdwcHlPji3Avg06Swd9Lk29fa0lAdIUYEAoFgcXPQFNwP6UdJZOuBDB3pgbMx9L+kgrUhVgQCgVCyU/Q25HoJXks4SFQX+nu1rXjc87FaSztKq1FwDBZmb924RlUcBjCN9z0Uh+Ieq/HJseOhvSYdpV9pe9EBvvvPOZdmNvttU5FrA3weRgaQzBVI9AzgfQ3ShD42Xi8ViN56KiYiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiKzyb8Qx8w6JYa1DAAAAAElFTkSuQmCC",
-							"alignment": "center:top",
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
 							"pngalignment": "center:center",
 							"color": 16777215,
-							"bgcolor": 0,
-							"show_topbar": false
+							"bgcolor": 8421631,
+							"show_topbar": "default"
 						},
 						"options": {
 							"relativeDelay": false,
@@ -12416,13 +12848,12 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "GAipMZ9usvkYFTkj10m1r",
-											"action": "get",
-											"instance": "evoA6WMeZoG1k4Cs0x3Gv",
+											"id": "68yJ-gmOGY0RDrKIgKB-S",
+											"action": "exec",
+											"instance": "internal",
 											"options": {
-												"url": "ConsoleView.ClearAll",
-												"header": "{\"Authorization\":\"frickfrickfrick\"}",
-												"result_stringify": true
+												"path": "\"C:\\Users\\daohe\\AppData\\Local\\cunoFS\\app\\bin\\CreateEA.exe\" \"V:\\not1GiB\" cunoFS.isPinned \"In Progress\"",
+												"timeout": 5000
 											},
 											"delay": 0
 										}
@@ -13135,7 +13566,7 @@
 			}
 		},
 		"7": {
-			"name": "PAGE",
+			"name": "ed remote",
 			"controls": {
 				"0": {
 					"0": {
@@ -13542,11 +13973,53 @@
 											"action": "take_screenshot",
 											"instance": "O4V3hMU5Y0mKAX7-qpFAv",
 											"options": {
-												"format": "png",
+												"format": "jpg",
 												"compression": 100,
 												"source": "custom",
 												"custom": "Sony a6000",
 												"path": "Z:\\"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "osu direct",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "Rjuvl68NuHG_xCFCBsXSj",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "start osu://b/4846148",
+												"timeout": 5000
 											},
 											"delay": 0
 										}
@@ -13836,6 +14309,159 @@
 							}
 						}
 					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "toggle WoS visiblity",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "5jf5koVwTCOk2FHXD6HIr",
+								"type": "scene_item_active",
+								"instance_id": "O4V3hMU5Y0mKAX7-qpFAv",
+								"options": {
+									"scene": "anyScene",
+									"source": "Words On Stream"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 65280
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "LaCjHJgBD2zFunMpllR2u",
+											"action": "toggle_scene_item",
+											"instance": "O4V3hMU5Y0mKAX7-qpFAv",
+											"options": {
+												"scene": "Current Scene",
+												"all": false,
+												"source": "Words On Stream",
+												"visible": "toggle"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "set WoS transform",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "aiJMzg07u9JgCIWOtb8ux",
+											"action": "source_properties",
+											"instance": "O4V3hMU5Y0mKAX7-qpFAv",
+											"options": {
+												"scene": "Current Scene",
+												"source": "Words On Stream",
+												"positionX": "1500",
+												"positionY": "950",
+												"scaleX": "0.5",
+												"scaleY": "0.5",
+												"rotation": "0"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "set WoS transform fullscreen",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "vHR3C7yHiJfM3Q-LJEVhC",
+											"action": "source_properties",
+											"instance": "O4V3hMU5Y0mKAX7-qpFAv",
+											"options": {
+												"scene": "Current Scene",
+												"source": "Words On Stream",
+												"positionX": "0",
+												"positionY": "0",
+												"scaleX": "1",
+												"scaleY": "1",
+												"rotation": "0"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
 					"5": {
 						"type": "button",
 						"style": {
@@ -14094,6 +14720,112 @@
 							}
 						}
 					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "set lurkbait transform",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "t8VbCnYZJPCrTweloUAE6",
+											"action": "source_properties",
+											"instance": "O4V3hMU5Y0mKAX7-qpFAv",
+											"options": {
+												"scene": "Current Scene",
+												"source": "Fishing",
+												"positionX": "1500",
+												"positionY": "-80",
+												"scaleX": "1",
+												"scaleY": "1",
+												"rotation": "0"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "restore fishing",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "IgV3NtSoZv0tWZAVhqCeL",
+								"type": "scene_item_active",
+								"instance_id": "O4V3hMU5Y0mKAX7-qpFAv",
+								"options": {
+									"scene": "anyScene",
+									"source": "Fishing"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 65280
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "llKdrQIpZ-26Kt3O0WQ3-",
+											"action": "toggle_scene_item",
+											"instance": "O4V3hMU5Y0mKAX7-qpFAv",
+											"options": {
+												"scene": "Current Scene",
+												"all": false,
+												"source": "Fishing",
+												"visible": "toggle"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
 					"5": {
 						"type": "button",
 						"style": {
@@ -14218,7 +14950,7 @@
 											"instance": "internal",
 											"options": {
 												"name": "helpmedebug",
-												"value": ""
+												"value": "lo"
 											},
 											"delay": 0
 										},
@@ -16079,45 +16811,6 @@
 							}
 						}
 					},
-					"1": {
-						"type": "button",
-						"style": {
-							"text": "Toggle Studio Mode",
-							"textExpression": false,
-							"size": "auto",
-							"png64": null,
-							"alignment": "center:center",
-							"pngalignment": "center:center",
-							"color": 16777215,
-							"bgcolor": 0,
-							"show_topbar": "default"
-						},
-						"options": {
-							"relativeDelay": false,
-							"rotaryActions": false,
-							"stepAutoProgress": true
-						},
-						"feedbacks": [],
-						"steps": {
-							"0": {
-								"action_sets": {
-									"down": [
-										{
-											"id": "sLdueDkbFF4bzUd3hd_8n",
-											"instance": "-5Nswgbnc1Je-XlP07UiO",
-											"action": "toggle_studio_mode",
-											"options": {},
-											"delay": 0
-										}
-									],
-									"up": []
-								},
-								"options": {
-									"runWhileHeld": []
-								}
-							}
-						}
-					},
 					"2": {
 						"type": "button",
 						"style": {
@@ -16703,7 +17396,7 @@
 					"4": {
 						"type": "button",
 						"style": {
-							"text": "AUTO",
+							"text": "Toggle Studio Mode",
 							"textExpression": false,
 							"size": "auto",
 							"png64": null,
@@ -16718,27 +17411,15 @@
 							"rotaryActions": false,
 							"stepAutoProgress": true
 						},
-						"feedbacks": [
-							{
-								"id": "RlJcsrk2DsG5osHd6CZDj",
-								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
-								"type": "transition_active",
-								"options": {},
-								"isInverted": false,
-								"style": {
-									"bgcolor": 51200,
-									"color": 16777215
-								}
-							}
-						],
+						"feedbacks": [],
 						"steps": {
 							"0": {
 								"action_sets": {
 									"down": [
 										{
-											"id": "_9k_LwGzCliRrnuPU07o-",
+											"id": "sLdueDkbFF4bzUd3hd_8n",
 											"instance": "-5Nswgbnc1Je-XlP07UiO",
-											"action": "do_transition",
+											"action": "toggle_studio_mode",
 											"options": {},
 											"delay": 0
 										}
@@ -16918,6 +17599,331 @@
 					"1": {
 						"type": "button",
 						"style": {
+							"text": "Fade",
+							"textExpression": false,
+							"size": 14,
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "8pELMSHpVQbXCjS6Tyi1A",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "transition_active",
+								"options": {},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 51200,
+									"color": 16777215
+								}
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "zMZ7--TKuAQtwRxHx88Aq",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "quick_transition",
+											"options": {
+												"transition": "Fade",
+												"customDuration": false,
+												"transition_time": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Cut",
+							"textExpression": false,
+							"size": 14,
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "wtH1-K3l-O6GnesI4l3_L",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "transition_active",
+								"options": {},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 51200,
+									"color": 16777215
+								}
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "6BS7reJFOjFddDP3l-zWD",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "quick_transition",
+											"options": {
+												"transition": "Cut",
+												"customDuration": false,
+												"transition_time": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "AUTO",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "RlJcsrk2DsG5osHd6CZDj",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "transition_active",
+								"options": {},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 51200,
+									"color": 16777215
+								}
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "_9k_LwGzCliRrnuPU07o-",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "do_transition",
+											"options": {},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "move osu windows to vdesktop",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "WtNTJiDCZ48leiUe89iPI",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\AppData\\Roaming\\osu\\tournaments\\.utils\\osutourney-macros\\osu-move-vdesktop.ahk\"",
+												"timeout": 5000
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "fix audio sync",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16711680,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "7vE0nvGZ_bbQK8arkeR62",
+											"action": "set_audio_monitor",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"monitor": "none"
+											},
+											"delay": 0
+										},
+										{
+											"id": "onGHk_bnaLXdSmY9hMFlm",
+											"action": "set_audio_monitor",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"monitor": "monitorOnly"
+											},
+											"delay": 500
+										},
+										{
+											"id": "BfI4V1RC4NT1dHBeNEddM",
+											"action": "set_audio_monitor",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"monitor": "monitorAndOutput"
+											},
+											"delay": 1000
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "hide discord dsk",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "QT8FC8opCpiN45hJLAp8i",
+								"type": "vendorEvent",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"vendorName": "downstream-keyer",
+									"eventType": "dsk_scene_changed",
+									"eventDataKey": "old_scene",
+									"eventDataValue": "discord dsk (BASE)"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 52224
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "UIo9DrhZHKpy0ZQCZ4BzS",
+											"action": "trigger-hotkey",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"id": "Hide on _discord_dsk_"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"4": {
+					"1": {
+						"type": "button",
+						"style": {
 							"text": "1. starting",
 							"textExpression": false,
 							"size": "auto",
@@ -17079,13 +18085,447 @@
 								}
 							}
 						}
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 12,
+				"minRow": 0,
+				"maxRow": 5
+			}
+		},
+		"16": {
+			"name": "3wc 2025",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio\\n-inf dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "9N78u5_58j6nb8g16Swmu",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "replaceAll($(obs:volume_Desktop_Audio), \"db\", \"\") >= -999"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "9fH5BelW9LzIvzCdf-ssc",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"-100\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": [
+										{
+											"id": "EfVYjGrIphvpTcXPsYLVq",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"audio -inf\"}"
+											},
+											"delay": 0
+										}
+									]
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio\\n-21dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "WdO71mnMNZoIh6aFxH9xG",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "replaceAll($(obs:volume_Desktop_Audio), \"db\", \"\") >= -21"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "QfuKYBrxVF98_gLjSjYAV",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"-21\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio\\n-18dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "Z2Vfj-4f3Ta2SIshyRnpo",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "replaceAll($(obs:volume_Desktop_Audio), \"db\", \"\") >= -18"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "v-OdHDh8iE7gcd2i3t97j",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"-18\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
 					},
 					"4": {
 						"type": "button",
 						"style": {
-							"text": "Fade",
+							"text": "Desktop audio\\n-15dB",
 							"textExpression": false,
-							"size": 14,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "qVIQPyHMmBWam8QL_kub9",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "replaceAll($(obs:volume_Desktop_Audio), \"db\", \"\") >= -15"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "IRD44yR-G_BqXdIDLlsHS",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"-15\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio\\n-12dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "Ovx5046Us-6_19iSsh6uX",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "replaceAll($(obs:volume_Desktop_Audio), \"db\", \"\") >= -12"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "rewOsmg4SnU0nKMOVtPjG",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"-12\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio\\n-9dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "Z-T-OVB_G7f05WD3wmflb",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "replaceAll($(obs:volume_Desktop_Audio), \"db\", \"\") >= -9"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "8n9UkCP-eDOlMWoEKfZq4",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"-9\"}"
+											},
+											"delay": 25
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio\\n-6dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "-6jQp0rTL7L-OqqWY_817",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "replaceAll($(obs:volume_Desktop_Audio), \"db\", \"\") >= -6"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "c4EG6NxCA98hn0KAhVTfg",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"-6\"}"
+											},
+											"delay": 25
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"10": {
+						"type": "button",
+						"style": {
+							"text": "Default transition",
+							"textExpression": false,
+							"size": "14",
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
@@ -17096,11 +18536,11 @@
 						"options": {
 							"relativeDelay": false,
 							"rotaryActions": false,
-							"stepAutoProgress": true
+							"stepAutoProgress": false
 						},
 						"feedbacks": [
 							{
-								"id": "8pELMSHpVQbXCjS6Tyi1A",
+								"id": "UfB1flyK6zsKrsv3vrMjK",
 								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
 								"type": "transition_active",
 								"options": {},
@@ -17116,13 +18556,299 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "zMZ7--TKuAQtwRxHx88Aq",
+											"id": "rstIvfG1K8HYQZ8-Y4nSE",
 											"instance": "-5Nswgbnc1Je-XlP07UiO",
-											"action": "quick_transition",
+											"action": "do_transition",
+											"options": {},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"11": {
+						"type": "button",
+						"style": {
+							"text": "Frametime\\n$(obs:average_frame_time)",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"12": {
+						"type": "button",
+						"style": {
+							"text": "Streaming:\\n$(obs:streaming)\\n$(obs:stream_timecode)",
+							"textExpression": false,
+							"size": 14,
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "MtHpWMcoMQnXdHZKe0bdj",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "streaming",
+								"options": {},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 51200,
+									"color": 16777215
+								}
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagedown"
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "",
+							"textExpression": false,
+							"size": "auto",
+							"png64": "iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAABmJLR0QA/wD/AP+gvaeTAAAFgElEQVR4nO3dT2gcZRjH8d87a1tqbGtBVJBCg01Jsm2yfyqUWsEcCl4UUYp6kSoIIgqKxYOI8aaXKoqIVNGqILSFShUPUrFYa1HrZjcpyaYG1F4siBJpSZO2cR4PvbR2szO772Zmk34/x5nM+zyHX3beZHb3kQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaG8ujaKl0ug6lwl2mqzTyX64MLN01+bNXWfS6AV+Eg/QpfC445JuvPzwio4ld3Z1dZ1Puh/4CZIu6DLueV0ZHkkqnpm6eH/SvcBf4gGS3PqaR6Wax9HeUgiQ1axpZpmkO4G/FAKExeS6tBtYSMwsKJ0YzwZmW2Va2ci1zmlGYXgsn99wfL76SwMBiqlSGc2WR6r7A1NPM9ebSXKBSpXRPSs7lj65WP7i5BYWQ7lcvTuU+1FNhudyTm7H2amLn+7btzj2fAQowsTExDJztltSRwuXfeD29WPvm1kq/8htJQIU4ezU7NOSulq9rpPbURmpvt7qdZNGgKI4e3C+ljbTs6Xy6CvztX4S2ERHMXXPceaAk/0Vbwm3TVJnrXPOucHy8Nhkvr/3zWZbTBMBivb/xy6SpIwLdvb3d/8WZ4FyubrWnB2VdFut82Z6Y6gyGloQHIuzXiYMZyYn/zw5MDAwG+fn5xMBilZzoxuGZnEXyOd7fi+VTmxzmcwRSTfVruHecmG8JUM5rVp9y/RQZWxYzl4t9Gc/j9tLq7EHSkixuLFqgbtHUqvetrJc0maZOzhUHvvo8OHDqbwYEKAEFft6Sgp0r6Tpli7s9Oiq1be+2NI1YyJACSv09R5xpu2SLrZ2ZXvp55GTc2345w0BSkE+3/ulyT0s6d8WLrskCGe3tXC9WNpmE+2cGxyqjA0mW9XGnenlfD67P9m6UjHXc6BUqT7lZK81cfkySddffdjd4dtXo9omQOlw3ea0tzQ8+nexP/tN0tWLuZ7dknY3el25XN1hzj6scWqNf1eN4RYmOWfuibSbWKgIkCQn3ZB2DwsVAZIkp4Npt7BQXeN7IIWSvZPr6/0g7UYWqnYK0CcK9XFy5dyU5E4VCt1/JFdz8WmbAJnZr8VC9uu0+0Bj2APBCwGCFwIELwQIXggQvBAgeCFA8EKA4IUAwQsBgpe2eZTRxs7r0jsAr2Bm646P/JLKL6CFs3O8ccwS/8YPAhTttKS1Vx0NdCgTpv65vis4BYk/GOYWFu27tBuIK1SYeK8EKEoY7pLUXi81tZ2y2em9SRclQBEKhQ3Dkr2bdh9RTHpu06ZN55KuS4BimDm38gUnV+tTEO3ggsk9U8z1fpZGcTbRMWzZsmZa0uOlythXTrZdCu6S7OaU25qQ6dvA2Xu5XO9PaTVBgBpQzPXulZT4PqOdcQuDFwIELwQIXggQvBAgeCFA8EKA4IUAwQsBghcCBC8ECF54FtYAJhZejQDFxMTC2riFxcDEwrkRoAhMLKyPAEVgYmF9BCgKEwvrYhMdhYmFdRGgaEwsrIMARWNiYR3sgRLCxEJ4Y2IhvDGxEN6YWOjDdLrWtpSJhQ25hicWOleS7JHE69bExEJfid/CLOMOqbUv3b6YWOgh8QAVN3aPOGlX0nXrYWJh81LZRP+zavmgZF+kUbsmJhY2LZUADXR2zhRy2fucucfkVJUUptHHpbr2dq6vh4mFTUr1UUY+37NH0p6j4+MrOqbVZxYuT646EwtboS2ehW3t7j4r6fu0+0Dj+EcivBAgeCFA8EKA4IUAwQsBghcCBC8ECF4IELwQIHhpi0cZbY6JhXUQoGhMLKyDW1g0JhbWQYCiMLGwLgIUgYmF9RGgGJhYOLcF/w1ZSSpVxh5qz4mF2dQmFgIAAAAAAAAAAAAAAAAAAAAAAKAZ/wGAtRVc5ZqlDwAAAABJRU5ErkJggg==",
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "yDIDJvz16ZqRwL2doH6Ke",
+											"action": "set_page",
+											"instance": "internal",
 											"options": {
-												"transition": "Fade",
-												"customDuration": false,
-												"transition_time": 500
+												"controller_from_variable": false,
+												"controller": "self",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 99,
+												"page_variable": "1"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio update\\n-1dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "JvzesI5FyMENgKs09CvZQ",
+											"action": "adjust_volume",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"volume": -0.4
+											},
+											"delay": 200
+										},
+										{
+											"id": "fJ40P2LBpI09L16H29QSF",
+											"action": "adjust_volume",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"volume": -0.3
+											},
+											"delay": 200
+										},
+										{
+											"id": "HpBXPUhVU5gPqrbV4rAit",
+											"action": "adjust_volume",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"volume": -0.3
+											},
+											"delay": 200
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio update\\n+1dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "Jm1LoaOYrPfrnfVD2bURR",
+											"action": "adjust_volume",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"volume": 0.4
+											},
+											"delay": 200
+										},
+										{
+											"id": "2EuIekmoeVno7GROK9Qgr",
+											"action": "adjust_volume",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"volume": 0.3
+											},
+											"delay": 200
+										},
+										{
+											"id": "RTN7fXfqkSKZu-tTWYyLw",
+											"action": "adjust_volume",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"volume": 0.3
+											},
+											"delay": 200
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "open mappool interact",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "aYd_bpke3xkLJq29-_FCv",
+											"action": "openInputInteractDialog",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "mappool_overlay"
 											},
 											"delay": 0
 										}
@@ -17136,6 +18862,246 @@
 						}
 					},
 					"5": {
+						"type": "button",
+						"style": {
+							"text": "concat(\"foobar state:\", jsonpath($(internal:custom_foobar_player_status), \"$.player.playbackState\"))",
+							"textExpression": true,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "yvmd0wgJHoLYPc6faOTdq",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "jsonpath($(internal:custom_foobar_player_status), \"$.player.playbackState\") == \"playing\""
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 52224
+								},
+								"isInverted": false,
+								"children": []
+							},
+							{
+								"id": "CMtlFzMnNEVuDCCeOh22u",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "jsonpath($(internal:custom_foobar_player_status), \"$.player.playbackState\") == \"paused\""
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 13421568
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "SD5V43hZWf9eL1_epqjIw",
+											"action": "get",
+											"instance": "RKA5ZphXdlA4uM3MH7hq_",
+											"options": {
+												"url": "",
+												"header": "",
+												"result_stringify": true
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "Focus projector",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "Bjsycj0FHc-V-R_S90soH",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\obs-focus-projector.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "Focus multi\\nview",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "PlzEl48obb1uLza9apwBO",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\obs-focus-multiview.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"8": {
+						"type": "button",
+						"style": {
+							"text": "Focus projector",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "JhJmKhqtlUP3-8Hts2FW7",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\obs-focus-projector.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"9": {
+						"type": "button",
+						"style": {
+							"text": "Focus multi\\nview",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "CPUHp2d8CIoXlGeS2qh_a",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\obs-focus-multiview.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"10": {
 						"type": "button",
 						"style": {
 							"text": "Cut",
@@ -17155,7 +19121,7 @@
 						},
 						"feedbacks": [
 							{
-								"id": "wtH1-K3l-O6GnesI4l3_L",
+								"id": "W1gr0LvFFX0kdN4o3yMIx",
 								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
 								"type": "transition_active",
 								"options": {},
@@ -17171,7 +19137,7 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "6BS7reJFOjFddDP3l-zWD",
+											"id": "qWyFQLIabCaVe9sPxNNRT",
 											"instance": "-5Nswgbnc1Je-XlP07UiO",
 											"action": "quick_transition",
 											"options": {
@@ -17190,7 +19156,1124 @@
 							}
 						}
 					},
+					"12": {
+						"type": "button",
+						"style": {
+							"text": "Recording:\\n$(obs:recording)\\n$(obs:recording_timecode)",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "XzhYPzbzCBJqs6TowUeSP",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "recording",
+								"options": {
+									"bg": 13107200,
+									"fg": 16777215,
+									"bg_paused": 13938176,
+									"fg_paused": 16777215
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"2": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Scene: intro",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "Z0ct_OCyMD87vAIvKG1UI",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "scenePreview",
+								"options": {
+									"scene": "Team Intro"
+								},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 13421568,
+									"color": 16777215
+								}
+							},
+							{
+								"id": "6tIS0Kr4uRrB_b78g_YnJ",
+								"type": "sceneProgram",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"scene": "Team Intro"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 52224
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "IUlrmCOWbPfGydktKDcyc",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "preview_scene",
+											"options": {
+												"scene": "intro",
+												"customSceneName": "Mappool"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Scene: pool",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "WNHx3jjcnwd6aZ3GlRM0a",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "scenePreview",
+								"options": {
+									"scene": "Mappool"
+								},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 13421568,
+									"color": 16777215
+								}
+							},
+							{
+								"id": "YLB5HjHa9lNBsjF3acC8_",
+								"type": "sceneProgram",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"scene": "Mappool"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 52224
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "8uWUPUeqHBdaS2V5AUn1h",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "preview_scene",
+											"options": {
+												"scene": "mappool",
+												"customSceneName": "Mappool"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Scene: game",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "asY85DeBI66Krg-imSq7E",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "scenePreview",
+								"options": {
+									"scene": "Gameplay"
+								},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 13421568,
+									"color": 16777215
+								}
+							},
+							{
+								"id": "bq6WJFDNvPBU719i-u7rI",
+								"type": "sceneProgram",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"scene": "Gameplay"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 52224
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "4IGYTaUZtecoHkPQRfGnZ",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "preview_scene",
+											"options": {
+												"scene": "gameplay",
+												"customSceneName": "Ending soon"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "Scene: win",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "MMgkJhqTKq67oA0jFv8AX",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "scenePreview",
+								"options": {
+									"scene": "Intro"
+								},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 13421568,
+									"color": 16777215
+								}
+							},
+							{
+								"id": "Zg79ZNncSZRqboZNPH_5R",
+								"type": "sceneProgram",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"scene": "Intro"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 52224
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "AaramF7a61JnrN1FPfnK7",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "preview_scene",
+											"options": {
+												"scene": "winner",
+												"customSceneName": "Gameplay"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "Foobar:\\nPlay",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "jJ9Hkioc7CGpRUyZo5Prw",
+											"action": "post",
+											"instance": "RKA5ZphXdlA4uM3MH7hq_",
+											"options": {
+												"url": "/player/play",
+												"body": "",
+												"header": "",
+												"contenttype": "application/json"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "Foobar:\\nPause",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "kKNXfr9sPNTnIG1k4XhLg",
+											"action": "post",
+											"instance": "RKA5ZphXdlA4uM3MH7hq_",
+											"options": {
+												"url": "/player/pause",
+												"body": "",
+												"header": "",
+												"contenttype": "application/json"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
 					"6": {
+						"type": "button",
+						"style": {
+							"text": "move osu windows to vdesktop",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "i1G4U114oChEc5YsxVVgY",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\AppData\\Roaming\\osu\\tournaments\\.utils\\osutourney-macros\\osu-move-vdesktop.ahk\"",
+												"timeout": 5000
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "show discord dsk",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "w0ADU4_vv1S5UN_1mNNPW",
+								"type": "vendorEvent",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"vendorName": "downstream-keyer",
+									"eventType": "dsk_scene_changed",
+									"eventDataKey": "new_scene",
+									"eventDataValue": "showcase"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 52224
+								},
+								"isInverted": false,
+								"disabled": true
+							},
+							{
+								"id": "gyiKK1inCZaXRTMD5sIp1",
+								"type": "scene_item_active",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"scene": "anyScene",
+									"source": "discord audio"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 52224
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "l_AecYbDpBo3RtL-orQqy",
+											"action": "trigger-hotkey",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"id": "Show on DSK 1"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"9": {
+						"type": "button",
+						"style": {
+							"text": "Program:\\n$(obs:scene_active)",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "k5cnKoj3klAM81-Rzex_d",
+								"type": "transition_active",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 16752448
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"10": {
+						"type": "button",
+						"style": {
+							"text": "Fade (300ms)",
+							"textExpression": false,
+							"size": 14,
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "7hWGNqIrEi3RrduwJYOYD",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "transition_active",
+								"options": {},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 51200,
+									"color": 16777215
+								}
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "V4RKaqIbehk1jKQF-NuJ9",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "quick_transition",
+											"options": {
+												"transition": "Fade",
+												"customDuration": true,
+												"transition_time": 300
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"12": {
+						"type": "button",
+						"style": {
+							"text": "CPU:\\n$(obs:cpu_usage)\\nRAM:\\n$(obs:memory_usage)",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"3": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "Default transition",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "uz77bHcg6ZoG-ubUAhj4h",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "transition_active",
+								"options": {},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 51200,
+									"color": 16777215
+								}
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "foelsw-VKYgWzaBHSZB7k",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "do_transition",
+											"options": {},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "PANIC",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16711680,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"200": [
+										{
+											"id": "pin_KeHl5l26vhBmp_gNq",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\osu-tclient-panic.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										},
+										{
+											"id": "tm926XBDD9MuxyXcFLFpP",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": 16711935,
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 0
+										},
+										{
+											"id": "rS64Mzi8_mN_2gA1iae71",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": 16711680,
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 100
+										}
+									],
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": [
+										200
+									]
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "PANIC & SYNC",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16711680,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"200": [
+										{
+											"id": "ohOU1D-VgNnWKuBRo5wwa",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\osu-tclient-panic.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										},
+										{
+											"id": "kgES5A3fW7HmKtXiBlkG-",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": 16711911,
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 0
+										},
+										{
+											"id": "Wnhb55eFhmRh3mK6odJnC",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": 16711680,
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 100
+										}
+									],
+									"600": [
+										{
+											"id": "XfwLniFKIldgQflK--nO_",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\osu-tclient-sync-music.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										},
+										{
+											"id": "lJNuh9x-N3alyf1N97fKD",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": 52224,
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 0
+										},
+										{
+											"id": "Z9pZyTAZx5hUxYUqiNe0v",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": 16711680,
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 100
+										}
+									],
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": [
+										200,
+										600
+									]
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "SYNC MUSIC",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 10012978,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"200": [
+										{
+											"id": "qZIs2mfPu84BI2C2ZJln8",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\osu-tclient-sync-music.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										}
+									],
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": [
+										200
+									]
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "Foobar:\\nprevious",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "Osbq3LGzr_lpUaAq69_7o",
+											"action": "post",
+											"instance": "RKA5ZphXdlA4uM3MH7hq_",
+											"options": {
+												"url": "/player/previous",
+												"body": "",
+												"header": "",
+												"contenttype": "application/json"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "Foobar:\\nNext",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "JWnFW1xx5xCGDnzPOz_jq",
+											"action": "post",
+											"instance": "RKA5ZphXdlA4uM3MH7hq_",
+											"options": {
+												"url": "/player/next",
+												"body": "",
+												"header": "",
+												"contenttype": "application/json"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "fix audio sync",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "htGP0fDr57Yc_kABsmE-Q",
+								"type": "audio_monitor_type",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"source": "Desktop Audio",
+									"monitor": "none"
+								},
+								"style": {
+									"bgcolor": 13107200
+								},
+								"isInverted": false
+							},
+							{
+								"id": "2Ln4gqgg4RRpqrTHbi5Ih",
+								"type": "audio_monitor_type",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"source": "Desktop Audio",
+									"monitor": "monitorOnly"
+								},
+								"style": {
+									"bgcolor": 13421568
+								},
+								"isInverted": false
+							},
+							{
+								"id": "ygDvZw0VO3nCOsZGgOvQo",
+								"type": "audio_monitor_type",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"source": "Desktop Audio",
+									"monitor": "monitorAndOutput"
+								},
+								"style": {
+									"bgcolor": 52224
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "e8hi5_7fzkDwqzjP0-4Fe",
+											"action": "set_audio_monitor",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"monitor": "none"
+											},
+											"delay": 0
+										},
+										{
+											"id": "mEqKruWBh4N2eQZ9XnAgc",
+											"action": "set_audio_monitor",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"monitor": "monitorOnly"
+											},
+											"delay": 200
+										},
+										{
+											"id": "KVcuW6H-FFK3grVGQu0xt",
+											"action": "set_audio_monitor",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"monitor": "monitorAndOutput"
+											},
+											"delay": 400
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"7": {
 						"type": "button",
 						"style": {
 							"text": "hide discord dsk",
@@ -17210,14 +20293,370 @@
 						},
 						"feedbacks": [
 							{
-								"id": "QT8FC8opCpiN45hJLAp8i",
-								"type": "vendorEvent",
+								"id": "yq187oZIpDua30IpYtwQ3",
+								"type": "scene_item_active",
 								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
 								"options": {
-									"vendorName": "downstream-keyer",
-									"eventType": "dsk_scene_changed",
-									"eventDataKey": "old_scene",
-									"eventDataValue": "discord dsk (BASE)"
+									"scene": "anyScene",
+									"source": "discord audio"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 13107200
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "FTrZd_axx73WMeNtSfCvg",
+											"action": "trigger-hotkey",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"id": "Hide on DSK 1"
+											},
+											"delay": 0,
+											"disabled": false
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"9": {
+						"type": "button",
+						"style": {
+							"text": "Toggle Studio Mode",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "-_u_jrisk35bIzHUm5C5K",
+								"type": "studioMode",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 51200
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "_IWNqFbkMPM5ZWK09rhOe",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "toggle_studio_mode",
+											"options": {},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"10": {
+						"type": "button",
+						"style": {
+							"text": "Luma Wipe (300ms)",
+							"textExpression": false,
+							"size": 14,
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "QVsHuHtU_twNQGDKVDF-R",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "transition_active",
+								"options": {},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 51200,
+									"color": 16777215
+								}
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "XSIMJw8vLQyPndY1fSCrL",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "quick_transition",
+											"options": {
+												"transition": "Luma Wipe",
+												"customDuration": true,
+												"transition_time": 300
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"4": {
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio:\\n$(obs:volume_Desktop_Audio)",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "toggle discord dsk tie",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "qaE9tvA8zHWQrJ5bOOQKe",
+								"type": "bank_current_step",
+								"instance_id": "internal",
+								"options": {
+									"location_target": "this",
+									"location_text": "$(this:page)/$(this:row)/$(this:column)",
+									"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+									"step": 1
+								},
+								"style": {
+									"bgcolor": 13369344,
+									"text": "(off) enable dsk tie",
+									"textExpression": false
+								},
+								"isInverted": false,
+								"children": []
+							},
+							{
+								"id": "FoFRxnnXiDreGYTo1W6jC",
+								"type": "bank_current_step",
+								"instance_id": "internal",
+								"options": {
+									"location_target": "this",
+									"location_text": "$(this:page)/$(this:row)/$(this:column)",
+									"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+									"step": 2
+								},
+								"style": {
+									"bgcolor": 52224,
+									"text": "(on) disable dsk tie",
+									"textExpression": false
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "3OjJFdhG2-PjTnFpJBCCR",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "downstream-keyer",
+												"requestType": "dsk_set_tie",
+												"requestData": "{\"tie\": true, \"dsk_name\": \"discord dsk\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": [],
+									"name": "enable tie"
+								}
+							},
+							"1": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "YtwavLvEfMgKG2XajUDKb",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "downstream-keyer",
+												"requestType": "dsk_set_tie",
+												"requestData": "{\"tie\": false, \"dsk_name\": \"discord dsk\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": [],
+									"name": "disable tie"
+								}
+							}
+						}
+					},
+					"10": {
+						"type": "button",
+						"style": {
+							"text": "panic (new)",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "q1Pl9NZA5UieMccGiIPzf",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "C:\\Users\\daohe\\AppData\\Roaming\\osu\\tournaments\\.utils\\osutourney-macros\\osu-tclient-sync-music.ahk",
+												"timeout": 5000
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"12": {
+						"type": "pagenum"
+					}
+				},
+				"5": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "NOOP",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "L7uJkZX9EseTi1SB0zv6C",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "scenePreview",
+								"options": {
+									"scene": "Starting Soon"
+								},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 13421568,
+									"color": 16777215
+								}
+							},
+							{
+								"id": "zFJp1TskyEzSa8Hz0EGKb",
+								"type": "sceneProgram",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"scene": "Starting Soon"
 								},
 								"style": {
 									"color": 16777215,
@@ -17231,11 +20670,2303 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "UIo9DrhZHKpy0ZQCZ4BzS",
+											"id": "_8WAs1ouys9F-WM3HSnyy",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "preview_scene",
+											"options": {
+												"scene": "customSceneName",
+												"customSceneName": "Starting Soon"
+											},
+											"delay": 0,
+											"disabled": true
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio\\n-24dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "f5sXp4OvujQ3mpUch-yfr",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "replaceAll($(obs:volume_Desktop_Audio), \"db\", \"\") >= -24"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "WWTD7Z80Ng7l2X5HrJq80",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"-24\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"9": {
+						"type": "button",
+						"style": {
+							"text": "SYNC MUSIC",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 10012978,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "p67ks85gI2sBsCyDMSg_w",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\osu-tclient-sync-music.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"10": {
+						"type": "button",
+						"style": {
+							"text": "PANIC",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 15597568,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "AN7Raa6olmPK8QaaIm7Ux",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\osu-tclient-panic.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"12": {
+						"type": "pagedown"
+					}
+				}
+			},
+			"gridSize": {
+				"minColumn": 0,
+				"maxColumn": 12,
+				"minRow": 0,
+				"maxRow": 5
+			}
+		},
+		"17": {
+			"name": "CRTOA",
+			"controls": {
+				"0": {
+					"0": {
+						"type": "pageup"
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio\\n-inf dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "qTHuyHbHflsbioUITG-9_",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "replaceAll($(obs:volume_Desktop_Audio), \"db\", \"\") >= -999"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "FkojxGwSEX8bgqLnKECXI",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"-100\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": [
+										{
+											"id": "gwazNCy_yavJuC4ndxrW-",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"audio -inf\"}"
+											},
+											"delay": 0
+										}
+									]
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio\\n-24dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "1n80M9b9Eu5eED-Wke_AP",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "replaceAll($(obs:volume_Desktop_Audio), \"db\", \"\") >= -24"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "xUczdyoJC_NmjrDVYAGK0",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"-24\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio\\n-21dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "kc2NMV7FBoRwKfu8E_Gkw",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "replaceAll($(obs:volume_Desktop_Audio), \"db\", \"\") >= -21"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "Y3aDL8nSfdr9AMv4sAp7I",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"-21\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio\\n-18dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "5uJ1OeWhH0I1ojV7Q24So",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "replaceAll($(obs:volume_Desktop_Audio), \"db\", \"\") >= -18"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "DwJdran_bQGxZVKJh9jOL",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"-18\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio\\n-15dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "nK11_XeDpvai7vFz-C1Xj",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "replaceAll($(obs:volume_Desktop_Audio), \"db\", \"\") >= -15"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "hGDcW6Rk4QvhgxOu-coq6",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"-15\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio\\n-12dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "URvDIHrM0CJWbUh7jhqql",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "replaceAll($(obs:volume_Desktop_Audio), \"db\", \"\") >= -12"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "Y2FbzMWVFwWFSzW1Nhrkn",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"-12\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio\\n-9dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "-pXy4vqxlrWQ0KaV_mORS",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "replaceAll($(obs:volume_Desktop_Audio), \"db\", \"\") >= -9"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "X9d0whhB-kJuIG_kzaCOv",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "AdvancedSceneSwitcher",
+												"requestType": "AdvancedSceneSwitcherMessage",
+												"requestData": "{\"message\": \"-9\"}"
+											},
+											"delay": 25
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"10": {
+						"type": "button",
+						"style": {
+							"text": "Default transition",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "7Z8r1C18okNpXFAdT4T-0",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "transition_active",
+								"options": {},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 51200,
+									"color": 16777215
+								}
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "CXQhLJ2DR9r3baPWjnSdo",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "do_transition",
+											"options": {},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"11": {
+						"type": "button",
+						"style": {
+							"text": "Frametime\\n$(obs:average_frame_time)",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"12": {
+						"type": "button",
+						"style": {
+							"text": "Streaming:\\n$(obs:streaming)\\n$(obs:stream_timecode)",
+							"textExpression": false,
+							"size": 14,
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "43nb8Wdfbwb0XeHWHA_W2",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "streaming",
+								"options": {},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 51200,
+									"color": 16777215
+								}
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"1": {
+					"0": {
+						"type": "pagedown"
+					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "",
+							"textExpression": false,
+							"size": "auto",
+							"png64": "iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAABmJLR0QA/wD/AP+gvaeTAAAFgElEQVR4nO3dT2gcZRjH8d87a1tqbGtBVJBCg01Jsm2yfyqUWsEcCl4UUYp6kSoIIgqKxYOI8aaXKoqIVNGqILSFShUPUrFYa1HrZjcpyaYG1F4siBJpSZO2cR4PvbR2szO772Zmk34/x5nM+zyHX3beZHb3kQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaG8ujaKl0ug6lwl2mqzTyX64MLN01+bNXWfS6AV+Eg/QpfC445JuvPzwio4ld3Z1dZ1Puh/4CZIu6DLueV0ZHkkqnpm6eH/SvcBf4gGS3PqaR6Wax9HeUgiQ1axpZpmkO4G/FAKExeS6tBtYSMwsKJ0YzwZmW2Va2ci1zmlGYXgsn99wfL76SwMBiqlSGc2WR6r7A1NPM9ebSXKBSpXRPSs7lj65WP7i5BYWQ7lcvTuU+1FNhudyTm7H2amLn+7btzj2fAQowsTExDJztltSRwuXfeD29WPvm1kq/8htJQIU4ezU7NOSulq9rpPbURmpvt7qdZNGgKI4e3C+ljbTs6Xy6CvztX4S2ERHMXXPceaAk/0Vbwm3TVJnrXPOucHy8Nhkvr/3zWZbTBMBivb/xy6SpIwLdvb3d/8WZ4FyubrWnB2VdFut82Z6Y6gyGloQHIuzXiYMZyYn/zw5MDAwG+fn5xMBilZzoxuGZnEXyOd7fi+VTmxzmcwRSTfVruHecmG8JUM5rVp9y/RQZWxYzl4t9Gc/j9tLq7EHSkixuLFqgbtHUqvetrJc0maZOzhUHvvo8OHDqbwYEKAEFft6Sgp0r6Tpli7s9Oiq1be+2NI1YyJACSv09R5xpu2SLrZ2ZXvp55GTc2345w0BSkE+3/ulyT0s6d8WLrskCGe3tXC9WNpmE+2cGxyqjA0mW9XGnenlfD67P9m6UjHXc6BUqT7lZK81cfkySddffdjd4dtXo9omQOlw3ea0tzQ8+nexP/tN0tWLuZ7dknY3el25XN1hzj6scWqNf1eN4RYmOWfuibSbWKgIkCQn3ZB2DwsVAZIkp4Npt7BQXeN7IIWSvZPr6/0g7UYWqnYK0CcK9XFy5dyU5E4VCt1/JFdz8WmbAJnZr8VC9uu0+0Bj2APBCwGCFwIELwQIXggQvBAgeCFA8EKA4IUAwQsBgpe2eZTRxs7r0jsAr2Bm646P/JLKL6CFs3O8ccwS/8YPAhTttKS1Vx0NdCgTpv65vis4BYk/GOYWFu27tBuIK1SYeK8EKEoY7pLUXi81tZ2y2em9SRclQBEKhQ3Dkr2bdh9RTHpu06ZN55KuS4BimDm38gUnV+tTEO3ggsk9U8z1fpZGcTbRMWzZsmZa0uOlythXTrZdCu6S7OaU25qQ6dvA2Xu5XO9PaTVBgBpQzPXulZT4PqOdcQuDFwIELwQIXggQvBAgeCFA8EKA4IUAwQsBghcCBC8ECF54FtYAJhZejQDFxMTC2riFxcDEwrkRoAhMLKyPAEVgYmF9BCgKEwvrYhMdhYmFdRGgaEwsrIMARWNiYR3sgRLCxEJ4Y2IhvDGxEN6YWOjDdLrWtpSJhQ25hicWOleS7JHE69bExEJfid/CLOMOqbUv3b6YWOgh8QAVN3aPOGlX0nXrYWJh81LZRP+zavmgZF+kUbsmJhY2LZUADXR2zhRy2fucucfkVJUUptHHpbr2dq6vh4mFTUr1UUY+37NH0p6j4+MrOqbVZxYuT646EwtboS2ehW3t7j4r6fu0+0Dj+EcivBAgeCFA8EKA4IUAwQsBghcCBC8ECF4IELwQIHhpi0cZbY6JhXUQoGhMLKyDW1g0JhbWQYCiMLGwLgIUgYmF9RGgGJhYOLcF/w1ZSSpVxh5qz4mF2dQmFgIAAAAAAAAAAAAAAAAAAAAAAKAZ/wGAtRVc5ZqlDwAAAABJRU5ErkJggg==",
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "Rh1REiEQiiK5s5B0zi6F0",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "self",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 99,
+												"page_variable": "1"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio update\\n-1dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "bbOWPd7bQTnfIgOb6mYSF",
+											"action": "adjust_volume",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"volume": -0.4
+											},
+											"delay": 200
+										},
+										{
+											"id": "Yb69Krqohe-ecDPw1n-BQ",
+											"action": "adjust_volume",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"volume": -0.3
+											},
+											"delay": 200
+										},
+										{
+											"id": "CXQtxkT3zRAYh5XbXTFLe",
+											"action": "adjust_volume",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"volume": -0.3
+											},
+											"delay": 200
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio update\\n+1dB",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "Rb8-fAcutW0NP6OZyN-AD",
+											"action": "adjust_volume",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"volume": 0.4
+											},
+											"delay": 200
+										},
+										{
+											"id": "l4tJ6Ag9PXBBCKh3mXfjI",
+											"action": "adjust_volume",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"volume": 0.3
+											},
+											"delay": 200
+										},
+										{
+											"id": "wYai6OTZOiEeVr2sVTI4_",
+											"action": "adjust_volume",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"volume": 0.3
+											},
+											"delay": 200
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "Desktop audio:\\n$(obs:volume_Desktop_Audio)",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "concat(\"foobar state:\", jsonpath($(internal:custom_foobar_player_status), \"$.player.playbackState\"))",
+							"textExpression": true,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "-vzHSG-g9cD3ethlxtnof",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "jsonpath($(internal:custom_foobar_player_status), \"$.player.playbackState\") == \"playing\""
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 52224
+								},
+								"isInverted": false,
+								"children": []
+							},
+							{
+								"id": "2wJfTesg9h7rCZufrMG7a",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "jsonpath($(internal:custom_foobar_player_status), \"$.player.playbackState\") == \"paused\""
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 13421568
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "Focus projector",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "ab9Lx5tfck3MWeqrNL5ai",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\obs-focus-projector.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "Focus multi\\nview",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "rN6du9k9MBtwdQSQ45RVp",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\obs-focus-multiview.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"8": {
+						"type": "button",
+						"style": {
+							"text": "Focus projector",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "vnRzr7fGDKT9asaRbxp-N",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\obs-focus-projector.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"9": {
+						"type": "button",
+						"style": {
+							"text": "Focus multi\\nview",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "hED3O0rErIdqVnas6cRA1",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\obs-focus-multiview.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"10": {
+						"type": "button",
+						"style": {
+							"text": "Cut",
+							"textExpression": false,
+							"size": 14,
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "y6_gjA8nSHdW98zYWjIaK",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "transition_active",
+								"options": {},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 51200,
+									"color": 16777215
+								}
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "f1vpdoMnVeKoMVm7vkszk",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "quick_transition",
+											"options": {
+												"transition": "Cut",
+												"customDuration": false,
+												"transition_time": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"12": {
+						"type": "button",
+						"style": {
+							"text": "Recording:\\n$(obs:recording)\\n$(obs:recording_timecode)",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "tzMx2NwBS3Dp-QBFGDJWh",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "recording",
+								"options": {
+									"bg": 13107200,
+									"fg": 16777215,
+									"bg_paused": 13938176,
+									"fg_paused": 16777215
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"2": {
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Scene: pool",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "dl9SyhWBSVtpRMMp3irMy",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "scenePreview",
+								"options": {
+									"scene": "Mappool"
+								},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 13421568,
+									"color": 16777215
+								}
+							},
+							{
+								"id": "2K7MXDnOP85rXl85YmOjo",
+								"type": "sceneProgram",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"scene": "Mappool"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 52224
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "zgRaxNwJn0rPMNaufmiuL",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "preview_scene",
+											"options": {
+												"scene": "mappool",
+												"customSceneName": "Mappool"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Scene: game",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "K6IOPdD3Kc0d0JPxCP5ws",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "scenePreview",
+								"options": {
+									"scene": "Gameplay"
+								},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 13421568,
+									"color": 16777215
+								}
+							},
+							{
+								"id": "pZso7wUGasJnK2yYskb4b",
+								"type": "sceneProgram",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"scene": "Gameplay"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 52224
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "rpu6SYUYXu4K8g5poGpW7",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "preview_scene",
+											"options": {
+												"scene": "gameplay",
+												"customSceneName": "Ending soon"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "Default transition",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "ZnNYDKZJlfxWy0cZcCkHN",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "transition_active",
+								"options": {},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 51200,
+									"color": 16777215
+								}
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "DZWf6Z2lH_bYMbe2AdjQm",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "do_transition",
+											"options": {},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "Foobar:\\nPlay",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "EFKLBaTGjbSgrXceDAbzg",
+											"action": "post",
+											"instance": "RKA5ZphXdlA4uM3MH7hq_",
+											"options": {
+												"url": "/player/play",
+												"body": "",
+												"header": "",
+												"contenttype": "application/json"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "Foobar:\\nPause",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "kXSa65mXRL8bT4HOI_iC_",
+											"action": "post",
+											"instance": "RKA5ZphXdlA4uM3MH7hq_",
+											"options": {
+												"url": "/player/pause",
+												"body": "",
+												"header": "",
+												"contenttype": "application/json"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "show discord dsk",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "qISL66orlviG1ZiC-Taqu",
+								"type": "vendorEvent",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"vendorName": "downstream-keyer",
+									"eventType": "dsk_scene_changed",
+									"eventDataKey": "new_scene",
+									"eventDataValue": "discord dsk"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 52224
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "xPKu9ATtoMb2Of9iq9Ttx",
 											"action": "trigger-hotkey",
 											"instance": "-5Nswgbnc1Je-XlP07UiO",
 											"options": {
-												"id": "Hide on _discord_dsk_"
+												"id": "Show on discord dsk"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"9": {
+						"type": "button",
+						"style": {
+							"text": "Program:\\n$(obs:scene_active)",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": false
+						},
+						"feedbacks": [
+							{
+								"id": "-_OPX6ik_k9a6QpmlxSGv",
+								"type": "transition_active",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 16752448
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"10": {
+						"type": "button",
+						"style": {
+							"text": "Fade (300ms)",
+							"textExpression": false,
+							"size": 14,
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "gJtyZR0UGwLNFE2xsfhue",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "transition_active",
+								"options": {},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 51200,
+									"color": 16777215
+								}
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "yVVl57_h82BNn4hsPh9G-",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "quick_transition",
+											"options": {
+												"transition": "Fade",
+												"customDuration": true,
+												"transition_time": 300
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"12": {
+						"type": "button",
+						"style": {
+							"text": "CPU:\\n$(obs:cpu_usage)\\nRAM:\\n$(obs:memory_usage)",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"3": {
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "PANIC",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16711680,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"500": [
+										{
+											"id": "-ISWMgiDmoXoteqnAoVc3",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\osu-tclient-panic.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										},
+										{
+											"id": "TdPRpNFW6030wk253yt99",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": 16711935,
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 0
+										},
+										{
+											"id": "2JE7_Gkiy9FjSxpAUt4La",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": 16711680,
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 100
+										}
+									],
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": [
+										500
+									]
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "PANIC & SYNC",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 16711680,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"500": [
+										{
+											"id": "szygSd41kElNx1NesjTJb",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\osu-tclient-panic.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										},
+										{
+											"id": "eowaFZt48-Xv5PfCaoO0D",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": 16711911,
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 0
+										},
+										{
+											"id": "qy0w5Hmyk5GjJwjqKM_WH",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": 16711680,
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 100
+										}
+									],
+									"1000": [
+										{
+											"id": "Ap_xSrQvR0wHZ1wCmxnFH",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\osu-tclient-sync-music.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										},
+										{
+											"id": "JA4hJsRrzIURax7CUCrAQ",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": 52224,
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 0
+										},
+										{
+											"id": "MnHqXRKt7kCCCzrLczUkW",
+											"action": "bgcolor",
+											"instance": "internal",
+											"options": {
+												"color": 16711680,
+												"location_target": "this",
+												"location_text": "$(this:page)/$(this:row)/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))"
+											},
+											"delay": 100
+										}
+									],
+									"down": [],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": [
+										500,
+										1000
+									]
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "SYNC MUSIC",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 10012978,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "yxsaJ7fw0sSF5vb9hTuXY",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\osu-tclient-sync-music.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "Foobar:\\nprevious",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "NR1UuR_XiZwppSN7ThpyK",
+											"action": "post",
+											"instance": "RKA5ZphXdlA4uM3MH7hq_",
+											"options": {
+												"url": "/player/previous",
+												"body": "",
+												"header": "",
+												"contenttype": "application/json"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "Foobar:\\nNext",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "r2sqzp4aeQT4PpAX7bTkY",
+											"action": "post",
+											"instance": "RKA5ZphXdlA4uM3MH7hq_",
+											"options": {
+												"url": "/player/next",
+												"body": "",
+												"header": "",
+												"contenttype": "application/json"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "toggle discord dsk tie",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "eKgHrvkhxW1fOUQkJyn0R",
+								"type": "bank_current_step",
+								"instance_id": "internal",
+								"options": {
+									"location_target": "this",
+									"location_text": "$(this:page)/$(this:row)/$(this:column)",
+									"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+									"step": 1
+								},
+								"style": {
+									"bgcolor": 13369344,
+									"text": "(off) enable dsk tie",
+									"textExpression": false
+								},
+								"isInverted": false,
+								"children": []
+							},
+							{
+								"id": "bT5iUjfoOTyOiCxV8-NAO",
+								"type": "bank_current_step",
+								"instance_id": "internal",
+								"options": {
+									"location_target": "this",
+									"location_text": "$(this:page)/$(this:row)/$(this:column)",
+									"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+									"step": 2
+								},
+								"style": {
+									"bgcolor": 52224,
+									"text": "(on) disable dsk tie",
+									"textExpression": false
+								},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "H3G-2SxNg1YE2yS-L2_wI",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "downstream-keyer",
+												"requestType": "dsk_set_tie",
+												"requestData": "{\"tie\": true, \"dsk_name\": \"discord dsk\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": [],
+									"name": "enable tie"
+								}
+							},
+							"1": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "vtpNv2HhgyJfFimDh9fho",
+											"action": "vendorRequest",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"vendorName": "downstream-keyer",
+												"requestType": "dsk_set_tie",
+												"requestData": "{\"tie\": false, \"dsk_name\": \"discord dsk\"}"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": [],
+									"name": "disable tie"
+								}
+							}
+						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "hide discord dsk",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "SDBInT_vSJU2NlBN-1Ro7",
+								"type": "vendorEvent",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"vendorName": "downstream-keyer",
+									"eventType": "dsk_scene_changed",
+									"eventDataKey": "dsk_channel",
+									"eventDataValue": "7"
+								},
+								"isInverted": false,
+								"disabled": true
+							},
+							{
+								"id": "nyhIjKX3ZTIw6FcMrZ0uQ",
+								"type": "vendorEvent",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"vendorName": "downstream-keyer",
+									"eventType": "dsk_scene_changed",
+									"eventDataKey": "old_scene",
+									"eventDataValue": "discord dsk"
+								},
+								"style": {
+									"bgcolor": 52224
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "h9KJSbmPAOWeAdaXQ6Kcq",
+											"action": "trigger-hotkey",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"id": "Hide on discord dsk"
+											},
+											"delay": 0,
+											"disabled": false
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"9": {
+						"type": "button",
+						"style": {
+							"text": "Toggle Studio Mode",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "5LBsDGS5z06RJdzov_Lqt",
+								"type": "studioMode",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 51200
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "mfMPcA0TlMIyfwwuHDOwI",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "toggle_studio_mode",
+											"options": {},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"10": {
+						"type": "button",
+						"style": {
+							"text": "Luma Wipe (300ms)",
+							"textExpression": false,
+							"size": 14,
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "vRj3ynrs-a0dIymHnyUQf",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "transition_active",
+								"options": {},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 51200,
+									"color": 16777215
+								}
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "sy-kbFJcxuoX-VnUcgHhB",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "quick_transition",
+											"options": {
+												"transition": "Luma Wipe",
+												"customDuration": true,
+												"transition_time": 300
 											},
 											"delay": 0
 										}
@@ -17248,47 +22979,211 @@
 							}
 						}
 					}
-				}
-			},
-			"gridSize": {
-				"minColumn": 0,
-				"maxColumn": 12,
-				"minRow": 0,
-				"maxRow": 5
-			}
-		},
-		"16": {
-			"name": "PAGE",
-			"controls": {
-				"0": {
-					"0": {
-						"type": "pageup"
-					}
 				},
-				"1": {
-					"0": {
+				"4": {
+					"10": {
+						"type": "button",
+						"style": {
+							"text": "panic (new)",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "1dxSYOluWzBfv3ZW8Nfdi",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "C:\\Users\\daohe\\AppData\\Roaming\\osu\\tournaments\\.utils\\osutourney-macros\\osu-tclient-sync-music.ahk",
+												"timeout": 5000
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"12": {
 						"type": "pagenum"
 					}
-				}
-			},
-			"gridSize": {
-				"minColumn": 0,
-				"maxColumn": 12,
-				"minRow": 0,
-				"maxRow": 5
-			}
-		},
-		"17": {
-			"name": "PAGE",
-			"controls": {
-				"0": {
-					"0": {
-						"type": "pageup"
-					}
 				},
-				"1": {
+				"5": {
 					"0": {
-						"type": "pagenum"
+						"type": "button",
+						"style": {
+							"text": "NOOP",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "jcv03XVfAFqlqfPUKWmsB",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"type": "scenePreview",
+								"options": {
+									"scene": "Starting Soon"
+								},
+								"isInverted": false,
+								"style": {
+									"bgcolor": 13421568,
+									"color": 16777215
+								}
+							},
+							{
+								"id": "rcy67lQt9eVlrQKB1Kabe",
+								"type": "sceneProgram",
+								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
+								"options": {
+									"scene": "Starting Soon"
+								},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 52224
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "mjQdyvAhblXvq-k6dyAkp",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"action": "preview_scene",
+											"options": {
+												"scene": "customSceneName",
+												"customSceneName": "Starting Soon"
+											},
+											"delay": 0,
+											"disabled": true
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"9": {
+						"type": "button",
+						"style": {
+							"text": "SYNC MUSIC",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 10012978,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "n-JYspg18FPu_jrL2FV3s",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\osu-tclient-sync-music.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"10": {
+						"type": "button",
+						"style": {
+							"text": "PANIC",
+							"textExpression": false,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 15597568,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "HFywpbYAOy6_BeIFv5I2N",
+											"action": "exec",
+											"instance": "internal",
+											"options": {
+												"path": "\"C:\\Users\\daohe\\Documents\\AutoHotkey\\osu-tclient-panic.ahk\"",
+												"timeout": 500
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"12": {
+						"type": "pagedown"
 					}
 				}
 			},
@@ -19149,6 +25044,98 @@
 								}
 							}
 						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "3WC",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "vqy5yc0zOFxZTyZJnWPLI",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "self",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 16,
+												"page_variable": "1"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "CRTOA",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "eKVNtpiI2RYHjgU4yPp4O",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "self",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 17,
+												"page_variable": "1"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
 					}
 				},
 				"4": {
@@ -19473,7 +25460,7 @@
 				"debug_messages": false
 			},
 			"lastUpgradeIndex": 0,
-			"enabled": false
+			"enabled": true
 		},
 		"ZPk2sxE3RAQliAXr4O4iE": {
 			"instance_type": "phillips-hue",
@@ -19565,6 +25552,20 @@
 			},
 			"lastUpgradeIndex": 0,
 			"enabled": true
+		},
+		"PFjoyt8cIPi17OiD8H-uk": {
+			"instance_type": "twitch-api",
+			"sortOrder": 11,
+			"label": "twitch",
+			"isFirstInit": false,
+			"config": {
+				"tokenServer": false,
+				"token": "d933mrbx70u90fzhdsrvch75wbiywm",
+				"customServerURL": "",
+				"channels": "BTMC"
+			},
+			"lastUpgradeIndex": -1,
+			"enabled": true
 		}
 	},
 	"surfaces": {
@@ -19638,7 +25639,7 @@
 			},
 			"groupConfig": {
 				"name": "Auto group",
-				"last_page": 1,
+				"last_page": 7,
 				"startup_page": 1,
 				"use_last_page": true
 			},
@@ -19674,7 +25675,7 @@
 	"surfaceGroups": {
 		"group:A8BvcVbla0naA0rayZVrF": {
 			"name": "My group",
-			"last_page": 15,
+			"last_page": 16,
 			"startup_page": 1,
 			"use_last_page": true
 		}
