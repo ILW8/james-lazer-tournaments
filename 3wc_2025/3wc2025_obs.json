@@ -30,7 +30,7 @@
         "monitoring_type": 2,
         "private_settings": {}
     },
-    "current_scene": "winner",
+    "current_scene": "intro",
     "current_program_scene": "intro",
     "scene_order": [
         {
@@ -379,7 +379,7 @@
         {
             "monitor": -1,
             "type": 4,
-            "geometry": "AdnQywADAAAAAAAA////+AAACf8AAAWBAAAEaQAAAcIAAAZIAAADOgAAAAACAAAACgAAAAAAAAAAFwAACf8AAAWB",
+            "geometry": "AdnQywADAAAAAAAA////+AAACf8AAAWBAAAGRQAAAjcAAAgkAAADRAAAAAACAAAACgAAAAAAAAAAFwAACf8AAAWB",
             "alwaysOnTopOverridden": false
         }
     ],
@@ -442,7 +442,7 @@
                         "name": "discord dsk"
                     }
                 ],
-                "scene": "discord dsk",
+                "scene": "",
                 "null_hotkey": [],
                 "enable_tie_hotkey": [],
                 "disable_tie_hotkey": [],
@@ -987,7 +987,37 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {}
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503382018,
+                    "name": "Compressor",
+                    "uuid": "6753bff7-fc4e-40c4-97d8-3427bd8bfac1",
+                    "id": "compressor_filter",
+                    "versioned_id": "compressor_filter",
+                    "settings": {
+                        "ratio": 14.0,
+                        "threshold": -18.0,
+                        "output_gain": 3.2000000000000002
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         },
         {
             "prev_ver": 503382018,
@@ -1002,12 +1032,12 @@
                     {
                         "name": "showcase_vc",
                         "source_uuid": "b0e341ed-dbee-4cad-bce3-c78aa1c9c848",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 1260.0,
-                            "y": 896.0
+                            "y": 894.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1018,8 +1048,8 @@
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "crop_left": 0,
                         "crop_top": 0,
@@ -1031,17 +1061,29 @@
                         "blend_method": "default",
                         "blend_type": "normal",
                         "show_transition": {
-                            "duration": 0
+                            "id": "wipe_transition",
+                            "versioned_id": "wipe_transition",
+                            "name": "showcase_vc Show Transition",
+                            "transition": {
+                                "luma_softness": 0.59999999999999998
+                            },
+                            "duration": 50
                         },
                         "hide_transition": {
-                            "duration": 0
+                            "id": "wipe_transition",
+                            "versioned_id": "wipe_transition",
+                            "name": "showcase_vc Hide Transition",
+                            "transition": {
+                                "luma_softness": 0.59999999999999998
+                            },
+                            "duration": 50
                         },
                         "private_settings": {}
                     },
                     {
                         "name": "match_vc",
                         "source_uuid": "9f0d7d42-4cc9-4495-8d25-0edf9932909b",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
@@ -1070,10 +1112,22 @@
                         "blend_method": "default",
                         "blend_type": "normal",
                         "show_transition": {
-                            "duration": 0
+                            "id": "wipe_transition",
+                            "versioned_id": "wipe_transition",
+                            "name": "match_vc Show Transition",
+                            "transition": {
+                                "luma_softness": 0.60000000000000009
+                            },
+                            "duration": 50
                         },
                         "hide_transition": {
-                            "duration": 0
+                            "id": "wipe_transition",
+                            "versioned_id": "wipe_transition",
+                            "name": "match_vc Hide Transition",
+                            "transition": {
+                                "luma_softness": 0.59999999999999998
+                            },
+                            "duration": 50
                         },
                         "private_settings": {}
                     },
@@ -2458,7 +2512,7 @@
                         "name": "showcase_vc",
                         "source_uuid": "b0e341ed-dbee-4cad-bce3-c78aa1c9c848",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 1320.0,
@@ -2637,8 +2691,9 @@
             "settings": {
                 "url": "https://streamkit.discord.com/overlay/voice/555576150265430017/825790423539646504",
                 "width": 600,
-                "height": 80,
-                "css": "/* hide user by ID */\n[data-userid=\"181358896328212480\"] { display: none; }\n\nbody {\n    --color: #79d979;\n    --text-color-highlight: #222222;\n    --align: flex-start;\n\n    --width: 120px;\n    --height: 86px;\n    --nameHeight: 26px;\n    --fontSize: calc((var(--width) / 100) * 15);\n\n    width: 100%;\n    overflow: hidden;\n}\n\nul {\n    margin-block-start: 0;\n    margin-block-end: 0;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] {\n    opacity: 1 !important;\n    filter: grayscale(0%) !important;\n    outline: none;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] {\n    display: flex;\n    width: 100%;\n    align-items: center;\n    justify-content: var(--align);\n    padding: 0;\n    gap: 0;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] {\n    width: var(--width);\n    height: var(--height);\n    margin-bottom: 0px;\n    background-color: black;\n    position: relative;\n    text-align: center;\n    overflow: hidden;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatar\"] {\n    height: var(--width);\n    width: 100%;\n    border-radius: 0;\n    border-width: 0;\n    opacity: 0.3;\n    filter: grayscale(100%);\n    transform: translateY(-22%);\n    transition: filter 0.1s ease-out, opacity 0.1s ease-out;\n    border: 0;\n}\n\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] {\n    background-color: #111111;\n    position: absolute;\n    bottom: 0px;\n    padding: 0px;\n    height: var(--nameHeight);\n    width: 100%;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] + [class^=\"Voice_user\"] {\n    background-color: var(--color) !important;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] + [class^=\"Voice_user\"] [class^=\"Voice_name\"] {\n    color: var(--text-color-highlight) !important;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] [class^=\"Voice_name\"] {\n    font-size: 13px !important;\n    padding: 0px;\n    margin: 0px;\n    height: 0;\n    transform: translateY(2.5px);\n    position: relative;\n    display: inline-block;\n}"
+                "height": 86,
+                "css": "/* hide user by ID */\n[data-userid=\"181358896328212480\"] { display: none; }\n\nbody {\n    --color: #79d979;\n    --align: flex-end;\n\n    --width: 120px;\n    --height: 86px;\n    --nameHeight: 26px;\n    --fontSize: calc((var(--width) / 100) * 15);\n\n    width: 100%;\n    overflow: hidden;\n}\n\nul {\n    margin-block-start: 0;\n    margin-block-end: 0;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] {\n    opacity: 1 !important;\n    filter: grayscale(0%) !important;\n    outline: none;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] {\n    display: flex;\n    width: 100%;\n    align-items: center;\n    justify-content: var(--align);\n    padding: 0;\n    gap: 0;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] {\n    width: var(--width);\n    height: var(--height);\n    margin-bottom: 0px;\n    background-color: black;\n    position: relative;\n    text-align: center;\n    overflow: hidden;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatar\"] {\n    height: var(--width);\n    width: 100%;\n    border-radius: 0;\n    border-width: 0;\n    opacity: 0.3;\n    filter: grayscale(100%);\n    transform: translateY(-22%);\n    transition: filter 0.1s ease-out, opacity 0.1s ease-out;\n    border: 0;\n}\n\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] {\n    background-color: #111111;\n    position: absolute;\n    bottom: 0px;\n    padding: 0px;\n    height: var(--nameHeight);\n    width: 100%;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] + [class^=\"Voice_user\"] {\n    background-color: var(--color) !important;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] + [class^=\"Voice_user\"] [class^=\"Voice_name\"] {\n    color: #222222 !important;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] [class^=\"Voice_name\"] {\n    font-size: 13px !important;\n    padding: 0px;\n    margin: 0px;\n    height: 0;\n    transform: translateY(2.5px);\n    position: relative;\n    display: inline-block;\n}",
+                "undo_uuid": "b0e341ed-dbee-4cad-bce3-c78aa1c9c848"
             },
             "mixers": 255,
             "sync": 0,
