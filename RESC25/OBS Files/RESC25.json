@@ -1,6 +1,6 @@
 {
-    "current_scene": "Gameplay",
-    "current_program_scene": "Gameplay",
+    "current_scene": "STARTING - Match",
+    "current_program_scene": "STARTING - Match",
     "scene_order": [
         {
             "name": "STARTING - Match"
@@ -57,10 +57,10 @@
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 1920,
                 "cy": 720,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "Client 0",
@@ -431,10 +431,10 @@
             "id": "group",
             "versioned_id": "group",
             "settings": {
-                "id_counter": 0,
                 "custom_size": true,
                 "cx": 1920,
                 "cy": 1080,
+                "id_counter": 0,
                 "items": [
                     {
                         "name": "gameplay.mp4",
@@ -614,7 +614,14 @@
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
-            "hotkeys": {},
+            "hotkeys": {
+                "libobs.show_scene_item.9": [],
+                "libobs.hide_scene_item.9": [],
+                "libobs.show_scene_item.14": [],
+                "libobs.hide_scene_item.14": [],
+                "libobs.show_scene_item.15": [],
+                "libobs.hide_scene_item.15": []
+            },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -649,9 +656,9 @@
             "name": "Stinger",
             "id": "obs_stinger_transition",
             "settings": {
-                "path": "D:/_tourney_stream/RESC25/OBS Files/Video/rc2025_stinger.webm",
                 "tp_type": 1,
-                "transition_point": 120
+                "transition_point": 120,
+                "path": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/Video/rc2025_stinger.webm"
             }
         }
     ],
@@ -667,54 +674,17 @@
         "type2": 3
     },
     "modules": {
-        "scripts-tool": [],
-        "output-timer": {
-            "streamTimerHours": 0,
-            "streamTimerMinutes": 0,
-            "streamTimerSeconds": 30,
-            "recordTimerHours": 0,
-            "recordTimerMinutes": 0,
-            "recordTimerSeconds": 30,
-            "autoStartStreamTimer": false,
-            "autoStartRecordTimer": false,
-            "pauseRecordTimer": true
-        },
-        "auto-scene-switcher": {
-            "interval": 300,
-            "non_matching_scene": "",
-            "switch_if_not_matching": false,
-            "active": false,
-            "switches": []
-        },
-        "captions": {
-            "source": "",
-            "enabled": false,
-            "lang_id": 2057,
-            "provider": "mssapi"
-        },
         "advanced-scene-switcher": {
             "sceneGroups": [],
             "macros": [
                 {
                     "name": "bgm - any to starting",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
                     "pause": false,
                     "parallel": true,
-                    "checkConditionsInParallel": false,
                     "onChange": true,
                     "skipExecOnStart": false,
                     "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.29999999999999999,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
+                    "group": false,
                     "dockSettings": {
                         "register": false,
                         "hasRunButton": true,
@@ -725,9 +695,7 @@
                         "pauseButtonText": "Pause",
                         "unpauseButtonText": "Unpause",
                         "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-5fee982d-5b36-4645-9341-247c5ba2cc56",
-                        "version": 1
+                        "conditionsFalseStatusText": "Conditions are false."
                     },
                     "macroActionConditionSplitterPosition": [
                         {
@@ -754,9 +722,7 @@
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
+                                "customLabel": "My label"
                             },
                             "id": "scene",
                             "logic": 0,
@@ -778,11 +744,6 @@
                             "type": 10,
                             "pattern": ".*Scene.*",
                             "useTransitionTargetScene": false,
-                            "regexConfig": {
-                                "enable": true,
-                                "partial": false,
-                                "options": 0
-                            },
                             "version": 1
                         }
                     ],
@@ -791,11 +752,10 @@
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
+                                "customLabel": "My label"
                             },
                             "id": "audio",
+                            "enabled": true,
                             "duration": {
                                 "value": {
                                     "value": 1.0,
@@ -842,29 +802,16 @@
                             "version": 3
                         }
                     ],
-                    "elseActions": [],
-                    "inputVariables": []
+                    "elseActions": []
                 },
                 {
                     "name": "bgm - starting to intermission",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
                     "pause": false,
                     "parallel": false,
-                    "checkConditionsInParallel": false,
                     "onChange": true,
                     "skipExecOnStart": false,
                     "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.29999999999999999,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
+                    "group": false,
                     "dockSettings": {
                         "register": false,
                         "hasRunButton": true,
@@ -875,9 +822,7 @@
                         "pauseButtonText": "Pause",
                         "unpauseButtonText": "Unpause",
                         "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-6f83cb92-346c-4807-ae57-f4903f3f30f7",
-                        "version": 1
+                        "conditionsFalseStatusText": "Conditions are false."
                     },
                     "macroActionConditionSplitterPosition": [
                         {
@@ -904,9 +849,7 @@
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
+                                "customLabel": "My label"
                             },
                             "id": "scene",
                             "logic": 0,
@@ -928,11 +871,6 @@
                             "type": 10,
                             "pattern": ".*Scene.*",
                             "useTransitionTargetScene": false,
-                            "regexConfig": {
-                                "enable": true,
-                                "partial": false,
-                                "options": 0
-                            },
                             "version": 1
                         }
                     ],
@@ -941,11 +879,10 @@
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
+                                "customLabel": "My label"
                             },
                             "id": "audio",
+                            "enabled": true,
                             "duration": {
                                 "value": {
                                     "value": 1.0,
@@ -992,29 +929,16 @@
                             "version": 3
                         }
                     ],
-                    "elseActions": [],
-                    "inputVariables": []
+                    "elseActions": []
                 },
                 {
                     "name": "bgm - any to mappool",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
                     "pause": false,
                     "parallel": false,
-                    "checkConditionsInParallel": false,
                     "onChange": true,
                     "skipExecOnStart": false,
                     "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.29999999999999999,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
+                    "group": false,
                     "dockSettings": {
                         "register": false,
                         "hasRunButton": true,
@@ -1025,9 +949,7 @@
                         "pauseButtonText": "Pause",
                         "unpauseButtonText": "Unpause",
                         "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-22e90d2a-1b9c-4d7b-a2d1-f6efab845005",
-                        "version": 1
+                        "conditionsFalseStatusText": "Conditions are false."
                     },
                     "macroActionConditionSplitterPosition": [
                         {
@@ -1054,9 +976,7 @@
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
+                                "customLabel": "My label"
                             },
                             "id": "scene",
                             "logic": 0,
@@ -1078,11 +998,6 @@
                             "type": 10,
                             "pattern": ".*Scene.*",
                             "useTransitionTargetScene": false,
-                            "regexConfig": {
-                                "enable": true,
-                                "partial": false,
-                                "options": 0
-                            },
                             "version": 1
                         }
                     ],
@@ -1091,11 +1006,10 @@
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
+                                "customLabel": "My label"
                             },
                             "id": "audio",
+                            "enabled": true,
                             "duration": {
                                 "value": {
                                     "value": 1.2,
@@ -1142,29 +1056,16 @@
                             "version": 3
                         }
                     ],
-                    "elseActions": [],
-                    "inputVariables": []
+                    "elseActions": []
                 },
                 {
                     "name": "bgm - mappool to gameplay",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
                     "pause": false,
                     "parallel": false,
-                    "checkConditionsInParallel": false,
                     "onChange": true,
                     "skipExecOnStart": false,
                     "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.29999999999999999,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
+                    "group": false,
                     "dockSettings": {
                         "register": false,
                         "hasRunButton": true,
@@ -1175,9 +1076,7 @@
                         "pauseButtonText": "Pause",
                         "unpauseButtonText": "Unpause",
                         "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-06053278-bfb0-4081-a5b2-2d45700584b9",
-                        "version": 1
+                        "conditionsFalseStatusText": "Conditions are false."
                     },
                     "macroActionConditionSplitterPosition": [
                         {
@@ -1204,9 +1103,7 @@
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
+                                "customLabel": "My label"
                             },
                             "id": "scene",
                             "logic": 0,
@@ -1228,11 +1125,6 @@
                             "type": 10,
                             "pattern": ".*Scene.*",
                             "useTransitionTargetScene": true,
-                            "regexConfig": {
-                                "enable": true,
-                                "partial": false,
-                                "options": 0
-                            },
                             "version": 1
                         }
                     ],
@@ -1241,11 +1133,10 @@
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
+                                "customLabel": "My label"
                             },
                             "id": "audio",
+                            "enabled": true,
                             "duration": {
                                 "value": {
                                     "value": 1.0,
@@ -1292,29 +1183,16 @@
                             "version": 3
                         }
                     ],
-                    "elseActions": [],
-                    "inputVariables": []
+                    "elseActions": []
                 },
                 {
                     "name": "bgm - any to winner",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
                     "pause": false,
                     "parallel": false,
-                    "checkConditionsInParallel": false,
                     "onChange": true,
                     "skipExecOnStart": false,
                     "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.29999999999999999,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
+                    "group": false,
                     "dockSettings": {
                         "register": false,
                         "hasRunButton": true,
@@ -1325,9 +1203,7 @@
                         "pauseButtonText": "Pause",
                         "unpauseButtonText": "Unpause",
                         "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-63fb4c1f-0b2c-4d66-aac3-5b1fcc965001",
-                        "version": 1
+                        "conditionsFalseStatusText": "Conditions are false."
                     },
                     "macroActionConditionSplitterPosition": [
                         {
@@ -1354,9 +1230,7 @@
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
+                                "customLabel": "My label"
                             },
                             "id": "scene",
                             "logic": 0,
@@ -1378,20 +1252,13 @@
                             "type": 10,
                             "pattern": ".*Scene.*",
                             "useTransitionTargetScene": false,
-                            "regexConfig": {
-                                "enable": true,
-                                "partial": false,
-                                "options": 0
-                            },
                             "version": 1
                         },
                         {
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
+                                "customLabel": "My label"
                             },
                             "id": "scene",
                             "logic": 102,
@@ -1413,11 +1280,6 @@
                             "type": 10,
                             "pattern": ".*Scene.*",
                             "useTransitionTargetScene": false,
-                            "regexConfig": {
-                                "enable": true,
-                                "partial": false,
-                                "options": 0
-                            },
                             "version": 1
                         }
                     ],
@@ -1426,11 +1288,10 @@
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
+                                "customLabel": "My label"
                             },
                             "id": "audio",
+                            "enabled": true,
                             "duration": {
                                 "value": {
                                     "value": 1.0,
@@ -1477,29 +1338,16 @@
                             "version": 3
                         }
                     ],
-                    "elseActions": [],
-                    "inputVariables": []
+                    "elseActions": []
                 },
                 {
                     "name": "gameplay - any to gameplay",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
                     "pause": false,
                     "parallel": false,
-                    "checkConditionsInParallel": false,
                     "onChange": true,
                     "skipExecOnStart": false,
                     "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.29999999999999999,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
+                    "group": false,
                     "dockSettings": {
                         "register": false,
                         "hasRunButton": true,
@@ -1510,9 +1358,7 @@
                         "pauseButtonText": "Pause",
                         "unpauseButtonText": "Unpause",
                         "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-a10b75ec-5da1-44b3-8c80-2ae4e180172d",
-                        "version": 1
+                        "conditionsFalseStatusText": "Conditions are false."
                     },
                     "macroActionConditionSplitterPosition": [
                         {
@@ -1539,9 +1385,7 @@
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
+                                "customLabel": "My label"
                             },
                             "id": "scene",
                             "logic": 0,
@@ -1563,11 +1407,6 @@
                             "type": 10,
                             "pattern": ".*Scene.*",
                             "useTransitionTargetScene": false,
-                            "regexConfig": {
-                                "enable": true,
-                                "partial": false,
-                                "options": 0
-                            },
                             "version": 1
                         }
                     ],
@@ -1576,11 +1415,10 @@
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
+                                "customLabel": "My label"
                             },
                             "id": "audio",
+                            "enabled": true,
                             "duration": {
                                 "value": {
                                     "value": 1.0,
@@ -1627,29 +1465,16 @@
                             "version": 3
                         }
                     ],
-                    "elseActions": [],
-                    "inputVariables": []
+                    "elseActions": []
                 },
                 {
                     "name": "gameplay - gameplay to any",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
                     "pause": false,
                     "parallel": false,
-                    "checkConditionsInParallel": false,
                     "onChange": true,
                     "skipExecOnStart": false,
                     "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.29999999999999999,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
+                    "group": false,
                     "dockSettings": {
                         "register": false,
                         "hasRunButton": true,
@@ -1660,9 +1485,7 @@
                         "pauseButtonText": "Pause",
                         "unpauseButtonText": "Unpause",
                         "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-72abe200-cf82-4645-8e1a-c4939c7cd42a",
-                        "version": 1
+                        "conditionsFalseStatusText": "Conditions are false."
                     },
                     "macroActionConditionSplitterPosition": [
                         {
@@ -1689,9 +1512,7 @@
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
+                                "customLabel": "My label"
                             },
                             "id": "scene",
                             "logic": 0,
@@ -1713,11 +1534,6 @@
                             "type": 20,
                             "pattern": ".*Scene.*",
                             "useTransitionTargetScene": true,
-                            "regexConfig": {
-                                "enable": true,
-                                "partial": false,
-                                "options": 0
-                            },
                             "version": 1
                         }
                     ],
@@ -1726,11 +1542,10 @@
                             "segmentSettings": {
                                 "collapsed": false,
                                 "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
+                                "customLabel": "My label"
                             },
                             "id": "audio",
+                            "enabled": true,
                             "duration": {
                                 "value": {
                                     "value": 1.0,
@@ -1777,18 +1592,14 @@
                             "version": 3
                         }
                     ],
-                    "elseActions": [],
-                    "inputVariables": []
+                    "elseActions": []
                 }
             ],
-            "macroSettings": {
+            "macroProperties": {
                 "highlightExecuted": false,
                 "highlightConditions": false,
                 "highlightActions": false,
-                "newMacroCheckInParallel": false,
-                "newMacroRegisterHotkey": false,
-                "newMacroUseShortCircuitEvaluation": false,
-                "saveSettingsOnMacroChange": true
+                "newMacroRegisterHotkey": false
             },
             "variables": [],
             "switches": [],
@@ -1828,6 +1639,16 @@
                 "version": 1
             },
             "videoSwitches": [],
+            "ServerEnabled": false,
+            "ServerPort": 55555,
+            "LockToIPv4": false,
+            "ClientEnabled": false,
+            "Address": "",
+            "ClientPort": 55555,
+            "SendSceneChange": true,
+            "SendSceneChangeAll": true,
+            "SendPreview": true,
+            "triggers": [],
             "interval": 300,
             "non_matching_scene": "",
             "switch_if_not_matching": 0,
@@ -1847,16 +1668,13 @@
                 "unit": 0,
                 "version": 1
             },
-            "enableCooldown": false,
             "active": true,
             "startup_behavior": 0,
             "autoStartEvent": 0,
             "logLevel": 0,
-            "logLevelVersion": 1,
             "showSystemTrayNotifications": false,
             "disableHints": true,
             "disableFilterComboboxFilter": false,
-            "disableMacroWidgetCache": false,
             "warnPluginLoadFailure": true,
             "hideLegacyTabs": true,
             "priority0": 10,
@@ -1877,12 +1695,6 @@
             "startHotkey": [],
             "stopHotkey": [],
             "toggleHotkey": [],
-            "newMacroHotkey": [
-                {
-                    "control": true,
-                    "key": "OBS_KEY_N"
-                }
-            ],
             "upMacroSegmentHotkey": [],
             "downMacroSegmentHotkey": [],
             "removeMacroSegmentHotkey": [],
@@ -1894,61 +1706,55 @@
                     "macroTab": 1
                 },
                 {
-                    "windowTitleTab": 2
+                    "variableTab": 2
                 },
                 {
-                    "executableTab": 3
+                    "windowTitleTab": 3
                 },
                 {
-                    "screenRegionTab": 4
+                    "executableTab": 4
                 },
                 {
-                    "mediaTab": 5
+                    "screenRegionTab": 5
                 },
                 {
-                    "fileTab": 6
+                    "mediaTab": 6
                 },
                 {
-                    "randomTab": 7
+                    "fileTab": 7
                 },
                 {
-                    "timeTab": 8
+                    "randomTab": 8
                 },
                 {
-                    "idleTab": 9
+                    "timeTab": 9
                 },
                 {
-                    "sceneSequenceTab": 10
+                    "idleTab": 10
                 },
                 {
-                    "audioTab": 11
+                    "sceneSequenceTab": 11
                 },
                 {
-                    "videoTab": 12
+                    "audioTab": 12
                 },
                 {
-                    "sceneGroupTab": 13
+                    "videoTab": 13
                 },
                 {
-                    "transitionsTab": 14
+                    "networkTab": 14
                 },
                 {
-                    "pauseTab": 15
+                    "sceneGroupTab": 15
                 },
                 {
-                    "websocketConnectionTab": 16
+                    "transitionsTab": 16
                 },
                 {
-                    "mqttConnectionTab": 17
+                    "pauseTab": 17
                 },
                 {
-                    "twitchConnectionTab": 18
-                },
-                {
-                    "variableTab": 19
-                },
-                {
-                    "actionQueueTab": 20
+                    "sceneTriggerTab": 18
                 }
             ],
             "saveWindowGeo": false,
@@ -1964,12 +1770,62 @@
                     "pos": 0
                 }
             ],
-            "version": "20488afdd164c29a83b1a76788cde209494be1ae",
+            "version": "cdacfc946c062982a5e865b9a4f849b5ce2fb05f",
             "websocketConnections": [],
-            "mqttConnections": [],
             "twitchConnections": [],
             "actionQueues": []
-        }
+        },
+        "auto-scene-switcher": {
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": false,
+            "active": false,
+            "switches": []
+        },
+        "captions": {
+            "source": "",
+            "enabled": false,
+            "lang_id": 2057,
+            "provider": "mssapi"
+        },
+        "output-timer": {
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "autoStartStreamTimer": false,
+            "autoStartRecordTimer": false,
+            "pauseRecordTimer": true
+        },
+        "scripts-tool": [],
+        "decklink_captions": {
+            "source": ""
+        },
+        "transition-table": {
+            "transitions": [],
+            "enable_hotkey": [],
+            "disable_hotkey": []
+        },
+        "downstream_keyers_channel": 7,
+        "downstream_keyers": [
+            {
+                "name": "DSK 1",
+                "transition": "",
+                "transition_duration": 300,
+                "show_transition": "",
+                "show_transition_duration": 300,
+                "hide_transition": "",
+                "hide_transition_duration": 300,
+                "scenes": [],
+                "scene": "",
+                "null_hotkey": [],
+                "enable_tie_hotkey": [],
+                "disable_tie_hotkey": [],
+                "exclude_scenes": []
+            }
+        ]
     },
     "resolution": {
         "x": 1920,
@@ -1984,8 +1840,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 0,
                 "custom_size": false,
+                "id_counter": 0,
                 "items": []
             },
             "mixers": 0,
@@ -2014,8 +1870,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 0,
                 "custom_size": false,
+                "id_counter": 0,
                 "items": []
             },
             "mixers": 0,
@@ -2044,8 +1900,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 1,
                 "custom_size": false,
+                "id_counter": 1,
                 "items": [
                     {
                         "name": "bgm.mp3",
@@ -2132,13 +1988,13 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 2,
                 "custom_size": false,
+                "id_counter": 3,
                 "items": [
                     {
                         "name": "Discord",
                         "source_uuid": "1ff1bed5-76c3-4874-b488-d2dd42b8295b",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -2191,10 +2047,10 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Streamer Mic",
-                        "source_uuid": "98eee0b6-2d15-4e52-b8e1-7ae497097115",
+                        "name": "discord audio",
+                        "source_uuid": "665d0382-af2f-4bd1-a144-79f950edabd3",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -2208,7 +2064,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 2,
+                        "id": 3,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -2262,8 +2118,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -2277,8 +2133,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 1,
                 "custom_size": false,
+                "id_counter": 1,
                 "items": [
                     {
                         "name": "audio - osu! gameplay",
@@ -2365,16 +2221,16 @@
             "id": "wasapi_process_output_capture",
             "versioned_id": "wasapi_process_output_capture",
             "settings": {
-                "window": " Tournament Client 0:WindowsForms10.Window.2b.app.0.1ca0192_r7_ad1:osu!.exe",
-                "priority": 1
+                "priority": 1,
+                "window": " Tournament Client 0:WindowsForms10.Window.2b.app.0.1ca0192_r7_ad1:osu!.exe"
             },
             "mixers": 255,
             "sync": 0,
             "flags": 0,
-            "volume": 0.12589254975318909,
+            "volume": 0.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2397,16 +2253,16 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "D:/_tourney_stream/RESC25/OBS Files/bgm.mp3",
+                "local_file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/bgm.mp3",
                 "looping": true
             },
             "mixers": 255,
             "sync": 0,
             "flags": 0,
-            "volume": 0.0,
+            "volume": 0.10000000149011612,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2433,8 +2289,8 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": " Tournament Client 0:WindowsForms10.Window.2b.app.0.1ca0192_r7_ad1:osu!.exe",
                 "priority": 1,
+                "window": " Tournament Client 0:WindowsForms10.Window.2b.app.0.1ca0192_r7_ad1:osu!.exe",
                 "cursor": false
             },
             "mixers": 255,
@@ -2466,8 +2322,8 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": " Tournament Client 1:WindowsForms10.Window.2b.app.0.1ca0192_r7_ad1:osu!.exe",
                 "priority": 1,
+                "window": " Tournament Client 1:WindowsForms10.Window.2b.app.0.1ca0192_r7_ad1:osu!.exe",
                 "cursor": false
             },
             "mixers": 255,
@@ -2499,8 +2355,8 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": " Tournament Client 2:WindowsForms10.Window.2b.app.0.1ca0192_r7_ad1:osu!.exe",
                 "priority": 1,
+                "window": " Tournament Client 2:WindowsForms10.Window.2b.app.0.1ca0192_r7_ad1:osu!.exe",
                 "cursor": false
             },
             "mixers": 255,
@@ -2532,8 +2388,8 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": " Tournament Client 3:WindowsForms10.Window.2b.app.0.1ca0192_r7_ad1:osu!.exe",
                 "priority": 1,
+                "window": " Tournament Client 3:WindowsForms10.Window.2b.app.0.1ca0192_r7_ad1:osu!.exe",
                 "cursor": false
             },
             "mixers": 255,
@@ -2565,8 +2421,8 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": " Tournament Client 4:WindowsForms10.Window.2b.app.0.1ca0192_r7_ad1:osu!.exe",
                 "priority": 1,
+                "window": " Tournament Client 4:WindowsForms10.Window.2b.app.0.1ca0192_r7_ad1:osu!.exe",
                 "cursor": false
             },
             "mixers": 255,
@@ -2598,8 +2454,8 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": " Tournament Client 5:WindowsForms10.Window.2b.app.0.1ca0192_r7_ad1:osu!.exe",
                 "priority": 1,
+                "window": " Tournament Client 5:WindowsForms10.Window.2b.app.0.1ca0192_r7_ad1:osu!.exe",
                 "cursor": false
             },
             "mixers": 255,
@@ -2631,9 +2487,9 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "D:/_tourney_stream/RESC25/OBS Files/Video/countdown_mapshowcase.mp4",
-                "hw_decode": true,
                 "close_when_inactive": true,
+                "hw_decode": true,
+                "local_file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/Video/countdown_mapshowcase.mp4",
                 "looping": true
             },
             "mixers": 255,
@@ -2669,8 +2525,8 @@
             "id": "wasapi_process_output_capture",
             "versioned_id": "wasapi_process_output_capture",
             "settings": {
-                "window": "#22website | ResCup Internal - Discord:Chrome_WidgetWin_1:DiscordCanary.exe",
-                "priority": 2
+                "priority": 2,
+                "window": "#22website | ResCup Internal - Discord:Chrome_WidgetWin_1:DiscordCanary.exe"
             },
             "mixers": 255,
             "sync": 0,
@@ -2799,13 +2655,44 @@
         },
         {
             "prev_ver": 520093699,
+            "name": "discord audio",
+            "uuid": "665d0382-af2f-4bd1-a144-79f950edabd3",
+            "id": "wasapi_output_capture",
+            "versioned_id": "wasapi_output_capture",
+            "settings": {
+                "device_id": "{0.0.0.00000000}.{2dcdcbb3-12cf-45db-8983-8bf69e7c0b6c}"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093699,
             "name": "Ending",
             "uuid": "79b0a38d-efef-4cdb-bc79-58f4eba6cae0",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 2,
                 "custom_size": false,
+                "id_counter": 2,
                 "items": [
                     {
                         "name": "AUDIO - BGM",
@@ -2949,9 +2836,9 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "D:/_tourney_stream/RESC25/OBS Files/Video/endscreen.mp4",
-                "hw_decode": true,
                 "close_when_inactive": true,
+                "hw_decode": true,
+                "local_file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/Video/endscreen.mp4",
                 "looping": true
             },
             "mixers": 255,
@@ -2989,8 +2876,8 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": "osu!cuttingedge b20250603:WindowsForms10.Window.2b.app.0.27cc695_r7_ad1:osu!.exe",
                 "priority": 2,
+                "window": "osu!cuttingedge b20250603:WindowsForms10.Window.2b.app.0.27cc695_r7_ad1:osu!.exe",
                 "method": 2,
                 "cursor": false
             },
@@ -3023,8 +2910,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 17,
                 "custom_size": false,
+                "id_counter": 17,
                 "items": [
                     {
                         "name": "AUDIO - Casters",
@@ -3742,7 +3629,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
@@ -3929,22 +3816,16 @@
                 "libobs.hide_scene_item.11": [],
                 "libobs.show_scene_item.12": [],
                 "libobs.hide_scene_item.12": [],
-                "libobs.show_scene_item.9": [],
-                "libobs.hide_scene_item.9": [],
+                "libobs.show_scene_item.17": [],
+                "libobs.hide_scene_item.17": [],
                 "libobs.show_scene_item.10": [],
                 "libobs.hide_scene_item.10": [],
                 "libobs.show_scene_item.2": [],
                 "libobs.hide_scene_item.2": [],
-                "libobs.show_scene_item.13": [],
-                "libobs.hide_scene_item.13": [],
-                "libobs.show_scene_item.14": [],
-                "libobs.hide_scene_item.14": [],
-                "libobs.show_scene_item.15": [],
-                "libobs.hide_scene_item.15": [],
                 "libobs.show_scene_item.16": [],
                 "libobs.hide_scene_item.16": [],
-                "libobs.show_scene_item.17": [],
-                "libobs.hide_scene_item.17": []
+                "libobs.show_scene_item.13": [],
+                "libobs.hide_scene_item.13": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -3958,9 +3839,9 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "D:/_tourney_stream/RESC25/OBS Files/Video/gameplay.mp4",
-                "hw_decode": true,
                 "close_when_inactive": true,
+                "hw_decode": true,
+                "local_file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/Video/gameplay.mp4",
                 "looping": true
             },
             "mixers": 255,
@@ -3998,7 +3879,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/_tourney_stream/RESC25/OBS Files/slideshow/gameplay/gameplay_ingame_dimmer.png"
+                "file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/slideshow/gameplay/gameplay_ingame_dimmer.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -4024,7 +3905,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/_tourney_stream/RESC25/OBS Files/slideshow/mappool/gameplay_mappick_logos.png"
+                "file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/slideshow/mappool/gameplay_mappick_logos.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -4052,10 +3933,10 @@
             "settings": {
                 "files": [
                     {
-                        "value": "D:/_tourney_stream/RESC25/OBS Files/slideshow/showcase",
-                        "uuid": "cd4fb917-be76-4926-9573-f0d98c83994c",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "uuid": "cd4fb917-be76-4926-9573-f0d98c83994c",
+                        "value": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/slideshow/showcase"
                     }
                 ],
                 "slide_time": 5000,
@@ -4092,9 +3973,9 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "D:/_tourney_stream/RESC25/OBS Files/Video/insurgent_winbg.mp4",
-                "hw_decode": true,
                 "close_when_inactive": true,
+                "hw_decode": true,
+                "local_file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/Video/insurgent_winbg.mp4",
                 "looping": true
             },
             "mixers": 255,
@@ -4130,8 +4011,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 4,
                 "custom_size": false,
+                "id_counter": 4,
                 "items": [
                     {
                         "name": "AUDIO - BGM",
@@ -4313,12 +4194,12 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.2": [],
                 "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": []
+                "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -4332,9 +4213,9 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "D:/_tourney_stream/RESC25/OBS Files/Video/techpause_genericbg.mp4",
-                "hw_decode": true,
                 "close_when_inactive": true,
+                "hw_decode": true,
+                "local_file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/Video/techpause_genericbg.mp4",
                 "looping": true
             },
             "mixers": 255,
@@ -4361,7 +4242,9 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {}
+            "private_settings": {
+                "mixer_hidden": true
+            }
         },
         {
             "prev_ver": 520093699,
@@ -4370,9 +4253,9 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "D:/_tourney_stream/RESC25/OBS Files/Video/loyalist_bgwin.mp4",
-                "hw_decode": true,
                 "close_when_inactive": true,
+                "hw_decode": true,
+                "local_file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/Video/loyalist_bgwin.mp4",
                 "looping": true
             },
             "mixers": 255,
@@ -4408,9 +4291,9 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "hw_decode": true,
                 "close_when_inactive": true,
-                "local_file": "D:/_tourney_stream/RESC25/OBS Files/Video/gameplay.mp4",
+                "hw_decode": true,
+                "local_file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/Video/gameplay.mp4",
                 "looping": true
             },
             "mixers": 255,
@@ -4437,7 +4320,9 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {}
+            "private_settings": {
+                "mixer_hidden": true
+            }
         },
         {
             "prev_ver": 520093699,
@@ -4446,8 +4331,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 5,
                 "custom_size": false,
+                "id_counter": 5,
                 "items": [
                     {
                         "name": "AUDIO - Casters",
@@ -4745,10 +4630,10 @@
                 "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.4": [],
                 "libobs.hide_scene_item.4": [],
-                "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.5": [],
-                "libobs.hide_scene_item.5": []
+                "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -4788,9 +4673,9 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "D:/_tourney_stream/RESC25/OBS Files/Video/mapshowcase_bg.mp4",
-                "hw_decode": true,
                 "close_when_inactive": true,
+                "hw_decode": true,
+                "local_file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/Video/mapshowcase_bg.mp4",
                 "looping": true
             },
             "mixers": 255,
@@ -4826,8 +4711,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 10,
                 "custom_size": false,
+                "id_counter": 10,
                 "items": [
                     {
                         "name": "AUDIO - BGM",
@@ -5370,8 +5255,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 0,
                 "custom_size": false,
+                "id_counter": 0,
                 "items": []
             },
             "mixers": 0,
@@ -5400,23 +5285,23 @@
             "id": "slideshow",
             "versioned_id": "slideshow_v2",
             "settings": {
-                "playback_behavior": "pause_unpause",
-                "slide_time": 7270,
-                "transition_speed": 727,
                 "files": [
                     {
-                        "value": "D:/_tourney_stream/RESC25/OBS Files/slideshow/gameplay/gameplay_ingame_logoslideshow1.png",
-                        "uuid": "6d4beec6-5f9c-448c-895f-7e37fbbce404",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "uuid": "6d4beec6-5f9c-448c-895f-7e37fbbce404",
+                        "value": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/slideshow/gameplay/gameplay_ingame_logoslideshow1.png"
                     },
                     {
-                        "value": "D:/_tourney_stream/RESC25/OBS Files/slideshow/gameplay/gameplay_ingame_logoslideshow2.png",
-                        "uuid": "956b46e2-546f-4510-8b65-33be2e3191b2",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "uuid": "956b46e2-546f-4510-8b65-33be2e3191b2",
+                        "value": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/slideshow/gameplay/gameplay_ingame_logoslideshow2.png"
                     }
-                ]
+                ],
+                "slide_time": 7270,
+                "transition_speed": 727,
+                "playback_behavior": "pause_unpause"
             },
             "mixers": 0,
             "sync": 0,
@@ -5448,23 +5333,23 @@
             "id": "slideshow",
             "versioned_id": "slideshow_v2",
             "settings": {
-                "playback_behavior": "pause_unpause",
-                "slide_time": 7270,
-                "transition_speed": 727,
                 "files": [
                     {
-                        "value": "D:/_tourney_stream/RESC25/OBS Files/slideshow/starting/vs_logoslideshow1.png",
-                        "uuid": "04df8e67-2e3d-4c2d-b511-19d8e1841ff0",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "uuid": "04df8e67-2e3d-4c2d-b511-19d8e1841ff0",
+                        "value": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/slideshow/starting/vs_logoslideshow1.png"
                     },
                     {
-                        "value": "D:/_tourney_stream/RESC25/OBS Files/slideshow/starting/vs_logoslideshow2.png",
-                        "uuid": "dec30f2b-50d9-426b-a881-4b428a00919c",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "uuid": "dec30f2b-50d9-426b-a881-4b428a00919c",
+                        "value": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/slideshow/starting/vs_logoslideshow2.png"
                     }
-                ]
+                ],
+                "slide_time": 7270,
+                "transition_speed": 727,
+                "playback_behavior": "pause_unpause"
             },
             "mixers": 0,
             "sync": 0,
@@ -5496,8 +5381,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 3,
                 "custom_size": false,
+                "id_counter": 3,
                 "items": [
                     {
                         "name": "countdown_mapshowcase.mp4",
@@ -5698,8 +5583,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 9,
                 "custom_size": false,
+                "id_counter": 9,
                 "items": [
                     {
                         "name": "AUDIO - BGM",
@@ -5995,43 +5880,12 @@
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.8": [],
                 "libobs.hide_scene_item.8": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
-            "name": "Streamer Mic",
-            "uuid": "98eee0b6-2d15-4e52-b8e1-7ae497097115",
-            "id": "wasapi_input_capture",
-            "versioned_id": "wasapi_input_capture",
-            "settings": {
-                "device_id": "{0.0.1.00000000}.{35fb25a6-f915-4180-81c9-a16e8d34bd6b}"
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": true,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -6048,9 +5902,9 @@
                 "text": "21:17",
                 "font": {
                     "face": "Cinzel",
-                    "style": "Bold",
+                    "flags": 1,
                     "size": 196,
-                    "flags": 1
+                    "style": "Bold"
                 }
             },
             "mixers": 0,
@@ -6247,9 +6101,9 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "D:/_tourney_stream/RESC25/OBS Files/Video/vs_bg.mp4",
-                "hw_decode": true,
                 "close_when_inactive": true,
+                "hw_decode": true,
+                "local_file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/Video/vs_bg.mp4",
                 "looping": true
             },
             "mixers": 255,
@@ -6287,7 +6141,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "D:/_tourney_stream/RESC25/OBS Files/slideshow/starting/vs_dimmer.png"
+                "file": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/slideshow/starting/vs_dimmer.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -6313,8 +6167,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 4,
                 "custom_size": false,
+                "id_counter": 4,
                 "items": [
                     {
                         "name": "AUDIO - Casters",
@@ -6572,8 +6426,8 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 4,
                 "custom_size": false,
+                "id_counter": 4,
                 "items": [
                     {
                         "name": "AUDIO - Casters",
