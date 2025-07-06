@@ -10,14 +10,14 @@
     {
       "ID": 2,
       "Team1Acronym": "AZ",
-      "Team1Score": 0,
+      "Team1Score": 4,
       "Team2Acronym": "OK",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
-      "Current": true,
-      "Date": "2025-06-28T02:00:00+00:00",
+      "Current": false,
+      "Date": "2025-06-28T05:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {},
       "WinnerColour": "Blue",
@@ -26,14 +26,60 @@
     {
       "ID": 20,
       "Team1Acronym": "GA",
-      "Team1Score": null,
+      "Team1Score": 2,
       "Team2Acronym": "MA",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2053116
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4595705
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2651918
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4545860
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4940823
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 42244
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4462417
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 965369
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 124521
+        }
+      ],
       "Current": false,
-      "Date": "2025-06-30T01:00:00+00:00",
+      "Date": "2025-06-30T04:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 800
@@ -44,158 +90,314 @@
     {
       "ID": 14,
       "Team1Acronym": "OR",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "NH",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-06-28T23:59:00+00:00",
+      "Date": "2025-06-29T02:59:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 600
       },
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 12,
       "Team1Acronym": "NJ",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "STATE",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 414217
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4545860
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2651918
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4940823
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 42244
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3849723
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4840080
+        }
+      ],
       "Current": false,
-      "Date": "2025-06-29T23:59:00+00:00",
+      "Date": "2025-06-30T02:59:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 500
       },
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 8,
       "Team1Acronym": "VA",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "WI",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-06-30T01:00:00+00:00",
+      "Date": "2025-06-30T04:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 300
       },
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 6,
       "Team1Acronym": "NV",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "KANS",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-06-28T19:00:00+00:00",
+      "Date": "2025-06-29T22:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 200
       },
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 10,
       "Team1Acronym": "TN",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "CT",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4462417
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4595705
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4545860
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3849723
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4940823
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2814386
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 5081061
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 124521
+        }
+      ],
       "Current": false,
-      "Date": "2025-07-01T02:00:00+00:00",
+      "Date": "2025-07-01T05:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 400
       },
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 4,
       "Team1Acronym": "PA",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "HI",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 42244
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2053116
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4595705
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4840080
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4462417
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3849723
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 965369
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 414217
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 5081061
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4545860
+        }
+      ],
       "Current": false,
-      "Date": "2025-06-29T02:00:00+00:00",
+      "Date": "2025-06-29T05:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 100
       },
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 18,
       "Team1Acronym": "NY",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "KY",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4840080
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3287710
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 5081061
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 124521
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2651918
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2053116
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4940823
+        }
+      ],
       "Current": false,
-      "Date": "2025-06-29T19:00:00+00:00",
+      "Date": "2025-06-29T22:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 700
       },
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 26,
       "Team1Acronym": "SCAL",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "IN",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-01T02:00:00+00:00",
+      "Date": "2025-07-01T05:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 1100
       },
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 24,
       "Team1Acronym": "WA",
-      "Team1Score": null,
+      "Team1Score": 4,
       "Team2Acronym": "IL",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-06-29T23:00:00+00:00",
+      "Date": "2025-06-30T02:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 1000
@@ -206,32 +408,77 @@
     {
       "ID": 30,
       "Team1Acronym": "CAR",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "PR",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-06-29T03:30:00+00:00",
+      "Date": "2025-06-29T06:30:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 1300
       },
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 28,
       "Team1Acronym": "MI",
-      "Team1Score": null,
+      "Team1Score": 2,
       "Team2Acronym": "MN",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4545860
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4940823
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 965369
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3849723
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2651918
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 124521
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3287710
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2053116
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 5081061
+        }
+      ],
       "Current": false,
-      "Date": "2025-06-29T23:00:00+00:00",
+      "Date": "2025-06-30T02:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 1200
@@ -242,137 +489,262 @@
     {
       "ID": 22,
       "Team1Acronym": "TX",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "MD",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-01T02:00:00+00:00",
+      "Date": "2025-07-01T05:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 900
       },
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 32,
       "Team1Acronym": "CO",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "FL",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2053116
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4545860
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3849723
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 965369
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2651918
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3287710
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4840080
+        }
+      ],
       "Current": false,
-      "Date": "2025-06-29T04:00:00+00:00",
+      "Date": "2025-06-29T07:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 1400
       },
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 31,
+      "Team1Acronym": "CAR",
       "Team1Score": null,
+      "Team2Acronym": "CO",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-04T00:00:00+00:00",
+      "Date": "2025-07-06T06:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 170,
         "Y": 1350
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 27,
+      "Team1Acronym": "SCAL",
       "Team1Score": null,
+      "Team2Acronym": "MN",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-04T00:00:00+00:00",
+      "Date": "2025-07-07T00:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 170,
         "Y": 1150
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 23,
+      "Team1Acronym": "TX",
       "Team1Score": null,
+      "Team2Acronym": "IL",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-04T00:00:00+00:00",
+      "Date": "2025-07-06T05:30:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 170,
         "Y": 950
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 19,
+      "Team1Acronym": "NY",
       "Team1Score": null,
+      "Team2Acronym": "MA",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-04T00:00:00+00:00",
+      "Date": "2025-07-06T20:15:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 170,
         "Y": 750
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 13,
+      "Team1Acronym": "NJ",
       "Team1Score": null,
+      "Team2Acronym": "OR",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-04T00:00:00+00:00",
+      "Date": "2025-07-07T04:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 170,
         "Y": 550
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 9,
+      "Team1Acronym": "VA",
       "Team1Score": null,
+      "Team2Acronym": "TN",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-04T00:00:00+00:00",
+      "Date": "2025-07-07T06:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 170,
         "Y": 350
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 1,
+      "Team1Acronym": "NCAL",
+      "Team1Score": 5,
+      "Team2Acronym": "OK",
+      "Team2Score": 0,
+      "Completed": true,
+      "Losers": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4418140
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 796161
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3980435
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3967905
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3010492
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3299402
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 140460
+        }
+      ],
+      "Current": false,
+      "Date": "2025-07-05T21:00:00+03:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 170,
+        "Y": -50
+      },
+      "PointsToWin": 5
+    },
+    {
+      "ID": 5,
+      "Team1Acronym": "PA",
+      "Team1Score": null,
+      "Team2Acronym": "NV",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2025-07-07T02:00:00+03:00",
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 170,
+        "Y": 150
+      },
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 3,
       "Team1Acronym": "NCAL",
       "Team1Score": null,
       "Team2Score": null,
@@ -380,45 +752,13 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-04T00:00:00+00:00",
-      "ConditionalMatches": [],
-      "Position": {
-        "X": 170,
-        "Y": -50
-      },
-      "WinnerColour": "Blue",
-      "PointsToWin": 5
-    },
-    {
-      "ID": 5,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
-      "Losers": false,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2025-07-04T00:00:00+00:00",
-      "ConditionalMatches": [],
-      "Position": {
-        "X": 170,
-        "Y": 150
-      },
-      "PointsToWin": 5
-    },
-    {
-      "ID": 3,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
-      "Losers": false,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 340,
         "Y": 50
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -429,7 +769,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 340,
@@ -445,7 +785,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 340,
@@ -461,7 +801,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 340,
@@ -477,7 +817,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-18T00:00:00+00:00",
+      "Date": "2025-07-18T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 510,
@@ -493,7 +833,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-18T00:00:00+00:00",
+      "Date": "2025-07-18T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 510,
@@ -509,7 +849,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-25T00:00:00+00:00",
+      "Date": "2025-07-25T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 680,
@@ -525,7 +865,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-08-01T00:00:00+00:00",
+      "Date": "2025-08-01T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 900,
@@ -541,7 +881,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-08-01T00:00:00+00:00",
+      "Date": "2025-08-01T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1070,
@@ -551,107 +891,128 @@
     },
     {
       "ID": 39,
+      "Team1Acronym": "HI",
       "Team1Score": null,
+      "Team2Acronym": "KANS",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-04T00:00:00+00:00",
+      "Date": "2025-07-07T05:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 1710
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 42,
+      "Team1Acronym": "WI",
       "Team1Score": null,
+      "Team2Acronym": "CT",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-04T00:00:00+00:00",
+      "Date": "2025-07-08T02:59:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 1810
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 47,
+      "Team1Acronym": "STATE",
       "Team1Score": null,
+      "Team2Acronym": "NH",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-04T00:00:00+00:00",
+      "Date": "2025-07-06T04:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 1910
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 50,
+      "Team1Acronym": "KY",
       "Team1Score": null,
+      "Team2Acronym": "GA",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-04T00:00:00+00:00",
+      "Date": "2025-07-06T01:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 2010
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 55,
-      "Team1Score": null,
-      "Team2Score": null,
+      "Team1Acronym": "MD",
+      "Team1Score": 0,
+      "Team2Acronym": "WA",
+      "Team2Score": 0,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-04T00:00:00+00:00",
+      "Date": "2025-07-08T02:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 2110
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 58,
+      "Team1Acronym": "MI",
       "Team1Score": null,
+      "Team2Acronym": "IN",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
-      "Current": false,
-      "Date": "2025-07-04T00:00:00+00:00",
+      "Current": true,
+      "Date": "2025-07-06T00:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 2210
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 61,
+      "Team1Acronym": "FL",
       "Team1Score": null,
+      "Team2Acronym": "PR",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-04T00:00:00+00:00",
+      "Date": "2025-07-07T05:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "Y": 2310
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -662,7 +1023,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 170,
@@ -678,7 +1039,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 170,
@@ -694,7 +1055,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 170,
@@ -710,7 +1071,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 170,
@@ -720,18 +1081,20 @@
     },
     {
       "ID": 33,
+      "Team1Acronym": "AZ",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 170,
         "Y": 1560
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -742,7 +1105,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 170,
@@ -758,7 +1121,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 170,
@@ -768,18 +1131,20 @@
     },
     {
       "ID": 60,
+      "Team1Acronym": "OK",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 170,
         "Y": 2260
       },
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -790,7 +1155,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 340,
@@ -806,7 +1171,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 340,
@@ -822,7 +1187,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 340,
@@ -838,7 +1203,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-11T00:00:00+00:00",
+      "Date": "2025-07-11T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 340,
@@ -854,7 +1219,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-18T00:00:00+00:00",
+      "Date": "2025-07-18T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 510,
@@ -870,7 +1235,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-18T00:00:00+00:00",
+      "Date": "2025-07-18T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 510,
@@ -886,7 +1251,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-18T00:00:00+00:00",
+      "Date": "2025-07-18T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 510,
@@ -902,7 +1267,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-18T00:00:00+00:00",
+      "Date": "2025-07-18T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 510,
@@ -918,7 +1283,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-18T00:00:00+00:00",
+      "Date": "2025-07-18T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 680,
@@ -934,7 +1299,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-18T00:00:00+00:00",
+      "Date": "2025-07-18T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 680,
@@ -950,7 +1315,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-25T00:00:00+00:00",
+      "Date": "2025-07-25T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 850,
@@ -966,7 +1331,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-25T00:00:00+00:00",
+      "Date": "2025-07-25T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 850,
@@ -982,7 +1347,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-07-25T00:00:00+00:00",
+      "Date": "2025-07-25T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1020,
@@ -998,7 +1363,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2025-08-01T00:00:00+00:00",
+      "Date": "2025-08-01T03:00:00+03:00",
       "ConditionalMatches": [],
       "Position": {
         "X": 1210,
@@ -1687,7 +2052,7 @@
           }
         }
       ],
-      "StartDate": "2025-06-27T21:00:00-05:00",
+      "StartDate": "2025-06-28T05:00:00+03:00",
       "Matches": [
         2,
         20,
@@ -1711,8 +2076,681 @@
       "Description": "",
       "BestOf": 9,
       "BanCount": 1,
-      "Beatmaps": [],
-      "StartDate": "2025-07-04T00:00:00+00:00",
+      "Beatmaps": [
+        {
+          "ID": 2564638,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 2564638,
+            "DifficultyName": "Electric Life",
+            "BPM": 225.0,
+            "Length": 93000.0,
+            "StarRating": 7.03,
+            "EndTimeObjectCount": 181,
+            "TotalObjectCount": 507,
+            "Metadata": {
+              "Title": "Liar,Liar",
+              "title_unicode": "Liar,Liar",
+              "Artist": "Mr.FanTastiC",
+              "artist_unicode": "Mr.FanTastiC",
+              "Author": {
+                "OnlineID": 10284894,
+                "Username": "Dored",
+                "CountryString": "Unknown"
+              },
+              "Source": "DEAD DAYS",
+              "tags": "絶走 clockup opening short version eroge visual novel galgame video game japanese メガテラ・ゼロ garden akitoshi corinn -laura- shocko mikii bellicose",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.5,
+              "CircleSize": 4.1,
+              "OverallDifficulty": 9.3,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1233707/covers/cover@2x.jpg?1650701259",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1233707/covers/card@2x.jpg?1650701259",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1233707/covers/list@2x.jpg?1650701259"
+            }
+          }
+        },
+        {
+          "ID": 3994347,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3994347,
+            "DifficultyName": "Almost imperceptible",
+            "BPM": 197.0,
+            "Length": 166000.0,
+            "StarRating": 5.55,
+            "EndTimeObjectCount": 266,
+            "TotalObjectCount": 663,
+            "Metadata": {
+              "Title": "Synchronicity I",
+              "title_unicode": "Synchronicity I",
+              "Artist": "The Police",
+              "artist_unicode": "The Police",
+              "Author": {
+                "OnlineID": 19048,
+                "Username": "Mismagius",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "rock english sting new wave pop",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 7.7,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1933142/covers/cover@2x.jpg?1701781215",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1933142/covers/card@2x.jpg?1701781215",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1933142/covers/list@2x.jpg?1701781215"
+            }
+          }
+        },
+        {
+          "ID": 3010492,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3010492,
+            "DifficultyName": "Halgoh's LEGGENDARIA",
+            "BPM": 180.0,
+            "Length": 114000.0,
+            "StarRating": 6.54,
+            "EndTimeObjectCount": 325,
+            "TotalObjectCount": 572,
+            "Metadata": {
+              "Title": "Flashes",
+              "title_unicode": "Flashes",
+              "Artist": "Dollscythe",
+              "artist_unicode": "Dollscythe",
+              "Author": {
+                "OnlineID": 2054596,
+                "Username": "PaRaDogi",
+                "CountryString": "Unknown"
+              },
+              "Source": "beatmania IIDX 22 PENDUAL",
+              "tags": "okorin okoratu pocket- ajt habiholic halgoh -ascended- ascended electronic rythm game daoski video game instrumental electronic hommarju remix &",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.6,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.6,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1433412/covers/cover@2x.jpg?1669501189",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1433412/covers/card@2x.jpg?1669501189",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1433412/covers/list@2x.jpg?1669501189"
+            }
+          }
+        },
+        {
+          "ID": 796161,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 796161,
+            "DifficultyName": "Wrath",
+            "BPM": 100.0,
+            "Length": 300000.0,
+            "StarRating": 6.64,
+            "EndTimeObjectCount": 393,
+            "TotalObjectCount": 2011,
+            "Metadata": {
+              "Title": "Martyr of the Free Word",
+              "title_unicode": "Martyr of the Free Word",
+              "Artist": "Epica",
+              "artist_unicode": "Epica",
+              "Author": {
+                "OnlineID": 1404615,
+                "Username": "Sieg",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "design your universe marathon deathstream english rock symphonic metal",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.7,
+              "CircleSize": 4.5,
+              "OverallDifficulty": 8.7,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/362500/covers/cover@2x.jpg?1622094708",
+              "card@2x": "https://assets.ppy.sh/beatmaps/362500/covers/card@2x.jpg?1622094708",
+              "list@2x": "https://assets.ppy.sh/beatmaps/362500/covers/list@2x.jpg?1622094708"
+            }
+          }
+        },
+        {
+          "ID": 1558816,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 1558816,
+            "DifficultyName": "Magic Spell",
+            "BPM": 105.8,
+            "Length": 146000.0,
+            "StarRating": 5.78,
+            "EndTimeObjectCount": 86,
+            "TotalObjectCount": 433,
+            "Metadata": {
+              "Title": "Magic Dance",
+              "title_unicode": "Magic Dance",
+              "Artist": "David Bowie",
+              "artist_unicode": "David Bowie",
+              "Author": {
+                "OnlineID": 19048,
+                "Username": "Mismagius",
+                "CountryString": "Unknown"
+              },
+              "Source": "Labyrinth",
+              "tags": "english pop rock synthpop",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 6.0,
+              "ApproachRate": 6.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/738619/covers/cover@2x.jpg?1668960015",
+              "card@2x": "https://assets.ppy.sh/beatmaps/738619/covers/card@2x.jpg?1668960015",
+              "list@2x": "https://assets.ppy.sh/beatmaps/738619/covers/list@2x.jpg?1668960015"
+            }
+          }
+        },
+        {
+          "ID": 3967905,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 3967905,
+            "DifficultyName": "Flame Haze's Extra",
+            "BPM": 160.0,
+            "Length": 127000.0,
+            "StarRating": 6.25,
+            "EndTimeObjectCount": 290,
+            "TotalObjectCount": 798,
+            "Metadata": {
+              "Title": "M24",
+              "title_unicode": "M24",
+              "Artist": "Yuki Kajiura",
+              "artist_unicode": "梶浦由記",
+              "Author": {
+                "OnlineID": 7605060,
+                "Username": "-Eresh",
+                "CountryString": "Unknown"
+              },
+              "Source": "劇場版「空の境界」 第五章 矛盾螺旋",
+              "tags": "knk kara no kyoukai mujun rasen the garden of sinners gekijouban 劇場版・空の境界 paradox paradigm spiral is nothing id cosmos type-moon type_moon typemoon original soundtrack sound track ost theme movie chapter 5 5th electronic instrumental kalafina ryougi shiki 両儀式 wanpachi gorou flame haze mocaotic twil_furano koyorin koyorin-sama sayucat_ ducky- duckymomo alwayschoke frozz -keqing gst:live2022 great singapore tournament live 2022 gstlive custom map tourney aef asia esports festival online kallang wave mall exp esports experience center gstlive2022b2",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.8,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1901740/covers/cover@2x.jpg?1701791284",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1901740/covers/card@2x.jpg?1701791284",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1901740/covers/list@2x.jpg?1701791284"
+            }
+          }
+        },
+        {
+          "ID": 4939878,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4939878,
+            "DifficultyName": "Ruff Ryder",
+            "BPM": 95.0,
+            "Length": 199000.0,
+            "StarRating": 6.4,
+            "EndTimeObjectCount": 488,
+            "TotalObjectCount": 852,
+            "Metadata": {
+              "Title": "X Gon' Give It To Ya",
+              "title_unicode": "X Gon' Give It To Ya",
+              "Artist": "DMX",
+              "artist_unicode": "DMX",
+              "Author": {
+                "OnlineID": 13877324,
+                "Username": "The Honeysticks",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 1.0,
+              "CircleSize": 4.1,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2309215/covers/cover@2x.jpg?1739565055",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2309215/covers/card@2x.jpg?1739565055",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2309215/covers/list@2x.jpg?1739565055"
+            }
+          }
+        },
+        {
+          "ID": 3751526,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 3751526,
+            "DifficultyName": "Despair",
+            "BPM": 200.0,
+            "Length": 216000.0,
+            "StarRating": 6.47,
+            "EndTimeObjectCount": 281,
+            "TotalObjectCount": 1159,
+            "Metadata": {
+              "Title": "Zangeki yo! Unare! Houkou no Gotoku!",
+              "title_unicode": "斬撃よ！唸れ！咆吼の如く！",
+              "Artist": "Denkishiki Karen Ongaku Shuudan",
+              "artist_unicode": "電気式華憐音楽集団",
+              "Author": {
+                "OnlineID": 896613,
+                "Username": "Lasse",
+                "CountryString": "Unknown"
+              },
+              "Source": "メイドさんと大きな剣",
+              "tags": "denkare re:charge recharge japanese rock metal hishiro chizuru amb1d3x maid-san to ookina ken visual novel eroge image song may-be soft",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.6,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1827917/covers/cover@2x.jpg?1697542228",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1827917/covers/card@2x.jpg?1697542228",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1827917/covers/list@2x.jpg?1697542228"
+            }
+          }
+        },
+        {
+          "ID": 3980435,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 3980435,
+            "DifficultyName": "TRYNN4'S 4BSURD",
+            "BPM": 115.0,
+            "Length": 130000.0,
+            "StarRating": 5.87,
+            "EndTimeObjectCount": 343,
+            "TotalObjectCount": 612,
+            "Metadata": {
+              "Title": "CH4NGE feat. KAFU",
+              "title_unicode": "CH4NGE feat. 可不",
+              "Artist": "Giga",
+              "artist_unicode": "Giga",
+              "Author": {
+                "OnlineID": 3453558,
+                "Username": "Roberto",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "trynna edward edu maot gigap electronic japanese change gigap ギガ ギガp normal advanced hard insane expert beast absurd mir jpop j-pop english pop jp",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1752890/covers/cover@2x.jpg?1741623398",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1752890/covers/card@2x.jpg?1741623398",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1752890/covers/list@2x.jpg?1741623398"
+            }
+          }
+        },
+        {
+          "ID": 3648925,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3648925,
+            "DifficultyName": "Lunatic",
+            "BPM": 140.0,
+            "Length": 363000.0,
+            "StarRating": 4.77,
+            "EndTimeObjectCount": 347,
+            "TotalObjectCount": 1335,
+            "Metadata": {
+              "Title": "Requiem For A Nightmare",
+              "title_unicode": "Requiem For A Nightmare",
+              "Artist": "SOUND HOLIC",
+              "artist_unicode": "SOUND HOLIC",
+              "Author": {
+                "OnlineID": 9131844,
+                "Username": "AYE1337",
+                "CountryString": "Unknown"
+              },
+              "Source": "東方紅魔郷　～ the Embodiment of Scarlet Devil.",
+              "tags": "touhou zikee zun trance sound holic meets toho ～東方的紅蓮烈火弾～ electronic instrumental remilia scarlet septette for the dead princess 東方project eosd team shanghai alice th6 霧雨 -kirisame- c90",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1781824/covers/cover@2x.jpg?1656270019",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1781824/covers/card@2x.jpg?1656270019",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1781824/covers/list@2x.jpg?1656270019"
+            }
+          }
+        },
+        {
+          "ID": 140460,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 140460,
+            "DifficultyName": "Insane",
+            "BPM": 87.0,
+            "Length": 302000.0,
+            "StarRating": 4.86,
+            "EndTimeObjectCount": 395,
+            "TotalObjectCount": 896,
+            "Metadata": {
+              "Title": "Alive ~ Alone",
+              "title_unicode": "Alive ∽ Alone",
+              "Artist": "Crest",
+              "artist_unicode": "Crest",
+              "Author": {
+                "OnlineID": 27767,
+                "Username": "happy30",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "yurika yurica hanatan crest core seafh c79 comiket 79 pop japanese jpop j-pop rock jrock j-rock poprock pop-rock 花たん ユリカ jeetsingh track 8 #8 2010 クレスト",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 8.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/44892/covers/cover@2x.jpg?1622053747",
+              "card@2x": "https://assets.ppy.sh/beatmaps/44892/covers/card@2x.jpg?1622053747",
+              "list@2x": "https://assets.ppy.sh/beatmaps/44892/covers/list@2x.jpg?1622053747"
+            }
+          }
+        },
+        {
+          "ID": 55059,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 55059,
+            "DifficultyName": "Insane",
+            "BPM": 160.06,
+            "Length": 168000.0,
+            "StarRating": 4.83,
+            "EndTimeObjectCount": 138,
+            "TotalObjectCount": 474,
+            "Metadata": {
+              "Title": "Thunder Light",
+              "title_unicode": "Thunder Light",
+              "Artist": "Saitama Saisyu Heiki",
+              "artist_unicode": "Saitama Saisyu Heiki",
+              "Author": {
+                "OnlineID": 134572,
+                "Username": "-_Kite_-",
+                "CountryString": "Unknown"
+              },
+              "Source": "Sixty Nine 2",
+              "tags": "ssh original soundtrack game music eroge",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/13103/covers/cover@2x.jpg?1622032361",
+              "card@2x": "https://assets.ppy.sh/beatmaps/13103/covers/card@2x.jpg?1622032361",
+              "list@2x": "https://assets.ppy.sh/beatmaps/13103/covers/list@2x.jpg?1622032361"
+            }
+          }
+        },
+        {
+          "ID": 3299402,
+          "Mods": "FM",
+          "BeatmapInfo": {
+            "OnlineID": 3299402,
+            "DifficultyName": "Vintage",
+            "BPM": 180.0,
+            "Length": 191000.0,
+            "StarRating": 6.05,
+            "EndTimeObjectCount": 169,
+            "TotalObjectCount": 938,
+            "Metadata": {
+              "Title": "Taboo tears you up 2017",
+              "title_unicode": "Taboo tears you up 2017",
+              "Artist": "REDALiCE",
+              "artist_unicode": "REDALiCE",
+              "Author": {
+                "OnlineID": 9119507,
+                "Username": "Dada",
+                "CountryString": "Unknown"
+              },
+              "Source": "東方紅魔郷　～ the Embodiment of Scarlet Devil.",
+              "tags": "alice's emotion flandre scarlet u.n.オーエンは彼女なのか?・東方紅魔郷 un u.n. owen was her? wa kanojo nanoka? touhou project 東方project zun electronic instrumental owc2021qffm2 yokespai ajt nega",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1616043/covers/cover@2x.jpg?1640268022",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1616043/covers/card@2x.jpg?1640268022",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1616043/covers/list@2x.jpg?1640268022"
+            }
+          }
+        },
+        {
+          "ID": 4418140,
+          "Mods": "FM",
+          "BeatmapInfo": {
+            "OnlineID": 4418140,
+            "DifficultyName": "Nightfall",
+            "BPM": 255.0,
+            "Length": 142000.0,
+            "StarRating": 6.75,
+            "EndTimeObjectCount": 225,
+            "TotalObjectCount": 895,
+            "Metadata": {
+              "Title": "Demo Yo Naido",
+              "title_unicode": "Demo Yo Naido",
+              "Artist": "Rory in early 20s",
+              "artist_unicode": "Rory in early 20s",
+              "Author": {
+                "OnlineID": 14758501,
+                "Username": "jellium",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "lolicore breakcore experimental hhm nm5 ro16",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2105657/covers/cover@2x.jpg?1705377630",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2105657/covers/card@2x.jpg?1705377630",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2105657/covers/list@2x.jpg?1705377630"
+            }
+          }
+        },
+        {
+          "ID": 4746474,
+          "Mods": "FM",
+          "BeatmapInfo": {
+            "OnlineID": 4746474,
+            "DifficultyName": "I'm a Fighter !!",
+            "BPM": 125.0,
+            "Length": 131000.0,
+            "StarRating": 6.12,
+            "EndTimeObjectCount": 254,
+            "TotalObjectCount": 588,
+            "Metadata": {
+              "Title": "Love Fighter !!",
+              "title_unicode": "Love Fighter !!",
+              "Artist": "Brandy",
+              "artist_unicode": "Brandy",
+              "Author": {
+                "OnlineID": 9665030,
+                "Username": "bakery",
+                "CountryString": "Unknown"
+              },
+              "Source": "O2Jam",
+              "tags": "",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2234637/covers/cover@2x.jpg?1726443091",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2234637/covers/card@2x.jpg?1726443091",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2234637/covers/list@2x.jpg?1726443091"
+            }
+          }
+        },
+        {
+          "ID": 4799342,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 4799342,
+            "DifficultyName": "Pulsation",
+            "BPM": 166.0,
+            "Length": 685000.0,
+            "StarRating": 6.63,
+            "EndTimeObjectCount": 1069,
+            "TotalObjectCount": 3873,
+            "Metadata": {
+              "Title": "The Blue Sanctuary",
+              "title_unicode": "The Blue Sanctuary",
+              "Artist": "Taishi feat. Mitose Noriko",
+              "artist_unicode": "Taishi feat. みとせのりこ",
+              "Author": {
+                "OnlineID": 6055351,
+                "Username": "gazimal",
+                "CountryString": "Unknown"
+              },
+              "Source": "Missing-X-Link ～天のゆりかご、伽の花～",
+              "tags": "vn electro.muster オリジナルサウンドトラック original soundtrack ost japanese rock jrock j-rock visual novel eroge japanese taishi ten no yurikago togi no hana fluorite digination",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2256020/covers/cover@2x.jpg?1730506617",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2256020/covers/card@2x.jpg?1730506617",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2256020/covers/list@2x.jpg?1730506617"
+            }
+          }
+        }
+      ],
+      "StartDate": "2025-07-04T03:00:00+03:00",
       "Matches": [
         31,
         27,
@@ -1737,7 +2775,7 @@
       "BestOf": 11,
       "BanCount": 1,
       "Beatmaps": [],
-      "StartDate": "2025-07-11T00:00:00+00:00",
+      "StartDate": "2025-07-11T03:00:00+03:00",
       "Matches": [
         3,
         11,
@@ -1763,7 +2801,7 @@
       "BestOf": 11,
       "BanCount": 1,
       "Beatmaps": [],
-      "StartDate": "2025-07-18T00:00:00+00:00",
+      "StartDate": "2025-07-18T03:00:00+03:00",
       "Matches": [
         25,
         7,
@@ -1781,7 +2819,7 @@
       "BestOf": 13,
       "BanCount": 1,
       "Beatmaps": [],
-      "StartDate": "2025-07-25T00:00:00+00:00",
+      "StartDate": "2025-07-25T03:00:00+03:00",
       "Matches": [
         15,
         36,
@@ -1795,7 +2833,7 @@
       "BestOf": 13,
       "BanCount": 1,
       "Beatmaps": [],
-      "StartDate": "2025-08-01T00:00:00+00:00",
+      "StartDate": "2025-08-01T03:00:00+03:00",
       "Matches": [
         16,
         17,
