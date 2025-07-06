@@ -871,14 +871,95 @@
     {
       "ID": 16,
       "Team1Acronym": "ToBy",
-      "Team1Score": null,
+      "Team1Score": 7,
       "Team2Acronym": "Good",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2023-08-28T19:34:14.1586666+01:00",
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4518197
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4521012
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 2385598
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3338782
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4236525
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4113257
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3802256
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3625849
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4493247
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4392958
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4723710
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3664739
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2110050
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3215611
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3333669
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1363025
+        }
+      ],
+      "Current": true,
+      "Date": "2025-01-09T16:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
@@ -889,11 +970,11 @@
         "ToBy",
         "Good"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
       "ID": 21,
+      "Team1Acronym": "ToBy",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -907,7 +988,10 @@
         "X": 2570,
         "Y": 1210
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "ToBy"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
@@ -1705,14 +1789,90 @@
     {
       "ID": 46,
       "Team1Acronym": "bish",
-      "Team1Score": 0,
+      "Team1Score": 4,
       "Team2Acronym": "lets",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 7,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
-      "Current": true,
-      "Date": "2023-08-28T20:15:08.1723018+01:00",
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3215611
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4113257
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4518197
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2385598
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3625849
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4493247
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1363025
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3802256
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3620355
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4236525
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3333669
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4723710
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3664739
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4392958
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2110050
+        }
+      ],
+      "Current": false,
+      "Date": "2025-03-09T16:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
@@ -1728,7 +1888,9 @@
     },
     {
       "ID": 43,
+      "Team1Acronym": "Good",
       "Team1Score": null,
+      "Team2Acronym": "lets",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -1741,7 +1903,11 @@
         "X": 2320,
         "Y": 2200
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "Good",
+        "lets"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 7
     }
   ],
