@@ -1,6 +1,6 @@
 {
-    "current_scene": "STARTING - Match",
-    "current_program_scene": "STARTING - Match",
+    "current_scene": "Gameplay",
+    "current_program_scene": "Gameplay",
     "scene_order": [
         {
             "name": "STARTING - Match"
@@ -659,6 +659,24 @@
                 "tp_type": 1,
                 "transition_point": 120,
                 "path": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/Video/rc2025_stinger.webm"
+            }
+        },
+        {
+            "name": "Stinger - red win",
+            "id": "obs_stinger_transition",
+            "settings": {
+                "path": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/Video/stinger_redwin.webm",
+                "tp_type": 1,
+                "transition_point": 120
+            }
+        },
+        {
+            "name": "Stinger - blue win",
+            "id": "obs_stinger_transition",
+            "settings": {
+                "path": "C:/Users/daohe/AppData/Roaming/osu/tournaments/RESC25/OBS Files/Video/stinger_bluewin.webm",
+                "tp_type": 1,
+                "transition_point": 120
             }
         }
     ],
@@ -1758,16 +1776,16 @@
                 }
             ],
             "saveWindowGeo": false,
-            "windowPosX": 770,
-            "windowPosY": 367,
-            "windowWidth": 1000,
+            "windowPosX": 382,
+            "windowPosY": 376,
+            "windowWidth": 1388,
             "windowHeight": 600,
             "macroListMacroEditSplitterPosition": [
                 {
-                    "pos": 0
+                    "pos": 190
                 },
                 {
-                    "pos": 0
+                    "pos": 1171
                 }
             ],
             "version": "cdacfc946c062982a5e865b9a4f849b5ce2fb05f",
@@ -1804,7 +1822,20 @@
             "source": ""
         },
         "transition-table": {
-            "transitions": [],
+            "transitions": [
+                {
+                    "from_scene": "Any",
+                    "to_scene": "Winner - Blue (ROYALIST)",
+                    "transition": "Stinger - blue win",
+                    "duration": 500
+                },
+                {
+                    "from_scene": "Any",
+                    "to_scene": "Winner - Red (INSURGENT)",
+                    "transition": "Stinger - red win",
+                    "duration": 500
+                }
+            ],
             "enable_hotkey": [],
             "disable_hotkey": []
         },
@@ -2227,7 +2258,7 @@
             "mixers": 255,
             "sync": 0,
             "flags": 0,
-            "volume": 0.0,
+            "volume": 0.12589254975318909,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -2259,7 +2290,7 @@
             "mixers": 255,
             "sync": 0,
             "flags": 0,
-            "volume": 0.10000000149011612,
+            "volume": 0.0,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -6417,7 +6448,10 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {}
+            "private_settings": {
+                "transition": "Stinger - blue win",
+                "transition_duration": 500
+            }
         },
         {
             "prev_ver": 520093699,
@@ -6676,7 +6710,10 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {}
+            "private_settings": {
+                "transition": "Stinger - red win",
+                "transition_duration": 500
+            }
         }
     ]
 }
