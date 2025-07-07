@@ -1071,8 +1071,8 @@
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
-      "Current": false,
-      "Date": "2025-07-08T00:59:00+01:00",
+      "Current": true,
+      "Date": "2025-07-08T01:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
@@ -1169,13 +1169,59 @@
     {
       "ID": 55,
       "Team1Acronym": "MD",
-      "Team1Score": 0,
+      "Team1Score": 2,
       "Team2Acronym": "WA",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
-      "Current": true,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3648925
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4939878
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3967905
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 796161
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4746474
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4418140
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3994347
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 55059
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3980435
+        }
+      ],
+      "Current": false,
       "Date": "2025-07-08T00:00:00+01:00",
       "SyncId": null,
       "ConditionalMatches": [],
@@ -1353,6 +1399,7 @@
       "ID": 53,
       "Team1Acronym": "TN",
       "Team1Score": null,
+      "Team2Acronym": "WA",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -1366,7 +1413,8 @@
         "Y": 2060
       },
       "Acronyms": [
-        "TN"
+        "TN",
+        "WA"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
