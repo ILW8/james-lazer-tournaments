@@ -634,10 +634,10 @@
     {
       "ID": 31,
       "Team1Acronym": "CAR",
-      "Team1Score": null,
+      "Team1Score": 2,
       "Team2Acronym": "CO",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -658,10 +658,10 @@
     {
       "ID": 27,
       "Team1Acronym": "SCAL",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "MN",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -676,19 +676,18 @@
         "SCAL",
         "MN"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 23,
       "Team1Acronym": "TX",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "IL",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
-      "Current": true,
+      "Current": false,
       "Date": "2025-07-06T03:30:00+01:00",
       "SyncId": null,
       "ConditionalMatches": [],
@@ -700,16 +699,15 @@
         "TX",
         "IL"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 19,
       "Team1Acronym": "NY",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "MA",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -724,16 +722,15 @@
         "NY",
         "MA"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 13,
       "Team1Acronym": "NJ",
-      "Team1Score": null,
+      "Team1Score": 1,
       "Team2Acronym": "OR",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -754,10 +751,10 @@
     {
       "ID": 9,
       "Team1Acronym": "VA",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "TN",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -772,7 +769,6 @@
         "VA",
         "TN"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -837,10 +833,10 @@
     {
       "ID": 5,
       "Team1Acronym": "PA",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "NV",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -855,13 +851,13 @@
         "PA",
         "NV"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 3,
       "Team1Acronym": "NCAL",
       "Team1Score": null,
+      "Team2Acronym": "PA",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -875,14 +871,17 @@
         "Y": 50
       },
       "Acronyms": [
-        "NCAL"
+        "NCAL",
+        "PA"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 11,
+      "Team1Acronym": "VA",
       "Team1Score": null,
+      "Team2Acronym": "OR",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -895,12 +894,18 @@
         "X": 340,
         "Y": 450
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "VA",
+        "OR"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 21,
+      "Team1Acronym": "NY",
       "Team1Score": null,
+      "Team2Acronym": "TX",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -913,12 +918,18 @@
         "X": 340,
         "Y": 850
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "NY",
+        "TX"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 29,
+      "Team1Acronym": "SCAL",
       "Team1Score": null,
+      "Team2Acronym": "CO",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -931,7 +942,11 @@
         "X": 340,
         "Y": 1250
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "SCAL",
+        "CO"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -1027,10 +1042,10 @@
     {
       "ID": 39,
       "Team1Acronym": "HI",
-      "Team1Score": null,
+      "Team1Score": 1,
       "Team2Acronym": "KANS",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
@@ -1160,7 +1175,7 @@
       "Completed": false,
       "Losers": true,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2025-07-08T00:00:00+01:00",
       "SyncId": null,
       "ConditionalMatches": [],
@@ -1198,11 +1213,11 @@
     },
     {
       "ID": 61,
-      "Team1Acronym": "FL",
-      "Team1Score": null,
-      "Team2Acronym": "PR",
-      "Team2Score": null,
-      "Completed": false,
+      "Team1Acronym": "PR",
+      "Team1Score": 0,
+      "Team2Acronym": "FL",
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [],
       "Current": false,
@@ -1213,14 +1228,15 @@
         "Y": 2310
       },
       "Acronyms": [
-        "FL",
-        "PR"
+        "PR",
+        "FL"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 40,
+      "Team1Acronym": "IL",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -1234,12 +1250,17 @@
         "X": 170,
         "Y": 1760
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "IL"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 37,
+      "Team1Acronym": "MN",
       "Team1Score": null,
+      "Team2Acronym": "KANS",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -1252,11 +1273,16 @@
         "X": 170,
         "Y": 1660
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "MN",
+        "KANS"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 46,
+      "Team1Acronym": "MA",
       "Team1Score": null,
       "Team2Acronym": "STATE",
       "Team2Score": null,
@@ -1272,8 +1298,10 @@
         "Y": 1860
       },
       "Acronyms": [
+        "MA",
         "STATE"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
@@ -1301,6 +1329,7 @@
       "ID": 33,
       "Team1Acronym": "AZ",
       "Team1Score": null,
+      "Team2Acronym": "CAR",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -1314,13 +1343,15 @@
         "Y": 1560
       },
       "Acronyms": [
-        "AZ"
+        "AZ",
+        "CAR"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 53,
+      "Team1Acronym": "TN",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -1334,11 +1365,15 @@
         "X": 170,
         "Y": 2060
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "TN"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 56,
+      "Team1Acronym": "NV",
       "Team1Score": null,
       "Team2Acronym": "MI",
       "Team2Score": null,
@@ -1354,14 +1389,17 @@
         "Y": 2160
       },
       "Acronyms": [
+        "NV",
         "MI"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
       "ID": 60,
       "Team1Acronym": "OK",
       "Team1Score": null,
+      "Team2Acronym": "FL",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -1375,7 +1413,8 @@
         "Y": 2260
       },
       "Acronyms": [
-        "OK"
+        "OK",
+        "FL"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
