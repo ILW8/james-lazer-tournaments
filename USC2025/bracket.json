@@ -1065,14 +1065,55 @@
     {
       "ID": 42,
       "Team1Acronym": "WI",
-      "Team1Score": null,
+      "Team1Score": 1,
       "Team2Acronym": "CT",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4418140
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3299402
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2564638
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3010492
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3648925
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3967905
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3751526
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3994347
+        }
+      ],
       "Current": true,
-      "Date": "2025-07-08T01:00:00+00:00",
+      "Date": "2025-07-08T02:00:00+01:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
@@ -1284,6 +1325,7 @@
       "ID": 40,
       "Team1Acronym": "IL",
       "Team1Score": null,
+      "Team2Acronym": "CT",
       "Team2Score": null,
       "Completed": false,
       "Losers": true,
@@ -1297,7 +1339,8 @@
         "Y": 1760
       },
       "Acronyms": [
-        "IL"
+        "IL",
+        "CT"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
