@@ -1713,13 +1713,84 @@
     {
       "ID": 19,
       "Team1Acronym": "Godskin Noble",
-      "Team1Score": 0,
+      "Team1Score": 7,
       "Team2Acronym": "decaten",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
-      "Current": true,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4881745
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 3588263
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3082938
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3688602
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4277943
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4284814
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4478633
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4857329
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1921396
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 5249943
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 633375
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4913510
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2444332
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4820520
+        }
+      ],
+      "Current": false,
       "Date": "2025-08-24T02:30:00+01:00",
       "SyncId": null,
       "ConditionalMatches": [],
@@ -1731,18 +1802,18 @@
         "Godskin Noble",
         "decaten"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 7
     },
     {
       "ID": 9,
       "Team1Acronym": "tekkito",
       "Team1Score": null,
+      "Team2Acronym": "Godskin Noble",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2025-08-25T02:00:00+01:00",
       "SyncId": null,
       "ConditionalMatches": [],
@@ -1751,7 +1822,8 @@
         "Y": 360
       },
       "Acronyms": [
-        "tekkito"
+        "tekkito",
+        "Godskin Noble"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 7
