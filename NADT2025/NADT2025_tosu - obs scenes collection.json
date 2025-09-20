@@ -11,10 +11,10 @@
         "mixers": 195,
         "sync": 0,
         "flags": 0,
-        "volume": 1.0,
+        "volume": 0.11269262433052063,
         "balance": 0.5,
         "enabled": true,
-        "muted": false,
+        "muted": true,
         "push-to-mute": false,
         "push-to-mute-delay": 0,
         "push-to-talk": false,
@@ -27,12 +27,15 @@
         },
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
-        "monitoring_type": 0,
+        "monitoring_type": 2,
         "private_settings": {}
     },
     "current_scene": "main",
     "current_program_scene": "main",
     "scene_order": [
+        {
+            "name": "intro"
+        },
         {
             "name": "main"
         },
@@ -83,7 +86,14 @@
             }
         }
     ],
-    "saved_projectors": [],
+    "saved_projectors": [
+        {
+            "monitor": -1,
+            "type": 2,
+            "geometry": "AdnQywADAAAAAAAA////+AAACf8AAAWBAAADeAAAAdkAAAVXAAAC5gAAAAACAAAACgAAAAAAAAAAFwAACf8AAAWB",
+            "alwaysOnTopOverridden": false
+        }
+    ],
     "current_transition": "Luma Wipe",
     "transition_duration": 300,
     "preview_locked": false,
@@ -143,7 +153,7 @@
                         "name": "discord_dsk"
                     }
                 ],
-                "scene": "discord_dsk",
+                "scene": "",
                 "null_hotkey": [],
                 "enable_tie_hotkey": [],
                 "disable_tie_hotkey": [],
@@ -369,7 +379,7 @@
         {
             "prev_ver": 520093699,
             "name": "client1",
-            "uuid": "d611cbcd-318d-44ed-b85c-2006ae73d44f",
+            "uuid": "3b4a183c-85f8-4d9c-b7e1-70655302df9e",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -402,7 +412,7 @@
         {
             "prev_ver": 520093699,
             "name": "client2",
-            "uuid": "3b4a183c-85f8-4d9c-b7e1-70655302df9e",
+            "uuid": "d611cbcd-318d-44ed-b85c-2006ae73d44f",
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
@@ -797,7 +807,7 @@
             "settings": {
                 "width": 480,
                 "height": 100,
-                "css": "/* hide user by ID */\n[data-userid=\"181358896328212480--\"] { display: none; }\n\nbody {\n    --color: #111111;\n    --colorSpeaking: #e96479;\n    --textColorSpeaking: #f4dfc9;\n    --align: flex-start;\n\n    --width: 120px;\n    --height: 88px;\n    --nameHeight: 26px;\n    --fontSize: calc((var(--width) / 100) * 15);\n\n    width: 100%;\n    overflow: hidden;\n}\n\nul {\n    margin-block-start: 0;\n    margin-block-end: 0;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] {\n    opacity: 1 !important;\n    filter: grayscale(0%) !important;\n    outline: none;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] {\n    display: flex;\n    width: 100%;\n    align-items: center;\n    justify-content: var(--align);\n    padding: 0;\n    gap: 0;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] {\n    width: var(--width);\n    height: var(--height);\n    margin-bottom: 0px;\n    background-color: black;\n    position: relative;\n    text-align: center;\n    overflow: hidden;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatar\"] {\n    height: var(--width);\n    width: 100%;\n    border-radius: 0;\n    border-width: 0;\n    opacity: 0.3;\n    filter: grayscale(100%);\n    transform: translateY(-22%);\n    transition: filter 0.1s ease-out, opacity 0.1s ease-out;\n    border: 0;\n}\n\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] {\n    background-color: var(--color);\n    position: absolute;\n    bottom: 0px;\n    padding: 0px;\n    height: var(--nameHeight);\n    width: 100%;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] + [class^=\"Voice_user\"] {\n    background-color: var(--colorSpeaking) !important;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] + [class^=\"Voice_user\"] [class^=\"Voice_name\"] {\n    color: var(--textColorSpeaking) !important;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] [class^=\"Voice_name\"] {\n    font-size: 13px !important;\n    padding: 0px;\n    margin: 0px;\n    height: 0;\n    transform: translateY(2.5px);\n    position: relative;\n    display: inline-block;\n}",
+                "css": "/* hide user by ID */\n[data-userid=\"181358896328212480\"] { display: none; }\n\nbody {\n    --color: #111111;\n    --colorSpeaking: #e96479;\n    --textColorSpeaking: #f4dfc9;\n    --align: flex-start;\n\n    --width: 120px;\n    --height: 88px;\n    --nameHeight: 26px;\n    --fontSize: calc((var(--width) / 100) * 15);\n\n    width: 100%;\n    overflow: hidden;\n}\n\nul {\n    margin-block-start: 0;\n    margin-block-end: 0;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] {\n    opacity: 1 !important;\n    filter: grayscale(0%) !important;\n    outline: none;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] {\n    display: flex;\n    width: 100%;\n    align-items: center;\n    justify-content: var(--align);\n    padding: 0;\n    gap: 0;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] {\n    width: var(--width);\n    height: var(--height);\n    margin-bottom: 0px;\n    background-color: black;\n    position: relative;\n    text-align: center;\n    overflow: hidden;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatar\"] {\n    height: var(--width);\n    width: 100%;\n    border-radius: 0;\n    border-width: 0;\n    opacity: 0.3;\n    filter: grayscale(100%);\n    transform: translateY(-22%);\n    transition: filter 0.1s ease-out, opacity 0.1s ease-out;\n    border: 0;\n}\n\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] {\n    background-color: var(--color);\n    position: absolute;\n    bottom: 0px;\n    padding: 0px;\n    height: var(--nameHeight);\n    width: 100%;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] + [class^=\"Voice_user\"] {\n    background-color: var(--colorSpeaking) !important;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] + [class^=\"Voice_user\"] [class^=\"Voice_name\"] {\n    color: var(--textColorSpeaking) !important;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] [class^=\"Voice_name\"] {\n    font-size: 13px !important;\n    padding: 0px;\n    margin: 0px;\n    height: 0;\n    transform: translateY(2.5px);\n    position: relative;\n    display: inline-block;\n}",
                 "url": "https://streamkit.discord.com/overlay/voice/308852022558588931/1401688475501068469?icon=true&online=true&logo=white&text_color=%23ffffff&text_size=14&text_outline_color=%23000000&text_outline_size=0&text_shadow_color=%23000000&text_shadow_size=0&bg_color=%231e2124&bg_opacity=0.95&bg_shadow_color=%23000000&bg_shadow_size=0&invite_code=&limit_speaking=false&small_avatars=false&hide_names=false&fade_chat=0&streamer_avatar_first=false"
             },
             "mixers": 255,
@@ -851,12 +861,157 @@
         },
         {
             "prev_ver": 520093699,
+            "name": "intro",
+            "uuid": "bd49fa88-5a2a-47ae-b4dd-db708e0519cb",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 2,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Text (GDI+)",
+                        "source_uuid": "41265182-84ce-4d6b-ad02-bf21087e52fe",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 42.0,
+                            "y": 40.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7000000476837158,
+                            "y": -0.92592591047286987
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Text (GDI+) 2",
+                        "source_uuid": "0d7ab7fe-2428-43c0-92e4-ce05bbc8f9c0",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 305.0,
+                            "y": 501.0
+                        },
+                        "pos_rel": {
+                            "x": -1.2129629850387573,
+                            "y": -0.072222232818603516
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093699,
             "name": "main",
             "uuid": "d91c25f3-b0b8-4639-9f2f-c8ba8eda4eb6",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 6,
+                "id_counter": 7,
                 "custom_size": false,
                 "items": [
                     {
@@ -971,7 +1126,7 @@
                     },
                     {
                         "name": "client1",
-                        "source_uuid": "d611cbcd-318d-44ed-b85c-2006ae73d44f",
+                        "source_uuid": "3b4a183c-85f8-4d9c-b7e1-70655302df9e",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -987,15 +1142,15 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 4,
+                        "id": 5,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1117.0,
-                            "y": 45.0
+                            "x": 90.0,
+                            "y": 473.0
                         },
                         "pos_rel": {
-                            "x": 0.2907407283782959,
-                            "y": -0.91666668653488159
+                            "x": -1.6111111640930176,
+                            "y": -0.12407410144805908
                         },
                         "scale": {
                             "x": 1.1883333921432495,
@@ -1026,7 +1181,7 @@
                     },
                     {
                         "name": "client2",
-                        "source_uuid": "3b4a183c-85f8-4d9c-b7e1-70655302df9e",
+                        "source_uuid": "d611cbcd-318d-44ed-b85c-2006ae73d44f",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -1042,15 +1197,15 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 5,
+                        "id": 4,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 90.0,
-                            "y": 473.0
+                            "x": 1117.0,
+                            "y": 45.0
                         },
                         "pos_rel": {
-                            "x": -1.6111111640930176,
-                            "y": -0.12407410144805908
+                            "x": 0.2907407283782959,
+                            "y": -0.91666668653488159
                         },
                         "scale": {
                             "x": 1.1883333921432495,
@@ -1133,6 +1288,61 @@
                             "duration": 0
                         },
                         "private_settings": {}
+                    },
+                    {
+                        "name": "mappool_overlay",
+                        "source_uuid": "1e1ebd09-23a0-44a8-82d5-48f2fcaa3439",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 7,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1080.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": 1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -1153,12 +1363,14 @@
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.6": [],
-                "libobs.hide_scene_item.6": []
+                "libobs.hide_scene_item.6": [],
+                "libobs.show_scene_item.7": [],
+                "libobs.hide_scene_item.7": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1320,6 +1532,104 @@
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
             "private_settings": {}
+        },
+        {
+            "prev_ver": 520093699,
+            "name": "Text (GDI+)",
+            "uuid": "41265182-84ce-4d6b-ad02-bf21087e52fe",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "font": {
+                    "face": "Comic Sans MS",
+                    "style": "Regular",
+                    "size": 256,
+                    "flags": 0
+                },
+                "text": "NADT 2025"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093699,
+            "name": "Text (GDI+) 2",
+            "uuid": "0d7ab7fe-2428-43c0-92e4-ce05bbc8f9c0",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "font": {
+                    "face": "Comic Sans MS",
+                    "style": "Regular",
+                    "size": 192,
+                    "flags": 0
+                },
+                "chatlog": false,
+                "extents": false,
+                "gradient": true,
+                "bk_color": 4288483843,
+                "gradient_color": 4294914360,
+                "bk_opacity": 0,
+                "text": "starting soon            "
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 520093699,
+                    "name": "Scroll",
+                    "uuid": "f660e816-6f53-44e5-a44a-88d673c39359",
+                    "id": "scroll_filter",
+                    "versioned_id": "scroll_filter",
+                    "settings": {
+                        "speed_x": 128.0
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         },
         {
             "prev_ver": 520093699,
