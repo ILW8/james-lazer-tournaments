@@ -3665,7 +3665,7 @@
 											"action": "trigger-hotkey",
 											"instance": "-5Nswgbnc1Je-XlP07UiO",
 											"options": {
-												"id": "Show on DSK 1"
+												"id": "Show on discord dsk"
 											},
 											"delay": 0
 										}
@@ -3726,7 +3726,7 @@
 											"action": "trigger-hotkey",
 											"instance": "-5Nswgbnc1Je-XlP07UiO",
 											"options": {
-												"id": "Hide on DSK 1"
+												"id": "Hide on discord dsk"
 											},
 											"delay": 0
 										}
@@ -20305,7 +20305,7 @@
 							"alignment": "center:center",
 							"pngalignment": "center:center",
 							"color": 16777215,
-							"bgcolor": 0,
+							"bgcolor": 39168,
 							"show_topbar": "default"
 						},
 						"options": {
@@ -20315,18 +20315,16 @@
 						},
 						"feedbacks": [
 							{
-								"id": "BGKHe_QqFVd9up73pp-Zr",
-								"type": "vendorEvent",
+								"id": "mp_Q5JQXL7N737vR9PKXS",
+								"type": "scene_item_active",
 								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
 								"options": {
-									"vendorName": "downstream-keyer",
-									"eventType": "dsk_scene_changed",
-									"eventDataKey": "new_scene",
-									"eventDataValue": "discord dsk (BASE)"
+									"scene": "anyScene",
+									"source": "discord streamkit (hippo cup 7)"
 								},
 								"style": {
-									"color": 16777215,
-									"bgcolor": 52224
+									"color": 4737096,
+									"bgcolor": 0
 								},
 								"isInverted": false
 							}
@@ -20417,6 +20415,50 @@
 					}
 				},
 				"3": {
+					"0": {
+						"type": "button",
+						"style": {
+							"text": "FREEZE GAMEPLAY",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "fr4R9TF1yY8QKEmVCvtVX",
+											"action": "toggle_filter",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "2. gameplay",
+												"all": false,
+												"filter": "",
+												"visible": "toggle"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
 					"1": {
 						"type": "button",
 						"style": {
@@ -20620,68 +20662,6 @@
 							}
 						}
 					},
-					"5": {
-						"type": "button",
-						"style": {
-							"text": "fix audio sync",
-							"textExpression": false,
-							"size": "auto",
-							"png64": null,
-							"alignment": "center:center",
-							"pngalignment": "center:center",
-							"color": 16711680,
-							"bgcolor": 0,
-							"show_topbar": "default"
-						},
-						"options": {
-							"relativeDelay": false,
-							"rotaryActions": false,
-							"stepAutoProgress": true
-						},
-						"feedbacks": [],
-						"steps": {
-							"0": {
-								"action_sets": {
-									"down": [
-										{
-											"id": "7vE0nvGZ_bbQK8arkeR62",
-											"action": "set_audio_monitor",
-											"instance": "-5Nswgbnc1Je-XlP07UiO",
-											"options": {
-												"source": "Desktop Audio",
-												"monitor": "none"
-											},
-											"delay": 0
-										},
-										{
-											"id": "onGHk_bnaLXdSmY9hMFlm",
-											"action": "set_audio_monitor",
-											"instance": "-5Nswgbnc1Je-XlP07UiO",
-											"options": {
-												"source": "Desktop Audio",
-												"monitor": "monitorOnly"
-											},
-											"delay": 500
-										},
-										{
-											"id": "BfI4V1RC4NT1dHBeNEddM",
-											"action": "set_audio_monitor",
-											"instance": "-5Nswgbnc1Je-XlP07UiO",
-											"options": {
-												"source": "Desktop Audio",
-												"monitor": "monitorAndOutput"
-											},
-											"delay": 1000
-										}
-									],
-									"up": []
-								},
-								"options": {
-									"runWhileHeld": []
-								}
-							}
-						}
-					},
 					"6": {
 						"type": "button",
 						"style": {
@@ -20702,18 +20682,16 @@
 						},
 						"feedbacks": [
 							{
-								"id": "QT8FC8opCpiN45hJLAp8i",
-								"type": "vendorEvent",
+								"id": "CA7X1KwNV8XYo5CuKkeY-",
+								"type": "scene_item_active",
 								"instance_id": "-5Nswgbnc1Je-XlP07UiO",
 								"options": {
-									"vendorName": "downstream-keyer",
-									"eventType": "dsk_scene_changed",
-									"eventDataKey": "old_scene",
-									"eventDataValue": "discord dsk (BASE)"
+									"scene": "anyScene",
+									"source": "discord streamkit (hippo cup 7)"
 								},
 								"style": {
 									"color": 16777215,
-									"bgcolor": 52224
+									"bgcolor": 13369344
 								},
 								"isInverted": false
 							}
@@ -20897,6 +20875,68 @@
 												"scene": "3. intermission"
 											},
 											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "fix audio sync",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16711680,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "7vE0nvGZ_bbQK8arkeR62",
+											"action": "set_audio_monitor",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"monitor": "none"
+											},
+											"delay": 0
+										},
+										{
+											"id": "onGHk_bnaLXdSmY9hMFlm",
+											"action": "set_audio_monitor",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"monitor": "monitorOnly"
+											},
+											"delay": 500
+										},
+										{
+											"id": "BfI4V1RC4NT1dHBeNEddM",
+											"action": "set_audio_monitor",
+											"instance": "-5Nswgbnc1Je-XlP07UiO",
+											"options": {
+												"source": "Desktop Audio",
+												"monitor": "monitorAndOutput"
+											},
+											"delay": 1000
 										}
 									],
 									"up": []
@@ -49701,7 +49741,7 @@
 	"surfaceGroups": {
 		"group:A8BvcVbla0naA0rayZVrF": {
 			"name": "My group",
-			"last_page": 15,
+			"last_page": 2,
 			"startup_page": 1,
 			"use_last_page": true
 		}
