@@ -1,0 +1,90 @@
+@import url('../_shared/common.css');
+
+:root {
+  --border-width: 0px;
+  --border-color: none;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  /* overflow-y: hidden; */
+  font-family: 'Neureal';
+}
+
+.main {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: var(--dark);
+  z-index: 0;
+}
+
+/* ------------------ */
+/* MAP INFO CONTAINER */
+/* ------------------ */
+
+.map-info-container {
+  width: 607px;
+  height: 108px;
+  background-image: url('../_shared/assets/map_info_background.png');
+  z-index: 100;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.4));
+}
+
+.map-info-content {
+  --padding: 12px;
+  padding: var(--padding);
+  width: calc(100% - 2 * var(--padding));
+  height: calc(100% - 2 * var(--padding));
+  color: var(--dark);
+  display: flex;
+  justify-content: space-between;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.map-image {
+  --border: 2px;
+  height: calc(100% - 2 * var(--border));
+  aspect-ratio: 1;
+  background-color: #444444;
+  border: var(--border) solid var(--dark);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-position: center;
+}
+
+.map-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.info-title {
+  font-family: 'Neureal Mono';
+  letter-spacing: 2px;
+}
+
+.map-title {
+  font-size: 24px;
+  width: 440px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.map-attributes {
+  font-family: 'Neureal Mono';
+  font-size: 18px;
+}

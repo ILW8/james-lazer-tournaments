@@ -1,0 +1,168 @@
+@import url('../_shared/common.css');
+@import url('../_shared/teams.css');
+
+:root {
+  --border-width: 0px;
+  --border-color: none;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  /* overflow-y: hidden; */
+  font-family: 'Neureal';
+}
+
+.main {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  /* background-image: url('../_shared/assets/background.png'); */
+  /* background-color: var(--light); */
+  overflow: hidden;
+  color: var(--dark);
+  z-index: 0;
+}
+
+/* .main::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('../_shared/assets/front_overlay.png');
+	pointer-events: none;
+	z-index: 100;
+} */
+
+/* .main::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('../_shared/assets/accent_overlay.png');
+	pointer-events: none;
+	z-index: 200;
+} */
+
+.gameplay-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../_shared/assets/middle_background.png');
+  z-index: 10;
+}
+
+.gameplay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mask-image: url('../_shared/assets/middle_mask.png');
+}
+
+.gameplay-content::after {
+  content: '';
+  position: absolute;
+  top: 515px;
+  right: 600px;
+  background-image: url('../_shared/assets/stamp.png');
+  background-position: center;
+  background-size: contain;
+  width: 100px;
+  transform: translateY(-50%);
+  aspect-ratio: 1;
+}
+
+/* ---------------- */
+/* GAMEPLAY CLIENTS */
+/* ---------------- */
+
+.client-template {
+  width: 1440px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  row-gap: 14px;
+}
+
+.team-clients {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  row-gap: 14px;
+  z-index: 100;
+}
+
+.team-clients.red {
+  justify-content: flex-end;
+}
+
+.client {
+  width: 340px;
+  aspect-ratio: 4 / 3;
+  background-color: var(--dark);
+  border-radius: 8px;
+}
+
+/* ---------------- */
+/* SCORE CONTAINERS */
+/* ---------------- */
+
+.team-score-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  padding: 32px 0;
+}
+
+.team-score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Neureal Mono';
+  letter-spacing: -2px;
+}
+
+.team-score.red {
+  color: var(--red);
+}
+
+.team-score.blue {
+  color: var(--blue);
+}
+
+.team-score-bar {
+  height: 32px;
+  min-width: 64px;
+  width: 0;
+  background-color: var(--dark);
+  mask-image: url('../_shared/assets/bar-mask.svg');
+  mask-size: auto 100%;
+  transition: width 300ms linear;
+}
+
+.team-score-bar.red {
+  background-color: var(--red);
+}
+
+.team-score-bar.blue {
+  background-color: var(--blue);
+}

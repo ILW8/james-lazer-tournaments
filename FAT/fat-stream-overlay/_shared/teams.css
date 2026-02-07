@@ -1,0 +1,146 @@
+/* --------------- */
+/* TEAM CONTAINERS */
+/* --------------- */
+
+.teams-container {
+  position: absolute;
+  top: 54px;
+  left: 70px;
+  width: 1656px;
+  height: 922px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.team {
+  --padding: 64px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding);
+  width: calc(100% - 2 * var(--padding));
+}
+
+.team.red {
+  color: var(--red);
+}
+
+.team.blue {
+  flex-direction: column-reverse;
+  color: var(--blue);
+}
+
+.team-middle-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.team-middle-container.blue {
+  align-items: flex-end;
+}
+
+/* ------------------- */
+/* TEAM INFO CONTAINER */
+/* ------------------- */
+
+.team-info-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.team-info-container.blue {
+  flex-direction: column-reverse;
+}
+
+.team-icon {
+  width: 60px;
+  height: 60px;
+  background-color: var(--dark);
+  background-size: cover;
+  background-position: center;
+  border: 2px solid var(--dark);
+  float: left;
+}
+
+.red > .team-icon {
+  border-color: var(--red);
+}
+
+.blue > .team-icon {
+  border-color: var(--blue);
+}
+
+.team-name {
+  font-size: 40px;
+  font-weight: 700;
+  width: 372px;
+  line-height: 0.9;
+  text-shadow:
+    1px 1px 0 white,
+    -1px 1px 0 white,
+    1px -1px 0 white,
+    -1px -1px 0 white,
+    0 0 12px rgba(10, 10, 10, 0.2);
+  /* text-shadow: 0 0 12px rgba(10, 10, 10, 0.2); */
+}
+
+.team-quarter {
+  position: absolute;
+  top: 0;
+  right: -36px;
+  font-size: 140px;
+  font-family: 'Neureal Mono';
+  letter-spacing: -8px;
+  pointer-events: none;
+  user-select: none;
+  white-space: nowrap;
+  z-index: -5;
+}
+
+.blue > .team-quarter {
+  bottom: -112px;
+  top: auto;
+}
+
+.red > .team-quarter {
+  top: -112px;
+}
+
+/* ----------- */
+/* TEAM POINTS */
+/* ----------- */
+
+.team-points {
+  display: flex;
+  gap: 9px;
+}
+
+.team-point {
+  width: 16px;
+  height: 16px;
+  border-radius: 20px;
+  border: 3px solid var(--dark);
+  transition: all 300ms ease;
+}
+
+.red > .team-point {
+  border-color: var(--red);
+}
+
+.blue > .team-point {
+  border-color: var(--blue);
+}
+
+.red > .team-point.filled {
+  background-color: var(--red);
+}
+
+.blue > .team-point.filled {
+  background-color: var(--blue);
+}
