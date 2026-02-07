@@ -38,6 +38,9 @@
         },
         {
             "name": "mappool"
+        },
+        {
+            "name": "discord dsk"
         }
     ],
     "name": "fat",
@@ -481,11 +484,11 @@
                         "id": 21,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 6.103515625e-5,
+                            "x": 0.0,
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": -1.7777776718139648,
+                            "x": -1.7777777910232544,
                             "y": -1.0
                         },
                         "scale": {
@@ -536,11 +539,11 @@
                         "id": 22,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 354.0,
+                            "x": 353.99993896484375,
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": -1.1222221851348877,
+                            "x": -1.1222223043441772,
                             "y": -1.0
                         },
                         "scale": {
@@ -591,11 +594,11 @@
                         "id": 23,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 708.0,
+                            "x": 707.99993896484375,
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": -0.46666666865348816,
+                            "x": -0.46666678786277771,
                             "y": -1.0
                         },
                         "scale": {
@@ -646,11 +649,11 @@
                         "id": 24,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 6.103515625e-5,
+                            "x": 0.0,
                             "y": 268.99996948242188
                         },
                         "pos_rel": {
-                            "x": -1.7777776718139648,
+                            "x": -1.7777777910232544,
                             "y": -0.50185191631317139
                         },
                         "scale": {
@@ -701,11 +704,11 @@
                         "id": 25,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 354.0,
+                            "x": 353.99993896484375,
                             "y": 268.99996948242188
                         },
                         "pos_rel": {
-                            "x": -1.1222221851348877,
+                            "x": -1.1222223043441772,
                             "y": -0.50185191631317139
                         },
                         "scale": {
@@ -756,11 +759,11 @@
                         "id": 26,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 708.0,
+                            "x": 707.99993896484375,
                             "y": 268.99996948242188
                         },
                         "pos_rel": {
-                            "x": -0.46666666865348816,
+                            "x": -0.46666678786277771,
                             "y": -0.50185191631317139
                         },
                         "scale": {
@@ -803,7 +806,20 @@
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
-            "hotkeys": {},
+            "hotkeys": {
+                "libobs.show_scene_item.21": [],
+                "libobs.hide_scene_item.21": [],
+                "libobs.show_scene_item.22": [],
+                "libobs.hide_scene_item.22": [],
+                "libobs.show_scene_item.23": [],
+                "libobs.hide_scene_item.23": [],
+                "libobs.show_scene_item.24": [],
+                "libobs.hide_scene_item.24": [],
+                "libobs.show_scene_item.25": [],
+                "libobs.hide_scene_item.25": [],
+                "libobs.show_scene_item.26": [],
+                "libobs.hide_scene_item.26": []
+            },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -834,7 +850,14 @@
         }
     ],
     "transitions": [],
-    "saved_projectors": [],
+    "saved_projectors": [
+        {
+            "monitor": -1,
+            "type": 3,
+            "geometry": "AdnQywADAAAAAAGRAAAAdgAABx4AAAOzAAABkQAAAJUAAAceAAADswAAAAAAAAAACgAAAAGRAAAAlQAABx4AAAOz",
+            "alwaysOnTopOverridden": false
+        }
+    ],
     "current_transition": "Fade",
     "transition_duration": 300,
     "preview_locked": false,
@@ -1058,14 +1081,18 @@
         "downstream_keyers_channel": 7,
         "downstream_keyers": [
             {
-                "name": "DSK 1",
+                "name": "discord dsk",
                 "transition": "",
                 "transition_duration": 300,
                 "show_transition": "",
                 "show_transition_duration": 300,
                 "hide_transition": "",
                 "hide_transition_duration": 300,
-                "scenes": [],
+                "scenes": [
+                    {
+                        "name": "discord dsk"
+                    }
+                ],
                 "scene": "",
                 "null_hotkey": [],
                 "enable_tie_hotkey": [],
@@ -1157,6 +1184,127 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093699,
+            "name": "discord capture",
+            "uuid": "467663dd-2aa7-4259-92f2-31ef710ffd72",
+            "id": "wasapi_output_capture",
+            "versioned_id": "wasapi_output_capture",
+            "settings": {
+                "device_id": "{0.0.0.00000000}.{2dcdcbb3-12cf-45db-8983-8bf69e7c0b6c}"
+            },
+            "mixers": 197,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093699,
+            "name": "discord dsk",
+            "uuid": "24a7c4f4-67c6-43de-b8b3-f0203dfd8464",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "discord capture",
+                        "source_uuid": "467663dd-2aa7-4259-92f2-31ef710ffd72",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "Show on discord dsk": [],
+                "Hide on discord dsk": []
+            },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -1688,11 +1836,11 @@
                         "id": 27,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 134.0,
+                            "x": 134.00006103515625,
                             "y": 253.0
                         },
                         "pos_rel": {
-                            "x": -1.5296295881271362,
+                            "x": -1.5296294689178467,
                             "y": -0.53148150444030762
                         },
                         "scale": {
@@ -2014,22 +2162,10 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.19": [],
                 "libobs.hide_scene_item.19": [],
-                "libobs.show_scene_item.21": [],
-                "libobs.hide_scene_item.21": [],
-                "libobs.show_scene_item.22": [],
-                "libobs.hide_scene_item.22": [],
-                "libobs.show_scene_item.23": [],
-                "libobs.hide_scene_item.23": [],
-                "libobs.show_scene_item.24": [],
-                "libobs.hide_scene_item.24": [],
-                "libobs.show_scene_item.25": [],
-                "libobs.hide_scene_item.25": [],
-                "libobs.show_scene_item.26": [],
-                "libobs.hide_scene_item.26": [],
-                "libobs.show_scene_item.20": [],
-                "libobs.hide_scene_item.20": [],
                 "libobs.show_scene_item.27": [],
-                "libobs.hide_scene_item.27": []
+                "libobs.hide_scene_item.27": [],
+                "libobs.show_scene_item.20": [],
+                "libobs.hide_scene_item.20": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -2043,11 +2179,11 @@
             "id": "game_capture",
             "versioned_id": "game_capture",
             "settings": {
-                "capture_mode": "window",
                 "window": " Tournament Client 0:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "capture_mode": "window",
                 "priority": 1,
-                "anti_cheat_hook": false,
-                "capture_cursor": false
+                "capture_cursor": false,
+                "anti_cheat_hook": false
             },
             "mixers": 255,
             "sync": 0,
@@ -2108,8 +2244,8 @@
             "id": "game_capture",
             "versioned_id": "game_capture",
             "settings": {
-                "capture_mode": "window",
                 "window": " Tournament Client 1:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "capture_mode": "window",
                 "priority": 1,
                 "capture_cursor": false,
                 "anti_cheat_hook": false
@@ -2173,8 +2309,8 @@
             "id": "game_capture",
             "versioned_id": "game_capture",
             "settings": {
-                "capture_mode": "window",
                 "window": " Tournament Client 2:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "capture_mode": "window",
                 "priority": 1,
                 "capture_cursor": false,
                 "anti_cheat_hook": false
@@ -2238,8 +2374,8 @@
             "id": "game_capture",
             "versioned_id": "game_capture",
             "settings": {
-                "capture_mode": "window",
                 "window": " Tournament Client 3:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "capture_mode": "window",
                 "priority": 1,
                 "capture_cursor": false,
                 "anti_cheat_hook": false
@@ -2303,8 +2439,8 @@
             "id": "game_capture",
             "versioned_id": "game_capture",
             "settings": {
-                "capture_mode": "window",
                 "window": " Tournament Client 4:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "capture_mode": "window",
                 "priority": 1,
                 "capture_cursor": false,
                 "anti_cheat_hook": false
@@ -2368,8 +2504,8 @@
             "id": "game_capture",
             "versioned_id": "game_capture",
             "settings": {
-                "capture_mode": "window",
                 "window": " Tournament Client 5:WindowsForms10.Window.2b.app.0.1ca0192_r8_ad1:osu!.exe",
+                "capture_mode": "window",
                 "priority": 1,
                 "capture_cursor": false,
                 "anti_cheat_hook": false
