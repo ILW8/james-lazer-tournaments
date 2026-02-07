@@ -41,7 +41,7 @@ autoadvance_button.style.backgroundColor = '#fc9f9f'; // default to off
 
 let autoadvance_timer_container = document.getElementById('autoAdvanceTimer');
 let autoadvance_cancel_transition = document.getElementById(
-  'cancelAdvanceButton'
+  'cancelAdvanceButton',
 );
 let autoadvance_timer_label = document.getElementById('autoAdvanceTimerLabel');
 let autoadvance_timer_time = new CountUp('autoAdvanceTimerTime', 10, 0, 1, 10, {
@@ -124,8 +124,8 @@ class Beatmap {
         .addClass('map-image')
         .css(
           'background-image',
-          `url('https://assets.ppy.sh/beatmaps/${this.beatmap.beatmapset_id}/covers/cover.jpg')`
-        )
+          `url('https://assets.ppy.sh/beatmaps/${this.beatmap.beatmapset_id}/covers/cover.jpg')`,
+        ),
     );
 
     const content = $('<div></div>').addClass('map-content');
@@ -145,8 +145,8 @@ class Beatmap {
         .append(
           $('<div></div>')
             .addClass('map-title')
-            .text(`${this.beatmap.artist} - ${this.beatmap.title}`)
-        )
+            .text(`${this.beatmap.artist} - ${this.beatmap.title}`),
+        ),
     );
     const bottom = $('<div></div>').addClass('map-stats-section map-bottom');
     bottom.append(
@@ -155,11 +155,11 @@ class Beatmap {
         .append(
           $('<div></div>')
             .addClass('map-difficulty')
-            .text(this.beatmap.difficulty)
-        )
+            .text(this.beatmap.difficulty),
+        ),
     );
     bottom.append(
-      $('<div></div>').addClass('map-mapper').text(this.beatmap.mapper)
+      $('<div></div>').addClass('map-mapper').text(this.beatmap.mapper),
     );
     stats.append(bottom);
     content.append(stats);
@@ -197,12 +197,12 @@ socket.onmessage = async (event) => {
     if (tempMapID === 0) tempMapID = data.menu.bm.id;
     else {
       tempMapID = data.menu.bm.id;
-      let pickedMap = Array.from(beatmaps).find((b) => b.id === tempMapID);
+      let pickedMap = Array.from(beatmaps).find((b) => Number(b.id) === Number(tempMapID));
       if (pickedMap && enableAutoPick && !selectedMaps.includes(tempMapID))
         pickMap(
           pickedMap,
           currentPicker === 'red' ? redName : blueName,
-          currentPicker
+          currentPicker,
         );
     }
   }
@@ -247,7 +247,7 @@ async function setupBeatmaps() {
     $('#mappool_container').append(
       $('<div></div>')
         .addClass('mod-container')
-        .attr('id', `mod-container-${mod.toLowerCase()}`)
+        .attr('id', `mod-container-${mod.toLowerCase()}`),
     );
   }
 
@@ -301,7 +301,7 @@ const pickMap = (bm, teamName, color) => {
   bm.mod_icon.removeClass('banned');
   bm.blink_overlay.css(
     'animation',
-    'blinker 1s cubic-bezier(.36,.06,.01,.57) 300ms 8, slowPulse 5000ms ease-in-out 8000ms 18'
+    'blinker 1s cubic-bezier(.36,.06,.01,.57) 300ms 8, slowPulse 5000ms ease-in-out 8000ms 18',
   );
   selectedMaps.push(bm.beatmapID);
 
@@ -326,7 +326,7 @@ const pickMap = (bm, teamName, color) => {
         0,
         1,
         pick_to_transition_delay_ms / 1000,
-        { useEasing: false, suffix: 's' }
+        { useEasing: false, suffix: 's' },
       );
       autoadvance_timer_time.start();
       autoadvance_timer_container.style.opacity = '1';
