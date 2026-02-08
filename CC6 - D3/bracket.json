@@ -294,7 +294,7 @@
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2026-02-08T15:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
@@ -551,7 +551,7 @@
           "BeatmapID": 3851543
         }
       ],
-      "Current": true,
+      "Current": false,
       "Date": "2026-02-07T16:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
@@ -568,12 +568,68 @@
     {
       "ID": 25,
       "Team1Acronym": "PIL",
-      "Team1Score": null,
+      "Team1Score": 1,
       "Team2Acronym": ":NA",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 6,
+      "Completed": true,
       "Losers": true,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 5307420
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2948910
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3927817
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 5123812
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3355817
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4368472
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 2088910
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2476151
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3276740
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4104690
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 5434154
+        }
+      ],
       "Current": false,
       "Date": "2026-02-07T23:00:00+00:00",
       "SyncId": null,
@@ -622,7 +678,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2026-02-14T00:13:10.933+00:00",
+      "Date": "2026-02-08T15:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
@@ -638,6 +694,7 @@
     },
     {
       "ID": 28,
+      "Team1Acronym": ":NA",
       "Team1Score": null,
       "Team2Acronym": "ALC",
       "Team2Score": null,
@@ -645,7 +702,7 @@
       "Losers": true,
       "PicksBans": [],
       "Current": false,
-      "Date": "2026-02-14T00:13:10.933+00:00",
+      "Date": "2026-02-08T17:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
@@ -653,8 +710,10 @@
         "Y": 2200
       },
       "Acronyms": [
+        ":NA",
         "ALC"
       ],
+      "WinnerColour": "Blue",
       "PointsToWin": 6
     },
     {
