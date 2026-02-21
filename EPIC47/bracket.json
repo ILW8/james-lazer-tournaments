@@ -7,151 +7,101 @@
   },
   "Matches": [
     {
-      "ID": 5,
-      "Team1Acronym": "QUA",
-      "Team1Score": 0,
-      "Team2Acronym": "",
-      "Team2Score": 0,
-      "Completed": false,
-      "Losers": false,
-      "PicksBans": [],
-      "Current": true,
-      "Date": "2026-02-19T20:59:06.2699604+00:00",
-      "SyncId": null,
-      "ConditionalMatches": [],
-      "Position": {
-        "X": -540,
-        "Y": 200
-      },
-      "Acronyms": [
-        "QUA",
-        ""
-      ],
-      "WinnerColour": "Blue",
-      "PointsToWin": 5
-    },
-    {
-      "ID": 17,
+      "ID": 16,
+      "Team1Acronym": "SINQ",
       "Team1Score": null,
+      "Team2Acronym": "JAKK",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2026-02-20T00:00:00+00:00",
+      "Date": "2026-02-21T13:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
         "X": 360,
         "Y": 700
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "SINQ",
+        "JAKK"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 3,
-      "Team1Score": null,
-      "Team2Score": null,
+      "Team1Acronym": "UMA",
+      "Team1Score": 0,
+      "Team2Acronym": "REIM",
+      "Team2Score": 0,
       "Completed": false,
       "Losers": false,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2026-02-20T00:00:00+00:00",
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 5207531
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 2877185
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 3257371
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1656914
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1582988
+        }
+      ],
+      "Current": true,
+      "Date": "2026-02-21T12:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
         "X": 360,
         "Y": 100
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "UMA",
+        "REIM"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
-      "ID": 6,
+      "ID": 5,
+      "Team1Acronym": "VELC",
       "Team1Score": null,
+      "Team2Acronym": "JOVI",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2026-02-20T00:00:00+00:00",
+      "Date": "2026-02-21T12:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
         "X": 360,
         "Y": 200
       },
-      "Acronyms": [],
-      "PointsToWin": 5
-    },
-    {
-      "ID": 11,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
-      "Losers": false,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2026-02-19T21:10:30.8685549+00:00",
-      "SyncId": null,
-      "ConditionalMatches": [],
-      "Position": {
-        "X": 980,
-        "Y": 420
-      },
-      "Acronyms": []
-    },
-    {
-      "ID": 13,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
-      "Losers": false,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2026-02-20T00:00:00+00:00",
-      "SyncId": null,
-      "ConditionalMatches": [],
-      "Position": {
-        "X": 360,
-        "Y": 500
-      },
-      "Acronyms": [],
-      "PointsToWin": 5
-    },
-    {
-      "ID": 8,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
-      "Losers": false,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2026-02-19T21:10:38.9933884+00:00",
-      "SyncId": null,
-      "ConditionalMatches": [],
-      "Position": {
-        "X": 1040,
-        "Y": 290
-      },
-      "Acronyms": []
-    },
-    {
-      "ID": 9,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
-      "Losers": false,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2026-02-20T00:00:00+00:00",
-      "SyncId": null,
-      "ConditionalMatches": [],
-      "Position": {
-        "X": 360,
-        "Y": 300
-      },
-      "Acronyms": [],
+      "Acronyms": [
+        "VELC",
+        "JOVI"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -162,49 +112,149 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2026-02-20T00:00:00+00:00",
+      "Date": "2026-02-21T18:00:00+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 980,
+        "Y": 420
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 12,
+      "Team1Acronym": "MAHM",
+      "Team1Score": null,
+      "Team2Acronym": "WIGL",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-02-21T13:00:00+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 360,
+        "Y": 500
+      },
+      "Acronyms": [
+        "MAHM",
+        "WIGL"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 7,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-02-21T19:30:00+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1040,
+        "Y": 290
+      },
+      "Acronyms": []
+    },
+    {
+      "ID": 8,
+      "Team1Acronym": "BURN",
+      "Team1Score": null,
+      "Team2Acronym": "LUNA",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-02-21T12:00:00+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 360,
+        "Y": 300
+      },
+      "Acronyms": [
+        "BURN",
+        "LUNA"
+      ],
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
+    },
+    {
+      "ID": 9,
+      "Team1Acronym": "FRED",
+      "Team1Score": null,
+      "Team2Acronym": "DOOM",
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-02-21T13:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
         "X": 360,
         "Y": 400
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "FRED",
+        "DOOM"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
       "ID": 1,
+      "Team1Acronym": "FUDG",
       "Team1Score": null,
+      "Team2Acronym": "NATE",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2026-02-20T00:00:00+00:00",
+      "Date": "2026-02-21T12:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
         "X": 360
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "FUDG",
+        "NATE"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
-      "ID": 15,
+      "ID": 14,
+      "Team1Acronym": "SPAR",
       "Team1Score": null,
+      "Team2Acronym": "MALT",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2026-02-20T00:00:00+00:00",
+      "Date": "2026-02-21T13:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
         "X": 360,
         "Y": 600
       },
-      "Acronyms": [],
+      "Acronyms": [
+        "SPAR",
+        "MALT"
+      ],
+      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -215,7 +265,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2026-02-19T21:31:05.9607045+00:00",
+      "Date": "2026-02-21T14:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
@@ -225,14 +275,14 @@
       "Acronyms": []
     },
     {
-      "ID": 7,
+      "ID": 6,
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2026-02-19T21:31:30.0183758+00:00",
+      "Date": "2026-02-21T14:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
@@ -242,14 +292,14 @@
       "Acronyms": []
     },
     {
-      "ID": 12,
+      "ID": 11,
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2026-02-19T21:31:36.6938338+00:00",
+      "Date": "2026-02-21T15:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
@@ -259,14 +309,14 @@
       "Acronyms": []
     },
     {
-      "ID": 16,
+      "ID": 15,
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2026-02-19T21:31:41.1350592+00:00",
+      "Date": "2026-02-21T15:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
@@ -283,7 +333,7 @@
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2026-02-19T21:31:47.4691551+00:00",
+      "Date": "2026-02-21T16:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
@@ -293,14 +343,14 @@
       "Acronyms": []
     },
     {
-      "ID": 14,
+      "ID": 13,
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
-      "Date": "2026-02-19T21:31:57.0020183+00:00",
+      "Date": "2026-02-21T17:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
@@ -950,14 +1000,14 @@
       ],
       "StartDate": "2026-02-20T00:00:00+00:00",
       "Matches": [
-        17,
+        16,
         3,
-        6,
-        13,
+        5,
+        12,
+        8,
         9,
-        10,
         1,
-        15
+        14
       ]
     },
     {
@@ -1388,9 +1438,7 @@
         }
       ],
       "StartDate": "2026-02-19T20:45:10+00:00",
-      "Matches": [
-        5
-      ]
+      "Matches": []
     }
   ],
   "Teams": [
@@ -1404,88 +1452,223 @@
       "Players": []
     },
     {
-      "FullName": "A1",
-      "FlagName": "",
-      "Acronym": "",
+      "FullName": "fudge",
+      "FlagName": "GB",
+      "Acronym": "FUDG",
       "SeedingResults": [],
-      "Seed": "",
+      "Seed": "1",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "SinqHD",
+      "FlagName": "GB",
+      "Acronym": "SINQ",
+      "SeedingResults": [],
+      "Seed": "2",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Freddie Fazbear",
+      "FlagName": "GB",
+      "Acronym": "FRED",
+      "SeedingResults": [],
+      "Seed": "3",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Burning John",
+      "FlagName": "NL",
+      "Acronym": "BURN",
+      "SeedingResults": [],
+      "Seed": "4",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "velcro_shoes",
+      "FlagName": "GB",
+      "Acronym": "VELC",
+      "SeedingResults": [],
+      "Seed": "5",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Mahmood",
+      "FlagName": "GB",
+      "Acronym": "MAHM",
+      "SeedingResults": [],
+      "Seed": "6",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "SparklyFairy400",
+      "FlagName": "GB",
+      "Acronym": "SPAR",
+      "SeedingResults": [],
+      "Seed": "7",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Umaroth",
+      "FlagName": "GB",
+      "Acronym": "UMA",
+      "SeedingResults": [],
+      "Seed": "8",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Reimu Hakurei",
+      "FlagName": "GB",
+      "Acronym": "REIM",
+      "SeedingResults": [],
+      "Seed": "9",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Malteser",
+      "FlagName": "GB",
+      "Acronym": "MALT",
+      "SeedingResults": [],
+      "Seed": "10",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Wiggler",
+      "FlagName": "GB",
+      "Acronym": "WIGL",
+      "SeedingResults": [],
+      "Seed": "11",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "jovial grape",
+      "FlagName": "GB",
+      "Acronym": "JOVI",
+      "SeedingResults": [],
+      "Seed": "12",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Lunar_",
+      "FlagName": "GB",
+      "Acronym": "LUNA",
+      "SeedingResults": [],
+      "Seed": "13",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Doomsday",
+      "FlagName": "GB",
+      "Acronym": "DOOM",
+      "SeedingResults": [],
+      "Seed": "14",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "jakk",
+      "FlagName": "GB",
+      "Acronym": "JAKK",
+      "SeedingResults": [],
+      "Seed": "15",
+      "LastYearPlacing": 0,
+      "Players": []
+    },
+    {
+      "FullName": "Mahiru-shiina",
+      "FlagName": "GB",
+      "Acronym": "MAHI",
+      "SeedingResults": [],
+      "Seed": "16",
       "LastYearPlacing": 0,
       "Players": []
     }
   ],
   "Progressions": [
     {
-      "SourceID": 17,
-      "TargetID": 16
+      "SourceID": 16,
+      "TargetID": 15
     },
     {
       "SourceID": 3,
       "TargetID": 2
     },
     {
-      "SourceID": 6,
-      "TargetID": 7
+      "SourceID": 5,
+      "TargetID": 6
     },
     {
-      "SourceID": 13,
-      "TargetID": 12
+      "SourceID": 12,
+      "TargetID": 11
+    },
+    {
+      "SourceID": 8,
+      "TargetID": 6
     },
     {
       "SourceID": 9,
-      "TargetID": 7
-    },
-    {
-      "SourceID": 10,
-      "TargetID": 12
+      "TargetID": 11
     },
     {
       "SourceID": 1,
       "TargetID": 2
     },
     {
-      "SourceID": 15,
-      "TargetID": 16
+      "SourceID": 14,
+      "TargetID": 15
     },
     {
       "SourceID": 2,
       "TargetID": 4
     },
     {
-      "SourceID": 7,
+      "SourceID": 6,
       "TargetID": 4
     },
     {
-      "SourceID": 12,
-      "TargetID": 14
+      "SourceID": 11,
+      "TargetID": 13
     },
     {
-      "SourceID": 16,
-      "TargetID": 14
-    },
-    {
-      "SourceID": 4,
-      "TargetID": 8
-    },
-    {
-      "SourceID": 14,
-      "TargetID": 8
+      "SourceID": 15,
+      "TargetID": 13
     },
     {
       "SourceID": 4,
-      "TargetID": 11,
+      "TargetID": 7
+    },
+    {
+      "SourceID": 13,
+      "TargetID": 7
+    },
+    {
+      "SourceID": 4,
+      "TargetID": 10,
       "Losers": true
     },
     {
-      "SourceID": 14,
-      "TargetID": 11,
+      "SourceID": 13,
+      "TargetID": 10,
       "Losers": true
     }
   ],
   "ChromaKeyWidth": 1366,
   "PlayersPerTeam": 4,
-  "AutoProgressScreens": true,
+  "AutoProgressScreens": false,
   "SplitMapPoolByMods": true,
-  "DisplayTeamSeeds": false,
+  "DisplayTeamSeeds": true,
   "AutoSyncSlug": null,
   "AutoSyncEnabled": false
 }
