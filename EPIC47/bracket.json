@@ -33,10 +33,10 @@
     {
       "ID": 3,
       "Team1Acronym": "UMA",
-      "Team1Score": 0,
+      "Team1Score": 2,
       "Team2Acronym": "REIM",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 5,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [
         {
@@ -63,9 +63,39 @@
           "Team": "Red",
           "Type": "Pick",
           "BeatmapID": 1582988
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4453805
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3807210
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 5245954
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1315878
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3622233
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 5045936
         }
       ],
-      "Current": true,
+      "Current": false,
       "Date": "2026-02-21T12:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
@@ -83,10 +113,10 @@
     {
       "ID": 5,
       "Team1Acronym": "VELC",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "JOVI",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 2,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -101,7 +131,6 @@
         "VELC",
         "JOVI"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -130,7 +159,7 @@
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2026-02-21T13:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
@@ -165,10 +194,10 @@
     {
       "ID": 8,
       "Team1Acronym": "BURN",
-      "Team1Score": null,
+      "Team1Score": 5,
       "Team2Acronym": "LUNA",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 1,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -183,7 +212,6 @@
         "BURN",
         "LUNA"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -213,10 +241,10 @@
     {
       "ID": 1,
       "Team1Acronym": "FUDG",
-      "Team1Score": null,
-      "Team2Acronym": "NATE",
-      "Team2Score": null,
-      "Completed": false,
+      "Team1Score": 5,
+      "Team2Acronym": "MAHI",
+      "Team2Score": 0,
+      "Completed": true,
       "Losers": false,
       "PicksBans": [],
       "Current": false,
@@ -228,9 +256,8 @@
       },
       "Acronyms": [
         "FUDG",
-        "NATE"
+        "MAHI"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 5
     },
     {
@@ -259,7 +286,9 @@
     },
     {
       "ID": 2,
+      "Team1Acronym": "FUDG",
       "Team1Score": null,
+      "Team2Acronym": "REIM",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -272,11 +301,17 @@
         "X": 550,
         "Y": 50
       },
-      "Acronyms": []
+      "Acronyms": [
+        "FUDG",
+        "REIM"
+      ],
+      "WinnerColour": "Blue"
     },
     {
       "ID": 6,
+      "Team1Acronym": "VELC",
       "Team1Score": null,
+      "Team2Acronym": "BURN",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -289,7 +324,11 @@
         "X": 550,
         "Y": 250
       },
-      "Acronyms": []
+      "Acronyms": [
+        "VELC",
+        "BURN"
+      ],
+      "WinnerColour": "Blue"
     },
     {
       "ID": 11,
