@@ -207,7 +207,7 @@
           "BeatmapID": 5207531
         }
       ],
-      "Current": true,
+      "Current": false,
       "Date": "2026-02-21T18:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
@@ -247,24 +247,90 @@
     },
     {
       "ID": 7,
-      "Team1Acronym": "FUDG",
-      "Team1Score": null,
-      "Team2Acronym": "FRED",
-      "Team2Score": null,
-      "Completed": false,
+      "Team1Acronym": "FRE",
+      "Team1Score": 2,
+      "Team2Acronym": "FUDG",
+      "Team2Score": 7,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
-      "Current": false,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4453805
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 5207531
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1582988
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4999545
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1029719
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3622233
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1656914
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 5245954
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 5045936
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3807210
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 380625
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2877185
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4491365
+        }
+      ],
+      "Current": true,
       "Date": "2026-02-21T19:30:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
-        "X": 1280,
+        "X": 1340,
         "Y": 260
       },
       "Acronyms": [
-        "FUDG",
-        "FRED"
+        "FRE",
+        "FUDG"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
@@ -4467,7 +4533,16 @@
       "SeedingResults": [],
       "Seed": "1",
       "LastYearPlacing": 0,
-      "Players": []
+      "AverageRank": 123.0,
+      "Players": [
+        {
+          "id": 11592896,
+          "Username": "fudge",
+          "country_code": "GB",
+          "Rank": 123,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/11592896/986f3819effbbbec01c950c75b76e8726ba16849476826b3aa66568695324c87.jpeg"
+        }
+      ]
     },
     {
       "FullName": "SinqHD",
@@ -4479,13 +4554,22 @@
       "Players": []
     },
     {
-      "FullName": "Freddie Fazbear",
+      "FullName": "Freddie Fazbear (Kingling)",
       "FlagName": "GB",
-      "Acronym": "FRED",
+      "Acronym": "FRE",
       "SeedingResults": [],
       "Seed": "3",
       "LastYearPlacing": 0,
-      "Players": []
+      "AverageRank": 827.0,
+      "Players": [
+        {
+          "id": 7010761,
+          "Username": "Freddie Fazbear",
+          "country_code": "GB",
+          "Rank": 827,
+          "CoverUrl": "https://assets.ppy.sh/user-profile-covers/7010761/9ec0e6b5873697156798ca2c5ab53e4354610de700787314488f2dd7a232db47.jpeg"
+        }
+      ]
     },
     {
       "FullName": "Burning John",
