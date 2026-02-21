@@ -134,6 +134,7 @@
     },
     {
       "ID": 10,
+      "Team1Acronym": "BURN",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -147,7 +148,10 @@
         "X": 980,
         "Y": 420
       },
-      "Acronyms": []
+      "Acronyms": [
+        "BURN"
+      ],
+      "WinnerColour": "Blue"
     },
     {
       "ID": 12,
@@ -174,6 +178,7 @@
     },
     {
       "ID": 7,
+      "Team1Acronym": "FUDG",
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -187,7 +192,10 @@
         "X": 1040,
         "Y": 290
       },
-      "Acronyms": []
+      "Acronyms": [
+        "FUDG"
+      ],
+      "WinnerColour": "Blue"
     },
     {
       "ID": 8,
@@ -541,13 +549,79 @@
     {
       "ID": 4,
       "Team1Acronym": "FUDG",
-      "Team1Score": 0,
+      "Team1Score": 6,
       "Team2Acronym": "BURN",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
-      "Current": true,
+      "PicksBans": [
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 5207531
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 4453805
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1315878
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 5245954
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 5045936
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1582988
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3622233
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3807210
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1029719
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1656914
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2877185
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3257371
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 380625
+        }
+      ],
+      "Current": false,
       "Date": "2026-02-21T16:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
@@ -559,7 +633,7 @@
         "FUDG",
         "BURN"
       ],
-      "WinnerColour": "Blue"
+      "PointsToWin": 6
     },
     {
       "ID": 13,
@@ -570,7 +644,7 @@
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2026-02-21T17:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
@@ -582,7 +656,8 @@
         "FRED",
         "SINQ"
       ],
-      "WinnerColour": "Blue"
+      "WinnerColour": "Blue",
+      "PointsToWin": 6
     }
   ],
   "Rounds": [
@@ -1878,6 +1953,649 @@
         6,
         11,
         15
+      ]
+    },
+    {
+      "Name": "Semifinals",
+      "Description": "",
+      "BestOf": 11,
+      "BanCount": 2,
+      "Beatmaps": [
+        {
+          "ID": 4453805,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4453805,
+            "DifficultyName": "Cataclysm",
+            "BPM": 234.0,
+            "Length": 165000.0,
+            "StarRating": 7.29675,
+            "EndTimeObjectCount": 224,
+            "TotalObjectCount": 1312,
+            "Metadata": {
+              "Title": "Apocalypse",
+              "title_unicode": "Apocalypse",
+              "Artist": "Gram vs. Yooh",
+              "artist_unicode": "Gram vs. Yooh",
+              "Author": {
+                "OnlineID": 14758501,
+                "Username": "jellium",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "hardcore electronic instrumental nm5 ppg3 pepega cup 3",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.5,
+              "CircleSize": 3.8,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2119906/covers/cover@2x.jpg?1707759079",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2119906/covers/card@2x.jpg?1707759079",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2119906/covers/list@2x.jpg?1707759079"
+            }
+          }
+        },
+        {
+          "ID": 380625,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 380625,
+            "DifficultyName": "?????",
+            "BPM": 170.0,
+            "Length": 131000.0,
+            "StarRating": 7.3495,
+            "EndTimeObjectCount": 199,
+            "TotalObjectCount": 929,
+            "Metadata": {
+              "Title": "Uranium",
+              "title_unicode": "Uranium",
+              "Artist": "Memme",
+              "artist_unicode": "Memme",
+              "Author": {
+                "OnlineID": 1921587,
+                "Username": "Jemmmmy",
+                "CountryString": "Unknown"
+              },
+              "Source": "O2Jam",
+              "tags": "hybrid electro analog game sound track",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 10.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/155114/covers/cover@2x.jpg?1622072086",
+              "card@2x": "https://assets.ppy.sh/beatmaps/155114/covers/card@2x.jpg?1622072086",
+              "list@2x": "https://assets.ppy.sh/beatmaps/155114/covers/list@2x.jpg?1622072086"
+            }
+          }
+        },
+        {
+          "ID": 3807210,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3807210,
+            "DifficultyName": "ajmosca's Expert",
+            "BPM": 148.0,
+            "Length": 111000.0,
+            "StarRating": 6.56938,
+            "EndTimeObjectCount": 266,
+            "TotalObjectCount": 744,
+            "Metadata": {
+              "Title": "Curiosity",
+              "title_unicode": "Curiosity",
+              "Artist": "Toromaru",
+              "artist_unicode": "とろまる",
+              "Author": {
+                "OnlineID": 13269506,
+                "Username": "SourMongoose",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "electronic instrumental jazz retromgp progressive piano featured artist fa mappers' guild mpg bob ajmosca ajmeowsca",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 3.9,
+              "OverallDifficulty": 8.7,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1809653/covers/cover@2x.jpg?1746208617",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1809653/covers/card@2x.jpg?1746208617",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1809653/covers/list@2x.jpg?1746208617"
+            }
+          }
+        },
+        {
+          "ID": 1315878,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 1315878,
+            "DifficultyName": "neilrianno, the obligation",
+            "BPM": 170.0,
+            "Length": 244000.0,
+            "StarRating": 6.38579,
+            "EndTimeObjectCount": 709,
+            "TotalObjectCount": 913,
+            "Metadata": {
+              "Title": "sha",
+              "title_unicode": "「SHA」",
+              "Artist": "sakuraburst",
+              "artist_unicode": "【sakuraburst】",
+              "Author": {
+                "OnlineID": 5219516,
+                "Username": "Ameth Rianno",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "neilperry experimental anticrystal ep glitch noise orchestral drum & bass dnb electronic instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.7,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/624314/covers/cover@2x.jpg?1631508550",
+              "card@2x": "https://assets.ppy.sh/beatmaps/624314/covers/card@2x.jpg?1631508550",
+              "list@2x": "https://assets.ppy.sh/beatmaps/624314/covers/list@2x.jpg?1631508550"
+            }
+          }
+        },
+        {
+          "ID": 3257371,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3257371,
+            "DifficultyName": "hidden extra.",
+            "BPM": 150.0,
+            "Length": 110000.0,
+            "StarRating": 6.52817,
+            "EndTimeObjectCount": 110,
+            "TotalObjectCount": 629,
+            "Metadata": {
+              "Title": "Period. ~ Seishin no Kousoku to Jiyuu o Tsukamu Jouka (Cut Ver.)",
+              "title_unicode": "Period. ～ 精神ノ拘束ト自由ヲ掴ム浄化 (Cut Ver.)",
+              "Artist": "tsunamix_underground",
+              "artist_unicode": "tsunamix_underground",
+              "Author": {
+                "OnlineID": 5346261,
+                "Username": "bob",
+                "CountryString": "Unknown"
+              },
+              "Source": "東方Project",
+              "tags": "touhou 水斎 -prism- suisai tocd-0035 c-clays 大空魔術　～ magical astronomy zun greenwich in the sky 天空のグリニッジ chai the tea electronic instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 3.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 8.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1594769/covers/cover@2x.jpg?1654808218",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1594769/covers/card@2x.jpg?1654808218",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1594769/covers/list@2x.jpg?1654808218"
+            }
+          }
+        },
+        {
+          "ID": 4999545,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4999545,
+            "DifficultyName": "Extreme",
+            "BPM": 215.0,
+            "Length": 210000.0,
+            "StarRating": 7.00795,
+            "EndTimeObjectCount": 418,
+            "TotalObjectCount": 1113,
+            "Metadata": {
+              "Title": "Always a cycle (Hyper)",
+              "title_unicode": "Always a cycle (Hyper)",
+              "Artist": "Simon Safhalter",
+              "artist_unicode": "Simon Safhalter",
+              "Author": {
+                "OnlineID": 5223028,
+                "Username": "tatemae",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "nattu sherrycherry allihoppa loreley anishina kodoku hyperpop rock dalteramattee english",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.1,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2330718/covers/cover@2x.jpg?1744721557",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2330718/covers/card@2x.jpg?1744721557",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2330718/covers/list@2x.jpg?1744721557"
+            }
+          }
+        },
+        {
+          "ID": 5207531,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 5207531,
+            "DifficultyName": "As Heaven",
+            "BPM": 170.0,
+            "Length": 137000.0,
+            "StarRating": 5.77414,
+            "EndTimeObjectCount": 262,
+            "TotalObjectCount": 773,
+            "Metadata": {
+              "Title": "Angel dust (2016 Radio Mix)",
+              "title_unicode": "Angel dust (2016 Radio Mix)",
+              "Artist": "LV.4",
+              "artist_unicode": "LV.4",
+              "Author": {
+                "OnlineID": 8991722,
+                "Username": "Atipir",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fa featured artist instrumental electronic techno clan2025 d1 hd2 day1 china lan 2025",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.5,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2401426/covers/cover@2x.jpg?1754839854",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2401426/covers/card@2x.jpg?1754839854",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2401426/covers/list@2x.jpg?1754839854"
+            }
+          }
+        },
+        {
+          "ID": 1582988,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 1582988,
+            "DifficultyName": "Expert",
+            "BPM": 180.0,
+            "Length": 149000.0,
+            "StarRating": 6.18961,
+            "EndTimeObjectCount": 167,
+            "TotalObjectCount": 581,
+            "Metadata": {
+              "Title": "La fuite des jours",
+              "title_unicode": "La fuite des jours",
+              "Artist": "Cranky",
+              "artist_unicode": "Cranky",
+              "Author": {
+                "OnlineID": 1052994,
+                "Username": "Milan-",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "featured artist piano 1/3 toybot karen melange de mariage",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.5,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/751932/covers/cover@2x.jpg?1650660826",
+              "card@2x": "https://assets.ppy.sh/beatmaps/751932/covers/card@2x.jpg?1650660826",
+              "list@2x": "https://assets.ppy.sh/beatmaps/751932/covers/list@2x.jpg?1650660826"
+            }
+          }
+        },
+        {
+          "ID": 3622233,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 3622233,
+            "DifficultyName": "Klasse",
+            "BPM": 185.0,
+            "Length": 196000.0,
+            "StarRating": 6.68921,
+            "EndTimeObjectCount": 215,
+            "TotalObjectCount": 933,
+            "Metadata": {
+              "Title": "Karasu",
+              "title_unicode": "鴉",
+              "Artist": "KINEMA106",
+              "artist_unicode": "キネマ106",
+              "Author": {
+                "OnlineID": 5364763,
+                "Username": "Nao Tomori",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "featured artist mappers guild corsace closed 2022 semifinal hr1 cc22 sf japanese rock pop 织布机loom 黒兎ウル kurousagi uru",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.2,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1769486/covers/cover@2x.jpg?1655670712",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1769486/covers/card@2x.jpg?1655670712",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1769486/covers/list@2x.jpg?1655670712"
+            }
+          }
+        },
+        {
+          "ID": 1029719,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 1029719,
+            "DifficultyName": "Ultra",
+            "BPM": 170.0,
+            "Length": 134000.0,
+            "StarRating": 6.08193,
+            "EndTimeObjectCount": 282,
+            "TotalObjectCount": 643,
+            "Metadata": {
+              "Title": "Cherry Blossom",
+              "title_unicode": "Cherry Blossom",
+              "Artist": "Memme",
+              "artist_unicode": "Memme",
+              "Author": {
+                "OnlineID": 2198472,
+                "Username": "Priti",
+                "CountryString": "Unknown"
+              },
+              "Source": "Music & Beat (O2Jam)",
+              "tags": "soundcloud parkmemme electronic bonzi asphyxia karen leader rrtyui",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/442581/covers/cover@2x.jpg?1650639611",
+              "card@2x": "https://assets.ppy.sh/beatmaps/442581/covers/card@2x.jpg?1650639611",
+              "list@2x": "https://assets.ppy.sh/beatmaps/442581/covers/list@2x.jpg?1650639611"
+            }
+          }
+        },
+        {
+          "ID": 5045936,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 5045936,
+            "DifficultyName": "WERF'S EXTRA",
+            "BPM": 146.0,
+            "Length": 119000.0,
+            "StarRating": 6.1099,
+            "EndTimeObjectCount": 367,
+            "TotalObjectCount": 640,
+            "Metadata": {
+              "Title": "MAKE IT FUNKY NOW",
+              "title_unicode": "MAKE IT FUNKY NOW",
+              "Artist": "DOT96",
+              "artist_unicode": "DOT96",
+              "Author": {
+                "OnlineID": 11106929,
+                "Username": "Wispy",
+                "CountryString": "Unknown"
+              },
+              "Source": "BOFU2017 - LEGENDA EST A MYTH -",
+              "tags": "battle waefwerf minuspc -pc maimai でらっくす splash plus fa featured artist mpg mg mappers' guild english electronic ninetysix the bms of fighters ultimate video rhythm game instrumental arcade",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2346448/covers/cover@2x.jpg?1744395136",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2346448/covers/card@2x.jpg?1744395136",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2346448/covers/list@2x.jpg?1744395136"
+            }
+          }
+        },
+        {
+          "ID": 2877185,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 2877185,
+            "DifficultyName": "waiting for answer",
+            "BPM": 182.0,
+            "Length": 172000.0,
+            "StarRating": 5.12981,
+            "EndTimeObjectCount": 222,
+            "TotalObjectCount": 696,
+            "Metadata": {
+              "Title": "Alchemist",
+              "title_unicode": "Alchemist",
+              "Artist": "Good Kid",
+              "artist_unicode": "Good Kid",
+              "Author": {
+                "OnlineID": 7611150,
+                "Username": "SkynightGaming",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "good kid goodkid alchemist jazz band rock blues",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 3.9,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1393795/covers/cover@2x.jpg?1645006735",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1393795/covers/card@2x.jpg?1645006735",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1393795/covers/list@2x.jpg?1645006735"
+            }
+          }
+        },
+        {
+          "ID": 1656914,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 1656914,
+            "DifficultyName": "NeilBot's Insane",
+            "BPM": 174.0,
+            "Length": 247000.0,
+            "StarRating": 4.85032,
+            "EndTimeObjectCount": 390,
+            "TotalObjectCount": 892,
+            "Metadata": {
+              "Title": "Invasion",
+              "title_unicode": "Invasion",
+              "Artist": "Andromedik",
+              "artist_unicode": "Andromedik",
+              "Author": {
+                "OnlineID": 2841009,
+                "Username": "Mirash",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "noffy delis neilperry toybot high tea music mappers' guild featured artist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.5,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/789544/covers/cover@2x.jpg?1650664537",
+              "card@2x": "https://assets.ppy.sh/beatmaps/789544/covers/card@2x.jpg?1650664537",
+              "list@2x": "https://assets.ppy.sh/beatmaps/789544/covers/list@2x.jpg?1650664537"
+            }
+          }
+        },
+        {
+          "ID": 5245954,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 5245954,
+            "DifficultyName": "kowari's Insane",
+            "BPM": 180.0,
+            "Length": 172000.0,
+            "StarRating": 5.13471,
+            "EndTimeObjectCount": 310,
+            "TotalObjectCount": 730,
+            "Metadata": {
+              "Title": "Silver Eclipse",
+              "title_unicode": "Silver Eclipse",
+              "Artist": "ginkiha",
+              "artist_unicode": "ginkiha",
+              "Author": {
+                "OnlineID": 4966334,
+                "Username": "DeviousPanda",
+                "CountryString": "Unknown"
+              },
+              "Source": "China LAN 2025",
+              "tags": "melwoine kevincela -kevincela- kowari bob girltekk alvearia take instrumental electronic clan2025 d1 hd3 hidden day1 fa featured artist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 3.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2414413/covers/cover@2x.jpg?1756473639",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2414413/covers/card@2x.jpg?1756473639",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2414413/covers/list@2x.jpg?1756473639"
+            }
+          }
+        },
+        {
+          "ID": 4491365,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 4491365,
+            "DifficultyName": "Extra",
+            "BPM": 175.0,
+            "Length": 329000.0,
+            "StarRating": 7.22264,
+            "EndTimeObjectCount": 727,
+            "TotalObjectCount": 1650,
+            "Metadata": {
+              "Title": "Clinozoisite",
+              "title_unicode": "Clinozoisite",
+              "Artist": "Ludicin",
+              "artist_unicode": "Ludicin",
+              "Author": {
+                "OnlineID": 4865030,
+                "Username": "Fursum",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "hardcore utopia v 5 electronic instrumental drum'n'bass dnb artcore orchestral experimental j-core uk hardcore tech",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2134656/covers/cover@2x.jpg?1723288300",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2134656/covers/card@2x.jpg?1723288300",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2134656/covers/list@2x.jpg?1723288300"
+            }
+          }
+        }
+      ],
+      "StartDate": "2026-02-21T14:05:28.6777+00:00",
+      "Matches": [
+        4,
+        13
       ]
     },
     {
