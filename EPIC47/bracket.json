@@ -135,12 +135,78 @@
     {
       "ID": 9,
       "Team1Acronym": "BURN",
-      "Team1Score": null,
+      "Team1Score": 3,
       "Team2Acronym": "SINQ",
-      "Team2Score": null,
-      "Completed": false,
+      "Team2Score": 6,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 1029719
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4453805
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 1656914
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4999545
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3257371
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 5245954
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2877185
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3622233
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3807210
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1315878
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 1582988
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 5045936
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 5207531
+        }
+      ],
       "Current": true,
       "Date": "2026-02-21T18:00:00+00:00",
       "SyncId": null,
