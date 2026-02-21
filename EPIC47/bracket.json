@@ -136,11 +136,12 @@
       "ID": 9,
       "Team1Acronym": "BURN",
       "Team1Score": null,
+      "Team2Acronym": "SINQ",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
       "PicksBans": [],
-      "Current": false,
+      "Current": true,
       "Date": "2026-02-21T18:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
@@ -149,7 +150,8 @@
         "Y": 380
       },
       "Acronyms": [
-        "BURN"
+        "BURN",
+        "SINQ"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
@@ -181,6 +183,7 @@
       "ID": 7,
       "Team1Acronym": "FUDG",
       "Team1Score": null,
+      "Team2Acronym": "FRED",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -194,7 +197,8 @@
         "Y": 260
       },
       "Acronyms": [
-        "FUDG"
+        "FUDG",
+        "FRED"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 6
@@ -640,13 +644,79 @@
     {
       "ID": 13,
       "Team1Acronym": "FRED",
-      "Team1Score": 0,
+      "Team1Score": 6,
       "Team2Acronym": "SINQ",
-      "Team2Score": 0,
-      "Completed": false,
+      "Team2Score": 3,
+      "Completed": true,
       "Losers": false,
-      "PicksBans": [],
-      "Current": true,
+      "PicksBans": [
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 1656914
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 4453805
+        },
+        {
+          "Team": "Blue",
+          "Type": "Ban",
+          "BeatmapID": 5207531
+        },
+        {
+          "Team": "Red",
+          "Type": "Ban",
+          "BeatmapID": 1582988
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4999545
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1029719
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3807210
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 5245954
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2877185
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 5045936
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 380625
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 1315878
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 3622233
+        }
+      ],
+      "Current": false,
       "Date": "2026-02-21T17:00:00+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
@@ -658,7 +728,6 @@
         "FRED",
         "SINQ"
       ],
-      "WinnerColour": "Blue",
       "PointsToWin": 6
     }
   ],
