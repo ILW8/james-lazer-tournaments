@@ -1,2 +1,11 @@
 ﻿if WinExist("Multiview (Windowed)")
-    WinActivate ; Use the window found by WinExist.
+{
+    WinActivate
+	Exit
+}
+
+if WinExist("Projector - Multiview") ; OBS 32 has changed window titles
+{
+    WinActivate
+	Exit
+}

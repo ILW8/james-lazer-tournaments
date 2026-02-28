@@ -4,8 +4,22 @@
 	Exit ;
 }
 
+if WinExist("Projector - Program")
+{
+	WinActivate
+	Exit
+}
+
 SetTitleMatchMode "RegEx" ;
 
 if WinExist("Windowed Projector.*")
-	WinActivate ;
+{
+	WinActivate
+	Exit
+}
 
+if WinExist("Projector - .*")
+{
+	WinActivate
+	Exit
+}
