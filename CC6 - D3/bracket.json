@@ -360,6 +360,7 @@
       "ID": 11,
       "Team1Acronym": "DIV",
       "Team1Score": null,
+      "Team2Acronym": ":NA",
       "Team2Score": null,
       "Completed": false,
       "Losers": false,
@@ -373,7 +374,8 @@
         "Y": 1210
       },
       "Acronyms": [
-        "DIV"
+        "DIV",
+        ":NA"
       ],
       "WinnerColour": "Blue",
       "PointsToWin": 7
@@ -798,10 +800,10 @@
     {
       "ID": 24,
       "Team1Acronym": "NAT",
-      "Team1Score": 0,
+      "Team1Score": 3,
       "Team2Acronym": ":NA",
-      "Team2Score": 1,
-      "Completed": false,
+      "Team2Score": 7,
+      "Completed": true,
       "Losers": true,
       "PicksBans": [
         {
@@ -833,6 +835,46 @@
           "Team": "Blue",
           "Type": "Pick",
           "BeatmapID": 4074534
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3890660
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 255700
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3333669
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 2770057
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 3793473
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4634772
+        },
+        {
+          "Team": "Red",
+          "Type": "Pick",
+          "BeatmapID": 4928251
+        },
+        {
+          "Team": "Blue",
+          "Type": "Pick",
+          "BeatmapID": 4805574
         }
       ],
       "Current": true,
