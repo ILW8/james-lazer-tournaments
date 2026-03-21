@@ -31,7 +31,7 @@
         "private_settings": {}
     },
     "current_scene": "intro",
-    "current_program_scene": "gameplay",
+    "current_program_scene": "intro",
     "scene_order": [
         {
             "name": "intro"
@@ -905,14 +905,14 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": [],
-                "Show on DSK 1": [],
-                "Hide on DSK 1": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.6": [],
-                "libobs.hide_scene_item.6": []
+                "libobs.hide_scene_item.6": [],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": [],
+                "Show on DSK 1": [],
+                "Hide on DSK 1": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1022,7 +1022,7 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
-                            "y": 203.0
+                            "y": 156.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1061,7 +1061,7 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 480.0,
-                            "y": 203.0
+                            "y": 156.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1100,7 +1100,7 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
-                            "y": 563.0
+                            "y": 516.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1139,7 +1139,7 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 480.0,
-                            "y": 563.0
+                            "y": 516.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1178,7 +1178,7 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 960.0,
-                            "y": 203.0
+                            "y": 156.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1217,7 +1217,7 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 1440.0,
-                            "y": 203.0
+                            "y": 156.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1256,7 +1256,7 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 960.0,
-                            "y": 563.0
+                            "y": 516.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1295,7 +1295,7 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 1440.0,
-                            "y": 563.0
+                            "y": 516.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -1344,7 +1344,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
-                        "scale_filter": "disable",
+                        "scale_filter": "point",
                         "blend_method": "default",
                         "blend_type": "normal",
                         "show_transition": {
@@ -1879,9 +1879,9 @@
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
+                "url": "https://streamkit.discord.com/overlay/voice/1151941451341631491/1151941452344074424?icon=true&online=true&logo=white&text_color=%23ffffff&text_size=14&text_outline_color=%23000000&text_outline_size=0&text_shadow_color=%23000000&text_shadow_size=0&bg_color=%231e2124&bg_opacity=0.95&bg_shadow_color=%23000000&bg_shadow_size=0&invite_code=&limit_speaking=false&small_avatars=false&hide_names=false&fade_chat=0&streamer_avatar_first=false",
                 "width": 1000,
                 "height": 200,
-                "url": "https://streamkit.discord.com/overlay/voice/1151941451341631491/1151941452344074424?icon=true&online=true&logo=white&text_color=%23ffffff&text_size=14&text_outline_color=%23000000&text_outline_size=0&text_shadow_color=%23000000&text_shadow_size=0&bg_color=%231e2124&bg_opacity=0.95&bg_shadow_color=%23000000&bg_shadow_size=0&invite_code=&limit_speaking=false&small_avatars=false&hide_names=false&fade_chat=0&streamer_avatar_first=false",
                 "css": "\n[data-userid=\"258502759018397696_\"] { display: none; } \n[data-userid=\"181358896328212480_\"] { display: none; } \n/*[data-userid=\"192493502494408705\"] { display: none; } */\nbody {\n    --width: 114;\n\n    --widthPX: calc(var(--width) * 1px);\n    --height: 100px;\n    --nameHeight: 26px;\n    --fontSize: calc((var(--widthPX) / 100) * 15);\n\n    width: 100%;\n    overflow: hidden;\n}\n\nul {\n    margin-block-start: 0;\n    margin-block-end: 0;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatarSpeaking\"] {\n    opacity: 1 !important;\n    filter: grayscale(0%) !important;\n    outline-offset: calc(var(--widthPX) / 20 * -1);\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] {\n    display: flex;\n    align-items: center;\n    justify-content: flex-end;\n    padding: 0;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] {\n    width: var(--widthPX);\n    height: var(--height);\n    margin-left: 8px;\n    background-color: black;\n    position: relative;\n    text-align: center;\n    overflow: hidden;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class*=\"Voice_avatar\"] {\n    height: var(--widthPX);\n    width: 100%;\n    border-radius: 0;\n    border-width: 0;\n    opacity: 0.3;\n    filter: grayscale(100%);\n    transform: translateY(-15%);\n    transition: filter 0.1s ease-out, opacity 0.1s ease-out;\n    border: 0;\n}\n\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] {\n    background-color: #1e2124;\n    position: absolute;\n    bottom: 0px;\n    padding: 0px;\n    height: var(--nameHeight);\n    width: 100%;\n}\n\n[class^=\"Voice_voiceContainer\"] [class^=\"Voice_voiceStates\"] [class^=\"Voice_voiceState\"] [class^=\"Voice_user\"] [class^=\"Voice_name\"] {\n    font-size: 13px !important;\n    background-color: red !important;\n    padding: 0px;\n    margin: 0px;\n    height: 0;\n    transform: translateY(2.5px);\n    position: relative;\n    display: inline-block;\n}"
             },
             "mixers": 255,
