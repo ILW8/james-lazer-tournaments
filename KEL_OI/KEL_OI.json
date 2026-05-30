@@ -11,7 +11,7 @@
         "mixers": 255,
         "sync": 0,
         "flags": 0,
-        "volume": 0.05623413249850273,
+        "volume": 9.999999747378752e-6,
         "balance": 0.5,
         "enabled": true,
         "muted": false,
@@ -30,39 +30,8 @@
         "monitoring_type": 2,
         "private_settings": {}
     },
-    "DesktopAudioDevice2": {
-        "prev_ver": 536870916,
-        "name": "discord",
-        "uuid": "bd807692-98e3-4f03-90aa-bbd32fceb33a",
-        "id": "wasapi_output_capture",
-        "versioned_id": "wasapi_output_capture",
-        "settings": {
-            "device_id": "{0.0.0.00000000}.{2dcdcbb3-12cf-45db-8983-8bf69e7c0b6c}"
-        },
-        "mixers": 255,
-        "sync": 0,
-        "flags": 0,
-        "volume": 9.999999747378752e-6,
-        "balance": 0.5,
-        "enabled": true,
-        "muted": false,
-        "push-to-mute": false,
-        "push-to-mute-delay": 0,
-        "push-to-talk": false,
-        "push-to-talk-delay": 0,
-        "hotkeys": {
-            "libobs.mute": [],
-            "libobs.unmute": [],
-            "libobs.push-to-mute": [],
-            "libobs.push-to-talk": []
-        },
-        "deinterlace_mode": 0,
-        "deinterlace_field_order": 0,
-        "monitoring_type": 0,
-        "private_settings": {}
-    },
-    "current_scene": "gameplay",
-    "current_program_scene": "gameplay",
+    "current_scene": "__discord_dsk",
+    "current_program_scene": "starting soon",
     "scene_order": [
         {
             "name": "starting soon"
@@ -81,6 +50,9 @@
         },
         {
             "name": "winner"
+        },
+        {
+            "name": "__discord_dsk"
         }
     ],
     "name": "KEL OI",
@@ -272,7 +244,7 @@
     "transition_duration": 1000,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -3,
+    "scaling_level": -12,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
@@ -284,20 +256,20 @@
             "sceneGroups": [],
             "macros": [
                 {
-                    "name": "audio 1",
+                    "name": "set audio to level (ws)",
                     "group": false,
                     "pauseSaveBehavior": 0,
                     "pause": false,
                     "parallel": false,
                     "checkConditionsInParallel": false,
-                    "onChange": false,
+                    "onChange": true,
                     "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
+                    "stopActionsIfNotDone": true,
                     "useShortCircuitEvaluation": false,
                     "useCustomConditionCheckInterval": false,
                     "customConditionCheckInterval": {
                         "value": {
-                            "value": 0.3,
+                            "value": 0.0,
                             "type": 0
                         },
                         "unit": 0,
@@ -316,7 +288,7 @@
                         "unpauseButtonText": "Unpause",
                         "conditionsTrueStatusText": "Conditions are true.",
                         "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-00a6528d-7e19-4373-90c1-79e23fd70024",
+                        "dockId": "ADVSS-set audio to level (ws)",
                         "version": 1
                     },
                     "macroActionConditionSplitterPosition": [
@@ -345,10 +317,10 @@
                                 "collapsed": false,
                                 "useCustomLabel": false,
                                 "customLabel": "My label",
-                                "enabled": true,
+                                "enabled": false,
                                 "version": 1
                             },
-                            "id": "scene",
+                            "id": "websocket",
                             "logic": 0,
                             "durationModifier": {
                                 "time_constraint": 0,
@@ -361,19 +333,15 @@
                                     "version": 1
                                 }
                             },
-                            "sceneSelection": {
-                                "type": 0,
-                                "name": "gameplay",
-                                "canvasSelection": "Main"
-                            },
-                            "type": 10,
-                            "pattern": ".*Scene.*",
-                            "useTransitionTargetScene": true,
+                            "type": 0,
+                            "message": "-?\\d+",
                             "regexConfig": {
                                 "enable": true,
                                 "partial": false,
-                                "options": 0
+                                "options": 8
                             },
+                            "connection": "Invalid connection selection",
+                            "clearBufferOnMatch": true,
                             "version": 1
                         }
                     ],
@@ -386,51 +354,87 @@
                                 "enabled": true,
                                 "version": 1
                             },
-                            "id": "audio",
-                            "duration": {
-                                "value": {
-                                    "value": 1.4,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "audioSource": {
-                                "type": 0,
-                                "name": "music"
-                            },
-                            "action": 2,
-                            "monitor": 0,
-                            "syncOffset": {
-                                "value": 0,
+                            "id": "variable",
+                            "variableName": "audio level",
+                            "variable2Name": "Invalid variable selection",
+                            "strValue": "",
+                            "numValue": {
+                                "value": 0.0,
                                 "type": 0
                             },
-                            "balance": {
-                                "value": 0.5,
-                                "type": 0
-                            },
-                            "track": {
+                            "condition": 16,
+                            "segmentIdx": -1,
+                            "subStringStart": {
                                 "value": 1,
                                 "type": 0
                             },
-                            "volume": {
+                            "subStringSize": {
                                 "value": 0,
                                 "type": 0
                             },
-                            "rate": {
-                                "value": 100.0,
+                            "regexPattern": ".*",
+                            "regexMatchIdx": {
+                                "value": 1,
                                 "type": 0
                             },
-                            "fade": true,
-                            "fadeType": 0,
-                            "wait": false,
-                            "abortActiveFade": false,
-                            "useDb": true,
-                            "volumeDB": {
-                                "value": -100.0,
+                            "findRegex": {
+                                "enable": false,
+                                "partial": false,
+                                "options": 0
+                            },
+                            "findStr": "Text to find",
+                            "replaceStr": "Text to replace with",
+                            "regexConfig": {
+                                "enable": false,
+                                "partial": true,
+                                "options": 0
+                            },
+                            "mathExpression": "( 1 + 2 * 3 ) / 4",
+                            "useCustomPrompt": false,
+                            "inputPrompt": "Assign value to variable:",
+                            "useInputPlaceholder": false,
+                            "inputPlaceholder": "--enter text--",
+                            "environmentVariableName": "USERPROFILE",
+                            "sceneSelection": {
+                                "type": 0,
+                                "name": "",
+                                "canvasSelection": "Main"
+                            },
+                            "tempVar": {
+                                "type": 1,
+                                "idx": 0,
+                                "id": "message",
+                                "depth": 0,
+                                "version": 1
+                            },
+                            "sceneItemIndex": {
+                                "value": 1,
                                 "type": 0
                             },
-                            "version": 3
+                            "direction": 0,
+                            "stringLength": {
+                                "value": 1,
+                                "type": 0
+                            },
+                            "paddingChar": 48,
+                            "caseType": 0,
+                            "randomNumberStart": {
+                                "value": 0.0,
+                                "type": 0
+                            },
+                            "randomNumberEnd": {
+                                "value": 0.0,
+                                "type": 0
+                            },
+                            "generateInteger": false,
+                            "randomValues": [],
+                            "allowRepeatValues": false,
+                            "jsonQuery": "",
+                            "jsonIndex": {
+                                "value": 0,
+                                "type": 0
+                            },
+                            "version": 1
                         },
                         {
                             "segmentSettings": {
@@ -443,7 +447,7 @@
                             "id": "audio",
                             "duration": {
                                 "value": {
-                                    "value": 1.4,
+                                    "value": 3.0,
                                     "type": 0
                                 },
                                 "unit": 0,
@@ -469,7 +473,8 @@
                             },
                             "volume": {
                                 "value": 0,
-                                "type": 0
+                                "variable": "audio level",
+                                "type": 1
                             },
                             "rate": {
                                 "value": 100.0,
@@ -478,11 +483,12 @@
                             "fade": true,
                             "fadeType": 0,
                             "wait": false,
-                            "abortActiveFade": false,
+                            "abortActiveFade": true,
                             "useDb": true,
                             "volumeDB": {
-                                "value": -25.0,
-                                "type": 0
+                                "value": 0.0,
+                                "variable": "audio level",
+                                "type": 1
                             },
                             "version": 3
                         }
@@ -491,13 +497,13 @@
                     "inputVariables": []
                 },
                 {
-                    "name": "audio 2",
+                    "name": "fade out music",
                     "group": false,
                     "pauseSaveBehavior": 0,
                     "pause": false,
                     "parallel": false,
                     "checkConditionsInParallel": false,
-                    "onChange": false,
+                    "onChange": true,
                     "skipExecOnStart": false,
                     "stopActionsIfNotDone": false,
                     "useShortCircuitEvaluation": false,
@@ -523,7 +529,7 @@
                         "unpauseButtonText": "Unpause",
                         "conditionsTrueStatusText": "Conditions are true.",
                         "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-1f9e8143-9a5f-4850-bf2c-933caf0b5240",
+                        "dockId": "advss-macro-dock-583631e9-ee19-480c-ba9b-7d4054916282",
                         "version": 1
                     },
                     "macroActionConditionSplitterPosition": [
@@ -555,7 +561,7 @@
                                 "enabled": true,
                                 "version": 1
                             },
-                            "id": "scene",
+                            "id": "websocket",
                             "logic": 0,
                             "durationModifier": {
                                 "time_constraint": 0,
@@ -568,19 +574,15 @@
                                     "version": 1
                                 }
                             },
-                            "sceneSelection": {
-                                "type": 0,
-                                "name": "mappool",
-                                "canvasSelection": "Main"
-                            },
-                            "type": 10,
-                            "pattern": ".*Scene.*",
-                            "useTransitionTargetScene": true,
+                            "type": 0,
+                            "message": "fade out",
                             "regexConfig": {
-                                "enable": true,
+                                "enable": false,
                                 "partial": false,
                                 "options": 0
                             },
+                            "connection": "Invalid connection selection",
+                            "clearBufferOnMatch": true,
                             "version": 1
                         }
                     ],
@@ -596,61 +598,7 @@
                             "id": "audio",
                             "duration": {
                                 "value": {
-                                    "value": 1.4,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "audioSource": {
-                                "type": 0,
-                                "name": "Desktop Audio"
-                            },
-                            "action": 2,
-                            "monitor": 0,
-                            "syncOffset": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "balance": {
-                                "value": 0.5,
-                                "type": 0
-                            },
-                            "track": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "volume": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "rate": {
-                                "value": 100.0,
-                                "type": 0
-                            },
-                            "fade": true,
-                            "fadeType": 0,
-                            "wait": false,
-                            "abortActiveFade": false,
-                            "useDb": true,
-                            "volumeDB": {
-                                "value": -100.0,
-                                "type": 0
-                            },
-                            "version": 3
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "audio",
-                            "duration": {
-                                "value": {
-                                    "value": 1.4,
+                                    "value": 2.0,
                                     "type": 0
                                 },
                                 "unit": 0,
@@ -685,269 +633,8 @@
                             "fade": true,
                             "fadeType": 0,
                             "wait": false,
-                            "abortActiveFade": false,
-                            "useDb": true,
-                            "volumeDB": {
-                                "value": -25.0,
-                                "type": 0
-                            },
-                            "version": 3
-                        }
-                    ],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "audio 3",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": false,
-                    "checkConditionsInParallel": false,
-                    "onChange": false,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "standaloneDock": true,
-                        "dockWindow": "Dock",
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-4bd8ab08-6c62-4e8c-9f96-22f969aae316",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 192
-                        },
-                        {
-                            "pos": 191
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 159
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "scene",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "sceneSelection": {
-                                "type": 0,
-                                "name": "intermission",
-                                "canvasSelection": "Main"
-                            },
-                            "type": 10,
-                            "pattern": ".*Scene.*",
-                            "useTransitionTargetScene": true,
-                            "regexConfig": {
-                                "enable": true,
-                                "partial": false,
-                                "options": 0
-                            },
-                            "version": 1
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "audio",
-                            "duration": {
-                                "value": {
-                                    "value": 1.4,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "audioSource": {
-                                "type": 0,
-                                "name": "music"
-                            },
-                            "action": 2,
-                            "monitor": 0,
-                            "syncOffset": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "balance": {
-                                "value": 0.5,
-                                "type": 0
-                            },
-                            "track": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "volume": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "rate": {
-                                "value": 100.0,
-                                "type": 0
-                            },
-                            "fade": true,
-                            "fadeType": 0,
-                            "wait": false,
-                            "abortActiveFade": false,
-                            "useDb": true,
-                            "volumeDB": {
-                                "value": -25.0,
-                                "type": 0
-                            },
-                            "version": 3
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "audio",
-                            "duration": {
-                                "value": {
-                                    "value": 1.4,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "audioSource": {
-                                "type": 0,
-                                "name": "Desktop Audio"
-                            },
-                            "action": 2,
-                            "monitor": 0,
-                            "syncOffset": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "balance": {
-                                "value": 0.5,
-                                "type": 0
-                            },
-                            "track": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "volume": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "rate": {
-                                "value": 100.0,
-                                "type": 0
-                            },
-                            "fade": true,
-                            "fadeType": 0,
-                            "wait": false,
-                            "abortActiveFade": false,
-                            "useDb": true,
-                            "volumeDB": {
-                                "value": -100.0,
-                                "type": 0
-                            },
-                            "version": 3
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "audio",
-                            "duration": {
-                                "value": {
-                                    "value": 1.4,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "audioSource": {
-                                "type": 0,
-                                "name": "discord"
-                            },
-                            "action": 2,
-                            "monitor": 0,
-                            "syncOffset": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "balance": {
-                                "value": 0.5,
-                                "type": 0
-                            },
-                            "track": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "volume": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "rate": {
-                                "value": 100.0,
-                                "type": 0
-                            },
-                            "fade": true,
-                            "fadeType": 0,
-                            "wait": false,
-                            "abortActiveFade": false,
-                            "useDb": true,
+                            "abortActiveFade": true,
+                            "useDb": false,
                             "volumeDB": {
                                 "value": 0.0,
                                 "type": 0
@@ -959,13 +646,13 @@
                     "inputVariables": []
                 },
                 {
-                    "name": "audio 4",
+                    "name": "fade in music",
                     "group": false,
                     "pauseSaveBehavior": 0,
                     "pause": false,
                     "parallel": false,
                     "checkConditionsInParallel": false,
-                    "onChange": false,
+                    "onChange": true,
                     "skipExecOnStart": false,
                     "stopActionsIfNotDone": false,
                     "useShortCircuitEvaluation": false,
@@ -991,7 +678,7 @@
                         "unpauseButtonText": "Unpause",
                         "conditionsTrueStatusText": "Conditions are true.",
                         "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-1542c3e6-804e-4d72-9512-f5c473bf87cb",
+                        "dockId": "advss-macro-dock-70255cda-d8fc-4bef-8b91-dbfa329a10e8",
                         "version": 1
                     },
                     "macroActionConditionSplitterPosition": [
@@ -1023,7 +710,7 @@
                                 "enabled": true,
                                 "version": 1
                             },
-                            "id": "scene",
+                            "id": "websocket",
                             "logic": 0,
                             "durationModifier": {
                                 "time_constraint": 0,
@@ -1036,19 +723,15 @@
                                     "version": 1
                                 }
                             },
-                            "sceneSelection": {
-                                "type": 0,
-                                "name": "starting soon",
-                                "canvasSelection": "Main"
-                            },
-                            "type": 10,
-                            "pattern": ".*Scene.*",
-                            "useTransitionTargetScene": true,
+                            "type": 0,
+                            "message": "fade in",
                             "regexConfig": {
-                                "enable": true,
+                                "enable": false,
                                 "partial": false,
                                 "options": 0
                             },
+                            "connection": "Invalid connection selection",
+                            "clearBufferOnMatch": true,
                             "version": 1
                         }
                     ],
@@ -1064,7 +747,7 @@
                             "id": "audio",
                             "duration": {
                                 "value": {
-                                    "value": 1.4,
+                                    "value": 2.0,
                                     "type": 0
                                 },
                                 "unit": 0,
@@ -1089,542 +772,21 @@
                                 "type": 0
                             },
                             "volume": {
-                                "value": 0,
+                                "value": 15,
                                 "type": 0
                             },
                             "rate": {
                                 "value": 100.0,
-                                "type": 0
+                                "variable": "audio level",
+                                "type": 1
                             },
                             "fade": true,
                             "fadeType": 0,
                             "wait": false,
-                            "abortActiveFade": false,
+                            "abortActiveFade": true,
                             "useDb": true,
                             "volumeDB": {
-                                "value": -17.0,
-                                "type": 0
-                            },
-                            "version": 3
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "audio",
-                            "duration": {
-                                "value": {
-                                    "value": 1.4,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "audioSource": {
-                                "type": 0,
-                                "name": "discord"
-                            },
-                            "action": 2,
-                            "monitor": 0,
-                            "syncOffset": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "balance": {
-                                "value": 0.5,
-                                "type": 0
-                            },
-                            "track": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "volume": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "rate": {
-                                "value": 100.0,
-                                "type": 0
-                            },
-                            "fade": true,
-                            "fadeType": 0,
-                            "wait": false,
-                            "abortActiveFade": false,
-                            "useDb": true,
-                            "volumeDB": {
-                                "value": -100.0,
-                                "type": 0
-                            },
-                            "version": 3
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "audio",
-                            "duration": {
-                                "value": {
-                                    "value": 1.4,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "audioSource": {
-                                "type": 0,
-                                "name": "Desktop Audio"
-                            },
-                            "action": 2,
-                            "monitor": 0,
-                            "syncOffset": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "balance": {
-                                "value": 0.5,
-                                "type": 0
-                            },
-                            "track": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "volume": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "rate": {
-                                "value": 100.0,
-                                "type": 0
-                            },
-                            "fade": true,
-                            "fadeType": 0,
-                            "wait": false,
-                            "abortActiveFade": false,
-                            "useDb": true,
-                            "volumeDB": {
-                                "value": -100.0,
-                                "type": 0
-                            },
-                            "version": 3
-                        }
-                    ],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "audio 5",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": false,
-                    "checkConditionsInParallel": false,
-                    "onChange": false,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "standaloneDock": true,
-                        "dockWindow": "Dock",
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-fb3f19c0-9f9f-4b13-8f9b-cef8875aa64d",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 192
-                        },
-                        {
-                            "pos": 191
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 159
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "scene",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "sceneSelection": {
-                                "type": 0,
-                                "name": "winner",
-                                "canvasSelection": "Main"
-                            },
-                            "type": 10,
-                            "pattern": ".*Scene.*",
-                            "useTransitionTargetScene": true,
-                            "regexConfig": {
-                                "enable": true,
-                                "partial": false,
-                                "options": 0
-                            },
-                            "version": 1
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "audio",
-                            "duration": {
-                                "value": {
-                                    "value": 1.4,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "audioSource": {
-                                "type": 0,
-                                "name": "music"
-                            },
-                            "action": 2,
-                            "monitor": 0,
-                            "syncOffset": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "balance": {
-                                "value": 0.5,
-                                "type": 0
-                            },
-                            "track": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "volume": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "rate": {
-                                "value": 100.0,
-                                "type": 0
-                            },
-                            "fade": true,
-                            "fadeType": 0,
-                            "wait": false,
-                            "abortActiveFade": false,
-                            "useDb": true,
-                            "volumeDB": {
-                                "value": -25.0,
-                                "type": 0
-                            },
-                            "version": 3
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "audio",
-                            "duration": {
-                                "value": {
-                                    "value": 1.4,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "audioSource": {
-                                "type": 0,
-                                "name": "Desktop Audio"
-                            },
-                            "action": 2,
-                            "monitor": 0,
-                            "syncOffset": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "balance": {
-                                "value": 0.5,
-                                "type": 0
-                            },
-                            "track": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "volume": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "rate": {
-                                "value": 100.0,
-                                "type": 0
-                            },
-                            "fade": true,
-                            "fadeType": 0,
-                            "wait": false,
-                            "abortActiveFade": false,
-                            "useDb": true,
-                            "volumeDB": {
-                                "value": -100.0,
-                                "type": 0
-                            },
-                            "version": 3
-                        }
-                    ],
-                    "elseActions": [],
-                    "inputVariables": []
-                },
-                {
-                    "name": "audio 6",
-                    "group": false,
-                    "pauseSaveBehavior": 0,
-                    "pause": false,
-                    "parallel": false,
-                    "checkConditionsInParallel": false,
-                    "onChange": false,
-                    "skipExecOnStart": false,
-                    "stopActionsIfNotDone": false,
-                    "useShortCircuitEvaluation": false,
-                    "useCustomConditionCheckInterval": false,
-                    "customConditionCheckInterval": {
-                        "value": {
-                            "value": 0.3,
-                            "type": 0
-                        },
-                        "unit": 0,
-                        "version": 1
-                    },
-                    "dockSettings": {
-                        "register": false,
-                        "standaloneDock": true,
-                        "dockWindow": "Dock",
-                        "hasRunButton": true,
-                        "hasPauseButton": true,
-                        "hasStatusLabel": false,
-                        "highlightIfConditionsTrue": false,
-                        "runButtonText": "Run",
-                        "pauseButtonText": "Pause",
-                        "unpauseButtonText": "Unpause",
-                        "conditionsTrueStatusText": "Conditions are true.",
-                        "conditionsFalseStatusText": "Conditions are false.",
-                        "dockId": "advss-macro-dock-442f4daf-d233-445d-8dbf-6e585f5e71f4",
-                        "version": 1
-                    },
-                    "macroActionConditionSplitterPosition": [
-                        {
-                            "pos": 192
-                        },
-                        {
-                            "pos": 191
-                        }
-                    ],
-                    "macroElseActionSplitterPosition": [
-                        {
-                            "pos": 159
-                        },
-                        {
-                            "pos": 0
-                        }
-                    ],
-                    "registerHotkeys": false,
-                    "pauseHotkey": [],
-                    "unpauseHotkey": [],
-                    "togglePauseHotkey": [],
-                    "conditions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "scene",
-                            "logic": 0,
-                            "durationModifier": {
-                                "time_constraint": 0,
-                                "seconds": {
-                                    "value": {
-                                        "value": 0.0,
-                                        "type": 0
-                                    },
-                                    "unit": 0,
-                                    "version": 1
-                                }
-                            },
-                            "sceneSelection": {
-                                "type": 0,
-                                "name": "player intro",
-                                "canvasSelection": "Main"
-                            },
-                            "type": 10,
-                            "pattern": ".*Scene.*",
-                            "useTransitionTargetScene": true,
-                            "regexConfig": {
-                                "enable": true,
-                                "partial": false,
-                                "options": 0
-                            },
-                            "version": 1
-                        }
-                    ],
-                    "actions": [
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "audio",
-                            "duration": {
-                                "value": {
-                                    "value": 1.4,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "audioSource": {
-                                "type": 0,
-                                "name": "music"
-                            },
-                            "action": 2,
-                            "monitor": 0,
-                            "syncOffset": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "balance": {
-                                "value": 0.5,
-                                "type": 0
-                            },
-                            "track": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "volume": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "rate": {
-                                "value": 100.0,
-                                "type": 0
-                            },
-                            "fade": true,
-                            "fadeType": 0,
-                            "wait": false,
-                            "abortActiveFade": false,
-                            "useDb": true,
-                            "volumeDB": {
-                                "value": -25.0,
-                                "type": 0
-                            },
-                            "version": 3
-                        },
-                        {
-                            "segmentSettings": {
-                                "collapsed": false,
-                                "useCustomLabel": false,
-                                "customLabel": "My label",
-                                "enabled": true,
-                                "version": 1
-                            },
-                            "id": "audio",
-                            "duration": {
-                                "value": {
-                                    "value": 1.4,
-                                    "type": 0
-                                },
-                                "unit": 0,
-                                "version": 1
-                            },
-                            "audioSource": {
-                                "type": 0,
-                                "name": "Desktop Audio"
-                            },
-                            "action": 2,
-                            "monitor": 0,
-                            "syncOffset": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "balance": {
-                                "value": 0.5,
-                                "type": 0
-                            },
-                            "track": {
-                                "value": 1,
-                                "type": 0
-                            },
-                            "volume": {
-                                "value": 0,
-                                "type": 0
-                            },
-                            "rate": {
-                                "value": 100.0,
-                                "type": 0
-                            },
-                            "fade": true,
-                            "fadeType": 0,
-                            "wait": false,
-                            "abortActiveFade": false,
-                            "useDb": true,
-                            "volumeDB": {
-                                "value": -100.0,
+                                "value": -23.0,
                                 "type": 0
                             },
                             "version": 3
@@ -1635,7 +797,7 @@
                 }
             ],
             "macroSettings": {
-                "highlightExecuted": false,
+                "highlightExecuted": true,
                 "highlightConditions": false,
                 "highlightActions": false,
                 "newMacroCheckInParallel": false,
@@ -1643,7 +805,13 @@
                 "newMacroUseShortCircuitEvaluation": false,
                 "saveSettingsOnMacroChange": true
             },
-            "variables": [],
+            "variables": [
+                {
+                    "name": "audio level",
+                    "saveAction": 0,
+                    "defaultValue": ""
+                }
+            ],
             "switches": [],
             "ignoreWindows": [],
             "screenRegion": [],
@@ -1681,7 +849,7 @@
                 "version": 1
             },
             "videoSwitches": [],
-            "interval": 300,
+            "interval": 200,
             "noMatchScene": {
                 "sceneSelection": {
                     "type": 0,
@@ -1708,7 +876,7 @@
             },
             "enableCooldown": false,
             "active": true,
-            "startup_behavior": 0,
+            "startup_behavior": 1,
             "autoStart": {
                 "event": 0,
                 "useAutoStartScene": false,
@@ -1824,8 +992,8 @@
                 }
             ],
             "saveWindowGeo": false,
-            "windowPosX": 866,
-            "windowPosY": 359,
+            "windowPosX": 770,
+            "windowPosY": 376,
             "windowWidth": 1000,
             "windowHeight": 600,
             "macroListMacroEditSplitterPosition": [
@@ -1943,8 +1111,12 @@
                 "hide_transition_duration": 300,
                 "hide_after": 0,
                 "tie": false,
-                "scenes": [],
-                "scene": "",
+                "scenes": [
+                    {
+                        "name": "__discord_dsk"
+                    }
+                ],
+                "scene": "__discord_dsk",
                 "null_hotkey": [],
                 "enable_tie_hotkey": [],
                 "disable_tie_hotkey": [],
@@ -1967,13 +1139,13 @@
             "settings": {
                 "close_when_inactive": true,
                 "hw_decode": false,
-                "looping": true,
-                "local_file": "C:/Users/daohe/Downloads/kel online invitational stream pack/kel stream pack/obs assets/gfx/animatedbg.mp4"
+                "local_file": "C:/Users/daohe/Downloads/kel online invitational stream pack/kel stream pack/obs assets/gfx/animatedbg.mp4",
+                "looping": true
             },
             "mixers": 255,
             "sync": 0,
             "flags": 0,
-            "volume": 1.0,
+            "volume": 9.999999747378752e-6,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -2088,6 +1260,37 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 536870916,
+            "name": "discord audio",
+            "uuid": "d950cdb5-23e5-4915-9f58-2da7c7516a3b",
+            "id": "wasapi_output_capture",
+            "versioned_id": "wasapi_output_capture",
+            "settings": {
+                "device_id": "{0.0.0.00000000}.{2dcdcbb3-12cf-45db-8983-8bf69e7c0b6c}"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -2831,8 +2034,8 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "unload": true,
-                "file": "C:/Users/daohe/Downloads/kel online invitational stream pack/kel stream pack/obs assets/gfx/kel online invitational big logo.png"
+                "file": "C:/Users/daohe/Downloads/kel online invitational stream pack/kel stream pack/obs assets/gfx/kel online invitational big logo.png",
+                "unload": true
             },
             "mixers": 0,
             "sync": 0,
@@ -3126,7 +2329,6 @@
             "settings": {
                 "file": "C:/Snaz/TextFiles/Countdown.txt",
                 "read_from_file": false,
-                "text": "ttv_ufo vs aknzx",
                 "undo_uuid": "3bc99cd8-fc84-4ffb-98c1-68494f4cf938",
                 "font": {
                     "face": "MADE Soulmaze",
@@ -3137,7 +2339,8 @@
                 "align": "center",
                 "valign": "center",
                 "color": 4279637526,
-                "transform": 1
+                "transform": 1,
+                "text": "decaten vs alfiu"
             },
             "mixers": 0,
             "sync": 0,
@@ -3168,7 +2371,7 @@
             "mixers": 255,
             "sync": 0,
             "flags": 0,
-            "volume": 9.999999747378752e-6,
+            "volume": 0.07079458236694336,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -4424,6 +3627,97 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 536870916,
+            "name": "__discord_dsk",
+            "uuid": "ff562543-84d1-40bb-85f3-969c9c86c30a",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "discord audio",
+                        "source_uuid": "d950cdb5-23e5-4915-9f58-2da7c7516a3b",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "Show on DSK 1": [],
+                "Hide on DSK 1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         }
     ]
