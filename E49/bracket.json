@@ -1,0 +1,266 @@
+{
+  "Ruleset": {
+    "ShortName": "osu",
+    "Name": "osu!",
+    "InstantiationInfo": "osu.Game.Rulesets.Osu.OsuRuleset, osu.Game.Rulesets.Osu",
+    "Available": true
+  },
+  "Matches": [
+    {
+      "ID": 4,
+      "Team1Acronym": "FRI",
+      "Team1Score": 0,
+      "Team2Acronym": "QUA",
+      "Team2Score": 0,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": true,
+      "Date": "2026-10-29T18:05:49.4401182+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": -10,
+        "Y": 140
+      },
+      "WinnerColour": "Blue"
+    },
+    {
+      "ID": 1,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-10-30T09:17:45.5240743+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 230,
+        "Y": 20
+      },
+      "PointsToWin": 5
+    },
+    {
+      "ID": 3,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-10-30T09:17:45.5240743+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 230,
+        "Y": 120
+      },
+      "PointsToWin": 5
+    },
+    {
+      "ID": 5,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-10-30T09:16:57.2635072+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 230,
+        "Y": 250
+      }
+    },
+    {
+      "ID": 6,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-10-30T09:16:58.9847441+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 230,
+        "Y": 370
+      }
+    },
+    {
+      "ID": 7,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-10-30T09:17:00.3721461+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 230,
+        "Y": 510
+      }
+    },
+    {
+      "ID": 8,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-10-30T09:17:01.7470604+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 240,
+        "Y": 620
+      }
+    },
+    {
+      "ID": 9,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-10-30T09:17:14.947145+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 260,
+        "Y": 740
+      }
+    },
+    {
+      "ID": 10,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-10-30T09:17:16.4222662+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 270,
+        "Y": 850
+      }
+    },
+    {
+      "ID": 2,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-10-30T09:17:53.3536635+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 500,
+        "Y": 70
+      },
+      "PointsToWin": 5
+    }
+  ],
+  "Rounds": [
+    {
+      "Name": "Round of 16",
+      "Description": "",
+      "BestOf": 9,
+      "BanCount": 1,
+      "Beatmaps": [],
+      "StartDate": "2026-10-30T09:17:45.5240743+00:00",
+      "Matches": [
+        1,
+        3
+      ]
+    },
+    {
+      "Name": "Quarterfinals",
+      "Description": "",
+      "BestOf": 9,
+      "BanCount": 1,
+      "Beatmaps": [],
+      "StartDate": "2026-10-30T09:17:53.3536635+00:00",
+      "Matches": [
+        2
+      ]
+    },
+    {
+      "Name": "Semifinals",
+      "Description": "",
+      "BestOf": 9,
+      "BanCount": 1,
+      "Beatmaps": [],
+      "StartDate": "2026-10-30T09:17:57.7494331+00:00",
+      "Matches": []
+    },
+    {
+      "Name": "Finals",
+      "Description": "",
+      "BestOf": 9,
+      "BanCount": 1,
+      "Beatmaps": [],
+      "StartDate": "2026-10-30T09:18:04.3785553+00:00",
+      "Matches": []
+    },
+    {
+      "Name": "Third place decider",
+      "Description": "",
+      "BestOf": 9,
+      "BanCount": 1,
+      "Beatmaps": [],
+      "StartDate": "2026-10-30T09:18:08.8865411+00:00",
+      "Matches": []
+    }
+  ],
+  "Teams": [
+    {
+      "FullName": "Friday",
+      "FlagName": "F",
+      "Acronym": "FRI",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": "N/A",
+      "Players": []
+    },
+    {
+      "FullName": "Qualifiers",
+      "FlagName": "Q",
+      "Acronym": "QUA",
+      "SeedingResults": [],
+      "Seed": "",
+      "LastYearPlacing": "N/A",
+      "Players": []
+    }
+  ],
+  "Progressions": [
+    {
+      "SourceID": 1,
+      "TargetID": 2
+    },
+    {
+      "SourceID": 3,
+      "TargetID": 2
+    }
+  ],
+  "ChromaKeyWidth": 1366,
+  "WipeChromaArea": true,
+  "PlayersPerTeam": 4,
+  "AutoProgressScreens": true,
+  "SplitMapPoolByMods": true,
+  "DisplayTeamSeeds": false,
+  "AutoSyncSlug": null,
+  "AutoSyncEnabled": false
+}
