@@ -7,7 +7,7 @@
   },
   "Matches": [
     {
-      "ID": 4,
+      "ID": 3,
       "Team1Acronym": "FRI",
       "Team1Score": 0,
       "Team2Acronym": "QUA",
@@ -23,7 +23,8 @@
         "X": 690,
         "Y": 40
       },
-      "WinnerColour": "Blue"
+      "WinnerColour": "Blue",
+      "PointsToWin": 5
     },
     {
       "ID": 1,
@@ -36,44 +37,7 @@
       "Date": "2026-10-30T09:17:45.5240743+00:00",
       "SyncId": null,
       "ConditionalMatches": [],
-      "Position": {
-        "X": 0,
-        "Y": 0
-      },
-      "PointsToWin": 5
-    },
-    {
-      "ID": 3,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
-      "Losers": false,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2026-10-30T09:17:45.5240743+00:00",
-      "SyncId": null,
-      "ConditionalMatches": [],
-      "Position": {
-        "X": 0,
-        "Y": 180
-      },
-      "PointsToWin": 5
-    },
-    {
-      "ID": 5,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
-      "Losers": false,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2026-10-30T09:17:45.5240743+00:00",
-      "SyncId": null,
-      "ConditionalMatches": [],
-      "Position": {
-        "X": 0,
-        "Y": 360
-      },
+      "Position": {},
       "PointsToWin": 5
     },
     {
@@ -88,8 +52,55 @@
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
-        "X": 0,
+        "Y": 180
+      },
+      "PointsToWin": 5
+    },
+    {
+      "ID": 11,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-10-30T09:17:45.5240743+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "Y": 360
+      },
+      "PointsToWin": 5
+    },
+    {
+      "ID": 16,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-10-30T09:17:45.5240743+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
         "Y": 540
+      },
+      "PointsToWin": 5
+    },
+    {
+      "ID": 2,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-10-30T09:17:45.5240743+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1380
       },
       "PointsToWin": 5
     },
@@ -106,29 +117,12 @@
       "ConditionalMatches": [],
       "Position": {
         "X": 1380,
-        "Y": 0
-      },
-      "PointsToWin": 5
-    },
-    {
-      "ID": 8,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
-      "Losers": false,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2026-10-30T09:17:45.5240743+00:00",
-      "SyncId": null,
-      "ConditionalMatches": [],
-      "Position": {
-        "X": 1380,
         "Y": 180
       },
       "PointsToWin": 5
     },
     {
-      "ID": 9,
+      "ID": 12,
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -145,7 +139,7 @@
       "PointsToWin": 5
     },
     {
-      "ID": 10,
+      "ID": 17,
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -162,7 +156,7 @@
       "PointsToWin": 5
     },
     {
-      "ID": 2,
+      "ID": 4,
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -174,40 +168,6 @@
       "ConditionalMatches": [],
       "Position": {
         "X": 230,
-        "Y": 90
-      },
-      "PointsToWin": 5
-    },
-    {
-      "ID": 11,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
-      "Losers": false,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2026-10-30T09:17:53.3536635+00:00",
-      "SyncId": null,
-      "ConditionalMatches": [],
-      "Position": {
-        "X": 230,
-        "Y": 450
-      },
-      "PointsToWin": 5
-    },
-    {
-      "ID": 12,
-      "Team1Score": null,
-      "Team2Score": null,
-      "Completed": false,
-      "Losers": false,
-      "PicksBans": [],
-      "Current": false,
-      "Date": "2026-10-30T09:17:53.3536635+00:00",
-      "SyncId": null,
-      "ConditionalMatches": [],
-      "Position": {
-        "X": 1150,
         "Y": 90
       },
       "PointsToWin": 5
@@ -224,13 +184,47 @@
       "SyncId": null,
       "ConditionalMatches": [],
       "Position": {
+        "X": 230,
+        "Y": 450
+      },
+      "PointsToWin": 5
+    },
+    {
+      "ID": 5,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-10-30T09:17:53.3536635+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
+        "X": 1150,
+        "Y": 90
+      },
+      "PointsToWin": 5
+    },
+    {
+      "ID": 15,
+      "Team1Score": null,
+      "Team2Score": null,
+      "Completed": false,
+      "Losers": false,
+      "PicksBans": [],
+      "Current": false,
+      "Date": "2026-10-30T09:17:53.3536635+00:00",
+      "SyncId": null,
+      "ConditionalMatches": [],
+      "Position": {
         "X": 1150,
         "Y": 450
       },
       "PointsToWin": 5
     },
     {
-      "ID": 14,
+      "ID": 8,
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -247,7 +241,7 @@
       "PointsToWin": 5
     },
     {
-      "ID": 15,
+      "ID": 10,
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -264,7 +258,7 @@
       "PointsToWin": 5
     },
     {
-      "ID": 16,
+      "ID": 9,
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -281,7 +275,7 @@
       "PointsToWin": 5
     },
     {
-      "ID": 17,
+      "ID": 14,
       "Team1Score": null,
       "Team2Score": null,
       "Completed": false,
@@ -300,21 +294,1083 @@
   ],
   "Rounds": [
     {
+      "Name": "Qualifiers",
+      "Description": "",
+      "BestOf": 9,
+      "BanCount": 1,
+      "Beatmaps": [
+        {
+          "ID": 3616997,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3616997,
+            "DifficultyName": "Fate",
+            "BPM": 200.0,
+            "Length": 225000.0,
+            "StarRating": 7.37264,
+            "EndTimeObjectCount": 280,
+            "TotalObjectCount": 1262,
+            "Metadata": {
+              "Title": "Eleven Stud",
+              "title_unicode": "Eleven Stud",
+              "Artist": "Adust Rain",
+              "artist_unicode": "Adust Rain",
+              "Author": {
+                "OnlineID": 15289326,
+                "Username": "Lyruke",
+                "CountryString": "Unknown"
+              },
+              "Source": "東方地霊殿　～ Subterranean Animism",
+              "tags": "",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.3,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1765917/covers/cover@2x.jpg?1656829840",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1765917/covers/card@2x.jpg?1656829840",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1765917/covers/list@2x.jpg?1656829840"
+            }
+          }
+        },
+        {
+          "ID": 3052611,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3052611,
+            "DifficultyName": "GAZE INTO THE FUTURE",
+            "BPM": 190.0,
+            "Length": 260000.0,
+            "StarRating": 7.30119,
+            "EndTimeObjectCount": 466,
+            "TotalObjectCount": 1948,
+            "Metadata": {
+              "Title": "Tarot",
+              "title_unicode": "Tarot",
+              "Artist": "Aether Realm",
+              "artist_unicode": "Æther Realm",
+              "Author": {
+                "OnlineID": 12914206,
+                "Username": "AdeAAa",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "adeaaa tarot power metal stream english aether realm fa featured artist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1489081/covers/cover@2x.jpg?1636239542",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1489081/covers/card@2x.jpg?1636239542",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1489081/covers/list@2x.jpg?1636239542"
+            }
+          }
+        },
+        {
+          "ID": 5687314,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 5687314,
+            "DifficultyName": "A fight in TGO",
+            "BPM": 148.0,
+            "Length": 165000.0,
+            "StarRating": 6.75005,
+            "EndTimeObjectCount": 308,
+            "TotalObjectCount": 943,
+            "Metadata": {
+              "Title": "A fight in Tunisia",
+              "title_unicode": "A fight in Tunisia",
+              "Artist": "Sobrem & NIWASHI",
+              "artist_unicode": "Sobrem & 庭師",
+              "Author": {
+                "OnlineID": 21573458,
+                "Username": "Uruha Migaki",
+                "CountryString": "Unknown"
+              },
+              "Source": "osu!mania 4K World Cup 2024",
+              "tags": "featured artist fa mappers' guild mpg piano jazz instrumental gazimal",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.5,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2559405/covers/cover@2x.jpg?1782138680",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2559405/covers/card@2x.jpg?1782138680",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2559405/covers/list@2x.jpg?1782138680"
+            }
+          }
+        },
+        {
+          "ID": 3844605,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3844605,
+            "DifficultyName": "REMOTE",
+            "BPM": 160.0,
+            "Length": 228000.0,
+            "StarRating": 6.62826,
+            "EndTimeObjectCount": 638,
+            "TotalObjectCount": 904,
+            "Metadata": {
+              "Title": "SELF DESTRUCT",
+              "title_unicode": "SELF DESTRUCT",
+              "Artist": "sakuraburst",
+              "artist_unicode": "sakuraburst",
+              "Author": {
+                "OnlineID": 6808091,
+                "Username": "pocket-",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "colicen sylvir featured artist fa drum & bass dnb hardstyle neurofunk instrumental electronic -_ascended_- ascended -ascended- funny seolv lukas [_l_u_k_a_s_] fooders kyrie irving",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.4,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1411188/covers/cover@2x.jpg?1697758493",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1411188/covers/card@2x.jpg?1697758493",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1411188/covers/list@2x.jpg?1697758493"
+            }
+          }
+        },
+        {
+          "ID": 3855505,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 3855505,
+            "DifficultyName": "Extra",
+            "BPM": 196.0,
+            "Length": 157000.0,
+            "StarRating": 6.66437,
+            "EndTimeObjectCount": 193,
+            "TotalObjectCount": 807,
+            "Metadata": {
+              "Title": "You spin my world",
+              "title_unicode": "You spin my world",
+              "Artist": "happy30",
+              "artist_unicode": "happy30",
+              "Author": {
+                "OnlineID": 2013571,
+                "Username": "Kyouren",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "happythirsty happythirty jordi van der hulst as the wind blows ep extended play gokugohan12468 kittyadventure airincat -_ascended_- -ascended- ascended addy2607 kaedeharakazuha kaedehara kazuha renumi instrumental piano mappers' guild mpg fa featured artist electronic classical",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 8.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1873680/covers/cover@2x.jpg?1674397255",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1873680/covers/card@2x.jpg?1674397255",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1873680/covers/list@2x.jpg?1674397255"
+            }
+          }
+        },
+        {
+          "ID": 4335978,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4335978,
+            "DifficultyName": "Aeris' Extreme",
+            "BPM": 190.0,
+            "Length": 203000.0,
+            "StarRating": 7.05243,
+            "EndTimeObjectCount": 549,
+            "TotalObjectCount": 1094,
+            "Metadata": {
+              "Title": "Thunderstrike 1988",
+              "title_unicode": "Thunderstrike 1988",
+              "Artist": "Sephid",
+              "artist_unicode": "Sephid",
+              "Author": {
+                "OnlineID": 3533958,
+                "Username": "fieryrage",
+                "CountryString": "Unknown"
+              },
+              "Source": "osu! World Cup 2022",
+              "tags": "featured artist fa mappers' guild mpg owc2022gfhd3 owc grand finals hidden instrumental english electronic captin1 toybot vikala riot1133 aeril risen daycore lewski gorou wanpachi cycopton tycani fuiba fuyu supav gordon lazarus xoul anxient",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2055535/covers/cover@2x.jpg?1700512312",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2055535/covers/card@2x.jpg?1700512312",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2055535/covers/list@2x.jpg?1700512312"
+            }
+          }
+        },
+        {
+          "ID": 4344450,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4344450,
+            "DifficultyName": "banana",
+            "BPM": 180.0,
+            "Length": 119000.0,
+            "StarRating": 6.51468,
+            "EndTimeObjectCount": 237,
+            "TotalObjectCount": 793,
+            "Metadata": {
+              "Title": "Banana! DX Choco Crepe!",
+              "title_unicode": "Banana! DX Choco Crepe!",
+              "Artist": "Umeboshi Chazuke",
+              "artist_unicode": "梅干茶漬け",
+              "Author": {
+                "OnlineID": 4600383,
+                "Username": "Nakano Itsuki",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "owc2023 owc osu world cup ql hr2 qualifiers owc2023qlhr2 fa featured artist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.8,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2075266/covers/cover@2x.jpg?1699799451",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2075266/covers/card@2x.jpg?1699799451",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2075266/covers/list@2x.jpg?1699799451"
+            }
+          }
+        },
+        {
+          "ID": 4197393,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4197393,
+            "DifficultyName": "BASS IS PUMPIN' - THE BEAT IS PUMPIN'",
+            "BPM": 152.0,
+            "Length": 126000.0,
+            "StarRating": 6.28504,
+            "EndTimeObjectCount": 292,
+            "TotalObjectCount": 713,
+            "Metadata": {
+              "Title": "YInMn Blue",
+              "title_unicode": "YInMn Blue",
+              "Artist": "siqlo",
+              "artist_unicode": "siqlo",
+              "Author": {
+                "OnlineID": 9143539,
+                "Username": "garvanturr",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "intx records intoxicate rec bms hi-tech psytrance bofu2017 electronic instrumental full on 4wc2023 qf hd2 tech technology teknologi sliders and shit",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2016158/covers/cover@2x.jpg?1690230685",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2016158/covers/card@2x.jpg?1690230685",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2016158/covers/list@2x.jpg?1690230685"
+            }
+          }
+        },
+        {
+          "ID": 4307699,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 4307699,
+            "DifficultyName": "Paradise",
+            "BPM": 180.0,
+            "Length": 253000.0,
+            "StarRating": 5.26637,
+            "EndTimeObjectCount": 428,
+            "TotalObjectCount": 982,
+            "Metadata": {
+              "Title": "Miracle infinity",
+              "title_unicode": "ミラクルinfinity",
+              "Artist": "solfa feat. Chata",
+              "artist_unicode": "solfa feat. 茶太",
+              "Author": {
+                "OnlineID": 3993153,
+                "Username": "Lancien",
+                "CountryString": "Unknown"
+              },
+              "Source": "ゆめこい～夢見る魔法少女と恋の呪文～",
+              "tags": "fa featured artist yumekoi ~yume miru mahou shoujo to koi no jumon~ parasol japanese pop jpop j-pop eroge galgame visual novel video game vn opening op full ver version",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.6,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2060717/covers/cover@2x.jpg?1699959665",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2060717/covers/card@2x.jpg?1699959665",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2060717/covers/list@2x.jpg?1699959665"
+            }
+          }
+        },
+        {
+          "ID": 4266958,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 4266958,
+            "DifficultyName": "Insane",
+            "BPM": 180.0,
+            "Length": 218000.0,
+            "StarRating": 5.1334,
+            "EndTimeObjectCount": 393,
+            "TotalObjectCount": 1309,
+            "Metadata": {
+              "Title": "The Haymaker",
+              "title_unicode": "The Haymaker",
+              "Artist": "FRASER EDWARDS",
+              "artist_unicode": "FRASER EDWARDS",
+              "Author": {
+                "OnlineID": 10660777,
+                "Username": "quantumvortex",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "nm2 fa featured artist the reckoning metal rock instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.2,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2044380/covers/cover@2x.jpg?1694430101",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2044380/covers/card@2x.jpg?1694430101",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2044380/covers/list@2x.jpg?1694430101"
+            }
+          }
+        }
+      ],
+      "StartDate": "2026-10-29T18:05:49.4401182+00:00",
+      "Matches": [
+        3
+      ]
+    },
+    {
       "Name": "Round of 16",
       "Description": "",
       "BestOf": 9,
       "BanCount": 1,
-      "Beatmaps": [],
+      "Beatmaps": [
+        {
+          "ID": 3793488,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3793488,
+            "DifficultyName": "Release The Quacken!",
+            "BPM": 200.0,
+            "Length": 151000.0,
+            "StarRating": 8.12909,
+            "EndTimeObjectCount": 190,
+            "TotalObjectCount": 847,
+            "Metadata": {
+              "Title": "A Dada",
+              "title_unicode": "A Dada",
+              "Artist": "Ruby My Dear",
+              "artist_unicode": "Ruby My Dear",
+              "Author": {
+                "OnlineID": 3144542,
+                "Username": "fergas",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "co22 nm6 wf duckcore",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 7.27,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1846684/covers/cover@2x.jpg?1665338441",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1846684/covers/card@2x.jpg?1665338441",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1846684/covers/list@2x.jpg?1665338441"
+            }
+          }
+        },
+        {
+          "ID": 5943383,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 5943383,
+            "DifficultyName": "Epic",
+            "BPM": 210.0,
+            "Length": 229000.0,
+            "StarRating": 8.29036,
+            "EndTimeObjectCount": 133,
+            "TotalObjectCount": 985,
+            "Metadata": {
+              "Title": "Chiriyuku Hana ni Hanamuke o",
+              "title_unicode": "散りゆく華に餞を",
+              "Artist": "Otsukisama Koukyoukyoku",
+              "artist_unicode": "お月さま交響曲",
+              "Author": {
+                "OnlineID": 2202163,
+                "Username": "-Mo-",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "moonlight symphony 大宮水那瀬 minase ohmiya epic.lan epiclan epic lan epic49 bracket nm2 japanese symphonic rock jrock j-rock fa featured artist 3/4 signature triple metre meter time",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.3,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2637873/covers/cover@2x.jpg?1792161539",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2637873/covers/card@2x.jpg?1792161539",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2637873/covers/list@2x.jpg?1792161539"
+            }
+          }
+        },
+        {
+          "ID": 4753901,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4753901,
+            "DifficultyName": "nihil's FOUR DIMENSIONS",
+            "BPM": 222.22,
+            "Length": 257000.0,
+            "StarRating": 8.30132,
+            "EndTimeObjectCount": 361,
+            "TotalObjectCount": 1787,
+            "Metadata": {
+              "Title": "FREEDOM DiVE",
+              "title_unicode": "FREEDOM DiVE↓",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 9022451,
+                "Username": "Bloxi",
+                "CountryString": "Unknown"
+              },
+              "Source": "MAXBEAT",
+              "tags": "featured artist fa mappers' guild mpg video game electronic instrumental parousia bms happy hardcore glorious crown heavenly blast nhlx nihil raikozen crystalsuicune onosakihito ioexception deadcode momothx wrn81056398 wrn81056 kolikiscool kojio paradogi sstari visionary camo chizu-kun baker mayfield ciyus miapah fort frenz frenz396 elchxyrlia lahphnya arlequin91",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2237410/covers/cover@2x.jpg?1736838465",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2237410/covers/card@2x.jpg?1736838465",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2237410/covers/list@2x.jpg?1736838465"
+            }
+          }
+        },
+        {
+          "ID": 4596785,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4596785,
+            "DifficultyName": "Crusade",
+            "BPM": 160.0,
+            "Length": 172000.0,
+            "StarRating": 7.71616,
+            "EndTimeObjectCount": 347,
+            "TotalObjectCount": 718,
+            "Metadata": {
+              "Title": "Viltus",
+              "title_unicode": "Viltus",
+              "Artist": "Kara",
+              "artist_unicode": "Kara",
+              "Author": {
+                "OnlineID": 6405262,
+                "Username": "Ishtiaq",
+                "CountryString": "Unknown"
+              },
+              "Source": "Corsace Closed 2024",
+              "tags": "cc24 finals wf",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2176809/covers/cover@2x.jpg?1717358464",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2176809/covers/card@2x.jpg?1717358464",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2176809/covers/list@2x.jpg?1717358464"
+            }
+          }
+        },
+        {
+          "ID": 5943380,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 5943380,
+            "DifficultyName": "hs2",
+            "BPM": 150.0,
+            "Length": 233000.0,
+            "StarRating": 9.34037,
+            "TotalObjectCount": 1224,
+            "Metadata": {
+              "Title": "101 kittens",
+              "title_unicode": "101 kittens",
+              "Artist": "Cranky",
+              "artist_unicode": "Cranky",
+              "Author": {
+                "OnlineID": 10634348,
+                "Username": "EthantrixV3",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "epic 49 epic49 lan bracket nm5 featured artist fa nm3 snap alt silly cat notch hell skiatzos cat awesome melt down aimslop",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 3.0,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2637871/covers/cover@2x.jpg?1792161487",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2637871/covers/card@2x.jpg?1792161487",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2637871/covers/list@2x.jpg?1792161487"
+            }
+          }
+        },
+        {
+          "ID": 1525311,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 1525311,
+            "DifficultyName": "Rex Leones",
+            "BPM": 210.0,
+            "Length": 258000.0,
+            "StarRating": 8.20215,
+            "EndTimeObjectCount": 612,
+            "TotalObjectCount": 1555,
+            "Metadata": {
+              "Title": "The King of Lions",
+              "title_unicode": "The King of Lions",
+              "Artist": "Camellia",
+              "artist_unicode": "Camellia",
+              "Author": {
+                "OnlineID": 1770367,
+                "Username": "AtHeoN",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "invaidas from da jungle c92 ctcd-0016 cametek かめるかめりあ pumpcore dubcore featured artist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/722502/covers/cover@2x.jpg?1521567727",
+              "card@2x": "https://assets.ppy.sh/beatmaps/722502/covers/card@2x.jpg?1521567727",
+              "list@2x": "https://assets.ppy.sh/beatmaps/722502/covers/list@2x.jpg?1521567727"
+            }
+          }
+        },
+        {
+          "ID": 3688631,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 3688631,
+            "DifficultyName": "Vexation",
+            "BPM": 170.0,
+            "Length": 248000.0,
+            "StarRating": 7.34437,
+            "EndTimeObjectCount": 477,
+            "TotalObjectCount": 1296,
+            "Metadata": {
+              "Title": "Delirium",
+              "title_unicode": "Delirium",
+              "Artist": "ALEPH",
+              "artist_unicode": "ALEPH",
+              "Author": {
+                "OnlineID": 8688812,
+                "Username": "Mir",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "charlie's perfect math class cpmc featured artist electronic instrumental neuro dnb bass fa moist critical cr1tikal penguinz0 big moist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1799349/covers/cover@2x.jpg?1737780912",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1799349/covers/card@2x.jpg?1737780912",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1799349/covers/list@2x.jpg?1737780912"
+            }
+          }
+        },
+        {
+          "ID": 4943975,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4943975,
+            "DifficultyName": "?",
+            "BPM": 140.0,
+            "Length": 137000.0,
+            "StarRating": 6.1223,
+            "EndTimeObjectCount": 347,
+            "TotalObjectCount": 702,
+            "Metadata": {
+              "Title": "This is Power",
+              "title_unicode": "This is Power",
+              "Artist": "Tanchiky",
+              "artist_unicode": "Tanchiky",
+              "Author": {
+                "OnlineID": 10890088,
+                "Username": "Poruby",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "csl circles in seoul nm6 tanchiky featured artist fa",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.7,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.7,
+              "ApproachRate": 7.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2311035/covers/cover@2x.jpg?1739797233",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2311035/covers/card@2x.jpg?1739797233",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2311035/covers/list@2x.jpg?1739797233"
+            }
+          }
+        },
+        {
+          "ID": 5943393,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 5943393,
+            "DifficultyName": "plambob -HR-",
+            "BPM": 100.0,
+            "Length": 249000.0,
+            "StarRating": 7.74372,
+            "EndTimeObjectCount": 185,
+            "TotalObjectCount": 1090,
+            "Metadata": {
+              "Title": "Vanity Clock",
+              "title_unicode": "Vanity Clock",
+              "Artist": "love solfege",
+              "artist_unicode": "love solfege",
+              "Author": {
+                "OnlineID": 10077431,
+                "Username": "Plasma",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "epic 49 epic49 lan bracket hr1 featured artist fa 鮎 ayu 紺野比奈子 hinako konno オーギュスト棒 auguste stick solfège neoclassical experimental japanese pop jpop j-pop reception for witnesses",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2637877/covers/cover@2x.jpg?1792162347",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2637877/covers/card@2x.jpg?1792162347",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2637877/covers/list@2x.jpg?1792162347"
+            }
+          }
+        },
+        {
+          "ID": 5053255,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 5053255,
+            "DifficultyName": "Sayuka's PERFECT DiMENSiON",
+            "BPM": 200.0,
+            "Length": 121000.0,
+            "StarRating": 7.37556,
+            "EndTimeObjectCount": 105,
+            "TotalObjectCount": 869,
+            "Metadata": {
+              "Title": "Garyou Tensei",
+              "title_unicode": "画竜点睛",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 20930368,
+                "Username": "Nlxus",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fa featured artist werhakon gloryhammer sayuka euryalle amats daycore dcs julie kiddly electronic happy hardcore instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1898232/covers/cover@2x.jpg?1753904352",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1898232/covers/card@2x.jpg?1753904352",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1898232/covers/list@2x.jpg?1753904352"
+            }
+          }
+        },
+        {
+          "ID": 4829849,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4829849,
+            "DifficultyName": "Mirror Image",
+            "BPM": 146.0,
+            "Length": 183000.0,
+            "StarRating": 7.15896,
+            "EndTimeObjectCount": 375,
+            "TotalObjectCount": 1054,
+            "Metadata": {
+              "Title": "Imitator",
+              "title_unicode": "Imitator",
+              "Artist": "BlackY feat. Risa Yuzuki",
+              "artist_unicode": "BlackY feat. Risa Yuzuki",
+              "Author": {
+                "OnlineID": 19884809,
+                "Username": "ajmosca",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "owc2024 qlf nm3 qualifiers osu world cup fa featured artist kyairie cytusine knightc0re knightcore wispy notabox nik nikolomara mappers' guild mg mpg electronic japanese pop yuzurisa yuzuri-sa 柚木梨沙",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2268000/covers/cover@2x.jpg?1777412210",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2268000/covers/card@2x.jpg?1777412210",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2268000/covers/list@2x.jpg?1777412210"
+            }
+          }
+        },
+        {
+          "ID": 3493106,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3493106,
+            "DifficultyName": "Expert",
+            "BPM": 176.0,
+            "Length": 218000.0,
+            "StarRating": 5.98641,
+            "EndTimeObjectCount": 290,
+            "TotalObjectCount": 1082,
+            "Metadata": {
+              "Title": "Ghost Assassin (feat. Veela)",
+              "title_unicode": "Ghost Assassin (feat. Veela)",
+              "Artist": "Maduk",
+              "artist_unicode": "Maduk",
+              "Author": {
+                "OnlineID": 10507407,
+                "Username": "Nymphe",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fa featured artists mappers' guild mpg quest kiyoshi guarden kang sae-byeok owc2022ro16dt1 osu world cup dnb drum and bass electronic english starcraft 2 alphabet venax aranel aistre actiol",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.5,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1709438/covers/cover@2x.jpg?1670169104",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1709438/covers/card@2x.jpg?1670169104",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1709438/covers/list@2x.jpg?1670169104"
+            }
+          }
+        },
+        {
+          "ID": 1469240,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 1469240,
+            "DifficultyName": "Massive Legend",
+            "BPM": 180.0,
+            "Length": 231000.0,
+            "StarRating": 5.63671,
+            "EndTimeObjectCount": 302,
+            "TotalObjectCount": 1338,
+            "Metadata": {
+              "Title": "Rise Of The Chaos Wizards",
+              "title_unicode": "Rise Of The Chaos Wizards",
+              "Artist": "GLORYHAMMER",
+              "artist_unicode": "GLORYHAMMER",
+              "Author": {
+                "OnlineID": 2217628,
+                "Username": "xChorse",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "stream practice training streaming english metal space 1992",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/694464/covers/cover@2x.jpg?1645786345",
+              "card@2x": "https://assets.ppy.sh/beatmaps/694464/covers/card@2x.jpg?1645786345",
+              "list@2x": "https://assets.ppy.sh/beatmaps/694464/covers/list@2x.jpg?1645786345"
+            }
+          }
+        },
+        {
+          "ID": 131564,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 131564,
+            "DifficultyName": "0108 style",
+            "BPM": 320.0,
+            "Length": 188000.0,
+            "StarRating": 5.79403,
+            "EndTimeObjectCount": 391,
+            "TotalObjectCount": 725,
+            "Metadata": {
+              "Title": "Scarlet Rose",
+              "title_unicode": "Scarlet Rose",
+              "Artist": "Lily",
+              "artist_unicode": "Lily",
+              "Author": {
+                "OnlineID": 243917,
+                "Username": "val0108",
+                "CountryString": "Unknown"
+              },
+              "Source": "seleP",
+              "tags": "vocaloid yuukikira",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/41686/covers/cover@2x.jpg?1645788245",
+              "card@2x": "https://assets.ppy.sh/beatmaps/41686/covers/card@2x.jpg?1645788245",
+              "list@2x": "https://assets.ppy.sh/beatmaps/41686/covers/list@2x.jpg?1645788245"
+            }
+          }
+        },
+        {
+          "ID": 5617695,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 5617695,
+            "DifficultyName": "Frigid Tempest",
+            "BPM": 220.0,
+            "Length": 399000.0,
+            "StarRating": 8.48286,
+            "EndTimeObjectCount": 1143,
+            "TotalObjectCount": 2208,
+            "Metadata": {
+              "Title": "Frost Walker",
+              "title_unicode": "Frost Walker",
+              "Artist": "Kou!",
+              "artist_unicode": "Kou!",
+              "Author": {
+                "OnlineID": 8688812,
+                "Username": "Mir",
+                "CountryString": "Unknown"
+              },
+              "Source": "osu!catch World Cup 2024",
+              "tags": "osu! original electronic instrumental fa featured artist midorijeon grand finals gf tie breaker tb custom song mechakuchacore high-speed dubstep tearout dnb drum and bass & neurofunk hitech hardstyle rawstyle schranz hardcore j-core koukondaikon the roundtable open lvl up expo 2026 trt",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.4,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2538488/covers/cover@2x.jpg?1779560162",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2538488/covers/card@2x.jpg?1779560162",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2538488/covers/list@2x.jpg?1779560162"
+            }
+          }
+        }
+      ],
       "StartDate": "2026-10-30T09:17:45.5240743+00:00",
       "Matches": [
         1,
-        3,
-        5,
         6,
+        11,
+        16,
+        2,
         7,
-        8,
-        9,
-        10
+        12,
+        17
       ]
     },
     {
@@ -322,13 +1378,643 @@
       "Description": "",
       "BestOf": 9,
       "BanCount": 1,
-      "Beatmaps": [],
+      "Beatmaps": [
+        {
+          "ID": 3793488,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3793488,
+            "DifficultyName": "Release The Quacken!",
+            "BPM": 200.0,
+            "Length": 151000.0,
+            "StarRating": 8.12909,
+            "EndTimeObjectCount": 190,
+            "TotalObjectCount": 847,
+            "Metadata": {
+              "Title": "A Dada",
+              "title_unicode": "A Dada",
+              "Artist": "Ruby My Dear",
+              "artist_unicode": "Ruby My Dear",
+              "Author": {
+                "OnlineID": 3144542,
+                "Username": "fergas",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "co22 nm6 wf duckcore",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 7.27,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1846684/covers/cover@2x.jpg?1665338441",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1846684/covers/card@2x.jpg?1665338441",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1846684/covers/list@2x.jpg?1665338441"
+            }
+          }
+        },
+        {
+          "ID": 5943383,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 5943383,
+            "DifficultyName": "Epic",
+            "BPM": 210.0,
+            "Length": 229000.0,
+            "StarRating": 8.29036,
+            "EndTimeObjectCount": 133,
+            "TotalObjectCount": 985,
+            "Metadata": {
+              "Title": "Chiriyuku Hana ni Hanamuke o",
+              "title_unicode": "散りゆく華に餞を",
+              "Artist": "Otsukisama Koukyoukyoku",
+              "artist_unicode": "お月さま交響曲",
+              "Author": {
+                "OnlineID": 2202163,
+                "Username": "-Mo-",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "moonlight symphony 大宮水那瀬 minase ohmiya epic.lan epiclan epic lan epic49 bracket nm2 japanese symphonic rock jrock j-rock fa featured artist 3/4 signature triple metre meter time",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.3,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2637873/covers/cover@2x.jpg?1792161539",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2637873/covers/card@2x.jpg?1792161539",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2637873/covers/list@2x.jpg?1792161539"
+            }
+          }
+        },
+        {
+          "ID": 4753901,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4753901,
+            "DifficultyName": "nihil's FOUR DIMENSIONS",
+            "BPM": 222.22,
+            "Length": 257000.0,
+            "StarRating": 8.30132,
+            "EndTimeObjectCount": 361,
+            "TotalObjectCount": 1787,
+            "Metadata": {
+              "Title": "FREEDOM DiVE",
+              "title_unicode": "FREEDOM DiVE↓",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 9022451,
+                "Username": "Bloxi",
+                "CountryString": "Unknown"
+              },
+              "Source": "MAXBEAT",
+              "tags": "featured artist fa mappers' guild mpg video game electronic instrumental parousia bms happy hardcore glorious crown heavenly blast nhlx nihil raikozen crystalsuicune onosakihito ioexception deadcode momothx wrn81056398 wrn81056 kolikiscool kojio paradogi sstari visionary camo chizu-kun baker mayfield ciyus miapah fort frenz frenz396 elchxyrlia lahphnya arlequin91",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2237410/covers/cover@2x.jpg?1736838465",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2237410/covers/card@2x.jpg?1736838465",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2237410/covers/list@2x.jpg?1736838465"
+            }
+          }
+        },
+        {
+          "ID": 4596785,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4596785,
+            "DifficultyName": "Crusade",
+            "BPM": 160.0,
+            "Length": 172000.0,
+            "StarRating": 7.71616,
+            "EndTimeObjectCount": 347,
+            "TotalObjectCount": 718,
+            "Metadata": {
+              "Title": "Viltus",
+              "title_unicode": "Viltus",
+              "Artist": "Kara",
+              "artist_unicode": "Kara",
+              "Author": {
+                "OnlineID": 6405262,
+                "Username": "Ishtiaq",
+                "CountryString": "Unknown"
+              },
+              "Source": "Corsace Closed 2024",
+              "tags": "cc24 finals wf",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2176809/covers/cover@2x.jpg?1717358464",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2176809/covers/card@2x.jpg?1717358464",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2176809/covers/list@2x.jpg?1717358464"
+            }
+          }
+        },
+        {
+          "ID": 5943380,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 5943380,
+            "DifficultyName": "hs2",
+            "BPM": 150.0,
+            "Length": 233000.0,
+            "StarRating": 9.34037,
+            "TotalObjectCount": 1224,
+            "Metadata": {
+              "Title": "101 kittens",
+              "title_unicode": "101 kittens",
+              "Artist": "Cranky",
+              "artist_unicode": "Cranky",
+              "Author": {
+                "OnlineID": 10634348,
+                "Username": "EthantrixV3",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "epic 49 epic49 lan bracket nm5 featured artist fa nm3 snap alt silly cat notch hell skiatzos cat awesome melt down aimslop",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 3.0,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2637871/covers/cover@2x.jpg?1792161487",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2637871/covers/card@2x.jpg?1792161487",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2637871/covers/list@2x.jpg?1792161487"
+            }
+          }
+        },
+        {
+          "ID": 1525311,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 1525311,
+            "DifficultyName": "Rex Leones",
+            "BPM": 210.0,
+            "Length": 258000.0,
+            "StarRating": 8.20215,
+            "EndTimeObjectCount": 612,
+            "TotalObjectCount": 1555,
+            "Metadata": {
+              "Title": "The King of Lions",
+              "title_unicode": "The King of Lions",
+              "Artist": "Camellia",
+              "artist_unicode": "Camellia",
+              "Author": {
+                "OnlineID": 1770367,
+                "Username": "AtHeoN",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "invaidas from da jungle c92 ctcd-0016 cametek かめるかめりあ pumpcore dubcore featured artist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/722502/covers/cover@2x.jpg?1521567727",
+              "card@2x": "https://assets.ppy.sh/beatmaps/722502/covers/card@2x.jpg?1521567727",
+              "list@2x": "https://assets.ppy.sh/beatmaps/722502/covers/list@2x.jpg?1521567727"
+            }
+          }
+        },
+        {
+          "ID": 3688631,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 3688631,
+            "DifficultyName": "Vexation",
+            "BPM": 170.0,
+            "Length": 248000.0,
+            "StarRating": 7.34437,
+            "EndTimeObjectCount": 477,
+            "TotalObjectCount": 1296,
+            "Metadata": {
+              "Title": "Delirium",
+              "title_unicode": "Delirium",
+              "Artist": "ALEPH",
+              "artist_unicode": "ALEPH",
+              "Author": {
+                "OnlineID": 8688812,
+                "Username": "Mir",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "charlie's perfect math class cpmc featured artist electronic instrumental neuro dnb bass fa moist critical cr1tikal penguinz0 big moist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1799349/covers/cover@2x.jpg?1737780912",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1799349/covers/card@2x.jpg?1737780912",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1799349/covers/list@2x.jpg?1737780912"
+            }
+          }
+        },
+        {
+          "ID": 4943975,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4943975,
+            "DifficultyName": "?",
+            "BPM": 140.0,
+            "Length": 137000.0,
+            "StarRating": 6.1223,
+            "EndTimeObjectCount": 347,
+            "TotalObjectCount": 702,
+            "Metadata": {
+              "Title": "This is Power",
+              "title_unicode": "This is Power",
+              "Artist": "Tanchiky",
+              "artist_unicode": "Tanchiky",
+              "Author": {
+                "OnlineID": 10890088,
+                "Username": "Poruby",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "csl circles in seoul nm6 tanchiky featured artist fa",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.7,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.7,
+              "ApproachRate": 7.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2311035/covers/cover@2x.jpg?1739797233",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2311035/covers/card@2x.jpg?1739797233",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2311035/covers/list@2x.jpg?1739797233"
+            }
+          }
+        },
+        {
+          "ID": 5943393,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 5943393,
+            "DifficultyName": "plambob -HR-",
+            "BPM": 100.0,
+            "Length": 249000.0,
+            "StarRating": 7.74372,
+            "EndTimeObjectCount": 185,
+            "TotalObjectCount": 1090,
+            "Metadata": {
+              "Title": "Vanity Clock",
+              "title_unicode": "Vanity Clock",
+              "Artist": "love solfege",
+              "artist_unicode": "love solfege",
+              "Author": {
+                "OnlineID": 10077431,
+                "Username": "Plasma",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "epic 49 epic49 lan bracket hr1 featured artist fa 鮎 ayu 紺野比奈子 hinako konno オーギュスト棒 auguste stick solfège neoclassical experimental japanese pop jpop j-pop reception for witnesses",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2637877/covers/cover@2x.jpg?1792162347",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2637877/covers/card@2x.jpg?1792162347",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2637877/covers/list@2x.jpg?1792162347"
+            }
+          }
+        },
+        {
+          "ID": 5053255,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 5053255,
+            "DifficultyName": "Sayuka's PERFECT DiMENSiON",
+            "BPM": 200.0,
+            "Length": 121000.0,
+            "StarRating": 7.37556,
+            "EndTimeObjectCount": 105,
+            "TotalObjectCount": 869,
+            "Metadata": {
+              "Title": "Garyou Tensei",
+              "title_unicode": "画竜点睛",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 20930368,
+                "Username": "Nlxus",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fa featured artist werhakon gloryhammer sayuka euryalle amats daycore dcs julie kiddly electronic happy hardcore instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1898232/covers/cover@2x.jpg?1753904352",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1898232/covers/card@2x.jpg?1753904352",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1898232/covers/list@2x.jpg?1753904352"
+            }
+          }
+        },
+        {
+          "ID": 4829849,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4829849,
+            "DifficultyName": "Mirror Image",
+            "BPM": 146.0,
+            "Length": 183000.0,
+            "StarRating": 7.15896,
+            "EndTimeObjectCount": 375,
+            "TotalObjectCount": 1054,
+            "Metadata": {
+              "Title": "Imitator",
+              "title_unicode": "Imitator",
+              "Artist": "BlackY feat. Risa Yuzuki",
+              "artist_unicode": "BlackY feat. Risa Yuzuki",
+              "Author": {
+                "OnlineID": 19884809,
+                "Username": "ajmosca",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "owc2024 qlf nm3 qualifiers osu world cup fa featured artist kyairie cytusine knightc0re knightcore wispy notabox nik nikolomara mappers' guild mg mpg electronic japanese pop yuzurisa yuzuri-sa 柚木梨沙",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2268000/covers/cover@2x.jpg?1777412210",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2268000/covers/card@2x.jpg?1777412210",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2268000/covers/list@2x.jpg?1777412210"
+            }
+          }
+        },
+        {
+          "ID": 3493106,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3493106,
+            "DifficultyName": "Expert",
+            "BPM": 176.0,
+            "Length": 218000.0,
+            "StarRating": 5.98641,
+            "EndTimeObjectCount": 290,
+            "TotalObjectCount": 1082,
+            "Metadata": {
+              "Title": "Ghost Assassin (feat. Veela)",
+              "title_unicode": "Ghost Assassin (feat. Veela)",
+              "Artist": "Maduk",
+              "artist_unicode": "Maduk",
+              "Author": {
+                "OnlineID": 10507407,
+                "Username": "Nymphe",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fa featured artists mappers' guild mpg quest kiyoshi guarden kang sae-byeok owc2022ro16dt1 osu world cup dnb drum and bass electronic english starcraft 2 alphabet venax aranel aistre actiol",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.5,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1709438/covers/cover@2x.jpg?1670169104",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1709438/covers/card@2x.jpg?1670169104",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1709438/covers/list@2x.jpg?1670169104"
+            }
+          }
+        },
+        {
+          "ID": 1469240,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 1469240,
+            "DifficultyName": "Massive Legend",
+            "BPM": 180.0,
+            "Length": 231000.0,
+            "StarRating": 5.63671,
+            "EndTimeObjectCount": 302,
+            "TotalObjectCount": 1338,
+            "Metadata": {
+              "Title": "Rise Of The Chaos Wizards",
+              "title_unicode": "Rise Of The Chaos Wizards",
+              "Artist": "GLORYHAMMER",
+              "artist_unicode": "GLORYHAMMER",
+              "Author": {
+                "OnlineID": 2217628,
+                "Username": "xChorse",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "stream practice training streaming english metal space 1992",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/694464/covers/cover@2x.jpg?1645786345",
+              "card@2x": "https://assets.ppy.sh/beatmaps/694464/covers/card@2x.jpg?1645786345",
+              "list@2x": "https://assets.ppy.sh/beatmaps/694464/covers/list@2x.jpg?1645786345"
+            }
+          }
+        },
+        {
+          "ID": 131564,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 131564,
+            "DifficultyName": "0108 style",
+            "BPM": 320.0,
+            "Length": 188000.0,
+            "StarRating": 5.79403,
+            "EndTimeObjectCount": 391,
+            "TotalObjectCount": 725,
+            "Metadata": {
+              "Title": "Scarlet Rose",
+              "title_unicode": "Scarlet Rose",
+              "Artist": "Lily",
+              "artist_unicode": "Lily",
+              "Author": {
+                "OnlineID": 243917,
+                "Username": "val0108",
+                "CountryString": "Unknown"
+              },
+              "Source": "seleP",
+              "tags": "vocaloid yuukikira",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/41686/covers/cover@2x.jpg?1645788245",
+              "card@2x": "https://assets.ppy.sh/beatmaps/41686/covers/card@2x.jpg?1645788245",
+              "list@2x": "https://assets.ppy.sh/beatmaps/41686/covers/list@2x.jpg?1645788245"
+            }
+          }
+        },
+        {
+          "ID": 5617695,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 5617695,
+            "DifficultyName": "Frigid Tempest",
+            "BPM": 220.0,
+            "Length": 399000.0,
+            "StarRating": 8.48286,
+            "EndTimeObjectCount": 1143,
+            "TotalObjectCount": 2208,
+            "Metadata": {
+              "Title": "Frost Walker",
+              "title_unicode": "Frost Walker",
+              "Artist": "Kou!",
+              "artist_unicode": "Kou!",
+              "Author": {
+                "OnlineID": 8688812,
+                "Username": "Mir",
+                "CountryString": "Unknown"
+              },
+              "Source": "osu!catch World Cup 2024",
+              "tags": "osu! original electronic instrumental fa featured artist midorijeon grand finals gf tie breaker tb custom song mechakuchacore high-speed dubstep tearout dnb drum and bass & neurofunk hitech hardstyle rawstyle schranz hardcore j-core koukondaikon the roundtable open lvl up expo 2026 trt",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.4,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2538488/covers/cover@2x.jpg?1779560162",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2538488/covers/card@2x.jpg?1779560162",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2538488/covers/list@2x.jpg?1779560162"
+            }
+          }
+        }
+      ],
       "StartDate": "2026-10-30T09:17:53.3536635+00:00",
       "Matches": [
-        2,
-        11,
-        12,
-        13
+        4,
+        13,
+        5,
+        15
       ]
     },
     {
@@ -336,11 +2022,641 @@
       "Description": "",
       "BestOf": 9,
       "BanCount": 1,
-      "Beatmaps": [],
+      "Beatmaps": [
+        {
+          "ID": 3793488,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3793488,
+            "DifficultyName": "Release The Quacken!",
+            "BPM": 200.0,
+            "Length": 151000.0,
+            "StarRating": 8.12909,
+            "EndTimeObjectCount": 190,
+            "TotalObjectCount": 847,
+            "Metadata": {
+              "Title": "A Dada",
+              "title_unicode": "A Dada",
+              "Artist": "Ruby My Dear",
+              "artist_unicode": "Ruby My Dear",
+              "Author": {
+                "OnlineID": 3144542,
+                "Username": "fergas",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "co22 nm6 wf duckcore",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 7.27,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1846684/covers/cover@2x.jpg?1665338441",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1846684/covers/card@2x.jpg?1665338441",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1846684/covers/list@2x.jpg?1665338441"
+            }
+          }
+        },
+        {
+          "ID": 5943383,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 5943383,
+            "DifficultyName": "Epic",
+            "BPM": 210.0,
+            "Length": 229000.0,
+            "StarRating": 8.29036,
+            "EndTimeObjectCount": 133,
+            "TotalObjectCount": 985,
+            "Metadata": {
+              "Title": "Chiriyuku Hana ni Hanamuke o",
+              "title_unicode": "散りゆく華に餞を",
+              "Artist": "Otsukisama Koukyoukyoku",
+              "artist_unicode": "お月さま交響曲",
+              "Author": {
+                "OnlineID": 2202163,
+                "Username": "-Mo-",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "moonlight symphony 大宮水那瀬 minase ohmiya epic.lan epiclan epic lan epic49 bracket nm2 japanese symphonic rock jrock j-rock fa featured artist 3/4 signature triple metre meter time",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.3,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2637873/covers/cover@2x.jpg?1792161539",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2637873/covers/card@2x.jpg?1792161539",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2637873/covers/list@2x.jpg?1792161539"
+            }
+          }
+        },
+        {
+          "ID": 4753901,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4753901,
+            "DifficultyName": "nihil's FOUR DIMENSIONS",
+            "BPM": 222.22,
+            "Length": 257000.0,
+            "StarRating": 8.30132,
+            "EndTimeObjectCount": 361,
+            "TotalObjectCount": 1787,
+            "Metadata": {
+              "Title": "FREEDOM DiVE",
+              "title_unicode": "FREEDOM DiVE↓",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 9022451,
+                "Username": "Bloxi",
+                "CountryString": "Unknown"
+              },
+              "Source": "MAXBEAT",
+              "tags": "featured artist fa mappers' guild mpg video game electronic instrumental parousia bms happy hardcore glorious crown heavenly blast nhlx nihil raikozen crystalsuicune onosakihito ioexception deadcode momothx wrn81056398 wrn81056 kolikiscool kojio paradogi sstari visionary camo chizu-kun baker mayfield ciyus miapah fort frenz frenz396 elchxyrlia lahphnya arlequin91",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2237410/covers/cover@2x.jpg?1736838465",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2237410/covers/card@2x.jpg?1736838465",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2237410/covers/list@2x.jpg?1736838465"
+            }
+          }
+        },
+        {
+          "ID": 4596785,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4596785,
+            "DifficultyName": "Crusade",
+            "BPM": 160.0,
+            "Length": 172000.0,
+            "StarRating": 7.71616,
+            "EndTimeObjectCount": 347,
+            "TotalObjectCount": 718,
+            "Metadata": {
+              "Title": "Viltus",
+              "title_unicode": "Viltus",
+              "Artist": "Kara",
+              "artist_unicode": "Kara",
+              "Author": {
+                "OnlineID": 6405262,
+                "Username": "Ishtiaq",
+                "CountryString": "Unknown"
+              },
+              "Source": "Corsace Closed 2024",
+              "tags": "cc24 finals wf",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2176809/covers/cover@2x.jpg?1717358464",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2176809/covers/card@2x.jpg?1717358464",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2176809/covers/list@2x.jpg?1717358464"
+            }
+          }
+        },
+        {
+          "ID": 5943380,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 5943380,
+            "DifficultyName": "hs2",
+            "BPM": 150.0,
+            "Length": 233000.0,
+            "StarRating": 9.34037,
+            "TotalObjectCount": 1224,
+            "Metadata": {
+              "Title": "101 kittens",
+              "title_unicode": "101 kittens",
+              "Artist": "Cranky",
+              "artist_unicode": "Cranky",
+              "Author": {
+                "OnlineID": 10634348,
+                "Username": "EthantrixV3",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "epic 49 epic49 lan bracket nm5 featured artist fa nm3 snap alt silly cat notch hell skiatzos cat awesome melt down aimslop",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 3.0,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2637871/covers/cover@2x.jpg?1792161487",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2637871/covers/card@2x.jpg?1792161487",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2637871/covers/list@2x.jpg?1792161487"
+            }
+          }
+        },
+        {
+          "ID": 1525311,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 1525311,
+            "DifficultyName": "Rex Leones",
+            "BPM": 210.0,
+            "Length": 258000.0,
+            "StarRating": 8.20215,
+            "EndTimeObjectCount": 612,
+            "TotalObjectCount": 1555,
+            "Metadata": {
+              "Title": "The King of Lions",
+              "title_unicode": "The King of Lions",
+              "Artist": "Camellia",
+              "artist_unicode": "Camellia",
+              "Author": {
+                "OnlineID": 1770367,
+                "Username": "AtHeoN",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "invaidas from da jungle c92 ctcd-0016 cametek かめるかめりあ pumpcore dubcore featured artist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/722502/covers/cover@2x.jpg?1521567727",
+              "card@2x": "https://assets.ppy.sh/beatmaps/722502/covers/card@2x.jpg?1521567727",
+              "list@2x": "https://assets.ppy.sh/beatmaps/722502/covers/list@2x.jpg?1521567727"
+            }
+          }
+        },
+        {
+          "ID": 3688631,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 3688631,
+            "DifficultyName": "Vexation",
+            "BPM": 170.0,
+            "Length": 248000.0,
+            "StarRating": 7.34437,
+            "EndTimeObjectCount": 477,
+            "TotalObjectCount": 1296,
+            "Metadata": {
+              "Title": "Delirium",
+              "title_unicode": "Delirium",
+              "Artist": "ALEPH",
+              "artist_unicode": "ALEPH",
+              "Author": {
+                "OnlineID": 8688812,
+                "Username": "Mir",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "charlie's perfect math class cpmc featured artist electronic instrumental neuro dnb bass fa moist critical cr1tikal penguinz0 big moist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1799349/covers/cover@2x.jpg?1737780912",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1799349/covers/card@2x.jpg?1737780912",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1799349/covers/list@2x.jpg?1737780912"
+            }
+          }
+        },
+        {
+          "ID": 4943975,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4943975,
+            "DifficultyName": "?",
+            "BPM": 140.0,
+            "Length": 137000.0,
+            "StarRating": 6.1223,
+            "EndTimeObjectCount": 347,
+            "TotalObjectCount": 702,
+            "Metadata": {
+              "Title": "This is Power",
+              "title_unicode": "This is Power",
+              "Artist": "Tanchiky",
+              "artist_unicode": "Tanchiky",
+              "Author": {
+                "OnlineID": 10890088,
+                "Username": "Poruby",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "csl circles in seoul nm6 tanchiky featured artist fa",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.7,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.7,
+              "ApproachRate": 7.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2311035/covers/cover@2x.jpg?1739797233",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2311035/covers/card@2x.jpg?1739797233",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2311035/covers/list@2x.jpg?1739797233"
+            }
+          }
+        },
+        {
+          "ID": 5943393,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 5943393,
+            "DifficultyName": "plambob -HR-",
+            "BPM": 100.0,
+            "Length": 249000.0,
+            "StarRating": 7.74372,
+            "EndTimeObjectCount": 185,
+            "TotalObjectCount": 1090,
+            "Metadata": {
+              "Title": "Vanity Clock",
+              "title_unicode": "Vanity Clock",
+              "Artist": "love solfege",
+              "artist_unicode": "love solfege",
+              "Author": {
+                "OnlineID": 10077431,
+                "Username": "Plasma",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "epic 49 epic49 lan bracket hr1 featured artist fa 鮎 ayu 紺野比奈子 hinako konno オーギュスト棒 auguste stick solfège neoclassical experimental japanese pop jpop j-pop reception for witnesses",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2637877/covers/cover@2x.jpg?1792162347",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2637877/covers/card@2x.jpg?1792162347",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2637877/covers/list@2x.jpg?1792162347"
+            }
+          }
+        },
+        {
+          "ID": 5053255,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 5053255,
+            "DifficultyName": "Sayuka's PERFECT DiMENSiON",
+            "BPM": 200.0,
+            "Length": 121000.0,
+            "StarRating": 7.37556,
+            "EndTimeObjectCount": 105,
+            "TotalObjectCount": 869,
+            "Metadata": {
+              "Title": "Garyou Tensei",
+              "title_unicode": "画竜点睛",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 20930368,
+                "Username": "Nlxus",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fa featured artist werhakon gloryhammer sayuka euryalle amats daycore dcs julie kiddly electronic happy hardcore instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1898232/covers/cover@2x.jpg?1753904352",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1898232/covers/card@2x.jpg?1753904352",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1898232/covers/list@2x.jpg?1753904352"
+            }
+          }
+        },
+        {
+          "ID": 4829849,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4829849,
+            "DifficultyName": "Mirror Image",
+            "BPM": 146.0,
+            "Length": 183000.0,
+            "StarRating": 7.15896,
+            "EndTimeObjectCount": 375,
+            "TotalObjectCount": 1054,
+            "Metadata": {
+              "Title": "Imitator",
+              "title_unicode": "Imitator",
+              "Artist": "BlackY feat. Risa Yuzuki",
+              "artist_unicode": "BlackY feat. Risa Yuzuki",
+              "Author": {
+                "OnlineID": 19884809,
+                "Username": "ajmosca",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "owc2024 qlf nm3 qualifiers osu world cup fa featured artist kyairie cytusine knightc0re knightcore wispy notabox nik nikolomara mappers' guild mg mpg electronic japanese pop yuzurisa yuzuri-sa 柚木梨沙",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2268000/covers/cover@2x.jpg?1777412210",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2268000/covers/card@2x.jpg?1777412210",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2268000/covers/list@2x.jpg?1777412210"
+            }
+          }
+        },
+        {
+          "ID": 3493106,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3493106,
+            "DifficultyName": "Expert",
+            "BPM": 176.0,
+            "Length": 218000.0,
+            "StarRating": 5.98641,
+            "EndTimeObjectCount": 290,
+            "TotalObjectCount": 1082,
+            "Metadata": {
+              "Title": "Ghost Assassin (feat. Veela)",
+              "title_unicode": "Ghost Assassin (feat. Veela)",
+              "Artist": "Maduk",
+              "artist_unicode": "Maduk",
+              "Author": {
+                "OnlineID": 10507407,
+                "Username": "Nymphe",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fa featured artists mappers' guild mpg quest kiyoshi guarden kang sae-byeok owc2022ro16dt1 osu world cup dnb drum and bass electronic english starcraft 2 alphabet venax aranel aistre actiol",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.5,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1709438/covers/cover@2x.jpg?1670169104",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1709438/covers/card@2x.jpg?1670169104",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1709438/covers/list@2x.jpg?1670169104"
+            }
+          }
+        },
+        {
+          "ID": 1469240,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 1469240,
+            "DifficultyName": "Massive Legend",
+            "BPM": 180.0,
+            "Length": 231000.0,
+            "StarRating": 5.63671,
+            "EndTimeObjectCount": 302,
+            "TotalObjectCount": 1338,
+            "Metadata": {
+              "Title": "Rise Of The Chaos Wizards",
+              "title_unicode": "Rise Of The Chaos Wizards",
+              "Artist": "GLORYHAMMER",
+              "artist_unicode": "GLORYHAMMER",
+              "Author": {
+                "OnlineID": 2217628,
+                "Username": "xChorse",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "stream practice training streaming english metal space 1992",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/694464/covers/cover@2x.jpg?1645786345",
+              "card@2x": "https://assets.ppy.sh/beatmaps/694464/covers/card@2x.jpg?1645786345",
+              "list@2x": "https://assets.ppy.sh/beatmaps/694464/covers/list@2x.jpg?1645786345"
+            }
+          }
+        },
+        {
+          "ID": 131564,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 131564,
+            "DifficultyName": "0108 style",
+            "BPM": 320.0,
+            "Length": 188000.0,
+            "StarRating": 5.79403,
+            "EndTimeObjectCount": 391,
+            "TotalObjectCount": 725,
+            "Metadata": {
+              "Title": "Scarlet Rose",
+              "title_unicode": "Scarlet Rose",
+              "Artist": "Lily",
+              "artist_unicode": "Lily",
+              "Author": {
+                "OnlineID": 243917,
+                "Username": "val0108",
+                "CountryString": "Unknown"
+              },
+              "Source": "seleP",
+              "tags": "vocaloid yuukikira",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/41686/covers/cover@2x.jpg?1645788245",
+              "card@2x": "https://assets.ppy.sh/beatmaps/41686/covers/card@2x.jpg?1645788245",
+              "list@2x": "https://assets.ppy.sh/beatmaps/41686/covers/list@2x.jpg?1645788245"
+            }
+          }
+        },
+        {
+          "ID": 5617695,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 5617695,
+            "DifficultyName": "Frigid Tempest",
+            "BPM": 220.0,
+            "Length": 399000.0,
+            "StarRating": 8.48286,
+            "EndTimeObjectCount": 1143,
+            "TotalObjectCount": 2208,
+            "Metadata": {
+              "Title": "Frost Walker",
+              "title_unicode": "Frost Walker",
+              "Artist": "Kou!",
+              "artist_unicode": "Kou!",
+              "Author": {
+                "OnlineID": 8688812,
+                "Username": "Mir",
+                "CountryString": "Unknown"
+              },
+              "Source": "osu!catch World Cup 2024",
+              "tags": "osu! original electronic instrumental fa featured artist midorijeon grand finals gf tie breaker tb custom song mechakuchacore high-speed dubstep tearout dnb drum and bass & neurofunk hitech hardstyle rawstyle schranz hardcore j-core koukondaikon the roundtable open lvl up expo 2026 trt",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.4,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2538488/covers/cover@2x.jpg?1779560162",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2538488/covers/card@2x.jpg?1779560162",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2538488/covers/list@2x.jpg?1779560162"
+            }
+          }
+        }
+      ],
       "StartDate": "2026-10-30T09:17:57.7494331+00:00",
       "Matches": [
-        14,
-        15
+        8,
+        10
       ]
     },
     {
@@ -348,10 +2664,640 @@
       "Description": "",
       "BestOf": 9,
       "BanCount": 1,
-      "Beatmaps": [],
+      "Beatmaps": [
+        {
+          "ID": 3793488,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3793488,
+            "DifficultyName": "Release The Quacken!",
+            "BPM": 200.0,
+            "Length": 151000.0,
+            "StarRating": 8.12909,
+            "EndTimeObjectCount": 190,
+            "TotalObjectCount": 847,
+            "Metadata": {
+              "Title": "A Dada",
+              "title_unicode": "A Dada",
+              "Artist": "Ruby My Dear",
+              "artist_unicode": "Ruby My Dear",
+              "Author": {
+                "OnlineID": 3144542,
+                "Username": "fergas",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "co22 nm6 wf duckcore",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 7.27,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1846684/covers/cover@2x.jpg?1665338441",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1846684/covers/card@2x.jpg?1665338441",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1846684/covers/list@2x.jpg?1665338441"
+            }
+          }
+        },
+        {
+          "ID": 5943383,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 5943383,
+            "DifficultyName": "Epic",
+            "BPM": 210.0,
+            "Length": 229000.0,
+            "StarRating": 8.29036,
+            "EndTimeObjectCount": 133,
+            "TotalObjectCount": 985,
+            "Metadata": {
+              "Title": "Chiriyuku Hana ni Hanamuke o",
+              "title_unicode": "散りゆく華に餞を",
+              "Artist": "Otsukisama Koukyoukyoku",
+              "artist_unicode": "お月さま交響曲",
+              "Author": {
+                "OnlineID": 2202163,
+                "Username": "-Mo-",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "moonlight symphony 大宮水那瀬 minase ohmiya epic.lan epiclan epic lan epic49 bracket nm2 japanese symphonic rock jrock j-rock fa featured artist 3/4 signature triple metre meter time",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.3,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2637873/covers/cover@2x.jpg?1792161539",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2637873/covers/card@2x.jpg?1792161539",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2637873/covers/list@2x.jpg?1792161539"
+            }
+          }
+        },
+        {
+          "ID": 4753901,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4753901,
+            "DifficultyName": "nihil's FOUR DIMENSIONS",
+            "BPM": 222.22,
+            "Length": 257000.0,
+            "StarRating": 8.30132,
+            "EndTimeObjectCount": 361,
+            "TotalObjectCount": 1787,
+            "Metadata": {
+              "Title": "FREEDOM DiVE",
+              "title_unicode": "FREEDOM DiVE↓",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 9022451,
+                "Username": "Bloxi",
+                "CountryString": "Unknown"
+              },
+              "Source": "MAXBEAT",
+              "tags": "featured artist fa mappers' guild mpg video game electronic instrumental parousia bms happy hardcore glorious crown heavenly blast nhlx nihil raikozen crystalsuicune onosakihito ioexception deadcode momothx wrn81056398 wrn81056 kolikiscool kojio paradogi sstari visionary camo chizu-kun baker mayfield ciyus miapah fort frenz frenz396 elchxyrlia lahphnya arlequin91",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2237410/covers/cover@2x.jpg?1736838465",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2237410/covers/card@2x.jpg?1736838465",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2237410/covers/list@2x.jpg?1736838465"
+            }
+          }
+        },
+        {
+          "ID": 4596785,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4596785,
+            "DifficultyName": "Crusade",
+            "BPM": 160.0,
+            "Length": 172000.0,
+            "StarRating": 7.71616,
+            "EndTimeObjectCount": 347,
+            "TotalObjectCount": 718,
+            "Metadata": {
+              "Title": "Viltus",
+              "title_unicode": "Viltus",
+              "Artist": "Kara",
+              "artist_unicode": "Kara",
+              "Author": {
+                "OnlineID": 6405262,
+                "Username": "Ishtiaq",
+                "CountryString": "Unknown"
+              },
+              "Source": "Corsace Closed 2024",
+              "tags": "cc24 finals wf",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2176809/covers/cover@2x.jpg?1717358464",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2176809/covers/card@2x.jpg?1717358464",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2176809/covers/list@2x.jpg?1717358464"
+            }
+          }
+        },
+        {
+          "ID": 5943380,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 5943380,
+            "DifficultyName": "hs2",
+            "BPM": 150.0,
+            "Length": 233000.0,
+            "StarRating": 9.34037,
+            "TotalObjectCount": 1224,
+            "Metadata": {
+              "Title": "101 kittens",
+              "title_unicode": "101 kittens",
+              "Artist": "Cranky",
+              "artist_unicode": "Cranky",
+              "Author": {
+                "OnlineID": 10634348,
+                "Username": "EthantrixV3",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "epic 49 epic49 lan bracket nm5 featured artist fa nm3 snap alt silly cat notch hell skiatzos cat awesome melt down aimslop",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 3.0,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2637871/covers/cover@2x.jpg?1792161487",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2637871/covers/card@2x.jpg?1792161487",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2637871/covers/list@2x.jpg?1792161487"
+            }
+          }
+        },
+        {
+          "ID": 1525311,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 1525311,
+            "DifficultyName": "Rex Leones",
+            "BPM": 210.0,
+            "Length": 258000.0,
+            "StarRating": 8.20215,
+            "EndTimeObjectCount": 612,
+            "TotalObjectCount": 1555,
+            "Metadata": {
+              "Title": "The King of Lions",
+              "title_unicode": "The King of Lions",
+              "Artist": "Camellia",
+              "artist_unicode": "Camellia",
+              "Author": {
+                "OnlineID": 1770367,
+                "Username": "AtHeoN",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "invaidas from da jungle c92 ctcd-0016 cametek かめるかめりあ pumpcore dubcore featured artist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/722502/covers/cover@2x.jpg?1521567727",
+              "card@2x": "https://assets.ppy.sh/beatmaps/722502/covers/card@2x.jpg?1521567727",
+              "list@2x": "https://assets.ppy.sh/beatmaps/722502/covers/list@2x.jpg?1521567727"
+            }
+          }
+        },
+        {
+          "ID": 3688631,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 3688631,
+            "DifficultyName": "Vexation",
+            "BPM": 170.0,
+            "Length": 248000.0,
+            "StarRating": 7.34437,
+            "EndTimeObjectCount": 477,
+            "TotalObjectCount": 1296,
+            "Metadata": {
+              "Title": "Delirium",
+              "title_unicode": "Delirium",
+              "Artist": "ALEPH",
+              "artist_unicode": "ALEPH",
+              "Author": {
+                "OnlineID": 8688812,
+                "Username": "Mir",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "charlie's perfect math class cpmc featured artist electronic instrumental neuro dnb bass fa moist critical cr1tikal penguinz0 big moist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1799349/covers/cover@2x.jpg?1737780912",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1799349/covers/card@2x.jpg?1737780912",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1799349/covers/list@2x.jpg?1737780912"
+            }
+          }
+        },
+        {
+          "ID": 4943975,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4943975,
+            "DifficultyName": "?",
+            "BPM": 140.0,
+            "Length": 137000.0,
+            "StarRating": 6.1223,
+            "EndTimeObjectCount": 347,
+            "TotalObjectCount": 702,
+            "Metadata": {
+              "Title": "This is Power",
+              "title_unicode": "This is Power",
+              "Artist": "Tanchiky",
+              "artist_unicode": "Tanchiky",
+              "Author": {
+                "OnlineID": 10890088,
+                "Username": "Poruby",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "csl circles in seoul nm6 tanchiky featured artist fa",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.7,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.7,
+              "ApproachRate": 7.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2311035/covers/cover@2x.jpg?1739797233",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2311035/covers/card@2x.jpg?1739797233",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2311035/covers/list@2x.jpg?1739797233"
+            }
+          }
+        },
+        {
+          "ID": 5943393,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 5943393,
+            "DifficultyName": "plambob -HR-",
+            "BPM": 100.0,
+            "Length": 249000.0,
+            "StarRating": 7.74372,
+            "EndTimeObjectCount": 185,
+            "TotalObjectCount": 1090,
+            "Metadata": {
+              "Title": "Vanity Clock",
+              "title_unicode": "Vanity Clock",
+              "Artist": "love solfege",
+              "artist_unicode": "love solfege",
+              "Author": {
+                "OnlineID": 10077431,
+                "Username": "Plasma",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "epic 49 epic49 lan bracket hr1 featured artist fa 鮎 ayu 紺野比奈子 hinako konno オーギュスト棒 auguste stick solfège neoclassical experimental japanese pop jpop j-pop reception for witnesses",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2637877/covers/cover@2x.jpg?1792162347",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2637877/covers/card@2x.jpg?1792162347",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2637877/covers/list@2x.jpg?1792162347"
+            }
+          }
+        },
+        {
+          "ID": 5053255,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 5053255,
+            "DifficultyName": "Sayuka's PERFECT DiMENSiON",
+            "BPM": 200.0,
+            "Length": 121000.0,
+            "StarRating": 7.37556,
+            "EndTimeObjectCount": 105,
+            "TotalObjectCount": 869,
+            "Metadata": {
+              "Title": "Garyou Tensei",
+              "title_unicode": "画竜点睛",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 20930368,
+                "Username": "Nlxus",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fa featured artist werhakon gloryhammer sayuka euryalle amats daycore dcs julie kiddly electronic happy hardcore instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1898232/covers/cover@2x.jpg?1753904352",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1898232/covers/card@2x.jpg?1753904352",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1898232/covers/list@2x.jpg?1753904352"
+            }
+          }
+        },
+        {
+          "ID": 4829849,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4829849,
+            "DifficultyName": "Mirror Image",
+            "BPM": 146.0,
+            "Length": 183000.0,
+            "StarRating": 7.15896,
+            "EndTimeObjectCount": 375,
+            "TotalObjectCount": 1054,
+            "Metadata": {
+              "Title": "Imitator",
+              "title_unicode": "Imitator",
+              "Artist": "BlackY feat. Risa Yuzuki",
+              "artist_unicode": "BlackY feat. Risa Yuzuki",
+              "Author": {
+                "OnlineID": 19884809,
+                "Username": "ajmosca",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "owc2024 qlf nm3 qualifiers osu world cup fa featured artist kyairie cytusine knightc0re knightcore wispy notabox nik nikolomara mappers' guild mg mpg electronic japanese pop yuzurisa yuzuri-sa 柚木梨沙",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2268000/covers/cover@2x.jpg?1777412210",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2268000/covers/card@2x.jpg?1777412210",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2268000/covers/list@2x.jpg?1777412210"
+            }
+          }
+        },
+        {
+          "ID": 3493106,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3493106,
+            "DifficultyName": "Expert",
+            "BPM": 176.0,
+            "Length": 218000.0,
+            "StarRating": 5.98641,
+            "EndTimeObjectCount": 290,
+            "TotalObjectCount": 1082,
+            "Metadata": {
+              "Title": "Ghost Assassin (feat. Veela)",
+              "title_unicode": "Ghost Assassin (feat. Veela)",
+              "Artist": "Maduk",
+              "artist_unicode": "Maduk",
+              "Author": {
+                "OnlineID": 10507407,
+                "Username": "Nymphe",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fa featured artists mappers' guild mpg quest kiyoshi guarden kang sae-byeok owc2022ro16dt1 osu world cup dnb drum and bass electronic english starcraft 2 alphabet venax aranel aistre actiol",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.5,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1709438/covers/cover@2x.jpg?1670169104",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1709438/covers/card@2x.jpg?1670169104",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1709438/covers/list@2x.jpg?1670169104"
+            }
+          }
+        },
+        {
+          "ID": 1469240,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 1469240,
+            "DifficultyName": "Massive Legend",
+            "BPM": 180.0,
+            "Length": 231000.0,
+            "StarRating": 5.63671,
+            "EndTimeObjectCount": 302,
+            "TotalObjectCount": 1338,
+            "Metadata": {
+              "Title": "Rise Of The Chaos Wizards",
+              "title_unicode": "Rise Of The Chaos Wizards",
+              "Artist": "GLORYHAMMER",
+              "artist_unicode": "GLORYHAMMER",
+              "Author": {
+                "OnlineID": 2217628,
+                "Username": "xChorse",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "stream practice training streaming english metal space 1992",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/694464/covers/cover@2x.jpg?1645786345",
+              "card@2x": "https://assets.ppy.sh/beatmaps/694464/covers/card@2x.jpg?1645786345",
+              "list@2x": "https://assets.ppy.sh/beatmaps/694464/covers/list@2x.jpg?1645786345"
+            }
+          }
+        },
+        {
+          "ID": 131564,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 131564,
+            "DifficultyName": "0108 style",
+            "BPM": 320.0,
+            "Length": 188000.0,
+            "StarRating": 5.79403,
+            "EndTimeObjectCount": 391,
+            "TotalObjectCount": 725,
+            "Metadata": {
+              "Title": "Scarlet Rose",
+              "title_unicode": "Scarlet Rose",
+              "Artist": "Lily",
+              "artist_unicode": "Lily",
+              "Author": {
+                "OnlineID": 243917,
+                "Username": "val0108",
+                "CountryString": "Unknown"
+              },
+              "Source": "seleP",
+              "tags": "vocaloid yuukikira",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/41686/covers/cover@2x.jpg?1645788245",
+              "card@2x": "https://assets.ppy.sh/beatmaps/41686/covers/card@2x.jpg?1645788245",
+              "list@2x": "https://assets.ppy.sh/beatmaps/41686/covers/list@2x.jpg?1645788245"
+            }
+          }
+        },
+        {
+          "ID": 5617695,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 5617695,
+            "DifficultyName": "Frigid Tempest",
+            "BPM": 220.0,
+            "Length": 399000.0,
+            "StarRating": 8.48286,
+            "EndTimeObjectCount": 1143,
+            "TotalObjectCount": 2208,
+            "Metadata": {
+              "Title": "Frost Walker",
+              "title_unicode": "Frost Walker",
+              "Artist": "Kou!",
+              "artist_unicode": "Kou!",
+              "Author": {
+                "OnlineID": 8688812,
+                "Username": "Mir",
+                "CountryString": "Unknown"
+              },
+              "Source": "osu!catch World Cup 2024",
+              "tags": "osu! original electronic instrumental fa featured artist midorijeon grand finals gf tie breaker tb custom song mechakuchacore high-speed dubstep tearout dnb drum and bass & neurofunk hitech hardstyle rawstyle schranz hardcore j-core koukondaikon the roundtable open lvl up expo 2026 trt",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.4,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2538488/covers/cover@2x.jpg?1779560162",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2538488/covers/card@2x.jpg?1779560162",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2538488/covers/list@2x.jpg?1779560162"
+            }
+          }
+        }
+      ],
       "StartDate": "2026-10-30T09:18:04.3785553+00:00",
       "Matches": [
-        16
+        9
       ]
     },
     {
@@ -359,10 +3305,640 @@
       "Description": "",
       "BestOf": 9,
       "BanCount": 1,
-      "Beatmaps": [],
+      "Beatmaps": [
+        {
+          "ID": 3793488,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 3793488,
+            "DifficultyName": "Release The Quacken!",
+            "BPM": 200.0,
+            "Length": 151000.0,
+            "StarRating": 8.12909,
+            "EndTimeObjectCount": 190,
+            "TotalObjectCount": 847,
+            "Metadata": {
+              "Title": "A Dada",
+              "title_unicode": "A Dada",
+              "Artist": "Ruby My Dear",
+              "artist_unicode": "Ruby My Dear",
+              "Author": {
+                "OnlineID": 3144542,
+                "Username": "fergas",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "co22 nm6 wf duckcore",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 7.27,
+              "OverallDifficulty": 8.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1846684/covers/cover@2x.jpg?1665338441",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1846684/covers/card@2x.jpg?1665338441",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1846684/covers/list@2x.jpg?1665338441"
+            }
+          }
+        },
+        {
+          "ID": 5943383,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 5943383,
+            "DifficultyName": "Epic",
+            "BPM": 210.0,
+            "Length": 229000.0,
+            "StarRating": 8.29036,
+            "EndTimeObjectCount": 133,
+            "TotalObjectCount": 985,
+            "Metadata": {
+              "Title": "Chiriyuku Hana ni Hanamuke o",
+              "title_unicode": "散りゆく華に餞を",
+              "Artist": "Otsukisama Koukyoukyoku",
+              "artist_unicode": "お月さま交響曲",
+              "Author": {
+                "OnlineID": 2202163,
+                "Username": "-Mo-",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "moonlight symphony 大宮水那瀬 minase ohmiya epic.lan epiclan epic lan epic49 bracket nm2 japanese symphonic rock jrock j-rock fa featured artist 3/4 signature triple metre meter time",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.3,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2637873/covers/cover@2x.jpg?1792161539",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2637873/covers/card@2x.jpg?1792161539",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2637873/covers/list@2x.jpg?1792161539"
+            }
+          }
+        },
+        {
+          "ID": 4753901,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4753901,
+            "DifficultyName": "nihil's FOUR DIMENSIONS",
+            "BPM": 222.22,
+            "Length": 257000.0,
+            "StarRating": 8.30132,
+            "EndTimeObjectCount": 361,
+            "TotalObjectCount": 1787,
+            "Metadata": {
+              "Title": "FREEDOM DiVE",
+              "title_unicode": "FREEDOM DiVE↓",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 9022451,
+                "Username": "Bloxi",
+                "CountryString": "Unknown"
+              },
+              "Source": "MAXBEAT",
+              "tags": "featured artist fa mappers' guild mpg video game electronic instrumental parousia bms happy hardcore glorious crown heavenly blast nhlx nihil raikozen crystalsuicune onosakihito ioexception deadcode momothx wrn81056398 wrn81056 kolikiscool kojio paradogi sstari visionary camo chizu-kun baker mayfield ciyus miapah fort frenz frenz396 elchxyrlia lahphnya arlequin91",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2237410/covers/cover@2x.jpg?1736838465",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2237410/covers/card@2x.jpg?1736838465",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2237410/covers/list@2x.jpg?1736838465"
+            }
+          }
+        },
+        {
+          "ID": 4596785,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 4596785,
+            "DifficultyName": "Crusade",
+            "BPM": 160.0,
+            "Length": 172000.0,
+            "StarRating": 7.71616,
+            "EndTimeObjectCount": 347,
+            "TotalObjectCount": 718,
+            "Metadata": {
+              "Title": "Viltus",
+              "title_unicode": "Viltus",
+              "Artist": "Kara",
+              "artist_unicode": "Kara",
+              "Author": {
+                "OnlineID": 6405262,
+                "Username": "Ishtiaq",
+                "CountryString": "Unknown"
+              },
+              "Source": "Corsace Closed 2024",
+              "tags": "cc24 finals wf",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2176809/covers/cover@2x.jpg?1717358464",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2176809/covers/card@2x.jpg?1717358464",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2176809/covers/list@2x.jpg?1717358464"
+            }
+          }
+        },
+        {
+          "ID": 5943380,
+          "Mods": "NM",
+          "BeatmapInfo": {
+            "OnlineID": 5943380,
+            "DifficultyName": "hs2",
+            "BPM": 150.0,
+            "Length": 233000.0,
+            "StarRating": 9.34037,
+            "TotalObjectCount": 1224,
+            "Metadata": {
+              "Title": "101 kittens",
+              "title_unicode": "101 kittens",
+              "Artist": "Cranky",
+              "artist_unicode": "Cranky",
+              "Author": {
+                "OnlineID": 10634348,
+                "Username": "EthantrixV3",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "epic 49 epic49 lan bracket nm5 featured artist fa nm3 snap alt silly cat notch hell skiatzos cat awesome melt down aimslop",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 3.0,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2637871/covers/cover@2x.jpg?1792161487",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2637871/covers/card@2x.jpg?1792161487",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2637871/covers/list@2x.jpg?1792161487"
+            }
+          }
+        },
+        {
+          "ID": 1525311,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 1525311,
+            "DifficultyName": "Rex Leones",
+            "BPM": 210.0,
+            "Length": 258000.0,
+            "StarRating": 8.20215,
+            "EndTimeObjectCount": 612,
+            "TotalObjectCount": 1555,
+            "Metadata": {
+              "Title": "The King of Lions",
+              "title_unicode": "The King of Lions",
+              "Artist": "Camellia",
+              "artist_unicode": "Camellia",
+              "Author": {
+                "OnlineID": 1770367,
+                "Username": "AtHeoN",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "invaidas from da jungle c92 ctcd-0016 cametek かめるかめりあ pumpcore dubcore featured artist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/722502/covers/cover@2x.jpg?1521567727",
+              "card@2x": "https://assets.ppy.sh/beatmaps/722502/covers/card@2x.jpg?1521567727",
+              "list@2x": "https://assets.ppy.sh/beatmaps/722502/covers/list@2x.jpg?1521567727"
+            }
+          }
+        },
+        {
+          "ID": 3688631,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 3688631,
+            "DifficultyName": "Vexation",
+            "BPM": 170.0,
+            "Length": 248000.0,
+            "StarRating": 7.34437,
+            "EndTimeObjectCount": 477,
+            "TotalObjectCount": 1296,
+            "Metadata": {
+              "Title": "Delirium",
+              "title_unicode": "Delirium",
+              "Artist": "ALEPH",
+              "artist_unicode": "ALEPH",
+              "Author": {
+                "OnlineID": 8688812,
+                "Username": "Mir",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "charlie's perfect math class cpmc featured artist electronic instrumental neuro dnb bass fa moist critical cr1tikal penguinz0 big moist",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1799349/covers/cover@2x.jpg?1737780912",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1799349/covers/card@2x.jpg?1737780912",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1799349/covers/list@2x.jpg?1737780912"
+            }
+          }
+        },
+        {
+          "ID": 4943975,
+          "Mods": "HD",
+          "BeatmapInfo": {
+            "OnlineID": 4943975,
+            "DifficultyName": "?",
+            "BPM": 140.0,
+            "Length": 137000.0,
+            "StarRating": 6.1223,
+            "EndTimeObjectCount": 347,
+            "TotalObjectCount": 702,
+            "Metadata": {
+              "Title": "This is Power",
+              "title_unicode": "This is Power",
+              "Artist": "Tanchiky",
+              "artist_unicode": "Tanchiky",
+              "Author": {
+                "OnlineID": 10890088,
+                "Username": "Poruby",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "csl circles in seoul nm6 tanchiky featured artist fa",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.7,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 8.7,
+              "ApproachRate": 7.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2311035/covers/cover@2x.jpg?1739797233",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2311035/covers/card@2x.jpg?1739797233",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2311035/covers/list@2x.jpg?1739797233"
+            }
+          }
+        },
+        {
+          "ID": 5943393,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 5943393,
+            "DifficultyName": "plambob -HR-",
+            "BPM": 100.0,
+            "Length": 249000.0,
+            "StarRating": 7.74372,
+            "EndTimeObjectCount": 185,
+            "TotalObjectCount": 1090,
+            "Metadata": {
+              "Title": "Vanity Clock",
+              "title_unicode": "Vanity Clock",
+              "Artist": "love solfege",
+              "artist_unicode": "love solfege",
+              "Author": {
+                "OnlineID": 10077431,
+                "Username": "Plasma",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "epic 49 epic49 lan bracket hr1 featured artist fa 鮎 ayu 紺野比奈子 hinako konno オーギュスト棒 auguste stick solfège neoclassical experimental japanese pop jpop j-pop reception for witnesses",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 9.5,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2637877/covers/cover@2x.jpg?1792162347",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2637877/covers/card@2x.jpg?1792162347",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2637877/covers/list@2x.jpg?1792162347"
+            }
+          }
+        },
+        {
+          "ID": 5053255,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 5053255,
+            "DifficultyName": "Sayuka's PERFECT DiMENSiON",
+            "BPM": 200.0,
+            "Length": 121000.0,
+            "StarRating": 7.37556,
+            "EndTimeObjectCount": 105,
+            "TotalObjectCount": 869,
+            "Metadata": {
+              "Title": "Garyou Tensei",
+              "title_unicode": "画竜点睛",
+              "Artist": "xi",
+              "artist_unicode": "xi",
+              "Author": {
+                "OnlineID": 20930368,
+                "Username": "Nlxus",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fa featured artist werhakon gloryhammer sayuka euryalle amats daycore dcs julie kiddly electronic happy hardcore instrumental",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 5.0,
+              "OverallDifficulty": 9.7,
+              "ApproachRate": 9.7,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1898232/covers/cover@2x.jpg?1753904352",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1898232/covers/card@2x.jpg?1753904352",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1898232/covers/list@2x.jpg?1753904352"
+            }
+          }
+        },
+        {
+          "ID": 4829849,
+          "Mods": "HR",
+          "BeatmapInfo": {
+            "OnlineID": 4829849,
+            "DifficultyName": "Mirror Image",
+            "BPM": 146.0,
+            "Length": 183000.0,
+            "StarRating": 7.15896,
+            "EndTimeObjectCount": 375,
+            "TotalObjectCount": 1054,
+            "Metadata": {
+              "Title": "Imitator",
+              "title_unicode": "Imitator",
+              "Artist": "BlackY feat. Risa Yuzuki",
+              "artist_unicode": "BlackY feat. Risa Yuzuki",
+              "Author": {
+                "OnlineID": 19884809,
+                "Username": "ajmosca",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "owc2024 qlf nm3 qualifiers osu world cup fa featured artist kyairie cytusine knightc0re knightcore wispy notabox nik nikolomara mappers' guild mg mpg electronic japanese pop yuzurisa yuzuri-sa 柚木梨沙",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.6,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2268000/covers/cover@2x.jpg?1777412210",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2268000/covers/card@2x.jpg?1777412210",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2268000/covers/list@2x.jpg?1777412210"
+            }
+          }
+        },
+        {
+          "ID": 3493106,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 3493106,
+            "DifficultyName": "Expert",
+            "BPM": 176.0,
+            "Length": 218000.0,
+            "StarRating": 5.98641,
+            "EndTimeObjectCount": 290,
+            "TotalObjectCount": 1082,
+            "Metadata": {
+              "Title": "Ghost Assassin (feat. Veela)",
+              "title_unicode": "Ghost Assassin (feat. Veela)",
+              "Artist": "Maduk",
+              "artist_unicode": "Maduk",
+              "Author": {
+                "OnlineID": 10507407,
+                "Username": "Nymphe",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "fa featured artists mappers' guild mpg quest kiyoshi guarden kang sae-byeok owc2022ro16dt1 osu world cup dnb drum and bass electronic english starcraft 2 alphabet venax aranel aistre actiol",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 5.5,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.0,
+              "ApproachRate": 9.2,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/1709438/covers/cover@2x.jpg?1670169104",
+              "card@2x": "https://assets.ppy.sh/beatmaps/1709438/covers/card@2x.jpg?1670169104",
+              "list@2x": "https://assets.ppy.sh/beatmaps/1709438/covers/list@2x.jpg?1670169104"
+            }
+          }
+        },
+        {
+          "ID": 1469240,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 1469240,
+            "DifficultyName": "Massive Legend",
+            "BPM": 180.0,
+            "Length": 231000.0,
+            "StarRating": 5.63671,
+            "EndTimeObjectCount": 302,
+            "TotalObjectCount": 1338,
+            "Metadata": {
+              "Title": "Rise Of The Chaos Wizards",
+              "title_unicode": "Rise Of The Chaos Wizards",
+              "Artist": "GLORYHAMMER",
+              "artist_unicode": "GLORYHAMMER",
+              "Author": {
+                "OnlineID": 2217628,
+                "Username": "xChorse",
+                "CountryString": "Unknown"
+              },
+              "Source": "",
+              "tags": "stream practice training streaming english metal space 1992",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 6.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 8.5,
+              "ApproachRate": 9.3,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/694464/covers/cover@2x.jpg?1645786345",
+              "card@2x": "https://assets.ppy.sh/beatmaps/694464/covers/card@2x.jpg?1645786345",
+              "list@2x": "https://assets.ppy.sh/beatmaps/694464/covers/list@2x.jpg?1645786345"
+            }
+          }
+        },
+        {
+          "ID": 131564,
+          "Mods": "DT",
+          "BeatmapInfo": {
+            "OnlineID": 131564,
+            "DifficultyName": "0108 style",
+            "BPM": 320.0,
+            "Length": 188000.0,
+            "StarRating": 5.79403,
+            "EndTimeObjectCount": 391,
+            "TotalObjectCount": 725,
+            "Metadata": {
+              "Title": "Scarlet Rose",
+              "title_unicode": "Scarlet Rose",
+              "Artist": "Lily",
+              "artist_unicode": "Lily",
+              "Author": {
+                "OnlineID": 243917,
+                "Username": "val0108",
+                "CountryString": "Unknown"
+              },
+              "Source": "seleP",
+              "tags": "vocaloid yuukikira",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 7.0,
+              "CircleSize": 4.0,
+              "OverallDifficulty": 7.0,
+              "ApproachRate": 9.0,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/41686/covers/cover@2x.jpg?1645788245",
+              "card@2x": "https://assets.ppy.sh/beatmaps/41686/covers/card@2x.jpg?1645788245",
+              "list@2x": "https://assets.ppy.sh/beatmaps/41686/covers/list@2x.jpg?1645788245"
+            }
+          }
+        },
+        {
+          "ID": 5617695,
+          "Mods": "TB",
+          "BeatmapInfo": {
+            "OnlineID": 5617695,
+            "DifficultyName": "Frigid Tempest",
+            "BPM": 220.0,
+            "Length": 399000.0,
+            "StarRating": 8.48286,
+            "EndTimeObjectCount": 1143,
+            "TotalObjectCount": 2208,
+            "Metadata": {
+              "Title": "Frost Walker",
+              "title_unicode": "Frost Walker",
+              "Artist": "Kou!",
+              "artist_unicode": "Kou!",
+              "Author": {
+                "OnlineID": 8688812,
+                "Username": "Mir",
+                "CountryString": "Unknown"
+              },
+              "Source": "osu!catch World Cup 2024",
+              "tags": "osu! original electronic instrumental fa featured artist midorijeon grand finals gf tie breaker tb custom song mechakuchacore high-speed dubstep tearout dnb drum and bass & neurofunk hitech hardstyle rawstyle schranz hardcore j-core koukondaikon the roundtable open lvl up expo 2026 trt",
+              "PreviewTime": -1,
+              "AudioFile": "",
+              "BackgroundFile": ""
+            },
+            "Difficulty": {
+              "DrainRate": 4.0,
+              "CircleSize": 4.2,
+              "OverallDifficulty": 9.4,
+              "ApproachRate": 9.8,
+              "SliderMultiplier": 1.4,
+              "SliderTickRate": 1.0
+            },
+            "Covers": {
+              "cover@2x": "https://assets.ppy.sh/beatmaps/2538488/covers/cover@2x.jpg?1779560162",
+              "card@2x": "https://assets.ppy.sh/beatmaps/2538488/covers/card@2x.jpg?1779560162",
+              "list@2x": "https://assets.ppy.sh/beatmaps/2538488/covers/list@2x.jpg?1779560162"
+            }
+          }
+        }
+      ],
       "StartDate": "2026-10-30T09:18:08.8865411+00:00",
       "Matches": [
-        17
+        14
       ]
     }
   ],
@@ -389,68 +3965,68 @@
   "Progressions": [
     {
       "SourceID": 1,
-      "TargetID": 2
-    },
-    {
-      "SourceID": 3,
-      "TargetID": 2
-    },
-    {
-      "SourceID": 5,
-      "TargetID": 11
+      "TargetID": 4
     },
     {
       "SourceID": 6,
-      "TargetID": 11
+      "TargetID": 4
     },
     {
-      "SourceID": 7,
-      "TargetID": 12
-    },
-    {
-      "SourceID": 8,
-      "TargetID": 12
-    },
-    {
-      "SourceID": 9,
+      "SourceID": 11,
       "TargetID": 13
     },
     {
-      "SourceID": 10,
+      "SourceID": 16,
       "TargetID": 13
     },
     {
       "SourceID": 2,
-      "TargetID": 14
+      "TargetID": 5
     },
     {
-      "SourceID": 11,
-      "TargetID": 14
+      "SourceID": 7,
+      "TargetID": 5
     },
     {
       "SourceID": 12,
       "TargetID": 15
     },
     {
-      "SourceID": 13,
+      "SourceID": 17,
       "TargetID": 15
     },
     {
-      "SourceID": 14,
-      "TargetID": 16
+      "SourceID": 4,
+      "TargetID": 8
+    },
+    {
+      "SourceID": 13,
+      "TargetID": 8
+    },
+    {
+      "SourceID": 5,
+      "TargetID": 10
     },
     {
       "SourceID": 15,
-      "TargetID": 16
+      "TargetID": 10
     },
     {
-      "SourceID": 14,
-      "TargetID": 17,
+      "SourceID": 8,
+      "TargetID": 9
+    },
+    {
+      "SourceID": 10,
+      "TargetID": 9
+    },
+    {
+      "SourceID": 8,
+      "TargetID": 14,
       "Losers": true
     },
     {
-      "SourceID": 15,
-      "TargetID": 17,
+      "SourceID": 10,
+      "TargetID": 14,
       "Losers": true
     }
   ],
