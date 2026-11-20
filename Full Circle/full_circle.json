@@ -7530,6 +7530,355 @@
             "monitoring_type": 0,
             "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
+        },
+        {
+            "prev_ver": 536870916,
+            "name": "match highlights",
+            "uuid": "187c8d2b-5012-4295-a9a7-f3973a717864",
+            "id": "group",
+            "versioned_id": "group",
+            "settings": {
+                "id_counter": 0,
+                "custom_size": true,
+                "cx": 882,
+                "cy": 1000,
+                "items": [
+                    {
+                        "name": "reddit_embed_TR_AT",
+                        "source_uuid": "e70eef10-53d6-45bd-8748-95910656ee60",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 18,
+                        "crop_bottom": 0,
+                        "id": 93,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 6.103515625e-5,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777776718139648,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "id": "slide_transition",
+                            "versioned_id": "slide_transition",
+                            "name": "reddit_embed_TR_AT Show Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 600
+                        },
+                        "hide_transition": {
+                            "id": "slide_transition",
+                            "versioned_id": "slide_transition",
+                            "name": "reddit_embed_TR_AT Hide Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 600
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "reddit_embed_JP_TH",
+                        "source_uuid": "257fabd3-74e8-437d-9793-b9b6d873189f",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 18,
+                        "crop_bottom": 0,
+                        "id": 94,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 6.103515625e-5,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777776718139648,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "id": "slide_transition",
+                            "versioned_id": "slide_transition",
+                            "name": "reddit_embed_JP_TH Show Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 600
+                        },
+                        "hide_transition": {
+                            "id": "slide_transition",
+                            "versioned_id": "slide_transition",
+                            "name": "reddit_embed_JP_TH Hide Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 600
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "reddit_embed_UK_HK",
+                        "source_uuid": "deed773c-0535-4039-9980-413ddc7018b3",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 18,
+                        "crop_bottom": 0,
+                        "id": 95,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 6.103515625e-5,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777776718139648,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "id": "slide_transition",
+                            "versioned_id": "slide_transition",
+                            "name": "reddit_embed_UK_HK Show Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 600
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "reddit_embed_CA_BR",
+                        "source_uuid": "a0e5eb5c-1232-481c-a76b-bdc86892f2db",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 18,
+                        "crop_bottom": 0,
+                        "id": 96,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 6.103515625e-5,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777776718139648,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "id": "slide_transition",
+                            "versioned_id": "slide_transition",
+                            "name": "reddit_embed_CA_BR Show Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 600
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "reddit_embed_RU_DE",
+                        "source_uuid": "66fdb0dd-1b71-4dce-9cca-763ca60e8f3f",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 18,
+                        "crop_bottom": 0,
+                        "id": 97,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 6.103515625e-5,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777776718139648,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "id": "slide_transition",
+                            "versioned_id": "slide_transition",
+                            "name": "reddit_embed_RU_DE Show Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 600
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
         }
     ],
     "quick_transitions": [
@@ -8138,7 +8487,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 93,
+                "id_counter": 98,
                 "items": [
                     {
                         "name": "Cam 2",
@@ -8971,7 +9320,7 @@
                         "name": "reddit_embed_TR_AT",
                         "source_uuid": "e70eef10-53d6-45bd-8748-95910656ee60",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -8986,6 +9335,323 @@
                         "crop_right": 18,
                         "crop_bottom": 0,
                         "id": 93,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 38.0001220703125,
+                            "y": 39.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7074072360992432,
+                            "y": -0.9277777671813965
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "id": "slide_transition",
+                            "versioned_id": "slide_transition",
+                            "name": "reddit_embed_TR_AT Show Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 600
+                        },
+                        "hide_transition": {
+                            "id": "slide_transition",
+                            "versioned_id": "slide_transition",
+                            "name": "reddit_embed_TR_AT Hide Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 600
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "reddit_embed_JP_TH",
+                        "source_uuid": "257fabd3-74e8-437d-9793-b9b6d873189f",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 18,
+                        "crop_bottom": 0,
+                        "id": 94,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 38.0001220703125,
+                            "y": 39.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7074072360992432,
+                            "y": -0.9277777671813965
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "id": "slide_transition",
+                            "versioned_id": "slide_transition",
+                            "name": "reddit_embed_JP_TH Show Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 600
+                        },
+                        "hide_transition": {
+                            "id": "slide_transition",
+                            "versioned_id": "slide_transition",
+                            "name": "reddit_embed_JP_TH Hide Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 600
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "reddit_embed_UK_HK",
+                        "source_uuid": "deed773c-0535-4039-9980-413ddc7018b3",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 18,
+                        "crop_bottom": 0,
+                        "id": 95,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 38.0001220703125,
+                            "y": 39.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7074072360992432,
+                            "y": -0.9277777671813965
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "id": "slide_transition",
+                            "versioned_id": "slide_transition",
+                            "name": "reddit_embed_UK_HK Show Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 600
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "reddit_embed_CA_BR",
+                        "source_uuid": "a0e5eb5c-1232-481c-a76b-bdc86892f2db",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 18,
+                        "crop_bottom": 0,
+                        "id": 96,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 38.0001220703125,
+                            "y": 39.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7074072360992432,
+                            "y": -0.9277777671813965
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "id": "slide_transition",
+                            "versioned_id": "slide_transition",
+                            "name": "reddit_embed_CA_BR Show Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 600
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "reddit_embed_RU_DE",
+                        "source_uuid": "66fdb0dd-1b71-4dce-9cca-763ca60e8f3f",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 18,
+                        "crop_bottom": 0,
+                        "id": 97,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 38.0001220703125,
+                            "y": 39.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7074072360992432,
+                            "y": -0.9277777671813965
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "id": "slide_transition",
+                            "versioned_id": "slide_transition",
+                            "name": "reddit_embed_RU_DE Show Transition",
+                            "transition": {
+                                "direction": "left"
+                            },
+                            "duration": 600
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "match highlights",
+                        "source_uuid": "187c8d2b-5012-4295-a9a7-f3973a717864",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 98,
                         "group_item_backup": false,
                         "pos": {
                             "x": 38.0,
@@ -9054,7 +9720,17 @@
                 "libobs.show_scene_item.69": [],
                 "libobs.hide_scene_item.69": [],
                 "libobs.show_scene_item.93": [],
-                "libobs.hide_scene_item.93": []
+                "libobs.hide_scene_item.93": [],
+                "libobs.show_scene_item.94": [],
+                "libobs.hide_scene_item.94": [],
+                "libobs.show_scene_item.95": [],
+                "libobs.hide_scene_item.95": [],
+                "libobs.show_scene_item.96": [],
+                "libobs.hide_scene_item.96": [],
+                "libobs.show_scene_item.97": [],
+                "libobs.hide_scene_item.97": [],
+                "libobs.show_scene_item.98": [],
+                "libobs.hide_scene_item.98": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -36883,14 +37559,154 @@
         },
         {
             "prev_ver": 536870916,
+            "name": "reddit_embed_CA_BR",
+            "uuid": "a0e5eb5c-1232-481c-a76b-bdc86892f2db",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://embed.reddit.com/r/osugame/comments/1xxajhc/?embed=true",
+                "width": 900,
+                "height": 1000,
+                "css": "[id$=\"-embed-wrapper\"] { height: auto !important; }\n#embed-container { filter: none !important; height: auto !important; }\n#blurred-overlay { display: none !important; }\n[id$=\"-post-rtjson-content\"] { height: auto !important; overflow: visible !important; }\n[id$=\"-read-more-button\"] { display: none !important; }\nhtml, body { height: auto !important; overflow-y: auto !important; }\nhtml { zoom: 1.35; }\n[id$=\"-embed-wrapper\"]:hover { background-color: var(--color-neutral-background) !important; cursor: default !important; }"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 536870916,
+            "name": "reddit_embed_JP_TH",
+            "uuid": "257fabd3-74e8-437d-9793-b9b6d873189f",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://embed.reddit.com/r/osugame/comments/1xwygo5/?embed=true",
+                "width": 900,
+                "height": 1000,
+                "css": "[id$=\"-embed-wrapper\"] { height: auto !important; }\n#embed-container { filter: none !important; height: auto !important; }\n#blurred-overlay { display: none !important; }\n[id$=\"-post-rtjson-content\"] { height: auto !important; overflow: visible !important; }\n[id$=\"-read-more-button\"] { display: none !important; }\nhtml, body { height: auto !important; overflow-y: auto !important; }\nhtml { zoom: 1.35; }\n[id$=\"-embed-wrapper\"]:hover { background-color: var(--color-neutral-background) !important; cursor: default !important; }"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 536870916,
+            "name": "reddit_embed_RU_DE",
+            "uuid": "66fdb0dd-1b71-4dce-9cca-763ca60e8f3f",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://embed.reddit.com/r/osugame/comments/1xx1055/?embed=true",
+                "width": 900,
+                "height": 1000,
+                "css": "[id$=\"-embed-wrapper\"] { height: auto !important; }\n#embed-container { filter: none !important; height: auto !important; }\n#blurred-overlay { display: none !important; }\n[id$=\"-post-rtjson-content\"] { height: auto !important; overflow: visible !important; }\n[id$=\"-read-more-button\"] { display: none !important; }\nhtml, body { height: auto !important; overflow-y: auto !important; }\nhtml { zoom: 1.35; }\n[id$=\"-embed-wrapper\"]:hover { background-color: var(--color-neutral-background) !important; cursor: default !important; }"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 536870916,
             "name": "reddit_embed_TR_AT",
             "uuid": "e70eef10-53d6-45bd-8748-95910656ee60",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
+                "url": "https://embed.reddit.com/r/osugame/comments/1xx0xir/?embed=true",
                 "width": 900,
                 "height": 1000,
-                "url": "https://embed.reddit.com/r/osugame/comments/1xx0xir/?embed=true",
+                "css": "[id$=\"-embed-wrapper\"] { height: auto !important; }\n#embed-container { filter: none !important; height: auto !important; }\n#blurred-overlay { display: none !important; }\n[id$=\"-post-rtjson-content\"] { height: auto !important; overflow: visible !important; }\n[id$=\"-read-more-button\"] { display: none !important; }\nhtml, body { height: auto !important; overflow-y: auto !important; }\nhtml { zoom: 1.35; }\n[id$=\"-embed-wrapper\"]:hover { background-color: var(--color-neutral-background) !important; cursor: default !important; }"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 536870916,
+            "name": "reddit_embed_UK_HK",
+            "uuid": "deed773c-0535-4039-9980-413ddc7018b3",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://embed.reddit.com/r/osugame/comments/1xw4qpz/?embed=true",
+                "width": 900,
+                "height": 1000,
                 "css": "[id$=\"-embed-wrapper\"] { height: auto !important; }\n#embed-container { filter: none !important; height: auto !important; }\n#blurred-overlay { display: none !important; }\n[id$=\"-post-rtjson-content\"] { height: auto !important; overflow: visible !important; }\n[id$=\"-read-more-button\"] { display: none !important; }\nhtml, body { height: auto !important; overflow-y: auto !important; }\nhtml { zoom: 1.35; }\n[id$=\"-embed-wrapper\"]:hover { background-color: var(--color-neutral-background) !important; cursor: default !important; }"
             },
             "mixers": 255,
